@@ -2,12 +2,10 @@ name: Tweet AI News Daily
 
 on:
   schedule:
-    - cron: '0 3 * * *'
-    - cron: '0 6 * * *'
-    - cron: '0 9 * * *'
-    - cron: '0 12 * * *'
-    - cron: '0 13 * * *'
-    - cron: '10 13 * * *'
+    - cron: '30 3 * * *'  # 9:00 AM IST
+    - cron: '30 6 * * *'  # 12:00 PM IST
+    - cron: '30 9 * * *'  # 3:00 PM IST
+    - cron: '01 13 * * *' # 7:01 PM IST
   workflow_dispatch:
 
 jobs:
@@ -39,4 +37,4 @@ jobs:
           MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
         run: |
-          python src/scheduler.py
+          python src/main.py
