@@ -1,5 +1,4 @@
 import random
-import schedule
 import time
 import logging
 from datetime import datetime
@@ -9,6 +8,17 @@ from config import client
 
 posted_urls = set()
 
+def load_posted_urls(file_path="posted_links.txt"):
+    """Load posted URLs from the file."""
+    if os.path.exists(file_path):
+        with open(file_path, "r") as file:
+            for line in file:
+                posted_urls.add(line.strip())
+
+def save_posted_url(url, file_path="posted_links.txt"):
+    """Save a new URL to the file."""
+    with open(file_path, "a") as file:
+        file.write(url + "\n")
 
 def tweet_ai_news():
     logging.info(f'Tweeting process started at {datetime.now()}!')
@@ -33,12 +43,3 @@ def tweet_ai_news():
             logging.info('No AI news to tweet')
     except Exception as e:
         logging.error(f"Failed to post tweet: {str(e)}")
-
-
-def schedule_tweets_for_now(job, max_tweets):
-    """
-    Schedule tweets at short intervals for testing purposes.
-    """
-    for _ in range(random.randint(1, max_tweets)):
-        # schedule the job for every 10 minute, starting now
-        schedule.every(10).minutes.do(job)
