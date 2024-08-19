@@ -34,7 +34,7 @@ def tweet_ai_news():
                 # clean the content before processing
                 clean_content = clean_text(f"{content}")
                 final_tweet = summarize_with_llm(clean_content, max_length=120)
-                full_tweet = f"{final_tweet} {link}"
+                full_tweet = clean_text(f"{final_tweet} {link}")
 
                 response = client.create_tweet(text=full_tweet)
                 logging.info(f'Tweet posted successfully: {response}')
