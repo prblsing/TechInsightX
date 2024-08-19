@@ -5,6 +5,7 @@ from datetime import datetime
 from news_fetcher import fetch_latest_tech_news
 from content_generator import clean_text, summarize_with_llm
 from config import client
+import os
 
 posted_urls = set()
 
