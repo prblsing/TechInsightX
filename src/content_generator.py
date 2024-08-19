@@ -1,11 +1,13 @@
 from transformers import pipeline
 import logging
 import re
-from config import model_name, max_tweet_length
 
 # configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+model_name = os.getenv('MODEL_NAME', 'EleutherAI/gpt-neo-1.3B')
+max_tweet_length = int(os.getenv('MAX_TWEET_LENGTH', 120))
 
 # load model for text generation
 try:
