@@ -2,11 +2,7 @@ name: Tweet AI News Daily
 
 on:
   schedule:
-    - cron: '30 3 * * *'
-    - cron: '30 6 * * *'
-    - cron: '30 9 * * *'
-    - cron: '30 12 * * *'
-    - cron: '01 13 * * *'
+    - cron: '45 0-10/1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -36,6 +32,5 @@ jobs:
           HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
           POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
           MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
-          MODEL_NAME: ${{ secrets.MODEL_NAME }}
         run: |
           python src/main.py
