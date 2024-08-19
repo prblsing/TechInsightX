@@ -15,14 +15,17 @@ def load_posted_urls(file_path="posted_links.txt"):
         with open(file_path, "r") as file:
             for line in file:
                 posted_urls.add(line.strip())
+                logging.info(f'Posted URLs loaded successfully.')
 
 def save_posted_url(url, file_path="posted_links.txt"):
     """Save a new URL to the file."""
     with open(file_path, "a") as file:
         file.write(url + "\n")
+        logging.info(f'Posted URLs saved successfully.')
 
 def tweet_ai_news():
     logging.info(f'Tweeting process started at {datetime.now()}!')
+    load_posted_urls()
     try:
         tech_news = fetch_latest_tech_news()
         if tech_news:
@@ -34,12 +37,13 @@ def tweet_ai_news():
                 # clean the content before processing
                 clean_content = clean_text(f"{content}")
                 final_tweet = summarize_with_llm(clean_content, max_length=120)
-                full_tweet = clean_text(f"{final_tweet} {link}")
+                full_tweet = f"{final_tweet} {link}"
 
                 response = client.create_tweet(text=full_tweet)
                 logging.info(f'Tweet posted successfully: {response}')
 
                 posted_urls.add(link)
+                save_posted_url(link)
         else:
             logging.info('No AI news to tweet')
     except Exception as e:
