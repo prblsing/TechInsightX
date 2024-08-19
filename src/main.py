@@ -6,7 +6,7 @@ if __name__ == "__main__":
     try:
         logging.info('Starting tweet scheduling')
         MAX_TWEETS_PER_DAY = 2
-        schedule_tweets_for_now(tweet_ai_news, MAX_TWEETS_PER_DAY)
+        tweet_ai_news()
 
         # TBD
         # search_and_retweet("AI", max_tweets=2)
