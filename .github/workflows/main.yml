@@ -27,5 +27,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run the scheduler
+        env:
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
+          HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
+          POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
+          MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
+          MODEL_NAME: ${{ secrets.MODEL_NAME }}
         run: |
-          python src/main.py
+          python src/scheduler.py
