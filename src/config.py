@@ -26,8 +26,6 @@ try:
     access_token_secret = os.getenv('ACCESS_TOKEN_SECRET')
     bearer_token = os.getenv('BEARER_TOKEN')
     hf_token = os.getenv('HUGGINGFACE_API_TOKEN')
-    model_name = os.getenv('MODEL_NAME', 'EleutherAI/gpt-neo-1.3B')
-    max_tweet_length = int(os.getenv('MAX_TWEET_LENGTH', 120))
 
     # initialize the Twitter client
     client = tweepy.Client(
