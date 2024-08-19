@@ -48,8 +48,15 @@ def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
         str: The summarized text as a complete statement.
     """
     logger.info('Generating summary with LLM')
-    prompt = f"Generate caption for sharing following article, highlight the core message in a single, complete " \
-             f"sentence of no more than {max_length} characters: {text} "
+    prompt = f"""
+    Summarize the following news article by capturing the core message in a single, complete sentence.
+    Ensure the summary:
+    - Does not exceed {max_length} characters.
+    - Contains no special characters.
+    - Is written in clear and correct English.
+
+    Article: {text}
+    """
     try:
         generated_text = generator(
             prompt,
