@@ -7,12 +7,12 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-model_name = os.getenv('MODEL_NAME', 'EleutherAI/gpt-neo-1.3B')
+model_name = 'EleutherAI/gpt-neo-1.3B'
 max_tweet_length = int(os.getenv('MAX_TWEET_LENGTH', 120))
 
 # load model for text generation
 try:
-    logger.debug(f'Initializing text-generation model: {model_name}')
+    logger.info(f'Initializing text-generation model: {model_name}')
     generator = pipeline('text-generation', model=model_name)
     logger.info('Model initialized successfully')
 except Exception as e:
