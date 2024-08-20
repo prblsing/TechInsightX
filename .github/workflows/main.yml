@@ -17,18 +17,18 @@ jobs:
         with:
           python-version: 3.11.9
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
       - name: Set up directory and file for logs and posted URLs
         run: |
           mkdir -p etc/ops
           touch etc/ops/posted_links.txt
           echo "Initialized posted_links.txt file."
 
-      - name: Run the scheduler
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run main
         env:
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
@@ -38,6 +38,14 @@ jobs:
           HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
           POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
           MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
-          LOG_DIR: etc/ops  # Pass the directory as an environment variable
+          LOG_DIR: etc/ops
         run: |
           python src/main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add etc/ops/posted_links.txt etc/ops/*.log
+          git commit -m "Update posted links and logs after run"
+          git push origin main
