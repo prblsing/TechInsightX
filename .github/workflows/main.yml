@@ -22,6 +22,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Set up directory and file for logs and posted URLs
+        run: |
+          mkdir -p etc/ops
+          touch etc/ops/posted_links.txt
+          echo "Initialized posted_links.txt file."
+
       - name: Run the scheduler
         env:
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
@@ -32,5 +38,6 @@ jobs:
           HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
           POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
           MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
+          LOG_DIR: etc/ops  # Pass the directory as an environment variable
         run: |
           python src/main.py
