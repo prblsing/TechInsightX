@@ -1,32 +1,32 @@
-import random
-import time
+import os
 import logging
 from datetime import datetime
 from news_fetcher import fetch_latest_tech_news
 from content_generator import clean_text, summarize_with_llm
-from config import client, POSTED_LINKS_FILE
-import os
+from config import client
 
 posted_urls = set()
+log_dir = os.getenv('LOG_DIR', 'etc/ops')
+posted_links_file = os.path.join(log_dir, "posted_links.txt")
 
-def load_posted_urls(file_path=POSTED_LINKS_FILE):
+
+def load_posted_urls(file_path=posted_links_file):
     """Load posted URLs from the file."""
-    logging.info(f'Loading posted URLs from {file_path}')
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
             for line in file:
-                url, date_posted = line.strip().split(',', 1)
-                posted_urls.add(url)
-                logging.info(f'Loaded posted URL: {url} (Posted on: {date_posted})')
+                posted_urls.add(line.strip())
+        logging.info(f'Posted URLs loaded successfully from {file_path}.')
     else:
         logging.info(f'{file_path} does not exist. No URLs loaded.')
 
-def save_posted_url(url, file_path=POSTED_LINKS_FILE):
-    """Save a new URL to the file with the current date."""
+
+def save_posted_url(url, file_path=posted_links_file):
+    """Save a new URL to the file."""
     with open(file_path, "a") as file:
-        date_posted = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        file.write(f"{url},{date_posted}\n")
-        logging.info(f'Saved posted URL: {url} (Posted on: {date_posted})')
+        file.write(f"{url} (Posted on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')})\n")
+    logging.info(f'Saved posted URL: {url} (Posted on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")})')
+
 
 def tweet_ai_news():
     logging.info(f'Tweeting process started at {datetime.now()}!')
@@ -39,17 +39,21 @@ def tweet_ai_news():
                     logging.info(f'This link is already posted: {link}')
                     continue
 
-                # clean the content before processing
+                # Clean the content before processing
                 clean_content = clean_text(f"{content}")
                 final_tweet = summarize_with_llm(clean_content, max_length=120)
-                full_tweet = f"{final_tweet} {link}"
+                full_tweet = clean_text(f"{final_tweet} {link}")
 
                 response = client.create_tweet(text=full_tweet)
                 logging.info(f'Tweet posted successfully: {response}')
 
-                posted_urls.add(link)
                 save_posted_url(link)
         else:
-            logging.info('No AI news to tweet')
+            logging.info('No AI news to tweet.')
     except Exception as e:
         logging.error(f"Failed to post tweet: {str(e)}")
+
+
+def run_scheduler():
+    logging.info('Starting scheduler')
+    tweet_ai_news()
