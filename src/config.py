@@ -2,13 +2,22 @@ import os
 import logging
 from dotenv import load_dotenv
 import tweepy
+from datetime import datetime
+
+# define the directory for logs and posted URLs
+OPS_DIR = os.path.join(os.path.dirname(__file__), '../etc/ops')
+LOG_FILE = os.path.join(OPS_DIR, f'run_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
+POSTED_LINKS_FILE = os.path.join(OPS_DIR, 'posted_links.txt')
+
+# ensure the directory exists
+os.makedirs(OPS_DIR, exist_ok=True)
 
 # setup logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('app.log'),
+        logging.FileHandler(LOG_FILE),
         logging.StreamHandler()
     ]
 )
