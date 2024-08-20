@@ -9,19 +9,24 @@ import os
 
 posted_urls = set()
 
-def load_posted_urls(file_path="posted_links.txt"):
+def load_posted_urls(file_path=POSTED_LINKS_FILE):
     """Load posted URLs from the file."""
+    logging.info(f'Loading posted URLs from {file_path}')
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
             for line in file:
-                posted_urls.add(line.strip())
-                logging.info(f'Posted URLs loaded successfully.')
+                url, date_posted = line.strip().split(',', 1)
+                posted_urls.add(url)
+                logging.info(f'Loaded posted URL: {url} (Posted on: {date_posted})')
+    else:
+        logging.info(f'{file_path} does not exist. No URLs loaded.')
 
-def save_posted_url(url, file_path="posted_links.txt"):
-    """Save a new URL to the file."""
+def save_posted_url(url, file_path=POSTED_LINKS_FILE):
+    """Save a new URL to the file with the current date."""
     with open(file_path, "a") as file:
-        file.write(url + "\n")
-        logging.info(f'Posted URLs saved successfully.')
+        date_posted = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        file.write(f"{url},{date_posted}\n")
+        logging.info(f'Saved posted URL: {url} (Posted on: {date_posted})')
 
 def tweet_ai_news():
     logging.info(f'Tweeting process started at {datetime.now()}!')
