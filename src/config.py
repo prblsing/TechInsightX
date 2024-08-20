@@ -5,7 +5,8 @@ import tweepy
 from datetime import datetime
 
 # Define the directory for logs and posted URLs
-OPS_DIR = os.path.join(os.path.dirname(__file__), 'etc/ops/')
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # One level up from 'src'
+OPS_DIR = os.path.join(BASE_DIR, 'etc/ops')
 LOG_FILE = os.path.join(OPS_DIR, f'run_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
 POSTED_LINKS_FILE = os.path.join(OPS_DIR, 'posted_links.txt')
 
