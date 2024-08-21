@@ -36,3 +36,6 @@ https://www.wired.com/story/conde-nast-openai-deal/ (Posted on: 2024-08-21 08:10
 https://engineering.fb.com/2024/08/20/data-infrastructure/aparna-ramani-future-of-ai-infrastructure-meta/ (Posted on: 2024-08-21 08:13:12)
 https://techcrunch.com/2024/08/20/trunk-tools-raises-30m-to-help-construction-companies-get-answers-from-documents/ (Posted on: 2024-08-21 08:13:41)
 https://www.pcmag.com/news/qualcomm-pushes-ai-to-lower-cost-phones-with-snapdragon-7s-gen-3 (Posted on: 2024-08-21 08:16:13)
+https://www.techradar.com/pro/how-organizations-can-tackle-the-cost-barrier-to-ai-adoption (Posted on: 2024-08-21 08:57:04)
+https://www.techradar.com/computing/artificial-intelligence/survey-shows-ai-is-the-last-thing-considered-before-a-purchase-but-thats-poised-for-major-change (Posted on: 2024-08-21 08:59:31)
+https://techcrunch.com/2024/08/20/omnichannel-platform-sleekflow-gets-7m-to-propel-expansion-ai-capabilities/ (Posted on: 2024-08-21 09:02:06)
