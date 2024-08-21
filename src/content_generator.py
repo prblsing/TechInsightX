@@ -7,7 +7,8 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-model_name = 'EleutherAI/gpt-neo-1.3B'
+# Updated model to use facebook/opt-2.7b
+model_name = 'facebook/opt-2.7b'
 max_tweet_length = int(os.getenv('MAX_TWEET_LENGTH', 120))
 
 # load model for text generation
