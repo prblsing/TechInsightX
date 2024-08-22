@@ -16,7 +16,7 @@ def load_posted_urls(file_path=posted_links_file):
         with open(file_path, "r") as file:
             for line in file:
                 posted_urls.add(line.strip())
-        logging.info(f'Following posted URLs are loaded successfully from {file_path}:\nposted_urls')
+        logging.info(f'Following posted URLs are loaded successfully from {file_path}:\n{posted_urls}')
     else:
         logging.info(f'{file_path} does not exist. No URLs loaded.')
 
