@@ -179,3 +179,4 @@ https://techcrunch.com/2024/08/22/alphabet-xs-latest-spinout-brings-computer-vis
 https://www.techradar.com/pro/security/slack-ai-could-be-tricked-into-leaking-login-details-and-more (Posted on: 2024-08-23 04:03:43)
 https://techcrunch.com/video/techcrunch-minute-ai-could-help-design-and-test-f1-cars-faster/ (Posted on: 2024-08-23 04:05:02)
 https://www.techradar.com/pro/zoom-calls-arent-going-anywhere-yet-and-could-soon-get-even-more-ai (Posted on: 2024-08-23 04:06:20)
+https://www.techradar.com/pro/is-ai-the-next-frontier-of-cloud-vendor-lock-in (Posted on: 2024-08-23 06:52:29)
