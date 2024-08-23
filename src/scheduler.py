@@ -40,7 +40,9 @@ def tweet_ai_news():
                     continue
 
                 # Clean the content before processing
+                logging.info(f"Input content - {content=}")
                 clean_content = clean_text(f"{content}")
+                logging.info(f"clean content - {clean_content=}")
                 final_tweet = summarize_with_llm(clean_content, max_length=120)
                 full_tweet = f"{final_tweet} {link}"
 
