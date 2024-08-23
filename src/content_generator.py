@@ -3,9 +3,14 @@ import logging
 import re
 import os
 
-# configure logging
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+# Updated model to use gpt-neo-1.3B for initial generation and t5-base for summarization
+gen_model_name = 'EleutherAI/gpt-neo-1.3B'
 
 # facebook/opt-2.7b
 model_name = 'EleutherAI/gpt-neo-1.3B'
@@ -54,7 +59,7 @@ def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
         f" Make sure the statement is clear, under {max_length} characters, "
         "contains no special characters, and is written in correct English."
     )
-    
+
     try:
         generated_text = generator(
             prompt,
@@ -62,6 +67,7 @@ def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
             do_sample=True,
             top_k=50,
             top_p=0.95,
+            temperature=0.7,
             num_return_sequences=3,
             truncation=True,
             pad_token_id=generator.tokenizer.eos_token_id,
