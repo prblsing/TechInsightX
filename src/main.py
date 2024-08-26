@@ -1,6 +1,8 @@
 from scheduler import tweet_ai_news
 # from retweet_bot import search_and_retweet
-import logging
+from config import *
+
+logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     try:

@@ -1,7 +1,8 @@
 import feedparser
-from datetime import datetime, timedelta
-import logging
 from typing import List, Tuple
+from config import *
+
+logger = logging.getLogger(__name__)
 
 
 def fetch_latest_tech_news() -> List[Tuple[str, str, str]]:
