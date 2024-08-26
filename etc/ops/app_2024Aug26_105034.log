@@ -1,0 +1,20 @@
+2024-08-26 10:50:34,599 - INFO - Starting configuration setup
+2024-08-26 10:50:34,599 - INFO - Environment variables loaded successfully
+2024-08-26 10:50:34,600 - INFO - Twitter API client initialized successfully
+2024-08-26 10:50:36,562 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-26 10:50:59,075 - INFO - Model initialized successfully
+2024-08-26 10:50:59,075 - INFO - Starting tweet scheduling
+2024-08-26 10:50:59,075 - INFO - Tweeting process started at 2024-08-26 10:50:59.075408!
+2024-08-26 10:50:59,075 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug26.csv
+2024-08-26 10:50:59,075 - INFO - Fetching latest tech news from RSS feeds
+2024-08-26 10:51:06,899 - INFO - Total entries found: 427
+2024-08-26 10:51:06,901 - INFO - Recent AI-related entries found: 9
+2024-08-26 10:51:06,901 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apple-may-be-working-on-an-ai-personality-to-replace-siri-on-its-robots
+2024-08-26 10:51:06,901 - INFO - This link is already posted: https://www.techradar.com/pro/can-ai-systems-truly-be-human-centric
+2024-08-26 10:51:06,901 - INFO - This link is already posted: https://www.techradar.com/pro/exploring-the-impact-of-genai-on-digital-transformation-today
+2024-08-26 10:51:06,901 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f1a1el/project_python_apps_for_ai_models_your_feedback/
+2024-08-26 10:51:06,902 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f19z1d/r_selfoptimizing_probabilistic_framework_for/
+2024-08-26 10:51:06,902 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/your-tennis-swing-needs-work-this-ai-startup-wants-to-help/#ftag=CAD590a51e
+2024-08-26 10:51:06,902 - INFO - This link is already posted: https://www.pcmag.com/news/midjourney-makes-ai-image-creation-free-for-everyone-heres-how-to-try-it
+2024-08-26 10:51:06,902 - INFO - This link is already posted: https://www.theverge.com/2024/8/25/24228003/megalopolis-trailer-fake-quotes-ai-generated-eddie-egan-dropped-lionsgate
+2024-08-26 10:51:06,902 - INFO - This link is already posted: https://techcrunch.com/2024/08/25/stephen-wolfram-thinks-we-need-philosophers-working-on-big-questions-around-ai/
