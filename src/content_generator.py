@@ -108,7 +108,7 @@ def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
             truncation=True,
             pad_token_id=generator.tokenizer.eos_token_id,
             return_full_text=False,
-            clean_up_tokenization_spaces=True,
+            # clean_up_tokenization_spaces=True,
         )
 
         # select the best candidate that fits within the character limit
