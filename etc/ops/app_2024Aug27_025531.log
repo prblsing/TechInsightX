@@ -1,0 +1,17 @@
+2024-08-27 02:55:31,537 - INFO - Starting configuration setup
+2024-08-27 02:55:31,538 - INFO - Environment variables loaded successfully
+2024-08-27 02:55:31,538 - INFO - Twitter API client initialized successfully
+2024-08-27 02:55:33,937 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-27 02:55:57,116 - INFO - Model initialized successfully
+2024-08-27 02:55:57,116 - INFO - Starting tweet scheduling
+2024-08-27 02:55:57,116 - INFO - Tweeting process started at 2024-08-27 02:55:57.116355!
+2024-08-27 02:55:57,116 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug27.csv
+2024-08-27 02:55:57,116 - INFO - Fetching latest tech news from RSS feeds
+2024-08-27 02:56:05,636 - INFO - Total entries found: 427
+2024-08-27 02:56:05,638 - INFO - Recent AI-related entries found: 6
+2024-08-27 02:56:05,638 - INFO - This link is already posted: https://techcrunch.com/2024/08/26/elon-musk-unexpectedly-offers-support-for-californias-ai-bill/
+2024-08-27 02:56:05,638 - INFO - This link is already posted: https://techcrunch.com/2024/08/26/openai-adobe-microsoft-support-california-bill-requiring-watermarks-on-ai-content/
+2024-08-27 02:56:05,639 - INFO - This link is already posted: https://www.pcmag.com/news/surprise-fake-quotes-in-megalopolis-trailer-were-generated-by-ai
+2024-08-27 02:56:05,639 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/make-your-videos-a-global-phenomenon-with-ai-translation-of-your-own-voice
+2024-08-27 02:56:05,639 - INFO - This link is already posted: https://www.theverge.com/2024/8/26/24228880/gannett-usa-today-reviewed-product-reviews-ai-articles
+2024-08-27 02:56:05,639 - INFO - This link is already posted: https://www.pcmag.com/news/apples-rumored-robot-may-ditch-siri-for-a-more-human-like-ai-personality
