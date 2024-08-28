@@ -1,0 +1,20 @@
+2024-08-28 03:50:49,473 - INFO - Starting configuration setup
+2024-08-28 03:50:49,473 - INFO - Environment variables loaded successfully
+2024-08-28 03:50:49,473 - INFO - Twitter API client initialized successfully
+2024-08-28 03:50:51,437 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-28 03:51:15,651 - INFO - Model initialized successfully
+2024-08-28 03:51:15,651 - INFO - Starting tweet scheduling
+2024-08-28 03:51:15,651 - INFO - Tweeting process started at 2024-08-28 03:51:15.651289!
+2024-08-28 03:51:15,651 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug28.csv
+2024-08-28 03:51:15,651 - INFO - Fetching latest tech news from RSS feeds
+2024-08-28 03:51:22,405 - INFO - Total entries found: 427
+2024-08-28 03:51:22,407 - INFO - Recent AI-related entries found: 9
+2024-08-28 03:51:22,407 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/hotshot-is-heating-up-ai-video-making-heres-how-you-can-try-it-for-free
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://www.theverge.com/2024/8/27/24229843/google-meets-automatic-ai-note-taking-launch
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://www.pcmag.com/news/startup-goes-after-nvidia-with-giant-ai-chips-built-for-speed
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://www.pcmag.com/deals/cut-your-workload-in-half-with-this-all-in-one-ai-tool
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://techcrunch.com/2024/08/27/why-ai-cant-spell-strawberry/
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-wont-be-free-forever
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://techcrunch.com/2024/08/27/is-open-source-ai-even-possible-let-alone-the-future-find-out-at-disrupt-2024/
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://www.pcmag.com/news/elon-musk-backs-california-ai-safety-bill-as-it-heads-to-final-vote
+2024-08-28 03:51:22,408 - INFO - This link is already posted: https://news.mit.edu/2024/first-ai-education-summit-0827
