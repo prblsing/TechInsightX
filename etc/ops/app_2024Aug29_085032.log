@@ -1,0 +1,28 @@
+2024-08-29 08:50:32,667 - INFO - Starting configuration setup
+2024-08-29 08:50:32,667 - INFO - Environment variables loaded successfully
+2024-08-29 08:50:32,667 - INFO - Twitter API client initialized successfully
+2024-08-29 08:50:34,782 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-29 08:50:54,275 - INFO - Model initialized successfully
+2024-08-29 08:50:54,276 - INFO - Starting tweet scheduling
+2024-08-29 08:50:54,276 - INFO - Tweeting process started at 2024-08-29 08:50:54.276249!
+2024-08-29 08:50:54,608 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug29.csv
+2024-08-29 08:50:54,609 - INFO - Fetching latest tech news from RSS feeds
+2024-08-29 08:51:01,095 - INFO - Total entries found: 427
+2024-08-29 08:51:01,098 - INFO - Recent AI-related entries found: 17
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f3rxhk/n_end_of_an_era_character_ai_shuts_down_old_site/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.theverge.com/2024/8/28/24229068/california-sb-1047-ai-safety-bill-passed-state-assembly-governor-newsom-signature
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/apple-introduces-ai-powered-object-removal-with-the-latest-ios-update/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/geminis-ai-will-soon-slide-into-your-dms-on-whatsapp-and-messages
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.pcmag.com/news/this-ai-model-can-simulate-the-pc-game-doom-in-real-time
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/openai-reportedly-in-talks-to-close-new-funding-round-at-100b-valuation/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/openais-converge-2-program-has-been-shrouded-in-mystery/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.techradar.com/pro/x-fixes-ai-chatbot-after-it-spread-misinformation-about-us-election
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/claude-ai-got-a-major-chatgpt-beating-upgrade-heres-how-to-use-artifacts
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.pcmag.com/news/meeting-overload-gemini-ai-can-now-take-notes-for-you-in-google-meet
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.pcmag.com/news/google-gemini-ai-update-restores-ability-to-generate-images-of-people
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/openais-project-strawberry-will-become-chatgpt5-launch-soon-insiders-say
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/this-week-in-ai-ai-is-rapidly-being-commoditized/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-build-your-own-customized-google-gemini-ai-chatbot
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/playbook-for-leveraging-ai-to-accelerate-productivity
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.wired.com/story/gauth-ai-math-homework-app/
+2024-08-29 08:51:01,098 - INFO - This link is already posted: https://www.wired.com/story/plaud-note-pin-ai-wearable/
