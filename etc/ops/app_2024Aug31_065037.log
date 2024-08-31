@@ -1,0 +1,25 @@
+2024-08-31 06:50:37,545 - INFO - Starting configuration setup
+2024-08-31 06:50:37,545 - INFO - Environment variables loaded successfully
+2024-08-31 06:50:37,546 - INFO - Twitter API client initialized successfully
+2024-08-31 06:50:39,544 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-31 06:52:28,104 - INFO - Model initialized successfully
+2024-08-31 06:52:28,104 - INFO - Starting tweet scheduling
+2024-08-31 06:52:28,104 - INFO - Tweeting process started at 2024-08-31 06:52:28.104904!
+2024-08-31 06:52:28,105 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug31.csv
+2024-08-31 06:52:28,105 - INFO - Fetching latest tech news from RSS feeds
+2024-08-31 06:52:34,356 - INFO - Total entries found: 427
+2024-08-31 06:52:34,358 - INFO - Recent AI-related entries found: 14
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f5ackj/d_ai_phd_advice_top_university_required/
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/oprah-sam-altman-and-mkbhd-walk-into-a-tv-show-about-ai-and-its-not-a-joke
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f58o5w/p_python_and_ai_machine_learning_specifically/
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://techcrunch.com/2024/08/30/investors-are-already-valuing-openai-at-over-100b-on-the-secondaries-market/
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://techcrunch.com/2024/08/30/california-ai-bill-sb-1047-aims-to-prevent-ai-disasters-but-silicon-valley-warns-it-will-cause-one/
+2024-08-31 06:52:34,358 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/midjourney-is-traveling-into-ai-hardware-territory-because-thats-apparently-what-you-do
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://www.pcmag.com/news/tom-hanks-is-promoting-a-cure-for-diabetes-nope-its-an-ai-powered-scam
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://www.techradar.com/pro/this-is-what-1-billion-worth-of-ai-gpus-look-like-elon-musk-publishes-video-tour-of-cortex-its-ai-training-supercluster-that-s-powered-by-nvidia-s-now-obsolete-h100
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f510fa/requesting_review_for_university_btech_ai_ds/
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://techcrunch.com/2024/08/30/google-rolls-out-safeguards-for-more-of-its-ai-products-ahead-of-the-us-presidential-election/
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://techcrunch.com/2024/08/30/hello-wonder-is-building-an-ai-powered-browser-for-kids/
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-plauds-notepin-is-a-wearable-ai-powered-notetaker/
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/alexas-big-ai-upgrade-could-be-powered-by-claude-and-that-might-give-us-truly-smart-speakers
+2024-08-31 06:52:34,359 - INFO - This link is already posted: https://techcrunch.com/2024/08/30/jam-and-tea-gaming-studio-leveraging-generative-ai-to-power-npcs/
