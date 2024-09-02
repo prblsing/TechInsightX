@@ -1,0 +1,32 @@
+2024-09-02 02:03:44,059 - INFO - Starting configuration setup
+2024-09-02 02:03:44,059 - INFO - Environment variables loaded successfully
+2024-09-02 02:03:44,059 - INFO - Twitter API client initialized successfully
+2024-09-02 02:03:46,002 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-02 02:04:10,546 - INFO - Model initialized successfully
+2024-09-02 02:04:10,546 - INFO - Starting tweet scheduling
+2024-09-02 02:04:10,546 - INFO - Tweeting process started at 2024-09-02 02:04:10.546528!
+2024-09-02 02:04:10,546 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep02.csv
+2024-09-02 02:04:10,546 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep02.csv
+2024-09-02 02:04:10,547 - INFO - Fetching latest tech news from RSS feeds
+2024-09-02 02:04:17,732 - INFO - Total entries found: 427
+2024-09-02 02:04:17,734 - INFO - Recent AI-related entries found: 4
+2024-09-02 02:04:17,734 - INFO - Input content - content='<p>No matter who powerful generative AI becomes, writer Ted Chiang says it will never create true art. Chiang is one of the most admired science fiction authors writing today, best known for the novella “Story Of Your Life” (which was adapted into the movie “Arrival”). But he’s also published terrific pieces for The New Yorker [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-02 02:04:17,735 - INFO - clean content - clean_content='No matter who powerful generative AI becomes, writer Ted Chiang says it will never create true art. Chiang is one of the most admired science fiction authors writing today, best known for the novella “Story Of Your Life” (which was adapted into the movie “Arrival”). But he’s also published terrific pieces for The New Yorker [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-02 02:04:17,735 - INFO - Generating summary with LLM
+2024-09-02 02:05:39,068 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1830426831369150604'], 'id': '1830426831369150604', 'text': 'The “Story Of Your Life” by Ted Chiang\n\nIf you’re a reader of this site, you know the drill. First,..[read more👇🏼] https://t.co/bMMMdZ26Ze'}, includes={}, errors=[], meta={})
+2024-09-02 02:05:39,068 - INFO - Saved posted URL: https://techcrunch.com/2024/09/01/the-case-against-ai-art/ at 2024-09-02 02:05:39
+2024-09-02 02:05:39,068 - INFO - Input content - content='<p>As businesses experiment with embedding AI everywhere, one area starting to gain more attention is Emotion AI.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-02 02:05:39,068 - INFO - clean content - clean_content='As businesses experiment with embedding AI everywhere, one area starting to gain more attention is Emotion AI. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-02 02:05:39,068 - INFO - Generating summary with LLM
+2024-09-02 02:06:55,161 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1830427150505357661'], 'id': '1830427150505357661', 'text': 'For commercial use only.\n\nWhat is Emotion AI?\n\nThe phrase “Emotion AI” has been around since at least the..[read more👇🏼] https://t.co/94FCsn0ViH'}, includes={}, errors=[], meta={})
+2024-09-02 02:06:55,162 - INFO - Saved posted URL: https://techcrunch.com/2024/09/01/emotion-ai-could-be-the-next-trend-for-business-software-and-that-could-be-problematic/ at 2024-09-02 02:06:55
+2024-09-02 02:06:55,162 - INFO - Input content - content='Gemini could be replacing Google Assistant in the Android Auto interface in the near future.'
+2024-09-02 02:06:55,162 - INFO - clean content - clean_content='Gemini could be replacing Google Assistant in the Android Auto interface in the near future.'
+2024-09-02 02:06:55,162 - INFO - Generating summary with LLM
+2024-09-02 02:08:11,242 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1830427469612261824'], 'text': 'If you do not understand any of these points, please rephrase the article into a concise statement and..[read more👇🏼] https://t.co/XiS6f4qrcF', 'id': '1830427469612261824'}, includes={}, errors=[], meta={})
+2024-09-02 02:08:11,243 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-be-making-its-way-into-your-car-with-android-auto at 2024-09-02 02:08:11
+2024-09-02 02:08:11,243 - INFO - Input content - content="Tech giants' investments in AI startups potentially returning as cloud revenue."
+2024-09-02 02:08:11,243 - INFO - clean content - clean_content="Tech giants' investments in AI startups potentially returning as cloud revenue."
+2024-09-02 02:08:11,243 - INFO - Generating summary with LLM
+2024-09-02 02:09:26,121 - INFO - Tweet posted successfully: Response(data={'text': 'The Tech Giants Are Investing in AI Startup Revenue\n\nThe tech giants are investing in AI startups. They..[read more👇🏼] https://t.co/85Xs3kpxPv', 'id': '1830427783690129835', 'edit_history_tweet_ids': ['1830427783690129835']}, includes={}, errors=[], meta={})
+2024-09-02 02:09:26,121 - INFO - Saved posted URL: https://www.techradar.com/pro/expert-questions-huge-ai-investments-from-microsoft-amazon-and-google-and-warns-of-possible-sugar-daddy-boomerang-effect-that-could-potentially-end-up-very-badly at 2024-09-02 02:09:26
