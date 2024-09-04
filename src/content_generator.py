@@ -93,7 +93,7 @@ def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
     prompt = (
         f"Please rephrase the following article into a concise statement: {text}"
         f" Make sure the statement is clear, under {max_length} characters, "
-        "contains no special characters, and is written in correct English."
+        "contains no special characters, and is written in correct English (NO PREAMBLE)."
     )
 
     try:
