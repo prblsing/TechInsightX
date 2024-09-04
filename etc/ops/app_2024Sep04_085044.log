@@ -1,0 +1,22 @@
+2024-09-04 08:50:44,540 - INFO - Starting configuration setup
+2024-09-04 08:50:44,541 - INFO - Environment variables loaded successfully
+2024-09-04 08:50:44,541 - INFO - Twitter API client initialized successfully
+2024-09-04 08:50:47,125 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-04 08:51:10,185 - INFO - Model initialized successfully
+2024-09-04 08:51:10,185 - INFO - Starting tweet scheduling
+2024-09-04 08:51:10,185 - INFO - Tweeting process started at 2024-09-04 08:51:10.185397!
+2024-09-04 08:51:10,185 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep04.csv
+2024-09-04 08:51:10,186 - INFO - Fetching latest tech news from RSS feeds
+2024-09-04 08:51:17,195 - INFO - Total entries found: 427
+2024-09-04 08:51:17,198 - INFO - Recent AI-related entries found: 7
+2024-09-04 08:51:17,198 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>This is for all of you interested in a constant flow of freshly curated jobs in Artificial Intelligence, Machine Learning, NLP, Computer Vision, Data Engineering, Data Analytics, Big Data, and Data Science in general via RSS format. Jobs are aggregated through <a href="http://aijobs.net">aijobs.net</a> and it provides 200 listings at a time. The feed is updated about every hour with the latest jobs.</p> <p>URL: <a href="https://aijobs.net/feed/">https://aijobs.net/feed/</a></p> <p>No sign-up needed - just add it to your favorite feed reader and be in the loop about new opportiunities at any time 🚀</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ai_jobs"> /u/ai_jobs </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1f8nw8f/p_free_rss_feed_for_tousands_of_jobs_in_aimldata/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1f8nw8f/p_free_rss_feed_for_tousands_of_jobs_in_aimldata/">[comments]</a></span>'
+2024-09-04 08:51:17,198 - INFO - clean content - clean_content='This is for all of you interested in a constant flow of freshly curated jobs in Artificial Intelligence, Machine Learning, NLP, Computer Vision, Data Engineering, Data Analytics, Big Data, and Data Science in general via RSS format. Jobs are aggregated through aijobs.net and it provides 200 listings at a time. The feed is updated about every hour with the latest jobs. URL: No sign-up needed - just add it to your favorite feed reader and be in the loop about new opportiunities at any time 🚀 &#32; submitted by &#32; /u/ai_jobs [link] &#32; [comments]'
+2024-09-04 08:51:17,199 - INFO - Generating summary with LLM
+2024-09-04 08:52:48,628 - INFO - Tweet posted successfully: Response(data={'id': '1831254071392850230', 'text': 'If you can not find the job you are looking for, please check the jobs that are listed and add them to..[read more👇🏼] https://t.co/Mu4J9QdiCE', 'edit_history_tweet_ids': ['1831254071392850230']}, includes={}, errors=[], meta={})
+2024-09-04 08:52:48,628 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1f8nw8f/p_free_rss_feed_for_tousands_of_jobs_in_aimldata/ at 2024-09-04 08:52:48
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/hollywood-will-need-permission-to-make-ai-deepfakes-of-long-gone-stars
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://techcrunch.com/2024/09/03/neko-health-the-body-scanning-ai-health-startup-from-spotifys-daniel-ek-opens-in-london/
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://www.theverge.com/2024/9/3/24235233/nvidia-doj-ai-antitrust-investigation
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-will-teach-this-class-a-lesson-but-wont-be-hanging-in-the-teachers-lounge
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://www.pcmag.com/news/musks-xai-supercomputer-goes-online-with-100000-nvidia-gpus
+2024-09-04 08:52:48,628 - INFO - This link is already posted: https://techcrunch.com/2024/09/03/spotter-launches-ai-tools-youtubers-brainstorm-video-ideas-thumbnails/
