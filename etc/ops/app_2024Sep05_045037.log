@@ -1,0 +1,26 @@
+2024-09-05 04:50:37,959 - INFO - Starting configuration setup
+2024-09-05 04:50:37,960 - INFO - Environment variables loaded successfully
+2024-09-05 04:50:37,960 - INFO - Twitter API client initialized successfully
+2024-09-05 04:50:40,291 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-05 04:51:02,722 - INFO - Model initialized successfully
+2024-09-05 04:51:02,722 - INFO - Starting tweet scheduling
+2024-09-05 04:51:02,722 - INFO - Tweeting process started at 2024-09-05 04:51:02.722667!
+2024-09-05 04:51:02,722 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep05.csv
+2024-09-05 04:51:02,722 - INFO - Fetching latest tech news from RSS feeds
+2024-09-05 04:51:10,039 - INFO - Total entries found: 427
+2024-09-05 04:51:10,042 - INFO - Recent AI-related entries found: 15
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/national-novel-writing-month-faces-controversy-over-ai-issues/#ftag=CAD590a51e
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/zillows-ai-wants-to-help-you-find-the-dream-home-you-didnt-know-you-wanted
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/short-series-app-my-drama-launching-ai-companions/
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.atlassian.com/blog/strategy/getting-started-with-generative-ai
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/this-week-in-ai-vcs-and-devs-are-enthusiastic-about-ai-coding-tools/
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/the-cosmos-institute-whose-founding-fellows-include-anthropic-co-founder-jack-clark-launches-grant-programs-and-an-ai-lab/
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.theverge.com/2024/9/4/24235910/asus-nuc-14-pro-ai-copilot-button-mini-pc
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.techradar.com/gaming/consoles-pc/meet-the-msi-claw-8-ai-msis-shot-at-redemption-for-the-pc-gaming-handheld-market
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.pcmag.com/news/ai-road-trip-volkswagen-rolling-out-chatgpt-integration
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/irelands-privacy-watchdog-ends-legal-fight-with-x-over-data-use-for-ai-after-it-agrees-to-permanent-limits/
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.techradar.com/computing/laptops/microsofts-arm-based-copilot-pcs-are-fast-and-very-capable-with-ai-but-fresh-doubt-has-been-cast-on-the-gaming-prowess-of-these-laptops
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.pcmag.com/news/acer-fires-up-nitro-blaze-7-gaming-handheld-pc-with-amds-ai-ready-chip
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.wired.com/story/nanowrimo-organizers-classist-and-ableist-to-condemn-ai/
+2024-09-05 04:51:10,042 - INFO - This link is already posted: https://www.wired.com/story/dataset-providers-alliance-ethical-generative-ai-licensing/
+2024-09-05 04:51:10,043 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f8nw8f/p_free_rss_feed_for_tousands_of_jobs_in_aimldata/
