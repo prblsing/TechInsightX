@@ -1,0 +1,27 @@
+2024-09-09 10:50:39,867 - INFO - Starting configuration setup
+2024-09-09 10:50:39,867 - INFO - Environment variables loaded successfully
+2024-09-09 10:50:39,867 - INFO - Twitter API client initialized successfully
+2024-09-09 10:50:41,913 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-09 10:51:09,643 - INFO - Summarization model initialized successfully
+2024-09-09 10:51:09,643 - INFO - Starting tweet scheduling
+2024-09-09 10:51:09,643 - INFO - Tweeting process started at 2024-09-09 10:51:09.643275!
+2024-09-09 10:51:09,643 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep09.csv
+2024-09-09 10:51:09,643 - INFO - Fetching latest tech news from RSS feeds
+2024-09-09 10:51:20,878 - INFO - Total entries found: 427
+2024-09-09 10:51:20,880 - INFO - Recent AI-related entries found: 8
+2024-09-09 10:51:20,880 - INFO - Input content - content='Data centers set to be a top polluters with 2.5 billion tons of greenhouse gas emissions by 2030.'
+2024-09-09 10:51:20,881 - INFO - clean content - clean_content='Data centers set to be a top polluters with 2.5 billion tons of greenhouse gas emissions by 2030.'
+2024-09-09 10:51:20,881 - INFO - Generating summary with BART model
+2024-09-09 10:51:26,674 - INFO - Tweet posted successfully: Response(data={'text': 'Data centers set to be a top polluters with 2.5 billion tons of greenhouse gas emissions by 2030. Data..[read more👇🏼] https://t.co/kwVoG3VuEj', 'id': '1833095866560999681', 'edit_history_tweet_ids': ['1833095866560999681']}, includes={}, errors=[], meta={})
+2024-09-09 10:51:26,674 - INFO - Saved posted URL: https://www.techradar.com/pro/generative-ai-triples-the-carbon-dioxide-emissions-from-data-centers at 2024-09-09 10:51:26
+2024-09-09 10:51:26,674 - INFO - Input content - content="xAI's generative AI tool, Grok AI, is unhinged compared to its competitors. It's also scooping up a ton of data people post on X. Here's how to keep your posts out of Grok—and why you should."
+2024-09-09 10:51:26,675 - INFO - clean content - clean_content="xAI's generative AI tool, Grok AI, is unhinged compared to its competitors. It's also scooping up a ton of data people post on X. Here's how to keep your posts out of Grok—and why you should."
+2024-09-09 10:51:26,675 - INFO - Generating summary with BART model
+2024-09-09 10:51:31,336 - INFO - Tweet posted successfully: Response(data={'id': '1833095886156792217', 'text': "xAI's generative AI tool, Grok AI, is unhinged compared to its competitors. It's also scooping up a ton..[read more👇🏼] https://t.co/IlGy2cYfR5", 'edit_history_tweet_ids': ['1833095886156792217']}, includes={}, errors=[], meta={})
+2024-09-09 10:51:31,336 - INFO - Saved posted URL: https://www.wired.com/story/grok-ai-privacy-opt-out/ at 2024-09-09 10:51:31
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/7-ai-tricks-for-work-productivity-that-you-should-try-and-1-you-shouldnt/#ftag=CAD590a51e
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/would-you-take-guitar-lessons-from-an-ai-powered-jimi-hendrix-the-future-could-have-a-purple-haze
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fcfr0m/discussion_is_ted_chiang_right_about_ai_art/
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/elon-musk-says-tesla-has-no-need-to-license-xai-models/
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model/
+2024-09-09 10:51:31,337 - INFO - This link is already posted: https://www.pcmag.com/explainers/ai-tools-in-website-builders-that-can-save-you-time-and-money
