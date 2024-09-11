@@ -1,0 +1,23 @@
+2024-09-11 09:50:32,792 - INFO - Starting configuration setup
+2024-09-11 09:50:32,792 - INFO - Environment variables loaded successfully
+2024-09-11 09:50:32,792 - INFO - Twitter API client initialized successfully
+2024-09-11 09:50:35,338 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-11 09:50:43,621 - INFO - Summarization model initialized successfully
+2024-09-11 09:50:43,621 - INFO - Starting tweet scheduling
+2024-09-11 09:50:43,621 - INFO - Tweeting process started at 2024-09-11 09:50:43.621778!
+2024-09-11 09:50:43,622 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep11.csv
+2024-09-11 09:50:43,622 - INFO - Fetching latest tech news from RSS feeds
+2024-09-11 09:50:50,998 - INFO - Total entries found: 427
+2024-09-11 09:50:51,000 - INFO - Recent AI-related entries found: 12
+2024-09-11 09:50:51,000 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/inmobi-secures-100-million-for-ai-acquisitions-ahead-of-ipo/
+2024-09-11 09:50:51,000 - INFO - This link is already posted: https://www.cnet.com/tech/taylor-swift-endorses-kamala-harris-calls-out-donald-trumps-fake-ai-post/#ftag=CAD590a51e
+2024-09-11 09:50:51,000 - INFO - This link is already posted: https://www.theverge.com/2024/9/10/24241538/taylor-swift-endorses-kamala-harris-donald-trump-ai-endorsement-deepfake
+2024-09-11 09:50:51,000 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/sergey-brin-says-hes-working-at-google-pretty-much-every-day-on-ai/
+2024-09-11 09:50:51,000 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/senate-leaders-ask-ftc-to-investigate-ai-content-summaries-as-anti-competitive/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/bumble-to-leverage-ai-to-help-users-with-profiles-and-conversations/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://www.pcmag.com/news/audible-invites-audiobook-narrators-to-create-ai-voice-replicas
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/what-is-google-gemini-ai/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/apple-punts-on-ai/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fdo2fm/np_new_ai_lab_startup_hiring_interns/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://www.wired.com/story/bad-kamala-harris-ai-generated-images/
+2024-09-11 09:50:51,001 - INFO - This link is already posted: https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/
