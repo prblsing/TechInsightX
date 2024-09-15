@@ -3,6 +3,8 @@ import logging
 from dotenv import load_dotenv
 import tweepy
 from datetime import datetime
+import re
+from collections import Counter
 
 # Setup directory and log file
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -56,22 +58,119 @@ except Exception as e:
     logger.critical('Failed to initialize Twitter API client', exc_info=True)
     raise
 
+# Define a list of AI and technology-related terms
+tech_terms = set([
+    'ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning', 'neural network',
+    'technology', 'tech', 'software', 'hardware', 'computer', 'algorithm', 'data',
+    'digital', 'innovation', 'startup', 'internet', 'cloud', 'iot', 'robotics',
+    'automation', 'blockchain', 'cybersecurity', 'programming', 'coding', 'app',
+    'mobile', 'web', 'network', 'server', 'database', 'analytics', 'vr', 'ar',
+    'virtual reality', 'augmented reality', 'quantum computing', '5g', 'cryptocurrency',
+    'bitcoin', 'fintech', 'biotech', 'nanotech', 'big data', 'api', 'ui', 'ux',
+    'devops', 'agile', 'saas', 'paas', 'iaas', 'edge computing', 'microservices'
+])
 
-def fetch_trending_hashtags():
+
+def smart_tokenize(text):
     """
-    Fetch trending hashtags for given markets.
+    A smarter tokenizer that preserves capitalized words and handles punctuation.
     """
-    try:
-        hashtags = set()
-        for market in markets:
-            logger.info(f'Fetching trending hashtags for market: {market}')
-            trends = client.get_place_trends(id=market.strip())
-            if trends:
-                for trend in trends[0]['trends']:
-                    if trend['name'].startswith('#'):
-                        hashtags.add(trend['name'])
-        logger.info(f'Top trending hashtags: {hashtags}')
-        return list(hashtags)
-    except Exception as e:
-        logger.error(f'Failed to fetch trending hashtags: {e}')
-        return []
+    # Split on whitespace while preserving capitalized words
+    tokens = re.findall(r'\b(?:[A-Z][a-z]+|[a-z]+|[A-Z]+)\b', text)
+    return tokens
+
+
+def extract_keywords(content):
+    """
+    Extracts keywords from the given content using a smarter approach.
+    Args:
+        content (str): The content to extract keywords from.
+    Returns:
+        list: A list of keywords.
+    """
+    tokens = smart_tokenize(content)
+    # A more comprehensive list of stop words
+    stop_words = set(
+        ['the', 'a', 'an', 'in', 'on', 'at', 'for', 'to', 'of', 'and', 'or', 'but', 'is', 'are', 'was', 'were', 'be',
+         'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'can', 'could',
+         'may', 'might', 'must', 'ought', 'i', 'you', 'he', 'she', 'it', 'we', 'they', 'them', 'their', 'this', 'that',
+         'these', 'those'])
+
+    # Keep capitalized words and words not in stop_words
+    keywords = [word for word in tokens if word not in stop_words or word[0].isupper()]
+
+    # Count frequency of keywords
+    keyword_freq = Counter(keywords)
+
+    # Calculate relevance score (frequency + tech relevance)
+    keyword_scores = {}
+    for word, freq in keyword_freq.items():
+        tech_relevance = 1 if word.lower() in tech_terms else 0
+        keyword_scores[word] = freq + tech_relevance * 2  # Give more weight to tech terms
+
+    # Sort keywords by score, then by length (prefer longer words)
+    sorted_keywords = sorted(keyword_scores.items(), key=lambda x: (-x[1], -len(x[0])))
+
+    # Take the top 5 keywords
+    top_keywords = [word for word, _ in sorted_keywords[:5]]
+
+    return top_keywords
+
+
+def generate_hashtags(keywords):
+    """
+    Generates hashtags from the list of keywords.
+    Args:
+        keywords (list): A list of keywords.
+    Returns:
+        list: A list of hashtags.
+    """
+    hashtags = ['#' + keyword for keyword in keywords]
+    return hashtags
+
+
+def generate_hashtags_from_content(content):
+    """
+    Extracts keywords from the content and generates hashtags.
+    Args:
+        content (str): The content to extract keywords from and generate hashtags.
+    Returns:
+        list: A list of the top two most relevant hashtags.
+    """
+    keywords = extract_keywords(content)
+    all_hashtags = generate_hashtags(keywords)
+
+    # Filter hashtags for tech relevance
+    tech_relevant_hashtags = [
+        hashtag for hashtag in all_hashtags
+        if hashtag[1:].lower() in tech_terms  # Remove '#' for comparison
+    ]
+
+    # If we have at least 2 tech-relevant hashtags, return those
+    if len(tech_relevant_hashtags) >= 2:
+        return tech_relevant_hashtags[:2]
+    # If we have 1 tech-relevant hashtag, return it plus the next most relevant hashtag
+    elif len(tech_relevant_hashtags) == 1:
+        return tech_relevant_hashtags + [hashtag for hashtag in all_hashtags if hashtag not in tech_relevant_hashtags][
+                                        :1]
+    # If no tech-relevant hashtags, return the top 2 from the original list
+    else:
+        return all_hashtags[:2]
+
+
+# Example usage
+if __name__ == "__main__":
+    test_cases = [
+        "Google's new passport app lets you scan your passport. Chrome syncs your tabs everywhere, and Apple..[read more]",
+        "Artificial Intelligence and Machine Learning are revolutionizing the tech industry.",
+        "Breaking: SpaceX successfully launches Starship, marking a new era in space exploration.",
+        "New study shows that regular exercise can significantly improve mental health.",
+        "Apple unveils iPhone 15 with groundbreaking features at their annual event.",
+        "Tech giants collaborate on new AI ethics guidelines to ensure responsible development.",
+    ]
+
+    for i, case in enumerate(test_cases, 1):
+        hashtags = generate_hashtags_from_content(case)
+        print(f"\nTest case {i}:")
+        print("Content:", case)
+        print("Generated hashtags:", hashtags)
