@@ -1,9 +1,9 @@
 import os
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 from news_fetcher import fetch_latest_tech_news
 from content_generator import clean_text, summarize_with_llm
-from config import log_dir, client, markets
+from config import log_dir, fetch_trending_hashtags
 import csv
 
 posted_urls = {}
@@ -38,25 +38,6 @@ def save_posted_url(url, file_path=posted_links_file):
         writer.writerow([url, current_date, date_time])
     logging.info(f'Saved posted URL: {url} at {date_time}')
 
-def fetch_trending_hashtags(markets):
-    """Fetch trending hashtags for multiple markets using Twitter API."""
-    hashtags = []
-    try:
-        for market in markets:
-            market = market.strip()
-            trends = client.get_place_trends(id=market)
-            market_hashtags = [trend['name'] for trend in trends[0]['trends'] if trend['name'].startswith('#')]
-            hashtags.extend(market_hashtags)
-            logging.info(f'Fetched trending hashtags for market {market}: {market_hashtags}')
-        
-        # Filter relevant hashtags related to AI
-        relevant_hashtags = [tag for tag in hashtags if 'AI' in tag or 'ai' in tag or 'artificialintelligence' in tag]
-        logging.info(f'Relevant hashtags: {relevant_hashtags}')
-        return relevant_hashtags[:5]  # Limit to the top 5 relevant hashtags
-    except Exception as e:
-        logging.error(f"Failed to fetch trending hashtags: {str(e)}")
-        return []
-
 def tweet_ai_news():
     logging.info(f'Tweeting process started at {datetime.now()}!')
     initialize_posted_links_file()
@@ -64,7 +45,7 @@ def tweet_ai_news():
     try:
         tech_news = fetch_latest_tech_news()
         if tech_news:
-            trending_hashtags = fetch_trending_hashtags(markets)
+            hashtags = fetch_trending_hashtags()
             for title, content, link in tech_news:
                 if link in posted_urls:
                     logging.info(f'This link is already posted: {link}')
@@ -75,10 +56,16 @@ def tweet_ai_news():
                 clean_content = clean_text(f"{content}")
                 logging.info(f"clean content - {clean_content=}")
                 final_tweet = summarize_with_llm(clean_content, max_length=120)
-                full_tweet = f"{final_tweet} {link} {' '.join(trending_hashtags)}"
 
-                response = client.create_tweet(text=full_tweet)
-                logging.info(f'Tweet posted successfully: {response}')
+                # Add hashtags to the tweet
+                if hashtags:
+                    final_tweet += " " + " ".join(hashtags[:3])
+
+                full_tweet = f"{final_tweet} {link}"
+
+                # Uncomment the next line to actually post the tweet
+                # response = client.create_tweet(text=full_tweet)
+                # logging.info(f'Tweet posted successfully: {response}')
 
                 save_posted_url(link)
         else:
