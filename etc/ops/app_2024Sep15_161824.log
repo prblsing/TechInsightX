@@ -1,0 +1,17 @@
+2024-09-15 16:18:24,250 - INFO - Starting configuration setup
+2024-09-15 16:18:24,250 - INFO - Environment variables loaded successfully
+2024-09-15 16:18:24,250 - INFO - Twitter API client initialized successfully
+2024-09-15 16:18:26,310 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 16:18:47,303 - INFO - Model initialized successfully
+2024-09-15 16:18:47,303 - INFO - Starting tweet scheduling
+2024-09-15 16:18:47,303 - INFO - Tweeting process started at 2024-09-15 16:18:47.303742!
+2024-09-15 16:18:47,616 - CRITICAL - Unhandled exception in main application
+Traceback (most recent call last):
+  File "/home/runner/work/TechInsightX/TechInsightX/src/main.py", line 11, in <module>
+    tweet_ai_news()
+  File "/home/runner/work/TechInsightX/TechInsightX/src/scheduler.py", line 48, in tweet_ai_news
+    load_posted_urls()
+  File "/home/runner/work/TechInsightX/TechInsightX/src/scheduler.py", line 30, in load_posted_urls
+    posted_urls[row["Link"]] = row["DateTime"]
+                               ~~~^^^^^^^^^^^^
+KeyError: 'DateTime'
