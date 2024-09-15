@@ -65,7 +65,11 @@ def fetch_latest_tech_news() -> List[Tuple[str, str, str]]:
     "https://feed.infoq.com/",
     "https://venturebeat.com/category/ai/feed/",
     "https://hbr.org/feed",
-    "https://sloanreview.mit.edu/feed/"
+    "https://sloanreview.mit.edu/feed/",
+    "https://businessoutreach.in/startup/feed",
+    "https://startupindiamagazine.com/feed",
+    "https://inc42.com/flash-feed",
+    "https://siliconindia.com/rss/newsrss.php"
     ]
 
     all_entries = []
