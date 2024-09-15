@@ -54,3 +54,17 @@ except KeyError as e:
 except Exception as e:
     logging.critical('Failed to initialize Twitter API client', exc_info=True)
     raise
+
+
+def fetch_trending_hashtags():
+    hashtags = []
+    try:
+        for market in markets:
+            trends = client.get_trends_place(int(market))  # Correct API method
+            for trend in trends[0]['trends']:
+                if trend['name'].startswith('#'):
+                    hashtags.append(trend['name'])
+        logging.info(f"Trending hashtags fetched: {hashtags}")
+    except Exception as e:
+        logging.error(f"Failed to fetch trending hashtags: {str(e)}")
+    return hashtags
