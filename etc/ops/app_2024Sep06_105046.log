@@ -1,0 +1,32 @@
+2024-09-06 10:50:46,982 - INFO - Starting configuration setup
+2024-09-06 10:50:46,983 - INFO - Environment variables loaded successfully
+2024-09-06 10:50:46,983 - INFO - Twitter API client initialized successfully
+2024-09-06 10:50:49,102 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-06 10:51:21,717 - INFO - Model initialized successfully
+2024-09-06 10:51:21,717 - INFO - Starting tweet scheduling
+2024-09-06 10:51:21,718 - INFO - Tweeting process started at 2024-09-06 10:51:21.718044!
+2024-09-06 10:51:21,718 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep06.csv
+2024-09-06 10:51:21,718 - INFO - Fetching latest tech news from RSS feeds
+2024-09-06 10:51:30,013 - INFO - Total entries found: 427
+2024-09-06 10:51:30,015 - INFO - Recent AI-related entries found: 13
+2024-09-06 10:51:30,015 - INFO - Input content - content='Despite eliminating some roles, AI will likely create more new positions – this report says workers shouldn’t be worried.'
+2024-09-06 10:51:30,015 - INFO - clean content - clean_content='Despite eliminating some roles, AI will likely create more new positions – this report says workers shouldn’t be worried.'
+2024-09-06 10:51:30,015 - INFO - Generating summary with LLM
+2024-09-06 10:52:50,527 - INFO - Tweet posted successfully: Response(data={'id': '1832009054665023692', 'edit_history_tweet_ids': ['1832009054665023692'], 'text': 'The latest research from the Office for National Statistics (ONS) is a welcome addition to our knowledge..[read more👇🏼] https://t.co/yZKWtzPzMB'}, includes={}, errors=[], meta={})
+2024-09-06 10:52:50,528 - INFO - Saved posted URL: https://www.techradar.com/pro/ai-could-boost-uk-job-market-by-610-000 at 2024-09-06 10:52:50
+2024-09-06 10:52:50,528 - INFO - Input content - content='This week on Politics Lab, we’re talking about AI’s potential impact on the election—and why it’s so hard to regulate nationwide.'
+2024-09-06 10:52:50,528 - INFO - clean content - clean_content='This week on Politics Lab, we’re talking about AI’s potential impact on the election—and why it’s so hard to regulate nationwide.'
+2024-09-06 10:52:50,528 - INFO - Generating summary with LLM
+2024-09-06 10:54:10,119 - INFO - Tweet posted successfully: Response(data={'id': '1832009388418306093', 'text': 'Please note that I’m not asking for any donations, nor am I asking for you to write a story or article...[read more👇🏼] https://t.co/42V2kTVpGs', 'edit_history_tweet_ids': ['1832009388418306093']}, includes={}, errors=[], meta={})
+2024-09-06 10:54:10,120 - INFO - Saved posted URL: https://www.wired.com/story/deepfake-porn-election/ at 2024-09-06 10:54:10
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.theverge.com/2024/9/5/24236980/us-signs-legally-enforceable-ai-treaty
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/this-ai-model-can-create-a-super-mario-game-using-a-text-to-video-generator
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-makes-ai-deepfake-detection-tools-for-voices-faces
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/googles-ai-powered-ask-photos-feature-begins-u-s-rollout/
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/all-hands-ai-raises-5m-to-build-open-source-agents-for-developers/
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/german-llm-maker-aleph-alpha-pivots-to-ai-support/
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/lenovo-levels-up-its-laptop-lines-worldwide-with-amd-strix-point-ai-chips
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/this-startup-wants-to-tackle-ai-energy-demands-with-data-centers-in-space
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f9n9zk/ai_longevity_cognition_in_boston_d/
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/honor-claims-its-ai-infused-folding-phone-is-the-worlds-thinnest
+2024-09-06 10:54:10,120 - INFO - This link is already posted: https://www.pcmag.com/news/tcl-partners-with-microsoft-to-bring-ai-to-its-nxtpaper-smartphones

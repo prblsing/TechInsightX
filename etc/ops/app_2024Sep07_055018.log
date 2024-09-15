@@ -1,0 +1,30 @@
+2024-09-07 05:50:18,988 - INFO - Starting configuration setup
+2024-09-07 05:50:18,988 - INFO - Environment variables loaded successfully
+2024-09-07 05:50:18,988 - INFO - Twitter API client initialized successfully
+2024-09-07 05:50:20,875 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-07 05:50:40,976 - INFO - Model initialized successfully
+2024-09-07 05:50:40,976 - INFO - Starting tweet scheduling
+2024-09-07 05:50:40,976 - INFO - Tweeting process started at 2024-09-07 05:50:40.976529!
+2024-09-07 05:50:40,976 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep07.csv
+2024-09-07 05:50:40,976 - INFO - Fetching latest tech news from RSS feeds
+2024-09-07 05:50:49,926 - INFO - Total entries found: 427
+2024-09-07 05:50:49,929 - INFO - Recent AI-related entries found: 19
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1favw49/d_what_exactly_is_datacentric_ai_is_a_datacentric/
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/what-is-apple-intelligence-everything-to-know-about-iphone-16-ai-features/#ftag=CAD590a51e
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ever-wanted-to-be-in-a-commercial-this-airline-will-do-just-that-through-the-power-of-ai
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://techcrunch.com/2024/09/06/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-video-tool-recreates-super-mario-bros-but-its-so-glitchy
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1faodzs/d_why_arent_there_ethical_ai_saas_products/
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.theverge.com/2024/9/6/24237760/doj-google-search-antitrust-remedies-artificial-intelligence
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/ai-best-practices
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.wired.com/story/new-ai-model-can-simulate-super-mario-bros-after-watching-gameplay-footage/
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.pcmag.com/news/roblox-builds-open-source-3d-ai-model-adds-tech-for-faster-game-loading
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.pcmag.com/news/hands-on-amazfit-t-rex-3-smartwatch-delivers-ai-strength-training-guidance
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/ask-ai
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://techcrunch.com/2024/09/06/roblox-introduces-new-earning-opportunities-for-creators-teases-generative-ai-project/
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/generative-ai
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.pcmag.com/news/ai-models-from-google-meta-others-may-not-be-truly-open-source
+2024-09-07 05:50:49,929 - INFO - This link is already posted: https://www.pcmag.com/news/musician-arrested-for-using-ai-music-and-bots-to-swindle-royalties-from
+2024-09-07 05:50:49,930 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1facpyh/d_for_people_who_care_about_output_quality_and/
+2024-09-07 05:50:49,930 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1facftg/d_can_ai_scaling_continue_through_2030/
+2024-09-07 05:50:49,930 - INFO - This link is already posted: https://www.wired.com/story/deepfake-porn-election/

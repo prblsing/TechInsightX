@@ -1,0 +1,32 @@
+2024-09-09 02:05:16,015 - INFO - Starting configuration setup
+2024-09-09 02:05:16,015 - INFO - Environment variables loaded successfully
+2024-09-09 02:05:16,016 - INFO - Twitter API client initialized successfully
+2024-09-09 02:05:17,959 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-09 02:05:26,218 - INFO - Summarization model initialized successfully
+2024-09-09 02:05:26,218 - INFO - Starting tweet scheduling
+2024-09-09 02:05:26,218 - INFO - Tweeting process started at 2024-09-09 02:05:26.218950!
+2024-09-09 02:05:26,219 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep09.csv
+2024-09-09 02:05:26,219 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep09.csv
+2024-09-09 02:05:26,219 - INFO - Fetching latest tech news from RSS feeds
+2024-09-09 02:05:33,289 - INFO - Total entries found: 427
+2024-09-09 02:05:33,291 - INFO - Recent AI-related entries found: 4
+2024-09-09 02:05:33,291 - INFO - Input content - content='<p>Elon Musk has denied a report that one of his companies, Tesla, has discussed sharing revenue with another of his companies, xAI, so that it can use the startup&#8217;s AI models. The Wall Street Journal wrote yesterday that under a proposed agreement described to investors, Tesla would use xAI models in its driver-assistance software (known [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-09 02:05:33,291 - INFO - clean content - clean_content='Elon Musk has denied a report that one of his companies, Tesla, has discussed sharing revenue with another of his companies, xAI, so that it can use the startup&#8217;s AI models. The Wall Street Journal wrote yesterday that under a proposed agreement described to investors, Tesla would use xAI models in its driver-assistance software (known [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-09 02:05:33,291 - INFO - Generating summary with BART model
+2024-09-09 02:05:40,590 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1832963552757305676'], 'id': '1832963552757305676', 'text': 'Elon Musk has denied a report that Tesla has discussed sharing revenue with another of his companies,..[read more👇🏼] https://t.co/nUn2o1KaEd'}, includes={}, errors=[], meta={})
+2024-09-09 02:05:40,591 - INFO - Saved posted URL: https://techcrunch.com/2024/09/08/elon-musk-says-tesla-has-no-need-to-license-xai-models/ at 2024-09-09 02:05:40
+2024-09-09 02:05:40,591 - INFO - Input content - content='Cerebras demos million-core super AI inference chip and you can try it for free'
+2024-09-09 02:05:40,591 - INFO - clean content - clean_content='Cerebras demos million-core super AI inference chip and you can try it for free'
+2024-09-09 02:05:40,591 - INFO - Generating summary with BART model
+2024-09-09 02:05:44,951 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1832963570939625763'], 'id': '1832963570939625763', 'text': 'Cerebras demos million-core super AI inference chip and you can try it for free. Cerebras demo chip is..[read more👇🏼] https://t.co/1vanHdKg6J'}, includes={}, errors=[], meta={})
+2024-09-09 02:05:44,951 - INFO - Saved posted URL: https://www.techradar.com/pro/it-is-obscenely-fast-biggest-rival-to-nvidia-demos-million-core-super-ai-inference-chip-that-obliterates-the-dgx100-with-i44gb-of-super-fast-memory-and-you-can-even-try-it-for-free at 2024-09-09 02:05:44
+2024-09-09 02:05:44,952 - INFO - Input content - content='<p>Like other generative AI models, Llama can perform a range of different assistive tasks, like coding and answering basic math questions, as well as summarizing documents in eight languages.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-09 02:05:44,952 - INFO - clean content - clean_content='Like other generative AI models, Llama can perform a range of different assistive tasks, like coding and answering basic math questions, as well as summarizing documents in eight languages. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-09 02:05:44,952 - INFO - Generating summary with BART model
+2024-09-09 02:05:49,514 - INFO - Tweet posted successfully: Response(data={'id': '1832963590157918353', 'edit_history_tweet_ids': ['1832963590157918353'], 'text': 'Llama can perform a range of different assistive tasks, like coding and answering basic math questions...[read more👇🏼] https://t.co/wVYd2e5sNj'}, includes={}, errors=[], meta={})
+2024-09-09 02:05:49,514 - INFO - Saved posted URL: https://techcrunch.com/2024/09/08/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model/ at 2024-09-09 02:05:49
+2024-09-09 02:05:49,514 - INFO - Input content - content='GoDaddy, Squarespace, Wix, and several other website builders have AI features that let you create a dream site without spending big bucks on a pricey design team.'
+2024-09-09 02:05:49,514 - INFO - clean content - clean_content='GoDaddy, Squarespace, Wix, and several other website builders have AI features that let you create a dream site without spending big bucks on a pricey design team.'
+2024-09-09 02:05:49,514 - INFO - Generating summary with BART model
+2024-09-09 02:05:53,924 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1832963608780673406'], 'id': '1832963608780673406', 'text': 'GoDaddy, Squarespace, Wix, and several other website builders have AI features that let you create a..[read more👇🏼] https://t.co/lKH2xmUNYq'}, includes={}, errors=[], meta={})
+2024-09-09 02:05:53,925 - INFO - Saved posted URL: https://www.pcmag.com/explainers/ai-tools-in-website-builders-that-can-save-you-time-and-money at 2024-09-09 02:05:53

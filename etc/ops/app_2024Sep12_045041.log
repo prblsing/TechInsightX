@@ -1,0 +1,30 @@
+2024-09-12 04:50:41,109 - INFO - Starting configuration setup
+2024-09-12 04:50:41,110 - INFO - Environment variables loaded successfully
+2024-09-12 04:50:41,110 - INFO - Twitter API client initialized successfully
+2024-09-12 04:50:43,091 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-12 04:50:51,523 - INFO - Summarization model initialized successfully
+2024-09-12 04:50:51,523 - INFO - Starting tweet scheduling
+2024-09-12 04:50:51,523 - INFO - Tweeting process started at 2024-09-12 04:50:51.523527!
+2024-09-12 04:50:51,523 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep12.csv
+2024-09-12 04:50:51,523 - INFO - Fetching latest tech news from RSS feeds
+2024-09-12 04:50:59,531 - INFO - Total entries found: 427
+2024-09-12 04:50:59,534 - INFO - Recent AI-related entries found: 19
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.techradar.com/pro/meta-admits-it-has-scraped-all-facebook-posts-since-2007-to-train-ai
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/ai-code
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.wired.com/story/apple-image-playground-craig-federighi-dog/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.theverge.com/2024/9/11/24242138/google-notebook-llm-ai-fake-podcasts-research
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.pcmag.com/news/google-ai-turns-your-notes-into-a-lively-podcast-with-2-fake-hosts
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/bumble-is-giving-you-new-ai-tools-to-find-love
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.theverge.com/2024/9/11/24242142/sag-aftra-ai-now-gavin-newsom-safety-sb-1047-letters
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/openai-reportedly-in-talks-to-raise-at-150b-valuation/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.wired.com/story/apple-private-cloud-compute-ai/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.wired.com/story/an-ai-bot-named-james-has-my-old-local-news-job/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.techradar.com/pro/micro-nuclear-reactors-could-cost-as-little-as-20-million-and-launch-by-2031-but-will-it-be-enough-for-data-center-operators-and-the-ai-industry
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/taylor-swift-cites-fears-around-ai-as-she-endorses-the-democratic-ticket/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/this-week-in-ai-openais-new-strawberry-model-may-be-smart-yet-sluggish/
+2024-09-12 04:50:59,534 - INFO - This link is already posted: https://www.wired.com/story/hume-ai-emotional-intelligence/
+2024-09-12 04:50:59,535 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fee8al/d_what_happened_to_asus_ai_accelerator_pcie_card/
+2024-09-12 04:50:59,535 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/googles-ai-note-taking-app-notebooklm-can-now-explain-complex-topics-to-you-out-loud/
+2024-09-12 04:50:59,535 - INFO - This link is already posted: https://www.pcmag.com/news/ai-generated-swifties-for-trump-photos-prompt-taylor-swift-to-endorse-harris
+2024-09-12 04:50:59,535 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/meet-verse-an-ai-powered-creative-app-that-helps-gen-z-design-and-publish-expressive-content/
+2024-09-12 04:50:59,535 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-reportedly-laying-off-staff-in-global-cuts-despite-ai-chip-boom

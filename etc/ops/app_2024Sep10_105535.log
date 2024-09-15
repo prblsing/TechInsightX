@@ -1,0 +1,31 @@
+2024-09-10 10:55:35,979 - INFO - Starting configuration setup
+2024-09-10 10:55:35,979 - INFO - Environment variables loaded successfully
+2024-09-10 10:55:35,979 - INFO - Twitter API client initialized successfully
+2024-09-10 10:55:38,007 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-10 10:55:45,751 - INFO - Summarization model initialized successfully
+2024-09-10 10:55:45,751 - INFO - Starting tweet scheduling
+2024-09-10 10:55:45,751 - INFO - Tweeting process started at 2024-09-10 10:55:45.751946!
+2024-09-10 10:55:45,752 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep10.csv
+2024-09-10 10:55:45,752 - INFO - Fetching latest tech news from RSS feeds
+2024-09-10 10:55:52,932 - INFO - Total entries found: 427
+2024-09-10 10:55:52,934 - INFO - Recent AI-related entries found: 12
+2024-09-10 10:55:52,934 - INFO - Input content - content='Race and gender are part of it, but there’s more to those unconvincing pictures of the presidential candidate.'
+2024-09-10 10:55:52,934 - INFO - clean content - clean_content='Race and gender are part of it, but there’s more to those unconvincing pictures of the presidential candidate.'
+2024-09-10 10:55:52,934 - INFO - Generating summary with BART model
+2024-09-10 10:55:59,185 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1833459397336453346'], 'id': '1833459397336453346', 'text': 'Race and gender are part of it, but there’s more to those unconvincing pictures of the presidential..[read more👇🏼] https://t.co/We4tYjm58E'}, includes={}, errors=[], meta={})
+2024-09-10 10:55:59,186 - INFO - Saved posted URL: https://www.wired.com/story/bad-kamala-harris-ai-generated-images/ at 2024-09-10 10:55:59
+2024-09-10 10:55:59,186 - INFO - Input content - content='As the head of Alphabet’s AI-powered robotics moonshot, I came to believe many things. For one, robots can’t come soon enough. For another, they shouldn’t look like us.'
+2024-09-10 10:55:59,186 - INFO - clean content - clean_content='As the head of Alphabet’s AI-powered robotics moonshot, I came to believe many things. For one, robots can’t come soon enough. For another, they shouldn’t look like us.'
+2024-09-10 10:55:59,186 - INFO - Generating summary with BART model
+2024-09-10 10:56:03,984 - INFO - Tweet posted successfully: Response(data={'id': '1833459417481646573', 'edit_history_tweet_ids': ['1833459417481646573'], 'text': "Alphabet's Eric Schmidt is the head of the company's AI-powered robotics moonshot. He says robots can't..[read more👇🏼] https://t.co/EXeE1SPXge"}, includes={}, errors=[], meta={})
+2024-09-10 10:56:03,984 - INFO - Saved posted URL: https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/ at 2024-09-10 10:56:03
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://www.techradar.com/pro/mi6-and-cia-are-combatting-tech-savvy-criminals-with-generative-ai
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-new-ai-gaming-engine-can-recreate-doom-and-basically-all-your-other-favorite-games-too
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/heart-disease-is-the-worlds-biggest-killer-this-cambridge-uni-spinout-is-using-ai-to-find-new-treatments/
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fd5znf/ai_is_theft_steal_my_aesthetic_with_a_lora_i/
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://www.wired.com/story/james-earl-jones-darth-vader-death-artificial-intelligence/
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/apple-upgrades-watchos-with-ai-powered-features-including-translation/
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://www.theverge.com/2024/9/9/24240173/amd-udna-gpu-ai-gaming-rdna-cdna-jack-huynh
+2024-09-10 10:56:03,984 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/audible-recruits-voice-actors-to-train-audiobook-generating-ai/
+2024-09-10 10:56:03,985 - INFO - This link is already posted: https://www.wired.com/story/google-pixel-watch-3-running-coach-features/
+2024-09-10 10:56:03,985 - INFO - This link is already posted: https://www.pcmag.com/deals/this-tool-can-grow-your-business-with-ai-powered-b2b-intelligence

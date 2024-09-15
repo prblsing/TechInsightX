@@ -1,6 +1,7 @@
 import feedparser
 from typing import List, Tuple
 from config import *
+from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)
 
@@ -13,24 +14,58 @@ def fetch_latest_tech_news() -> List[Tuple[str, str, str]]:
         A list of tuples containing the title, summary, and link of the news articles.
     """
     logging.info('Fetching latest tech news from RSS feeds')
+    # rss_feeds = [
+    #     "https://blog.ml.cmu.edu/feed/",
+    #     "https://code.facebook.com/posts/rss",
+    #     "https://deepmind.com/blog/feed/basic/",
+    #     "http://news.mit.edu/rss/topic/artificial-intelligence2",
+    #     "http://www.reddit.com/r/MachineLearning/.rss",
+    #     "https://techcrunch.com/feed/",
+    #     "https://www.wired.com/feed/rss",
+    #     "https://www.theverge.com/rss/index.xml",
+    #     "https://feeds.feedburner.com/TechCrunch/startups",
+    #     "https://www.cnet.com/rss/news/",
+    #     "https://blogs.gartner.com/smarterwithgartner/feed/",
+    #     "https://techradar.com/rss",
+    #     "http://pcmag.com/feeds/rss/latest",
+    #     "https://nesslabs.com/feed",
+    #     "http://www.forbes.com/entrepreneurs/index.xml",
+    #     "https://developer.atlassian.com/blog/feed.xml",
+    #     "https://blog.twitter.com/engineering/en_us/blog.rss"
+    # ]
     rss_feeds = [
-        "https://blog.ml.cmu.edu/feed/",
-        "https://code.facebook.com/posts/rss",
-        "https://deepmind.com/blog/feed/basic/",
-        "http://news.mit.edu/rss/topic/artificial-intelligence2",
-        "http://www.reddit.com/r/MachineLearning/.rss",
-        "https://techcrunch.com/feed/",
-        "https://www.wired.com/feed/rss",
-        "https://www.theverge.com/rss/index.xml",
-        "https://feeds.feedburner.com/TechCrunch/startups",
-        "https://www.cnet.com/rss/news/",
-        "https://blogs.gartner.com/smarterwithgartner/feed/",
-        "https://techradar.com/rss",
-        "http://pcmag.com/feeds/rss/latest",
-        "https://nesslabs.com/feed",
-        "http://www.forbes.com/entrepreneurs/index.xml",
-        "https://developer.atlassian.com/blog/feed.xml",
-        "https://blog.twitter.com/engineering/en_us/blog.rss"
+    "https://blog.ml.cmu.edu/feed/",
+    "https://code.facebook.com/posts/rss",
+    "https://deepmind.com/blog/feed/basic/",
+    "http://news.mit.edu/rss/topic/artificial-intelligence2",
+    "http://www.reddit.com/r/MachineLearning/.rss",
+    "https://techcrunch.com/feed/",
+    "https://www.wired.com/feed/rss",
+    "https://www.theverge.com/rss/index.xml",
+    "https://feeds.feedburner.com/TechCrunch/startups",
+    "https://www.cnet.com/rss/news/",
+    "https://blogs.gartner.com/smarterwithgartner/feed/",
+    "https://techradar.com/rss",
+    "http://pcmag.com/feeds/rss/latest",
+    "https://nesslabs.com/feed",
+    "http://www.forbes.com/entrepreneurs/index.xml",
+    "https://developer.atlassian.com/blog/feed.xml",
+    "https://blog.twitter.com/engineering/en_us/blog.rss",
+    "https://towardsdatascience.com/feed",
+    "https://openai.com/research/feed.xml",
+    "https://distill.pub/rss.xml",
+    "https://ai.googleblog.com/feeds/posts/default",
+    "https://www.microsoft.com/en-us/research/feed/",
+    "https://www.kdnuggets.com/feed",
+    "https://www.datacamp.com/community/blog.rss",
+    "https://www.analyticsvidhya.com/blog/feed/",
+    "https://thenextweb.com/feed/",
+    "https://techcrunch.com/tag/artificial-intelligence/feed/",
+    "https://hnrss.org/newest",
+    "https://feed.infoq.com/",
+    "https://venturebeat.com/category/ai/feed/",
+    "https://hbr.org/feed",
+    "https://sloanreview.mit.edu/feed/"
     ]
 
     all_entries = []

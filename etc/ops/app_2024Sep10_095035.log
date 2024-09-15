@@ -1,0 +1,26 @@
+2024-09-10 09:50:35,523 - INFO - Starting configuration setup
+2024-09-10 09:50:35,524 - INFO - Environment variables loaded successfully
+2024-09-10 09:50:35,524 - INFO - Twitter API client initialized successfully
+2024-09-10 09:50:38,312 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-10 09:50:49,468 - INFO - Summarization model initialized successfully
+2024-09-10 09:50:49,468 - INFO - Starting tweet scheduling
+2024-09-10 09:50:49,468 - INFO - Tweeting process started at 2024-09-10 09:50:49.468960!
+2024-09-10 09:50:49,469 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep10.csv
+2024-09-10 09:50:49,469 - INFO - Fetching latest tech news from RSS feeds
+2024-09-10 09:50:58,500 - INFO - Total entries found: 427
+2024-09-10 09:50:58,503 - INFO - Recent AI-related entries found: 15
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.techradar.com/pro/mi6-and-cia-are-combatting-tech-savvy-criminals-with-generative-ai
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-new-ai-gaming-engine-can-recreate-doom-and-basically-all-your-other-favorite-games-too
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/heart-disease-is-the-worlds-biggest-killer-this-cambridge-uni-spinout-is-using-ai-to-find-new-treatments/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fd5znf/ai_is_theft_steal_my_aesthetic_with_a_lora_i/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/the-iphone-16s-new-ai-camera-button-owes-a-lot-to-sonys-xperia-phones/#ftag=CAD590a51e
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.wired.com/story/james-earl-jones-darth-vader-death-artificial-intelligence/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/apple-upgrades-watchos-with-ai-powered-features-including-translation/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/cnet-survey-a-quarter-of-smartphone-owners-dont-find-ai-features-helpful/#ftag=CAD590a51e
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.theverge.com/2024/9/9/24240173/amd-udna-gpu-ai-gaming-rdna-cdna-jack-huynh
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/audible-recruits-voice-actors-to-train-audiobook-generating-ai/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/youtube-can-spot-those-ai-produced-faces-and-music-tracks-youre-seeing-all-over
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://techcrunch.com/2024/09/09/heres-the-full-list-of-28-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.wired.com/story/google-pixel-watch-3-running-coach-features/
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.pcmag.com/deals/this-tool-can-grow-your-business-with-ai-powered-b2b-intelligence
+2024-09-10 09:50:58,503 - INFO - This link is already posted: https://www.wired.com/story/grok-ai-privacy-opt-out/

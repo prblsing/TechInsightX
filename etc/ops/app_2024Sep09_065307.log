@@ -1,0 +1,21 @@
+2024-09-09 06:53:07,331 - INFO - Starting configuration setup
+2024-09-09 06:53:07,331 - INFO - Environment variables loaded successfully
+2024-09-09 06:53:07,331 - INFO - Twitter API client initialized successfully
+2024-09-09 06:53:10,041 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-09 06:53:38,668 - INFO - Summarization model initialized successfully
+2024-09-09 06:53:38,668 - INFO - Starting tweet scheduling
+2024-09-09 06:53:38,668 - INFO - Tweeting process started at 2024-09-09 06:53:38.668750!
+2024-09-09 06:53:38,669 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep09.csv
+2024-09-09 06:53:38,669 - INFO - Fetching latest tech news from RSS feeds
+2024-09-09 06:53:50,102 - INFO - Total entries found: 427
+2024-09-09 06:53:50,104 - INFO - Recent AI-related entries found: 6
+2024-09-09 06:53:50,104 - INFO - Input content - content="Ultimate Guitar is using AI to tell you if you're striking the right note in your guitar practice."
+2024-09-09 06:53:50,104 - INFO - clean content - clean_content="Ultimate Guitar is using AI to tell you if you're striking the right note in your guitar practice."
+2024-09-09 06:53:50,104 - INFO - Generating summary with BART model
+2024-09-09 06:53:56,526 - INFO - Tweet posted successfully: Response(data={'id': '1833036097183764820', 'edit_history_tweet_ids': ['1833036097183764820'], 'text': "Ultimate Guitar is using AI to tell you if you're striking the right note in your guitar practice. The..[read more👇🏼] https://t.co/nxuIeCEFd6"}, includes={}, errors=[], meta={})
+2024-09-09 06:53:56,526 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/would-you-take-guitar-lessons-from-an-ai-powered-jimi-hendrix-the-future-could-have-a-purple-haze at 2024-09-09 06:53:56
+2024-09-09 06:53:56,526 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fcfr0m/discussion_is_ted_chiang_right_about_ai_art/
+2024-09-09 06:53:56,526 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/elon-musk-says-tesla-has-no-need-to-license-xai-models/
+2024-09-09 06:53:56,526 - INFO - This link is already posted: https://www.techradar.com/pro/it-is-obscenely-fast-biggest-rival-to-nvidia-demos-million-core-super-ai-inference-chip-that-obliterates-the-dgx100-with-i44gb-of-super-fast-memory-and-you-can-even-try-it-for-free
+2024-09-09 06:53:56,526 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model/
+2024-09-09 06:53:56,526 - INFO - This link is already posted: https://www.pcmag.com/explainers/ai-tools-in-website-builders-that-can-save-you-time-and-money

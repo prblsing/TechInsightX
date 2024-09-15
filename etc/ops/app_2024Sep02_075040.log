@@ -1,0 +1,19 @@
+2024-09-02 07:50:40,224 - INFO - Starting configuration setup
+2024-09-02 07:50:40,224 - INFO - Environment variables loaded successfully
+2024-09-02 07:50:40,224 - INFO - Twitter API client initialized successfully
+2024-09-02 07:50:42,160 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-02 07:51:04,597 - INFO - Model initialized successfully
+2024-09-02 07:51:04,597 - INFO - Starting tweet scheduling
+2024-09-02 07:51:04,597 - INFO - Tweeting process started at 2024-09-02 07:51:04.597647!
+2024-09-02 07:51:04,597 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep02.csv
+2024-09-02 07:51:04,597 - INFO - Fetching latest tech news from RSS feeds
+2024-09-02 07:51:11,188 - INFO - Total entries found: 427
+2024-09-02 07:51:11,190 - INFO - Recent AI-related entries found: 4
+2024-09-02 07:51:11,190 - INFO - Input content - content="It's getting harder to spot by the day, but here are some ways you can use ChatGPT to spot student papers using ChatGPT."
+2024-09-02 07:51:11,191 - INFO - clean content - clean_content="It's getting harder to spot by the day, but here are some ways you can use ChatGPT to spot student papers using ChatGPT."
+2024-09-02 07:51:11,191 - INFO - Generating summary with LLM
+2024-09-02 07:52:29,109 - INFO - Tweet posted successfully: Response(data={'text': '1.\n\nUsing ChatGPT to spot student papers\n\n2.\n\nWhat is ChatGPT?\n\n3.\n\nHow does ChatGPT work?\n\n4.\n\nChatGPT..[read more👇🏼] https://t.co/lIRzWk5ZbM', 'edit_history_tweet_ids': ['1830514114545725485'], 'id': '1830514114545725485'}, includes={}, errors=[], meta={})
+2024-09-02 07:52:29,110 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-i-use-ai-to-catch-cheaters-at-school/#ftag=CAD590a51e at 2024-09-02 07:52:29
+2024-09-02 07:52:29,110 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/the-case-against-ai-art/
+2024-09-02 07:52:29,110 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/emotion-ai-could-be-the-next-trend-for-business-software-and-that-could-be-problematic/
+2024-09-02 07:52:29,110 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-be-making-its-way-into-your-car-with-android-auto

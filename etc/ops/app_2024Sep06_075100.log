@@ -1,0 +1,28 @@
+2024-09-06 07:51:00,390 - INFO - Starting configuration setup
+2024-09-06 07:51:00,391 - INFO - Environment variables loaded successfully
+2024-09-06 07:51:00,391 - INFO - Twitter API client initialized successfully
+2024-09-06 07:51:03,262 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-06 07:51:25,515 - INFO - Model initialized successfully
+2024-09-06 07:51:25,515 - INFO - Starting tweet scheduling
+2024-09-06 07:51:25,515 - INFO - Tweeting process started at 2024-09-06 07:51:25.515707!
+2024-09-06 07:51:25,515 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep06.csv
+2024-09-06 07:51:25,516 - INFO - Fetching latest tech news from RSS feeds
+2024-09-06 07:51:32,824 - INFO - Total entries found: 427
+2024-09-06 07:51:32,826 - INFO - Recent AI-related entries found: 17
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.theverge.com/2024/9/5/24236980/us-signs-legally-enforceable-ai-treaty
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.pcmag.com/news/this-ai-model-can-create-a-super-mario-game-using-a-text-to-video-generator
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.techradar.com/computing/laptops/samsung-launches-its-galaxy-line-of-snapdragon-and-intel-powered-ai-laptops
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.theverge.com/2024/9/5/24236841/youtube-ai-detection-tools-creators-singing-deepfakes
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/google-is-adding-gemini-ai-to-chromes-address-bar-which-may-be-a-better-idea-than-you-think
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-makes-ai-deepfake-detection-tools-for-voices-faces
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.techradar.com/home/smart-home/oh-no-i-might-actually-want-lg-s-infuriatingly-adorable-ai-robot-smart-home-hub
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/googles-ai-powered-ask-photos-feature-begins-u-s-rollout/
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/all-hands-ai-raises-5m-to-build-open-source-agents-for-developers/
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/german-llm-maker-aleph-alpha-pivots-to-ai-support/
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark/
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://techcrunch.com/2024/09/05/google-expands-ai-powered-virtual-try-on-tool-include-dresses/
+2024-09-06 07:51:32,826 - INFO - This link is already posted: https://www.pcmag.com/news/lenovo-levels-up-its-laptop-lines-worldwide-with-amd-strix-point-ai-chips
+2024-09-06 07:51:32,827 - INFO - This link is already posted: https://www.pcmag.com/news/this-startup-wants-to-tackle-ai-energy-demands-with-data-centers-in-space
+2024-09-06 07:51:32,827 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f9n9zk/ai_longevity_cognition_in_boston_d/
+2024-09-06 07:51:32,827 - INFO - This link is already posted: https://www.pcmag.com/news/honor-claims-its-ai-infused-folding-phone-is-the-worlds-thinnest
+2024-09-06 07:51:32,827 - INFO - This link is already posted: https://www.pcmag.com/news/tcl-partners-with-microsoft-to-bring-ai-to-its-nxtpaper-smartphones

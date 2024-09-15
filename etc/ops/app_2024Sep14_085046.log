@@ -1,0 +1,25 @@
+2024-09-14 08:50:46,199 - INFO - Starting configuration setup
+2024-09-14 08:50:46,200 - INFO - Environment variables loaded successfully
+2024-09-14 08:50:46,200 - INFO - Twitter API client initialized successfully
+2024-09-14 08:50:48,704 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-14 08:50:56,995 - INFO - Summarization model initialized successfully
+2024-09-14 08:50:56,995 - INFO - Starting tweet scheduling
+2024-09-14 08:50:56,996 - INFO - Tweeting process started at 2024-09-14 08:50:56.996047!
+2024-09-14 08:50:56,996 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep14.csv
+2024-09-14 08:50:56,996 - INFO - Fetching latest tech news from RSS feeds
+2024-09-14 08:51:04,817 - INFO - Total entries found: 427
+2024-09-14 08:51:04,819 - INFO - Recent AI-related entries found: 14
+2024-09-14 08:51:04,819 - INFO - This link is already posted: https://www.wired.com/story/shein-is-officially-the-biggest-polluter-in-fast-fashion-ai-is-making-things-worse/
+2024-09-14 08:51:04,819 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgezaj/d_how_do_you_build_ai_systems_on_lakehouse_data/
+2024-09-14 08:51:04,819 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fg899x/r_windows_agent_arena_a_benchmark_for_ai_agents/
+2024-09-14 08:51:04,819 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-bot-will-check-for-you-if-bigfoot-is-real
+2024-09-14 08:51:04,819 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/ai-jira-issues
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://techcrunch.com/2024/09/13/first-impressions-of-openai-o1-an-ai-designed-to-overthink-it/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://techcrunch.com/2024/09/13/a-fight-is-brewing-as-tusimple-tries-to-move-450m-to-china-and-pivot-from-self-driving-trucks-to-ai-animation/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-meta-acknowledges-its-scraping-all-public-posts-for-ai-training/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://techcrunch.com/2024/09/13/meta-reignites-plans-to-train-ai-using-uk-users-public-facebook-and-instagram-posts/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://www.pcmag.com/explainers/what-is-an-ai-pc
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://www.wired.com/story/election-deniers-livestream-voting-dropbox-wisconsin/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://www.wired.com/story/plaintext-the-godmother-of-ai-wants-everyone-to-be-a-world-builder/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://www.wired.com/story/reddit-celebrity-number-six-ai/
+2024-09-14 08:51:04,820 - INFO - This link is already posted: https://www.pcmag.com/news/meta-hides-ai-info-labels-behind-menu-for-edited-content

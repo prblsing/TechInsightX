@@ -1,0 +1,14 @@
+2024-09-02 06:51:22,374 - INFO - Starting configuration setup
+2024-09-02 06:51:22,375 - INFO - Environment variables loaded successfully
+2024-09-02 06:51:22,375 - INFO - Twitter API client initialized successfully
+2024-09-02 06:51:24,289 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-02 06:51:50,494 - INFO - Model initialized successfully
+2024-09-02 06:51:50,494 - INFO - Starting tweet scheduling
+2024-09-02 06:51:50,494 - INFO - Tweeting process started at 2024-09-02 06:51:50.494372!
+2024-09-02 06:51:50,494 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep02.csv
+2024-09-02 06:51:50,494 - INFO - Fetching latest tech news from RSS feeds
+2024-09-02 06:51:57,859 - INFO - Total entries found: 427
+2024-09-02 06:51:57,861 - INFO - Recent AI-related entries found: 3
+2024-09-02 06:51:57,861 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/the-case-against-ai-art/
+2024-09-02 06:51:57,861 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/emotion-ai-could-be-the-next-trend-for-business-software-and-that-could-be-problematic/
+2024-09-02 06:51:57,861 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-be-making-its-way-into-your-car-with-android-auto

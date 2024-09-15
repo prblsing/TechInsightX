@@ -1,0 +1,33 @@
+2024-08-30 05:50:24,421 - INFO - Starting configuration setup
+2024-08-30 05:50:24,422 - INFO - Environment variables loaded successfully
+2024-08-30 05:50:24,422 - INFO - Twitter API client initialized successfully
+2024-08-30 05:50:26,429 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-30 05:50:47,066 - INFO - Model initialized successfully
+2024-08-30 05:50:47,067 - INFO - Starting tweet scheduling
+2024-08-30 05:50:47,067 - INFO - Tweeting process started at 2024-08-30 05:50:47.067267!
+2024-08-30 05:50:47,291 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug30.csv
+2024-08-30 05:50:47,291 - INFO - Fetching latest tech news from RSS feeds
+2024-08-30 05:50:53,794 - INFO - Total entries found: 427
+2024-08-30 05:50:53,797 - INFO - Recent AI-related entries found: 14
+2024-08-30 05:50:53,797 - INFO - Input content - content='<p>Nvidia and Apple are reportedly in talks to contribute to OpenAI&#8217;s next fundraising round &#8212; a round that could value the ChatGPT maker at $100 billion. Per its sources, the New York Times says earlier OpenAI investor Thrive Capital would lead the deal should it happen. (Bloomberg was the first to report Nvidia&#8217;s involvement, and [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-08-30 05:50:53,797 - INFO - clean content - clean_content='Nvidia and Apple are reportedly in talks to contribute to OpenAI&#8217;s next fundraising round &#8212; a round that could value the ChatGPT maker at $100 billion. Per its sources, the New York Times says earlier OpenAI investor Thrive Capital would lead the deal should it happen. (Bloomberg was the first to report Nvidia&#8217;s involvement, and [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-08-30 05:50:53,797 - INFO - Generating summary with LLM
+2024-08-30 05:52:24,325 - INFO - Tweet posted successfully: Response(data={'text': 'It may not be used for any other purpose. If you need help with writing, we&amp;#8217;re happy to help. If..[read more👇🏼] https://t.co/Z8qKFDQFjl', 'id': '1829396731995287699', 'edit_history_tweet_ids': ['1829396731995287699']}, includes={}, errors=[], meta={})
+2024-08-30 05:52:24,326 - INFO - Saved posted URL: https://techcrunch.com/2024/08/29/apple-and-nvidia-could-be-openais-next-big-investors/ at 2024-08-30 05:52:24
+2024-08-30 05:52:24,326 - INFO - Input content - content='Start-ups jumping to try and capitalize on the AI hype are being thoroughly disappointed.'
+2024-08-30 05:52:24,326 - INFO - clean content - clean_content='Start-ups jumping to try and capitalize on the AI hype are being thoroughly disappointed.'
+2024-08-30 05:52:24,326 - INFO - Generating summary with LLM
+2024-08-30 05:53:44,435 - INFO - Tweet posted successfully: Response(data={'text': 'AI hype\n\nThe word “AI” is thrown around a lot these days. The hype is real, and it’s getting real.\n\nThe..[read more👇🏼] https://t.co/BCxg7IAa2l', 'id': '1829397068336480416', 'edit_history_tweet_ids': ['1829397068336480416']}, includes={}, errors=[], meta={})
+2024-08-30 05:53:44,435 - INFO - Saved posted URL: https://www.techradar.com/pro/over-80-of-ai-projects-fail-wasting-billions-of-dollars at 2024-08-30 05:53:44
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/controversial-ai-bill-passes-legislative-vote/#ftag=CAD590a51e
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apple-is-reportedly-investing-in-openai-which-may-signal-deeper-chatgpt-partnership
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/openai-everything-you-need-to-know-about-the-company-that-started-a-generative-ai-revolution/#ftag=CAD590a51e
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.theverge.com/2024/8/29/24231824/google-gmail-q-a-gemini-ai-chatbot-android
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/atlassian-acquires-rewatch-as-it-gets-into-ai-meeting-bots/
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.atlassian.com/blog/announcements/atlassian-welcomes-rewatch
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.theverge.com/2024/8/29/24231626/apple-nvidia-openai-invest-microsoft
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://www.pcmag.com/news/openai-anthropic-agree-to-give-feds-early-access-to-ai-models
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/generative-ai-coding-startup-magic-lands-320m-investment-from-eric-schmidt-atlassian-and-others/
+2024-08-30 05:53:44,435 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-heres-why-ai-has-a-hard-time-spelling-strawberry/
+2024-08-30 05:53:44,436 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f42r3f/discussion_intel_arc_a750_machine_learning/
+2024-08-30 05:53:44,436 - INFO - This link is already posted: https://www.wired.com/story/applebot-extended-apple-ai-scraping/

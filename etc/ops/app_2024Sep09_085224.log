@@ -1,0 +1,27 @@
+2024-09-09 08:52:24,938 - INFO - Starting configuration setup
+2024-09-09 08:52:24,938 - INFO - Environment variables loaded successfully
+2024-09-09 08:52:24,938 - INFO - Twitter API client initialized successfully
+2024-09-09 08:52:27,016 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-09 08:52:34,653 - INFO - Summarization model initialized successfully
+2024-09-09 08:52:34,653 - INFO - Starting tweet scheduling
+2024-09-09 08:52:34,653 - INFO - Tweeting process started at 2024-09-09 08:52:34.653418!
+2024-09-09 08:52:34,653 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep09.csv
+2024-09-09 08:52:34,653 - INFO - Fetching latest tech news from RSS feeds
+2024-09-09 08:52:41,109 - INFO - Total entries found: 427
+2024-09-09 08:52:41,111 - INFO - Recent AI-related entries found: 8
+2024-09-09 08:52:41,111 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hi everybody! I\'m currently pursuing a PhD in the field (just started) and would like to get some ideas to maybe direct my work into a new path by combining what I\'m currently doing with something that may come from outside my research cluster. </p> <p>I would appreciate if we could be organized and follow a template for the answers:</p> <p><code> Problem: ... Why is it a problem: ... </code> And continue the discussion under each problem. Please, be polite and try to keep this a healthy discussion.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/cyberBomba"> /u/cyberBomba </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fckscy/d_what_isare_the_current_biggest_problems_in/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fckscy/d_what_isare_the_current_biggest_problems_in/">[comments]</a></span>'
+2024-09-09 08:52:41,111 - INFO - clean content - clean_content="Hi everybody! I'm currently pursuing a PhD in the field (just started) and would like to get some ideas to maybe direct my work into a new path by combining what I'm currently doing with something that may come from outside my research cluster. I would appreciate if we could be organized and follow a template for the answers: Problem: ... Why is it a problem: ... And continue the discussion under each problem. Please, be polite and try to keep this a healthy discussion. &#32; submitted by &#32; /u/cyberBomba [link] &#32; [comments]"
+2024-09-09 08:52:41,111 - INFO - Generating summary with BART model
+2024-09-09 08:52:49,797 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1833066016303095931'], 'id': '1833066016303095931', 'text': 'I would appreciate if we could be organized and follow a template for the answers: Problem: ... Why is it..[read more👇🏼] https://t.co/F6OHIXh1Z9'}, includes={}, errors=[], meta={})
+2024-09-09 08:52:49,797 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fckscy/d_what_isare_the_current_biggest_problems_in/ at 2024-09-09 08:52:49
+2024-09-09 08:52:49,797 - INFO - Input content - content="AI can't do your job for you. But it can make you more productive -- if you use it in these ways."
+2024-09-09 08:52:49,797 - INFO - clean content - clean_content="AI can't do your job for you. But it can make you more productive -- if you use it in these ways."
+2024-09-09 08:52:49,797 - INFO - Generating summary with BART model
+2024-09-09 08:52:55,647 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1833066040873431203'], 'text': "AI can't do your job for you. But it can make you more productive -- if you use it in these ways. For..[read more👇🏼] https://t.co/o6EsjoQsDb", 'id': '1833066040873431203'}, includes={}, errors=[], meta={})
+2024-09-09 08:52:55,647 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/7-ai-tricks-for-work-productivity-that-you-should-try-and-1-you-shouldnt/#ftag=CAD590a51e at 2024-09-09 08:52:55
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/would-you-take-guitar-lessons-from-an-ai-powered-jimi-hendrix-the-future-could-have-a-purple-haze
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fcfr0m/discussion_is_ted_chiang_right_about_ai_art/
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/elon-musk-says-tesla-has-no-need-to-license-xai-models/
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://www.techradar.com/pro/it-is-obscenely-fast-biggest-rival-to-nvidia-demos-million-core-super-ai-inference-chip-that-obliterates-the-dgx100-with-i44gb-of-super-fast-memory-and-you-can-even-try-it-for-free
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://techcrunch.com/2024/09/08/meta-llama-everything-you-need-to-know-about-the-open-generative-ai-model/
+2024-09-09 08:52:55,647 - INFO - This link is already posted: https://www.pcmag.com/explainers/ai-tools-in-website-builders-that-can-save-you-time-and-money

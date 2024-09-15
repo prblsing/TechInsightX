@@ -1,0 +1,20 @@
+2024-08-28 09:50:42,047 - INFO - Starting configuration setup
+2024-08-28 09:50:42,047 - INFO - Environment variables loaded successfully
+2024-08-28 09:50:42,047 - INFO - Twitter API client initialized successfully
+2024-08-28 09:50:44,150 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-28 09:51:11,742 - INFO - Model initialized successfully
+2024-08-28 09:51:11,742 - INFO - Starting tweet scheduling
+2024-08-28 09:51:11,743 - INFO - Tweeting process started at 2024-08-28 09:51:11.742974!
+2024-08-28 09:51:11,743 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug28.csv
+2024-08-28 09:51:11,743 - INFO - Fetching latest tech news from RSS feeds
+2024-08-28 09:51:21,091 - INFO - Total entries found: 427
+2024-08-28 09:51:21,093 - INFO - Recent AI-related entries found: 9
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.techradar.com/pro/making-sure-your-data-is-ml-model-ready-for-successful-ai-integration
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f357n7/d_what_are_the_2025_top_conferences_for_ml_ai_and/
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/hotshot-is-heating-up-ai-video-making-heres-how-you-can-try-it-for-free
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.theverge.com/2024/8/27/24229843/google-meets-automatic-ai-note-taking-launch
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.pcmag.com/news/startup-goes-after-nvidia-with-giant-ai-chips-built-for-speed
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.pcmag.com/deals/cut-your-workload-in-half-with-this-all-in-one-ai-tool
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://techcrunch.com/2024/08/27/why-ai-cant-spell-strawberry/
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-wont-be-free-forever
+2024-08-28 09:51:21,093 - INFO - This link is already posted: https://techcrunch.com/2024/08/27/is-open-source-ai-even-possible-let-alone-the-future-find-out-at-disrupt-2024/

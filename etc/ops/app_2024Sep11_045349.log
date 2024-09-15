@@ -1,0 +1,26 @@
+2024-09-11 04:53:49,254 - INFO - Starting configuration setup
+2024-09-11 04:53:49,254 - INFO - Environment variables loaded successfully
+2024-09-11 04:53:49,255 - INFO - Twitter API client initialized successfully
+2024-09-11 04:53:51,295 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-11 04:53:58,979 - INFO - Summarization model initialized successfully
+2024-09-11 04:53:58,979 - INFO - Starting tweet scheduling
+2024-09-11 04:53:58,980 - INFO - Tweeting process started at 2024-09-11 04:53:58.980024!
+2024-09-11 04:53:58,980 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep11.csv
+2024-09-11 04:53:58,980 - INFO - Fetching latest tech news from RSS feeds
+2024-09-11 04:54:05,766 - INFO - Total entries found: 427
+2024-09-11 04:54:05,769 - INFO - Recent AI-related entries found: 11
+2024-09-11 04:54:05,770 - INFO - Input content - content='<p>Adtech startup InMobi has raised $100 million in debt financing as the profitable Indian firm looks to &#8220;significantly deepen&#8221; its artificial intelligence initiatives and fund potential AI acquisitions ahead of a planned IPO next year.&#160; Mars Growth Capital, a joint venture between MUFG and Liquidity Group, has financed the funding, InMobi said Wednesday. The investment [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-11 04:54:05,770 - INFO - clean content - clean_content='Adtech startup InMobi has raised $100 million in debt financing as the profitable Indian firm looks to &#8220;significantly deepen&#8221; its artificial intelligence initiatives and fund potential AI acquisitions ahead of a planned IPO next year.&#160; Mars Growth Capital, a joint venture between MUFG and Liquidity Group, has financed the funding, InMobi said Wednesday. The investment [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-11 04:54:05,770 - INFO - Generating summary with BART model
+2024-09-11 04:54:13,915 - INFO - Tweet posted successfully: Response(data={'text': 'Adtech startup InMobi has raised $100 million in debt financing. Mars Growth Capital, a joint venture..[read more👇🏼] https://t.co/lnsTNwSRZh', 'id': '1833730746504146998', 'edit_history_tweet_ids': ['1833730746504146998']}, includes={}, errors=[], meta={})
+2024-09-11 04:54:13,915 - INFO - Saved posted URL: https://techcrunch.com/2024/09/10/inmobi-secures-100-million-for-ai-acquisitions-ahead-of-ipo/ at 2024-09-11 04:54:13
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://www.theverge.com/2024/9/10/24241538/taylor-swift-endorses-kamala-harris-donald-trump-ai-endorsement-deepfake
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/sergey-brin-says-hes-working-at-google-pretty-much-every-day-on-ai/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/senate-leaders-ask-ftc-to-investigate-ai-content-summaries-as-anti-competitive/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/bumble-to-leverage-ai-to-help-users-with-profiles-and-conversations/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://www.pcmag.com/news/audible-invites-audiobook-narrators-to-create-ai-voice-replicas
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/what-is-google-gemini-ai/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/apple-punts-on-ai/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fdo2fm/np_new_ai_lab_startup_hiring_interns/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://www.wired.com/story/bad-kamala-harris-ai-generated-images/
+2024-09-11 04:54:13,916 - INFO - This link is already posted: https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/

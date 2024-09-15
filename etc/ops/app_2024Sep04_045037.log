@@ -1,0 +1,18 @@
+2024-09-04 04:50:37,426 - INFO - Starting configuration setup
+2024-09-04 04:50:37,426 - INFO - Environment variables loaded successfully
+2024-09-04 04:50:37,426 - INFO - Twitter API client initialized successfully
+2024-09-04 04:50:39,687 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-04 04:52:37,396 - INFO - Model initialized successfully
+2024-09-04 04:52:37,397 - INFO - Starting tweet scheduling
+2024-09-04 04:52:37,397 - INFO - Tweeting process started at 2024-09-04 04:52:37.397135!
+2024-09-04 04:52:37,397 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep04.csv
+2024-09-04 04:52:37,397 - INFO - Fetching latest tech news from RSS feeds
+2024-09-04 04:52:45,744 - INFO - Total entries found: 427
+2024-09-04 04:52:45,746 - INFO - Recent AI-related entries found: 7
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/hollywood-will-need-permission-to-make-ai-deepfakes-of-long-gone-stars
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://techcrunch.com/2024/09/03/neko-health-the-body-scanning-ai-health-startup-from-spotifys-daniel-ek-opens-in-london/
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://www.theverge.com/2024/9/3/24235233/nvidia-doj-ai-antitrust-investigation
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-will-teach-this-class-a-lesson-but-wont-be-hanging-in-the-teachers-lounge
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://www.techradar.com/computing/windows-laptops/dell-reveals-promising-new-intel-xps-13-ai-pc-but-can-it-surpass-the-snapdragon-model
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://www.pcmag.com/news/musks-xai-supercomputer-goes-online-with-100000-nvidia-gpus
+2024-09-04 04:52:45,747 - INFO - This link is already posted: https://techcrunch.com/2024/09/03/spotter-launches-ai-tools-youtubers-brainstorm-video-ideas-thumbnails/

@@ -1,0 +1,30 @@
+2024-08-29 10:50:33,918 - INFO - Starting configuration setup
+2024-08-29 10:50:33,918 - INFO - Environment variables loaded successfully
+2024-08-29 10:50:33,918 - INFO - Twitter API client initialized successfully
+2024-08-29 10:50:36,119 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-29 10:50:59,234 - INFO - Model initialized successfully
+2024-08-29 10:50:59,234 - INFO - Starting tweet scheduling
+2024-08-29 10:50:59,234 - INFO - Tweeting process started at 2024-08-29 10:50:59.234675!
+2024-08-29 10:50:59,235 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug29.csv
+2024-08-29 10:50:59,235 - INFO - Fetching latest tech news from RSS feeds
+2024-08-29 10:51:06,117 - INFO - Total entries found: 427
+2024-08-29 10:51:06,119 - INFO - Recent AI-related entries found: 15
+2024-08-29 10:51:06,119 - INFO - Input content - content='Single sign-on systems from several Big Tech companies are being incorporated into deepfake generators, WIRED found. Discord and Apple have started to terminate some developers’ accounts.'
+2024-08-29 10:51:06,120 - INFO - clean content - clean_content='Single sign-on systems from several Big Tech companies are being incorporated into deepfake generators, WIRED found. Discord and Apple have started to terminate some developers’ accounts.'
+2024-08-29 10:51:06,120 - INFO - Generating summary with LLM
+2024-08-29 10:52:26,490 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1829109850980123117'], 'text': 'The following article is the second part of a series on deepfake technology, which explores how deepfakes..[read more👇🏼] https://t.co/v6O3vJTthm', 'id': '1829109850980123117'}, includes={}, errors=[], meta={})
+2024-08-29 10:52:26,491 - INFO - Saved posted URL: https://www.wired.com/story/undress-app-ai-harm-google-apple-login/ at 2024-08-29 10:52:26
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/ai-dominates-india-reliance-annual-general-meeting/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.techradar.com/pro/nearly-all-uk-businesses-are-ready-for-ai-but-can-they-now-take-advantage
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f3rxhk/n_end_of_an_era_character_ai_shuts_down_old_site/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.theverge.com/2024/8/28/24229068/california-sb-1047-ai-safety-bill-passed-state-assembly-governor-newsom-signature
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/apple-introduces-ai-powered-object-removal-with-the-latest-ios-update/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.pcmag.com/news/this-ai-model-can-simulate-the-pc-game-doom-in-real-time
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/openai-reportedly-in-talks-to-close-new-funding-round-at-100b-valuation/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/openais-converge-2-program-has-been-shrouded-in-mystery/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.pcmag.com/news/meeting-overload-gemini-ai-can-now-take-notes-for-you-in-google-meet
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.pcmag.com/news/google-gemini-ai-update-restores-ability-to-generate-images-of-people
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://techcrunch.com/2024/08/28/this-week-in-ai-ai-is-rapidly-being-commoditized/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/playbook-for-leveraging-ai-to-accelerate-productivity
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.wired.com/story/gauth-ai-math-homework-app/
+2024-08-29 10:52:26,491 - INFO - This link is already posted: https://www.wired.com/story/plaud-note-pin-ai-wearable/

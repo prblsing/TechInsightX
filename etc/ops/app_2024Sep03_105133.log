@@ -1,0 +1,32 @@
+2024-09-03 10:51:33,616 - INFO - Starting configuration setup
+2024-09-03 10:51:33,617 - INFO - Environment variables loaded successfully
+2024-09-03 10:51:33,617 - INFO - Twitter API client initialized successfully
+2024-09-03 10:51:36,266 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-03 10:51:57,948 - INFO - Model initialized successfully
+2024-09-03 10:51:57,948 - INFO - Starting tweet scheduling
+2024-09-03 10:51:57,948 - INFO - Tweeting process started at 2024-09-03 10:51:57.948644!
+2024-09-03 10:51:57,948 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep03.csv
+2024-09-03 10:51:57,948 - INFO - Fetching latest tech news from RSS feeds
+2024-09-03 10:52:05,299 - INFO - Total entries found: 427
+2024-09-03 10:52:05,301 - INFO - Recent AI-related entries found: 9
+2024-09-03 10:52:05,301 - INFO - Input content - content="A pizza chain's ChatGPT-generated recipe is such a success that it now has a spot on the menu for good."
+2024-09-03 10:52:05,301 - INFO - clean content - clean_content="A pizza chain's ChatGPT-generated recipe is such a success that it now has a spot on the menu for good."
+2024-09-03 10:52:05,302 - INFO - Generating summary with LLM
+2024-09-03 10:53:26,516 - INFO - Tweet posted successfully: Response(data={'id': '1830922042020946289', 'edit_history_tweet_ids': ['1830922042020946289'], 'text': "The Pizza Shop (and related brands) is a chain of pizza restaurants in the United States. The company's..[read more👇🏼] https://t.co/JSVvyxuooN"}, includes={}, errors=[], meta={})
+2024-09-03 10:53:26,516 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/would-you-eat-a-pizza-designed-by-chatgpt-pizza-chains-ai-recipe-proves-to-be-a-huge-hit at 2024-09-03 10:53:26
+2024-09-03 10:53:26,516 - INFO - Input content - content="<p>The Netherlands' data protection authority has imposed a penalty of €30.5M on Clearview AI for GDPR violations.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-09-03 10:53:26,517 - INFO - clean content - clean_content="The Netherlands' data protection authority has imposed a penalty of €30.5M on Clearview AI for GDPR violations. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-09-03 10:53:26,517 - INFO - Generating summary with LLM
+2024-09-03 10:54:48,901 - INFO - Tweet posted successfully: Response(data={'text': 'The Netherlands’ data protection authority (DPA) has imposed a penalty of €30.5 million ($32 million) on..[read more👇🏼] https://t.co/XC7jsyaPcf', 'edit_history_tweet_ids': ['1830922387593769379'], 'id': '1830922387593769379'}, includes={}, errors=[], meta={})
+2024-09-03 10:54:48,902 - INFO - Saved posted URL: https://techcrunch.com/2024/09/03/clearview-ai-hit-with-its-largest-gdpr-fine-yet-as-dutch-regulator-considers-holding-execs-personally-liable/ at 2024-09-03 10:54:48
+2024-09-03 10:54:48,902 - INFO - Input content - content='Microsoft might be overhauling Windows Search with AI, aiming to improve accuracy and functionality, hopefully addressing user frustrations with the feature.'
+2024-09-03 10:54:48,902 - INFO - clean content - clean_content='Microsoft might be overhauling Windows Search with AI, aiming to improve accuracy and functionality, hopefully addressing user frustrations with the feature.'
+2024-09-03 10:54:48,902 - INFO - Generating summary with LLM
+2024-09-03 10:56:09,484 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1830922725189128487'], 'id': '1830922725189128487', 'text': "We'll start with some background information and then explain the new features.\n\nBackground\n\nWhen Windows..[read more👇🏼] https://t.co/b4NqaOkyvE"}, includes={}, errors=[], meta={})
+2024-09-03 10:56:09,484 - INFO - Saved posted URL: https://www.techradar.com/computing/windows/windows-11-search-might-actually-see-some-big-improvements-soon-and-it-could-be-thanks-to-ai at 2024-09-03 10:56:09
+2024-09-03 10:56:09,484 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/sparklabs-closes-50m-fund-to-back-ai-startups/
+2024-09-03 10:56:09,485 - INFO - This link is already posted: https://www.theverge.com/2024/9/2/24234231/jacob-wohl-jack-burkman-ai-lobbying-lobbymatic-politico
+2024-09-03 10:56:09,485 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/governor-newsom-must-weigh-the-future-of-californias-ai-industry-with-sb-1047/
+2024-09-03 10:56:09,485 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/a16zs-joshua-lu-says-ai-is-already-radically-changing-video-games-and-discord-is-the-future/
+2024-09-03 10:56:09,485 - INFO - This link is already posted: https://www.pcmag.com/how-to/how-to-replace-google-assistant-with-gemini-ai-on-your-android-device
+2024-09-03 10:56:09,485 - INFO - This link is already posted: https://www.wired.com/story/generative-ai-detection-gap/

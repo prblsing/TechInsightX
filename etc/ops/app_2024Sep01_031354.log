@@ -1,0 +1,21 @@
+2024-09-01 03:13:54,353 - INFO - Starting configuration setup
+2024-09-01 03:13:54,353 - INFO - Environment variables loaded successfully
+2024-09-01 03:13:54,353 - INFO - Twitter API client initialized successfully
+2024-09-01 03:13:56,642 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-01 03:14:16,826 - INFO - Model initialized successfully
+2024-09-01 03:14:16,826 - INFO - Starting tweet scheduling
+2024-09-01 03:14:16,827 - INFO - Tweeting process started at 2024-09-01 03:14:16.827076!
+2024-09-01 03:14:16,827 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep01.csv
+2024-09-01 03:14:16,827 - INFO - Fetching latest tech news from RSS feeds
+2024-09-01 03:14:23,376 - INFO - Total entries found: 427
+2024-09-01 03:14:23,378 - INFO - Recent AI-related entries found: 10
+2024-09-01 03:14:23,378 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f5xnnr/d_last_week_in_medical_ai_top_research/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f5w23s/p_ai_plays_chess_6x6_new_algorithm/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://techcrunch.com/2024/08/31/is-openai-worth-100b/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://techcrunch.com/2024/08/31/amazon-hires-the-founders-of-robotics-ai-startup-covariant/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://techcrunch.com/2024/08/31/grammy-ceo-says-music-industry-also-has-ai-concerns/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f5o0kj/nr_releasing_relaion_5b_transparent_iteration_on/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://techcrunch.com/2024/08/31/ai-brings-a-whole-new-dimension-to-the-challenge-of-organizational-transformation/
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://www.pcmag.com/articles/travel-warning-look-out-for-ai-booking-scams
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://www.theverge.com/2024/8/31/24231740/samsung-food-plus-vision-ai-food-list-management-ifa-2024
+2024-09-01 03:14:23,379 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f5nj4n/d_cpu_recommendation_amd_or_intel_for_ai/

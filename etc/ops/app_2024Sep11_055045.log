@@ -1,0 +1,27 @@
+2024-09-11 05:50:45,091 - INFO - Starting configuration setup
+2024-09-11 05:50:45,092 - INFO - Environment variables loaded successfully
+2024-09-11 05:50:45,092 - INFO - Twitter API client initialized successfully
+2024-09-11 05:50:47,021 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-11 05:50:55,783 - INFO - Summarization model initialized successfully
+2024-09-11 05:50:55,784 - INFO - Starting tweet scheduling
+2024-09-11 05:50:55,784 - INFO - Tweeting process started at 2024-09-11 05:50:55.784164!
+2024-09-11 05:50:55,784 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep11.csv
+2024-09-11 05:50:55,784 - INFO - Fetching latest tech news from RSS feeds
+2024-09-11 05:51:03,409 - INFO - Total entries found: 427
+2024-09-11 05:51:03,411 - INFO - Recent AI-related entries found: 12
+2024-09-11 05:51:03,412 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/inmobi-secures-100-million-for-ai-acquisitions-ahead-of-ipo/
+2024-09-11 05:51:03,412 - INFO - Input content - content='The singer-songwriter breaks her silence over her presidential choice after Trump posted deepfakes that appeared to show her support for the former president.'
+2024-09-11 05:51:03,412 - INFO - clean content - clean_content='The singer-songwriter breaks her silence over her presidential choice after Trump posted deepfakes that appeared to show her support for the former president.'
+2024-09-11 05:51:03,412 - INFO - Generating summary with BART model
+2024-09-11 05:51:08,086 - INFO - Tweet posted successfully: Response(data={'text': 'The singer-songwriter breaks her silence over her presidential choice. Trump posted deepfakes that..[read more👇🏼] https://t.co/8vwCIWeKlO', 'edit_history_tweet_ids': ['1833745066852221256'], 'id': '1833745066852221256'}, includes={}, errors=[], meta={})
+2024-09-11 05:51:08,086 - INFO - Saved posted URL: https://www.cnet.com/tech/taylor-swift-endorses-kamala-harris-calls-out-donald-trumps-fake-ai-post/#ftag=CAD590a51e at 2024-09-11 05:51:08
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://www.theverge.com/2024/9/10/24241538/taylor-swift-endorses-kamala-harris-donald-trump-ai-endorsement-deepfake
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/sergey-brin-says-hes-working-at-google-pretty-much-every-day-on-ai/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/senate-leaders-ask-ftc-to-investigate-ai-content-summaries-as-anti-competitive/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/bumble-to-leverage-ai-to-help-users-with-profiles-and-conversations/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://www.pcmag.com/news/audible-invites-audiobook-narrators-to-create-ai-voice-replicas
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/what-is-google-gemini-ai/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://techcrunch.com/2024/09/10/apple-punts-on-ai/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fdo2fm/np_new_ai_lab_startup_hiring_interns/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://www.wired.com/story/bad-kamala-harris-ai-generated-images/
+2024-09-11 05:51:08,086 - INFO - This link is already posted: https://www.wired.com/story/inside-google-mission-to-give-ai-robot-body/

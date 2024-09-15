@@ -1,0 +1,30 @@
+2024-08-30 06:50:52,670 - INFO - Starting configuration setup
+2024-08-30 06:50:52,670 - INFO - Environment variables loaded successfully
+2024-08-30 06:50:52,670 - INFO - Twitter API client initialized successfully
+2024-08-30 06:50:55,731 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-08-30 06:51:18,716 - INFO - Model initialized successfully
+2024-08-30 06:51:18,717 - INFO - Starting tweet scheduling
+2024-08-30 06:51:18,717 - INFO - Tweeting process started at 2024-08-30 06:51:18.717240!
+2024-08-30 06:51:18,717 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Aug30.csv
+2024-08-30 06:51:18,717 - INFO - Fetching latest tech news from RSS feeds
+2024-08-30 06:51:26,158 - INFO - Total entries found: 427
+2024-08-30 06:51:26,160 - INFO - Recent AI-related entries found: 15
+2024-08-30 06:51:26,160 - INFO - Input content - content='<p>Given everything you’ve already heard about AI, you may not be surprised to learn that Google is among other outfits beginning to use sound signals to predict early signs of disease.&#160; How? According to Bloomberg, Google has trained its foundation AI model with 300 million pieces of audio that included coughs, sniffles, and labored breathing, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-08-30 06:51:26,161 - INFO - clean content - clean_content='Given everything you’ve already heard about AI, you may not be surprised to learn that Google is among other outfits beginning to use sound signals to predict early signs of disease.&#160; How? According to Bloomberg, Google has trained its foundation AI model with 300 million pieces of audio that included coughs, sniffles, and labored breathing, [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-08-30 06:51:26,161 - INFO - Generating summary with LLM
+2024-08-30 06:53:01,216 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1829411986658251091'], 'text': '. https://t.co/9yq19QfPkc', 'id': '1829411986658251091'}, includes={}, errors=[], meta={})
+2024-08-30 06:53:01,217 - INFO - Saved posted URL: https://techcrunch.com/2024/08/29/google-is-working-on-ai-that-can-hear-signs-of-sickness/ at 2024-08-30 06:53:01
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/apple-and-nvidia-could-be-openais-next-big-investors/
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.techradar.com/pro/over-80-of-ai-projects-fail-wasting-billions-of-dollars
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/controversial-ai-bill-passes-legislative-vote/#ftag=CAD590a51e
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apple-is-reportedly-investing-in-openai-which-may-signal-deeper-chatgpt-partnership
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/openai-everything-you-need-to-know-about-the-company-that-started-a-generative-ai-revolution/#ftag=CAD590a51e
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.theverge.com/2024/8/29/24231824/google-gmail-q-a-gemini-ai-chatbot-android
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/atlassian-acquires-rewatch-as-it-gets-into-ai-meeting-bots/
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.atlassian.com/blog/announcements/atlassian-welcomes-rewatch
+2024-08-30 06:53:01,217 - INFO - This link is already posted: https://www.theverge.com/2024/8/29/24231626/apple-nvidia-openai-invest-microsoft
+2024-08-30 06:53:01,218 - INFO - This link is already posted: https://www.pcmag.com/news/openai-anthropic-agree-to-give-feds-early-access-to-ai-models
+2024-08-30 06:53:01,218 - INFO - This link is already posted: https://techcrunch.com/2024/08/29/generative-ai-coding-startup-magic-lands-320m-investment-from-eric-schmidt-atlassian-and-others/
+2024-08-30 06:53:01,218 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-heres-why-ai-has-a-hard-time-spelling-strawberry/
+2024-08-30 06:53:01,218 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1f42r3f/discussion_intel_arc_a750_machine_learning/
+2024-08-30 06:53:01,218 - INFO - This link is already posted: https://www.wired.com/story/applebot-extended-apple-ai-scraping/

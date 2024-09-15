@@ -1,0 +1,15 @@
+2024-09-02 03:50:44,511 - INFO - Starting configuration setup
+2024-09-02 03:50:44,511 - INFO - Environment variables loaded successfully
+2024-09-02 03:50:44,512 - INFO - Twitter API client initialized successfully
+2024-09-02 03:50:46,737 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-02 03:51:13,958 - INFO - Model initialized successfully
+2024-09-02 03:51:13,958 - INFO - Starting tweet scheduling
+2024-09-02 03:51:13,958 - INFO - Tweeting process started at 2024-09-02 03:51:13.958622!
+2024-09-02 03:51:13,958 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep02.csv
+2024-09-02 03:51:13,958 - INFO - Fetching latest tech news from RSS feeds
+2024-09-02 03:51:21,632 - INFO - Total entries found: 427
+2024-09-02 03:51:21,634 - INFO - Recent AI-related entries found: 4
+2024-09-02 03:51:21,634 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/the-case-against-ai-art/
+2024-09-02 03:51:21,634 - INFO - This link is already posted: https://techcrunch.com/2024/09/01/emotion-ai-could-be-the-next-trend-for-business-software-and-that-could-be-problematic/
+2024-09-02 03:51:21,634 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-be-making-its-way-into-your-car-with-android-auto
+2024-09-02 03:51:21,634 - INFO - This link is already posted: https://www.techradar.com/pro/expert-questions-huge-ai-investments-from-microsoft-amazon-and-google-and-warns-of-possible-sugar-daddy-boomerang-effect-that-could-potentially-end-up-very-badly

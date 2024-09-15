@@ -1,0 +1,38 @@
+2024-09-15 04:50:20,956 - INFO - Starting configuration setup
+2024-09-15 04:50:20,957 - INFO - Environment variables loaded successfully
+2024-09-15 04:50:20,957 - INFO - Twitter API client initialized successfully
+2024-09-15 04:50:23,031 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 04:50:45,486 - INFO - Model initialized successfully
+2024-09-15 04:50:45,487 - INFO - Starting tweet scheduling
+2024-09-15 04:50:45,487 - INFO - Tweeting process started at 2024-09-15 04:50:45.487260!
+2024-09-15 04:50:45,487 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 04:50:45,487 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 04:50:57,207 - INFO - Total entries found: 674
+2024-09-15 04:50:57,210 - INFO - Recent AI-related entries found: 16
+2024-09-15 04:50:57,210 - INFO - Fetching trending hashtags for market: 23424848
+2024-09-15 04:50:57,210 - ERROR - Failed to fetch trending hashtags: 'Client' object has no attribute 'get_place_trends'
+2024-09-15 04:50:57,210 - INFO - Input content - content='<p>Article URL: <a href="https://www.theregister.com/2024/09/14/opinion_column_osi/">https://www.theregister.com/2024/09/14/opinion_column_osi/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545230">https://news.ycombinator.com/item?id=41545230</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-15 04:50:57,211 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-15 04:50:57,211 - INFO - Generating summary with LLM
+2024-09-15 04:52:13,357 - INFO - Saved posted URL: https://www.theregister.com/2024/09/14/opinion_column_osi/ at 2024-09-15 04:52:13
+2024-09-15 04:52:13,357 - INFO - Input content - content='<p>Article URL: <a href="https://osintteam.blog/ai-powered-osint-mastering-data-collection-7e355174fb39">https://osintteam.blog/ai-powered-osint-mastering-data-collection-7e355174fb39</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545165">https://news.ycombinator.com/item?id=41545165</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-15 04:52:13,357 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-15 04:52:13,357 - INFO - Generating summary with LLM
+2024-09-15 04:53:29,388 - INFO - Saved posted URL: https://osintteam.blog/ai-powered-osint-mastering-data-collection-7e355174fb39 at 2024-09-15 04:53:29
+2024-09-15 04:53:29,388 - INFO - Input content - content='<p>Article URL: <a href="https://hackerman.ai/">https://hackerman.ai/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545047">https://news.ycombinator.com/item?id=41545047</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-15 04:53:29,388 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-15 04:53:29,388 - INFO - Generating summary with LLM
+2024-09-15 04:54:45,125 - INFO - Saved posted URL: https://hackerman.ai/ at 2024-09-15 04:54:45
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fh1lg4/r_looking_for_someone_who_can_write_journals_in/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fh0pb7/d_machine_learning_system_design/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgyuqm/p_this_is_what_openais_o1_strawberry_thinks_of/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgyg90/d_last_week_in_medical_ai_top_research/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-could-shake-up-its-nonprofit-structure-next-year/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://venturebeat.com/ai/what-does-it-cost-to-build-a-conversational-ai/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-previews-its-new-strawberry-model/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-could-actually-change-movies-for-the-better-and-fix-that-awful-game-of-thrones-finale
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.wired.com/story/audible-audiobook-narrators-ai-voice-clones/
+2024-09-15 04:54:45,125 - INFO - This link is already posted: https://www.theverge.com/2024/9/14/24243781/plaud-notepin-review-ai-voice-recorder
+2024-09-15 04:54:45,126 - INFO - This link is already posted: https://www.techradar.com/phones/apple-is-bringing-ai-to-ios-and-techradar-pro-aren-t-allowed-to-talk-about-it
+2024-09-15 04:54:45,126 - INFO - This link is already posted: https://www.wired.com/story/shein-is-officially-the-biggest-polluter-in-fast-fashion-ai-is-making-things-worse/
+2024-09-15 04:54:45,126 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgezaj/d_how_do_you_build_ai_systems_on_lakehouse_data/

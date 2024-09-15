@@ -1,0 +1,38 @@
+2024-09-12 09:50:46,350 - INFO - Starting configuration setup
+2024-09-12 09:50:46,350 - INFO - Environment variables loaded successfully
+2024-09-12 09:50:46,350 - INFO - Twitter API client initialized successfully
+2024-09-12 09:50:48,643 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-12 09:50:56,502 - INFO - Summarization model initialized successfully
+2024-09-12 09:50:56,502 - INFO - Starting tweet scheduling
+2024-09-12 09:50:56,502 - INFO - Tweeting process started at 2024-09-12 09:50:56.502889!
+2024-09-12 09:50:56,503 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep12.csv
+2024-09-12 09:50:56,503 - INFO - Fetching latest tech news from RSS feeds
+2024-09-12 09:51:03,344 - INFO - Total entries found: 427
+2024-09-12 09:51:03,347 - INFO - Recent AI-related entries found: 19
+2024-09-12 09:51:03,347 - INFO - Input content - content='Generative AI has become integral to software development lifecycles, and workers will need to adapt accordingly, research claims.'
+2024-09-12 09:51:03,347 - INFO - clean content - clean_content='Generative AI has become integral to software development lifecycles, and workers will need to adapt accordingly, research claims.'
+2024-09-12 09:51:03,347 - INFO - Generating summary with BART model
+2024-09-12 09:51:09,225 - INFO - Tweet posted successfully: Response(data={'id': '1834167857560576049', 'text': 'Workers will need to adapt accordingly, research claims. Generative AI has become integral to software..[read more👇🏼] https://t.co/8lbtKbVF8p', 'edit_history_tweet_ids': ['1834167857560576049']}, includes={}, errors=[], meta={})
+2024-09-12 09:51:09,225 - INFO - Saved posted URL: https://www.techradar.com/pro/ai-is-becoming-increasingly-vital-in-software-development at 2024-09-12 09:51:09
+2024-09-12 09:51:09,225 - INFO - Input content - content='<p>Google&#8217;s lead privacy regulator in the European Union has opened an investigation into whether or not it has complied with the bloc&#8217;s data protection laws in relation to use of people&#8217;s information for training generative AI. Specifically it&#8217;s looking into whether the tech giant needed to carry out a data protection impact assessment (DPIA) in [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-12 09:51:09,225 - INFO - clean content - clean_content='Google&#8217;s lead privacy regulator in the European Union has opened an investigation into whether or not it has complied with the bloc&#8217;s data protection laws in relation to use of people&#8217;s information for training generative AI. Specifically it&#8217;s looking into whether the tech giant needed to carry out a data protection impact assessment (DPIA) in [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-12 09:51:09,225 - INFO - Generating summary with BART model
+2024-09-12 09:51:16,431 - INFO - Tweet posted successfully: Response(data={'text': "Google's lead privacy regulator in the European Union has opened an investigation into whether or not it..[read more👇🏼] https://t.co/EPDvhAFlWg", 'edit_history_tweet_ids': ['1834167887768043682'], 'id': '1834167887768043682'}, includes={}, errors=[], meta={})
+2024-09-12 09:51:16,432 - INFO - Saved posted URL: https://techcrunch.com/2024/09/12/googles-genai-facing-privacy-risk-assessment-scrutiny-in-europe/ at 2024-09-12 09:51:16
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.techradar.com/pro/the-future-of-b2b-prospecting-the-ai-powered-research-revolution
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.techradar.com/pro/meta-admits-it-has-scraped-all-facebook-posts-since-2007-to-train-ai
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/ai-code
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.wired.com/story/apple-image-playground-craig-federighi-dog/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.theverge.com/2024/9/11/24242138/google-notebook-llm-ai-fake-podcasts-research
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.pcmag.com/news/google-ai-turns-your-notes-into-a-lively-podcast-with-2-fake-hosts
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.theverge.com/2024/9/11/24242142/sag-aftra-ai-now-gavin-newsom-safety-sb-1047-letters
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/openai-reportedly-in-talks-to-raise-at-150b-valuation/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.wired.com/story/apple-private-cloud-compute-ai/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.wired.com/story/an-ai-bot-named-james-has-my-old-local-news-job/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/taylor-swift-cites-fears-around-ai-as-she-endorses-the-democratic-ticket/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/this-week-in-ai-openais-new-strawberry-model-may-be-smart-yet-sluggish/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.wired.com/story/hume-ai-emotional-intelligence/
+2024-09-12 09:51:16,432 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fee8al/d_what_happened_to_asus_ai_accelerator_pcie_card/
+2024-09-12 09:51:16,433 - INFO - This link is already posted: https://techcrunch.com/2024/09/11/googles-ai-note-taking-app-notebooklm-can-now-explain-complex-topics-to-you-out-loud/
+2024-09-12 09:51:16,433 - INFO - This link is already posted: https://www.pcmag.com/news/ai-generated-swifties-for-trump-photos-prompt-taylor-swift-to-endorse-harris
+2024-09-12 09:51:16,433 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-reportedly-laying-off-staff-in-global-cuts-despite-ai-chip-boom

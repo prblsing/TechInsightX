@@ -1,0 +1,17 @@
+2024-09-03 06:50:48,933 - INFO - Starting configuration setup
+2024-09-03 06:50:48,933 - INFO - Environment variables loaded successfully
+2024-09-03 06:50:48,933 - INFO - Twitter API client initialized successfully
+2024-09-03 06:50:50,869 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-03 06:51:22,361 - INFO - Model initialized successfully
+2024-09-03 06:51:22,361 - INFO - Starting tweet scheduling
+2024-09-03 06:51:22,361 - INFO - Tweeting process started at 2024-09-03 06:51:22.361871!
+2024-09-03 06:51:22,362 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep03.csv
+2024-09-03 06:51:22,362 - INFO - Fetching latest tech news from RSS feeds
+2024-09-03 06:51:29,772 - INFO - Total entries found: 427
+2024-09-03 06:51:29,774 - INFO - Recent AI-related entries found: 6
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/sparklabs-closes-50m-fund-to-back-ai-startups/
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://www.theverge.com/2024/9/2/24234231/jacob-wohl-jack-burkman-ai-lobbying-lobbymatic-politico
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/governor-newsom-must-weigh-the-future-of-californias-ai-industry-with-sb-1047/
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://techcrunch.com/2024/09/02/a16zs-joshua-lu-says-ai-is-already-radically-changing-video-games-and-discord-is-the-future/
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://www.pcmag.com/how-to/how-to-replace-google-assistant-with-gemini-ai-on-your-android-device
+2024-09-03 06:51:29,774 - INFO - This link is already posted: https://www.wired.com/story/generative-ai-detection-gap/

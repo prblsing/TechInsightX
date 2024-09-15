@@ -1,0 +1,11 @@
+2024-09-15 03:15:44,611 - INFO - Starting configuration setup
+2024-09-15 03:15:44,611 - INFO - Environment variables loaded successfully
+2024-09-15 03:15:44,611 - INFO - Twitter API client initialized successfully
+2024-09-15 03:15:47,100 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-15 03:16:27,730 - INFO - Summarization model initialized successfully
+2024-09-15 03:16:27,730 - INFO - Starting tweet scheduling
+2024-09-15 03:16:27,730 - INFO - Tweeting process started at 2024-09-15 03:16:27.730594!
+2024-09-15 03:16:27,730 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 03:16:27,730 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 03:16:39,978 - INFO - Total entries found: 674
+2024-09-15 03:16:39,979 - ERROR - Failed to post tweet: name 'timedelta' is not defined

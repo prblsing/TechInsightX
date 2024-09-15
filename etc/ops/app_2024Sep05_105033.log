@@ -1,0 +1,28 @@
+2024-09-05 10:50:33,584 - INFO - Starting configuration setup
+2024-09-05 10:50:33,584 - INFO - Environment variables loaded successfully
+2024-09-05 10:50:33,585 - INFO - Twitter API client initialized successfully
+2024-09-05 10:50:35,498 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-05 10:50:56,269 - INFO - Model initialized successfully
+2024-09-05 10:50:56,269 - INFO - Starting tweet scheduling
+2024-09-05 10:50:56,269 - INFO - Tweeting process started at 2024-09-05 10:50:56.269782!
+2024-09-05 10:50:56,619 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep05.csv
+2024-09-05 10:50:56,619 - INFO - Fetching latest tech news from RSS feeds
+2024-09-05 10:51:03,939 - INFO - Total entries found: 427
+2024-09-05 10:51:03,942 - INFO - Recent AI-related entries found: 13
+2024-09-05 10:51:03,942 - INFO - Input content - content='The software update that debuted with the Z Fold 6 and the Z Flip 6 is making its way to other handsets.'
+2024-09-05 10:51:03,942 - INFO - clean content - clean_content='The software update that debuted with the Z Fold 6 and the Z Flip 6 is making its way to other handsets.'
+2024-09-05 10:51:03,942 - INFO - Generating summary with LLM
+2024-09-05 10:52:22,109 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1831646547668353204'], 'text': "(I'll just give you a brief explanation of how it works.)\n\nThe Z Fold 6 and the Z Flip 6 are two new..[read more👇🏼] https://t.co/SHxQ7lRxCF", 'id': '1831646547668353204'}, includes={}, errors=[], meta={})
+2024-09-05 10:52:22,109 - INFO - Saved posted URL: https://www.techradar.com/phones/samsung-galaxy-phones/samsungs-one-ui-611-with-extra-galaxy-ai-is-rolling-out-to-older-phones-now-heres-what-it-does at 2024-09-05 10:52:22
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.techradar.com/pro/this-is-getting-ridiculous-samsung-preparing-a-256tb-ssd-for-ai-servers-only-just-weeks-after-showing-off-128tb-model
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/bill-gates-talks-to-cnet-about-ai-misinformation-and-climate-change/#ftag=CAD590a51e
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.cnet.com/videos/the-future-according-to-bill-gates-we-talked-with-the-tech-giant-about-ai-misinformation-and-more/#ftag=CAD590a51e
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/national-novel-writing-month-faces-controversy-over-ai-issues/#ftag=CAD590a51e
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/short-series-app-my-drama-launching-ai-companions/
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.atlassian.com/blog/strategy/getting-started-with-generative-ai
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/this-week-in-ai-vcs-and-devs-are-enthusiastic-about-ai-coding-tools/
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://techcrunch.com/2024/09/04/the-cosmos-institute-whose-founding-fellows-include-anthropic-co-founder-jack-clark-launches-grant-programs-and-an-ai-lab/
+2024-09-05 10:52:22,109 - INFO - This link is already posted: https://www.pcmag.com/news/ai-road-trip-volkswagen-rolling-out-chatgpt-integration
+2024-09-05 10:52:22,110 - INFO - This link is already posted: https://www.pcmag.com/news/acer-fires-up-nitro-blaze-7-gaming-handheld-pc-with-amds-ai-ready-chip
+2024-09-05 10:52:22,110 - INFO - This link is already posted: https://www.wired.com/story/nanowrimo-organizers-classist-and-ableist-to-condemn-ai/
+2024-09-05 10:52:22,110 - INFO - This link is already posted: https://www.wired.com/story/dataset-providers-alliance-ethical-generative-ai-licensing/

@@ -1,0 +1,24 @@
+2024-09-13 09:50:26,781 - INFO - Starting configuration setup
+2024-09-13 09:50:26,782 - INFO - Environment variables loaded successfully
+2024-09-13 09:50:26,782 - INFO - Twitter API client initialized successfully
+2024-09-13 09:50:29,207 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-13 09:50:36,698 - INFO - Summarization model initialized successfully
+2024-09-13 09:50:36,698 - INFO - Starting tweet scheduling
+2024-09-13 09:50:36,698 - INFO - Tweeting process started at 2024-09-13 09:50:36.698446!
+2024-09-13 09:50:36,698 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep13.csv
+2024-09-13 09:50:36,698 - INFO - Fetching latest tech news from RSS feeds
+2024-09-13 09:50:44,092 - INFO - Total entries found: 427
+2024-09-13 09:50:44,094 - INFO - Recent AI-related entries found: 13
+2024-09-13 09:50:44,094 - INFO - This link is already posted: https://techcrunch.com/2024/09/12/ophah-just-had-an-ai-special-with-sam-altman-and-bill-gates-here-are-the-highlights/
+2024-09-13 09:50:44,094 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-ai-personal-shopper-is-sharing-ads-with-its-advice
+2024-09-13 09:50:44,094 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/sorry-apple-ai-isnt-enough-to-get-me-to-upgrade-to-the-iphone-16/#ftag=CAD590a51e
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/openai-strawberry-is-here-its-called-o1-preview-and-it-might-be-the-most-human-chatgpt-ever
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/taylor-swift-endorses-kamala-harris-calling-out-donald-trumps-ai-deepfake-post/#ftag=CAD590a51e
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://techcrunch.com/2024/09/12/meta-is-making-its-ai-info-label-less-visible-on-content-edited-or-modified-by-ai-tools/
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.theverge.com/2024/9/12/24243021/springfield-ohio-haitians-ai-generated-misinformation-trump
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://techcrunch.com/2024/09/12/shopsense-ai-technology-enables-music-fans-to-buy-dupes-inspired-by-red-carpet-looks-vmas/
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://techcrunch.com/2024/09/12/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.pcmag.com/news/with-strawberry-ai-model-openai-argues-slower-responses-are-better
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1ff8f7v/d_openai_new_reasoning_model_called_o1/
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://www.wired.com/story/openai-o1-strawberry-problem-reasoning/
+2024-09-13 09:50:44,095 - INFO - This link is already posted: https://techcrunch.com/2024/09/12/openai-unveils-a-model-that-can-fact-check-itself/
