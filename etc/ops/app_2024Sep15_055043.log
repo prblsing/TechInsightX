@@ -1,0 +1,31 @@
+2024-09-15 05:50:43,091 - INFO - Starting configuration setup
+2024-09-15 05:50:43,091 - INFO - Environment variables loaded successfully
+2024-09-15 05:50:43,091 - INFO - Twitter API client initialized successfully
+2024-09-15 05:50:45,045 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 05:51:11,629 - INFO - Model initialized successfully
+2024-09-15 05:51:11,629 - INFO - Starting tweet scheduling
+2024-09-15 05:51:11,629 - INFO - Tweeting process started at 2024-09-15 05:51:11.629615!
+2024-09-15 05:51:11,629 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 05:51:11,629 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 05:51:24,696 - INFO - Total entries found: 674
+2024-09-15 05:51:24,699 - INFO - Recent AI-related entries found: 12
+2024-09-15 05:51:24,699 - INFO - Fetching trending hashtags for market: 23424848
+2024-09-15 05:51:24,699 - ERROR - Failed to fetch trending hashtags: 'Client' object has no attribute 'get_place_trends'
+2024-09-15 05:51:24,699 - INFO - Input content - content='<p>Article URL: <a href="https://umair.shinyapps.io/storytimegcp/">https://umair.shinyapps.io/storytimegcp/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545394">https://news.ycombinator.com/item?id=41545394</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>'
+2024-09-15 05:51:24,700 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 1'
+2024-09-15 05:51:24,700 - INFO - Generating summary with LLM
+2024-09-15 05:52:44,401 - INFO - Saved posted URL: https://umair.shinyapps.io/storytimegcp/ at 2024-09-15 05:52:44
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fh0pb7/d_machine_learning_system_design/
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgyg90/d_last_week_in_medical_ai_top_research/
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-could-shake-up-its-nonprofit-structure-next-year/
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://venturebeat.com/ai/what-does-it-cost-to-build-a-conversational-ai/
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-previews-its-new-strawberry-model/
+2024-09-15 05:52:44,401 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-could-actually-change-movies-for-the-better-and-fix-that-awful-game-of-thrones-finale
+2024-09-15 05:52:44,402 - INFO - This link is already posted: https://www.wired.com/story/audible-audiobook-narrators-ai-voice-clones/
+2024-09-15 05:52:44,402 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>With my team we\'re currently trying to reproduce o1 series reasoning capabilities. However, we\'d need a little help from the community to obtain more data. We plan to base our research on top of two OpenAI\'s papers: Let\'s Verify Step by Step (<a href="https://arxiv.org/pdf/2305.20050">https://arxiv.org/pdf/2305.20050</a>) and Prover-Verifier Games improve legibility of LLM outputs (<a href="https://arxiv.org/pdf/2407.13692">https://arxiv.org/pdf/2407.13692</a>). We will probably also utilize some type of tree search in our approach. As we are a quite small team, any help would be very beneficial, especially with obtaining math, reasoning and code Chain of Thought data with steps taken classified as &quot;correct&quot;, &quot;neutral&quot; or &quot;incorrect&quot;. If you\'re interested in helping us, please comment under this post or send me a message on reddit or discord (danfosing).</p> <p>Edit: Since I\'m getting a lot of questions about it: yes the entirety of our research including models, dataset, code used to train will be published.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/DanFosing"> /u/DanFosing </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fgmllq/p_trying_to_reproduce_openais_o1_reasoning/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fgmllq/p_trying_to_reproduce_openais_o1_reasoning/">[comments]</a></span>'
+2024-09-15 05:52:44,402 - INFO - clean content - clean_content="With my team we're currently trying to reproduce o1 series reasoning capabilities. However, we'd need a little help from the community to obtain more data. We plan to base our research on top of two OpenAI's papers: Let's Verify Step by Step ( and Prover-Verifier Games improve legibility of LLM outputs ( We will probably also utilize some type of tree search in our approach. As we are a quite small team, any help would be very beneficial, especially with obtaining math, reasoning and code Chain of Thought data with steps taken classified as &quot;correct&quot;, &quot;neutral&quot; or &quot;incorrect&quot;. If you're interested in helping us, please comment under this post or send me a message on reddit or discord (danfosing). Edit: Since I'm getting a lot of questions about it: yes the entirety of our research including models, dataset, code used to train will be published. &#32; submitted by &#32; /u/DanFosing [link] &#32; [comments]"
+2024-09-15 05:52:44,402 - INFO - Generating summary with LLM
+2024-09-15 05:54:20,735 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fgmllq/p_trying_to_reproduce_openais_o1_reasoning/ at 2024-09-15 05:54:20
+2024-09-15 05:54:20,735 - INFO - This link is already posted: https://www.theverge.com/2024/9/14/24243781/plaud-notepin-review-ai-voice-recorder
+2024-09-15 05:54:20,735 - INFO - This link is already posted: https://www.techradar.com/phones/apple-is-bringing-ai-to-ios-and-techradar-pro-aren-t-allowed-to-talk-about-it
+2024-09-15 05:54:20,735 - INFO - This link is already posted: https://www.wired.com/story/shein-is-officially-the-biggest-polluter-in-fast-fashion-ai-is-making-things-worse/
