@@ -1,0 +1,23 @@
+2024-09-15 16:26:15,409 - INFO - Starting configuration setup
+2024-09-15 16:26:15,409 - INFO - Environment variables loaded successfully
+2024-09-15 16:26:15,410 - INFO - Twitter API client initialized successfully
+2024-09-15 16:26:17,642 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 16:26:41,167 - INFO - Model initialized successfully
+2024-09-15 16:26:41,167 - INFO - Starting tweet scheduling
+2024-09-15 16:26:41,168 - INFO - Tweeting process started at 2024-09-15 16:26:41.168037!
+2024-09-15 16:26:41,168 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 16:26:41,168 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 16:27:02,096 - INFO - Total entries found: 702
+2024-09-15 16:27:02,100 - INFO - Recent AI-related entries found: 6
+2024-09-15 16:27:02,100 - INFO - Input content - content='<p>Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole life. He told TechCrunch that once he started singing, he never shut up. That’s still true today. In addition to his full-time job at Cohere, Frosst is also the front man of Good Kid, an indie rock band [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-15 16:27:02,100 - INFO - clean content - clean_content='Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole life. He told TechCrunch that once he started singing, he never shut up. That’s still true today. In addition to his full-time job at Cohere, Frosst is also the front man of Good Kid, an indie rock band [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-15 16:27:02,100 - INFO - Generating summary with LLM
+2024-09-15 16:28:18,879 - INFO - Generating summary with LLM
+2024-09-15 16:30:53,524 - INFO - full_tweet='This article is in the public domain.\n\nNick Frosst is a good kid.\n\nI first met Nick in the summer of..[read more👇🏼] #I #started https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/'
+2024-09-15 16:30:53,857 - INFO - Tweet posted successfully: Response(data={'text': 'This article is in the public domain.\n\nNick Frosst is a good kid.\n\nI first met Nick in the summer of..[read more👇🏼] #I #started https://t.co/hdMJ5zgU0n', 'edit_history_tweet_ids': ['1835355619827568770'], 'id': '1835355619827568770'}, includes={}, errors=[], meta={})
+2024-09-15 16:30:53,858 - INFO - Saved posted URL: https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/ at 2024-09-15 16:30:53
+2024-09-15 16:30:53,858 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fh0pb7/d_machine_learning_system_design/
+2024-09-15 16:30:53,858 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgyg90/d_last_week_in_medical_ai_top_research/
+2024-09-15 16:30:53,858 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-could-shake-up-its-nonprofit-structure-next-year/
+2024-09-15 16:30:53,858 - INFO - This link is already posted: https://venturebeat.com/ai/what-does-it-cost-to-build-a-conversational-ai/
+2024-09-15 16:30:53,858 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-previews-its-new-strawberry-model/
