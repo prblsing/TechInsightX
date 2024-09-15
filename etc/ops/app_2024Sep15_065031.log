@@ -1,0 +1,23 @@
+2024-09-15 06:50:31,219 - INFO - Starting configuration setup
+2024-09-15 06:50:31,219 - INFO - Environment variables loaded successfully
+2024-09-15 06:50:31,219 - INFO - Twitter API client initialized successfully
+2024-09-15 06:50:33,626 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 06:50:58,089 - INFO - Model initialized successfully
+2024-09-15 06:50:58,090 - INFO - Starting tweet scheduling
+2024-09-15 06:50:58,090 - INFO - Tweeting process started at 2024-09-15 06:50:58.090192!
+2024-09-15 06:50:58,090 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 06:50:58,090 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 06:51:09,902 - INFO - Total entries found: 674
+2024-09-15 06:51:09,905 - INFO - Recent AI-related entries found: 10
+2024-09-15 06:51:09,906 - INFO - Fetching trending hashtags for market: 23424848
+2024-09-15 06:51:09,906 - ERROR - Failed to fetch trending hashtags: 'Client' object has no attribute 'get_place_trends'
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fh0pb7/d_machine_learning_system_design/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgyg90/d_last_week_in_medical_ai_top_research/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-could-shake-up-its-nonprofit-structure-next-year/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://venturebeat.com/ai/what-does-it-cost-to-build-a-conversational-ai/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://techcrunch.com/2024/09/14/openai-previews-its-new-strawberry-model/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-could-actually-change-movies-for-the-better-and-fix-that-awful-game-of-thrones-finale
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.wired.com/story/audible-audiobook-narrators-ai-voice-clones/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fgmllq/p_trying_to_reproduce_openais_o1_reasoning/
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.theverge.com/2024/9/14/24243781/plaud-notepin-review-ai-voice-recorder
+2024-09-15 06:51:09,906 - INFO - This link is already posted: https://www.techradar.com/phones/apple-is-bringing-ai-to-ios-and-techradar-pro-aren-t-allowed-to-talk-about-it
