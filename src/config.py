@@ -2,7 +2,7 @@ import os
 import logging
 from dotenv import load_dotenv
 import tweepy
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Setup directory and log file
 base_dir = os.path.dirname(os.path.abspath(__file__))
