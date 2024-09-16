@@ -1,0 +1,33 @@
+2024-09-16 02:10:47,780 - INFO - Starting configuration setup
+2024-09-16 02:10:47,781 - INFO - Environment variables loaded successfully
+2024-09-16 02:10:47,781 - INFO - Twitter API client initialized successfully
+2024-09-16 02:10:50,639 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-16 02:11:13,606 - INFO - Model initialized successfully
+2024-09-16 02:11:13,606 - INFO - Starting tweet scheduling
+2024-09-16 02:11:13,606 - INFO - Tweeting process started at 2024-09-16 02:11:13.606690!
+2024-09-16 02:11:13,606 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 02:11:13,607 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 02:11:13,607 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 02:11:35,617 - INFO - Total entries found: 643
+2024-09-16 02:11:35,620 - INFO - Recent AI-related entries found: 3
+2024-09-16 02:11:35,620 - INFO - Input content - content='<table> <tr><td> <a href="https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/"> <img alt="[R] A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 and reasoning techniques." src="https://external-preview.redd.it/3eVWWzOoNtVmD1ui3SLmMZrMbExwv--IFFjYnIyckRM.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e07ef560b6710a3868153452f70644e79b281bc4" title="[R] A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 and reasoning techniques." /> </a> </td><td> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Happysedits"> /u/Happysedits </a> <br /> <span><a href="https://github.com/hijkzzz/Awesome-LLM-Strawberry">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/">[comments]</a></span> </td></tr></table>'
+2024-09-16 02:11:35,620 - INFO - clean content - clean_content='&#32; submitted by &#32; /u/Happysedits [link] &#32; [comments]'
+2024-09-16 02:11:35,621 - INFO - Generating summary with LLM
+2024-09-16 02:13:03,126 - INFO - Generating summary with LLM
+2024-09-16 02:15:58,908 - INFO - full_tweet='No special characters are allowed in comments. Comments should be in the form of a question, not a..[read more👇🏼] #The #author https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/'
+2024-09-16 02:15:59,227 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835502862459113771'], 'text': 'No special characters are allowed in comments. Comments should be in the form of a question, not a..[read more👇🏼] #The #author https://t.co/5nAbAHNnqe', 'id': '1835502862459113771'}, includes={}, errors=[], meta={})
+2024-09-16 02:15:59,227 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/ at 2024-09-16 02:15:59
+2024-09-16 02:15:59,227 - INFO - Input content - content='<p>Article URL: <a href="https://www.cadwithai.com/">https://www.cadwithai.com/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41551897">https://news.ycombinator.com/item?id=41551897</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>'
+2024-09-16 02:15:59,227 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 2 # Comments: 0'
+2024-09-16 02:15:59,227 - INFO - Generating summary with LLM
+2024-09-16 02:17:21,554 - INFO - Generating summary with LLM
+2024-09-16 02:20:12,381 - INFO - full_tweet='Use the same formatting as the original article. Example: "The following article was written in a concise..[read more👇🏼] #EU #interview https://www.cadwithai.com/'
+2024-09-16 02:20:12,564 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835503925144772764'], 'text': 'Use the same formatting as the original article. Example: "The following article was written in a concise..[read more👇🏼] #EU #interview https://t.co/QUV063luMp', 'id': '1835503925144772764'}, includes={}, errors=[], meta={})
+2024-09-16 02:20:12,565 - INFO - Saved posted URL: https://www.cadwithai.com/ at 2024-09-16 02:20:12
+2024-09-16 02:20:12,565 - INFO - Input content - content='<p>Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole life. He told TechCrunch that once he started singing, he never shut up. That’s still true today. In addition to his full-time job at Cohere, Frosst is also the front man of Good Kid, an indie rock band [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-16 02:20:12,565 - INFO - clean content - clean_content='Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole life. He told TechCrunch that once he started singing, he never shut up. That’s still true today. In addition to his full-time job at Cohere, Frosst is also the front man of Good Kid, an indie rock band [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-16 02:20:12,565 - INFO - Generating summary with LLM
+2024-09-16 02:21:41,396 - INFO - Generating summary with LLM
+2024-09-16 02:24:47,460 - INFO - full_tweet='Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole..[read more👇🏼] #more #any https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/'
+2024-09-16 02:24:47,634 - INFO - Tweet posted successfully: Response(data={'id': '1835505078913888345', 'edit_history_tweet_ids': ['1835505078913888345'], 'text': 'Nick Frosst, the co-founder of $5.5 billion Canadian AI startup Cohere, has been a musician his whole..[read more👇🏼] #more #any https://t.co/hdMJ5zgU0n'}, includes={}, errors=[], meta={})
+2024-09-16 02:24:47,634 - INFO - Saved posted URL: https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/ at 2024-09-16 02:24:47
