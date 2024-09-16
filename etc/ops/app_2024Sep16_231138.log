@@ -1,0 +1,18 @@
+2024-09-16 23:11:38,090 - INFO - Starting configuration setup
+2024-09-16 23:11:38,090 - INFO - Environment variables loaded successfully
+2024-09-16 23:11:38,090 - INFO - Twitter API client initialized successfully
+2024-09-16 23:11:40,020 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-16 23:12:15,972 - INFO - Summarization model initialized successfully
+2024-09-16 23:12:15,972 - INFO - Starting tweet scheduling
+2024-09-16 23:12:15,972 - INFO - Tweeting process started at 2024-09-16 23:12:15.972762!
+2024-09-16 23:12:15,973 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 23:12:15,973 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 23:12:39,684 - INFO - Total entries found: 652
+2024-09-16 23:12:39,687 - INFO - Recent AI-related entries found: 27
+2024-09-16 23:12:39,688 - INFO - Input content - content='Report claims that renting slower Nvidia AI GPUs is cheaper in China than in the US'
+2024-09-16 23:12:39,688 - INFO - clean content - clean_content='Report claims that renting slower Nvidia AI GPUs is cheaper in China than in the US'
+2024-09-16 23:12:39,688 - INFO - Generating summary with BART model
+2024-09-16 23:12:44,302 - INFO - Generating summary with BART model
+2024-09-16 23:12:48,219 - INFO - full_tweet='Report claims renting slower Nvidia AI GPUs is cheaper in China than in the US. Report claims that..[read more👇🏼] #AI #renting https://www.techradar.com/pro/report-claims-that-renting-slower-nvidia-ai-gpus-is-cheaper-in-china-than-in-the-us-but-that-s-thanks-to-some-rather-surprising-underhand-strategy'
+2024-09-16 23:12:48,326 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
