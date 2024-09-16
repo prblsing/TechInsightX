@@ -2,7 +2,7 @@ name: Tweet AI News Daily
 
 on:
   schedule:
-    - cron: '45 0-10/1 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,18 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.11.9
+
+      - name: Check for lock file
+        id: check-lock
+        run: |
+          if [ -f "/tmp/random_sleep.lock" ]; then
+            echo "Previous instance is still running. Exiting."
+            exit 1
+          fi
+
+      - name: Create lock file
+        if: steps.check-lock.outcome == 'success'
+        run: touch /tmp/random_sleep.lock
 
       - name: Install dependencies
         run: |
@@ -52,3 +64,7 @@ jobs:
           git commit -m "Update posted links and logs after run"
           git push origin main
         continue-on-error: true
+
+      - name: Remove lock file on failure
+        if: failure()
+        run: rm -f /tmp/random_sleep.lock
