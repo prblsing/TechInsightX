@@ -1,0 +1,67 @@
+2024-09-16 18:14:40,417 - INFO - Starting configuration setup
+2024-09-16 18:14:40,417 - INFO - Environment variables loaded successfully
+2024-09-16 18:14:40,417 - INFO - Twitter API client initialized successfully
+2024-09-16 18:14:42,485 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-16 18:14:51,085 - INFO - Summarization model initialized successfully
+2024-09-16 18:14:51,085 - INFO - Starting tweet scheduling
+2024-09-16 18:14:51,085 - INFO - Tweeting process started at 2024-09-16 18:14:51.085754!
+2024-09-16 18:14:51,085 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 18:14:51,086 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 18:15:11,963 - INFO - Total entries found: 652
+2024-09-16 18:15:11,966 - INFO - Recent AI-related entries found: 21
+2024-09-16 18:15:11,967 - INFO - Input content - content='<p>I\'ve built an AI chatbot app that provides pay-per-use access to multiple high-end AI models from different providers. It\'s designed for developers and hobbyists who need occasional access to powerful AI models without monthly subscriptions.<p>Features:\n- Access to models from OpenAI, Anthropic, and others\n- Pay-per-use credit system\n- No monthly fees or commitments\n- Suitable for both hobby projects and professional use<p>I\'d love to get your feedback and answer any questions!</p>\n<hr />\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41558652">https://news.ycombinator.com/item?id=41558652</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-16 18:15:11,967 - INFO - clean content - clean_content="I've built an AI chatbot app that provides pay-per-use access to multiple high-end AI models from different providers. It's designed for developers and hobbyists who need occasional access to powerful AI models without monthly subscriptions.Features: - Access to models from OpenAI, Anthropic, and others - Pay-per-use credit system - No monthly fees or commitments - Suitable for both hobby projects and professional useI'd love to get your feedback and answer any questions! Comments URL: Points: 1 # Comments: 0"
+2024-09-16 18:15:11,967 - INFO - Generating summary with BART model
+2024-09-16 18:15:19,494 - INFO - Generating summary with BART model
+2024-09-16 18:15:24,758 - INFO - full_tweet='AI chatbot app provides pay-per-use access to multiple high-end AI models from different providers...[read more👇🏼] #AI #app https://promptbridge.ai/'
+2024-09-16 18:15:25,053 - INFO - Tweet posted successfully: Response(data={'text': 'AI chatbot app provides pay-per-use access to multiple high-end AI models from different providers...[read more👇🏼] #AI #app https://t.co/PjrftVNvb1', 'edit_history_tweet_ids': ['1835744311138218362'], 'id': '1835744311138218362'}, includes={}, errors=[], meta={})
+2024-09-16 18:15:25,053 - INFO - Sleeping for 8 minutes and 13 seconds.
+2024-09-16 18:23:38,053 - INFO - Saved posted URL: https://promptbridge.ai/ at 2024-09-16 18:23:38
+2024-09-16 18:23:38,054 - INFO - Input content - content='<p>Article URL: <a href="https://www.safe.ai/blog/humanitys-last-exam">https://www.safe.ai/blog/humanitys-last-exam</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41558614">https://news.ycombinator.com/item?id=41558614</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-16 18:23:38,054 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-16 18:23:38,054 - INFO - Generating summary with BART model
+2024-09-16 18:23:43,609 - INFO - Generating summary with BART model
+2024-09-16 18:23:49,146 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.safe.ai/blog/humanitys-last-exam'
+2024-09-16 18:23:49,458 - INFO - Tweet posted successfully: Response(data={'id': '1835746426682331207', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/FbYzcZgvRN', 'edit_history_tweet_ids': ['1835746426682331207']}, includes={}, errors=[], meta={})
+2024-09-16 18:23:49,458 - INFO - Sleeping for 9 minutes and 57 seconds.
+2024-09-16 18:33:46,458 - INFO - Saved posted URL: https://www.safe.ai/blog/humanitys-last-exam at 2024-09-16 18:33:46
+2024-09-16 18:33:46,458 - INFO - Input content - content='<p>Article URL: <a href="https://gitpulse.org">https://gitpulse.org</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41558589">https://news.ycombinator.com/item?id=41558589</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>'
+2024-09-16 18:33:46,459 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 2 # Comments: 0'
+2024-09-16 18:33:46,459 - INFO - Generating summary with BART model
+2024-09-16 18:33:51,940 - INFO - Generating summary with BART model
+2024-09-16 18:33:57,360 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://gitpulse.org'
+2024-09-16 18:33:57,672 - INFO - Tweet posted successfully: Response(data={'id': '1835748977758625929', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/aV3uSt0ECk', 'edit_history_tweet_ids': ['1835748977758625929']}, includes={}, errors=[], meta={})
+2024-09-16 18:33:57,672 - INFO - Sleeping for 9 minutes and 41 seconds.
+2024-09-16 18:43:38,672 - INFO - Saved posted URL: https://gitpulse.org at 2024-09-16 18:43:38
+2024-09-16 18:43:38,673 - INFO - Input content - content='<p>Article URL: <a href="https://davidvgilmore.com/writings/outthinking-ai">https://davidvgilmore.com/writings/outthinking-ai</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41558540">https://news.ycombinator.com/item?id=41558540</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>'
+2024-09-16 18:43:38,673 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 2 # Comments: 0'
+2024-09-16 18:43:38,673 - INFO - Generating summary with BART model
+2024-09-16 18:43:43,972 - INFO - Generating summary with BART model
+2024-09-16 18:43:49,250 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://davidvgilmore.com/writings/outthinking-ai'
+2024-09-16 18:43:49,586 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835751460379808139'], 'id': '1835751460379808139', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/Bhte1pJfkQ'}, includes={}, errors=[], meta={})
+2024-09-16 18:43:49,586 - INFO - Sleeping for 8 minutes and 24 seconds.
+2024-09-16 18:52:13,586 - INFO - Saved posted URL: https://davidvgilmore.com/writings/outthinking-ai at 2024-09-16 18:52:13
+2024-09-16 18:52:13,586 - INFO - Input content - content='Tech giant wants to stop rare materials being wasted'
+2024-09-16 18:52:13,586 - INFO - clean content - clean_content='Tech giant wants to stop rare materials being wasted'
+2024-09-16 18:52:13,587 - INFO - Generating summary with BART model
+2024-09-16 18:52:17,969 - INFO - Generating summary with BART model
+2024-09-16 18:52:22,325 - INFO - full_tweet='Tech giant wants to stop rare materials being wasted. It wants to use rare materials instead of throwing..[read more👇🏼] #Tech #wants https://www.techradar.com/pro/microsoft-is-using-ai-powered-robots-to-help-dismantle-and-destroy-hard-drives-used-in-its-data-centers'
+2024-09-16 18:52:22,618 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835753612221329554'], 'text': 'Tech giant wants to stop rare materials being wasted. It wants to use rare materials instead of throwing..[read more👇🏼] #Tech #wants https://t.co/Qch1tArTYx', 'id': '1835753612221329554'}, includes={}, errors=[], meta={})
+2024-09-16 18:52:22,618 - INFO - Sleeping for 1 minutes and 23 seconds.
+2024-09-16 18:53:45,618 - INFO - Saved posted URL: https://www.techradar.com/pro/microsoft-is-using-ai-powered-robots-to-help-dismantle-and-destroy-hard-drives-used-in-its-data-centers at 2024-09-16 18:53:45
+2024-09-16 18:53:45,618 - INFO - Input content - content='<figure>\n      <img alt="Photo of iPhone with iOS 18 wallpaper on a wooden table." src="https://cdn.vox-cdn.com/thumbor/ehKHTapjS3mFkyZsvBhBt3Y3nsI=/0x0:2000x1333/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73589532/DSC08366_processed.0.jpg" />\n        <figcaption><em>The marquee feature isn’t here yet, but there’s still a lot to appreciate in iOS 18.</em> | <em>Photo: Allison Johnson / The Verge</em></figcaption>\n    </figure>\n\n  <p id="iRICr9">It’s a weird year for iOS. </p>\n<p id="tVr2SD">Usually, the new software version arrives all at once. Not so with iOS 18. The foundational stuff has arrived, and in a normal year, things like RCS support and a redesigned control center would be more than enough. But iOS 18’s headline feature, Apple Intelligence, isn’t even part of this initial release, and we may not see some of its most interesting features until well into 2025. The iOS 18 rollout starts now, and it’s just going to keep on rolling for the foreseeable future.</p>\n<p id="bJDq1E">iOS 18 is an ambitious update, even without Apple Intelligence in the picture. Customization options are at an all-time high, and with some tinkering, you’ll be able to personalize your iPhone like never before. It’s almost...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/16/24245582/ios-18-review-customization-apple-intelligence-siri">Continue reading&hellip;</a>\n  </p>'
+2024-09-16 18:53:45,619 - INFO - clean content - clean_content='The marquee feature isn’t here yet, but there’s still a lot to appreciate in iOS 18. | Photo: Allison Johnson / The Verge It’s a weird year for iOS. Usually, the new software version arrives all at once. Not so with iOS 18. The foundational stuff has arrived, and in a normal year, things like RCS support and a redesigned control center would be more than enough. But iOS 18’s headline feature, Apple Intelligence, isn’t even part of this initial release, and we may not see some of its most interesting features until well into 2025. The iOS 18 rollout starts now, and it’s just going to keep on rolling for the foreseeable future. iOS 18 is an ambitious update, even without Apple Intelligence in the picture. Customization options are at an all-time high, and with some tinkering, you’ll be able to personalize your iPhone like never before. It’s almost... Continue reading&hellip;'
+2024-09-16 18:53:45,619 - INFO - Generating summary with BART model
+2024-09-16 18:53:52,285 - INFO - Generating summary with BART model
+2024-09-16 18:53:58,965 - INFO - full_tweet='iOS 18 is an ambitious update, even without Apple Intelligence in the picture. Customization options are..[read more👇🏼] #Customization #Intelligence https://www.theverge.com/2024/9/16/24245582/ios-18-review-customization-apple-intelligence-siri'
+2024-09-16 18:53:59,192 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835754017244287205'], 'id': '1835754017244287205', 'text': 'iOS 18 is an ambitious update, even without Apple Intelligence in the picture. Customization options are..[read more👇🏼] #Customization #Intelligence https://t.co/4wjPv5cLTQ'}, includes={}, errors=[], meta={})
+2024-09-16 18:53:59,193 - INFO - Sleeping for 1 minutes and 49 seconds.
+2024-09-16 18:55:48,193 - INFO - Saved posted URL: https://www.theverge.com/2024/9/16/24245582/ios-18-review-customization-apple-intelligence-siri at 2024-09-16 18:55:48
+2024-09-16 18:55:48,193 - INFO - This link is already posted: https://techcrunch.com/2024/09/16/oracle-ceo-larry-ellison-says-that-ai-will-someday-track-your-every-move/
+2024-09-16 18:55:48,193 - INFO - Input content - content="Salesforce CEO Marc Benioff reveals how a conversation with Steve Jobs inspired Agentforce, the company's groundbreaking AI strategy set to revolutionize enterprise software."
+2024-09-16 18:55:48,193 - INFO - clean content - clean_content="Salesforce CEO Marc Benioff reveals how a conversation with Steve Jobs inspired Agentforce, the company's groundbreaking AI strategy set to revolutionize enterprise software."
+2024-09-16 18:55:48,193 - INFO - Generating summary with BART model
+2024-09-16 18:55:52,270 - INFO - Generating summary with BART model
+2024-09-16 18:55:56,296 - INFO - full_tweet='Salesforce CEO Marc Benioff reveals how a conversation with Steve Jobs inspired Agentforce. Agentforce is..[read more👇🏼] #software #AI https://venturebeat.com/ai/salesforce-ceo-marc-benioff-reveals-steve-jobs-influence-on-agentforce-ai-strategy/'
+2024-09-16 18:55:56,404 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
