@@ -1,0 +1,27 @@
+2024-09-16 03:15:12,847 - INFO - Starting configuration setup
+2024-09-16 03:15:12,848 - INFO - Environment variables loaded successfully
+2024-09-16 03:15:12,848 - INFO - Twitter API client initialized successfully
+2024-09-16 03:15:14,984 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-16 03:15:37,465 - INFO - Model initialized successfully
+2024-09-16 03:15:37,465 - INFO - Starting tweet scheduling
+2024-09-16 03:15:37,465 - INFO - Tweeting process started at 2024-09-16 03:15:37.465839!
+2024-09-16 03:15:37,466 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 03:15:37,466 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 03:16:00,576 - INFO - Total entries found: 622
+2024-09-16 03:16:00,579 - INFO - Recent AI-related entries found: 4
+2024-09-16 03:16:00,579 - INFO - Input content - content='<p>Article URL: <a href="https://freebird-bg0.pages.dev/ai-chatbots-might-be-better-at-swaying-conspiracy-theorists-than-humans">https://freebird-bg0.pages.dev/ai-chatbots-might-be-better-at-swaying-conspiracy-theorists-than-humans</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41552152">https://news.ycombinator.com/item?id=41552152</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-16 03:16:00,579 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-16 03:16:00,579 - INFO - Generating summary with LLM
+2024-09-16 03:17:19,009 - INFO - Generating summary with LLM
+2024-09-16 03:20:01,977 - INFO - full_tweet='(Incorrect English is generally considered to be writing that is not written in the correct English..[read more👇🏼] https://freebird-bg0.pages.dev/ai-chatbots-might-be-better-at-swaying-conspiracy-theorists-than-humans'
+2024-09-16 03:20:02,206 - INFO - Tweet posted successfully: Response(data={'id': '1835518981291278427', 'edit_history_tweet_ids': ['1835518981291278427'], 'text': '(Incorrect English is generally considered to be writing that is not written in the correct English..[read more👇🏼] https://t.co/SYZIPAOpe7'}, includes={}, errors=[], meta={})
+2024-09-16 03:20:02,206 - INFO - Saved posted URL: https://freebird-bg0.pages.dev/ai-chatbots-might-be-better-at-swaying-conspiracy-theorists-than-humans at 2024-09-16 03:20:02
+2024-09-16 03:20:02,206 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/
+2024-09-16 03:20:02,206 - INFO - Input content - content='<p>Hello everyone,<p>I created a free tool for marketers to calculate their ROI with AI, and it took me just 5 minutes to build.<p>What do you think?</p>\n<hr />\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41552085">https://news.ycombinator.com/item?id=41552085</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-16 03:20:02,207 - INFO - clean content - clean_content='Hello everyone,I created a free tool for marketers to calculate their ROI with AI, and it took me just 5 minutes to build.What do you think? Comments URL: Points: 1 # Comments: 0'
+2024-09-16 03:20:02,207 - INFO - Generating summary with LLM
+2024-09-16 03:21:23,175 - INFO - Generating summary with LLM
+2024-09-16 03:24:07,736 - INFO - full_tweet='The main difference between AI and ML is that ML is a supervised learning method and AI is unsupervised..[read more👇🏼] #Comments #characters https://www.imgtoprompts.com/tools/marketing-roi-calculator'
+2024-09-16 03:24:07,913 - INFO - Tweet posted successfully: Response(data={'text': 'The main difference between AI and ML is that ML is a supervised learning method and AI is unsupervised..[read more👇🏼] #Comments #characters https://t.co/FBzJv0K7fu', 'id': '1835520011806609834', 'edit_history_tweet_ids': ['1835520011806609834']}, includes={}, errors=[], meta={})
+2024-09-16 03:24:07,914 - INFO - Saved posted URL: https://www.imgtoprompts.com/tools/marketing-roi-calculator at 2024-09-16 03:24:07
+2024-09-16 03:24:07,914 - INFO - This link is already posted: https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/
