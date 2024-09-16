@@ -1,0 +1,28 @@
+2024-09-16 04:51:03,126 - INFO - Starting configuration setup
+2024-09-16 04:51:03,126 - INFO - Environment variables loaded successfully
+2024-09-16 04:51:03,126 - INFO - Twitter API client initialized successfully
+2024-09-16 04:51:05,238 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-16 04:51:32,113 - INFO - Model initialized successfully
+2024-09-16 04:51:32,113 - INFO - Starting tweet scheduling
+2024-09-16 04:51:32,113 - INFO - Tweeting process started at 2024-09-16 04:51:32.113944!
+2024-09-16 04:51:32,114 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 04:51:32,114 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 04:51:53,714 - INFO - Total entries found: 652
+2024-09-16 04:51:53,717 - INFO - Recent AI-related entries found: 5
+2024-09-16 04:51:53,717 - INFO - Input content - content='<p>Article URL: <a href="https://attractivenesstest.com/looksmax">https://attractivenesstest.com/looksmax</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41552810">https://news.ycombinator.com/item?id=41552810</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-16 04:51:53,718 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-16 04:51:53,718 - INFO - Generating summary with LLM
+2024-09-16 04:54:02,319 - INFO - Generating summary with LLM
+2024-09-16 04:58:31,296 - INFO - full_tweet='In the future, make sure the article is not only written correctly, but also formatted properly.\n\nThe US..[read more👇🏼] #s #administration https://attractivenesstest.com/looksmax'
+2024-09-16 04:58:31,559 - INFO - Tweet posted successfully: Response(data={'text': 'In the future, make sure the article is not only written correctly, but also formatted properly.\n\nThe US..[read more👇🏼] #s #administration https://t.co/yq5GFNzxuX', 'edit_history_tweet_ids': ['1835543766825873759'], 'id': '1835543766825873759'}, includes={}, errors=[], meta={})
+2024-09-16 04:58:31,560 - INFO - Saved posted URL: https://attractivenesstest.com/looksmax at 2024-09-16 04:58:31
+2024-09-16 04:58:31,560 - INFO - Input content - content='<p>Article URL: <a href="https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9">https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41552750">https://news.ycombinator.com/item?id=41552750</a></p>\n<p>Points: 1</p>\n<p># Comments: 2</p>'
+2024-09-16 04:58:31,560 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 2'
+2024-09-16 04:58:31,560 - INFO - Generating summary with LLM
+2024-09-16 05:00:34,378 - INFO - Generating summary with LLM
+2024-09-16 05:05:10,224 - INFO - full_tweet='3 # Comments: 4 # Comments: 5 # Comments: 6 # Comments: 7 # Comments: 8 # Comments: 9 # Comments: 10 #..[read more👇🏼] #continue #going https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9'
+2024-09-16 05:05:10,456 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835545439904354815'], 'text': '3 # Comments: 4 # Comments: 5 # Comments: 6 # Comments: 7 # Comments: 8 # Comments: 9 # Comments: 10 #..[read more👇🏼] #continue #going https://t.co/0JNQxtfiqh', 'id': '1835545439904354815'}, includes={}, errors=[], meta={})
+2024-09-16 05:05:10,456 - INFO - Saved posted URL: https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9 at 2024-09-16 05:05:10
+2024-09-16 05:05:10,456 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/chatgpt-glossary-46-ai-terms-that-everyone-should-know/#ftag=CAD590a51e
+2024-09-16 05:05:10,456 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fhtkz5/r_a_collection_of_llm_papers_blogs_and_projects/
+2024-09-16 05:05:10,456 - INFO - This link is already posted: https://techcrunch.com/2024/09/15/cohere-co-founder-nick-frossts-indie-band-good-kid-is-almost-as-successful-as-his-ai-company/
