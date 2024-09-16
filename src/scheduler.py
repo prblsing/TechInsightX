@@ -1,6 +1,8 @@
 import os
 import logging
 from datetime import datetime
+import random
+import time
 from news_fetcher import fetch_latest_tech_news
 from content_generator import clean_text, summarize_with_llm
 from config import log_dir, generate_hashtags_from_content, client
@@ -72,6 +74,10 @@ def tweet_ai_news():
                 # Uncomment the next line to actually post the tweet
                 response = client.create_tweet(text=full_tweet)
                 logging.info(f'Tweet posted successfully: {response}')
+                sleep_time = random.randint(60, 600)
+                logging.info(f"Sleeping for {sleep_time // 60} minutes and {sleep_time % 60} seconds.")
+                time.sleep(sleep_time)
+
 
                 save_posted_url(link)
         else:
