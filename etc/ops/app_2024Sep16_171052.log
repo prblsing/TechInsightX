@@ -1,0 +1,26 @@
+2024-09-16 17:10:52,695 - INFO - Starting configuration setup
+2024-09-16 17:10:52,695 - INFO - Environment variables loaded successfully
+2024-09-16 17:10:52,695 - INFO - Twitter API client initialized successfully
+2024-09-16 17:10:54,974 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-16 17:11:05,507 - INFO - Summarization model initialized successfully
+2024-09-16 17:11:05,507 - INFO - Starting tweet scheduling
+2024-09-16 17:11:05,507 - INFO - Tweeting process started at 2024-09-16 17:11:05.507428!
+2024-09-16 17:11:05,507 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 17:11:05,507 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 17:11:34,999 - INFO - Total entries found: 622
+2024-09-16 17:11:35,002 - INFO - Recent AI-related entries found: 14
+2024-09-16 17:11:35,002 - INFO - Input content - content='<p>Speaking at an Oracle financial analysts meeting, Oracle CEO Larry Ellison said he expects AI to one day power massive law enforcement surveillance networks. &#8220;We&#8217;re going to have supervision,&#8221; he said. &#8220;Every police officer is going to be supervised at all times, and if there&#8217;s a problem, AI will report that problem and report it [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-16 17:11:35,003 - INFO - clean content - clean_content='Speaking at an Oracle financial analysts meeting, Oracle CEO Larry Ellison said he expects AI to one day power massive law enforcement surveillance networks. &#8220;We&#8217;re going to have supervision,&#8221; he said. &#8220;Every police officer is going to be supervised at all times, and if there&#8217;s a problem, AI will report that problem and report it [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-16 17:11:35,003 - INFO - Generating summary with BART model
+2024-09-16 17:11:43,362 - INFO - Generating summary with BART model
+2024-09-16 17:11:50,149 - INFO - full_tweet='Oracle CEO Larry Ellison said he expects AI to one day power massive law enforcement surveillance..[read more👇🏼] #AI #Ellison https://techcrunch.com/2024/09/16/oracle-ceo-larry-ellison-says-that-ai-will-someday-track-your-every-move/'
+2024-09-16 17:11:50,430 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835728311475192052'], 'id': '1835728311475192052', 'text': 'Oracle CEO Larry Ellison said he expects AI to one day power massive law enforcement surveillance..[read more👇🏼] #AI #Ellison https://t.co/gvMc12FUyb'}, includes={}, errors=[], meta={})
+2024-09-16 17:11:50,430 - INFO - Sleeping for 9 minutes and 15 seconds.
+2024-09-16 17:21:05,430 - INFO - Saved posted URL: https://techcrunch.com/2024/09/16/oracle-ceo-larry-ellison-says-that-ai-will-someday-track-your-every-move/ at 2024-09-16 17:21:05
+2024-09-16 17:21:05,431 - INFO - Input content - content='<p>The Series A comes about a year after 11xAI raised a $2 million seed round led by Project A Ventures.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-16 17:21:05,431 - INFO - clean content - clean_content='The Series A comes about a year after 11xAI raised a $2 million seed round led by Project A Ventures. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-16 17:21:05,431 - INFO - Generating summary with BART model
+2024-09-16 17:21:10,133 - INFO - Generating summary with BART model
+2024-09-16 17:21:14,805 - INFO - full_tweet='11xAI raised a $2 million seed round led by Project A Ventures last year. The Series A comes about a year..[read more👇🏼] #raised #round https://techcrunch.com/2024/09/16/ai-digital-employee-startup-11xai-raises-24m-led-by-benchmark/'
+2024-09-16 17:21:14,981 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
