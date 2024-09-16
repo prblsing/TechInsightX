@@ -1,0 +1,26 @@
+2024-09-16 19:19:20,417 - INFO - Starting configuration setup
+2024-09-16 19:19:20,417 - INFO - Environment variables loaded successfully
+2024-09-16 19:19:20,417 - INFO - Twitter API client initialized successfully
+2024-09-16 19:19:22,423 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-16 19:19:30,692 - INFO - Summarization model initialized successfully
+2024-09-16 19:19:30,692 - INFO - Starting tweet scheduling
+2024-09-16 19:19:30,693 - INFO - Tweeting process started at 2024-09-16 19:19:30.693021!
+2024-09-16 19:19:30,693 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep16.csv
+2024-09-16 19:19:30,693 - INFO - Fetching latest tech news from RSS feeds
+2024-09-16 19:19:59,625 - INFO - Total entries found: 622
+2024-09-16 19:19:59,628 - INFO - Recent AI-related entries found: 14
+2024-09-16 19:19:59,628 - INFO - Input content - content='<p>Salesforce Ventures just doubled its AI fund with another $500 million, and is helping San Francisco grow its attraction as the city for AI startups.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-16 19:19:59,628 - INFO - clean content - clean_content='Salesforce Ventures just doubled its AI fund with another $500 million, and is helping San Francisco grow its attraction as the city for AI startups. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-16 19:19:59,629 - INFO - Generating summary with BART model
+2024-09-16 19:20:04,957 - INFO - Generating summary with BART model
+2024-09-16 19:20:08,870 - INFO - full_tweet='Salesforce Ventures just doubled its AI fund with another $500 million. The move is helping San Francisco..[read more👇🏼] #AI #its https://techcrunch.com/2024/09/16/salesforce-ventures-ups-its-ai-fund-to-1-billion-doubling-it-again/'
+2024-09-16 19:20:09,157 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835760602137977310'], 'text': 'Salesforce Ventures just doubled its AI fund with another $500 million. The move is helping San Francisco..[read more👇🏼] #AI #its https://t.co/7v8PrOWsCl', 'id': '1835760602137977310'}, includes={}, errors=[], meta={})
+2024-09-16 19:20:09,157 - INFO - Sleeping for 2 minutes and 27 seconds.
+2024-09-16 19:22:36,158 - INFO - Saved posted URL: https://techcrunch.com/2024/09/16/salesforce-ventures-ups-its-ai-fund-to-1-billion-doubling-it-again/ at 2024-09-16 19:22:36
+2024-09-16 19:22:36,158 - INFO - Input content - content='<p>Runway, one of several AI startups developing video-generating tech, today announced an API to allow devs and organizations to build the company&#8217;s generative AI models into third-party platforms, apps, and services. Currently in limited access (there&#8217;s a waitlist), the Runway API only offers a single model to choose from — Gen-3 Alpha Turbo, a faster [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-16 19:22:36,158 - INFO - clean content - clean_content='Runway, one of several AI startups developing video-generating tech, today announced an API to allow devs and organizations to build the company&#8217;s generative AI models into third-party platforms, apps, and services. Currently in limited access (there&#8217;s a waitlist), the Runway API only offers a single model to choose from — Gen-3 Alpha Turbo, a faster [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-16 19:22:36,158 - INFO - Generating summary with BART model
+2024-09-16 19:22:44,493 - INFO - Generating summary with BART model
+2024-09-16 19:22:52,894 - INFO - full_tweet='Runway, one of several AI startups developing video-generating tech, today announced an API. It will..[read more👇🏼] #AI #tech https://techcrunch.com/2024/09/16/runway-announces-an-api-for-its-video-generating-models/'
+2024-09-16 19:22:52,982 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
