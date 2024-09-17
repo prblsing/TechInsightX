@@ -1,0 +1,26 @@
+2024-09-17 03:12:55,041 - INFO - Starting configuration setup
+2024-09-17 03:12:55,041 - INFO - Environment variables loaded successfully
+2024-09-17 03:12:55,041 - INFO - Twitter API client initialized successfully
+2024-09-17 03:12:58,148 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 03:13:08,331 - INFO - Summarization model initialized successfully
+2024-09-17 03:13:08,331 - INFO - Starting tweet scheduling
+2024-09-17 03:13:08,331 - INFO - Tweeting process started at 2024-09-17 03:13:08.331460!
+2024-09-17 03:13:08,331 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 03:13:08,331 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 03:13:29,636 - INFO - Total entries found: 652
+2024-09-17 03:13:29,639 - INFO - Recent AI-related entries found: 30
+2024-09-17 03:13:29,640 - INFO - Input content - content='<p>With MrSeek, you could ompare and analyze responses from multiple AI chatbots—all in one place, with one input.<p>Core Features:\n1. Multiple Chatbot support. ChatGPT, Google Gemini, Perplexity, Claude and more\n2. Multi-Chatbot Interface. Compare results from various LLM chatbots side by side.\n3. Instant Results Comparison. View and compare results from different LLMs side-by-side in real-time.\n4. Synchronized Input. Type your prompt once and send it to all chatbots, saving you time and effort.\n5. Hotkey Support. Press hotkey to bring MrSeek out and hide it with a single ESC.\n6. Your own data, Privacy and Security. No API keys required. Just use the AI Chatbot with your account as normal.<p>The website: <a href="https://beauty-of-pixel.tech/mrseek/" rel="nofollow">https://beauty-of-pixel.tech/mrseek/</a><p>I appreciate your feedback, you could drop us a line whenever you have any questions, problems or suggestions. email: defcc@icloud.com</p>\n<hr />\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41563492">https://news.ycombinator.com/item?id=41563492</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>'
+2024-09-17 03:13:29,640 - INFO - clean content - clean_content='With MrSeek, you could ompare and analyze responses from multiple AI chatbots—all in one place, with one input.Core Features: 1. Multiple Chatbot support. ChatGPT, Google Gemini, Perplexity, Claude and more 2. Multi-Chatbot Interface. Compare results from various LLM chatbots side by side. 3. Instant Results Comparison. View and compare results from different LLMs side-by-side in real-time. 4. Synchronized Input. Type your prompt once and send it to all chatbots, saving you time and effort. 5. Hotkey Support. Press hotkey to bring MrSeek out and hide it with a single ESC. 6. Your own data, Privacy and Security. No API keys required. Just use the AI Chatbot with your account as normal.The website: appreciate your feedback, you could drop us a line whenever you have any questions, problems or suggestions. email: defcc@icloud.com Comments URL: Points: 2 # Comments: 1'
+2024-09-17 03:13:29,640 - INFO - Generating summary with BART model
+2024-09-17 03:13:37,336 - INFO - Generating summary with BART model
+2024-09-17 03:13:43,139 - INFO - full_tweet='With MrSeek, you could ompare and analyze responses from multiple AI chatbots. No API keys required. View..[read more👇🏼] #API #AI https://apps.apple.com/us/app/genius-ai-companion-mrseek/id6670409579?mt=12'
+2024-09-17 03:13:43,432 - INFO - Tweet posted successfully: Response(data={'text': 'With MrSeek, you could ompare and analyze responses from multiple AI chatbots. No API keys required. View..[read more👇🏼] #API #AI https://t.co/Aqj5M4zeAk', 'id': '1835879780350103763', 'edit_history_tweet_ids': ['1835879780350103763']}, includes={}, errors=[], meta={})
+2024-09-17 03:13:43,432 - INFO - Sleeping for 5 minutes and 45 seconds.
+2024-09-17 03:19:28,432 - INFO - Saved posted URL: https://apps.apple.com/us/app/genius-ai-companion-mrseek/id6670409579?mt=12 at 2024-09-17 03:19:28
+2024-09-17 03:19:28,432 - INFO - Input content - content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 03:19:28,433 - INFO - clean content - clean_content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 03:19:28,433 - INFO - Generating summary with BART model
+2024-09-17 03:19:33,341 - INFO - Generating summary with BART model
+2024-09-17 03:19:38,234 - INFO - full_tweet="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online. xAI says it was..[read more👇🏼] #AI #built https://www.techradar.com/pro/xai-cluster-is-now-the-most-powerful-ai-training-system-in-the-world-but-questions-remain-over-storage-capacity-power-usage-and-why-it-s-actually-called-colossus"
+2024-09-17 03:19:38,413 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
