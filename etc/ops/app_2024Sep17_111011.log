@@ -1,0 +1,44 @@
+2024-09-17 11:10:11,045 - INFO - Starting configuration setup
+2024-09-17 11:10:11,046 - INFO - Environment variables loaded successfully
+2024-09-17 11:10:11,046 - INFO - Twitter API client initialized successfully
+2024-09-17 11:10:12,949 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 11:10:19,788 - INFO - Summarization model initialized successfully
+2024-09-17 11:10:19,788 - INFO - Starting tweet scheduling
+2024-09-17 11:10:19,788 - INFO - Tweeting process started at 2024-09-17 11:10:19.788797!
+2024-09-17 11:10:19,789 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 11:10:19,789 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 11:10:41,281 - INFO - Total entries found: 652
+2024-09-17 11:10:41,284 - INFO - Recent AI-related entries found: 25
+2024-09-17 11:10:41,284 - INFO - Input content - content='Saket Srivastava, CIO at work management platform Asana, has had technology roles at organizations such as General Electric, IBM, and Fujitsu, moving from back-end IT services positions to more strategic business leadership roles. Asana has already been working with artificial intelligence for several years, Saket notes, and has seen the technology’s role evolve: Rather than [&#8230;]'
+2024-09-17 11:10:41,285 - INFO - clean content - clean_content='Saket Srivastava, CIO at work management platform Asana, has had technology roles at organizations such as General Electric, IBM, and Fujitsu, moving from back-end IT services positions to more strategic business leadership roles. Asana has already been working with artificial intelligence for several years, Saket notes, and has seen the technology’s role evolve: Rather than [&#8230;]'
+2024-09-17 11:10:41,285 - INFO - Generating summary with BART model
+2024-09-17 11:10:48,265 - INFO - Generating summary with BART model
+2024-09-17 11:10:54,557 - INFO - full_tweet='Saket Srivastava, CIO at work management platform Asana, has had technology roles at organizations such..[read more👇🏼] #technology #Saket https://sloanreview.mit.edu/audio/meet-your-new-teammate-ai-asanas-saket-srivastava/'
+2024-09-17 11:10:54,867 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835999869271441744'], 'id': '1835999869271441744', 'text': 'Saket Srivastava, CIO at work management platform Asana, has had technology roles at organizations such..[read more👇🏼] #technology #Saket https://t.co/ZyDFjW3bgA'}, includes={}, errors=[], meta={})
+2024-09-17 11:10:54,867 - INFO - Sleeping for 5 minutes and 6 seconds.
+2024-09-17 11:16:00,867 - INFO - Saved posted URL: https://sloanreview.mit.edu/audio/meet-your-new-teammate-ai-asanas-saket-srivastava/ at 2024-09-17 11:16:00
+2024-09-17 11:16:00,868 - INFO - Input content - content="Intel is making two new AI-capable chips for Amazon's cloud computing unit, including one based on Intel's Xeon 6."
+2024-09-17 11:16:00,868 - INFO - clean content - clean_content="Intel is making two new AI-capable chips for Amazon's cloud computing unit, including one based on Intel's Xeon 6."
+2024-09-17 11:16:00,868 - INFO - Generating summary with BART model
+2024-09-17 11:16:05,404 - INFO - Generating summary with BART model
+2024-09-17 11:16:09,893 - INFO - full_tweet="Intel is making two new AI-capable chips for Amazon's cloud computing unit. One of the chips is based on Intel's Xeon 6. #cloud #AI https://www.pcmag.com/news/intel-developing-ai-chips-for-amazon-in-multibillion-dollar-deal"
+2024-09-17 11:16:10,138 - INFO - Tweet posted successfully: Response(data={'id': '1836001191601271059', 'edit_history_tweet_ids': ['1836001191601271059'], 'text': "Intel is making two new AI-capable chips for Amazon's cloud computing unit. One of the chips is based on Intel's Xeon 6. #cloud #AI https://t.co/4ogEP9TnJt"}, includes={}, errors=[], meta={})
+2024-09-17 11:16:10,138 - INFO - Sleeping for 2 minutes and 55 seconds.
+2024-09-17 11:19:05,138 - INFO - Saved posted URL: https://www.pcmag.com/news/intel-developing-ai-chips-for-amazon-in-multibillion-dollar-deal at 2024-09-17 11:19:05
+2024-09-17 11:19:05,138 - INFO - Input content - content="Quickly launch Google Gemini on your iPhone with this new update to the Google app's widget."
+2024-09-17 11:19:05,138 - INFO - clean content - clean_content="Quickly launch Google Gemini on your iPhone with this new update to the Google app's widget."
+2024-09-17 11:19:05,138 - INFO - Generating summary with BART model
+2024-09-17 11:19:08,832 - INFO - Generating summary with BART model
+2024-09-17 11:19:12,522 - INFO - full_tweet='The Google Gemini app has been updated with a new widget. Quickly launch Google Gemini on your iPhone..[read more👇🏼] #app #Google https://www.techradar.com/phones/iphone/google-gemini-widget-now-available-on-iphone-launch-googles-ai-from-your-ios-home-screen'
+2024-09-17 11:19:12,705 - INFO - Tweet posted successfully: Response(data={'id': '1836001957384774026', 'text': 'The Google Gemini app has been updated with a new widget. Quickly launch Google Gemini on your iPhone..[read more👇🏼] #app #Google https://t.co/JtbE87he5K', 'edit_history_tweet_ids': ['1836001957384774026']}, includes={}, errors=[], meta={})
+2024-09-17 11:19:12,705 - INFO - Sleeping for 1 minutes and 45 seconds.
+2024-09-17 11:20:57,706 - INFO - Saved posted URL: https://www.techradar.com/phones/iphone/google-gemini-widget-now-available-on-iphone-launch-googles-ai-from-your-ios-home-screen at 2024-09-17 11:20:57
+2024-09-17 11:20:57,706 - INFO - This link is already posted: https://www.infoq.com/articles/practical-applications-generative-ai-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-17 11:20:57,706 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fiqcxh/d_what_tools_do_you_use_for_aiml_development/
+2024-09-17 11:20:57,706 - INFO - Input content - content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 11:20:57,706 - INFO - clean content - clean_content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 11:20:57,706 - INFO - Generating summary with BART model
+2024-09-17 11:21:02,658 - INFO - Generating summary with BART model
+2024-09-17 11:21:07,587 - INFO - full_tweet="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online. xAI says it was..[read more👇🏼] #AI #built https://www.techradar.com/pro/xai-cluster-is-now-the-most-powerful-ai-training-system-in-the-world-but-questions-remain-over-storage-capacity-power-usage-and-why-it-s-actually-called-colossus"
+2024-09-17 11:21:07,665 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
