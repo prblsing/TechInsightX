@@ -1,0 +1,18 @@
+2024-09-17 20:12:08,461 - INFO - Starting configuration setup
+2024-09-17 20:12:08,461 - INFO - Environment variables loaded successfully
+2024-09-17 20:12:08,462 - INFO - Twitter API client initialized successfully
+2024-09-17 20:12:10,410 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 20:12:17,969 - INFO - Summarization model initialized successfully
+2024-09-17 20:12:17,970 - INFO - Starting tweet scheduling
+2024-09-17 20:12:17,970 - INFO - Tweeting process started at 2024-09-17 20:12:17.970152!
+2024-09-17 20:12:17,970 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 20:12:17,970 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 20:12:39,274 - INFO - Total entries found: 622
+2024-09-17 20:12:39,277 - INFO - Recent AI-related entries found: 20
+2024-09-17 20:12:39,277 - INFO - Input content - content='Companies getting access to banks of Nvidia GPUs remains one of the big challenges for AI growth.'
+2024-09-17 20:12:39,278 - INFO - clean content - clean_content='Companies getting access to banks of Nvidia GPUs remains one of the big challenges for AI growth.'
+2024-09-17 20:12:39,278 - INFO - Generating summary with BART model
+2024-09-17 20:12:44,050 - INFO - Generating summary with BART model
+2024-09-17 20:12:48,150 - INFO - full_tweet='Companies getting access to banks of Nvidia GPUs remains one of the big challenges for AI growth. Nvidia..[read more👇🏼] #AI #Nvidia https://www.techradar.com/pro/storage-not-gpus-is-the-biggest-challenge-to-ai-says-influential-report-lack-of-bits-and-bytes-is-what-could-make-or-break-your-aiml-project'
+2024-09-17 20:12:48,262 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
