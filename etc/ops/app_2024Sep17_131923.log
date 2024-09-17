@@ -1,0 +1,18 @@
+2024-09-17 13:19:23,450 - INFO - Starting configuration setup
+2024-09-17 13:19:23,451 - INFO - Environment variables loaded successfully
+2024-09-17 13:19:23,451 - INFO - Twitter API client initialized successfully
+2024-09-17 13:19:25,509 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 13:19:33,820 - INFO - Summarization model initialized successfully
+2024-09-17 13:19:33,820 - INFO - Starting tweet scheduling
+2024-09-17 13:19:33,820 - INFO - Tweeting process started at 2024-09-17 13:19:33.820875!
+2024-09-17 13:19:33,821 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 13:19:33,821 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 13:19:58,581 - INFO - Total entries found: 652
+2024-09-17 13:19:58,584 - INFO - Recent AI-related entries found: 23
+2024-09-17 13:19:58,584 - INFO - Input content - content='<p>AI is increasingly being applied to protein design, the process of creating new proteins with specific, target characteristics. Protein design&#8217;s applications are myriad, but it&#8217;s a promising way of discovering drug-based treatments to combat diseases and creating new homecare, agriculture, food-based and materials products. One among the many vendors developing AI tech to design proteins, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-17 13:19:58,585 - INFO - clean content - clean_content='AI is increasingly being applied to protein design, the process of creating new proteins with specific, target characteristics. Protein design&#8217;s applications are myriad, but it&#8217;s a promising way of discovering drug-based treatments to combat diseases and creating new homecare, agriculture, food-based and materials products. One among the many vendors developing AI tech to design proteins, [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-17 13:19:58,585 - INFO - Generating summary with BART model
+2024-09-17 13:20:05,876 - INFO - Generating summary with BART model
+2024-09-17 13:20:12,286 - INFO - full_tweet='AI is increasingly being applied to protein design, the process of creating new proteins with specific,..[read more👇🏼] #AI #creating https://techcrunch.com/2024/09/17/arzeda-is-using-ai-to-design-proteins-for-artificial-sweeteners-and-more/'
+2024-09-17 13:20:12,448 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
