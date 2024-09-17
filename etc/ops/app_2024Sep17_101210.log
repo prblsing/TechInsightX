@@ -1,0 +1,43 @@
+2024-09-17 10:12:10,979 - INFO - Starting configuration setup
+2024-09-17 10:12:10,979 - INFO - Environment variables loaded successfully
+2024-09-17 10:12:10,980 - INFO - Twitter API client initialized successfully
+2024-09-17 10:12:13,450 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 10:12:22,289 - INFO - Summarization model initialized successfully
+2024-09-17 10:12:22,289 - INFO - Starting tweet scheduling
+2024-09-17 10:12:22,289 - INFO - Tweeting process started at 2024-09-17 10:12:22.289846!
+2024-09-17 10:12:22,290 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 10:12:22,290 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 10:12:45,423 - INFO - Total entries found: 652
+2024-09-17 10:12:45,426 - INFO - Recent AI-related entries found: 28
+2024-09-17 10:12:45,426 - INFO - Input content - content='<img src="https://res.infoq.com/articles/practical-applications-generative-ai-series/en/headerimage/generatedHeaderImage-1726067147994.jpg" /><p>Generative AI (GenAI) has become a major component of the artificial intelligence (AI) and machine learning (ML) industry.  However, using GenAI comes with challenges and risks. In the InfoQ "Practical Applications of Generative AI" article series, we present real-world solutions and hands-on practices from leading GenAI practitioners.</p> <i>By Anthony Alford</i>'
+2024-09-17 10:12:45,427 - INFO - clean content - clean_content='Generative AI (GenAI) has become a major component of the artificial intelligence (AI) and machine learning (ML) industry. However, using GenAI comes with challenges and risks. In the InfoQ "Practical Applications of Generative AI" article series, we present real-world solutions and hands-on practices from leading GenAI practitioners. By Anthony Alford'
+2024-09-17 10:12:45,427 - INFO - Generating summary with BART model
+2024-09-17 10:12:54,398 - INFO - Generating summary with BART model
+2024-09-17 10:13:01,979 - INFO - full_tweet='Generative AI (GenAI) has become a major component of the artificial intelligence (AI) and machine..[read more👇🏼] #AI #ML https://www.infoq.com/articles/practical-applications-generative-ai-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global'
+2024-09-17 10:13:02,216 - INFO - Tweet posted successfully: Response(data={'text': 'Generative AI (GenAI) has become a major component of the artificial intelligence (AI) and machine..[read more👇🏼] #AI #ML https://t.co/HdBRLUj4Ad', 'id': '1835985303989104747', 'edit_history_tweet_ids': ['1835985303989104747']}, includes={}, errors=[], meta={})
+2024-09-17 10:13:02,216 - INFO - Sleeping for 9 minutes and 57 seconds.
+2024-09-17 10:22:59,216 - INFO - Saved posted URL: https://www.infoq.com/articles/practical-applications-generative-ai-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global at 2024-09-17 10:22:59
+2024-09-17 10:22:59,217 - INFO - Input content - content='<p>Article URL: <a href="https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai">https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41566056">https://news.ycombinator.com/item?id=41566056</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 10:22:59,217 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 10:22:59,217 - INFO - Generating summary with BART model
+2024-09-17 10:23:04,563 - INFO - Generating summary with BART model
+2024-09-17 10:23:09,827 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai'
+2024-09-17 10:23:10,090 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/0A66E2YHk6', 'edit_history_tweet_ids': ['1835987853542821917'], 'id': '1835987853542821917'}, includes={}, errors=[], meta={})
+2024-09-17 10:23:10,090 - INFO - Sleeping for 7 minutes and 24 seconds.
+2024-09-17 10:30:34,091 - INFO - Saved posted URL: https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai at 2024-09-17 10:30:34
+2024-09-17 10:30:34,091 - INFO - Input content - content='<p>Article URL: <a href="https://gianluca.ai/aimong-us-game/">https://gianluca.ai/aimong-us-game/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41566043">https://news.ycombinator.com/item?id=41566043</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 10:30:34,091 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 10:30:34,091 - INFO - Generating summary with BART model
+2024-09-17 10:30:39,322 - INFO - Generating summary with BART model
+2024-09-17 10:30:44,543 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://gianluca.ai/aimong-us-game/'
+2024-09-17 10:30:44,768 - INFO - Tweet posted successfully: Response(data={'id': '1835989760659341743', 'edit_history_tweet_ids': ['1835989760659341743'], 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/9yVqON59SC'}, includes={}, errors=[], meta={})
+2024-09-17 10:30:44,768 - INFO - Sleeping for 3 minutes and 39 seconds.
+2024-09-17 10:34:23,768 - INFO - Saved posted URL: https://gianluca.ai/aimong-us-game/ at 2024-09-17 10:34:23
+2024-09-17 10:34:23,768 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fiqcxh/d_what_tools_do_you_use_for_aiml_development/
+2024-09-17 10:34:23,768 - INFO - Input content - content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 10:34:23,769 - INFO - clean content - clean_content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 10:34:23,769 - INFO - Generating summary with BART model
+2024-09-17 10:34:28,673 - INFO - Generating summary with BART model
+2024-09-17 10:34:33,575 - INFO - full_tweet="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online. xAI says it was..[read more👇🏼] #AI #built https://www.techradar.com/pro/xai-cluster-is-now-the-most-powerful-ai-training-system-in-the-world-but-questions-remain-over-storage-capacity-power-usage-and-why-it-s-actually-called-colossus"
+2024-09-17 10:34:33,621 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
