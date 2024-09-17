@@ -1,0 +1,19 @@
+2024-09-17 00:41:44,407 - INFO - Starting configuration setup
+2024-09-17 00:41:44,407 - INFO - Environment variables loaded successfully
+2024-09-17 00:41:44,407 - INFO - Twitter API client initialized successfully
+2024-09-17 00:41:46,599 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 00:41:54,468 - INFO - Summarization model initialized successfully
+2024-09-17 00:41:54,468 - INFO - Starting tweet scheduling
+2024-09-17 00:41:54,469 - INFO - Tweeting process started at 2024-09-17 00:41:54.469055!
+2024-09-17 00:41:54,469 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 00:41:54,469 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 00:41:54,469 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 00:42:17,427 - INFO - Total entries found: 622
+2024-09-17 00:42:17,430 - INFO - Recent AI-related entries found: 22
+2024-09-17 00:42:17,430 - INFO - Input content - content='<p>Article URL: <a href="https://www.theatlantic.com/technology/archive/2024/09/microsoft-ai-oil-contracts/679804/">https://www.theatlantic.com/technology/archive/2024/09/microsoft-ai-oil-contracts/679804/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41562726">https://news.ycombinator.com/item?id=41562726</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 00:42:17,430 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 00:42:17,430 - INFO - Generating summary with BART model
+2024-09-17 00:42:24,695 - INFO - Generating summary with BART model
+2024-09-17 00:42:30,262 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.theatlantic.com/technology/archive/2024/09/microsoft-ai-oil-contracts/679804/'
+2024-09-17 00:42:30,394 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
