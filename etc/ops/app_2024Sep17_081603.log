@@ -1,0 +1,35 @@
+2024-09-17 08:16:03,335 - INFO - Starting configuration setup
+2024-09-17 08:16:03,335 - INFO - Environment variables loaded successfully
+2024-09-17 08:16:03,335 - INFO - Twitter API client initialized successfully
+2024-09-17 08:16:05,311 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 08:16:13,291 - INFO - Summarization model initialized successfully
+2024-09-17 08:16:13,291 - INFO - Starting tweet scheduling
+2024-09-17 08:16:13,291 - INFO - Tweeting process started at 2024-09-17 08:16:13.291735!
+2024-09-17 08:16:13,291 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 08:16:13,292 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 08:16:35,305 - INFO - Total entries found: 652
+2024-09-17 08:16:35,308 - INFO - Recent AI-related entries found: 29
+2024-09-17 08:16:35,308 - INFO - Input content - content='<p>Article URL: <a href="https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9">https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41565386">https://news.ycombinator.com/item?id=41565386</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 08:16:35,309 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 08:16:35,309 - INFO - Generating summary with BART model
+2024-09-17 08:16:42,560 - INFO - Generating summary with BART model
+2024-09-17 08:16:47,903 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9'
+2024-09-17 08:16:48,175 - INFO - Tweet posted successfully: Response(data={'id': '1835956052673569194', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/0JNQxtfiqh', 'edit_history_tweet_ids': ['1835956052673569194']}, includes={}, errors=[], meta={})
+2024-09-17 08:16:48,175 - INFO - Sleeping for 7 minutes and 40 seconds.
+2024-09-17 08:24:28,175 - INFO - Saved posted URL: https://www.businessinsider.com/larry-ellison-ai-surveillance-keep-citizens-on-their-best-behavior-2024-9 at 2024-09-17 08:24:28
+2024-09-17 08:24:28,175 - INFO - Input content - content='<p>Article URL: <a href="https://spectrum.ieee.org/nvidia-ai">https://spectrum.ieee.org/nvidia-ai</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41565231">https://news.ycombinator.com/item?id=41565231</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 08:24:28,175 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 08:24:28,175 - INFO - Generating summary with BART model
+2024-09-17 08:24:33,606 - INFO - Generating summary with BART model
+2024-09-17 08:24:38,992 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://spectrum.ieee.org/nvidia-ai'
+2024-09-17 08:24:39,264 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/X9L40KXr3t', 'id': '1835958028505338179', 'edit_history_tweet_ids': ['1835958028505338179']}, includes={}, errors=[], meta={})
+2024-09-17 08:24:39,264 - INFO - Sleeping for 2 minutes and 24 seconds.
+2024-09-17 08:27:03,265 - INFO - Saved posted URL: https://spectrum.ieee.org/nvidia-ai at 2024-09-17 08:27:03
+2024-09-17 08:27:03,265 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fiqcxh/d_what_tools_do_you_use_for_aiml_development/
+2024-09-17 08:27:03,265 - INFO - Input content - content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 08:27:03,265 - INFO - clean content - clean_content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 08:27:03,265 - INFO - Generating summary with BART model
+2024-09-17 08:27:08,302 - INFO - Generating summary with BART model
+2024-09-17 08:27:13,275 - INFO - full_tweet="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online. xAI says it was..[read more👇🏼] #AI #built https://www.techradar.com/pro/xai-cluster-is-now-the-most-powerful-ai-training-system-in-the-world-but-questions-remain-over-storage-capacity-power-usage-and-why-it-s-actually-called-colossus"
+2024-09-17 08:27:13,371 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
