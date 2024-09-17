@@ -1,0 +1,18 @@
+2024-09-17 23:12:47,049 - INFO - Starting configuration setup
+2024-09-17 23:12:47,049 - INFO - Environment variables loaded successfully
+2024-09-17 23:12:47,049 - INFO - Twitter API client initialized successfully
+2024-09-17 23:12:49,106 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 23:13:05,060 - INFO - Summarization model initialized successfully
+2024-09-17 23:13:05,060 - INFO - Starting tweet scheduling
+2024-09-17 23:13:05,060 - INFO - Tweeting process started at 2024-09-17 23:13:05.060597!
+2024-09-17 23:13:05,060 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 23:13:05,061 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 23:13:29,701 - INFO - Total entries found: 622
+2024-09-17 23:13:29,704 - INFO - Recent AI-related entries found: 25
+2024-09-17 23:13:29,704 - INFO - Input content - content='If you try to figure out how OpenAI’s o1 models solve problems, you might get a nastygram.'
+2024-09-17 23:13:29,704 - INFO - clean content - clean_content='If you try to figure out how OpenAI’s o1 models solve problems, you might get a nastygram.'
+2024-09-17 23:13:29,704 - INFO - Generating summary with BART model
+2024-09-17 23:13:34,966 - INFO - Generating summary with BART model
+2024-09-17 23:13:38,539 - INFO - full_tweet='OpenAI’s o1 models solve problems. If you try to figure out how they solve problems, you might get a nastygram. #problems #solve https://www.wired.com/story/openai-threatens-bans-as-users-probe-o1-model/'
+2024-09-17 23:13:38,668 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
