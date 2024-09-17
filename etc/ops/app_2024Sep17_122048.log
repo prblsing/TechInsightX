@@ -1,0 +1,18 @@
+2024-09-17 12:20:48,533 - INFO - Starting configuration setup
+2024-09-17 12:20:48,534 - INFO - Environment variables loaded successfully
+2024-09-17 12:20:48,534 - INFO - Twitter API client initialized successfully
+2024-09-17 12:20:50,530 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 12:20:59,198 - INFO - Summarization model initialized successfully
+2024-09-17 12:20:59,198 - INFO - Starting tweet scheduling
+2024-09-17 12:20:59,198 - INFO - Tweeting process started at 2024-09-17 12:20:59.198712!
+2024-09-17 12:20:59,198 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 12:20:59,199 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 12:21:22,723 - INFO - Total entries found: 622
+2024-09-17 12:21:22,726 - INFO - Recent AI-related entries found: 19
+2024-09-17 12:21:22,726 - INFO - Input content - content='<p>Article URL: <a href="https://morethanmoore.substack.com/p/scalable-ai-nano-edge-to-mega-cloud">https://morethanmoore.substack.com/p/scalable-ai-nano-edge-to-mega-cloud</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41566797">https://news.ycombinator.com/item?id=41566797</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 12:21:22,727 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 12:21:22,727 - INFO - Generating summary with BART model
+2024-09-17 12:21:30,068 - INFO - Generating summary with BART model
+2024-09-17 12:21:35,765 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://morethanmoore.substack.com/p/scalable-ai-nano-edge-to-mega-cloud'
+2024-09-17 12:21:35,870 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
