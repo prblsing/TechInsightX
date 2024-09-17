@@ -1,0 +1,18 @@
+2024-09-17 16:14:10,439 - INFO - Starting configuration setup
+2024-09-17 16:14:10,439 - INFO - Environment variables loaded successfully
+2024-09-17 16:14:10,439 - INFO - Twitter API client initialized successfully
+2024-09-17 16:14:12,404 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 16:14:20,998 - INFO - Summarization model initialized successfully
+2024-09-17 16:14:20,998 - INFO - Starting tweet scheduling
+2024-09-17 16:14:20,998 - INFO - Tweeting process started at 2024-09-17 16:14:20.998351!
+2024-09-17 16:14:20,998 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 16:14:20,998 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 16:14:44,996 - INFO - Total entries found: 622
+2024-09-17 16:14:44,999 - INFO - Recent AI-related entries found: 17
+2024-09-17 16:14:44,999 - INFO - Input content - content='<p>In the fast-paced progress of AI, the question of how to evaluate and understand capabilities of state-of-the-art models is timelier than ever. New and capable models are being released frequently, and each release promises the next big leap in frontiers of intelligence. Yet, as researchers and developers, often we ask ourselves: Are these models all [&#8230;]</p>\n<p>The post <a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/">Eureka: Evaluating and understanding progress in AI</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>'
+2024-09-17 16:14:45,000 - INFO - clean content - clean_content='In the fast-paced progress of AI, the question of how to evaluate and understand capabilities of state-of-the-art models is timelier than ever. New and capable models are being released frequently, and each release promises the next big leap in frontiers of intelligence. Yet, as researchers and developers, often we ask ourselves: Are these models all [&#8230;] The post Eureka: Evaluating and understanding progress in AI appeared first on Microsoft Research.'
+2024-09-17 16:14:45,000 - INFO - Generating summary with BART model
+2024-09-17 16:14:53,756 - INFO - Generating summary with BART model
+2024-09-17 16:15:01,821 - INFO - full_tweet='The question of how to evaluate and understand capabilities of state-of-the-art models is timelier than..[read more👇🏼] #models #capabilities https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/'
+2024-09-17 16:15:01,919 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
