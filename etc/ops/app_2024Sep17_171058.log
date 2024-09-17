@@ -1,0 +1,42 @@
+2024-09-17 17:10:58,373 - INFO - Starting configuration setup
+2024-09-17 17:10:58,374 - INFO - Environment variables loaded successfully
+2024-09-17 17:10:58,374 - INFO - Twitter API client initialized successfully
+2024-09-17 17:11:00,257 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 17:11:07,833 - INFO - Summarization model initialized successfully
+2024-09-17 17:11:07,833 - INFO - Starting tweet scheduling
+2024-09-17 17:11:07,833 - INFO - Tweeting process started at 2024-09-17 17:11:07.833897!
+2024-09-17 17:11:07,834 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 17:11:07,834 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 17:11:27,577 - INFO - Total entries found: 652
+2024-09-17 17:11:27,580 - INFO - Recent AI-related entries found: 20
+2024-09-17 17:11:27,580 - INFO - Input content - content='<p>Article URL: <a href="https://twitter.com/josephfcox/status/1836062520437530668">https://twitter.com/josephfcox/status/1836062520437530668</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41569872">https://news.ycombinator.com/item?id=41569872</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 17:11:27,581 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 17:11:27,581 - INFO - Generating summary with BART model
+2024-09-17 17:11:33,722 - INFO - Generating summary with BART model
+2024-09-17 17:11:39,227 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://twitter.com/josephfcox/status/1836062520437530668'
+2024-09-17 17:11:39,482 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/vXcFpSNLmc', 'edit_history_tweet_ids': ['1836090653316424005'], 'id': '1836090653316424005'}, includes={}, errors=[], meta={})
+2024-09-17 17:11:39,482 - INFO - Sleeping for 6 minutes and 13 seconds.
+2024-09-17 17:17:52,482 - INFO - Saved posted URL: https://twitter.com/josephfcox/status/1836062520437530668 at 2024-09-17 17:17:52
+2024-09-17 17:17:52,482 - INFO - Input content - content='<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41569749">https://news.ycombinator.com/item?id=41569749</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>'
+2024-09-17 17:17:52,483 - INFO - clean content - clean_content='Comments URL: Points: 2 # Comments: 1'
+2024-09-17 17:17:52,483 - INFO - Generating summary with BART model
+2024-09-17 17:17:57,557 - INFO - Generating summary with BART model
+2024-09-17 17:18:02,616 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://news.ycombinator.com/item?id=41569749'
+2024-09-17 17:18:02,887 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836092261467095342'], 'id': '1836092261467095342', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/kSFOtPJh3X'}, includes={}, errors=[], meta={})
+2024-09-17 17:18:02,887 - INFO - Sleeping for 2 minutes and 55 seconds.
+2024-09-17 17:20:57,887 - INFO - Saved posted URL: https://news.ycombinator.com/item?id=41569749 at 2024-09-17 17:20:57
+2024-09-17 17:20:57,888 - INFO - Input content - content='<p>Google says that it plans to roll out changes to Google Search to make clearer which images in results were AI-generated &#8212; or edited by AI tools. In the next few months, Google will begin to flag AI-generated and -edited images in the &#8220;About this image&#8221; window on Search, Google Lens, and the Circle to [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-17 17:20:57,888 - INFO - clean content - clean_content='Google says that it plans to roll out changes to Google Search to make clearer which images in results were AI-generated &#8212; or edited by AI tools. In the next few months, Google will begin to flag AI-generated and -edited images in the &#8220;About this image&#8221; window on Search, Google Lens, and the Circle to [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-17 17:20:57,888 - INFO - Generating summary with BART model
+2024-09-17 17:21:03,175 - INFO - Generating summary with BART model
+2024-09-17 17:21:08,452 - INFO - full_tweet='Google will begin to flag AI-generated and -edited images in the &#8220;About this image&#8221; window on..[read more👇🏼] #AI #Google https://techcrunch.com/2024/09/17/google-will-begin-flagging-ai-generated-images-in-search-later-this-year/'
+2024-09-17 17:21:08,692 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836093040760369620'], 'text': 'Google will begin to flag AI-generated and -edited images in the &amp;#8220;About this image&amp;#8221; window on..[read more👇🏼] #AI #Google https://t.co/pF2Xpw650B', 'id': '1836093040760369620'}, includes={}, errors=[], meta={})
+2024-09-17 17:21:08,692 - INFO - Sleeping for 9 minutes and 18 seconds.
+2024-09-17 17:30:26,692 - INFO - Saved posted URL: https://techcrunch.com/2024/09/17/google-will-begin-flagging-ai-generated-images-in-search-later-this-year/ at 2024-09-17 17:30:26
+2024-09-17 17:30:26,693 - INFO - Input content - content='<p>In the fast-paced progress of AI, the question of how to evaluate and understand capabilities of state-of-the-art models is timelier than ever. New and capable models are being released frequently, and each release promises the next big leap in frontiers of intelligence. Yet, as researchers and developers, often we ask ourselves: Are these models all [&#8230;]</p>\n<p>The post <a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/">Eureka: Evaluating and understanding progress in AI</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>'
+2024-09-17 17:30:26,693 - INFO - clean content - clean_content='In the fast-paced progress of AI, the question of how to evaluate and understand capabilities of state-of-the-art models is timelier than ever. New and capable models are being released frequently, and each release promises the next big leap in frontiers of intelligence. Yet, as researchers and developers, often we ask ourselves: Are these models all [&#8230;] The post Eureka: Evaluating and understanding progress in AI appeared first on Microsoft Research.'
+2024-09-17 17:30:26,693 - INFO - Generating summary with BART model
+2024-09-17 17:30:34,600 - INFO - Generating summary with BART model
+2024-09-17 17:30:42,501 - INFO - full_tweet='The question of how to evaluate and understand capabilities of state-of-the-art models is timelier than..[read more👇🏼] #models #capabilities https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/'
+2024-09-17 17:30:42,664 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
