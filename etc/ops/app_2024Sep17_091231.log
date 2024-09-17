@@ -1,0 +1,35 @@
+2024-09-17 09:12:31,621 - INFO - Starting configuration setup
+2024-09-17 09:12:31,621 - INFO - Environment variables loaded successfully
+2024-09-17 09:12:31,621 - INFO - Twitter API client initialized successfully
+2024-09-17 09:12:34,236 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 09:12:44,021 - INFO - Summarization model initialized successfully
+2024-09-17 09:12:44,022 - INFO - Starting tweet scheduling
+2024-09-17 09:12:44,022 - INFO - Tweeting process started at 2024-09-17 09:12:44.022226!
+2024-09-17 09:12:44,022 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 09:12:44,022 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 09:13:06,685 - INFO - Total entries found: 652
+2024-09-17 09:13:06,688 - INFO - Recent AI-related entries found: 27
+2024-09-17 09:13:06,688 - INFO - Input content - content='<p>Article URL: <a href="https://medium.com/mr-plan-publication/the-harsh-reality-of-small-scale-ai-research-a-personal-tale-of-frustration-and-limitation-d86e09b031ed">https://medium.com/mr-plan-publication/the-harsh-reality-of-small-scale-ai-research-a-personal-tale-of-frustration-and-limitation-d86e09b031ed</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41565707">https://news.ycombinator.com/item?id=41565707</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>'
+2024-09-17 09:13:06,689 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 1'
+2024-09-17 09:13:06,689 - INFO - Generating summary with BART model
+2024-09-17 09:13:13,283 - INFO - Generating summary with BART model
+2024-09-17 09:13:18,152 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://medium.com/mr-plan-publication/the-harsh-reality-of-small-scale-ai-research-a-personal-tale-of-frustration-and-limitation-d86e09b031ed'
+2024-09-17 09:13:18,414 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835970272349888971'], 'id': '1835970272349888971', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/rr0rsBVLEt'}, includes={}, errors=[], meta={})
+2024-09-17 09:13:18,414 - INFO - Sleeping for 8 minutes and 19 seconds.
+2024-09-17 09:21:37,415 - INFO - Saved posted URL: https://medium.com/mr-plan-publication/the-harsh-reality-of-small-scale-ai-research-a-personal-tale-of-frustration-and-limitation-d86e09b031ed at 2024-09-17 09:21:37
+2024-09-17 09:21:37,415 - INFO - Input content - content='<p>Article URL: <a href="https://medium.com/@pcbje/financial-crime-investigations-a-use-case-for-ai-and-llms-b4023d64a99f">https://medium.com/@pcbje/financial-crime-investigations-a-use-case-for-ai-and-llms-b4023d64a99f</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41565694">https://news.ycombinator.com/item?id=41565694</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-17 09:21:37,415 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-17 09:21:37,415 - INFO - Generating summary with BART model
+2024-09-17 09:21:42,753 - INFO - Generating summary with BART model
+2024-09-17 09:21:48,087 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://medium.com/@pcbje/financial-crime-investigations-a-use-case-for-ai-and-llms-b4023d64a99f'
+2024-09-17 09:21:48,400 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1835972411369423094'], 'id': '1835972411369423094', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/Ws3tjAJO2t'}, includes={}, errors=[], meta={})
+2024-09-17 09:21:48,400 - INFO - Sleeping for 7 minutes and 28 seconds.
+2024-09-17 09:29:16,400 - INFO - Saved posted URL: https://medium.com/@pcbje/financial-crime-investigations-a-use-case-for-ai-and-llms-b4023d64a99f at 2024-09-17 09:29:16
+2024-09-17 09:29:16,400 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fiqcxh/d_what_tools_do_you_use_for_aiml_development/
+2024-09-17 09:29:16,400 - INFO - Input content - content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 09:29:16,400 - INFO - clean content - clean_content="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online."
+2024-09-17 09:29:16,401 - INFO - Generating summary with BART model
+2024-09-17 09:29:21,337 - INFO - Generating summary with BART model
+2024-09-17 09:29:26,264 - INFO - full_tweet="Elon Musk says xAI's Colossus AI training system, built in just 122 days, is now online. xAI says it was..[read more👇🏼] #AI #built https://www.techradar.com/pro/xai-cluster-is-now-the-most-powerful-ai-training-system-in-the-world-but-questions-remain-over-storage-capacity-power-usage-and-why-it-s-actually-called-colossus"
+2024-09-17 09:29:26,469 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
