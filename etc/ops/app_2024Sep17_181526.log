@@ -1,0 +1,18 @@
+2024-09-17 18:15:26,272 - INFO - Starting configuration setup
+2024-09-17 18:15:26,273 - INFO - Environment variables loaded successfully
+2024-09-17 18:15:26,273 - INFO - Twitter API client initialized successfully
+2024-09-17 18:15:28,316 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-17 18:15:36,538 - INFO - Summarization model initialized successfully
+2024-09-17 18:15:36,538 - INFO - Starting tweet scheduling
+2024-09-17 18:15:36,538 - INFO - Tweeting process started at 2024-09-17 18:15:36.538958!
+2024-09-17 18:15:36,539 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep17.csv
+2024-09-17 18:15:36,539 - INFO - Fetching latest tech news from RSS feeds
+2024-09-17 18:16:03,444 - INFO - Total entries found: 652
+2024-09-17 18:16:03,447 - INFO - Recent AI-related entries found: 23
+2024-09-17 18:16:03,448 - INFO - Input content - content='Annotate, edit, create, and do so much more with your PDFs.'
+2024-09-17 18:16:03,448 - INFO - clean content - clean_content='Annotate, edit, create, and do so much more with your PDFs.'
+2024-09-17 18:16:03,448 - INFO - Generating summary with BART model
+2024-09-17 18:16:08,249 - INFO - Generating summary with BART model
+2024-09-17 18:16:12,324 - INFO - full_tweet="Use the Daily Discussion to help people understand today's featured news stories. Use the weekly Newsquiz..[read more👇🏼] #stories #Use https://www.pcmag.com/deals/save-time-with-this-ai-powered-pdf-tool-that-extracts-key-ideas-for-you"
+2024-09-17 18:16:12,458 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
