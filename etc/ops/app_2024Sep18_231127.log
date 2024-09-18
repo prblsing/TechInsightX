@@ -1,0 +1,18 @@
+2024-09-18 23:11:27,119 - INFO - Starting configuration setup
+2024-09-18 23:11:27,119 - INFO - Environment variables loaded successfully
+2024-09-18 23:11:27,119 - INFO - Twitter API client initialized successfully
+2024-09-18 23:11:28,962 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 23:11:36,114 - INFO - Summarization model initialized successfully
+2024-09-18 23:11:36,114 - INFO - Starting tweet scheduling
+2024-09-18 23:11:36,114 - INFO - Tweeting process started at 2024-09-18 23:11:36.114452!
+2024-09-18 23:11:36,114 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 23:11:36,114 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 23:11:58,485 - INFO - Total entries found: 652
+2024-09-18 23:11:58,489 - INFO - Recent AI-related entries found: 34
+2024-09-18 23:11:58,489 - INFO - Input content - content='<p>They provide an address that is located in a city in Georgia (the country) but not much more. Who are these people?</p>\n<hr />\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41586591">https://news.ycombinator.com/item?id=41586591</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>'
+2024-09-18 23:11:58,489 - INFO - clean content - clean_content='They provide an address that is located in a city in Georgia (the country) but not much more. Who are these people? Comments URL: Points: 2 # Comments: 1'
+2024-09-18 23:11:58,489 - INFO - Generating summary with BART model
+2024-09-18 23:12:03,504 - INFO - Generating summary with BART model
+2024-09-18 23:12:07,882 - INFO - full_tweet='They provide an address that is located in a city in Georgia (the country) but not much more. Who are..[read more👇🏼] #Comments #provide https://news.ycombinator.com/item?id=41586591'
+2024-09-18 23:12:08,028 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
