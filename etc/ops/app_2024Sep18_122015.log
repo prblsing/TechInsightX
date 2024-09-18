@@ -1,0 +1,39 @@
+2024-09-18 12:20:15,800 - INFO - Starting configuration setup
+2024-09-18 12:20:15,801 - INFO - Environment variables loaded successfully
+2024-09-18 12:20:15,801 - INFO - Twitter API client initialized successfully
+2024-09-18 12:20:17,869 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 12:20:26,213 - INFO - Summarization model initialized successfully
+2024-09-18 12:20:26,214 - INFO - Starting tweet scheduling
+2024-09-18 12:20:26,214 - INFO - Tweeting process started at 2024-09-18 12:20:26.214176!
+2024-09-18 12:20:26,214 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 12:20:26,214 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 12:20:50,180 - INFO - Total entries found: 652
+2024-09-18 12:20:50,183 - INFO - Recent AI-related entries found: 20
+2024-09-18 12:20:50,184 - INFO - Input content - content="There was a way for hackers to steal data from people's cloud storage, and possibly smuggle malware, too."
+2024-09-18 12:20:50,184 - INFO - clean content - clean_content="There was a way for hackers to steal data from people's cloud storage, and possibly smuggle malware, too."
+2024-09-18 12:20:50,184 - INFO - Generating summary with BART model
+2024-09-18 12:20:56,249 - INFO - Generating summary with BART model
+2024-09-18 12:21:01,577 - INFO - full_tweet="There was a way for hackers to steal data from people's cloud storage. There was also a way to smuggle..[read more👇🏼] #cloud #data https://www.techradar.com/pro/security/google-cloud-document-ai-has-some-worrying-security-flaws"
+2024-09-18 12:21:01,831 - INFO - Tweet posted successfully: Response(data={'text': "There was a way for hackers to steal data from people's cloud storage. There was also a way to smuggle..[read more👇🏼] #cloud #data https://t.co/Xj8gYagOuP", 'id': '1836379902414852255', 'edit_history_tweet_ids': ['1836379902414852255']}, includes={}, errors=[], meta={})
+2024-09-18 12:21:01,831 - INFO - Sleeping for 7 minutes and 58 seconds.
+2024-09-18 12:28:59,831 - INFO - Saved posted URL: https://www.techradar.com/pro/security/google-cloud-document-ai-has-some-worrying-security-flaws at 2024-09-18 12:28:59
+2024-09-18 12:28:59,831 - INFO - Input content - content='NVIDIA launches new Twitch Enhanced Streaming feature that uses AI to improve the amount of transcodes that streams have.'
+2024-09-18 12:28:59,832 - INFO - clean content - clean_content='NVIDIA launches new Twitch Enhanced Streaming feature that uses AI to improve the amount of transcodes that streams have.'
+2024-09-18 12:28:59,832 - INFO - Generating summary with BART model
+2024-09-18 12:29:04,544 - INFO - Generating summary with BART model
+2024-09-18 12:29:09,263 - INFO - full_tweet='NVIDIA launches new Twitch Enhanced Streaming feature that uses AI to improve the amount of transcodes..[read more👇🏼] #AI #transcodes https://www.techradar.com/computing/artificial-intelligence/how-ai-is-making-streaming-better-for-everybody-with-twitch-enhanced-broadcasting'
+2024-09-18 12:29:09,500 - INFO - Tweet posted successfully: Response(data={'id': '1836381947880456616', 'edit_history_tweet_ids': ['1836381947880456616'], 'text': 'NVIDIA launches new Twitch Enhanced Streaming feature that uses AI to improve the amount of transcodes..[read more👇🏼] #AI #transcodes https://t.co/FO4IYwM5eI'}, includes={}, errors=[], meta={})
+2024-09-18 12:29:09,500 - INFO - Sleeping for 5 minutes and 23 seconds.
+2024-09-18 12:34:32,500 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-ai-is-making-streaming-better-for-everybody-with-twitch-enhanced-broadcasting at 2024-09-18 12:34:32
+2024-09-18 12:34:32,500 - INFO - This link is already posted: https://www.techradar.com/pro/this-new-AI-chat-assistant-transforms-the-customer-experience-by-utilizing-natural-language-processing-to-understand-queries
+2024-09-18 12:34:32,500 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/stability-ai-amazon-bedrock/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-18 12:34:32,500 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/kubernetes-elli-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-18 12:34:32,500 - INFO - This link is already posted: https://www.wired.com/story/teens-generative-ai-use-schools-parents/
+2024-09-18 12:34:32,500 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 12:34:32,501 - INFO - Input content - content='<p>On Tuesday, California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the artificial intelligence sector. Three of these laws crack down on AI deepfakes that could influence elections, while two others prohibit Hollywood studios from creating an AI clone of an actor&#8217;s body or voice without their consent. &#8220;Home to the majority [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 12:34:32,501 - INFO - clean content - clean_content='On Tuesday, California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the artificial intelligence sector. Three of these laws crack down on AI deepfakes that could influence elections, while two others prohibit Hollywood studios from creating an AI clone of an actor&#8217;s body or voice without their consent. &#8220;Home to the majority [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 12:34:32,501 - INFO - Generating summary with BART model
+2024-09-18 12:34:40,126 - INFO - Generating summary with BART model
+2024-09-18 12:34:47,614 - INFO - full_tweet='California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the..[read more👇🏼] #AI #laws https://techcrunch.com/2024/09/17/californias-5-new-ai-laws-crack-down-on-election-deepfakes-and-actor-clones/'
+2024-09-18 12:34:47,757 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
