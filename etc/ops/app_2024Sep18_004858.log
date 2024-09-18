@@ -1,0 +1,19 @@
+2024-09-18 00:48:58,501 - INFO - Starting configuration setup
+2024-09-18 00:48:58,502 - INFO - Environment variables loaded successfully
+2024-09-18 00:48:58,502 - INFO - Twitter API client initialized successfully
+2024-09-18 00:49:00,456 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 00:49:17,031 - INFO - Summarization model initialized successfully
+2024-09-18 00:49:17,031 - INFO - Starting tweet scheduling
+2024-09-18 00:49:17,031 - INFO - Tweeting process started at 2024-09-18 00:49:17.031875!
+2024-09-18 00:49:17,032 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 00:49:17,032 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 00:49:17,032 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 00:49:38,392 - INFO - Total entries found: 652
+2024-09-18 00:49:38,395 - INFO - Recent AI-related entries found: 27
+2024-09-18 00:49:38,395 - INFO - Input content - content='<p>On Tuesday, California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the artificial intelligence sector. Three of these laws crack down on AI deepfakes that could influence elections, while two others prohibit Hollywood studios from creating an AI clone of an actor&#8217;s body or voice without their consent. &#8220;Home to the majority [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 00:49:38,395 - INFO - clean content - clean_content='On Tuesday, California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the artificial intelligence sector. Three of these laws crack down on AI deepfakes that could influence elections, while two others prohibit Hollywood studios from creating an AI clone of an actor&#8217;s body or voice without their consent. &#8220;Home to the majority [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 00:49:38,395 - INFO - Generating summary with BART model
+2024-09-18 00:49:47,225 - INFO - Generating summary with BART model
+2024-09-18 00:49:54,342 - INFO - full_tweet='California Governor Gavin Newsom signed some of America&#8217;s toughest laws yet regulating the..[read more👇🏼] #AI #laws https://techcrunch.com/2024/09/17/californias-5-new-ai-laws-crack-down-on-election-deepfakes-and-actor-clones/'
+2024-09-18 00:49:54,522 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
