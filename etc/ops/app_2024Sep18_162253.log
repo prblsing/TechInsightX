@@ -1,0 +1,18 @@
+2024-09-18 16:22:53,646 - INFO - Starting configuration setup
+2024-09-18 16:22:53,646 - INFO - Environment variables loaded successfully
+2024-09-18 16:22:53,646 - INFO - Twitter API client initialized successfully
+2024-09-18 16:22:55,697 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 16:23:03,964 - INFO - Summarization model initialized successfully
+2024-09-18 16:23:03,964 - INFO - Starting tweet scheduling
+2024-09-18 16:23:03,964 - INFO - Tweeting process started at 2024-09-18 16:23:03.964400!
+2024-09-18 16:23:03,964 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 16:23:03,964 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 16:23:27,421 - INFO - Total entries found: 652
+2024-09-18 16:23:27,424 - INFO - Recent AI-related entries found: 27
+2024-09-18 16:23:27,424 - INFO - Input content - content='<p>Article URL: <a href="https://www.retainr.io">https://www.retainr.io</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41581766">https://news.ycombinator.com/item?id=41581766</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 16:23:27,424 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 16:23:27,424 - INFO - Generating summary with BART model
+2024-09-18 16:23:33,526 - INFO - Generating summary with BART model
+2024-09-18 16:23:38,882 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.retainr.io'
+2024-09-18 16:23:39,065 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
