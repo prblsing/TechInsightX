@@ -1,0 +1,18 @@
+2024-09-18 20:12:34,804 - INFO - Starting configuration setup
+2024-09-18 20:12:34,805 - INFO - Environment variables loaded successfully
+2024-09-18 20:12:34,805 - INFO - Twitter API client initialized successfully
+2024-09-18 20:12:37,240 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 20:12:44,791 - INFO - Summarization model initialized successfully
+2024-09-18 20:12:44,798 - INFO - Starting tweet scheduling
+2024-09-18 20:12:44,798 - INFO - Tweeting process started at 2024-09-18 20:12:44.798257!
+2024-09-18 20:12:44,798 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 20:12:44,798 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 20:13:05,765 - INFO - Total entries found: 652
+2024-09-18 20:13:05,768 - INFO - Recent AI-related entries found: 31
+2024-09-18 20:13:05,768 - INFO - Input content - content='<p>Article URL: <a href="https://www.darpa.mil/news-events/2024-09-13">https://www.darpa.mil/news-events/2024-09-13</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41584757">https://news.ycombinator.com/item?id=41584757</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 20:13:05,768 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 20:13:05,768 - INFO - Generating summary with BART model
+2024-09-18 20:13:12,854 - INFO - Generating summary with BART model
+2024-09-18 20:13:18,403 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.darpa.mil/news-events/2024-09-13'
+2024-09-18 20:13:18,574 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
