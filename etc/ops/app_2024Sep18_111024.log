@@ -1,0 +1,48 @@
+2024-09-18 11:10:24,221 - INFO - Starting configuration setup
+2024-09-18 11:10:24,221 - INFO - Environment variables loaded successfully
+2024-09-18 11:10:24,221 - INFO - Twitter API client initialized successfully
+2024-09-18 11:10:26,097 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 11:10:33,855 - INFO - Summarization model initialized successfully
+2024-09-18 11:10:33,856 - INFO - Starting tweet scheduling
+2024-09-18 11:10:33,856 - INFO - Tweeting process started at 2024-09-18 11:10:33.856163!
+2024-09-18 11:10:33,856 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 11:10:33,856 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 11:10:57,646 - INFO - Total entries found: 652
+2024-09-18 11:10:57,649 - INFO - Recent AI-related entries found: 28
+2024-09-18 11:10:57,649 - INFO - Input content - content='<p>Article URL: <a href="https://venturebeat.com/ai/workforce-provider-magnit-launches-ai-assistant-maggi-to-make-finding-talent-easier-faster/">https://venturebeat.com/ai/workforce-provider-magnit-launches-ai-assistant-maggi-to-make-finding-talent-easier-faster/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41578090">https://news.ycombinator.com/item?id=41578090</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 11:10:57,650 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 11:10:57,650 - INFO - Generating summary with BART model
+2024-09-18 11:11:03,647 - INFO - Generating summary with BART model
+2024-09-18 11:11:09,051 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://venturebeat.com/ai/workforce-provider-magnit-launches-ai-assistant-maggi-to-make-finding-talent-easier-faster/'
+2024-09-18 11:11:09,304 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836362317732417718'], 'id': '1836362317732417718', 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/MPvxrdp8i7'}, includes={}, errors=[], meta={})
+2024-09-18 11:11:09,304 - INFO - Sleeping for 6 minutes and 25 seconds.
+2024-09-18 11:17:34,304 - INFO - Saved posted URL: https://venturebeat.com/ai/workforce-provider-magnit-launches-ai-assistant-maggi-to-make-finding-talent-easier-faster/ at 2024-09-18 11:17:34
+2024-09-18 11:17:34,304 - INFO - Input content - content='Resolving approximately 5,500 inquiries daily, Kodee, a new AI chat assistant responds in 20 seconds and supports over 50 languages.'
+2024-09-18 11:17:34,304 - INFO - clean content - clean_content='Resolving approximately 5,500 inquiries daily, Kodee, a new AI chat assistant responds in 20 seconds and supports over 50 languages.'
+2024-09-18 11:17:34,305 - INFO - Generating summary with BART model
+2024-09-18 11:17:39,114 - INFO - Generating summary with BART model
+2024-09-18 11:17:43,903 - INFO - full_tweet='Kodee, a new AI chat assistant responds in 20 seconds and supports over 50 languages. Resolving..[read more👇🏼] #AI #approximately https://www.techradar.com/pro/this-new-AI-chat-assistant-transforms-the-customer-experience-by-utilizing-natural-language-processing-to-understand-queries'
+2024-09-18 11:17:44,148 - INFO - Tweet posted successfully: Response(data={'id': '1836363973773639987', 'edit_history_tweet_ids': ['1836363973773639987'], 'text': 'Kodee, a new AI chat assistant responds in 20 seconds and supports over 50 languages. Resolving..[read more👇🏼] #AI #approximately https://t.co/MY1Vld5ysn'}, includes={}, errors=[], meta={})
+2024-09-18 11:17:44,148 - INFO - Sleeping for 9 minutes and 52 seconds.
+2024-09-18 11:27:36,148 - INFO - Saved posted URL: https://www.techradar.com/pro/this-new-AI-chat-assistant-transforms-the-customer-experience-by-utilizing-natural-language-processing-to-understand-queries at 2024-09-18 11:27:36
+2024-09-18 11:27:36,148 - INFO - Input content - content='<p>Article URL: <a href="https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/">https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41578017">https://news.ycombinator.com/item?id=41578017</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>'
+2024-09-18 11:27:36,148 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 3 # Comments: 0'
+2024-09-18 11:27:36,148 - INFO - Generating summary with BART model
+2024-09-18 11:27:41,377 - INFO - Generating summary with BART model
+2024-09-18 11:27:46,511 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/'
+2024-09-18 11:27:46,766 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/ul3hManSU9', 'edit_history_tweet_ids': ['1836366501378691126'], 'id': '1836366501378691126'}, includes={}, errors=[], meta={})
+2024-09-18 11:27:46,766 - INFO - Sleeping for 2 minutes and 26 seconds.
+2024-09-18 11:30:12,767 - INFO - Saved posted URL: https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/ at 2024-09-18 11:30:12
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/stability-ai-amazon-bedrock/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/kubernetes-elli-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://www.wired.com/story/teens-generative-ai-use-schools-parents/
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 11:30:12,767 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 11:30:12,767 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 11:30:12,767 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 11:30:12,767 - INFO - Generating summary with BART model
+2024-09-18 11:30:16,776 - INFO - Generating summary with BART model
+2024-09-18 11:30:20,790 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 11:30:20,861 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
