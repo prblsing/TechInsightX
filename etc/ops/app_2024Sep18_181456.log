@@ -1,0 +1,18 @@
+2024-09-18 18:14:56,573 - INFO - Starting configuration setup
+2024-09-18 18:14:56,574 - INFO - Environment variables loaded successfully
+2024-09-18 18:14:56,574 - INFO - Twitter API client initialized successfully
+2024-09-18 18:14:58,958 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 18:15:09,600 - INFO - Summarization model initialized successfully
+2024-09-18 18:15:09,601 - INFO - Starting tweet scheduling
+2024-09-18 18:15:09,601 - INFO - Tweeting process started at 2024-09-18 18:15:09.601117!
+2024-09-18 18:15:09,601 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 18:15:09,601 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 18:15:34,380 - INFO - Total entries found: 652
+2024-09-18 18:15:34,383 - INFO - Recent AI-related entries found: 27
+2024-09-18 18:15:34,383 - INFO - Input content - content='<p>Check out this guide on how to write better AI prompts.</p>\n<p>The post <a href="https://www.atlassian.com/blog/artificial-intelligence/ultimate-guide-writing-ai-prompts">Ultimate Guide to Writing Effective AI Prompts</a> appeared first on <a href="https://www.atlassian.com/blog">Work Life by Atlassian</a>.</p>'
+2024-09-18 18:15:34,384 - INFO - clean content - clean_content='Check out this guide on how to write better AI prompts. The post Ultimate Guide to Writing Effective AI Prompts appeared first on Work Life by Atlassian.'
+2024-09-18 18:15:34,384 - INFO - Generating summary with BART model
+2024-09-18 18:15:40,435 - INFO - Generating summary with BART model
+2024-09-18 18:15:44,720 - INFO - full_tweet='The Ultimate Guide to Writing Effective AI Prompts is published by Atlassian. Check out this guide on how..[read more👇🏼] #AI #out https://www.atlassian.com/blog/artificial-intelligence/ultimate-guide-writing-ai-prompts'
+2024-09-18 18:15:44,871 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
