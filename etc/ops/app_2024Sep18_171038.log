@@ -1,0 +1,18 @@
+2024-09-18 17:10:38,830 - INFO - Starting configuration setup
+2024-09-18 17:10:38,830 - INFO - Environment variables loaded successfully
+2024-09-18 17:10:38,830 - INFO - Twitter API client initialized successfully
+2024-09-18 17:10:40,754 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 17:10:49,765 - INFO - Summarization model initialized successfully
+2024-09-18 17:10:49,765 - INFO - Starting tweet scheduling
+2024-09-18 17:10:49,765 - INFO - Tweeting process started at 2024-09-18 17:10:49.765749!
+2024-09-18 17:10:49,766 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 17:10:49,766 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 17:11:22,380 - INFO - Total entries found: 613
+2024-09-18 17:11:22,383 - INFO - Recent AI-related entries found: 19
+2024-09-18 17:11:22,384 - INFO - Input content - content='<p>Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. It&#8217;s been just a few days since OpenAI revealed its latest flagship generative model, o1, to the world. Marketed as a &#8220;reasoning&#8221; model, o1 essentially takes longer to &#8220;think&#8221; about questions before answering them, breaking down [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 17:11:22,384 - INFO - clean content - clean_content='Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. It&#8217;s been just a few days since OpenAI revealed its latest flagship generative model, o1, to the world. Marketed as a &#8220;reasoning&#8221; model, o1 essentially takes longer to &#8220;think&#8221; about questions before answering them, breaking down [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 17:11:22,384 - INFO - Generating summary with BART model
+2024-09-18 17:11:28,779 - INFO - Generating summary with BART model
+2024-09-18 17:11:34,532 - INFO - full_tweet='OpenAI unveiled its latest flagship generative model, o1, to the world. Marketed as a..[read more👇🏼] #model #essentially https://techcrunch.com/2024/09/18/this-week-in-ai-why-openais-o1-changes-the-ai-regulation-game/'
+2024-09-18 17:11:34,642 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
