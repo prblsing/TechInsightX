@@ -1,0 +1,70 @@
+2024-09-18 10:12:18,074 - INFO - Starting configuration setup
+2024-09-18 10:12:18,074 - INFO - Environment variables loaded successfully
+2024-09-18 10:12:18,075 - INFO - Twitter API client initialized successfully
+2024-09-18 10:12:20,125 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 10:12:27,339 - INFO - Summarization model initialized successfully
+2024-09-18 10:12:27,340 - INFO - Starting tweet scheduling
+2024-09-18 10:12:27,340 - INFO - Tweeting process started at 2024-09-18 10:12:27.340242!
+2024-09-18 10:12:27,340 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 10:12:27,340 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 10:12:50,752 - INFO - Total entries found: 652
+2024-09-18 10:12:50,755 - INFO - Recent AI-related entries found: 32
+2024-09-18 10:12:50,755 - INFO - Input content - content='<img src="https://res.infoq.com/news/2024/09/stability-ai-amazon-bedrock/en/headerimage/generatedHeaderImage-1726589608696.jpg" /><p>Stability AI has introduced three new text-to-image models to Amazon Bedrock: Stable Image Ultra, Stable Diffusion 3 Large, and Stable Image Core. These models focus on improving performance in multi-subject prompts, image quality, and typography. They are designed to generate high-quality visuals for various use cases in marketing, advertising, media, entertainment, retail, and more.</p> <i>By Daniel Dominguez</i>'
+2024-09-18 10:12:50,755 - INFO - clean content - clean_content='Stability AI has introduced three new text-to-image models to Amazon Bedrock: Stable Image Ultra, Stable Diffusion 3 Large, and Stable Image Core. These models focus on improving performance in multi-subject prompts, image quality, and typography. They are designed to generate high-quality visuals for various use cases in marketing, advertising, media, entertainment, retail, and more. By Daniel Dominguez'
+2024-09-18 10:12:50,755 - INFO - Generating summary with BART model
+2024-09-18 10:12:58,457 - INFO - Generating summary with BART model
+2024-09-18 10:13:04,938 - INFO - full_tweet='Stability AI has introduced three new text-to-image models to Amazon Bedrock. These models focus on..[read more👇🏼] #AI #quality https://www.infoq.com/news/2024/09/stability-ai-amazon-bedrock/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global'
+2024-09-18 10:13:05,188 - INFO - Tweet posted successfully: Response(data={'text': 'Stability AI has introduced three new text-to-image models to Amazon Bedrock. These models focus on..[read more👇🏼] #AI #quality https://t.co/w9iRRnQLjb', 'edit_history_tweet_ids': ['1836347704307282064'], 'id': '1836347704307282064'}, includes={}, errors=[], meta={})
+2024-09-18 10:13:05,188 - INFO - Sleeping for 4 minutes and 20 seconds.
+2024-09-18 10:17:25,189 - INFO - Saved posted URL: https://www.infoq.com/news/2024/09/stability-ai-amazon-bedrock/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global at 2024-09-18 10:17:25
+2024-09-18 10:17:25,189 - INFO - Input content - content='<img src="https://res.infoq.com/news/2024/09/kubernetes-elli-released/en/headerimage/generatedHeaderImage-1726628784077.jpg" /><p>The Kubernetes project has recently announced the release of version 1.31, codenamed "Elli". This version incorporates 45 enhancements, with 11 features reaching Stable status, 22 moving to Beta, and 12 new Alpha features introduced.</p> <i>By Aditya Kulkarni</i>'
+2024-09-18 10:17:25,189 - INFO - clean content - clean_content='The Kubernetes project has recently announced the release of version 1.31, codenamed "Elli". This version incorporates 45 enhancements, with 11 features reaching Stable status, 22 moving to Beta, and 12 new Alpha features introduced. By Aditya Kulkarni'
+2024-09-18 10:17:25,189 - INFO - Generating summary with BART model
+2024-09-18 10:17:31,652 - INFO - Generating summary with BART model
+2024-09-18 10:17:38,214 - INFO - full_tweet='The Kubernetes project has recently announced the release of version 1.31, codenamed "Elli" This version..[read more👇🏼] #features #version https://www.infoq.com/news/2024/09/kubernetes-elli-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global'
+2024-09-18 10:17:38,424 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836348850233024758'], 'id': '1836348850233024758', 'text': 'The Kubernetes project has recently announced the release of version 1.31, codenamed "Elli" This version..[read more👇🏼] #features #version https://t.co/0u6YHkJwr5'}, includes={}, errors=[], meta={})
+2024-09-18 10:17:38,424 - INFO - Sleeping for 9 minutes and 17 seconds.
+2024-09-18 10:26:55,424 - INFO - Saved posted URL: https://www.infoq.com/news/2024/09/kubernetes-elli-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global at 2024-09-18 10:26:55
+2024-09-18 10:26:55,424 - INFO - Input content - content='<p>Article URL: <a href="https://socialsignalai.com">https://socialsignalai.com</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577719">https://news.ycombinator.com/item?id=41577719</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>'
+2024-09-18 10:26:55,425 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 2 # Comments: 0'
+2024-09-18 10:26:55,425 - INFO - Generating summary with BART model
+2024-09-18 10:27:00,747 - INFO - Generating summary with BART model
+2024-09-18 10:27:06,067 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://socialsignalai.com'
+2024-09-18 10:27:06,319 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/yy0lKUqbha', 'edit_history_tweet_ids': ['1836351232157377017'], 'id': '1836351232157377017'}, includes={}, errors=[], meta={})
+2024-09-18 10:27:06,319 - INFO - Sleeping for 6 minutes and 17 seconds.
+2024-09-18 10:33:23,319 - INFO - Saved posted URL: https://socialsignalai.com at 2024-09-18 10:33:23
+2024-09-18 10:33:23,320 - INFO - Input content - content='<p>Article URL: <a href="https://www.workoutgenerator.fit">https://www.workoutgenerator.fit</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577717">https://news.ycombinator.com/item?id=41577717</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>'
+2024-09-18 10:33:23,320 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 3 # Comments: 1'
+2024-09-18 10:33:23,320 - INFO - Generating summary with BART model
+2024-09-18 10:33:28,478 - INFO - Generating summary with BART model
+2024-09-18 10:33:33,658 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.workoutgenerator.fit'
+2024-09-18 10:33:33,888 - INFO - Tweet posted successfully: Response(data={'id': '1836352857810874491', 'edit_history_tweet_ids': ['1836352857810874491'], 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/D4l2IamGpK'}, includes={}, errors=[], meta={})
+2024-09-18 10:33:33,888 - INFO - Sleeping for 6 minutes and 9 seconds.
+2024-09-18 10:39:42,889 - INFO - Saved posted URL: https://www.workoutgenerator.fit at 2024-09-18 10:39:42
+2024-09-18 10:39:42,889 - INFO - Input content - content='<p>Article URL: <a href="https://www.mozilla.org/en-US/careers/listings/">https://www.mozilla.org/en-US/careers/listings/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577696">https://news.ycombinator.com/item?id=41577696</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 10:39:42,889 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 10:39:42,889 - INFO - Generating summary with BART model
+2024-09-18 10:39:48,364 - INFO - Generating summary with BART model
+2024-09-18 10:39:53,867 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.mozilla.org/en-US/careers/listings/'
+2024-09-18 10:39:54,152 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836354452632002882'], 'id': '1836354452632002882', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/XPnCIdi7ba'}, includes={}, errors=[], meta={})
+2024-09-18 10:39:54,152 - INFO - Sleeping for 6 minutes and 8 seconds.
+2024-09-18 10:46:02,153 - INFO - Saved posted URL: https://www.mozilla.org/en-US/careers/listings/ at 2024-09-18 10:46:02
+2024-09-18 10:46:02,153 - INFO - Input content - content='<p>Article URL: <a href="https://www.vadoo.tv/ai-tiktok-video-generator">https://www.vadoo.tv/ai-tiktok-video-generator</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577657">https://news.ycombinator.com/item?id=41577657</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>'
+2024-09-18 10:46:02,153 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 3 # Comments: 1'
+2024-09-18 10:46:02,153 - INFO - Generating summary with BART model
+2024-09-18 10:46:07,151 - INFO - Generating summary with BART model
+2024-09-18 10:46:12,203 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.vadoo.tv/ai-tiktok-video-generator'
+2024-09-18 10:46:12,453 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836356039475667107'], 'id': '1836356039475667107', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/5YprXWmnz5'}, includes={}, errors=[], meta={})
+2024-09-18 10:46:12,453 - INFO - Sleeping for 9 minutes and 38 seconds.
+2024-09-18 10:55:50,453 - INFO - Saved posted URL: https://www.vadoo.tv/ai-tiktok-video-generator at 2024-09-18 10:55:50
+2024-09-18 10:55:50,454 - INFO - This link is already posted: https://www.wired.com/story/teens-generative-ai-use-schools-parents/
+2024-09-18 10:55:50,454 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results
+2024-09-18 10:55:50,454 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 10:55:50,454 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 10:55:50,454 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 10:55:50,454 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 10:55:50,454 - INFO - Generating summary with BART model
+2024-09-18 10:55:54,557 - INFO - Generating summary with BART model
+2024-09-18 10:55:58,644 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 10:55:58,793 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
