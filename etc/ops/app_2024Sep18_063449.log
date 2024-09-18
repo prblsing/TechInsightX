@@ -1,0 +1,44 @@
+2024-09-18 06:34:49,080 - INFO - Starting configuration setup
+2024-09-18 06:34:49,080 - INFO - Environment variables loaded successfully
+2024-09-18 06:34:49,080 - INFO - Twitter API client initialized successfully
+2024-09-18 06:34:51,639 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 06:34:59,292 - INFO - Summarization model initialized successfully
+2024-09-18 06:34:59,292 - INFO - Starting tweet scheduling
+2024-09-18 06:34:59,292 - INFO - Tweeting process started at 2024-09-18 06:34:59.292797!
+2024-09-18 06:34:59,293 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 06:34:59,293 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 06:35:21,926 - INFO - Total entries found: 652
+2024-09-18 06:35:21,929 - INFO - Recent AI-related entries found: 29
+2024-09-18 06:35:21,929 - INFO - Input content - content='<p>Article URL: <a href="https://blog.scottlogic.com/2024/09/04/lessons-on-data-quality.html">https://blog.scottlogic.com/2024/09/04/lessons-on-data-quality.html</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41576368">https://news.ycombinator.com/item?id=41576368</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 06:35:21,930 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 06:35:21,930 - INFO - Generating summary with BART model
+2024-09-18 06:35:28,746 - INFO - Generating summary with BART model
+2024-09-18 06:35:33,999 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://blog.scottlogic.com/2024/09/04/lessons-on-data-quality.html'
+2024-09-18 06:35:34,259 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836292964701606093'], 'id': '1836292964701606093', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/2oTuS9vmgo'}, includes={}, errors=[], meta={})
+2024-09-18 06:35:34,259 - INFO - Sleeping for 7 minutes and 58 seconds.
+2024-09-18 06:43:32,259 - INFO - Saved posted URL: https://blog.scottlogic.com/2024/09/04/lessons-on-data-quality.html at 2024-09-18 06:43:32
+2024-09-18 06:43:32,260 - INFO - Input content - content='<p>Article URL: <a href="https://qa.tech/blog/qa-testing_humans-vs-ai/">https://qa.tech/blog/qa-testing_humans-vs-ai/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41576249">https://news.ycombinator.com/item?id=41576249</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>'
+2024-09-18 06:43:32,260 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 1'
+2024-09-18 06:43:32,260 - INFO - Generating summary with BART model
+2024-09-18 06:43:37,082 - INFO - Generating summary with BART model
+2024-09-18 06:43:41,896 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://qa.tech/blog/qa-testing_humans-vs-ai/'
+2024-09-18 06:43:42,172 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/9H7KpUpChe', 'id': '1836295011110957264', 'edit_history_tweet_ids': ['1836295011110957264']}, includes={}, errors=[], meta={})
+2024-09-18 06:43:42,172 - INFO - Sleeping for 7 minutes and 49 seconds.
+2024-09-18 06:51:31,173 - INFO - Saved posted URL: https://qa.tech/blog/qa-testing_humans-vs-ai/ at 2024-09-18 06:51:31
+2024-09-18 06:51:31,173 - INFO - Input content - content='Google will begin using copyright metadata to label AI-generated images, but will it be enough for its most vulnerable users?'
+2024-09-18 06:51:31,173 - INFO - clean content - clean_content='Google will begin using copyright metadata to label AI-generated images, but will it be enough for its most vulnerable users?'
+2024-09-18 06:51:31,173 - INFO - Generating summary with BART model
+2024-09-18 06:51:36,094 - INFO - Generating summary with BART model
+2024-09-18 06:51:40,971 - INFO - full_tweet='Google will begin using copyright metadata to label AI-generated images. But will it be enough for its..[read more👇🏼] #AI #generated https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results'
+2024-09-18 06:51:41,235 - INFO - Tweet posted successfully: Response(data={'text': 'Google will begin using copyright metadata to label AI-generated images. But will it be enough for its..[read more👇🏼] #AI #generated https://t.co/hWMNLsCre7', 'edit_history_tweet_ids': ['1836297020492878230'], 'id': '1836297020492878230'}, includes={}, errors=[], meta={})
+2024-09-18 06:51:41,236 - INFO - Sleeping for 4 minutes and 5 seconds.
+2024-09-18 06:55:46,236 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results at 2024-09-18 06:55:46
+2024-09-18 06:55:46,236 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 06:55:46,236 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 06:55:46,236 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 06:55:46,237 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 06:55:46,237 - INFO - Generating summary with BART model
+2024-09-18 06:55:50,308 - INFO - Generating summary with BART model
+2024-09-18 06:55:54,385 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 06:55:54,476 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
