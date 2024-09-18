@@ -1,0 +1,26 @@
+2024-09-18 13:19:19,019 - INFO - Starting configuration setup
+2024-09-18 13:19:19,019 - INFO - Environment variables loaded successfully
+2024-09-18 13:19:19,019 - INFO - Twitter API client initialized successfully
+2024-09-18 13:19:20,906 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 13:19:32,590 - INFO - Summarization model initialized successfully
+2024-09-18 13:19:32,590 - INFO - Starting tweet scheduling
+2024-09-18 13:19:32,590 - INFO - Tweeting process started at 2024-09-18 13:19:32.590594!
+2024-09-18 13:19:32,590 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 13:19:32,590 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 13:20:00,254 - INFO - Total entries found: 652
+2024-09-18 13:20:00,258 - INFO - Recent AI-related entries found: 27
+2024-09-18 13:20:00,258 - INFO - Input content - content='<p>Article URL: <a href="https://christianheilmann.com/2024/09/12/a-billion-new-developers-thanks-to-ai/">https://christianheilmann.com/2024/09/12/a-billion-new-developers-thanks-to-ai/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41579251">https://news.ycombinator.com/item?id=41579251</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 13:20:00,258 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 13:20:00,258 - INFO - Generating summary with BART model
+2024-09-18 13:20:06,430 - INFO - Generating summary with BART model
+2024-09-18 13:20:11,851 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://christianheilmann.com/2024/09/12/a-billion-new-developers-thanks-to-ai/'
+2024-09-18 13:20:12,199 - INFO - Tweet posted successfully: Response(data={'id': '1836394793615942065', 'edit_history_tweet_ids': ['1836394793615942065'], 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/cZZ57XdDLg'}, includes={}, errors=[], meta={})
+2024-09-18 13:20:12,199 - INFO - Sleeping for 6 minutes and 2 seconds.
+2024-09-18 13:26:14,200 - INFO - Saved posted URL: https://christianheilmann.com/2024/09/12/a-billion-new-developers-thanks-to-ai/ at 2024-09-18 13:26:14
+2024-09-18 13:26:14,200 - INFO - Input content - content='The Bose QuietComfort Earbuds go after the AirPods with active noise cancellation for $179. Bose also refreshes its $500 soundbar to produce cleaner dialog and pair with its Ultra Open Earbuds.'
+2024-09-18 13:26:14,200 - INFO - clean content - clean_content='The Bose QuietComfort Earbuds go after the AirPods with active noise cancellation for $179. Bose also refreshes its $500 soundbar to produce cleaner dialog and pair with its Ultra Open Earbuds.'
+2024-09-18 13:26:14,200 - INFO - Generating summary with BART model
+2024-09-18 13:26:19,987 - INFO - Generating summary with BART model
+2024-09-18 13:26:25,707 - INFO - full_tweet='The Bose QuietComfort Earbuds go after the AirPods with active noise cancellation for $179. Bose also..[read more👇🏼] #Bose #with https://www.pcmag.com/news/bose-earbuds-offer-anc-at-a-discount-new-soundbar-adds-ai-smarts'
+2024-09-18 13:26:25,851 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
