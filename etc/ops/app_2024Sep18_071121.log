@@ -1,0 +1,29 @@
+2024-09-18 07:11:21,400 - INFO - Starting configuration setup
+2024-09-18 07:11:21,401 - INFO - Environment variables loaded successfully
+2024-09-18 07:11:21,401 - INFO - Twitter API client initialized successfully
+2024-09-18 07:11:23,324 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 07:11:33,974 - INFO - Summarization model initialized successfully
+2024-09-18 07:11:33,974 - INFO - Starting tweet scheduling
+2024-09-18 07:11:33,975 - INFO - Tweeting process started at 2024-09-18 07:11:33.975055!
+2024-09-18 07:11:33,975 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 07:11:33,975 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 07:12:02,625 - INFO - Total entries found: 652
+2024-09-18 07:12:02,628 - INFO - Recent AI-related entries found: 28
+2024-09-18 07:12:02,628 - INFO - Input content - content='<p>Article URL: <a href="https://ai.google.dev/competition/projects/wachamacalit">https://ai.google.dev/competition/projects/wachamacalit</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41576586">https://news.ycombinator.com/item?id=41576586</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 07:12:02,629 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 07:12:02,629 - INFO - Generating summary with BART model
+2024-09-18 07:12:08,698 - INFO - Generating summary with BART model
+2024-09-18 07:12:14,010 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://ai.google.dev/competition/projects/wachamacalit'
+2024-09-18 07:12:14,318 - INFO - Tweet posted successfully: Response(data={'id': '1836302192401355167', 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/XQhEVWtuzU', 'edit_history_tweet_ids': ['1836302192401355167']}, includes={}, errors=[], meta={})
+2024-09-18 07:12:14,318 - INFO - Sleeping for 6 minutes and 25 seconds.
+2024-09-18 07:18:39,318 - INFO - Saved posted URL: https://ai.google.dev/competition/projects/wachamacalit at 2024-09-18 07:18:39
+2024-09-18 07:18:39,318 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results
+2024-09-18 07:18:39,318 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 07:18:39,318 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 07:18:39,318 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 07:18:39,318 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 07:18:39,319 - INFO - Generating summary with BART model
+2024-09-18 07:18:43,414 - INFO - Generating summary with BART model
+2024-09-18 07:18:47,512 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 07:18:47,696 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
