@@ -1,0 +1,45 @@
+2024-09-18 09:13:44,760 - INFO - Starting configuration setup
+2024-09-18 09:13:44,760 - INFO - Environment variables loaded successfully
+2024-09-18 09:13:44,760 - INFO - Twitter API client initialized successfully
+2024-09-18 09:13:47,665 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 09:13:56,332 - INFO - Summarization model initialized successfully
+2024-09-18 09:13:56,332 - INFO - Starting tweet scheduling
+2024-09-18 09:13:56,332 - INFO - Tweeting process started at 2024-09-18 09:13:56.332554!
+2024-09-18 09:13:56,332 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 09:13:56,332 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 09:14:30,044 - INFO - Total entries found: 652
+2024-09-18 09:14:30,047 - INFO - Recent AI-related entries found: 30
+2024-09-18 09:14:30,047 - INFO - Input content - content='A news survey shows that AI use among high schoolers has exploded in recent months, as educators and parents struggle to keep up.'
+2024-09-18 09:14:30,048 - INFO - clean content - clean_content='A news survey shows that AI use among high schoolers has exploded in recent months, as educators and parents struggle to keep up.'
+2024-09-18 09:14:30,048 - INFO - Generating summary with BART model
+2024-09-18 09:14:35,898 - INFO - Generating summary with BART model
+2024-09-18 09:14:40,091 - INFO - full_tweet='AI use among high schoolers has exploded in recent months, as educators and parents struggle to keep up...[read more👇🏼] #AI #exploded https://www.wired.com/story/teens-generative-ai-use-schools-parents/'
+2024-09-18 09:14:40,334 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836333003850788974'], 'text': 'AI use among high schoolers has exploded in recent months, as educators and parents struggle to keep up...[read more👇🏼] #AI #exploded https://t.co/HFJP6BCTg5', 'id': '1836333003850788974'}, includes={}, errors=[], meta={})
+2024-09-18 09:14:40,334 - INFO - Sleeping for 9 minutes and 23 seconds.
+2024-09-18 09:24:03,334 - INFO - Saved posted URL: https://www.wired.com/story/teens-generative-ai-use-schools-parents/ at 2024-09-18 09:24:03
+2024-09-18 09:24:03,334 - INFO - Input content - content='<p>Article URL: <a href="https://www.youtube.com/watch?v=eaAonE58sLU">https://www.youtube.com/watch?v=eaAonE58sLU</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577445">https://news.ycombinator.com/item?id=41577445</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 09:24:03,335 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 09:24:03,335 - INFO - Generating summary with BART model
+2024-09-18 09:24:08,604 - INFO - Generating summary with BART model
+2024-09-18 09:24:13,848 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.youtube.com/watch?v=eaAonE58sLU'
+2024-09-18 09:24:14,085 - INFO - Tweet posted successfully: Response(data={'id': '1836335410362093628', 'edit_history_tweet_ids': ['1836335410362093628'], 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/7BjmLCFt2m'}, includes={}, errors=[], meta={})
+2024-09-18 09:24:14,085 - INFO - Sleeping for 3 minutes and 32 seconds.
+2024-09-18 09:27:46,085 - INFO - Saved posted URL: https://www.youtube.com/watch?v=eaAonE58sLU at 2024-09-18 09:27:46
+2024-09-18 09:27:46,085 - INFO - Input content - content='<p>Article URL: <a href="https://www.science.org/content/article/ai-chatbot-shows-promise-talking-people-out-conspiracy-theories">https://www.science.org/content/article/ai-chatbot-shows-promise-talking-people-out-conspiracy-theories</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577420">https://news.ycombinator.com/item?id=41577420</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 09:27:46,086 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 09:27:46,086 - INFO - Generating summary with BART model
+2024-09-18 09:27:51,294 - INFO - Generating summary with BART model
+2024-09-18 09:27:56,503 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.science.org/content/article/ai-chatbot-shows-promise-talking-people-out-conspiracy-theories'
+2024-09-18 09:27:56,698 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/OVjj2FabL6', 'edit_history_tweet_ids': ['1836336344056107433'], 'id': '1836336344056107433'}, includes={}, errors=[], meta={})
+2024-09-18 09:27:56,699 - INFO - Sleeping for 5 minutes and 0 seconds.
+2024-09-18 09:32:56,699 - INFO - Saved posted URL: https://www.science.org/content/article/ai-chatbot-shows-promise-talking-people-out-conspiracy-theories at 2024-09-18 09:32:56
+2024-09-18 09:32:56,699 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results
+2024-09-18 09:32:56,699 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 09:32:56,699 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 09:32:56,699 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 09:32:56,699 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 09:32:56,699 - INFO - Generating summary with BART model
+2024-09-18 09:33:00,713 - INFO - Generating summary with BART model
+2024-09-18 09:33:04,725 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 09:33:04,859 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
