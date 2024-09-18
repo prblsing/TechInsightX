@@ -1,0 +1,37 @@
+2024-09-18 08:14:39,383 - INFO - Starting configuration setup
+2024-09-18 08:14:39,383 - INFO - Environment variables loaded successfully
+2024-09-18 08:14:39,383 - INFO - Twitter API client initialized successfully
+2024-09-18 08:14:41,703 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 08:14:50,666 - INFO - Summarization model initialized successfully
+2024-09-18 08:14:50,666 - INFO - Starting tweet scheduling
+2024-09-18 08:14:50,666 - INFO - Tweeting process started at 2024-09-18 08:14:50.666977!
+2024-09-18 08:14:50,667 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 08:14:50,667 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 08:15:15,000 - INFO - Total entries found: 652
+2024-09-18 08:15:15,003 - INFO - Recent AI-related entries found: 29
+2024-09-18 08:15:15,003 - INFO - Input content - content='<p>Article URL: <a href="https://www.theguardian.com/money/2024/sep/18/warning-social-media-videos-exploited-scammers-clone-voices">https://www.theguardian.com/money/2024/sep/18/warning-social-media-videos-exploited-scammers-clone-voices</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41577063">https://news.ycombinator.com/item?id=41577063</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 08:15:15,004 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 08:15:15,004 - INFO - Generating summary with BART model
+2024-09-18 08:15:21,935 - INFO - Generating summary with BART model
+2024-09-18 08:15:27,356 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.theguardian.com/money/2024/sep/18/warning-social-media-videos-exploited-scammers-clone-voices'
+2024-09-18 08:15:27,620 - INFO - Tweet posted successfully: Response(data={'id': '1836318102675689829', 'edit_history_tweet_ids': ['1836318102675689829'], 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/fbqv1vS8IP'}, includes={}, errors=[], meta={})
+2024-09-18 08:15:27,621 - INFO - Sleeping for 6 minutes and 10 seconds.
+2024-09-18 08:21:37,621 - INFO - Saved posted URL: https://www.theguardian.com/money/2024/sep/18/warning-social-media-videos-exploited-scammers-clone-voices at 2024-09-18 08:21:37
+2024-09-18 08:21:37,621 - INFO - Input content - content='<p>Article URL: <a href="https://mypapers.nyc3.cdn.digitaloceanspaces.com/the-phenomenology-of-machine.pdf">https://mypapers.nyc3.cdn.digitaloceanspaces.com/the-phenomenology-of-machine.pdf</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41576857">https://news.ycombinator.com/item?id=41576857</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>'
+2024-09-18 08:21:37,621 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 1'
+2024-09-18 08:21:37,621 - INFO - Generating summary with BART model
+2024-09-18 08:21:42,625 - INFO - Generating summary with BART model
+2024-09-18 08:21:47,608 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://mypapers.nyc3.cdn.digitaloceanspaces.com/the-phenomenology-of-machine.pdf'
+2024-09-18 08:21:47,832 - INFO - Tweet posted successfully: Response(data={'id': '1836319697488482441', 'edit_history_tweet_ids': ['1836319697488482441'], 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/oh1VXc8Nmf'}, includes={}, errors=[], meta={})
+2024-09-18 08:21:47,832 - INFO - Sleeping for 5 minutes and 39 seconds.
+2024-09-18 08:27:26,833 - INFO - Saved posted URL: https://mypapers.nyc3.cdn.digitaloceanspaces.com/the-phenomenology-of-machine.pdf at 2024-09-18 08:27:26
+2024-09-18 08:27:26,833 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-generated-and-edited-images-will-soon-be-labeled-in-google-search-results
+2024-09-18 08:27:26,833 - INFO - This link is already posted: https://techcrunch.com/2024/09/17/governor-newsom-on-california-ai-bill-sb-1047-i-cant-solve-for-everything/
+2024-09-18 08:27:26,833 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-can-remake-a-song-in-any-genre-you-like
+2024-09-18 08:27:26,833 - INFO - Input content - content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 08:27:26,833 - INFO - clean content - clean_content='AI-created songs and voices are streamed millions of times, especially K-Pop'
+2024-09-18 08:27:26,833 - INFO - Generating summary with BART model
+2024-09-18 08:27:31,030 - INFO - Generating summary with BART model
+2024-09-18 08:27:35,204 - INFO - full_tweet='AI-created songs and voices are streamed millions of times, especially K-Pop. AI-created song and voice..[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/your-k-pop-favorites-may-be-illicit-ai-voice-clones'
+2024-09-18 08:27:35,335 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
