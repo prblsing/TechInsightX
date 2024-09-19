@@ -1,0 +1,74 @@
+2024-09-19 06:16:23,811 - INFO - Starting configuration setup
+2024-09-19 06:16:23,811 - INFO - Environment variables loaded successfully
+2024-09-19 06:16:23,811 - INFO - Twitter API client initialized successfully
+2024-09-19 06:16:25,751 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 06:16:34,436 - INFO - Summarization model initialized successfully
+2024-09-19 06:16:34,437 - INFO - Starting tweet scheduling
+2024-09-19 06:16:34,437 - INFO - Tweeting process started at 2024-09-19 06:16:34.437299!
+2024-09-19 06:16:34,437 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 06:16:34,437 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 06:16:58,025 - INFO - Total entries found: 652
+2024-09-19 06:16:58,028 - INFO - Recent AI-related entries found: 40
+2024-09-19 06:16:58,029 - INFO - Input content - content='<p>Article URL: <a href="https://investors.biontech.de/news-releases/news-release-details/biontech-host-ai-day-edition-its-innovation-series-october-1/">https://investors.biontech.de/news-releases/news-release-details/biontech-host-ai-day-edition-its-innovation-series-october-1/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41589071">https://news.ycombinator.com/item?id=41589071</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-19 06:16:58,029 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-19 06:16:58,029 - INFO - Generating summary with BART model
+2024-09-19 06:17:04,116 - INFO - Generating summary with BART model
+2024-09-19 06:17:09,576 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://investors.biontech.de/news-releases/news-release-details/biontech-host-ai-day-edition-its-innovation-series-october-1/'
+2024-09-19 06:17:09,857 - INFO - Tweet posted successfully: Response(data={'id': '1836650720319431147', 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/LRuBpCMjCK', 'edit_history_tweet_ids': ['1836650720319431147']}, includes={}, errors=[], meta={})
+2024-09-19 06:17:09,857 - INFO - Sleeping for 5 minutes and 52 seconds.
+2024-09-19 06:23:01,857 - INFO - Saved posted URL: https://investors.biontech.de/news-releases/news-release-details/biontech-host-ai-day-edition-its-innovation-series-october-1/ at 2024-09-19 06:23:01
+2024-09-19 06:23:01,857 - INFO - Input content - content='<p>Article URL: <a href="https://lukaspetersson.com/blog/2024/ais-yc/">https://lukaspetersson.com/blog/2024/ais-yc/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41588902">https://news.ycombinator.com/item?id=41588902</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-19 06:23:01,858 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-19 06:23:01,858 - INFO - Generating summary with BART model
+2024-09-19 06:23:07,353 - INFO - Generating summary with BART model
+2024-09-19 06:23:12,783 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://lukaspetersson.com/blog/2024/ais-yc/'
+2024-09-19 06:23:13,024 - INFO - Tweet posted successfully: Response(data={'id': '1836652243644477854', 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/Du1b1UdQSc', 'edit_history_tweet_ids': ['1836652243644477854']}, includes={}, errors=[], meta={})
+2024-09-19 06:23:13,024 - INFO - Sleeping for 5 minutes and 11 seconds.
+2024-09-19 06:28:24,025 - INFO - Saved posted URL: https://lukaspetersson.com/blog/2024/ais-yc/ at 2024-09-19 06:28:24
+2024-09-19 06:28:24,025 - INFO - Input content - content='<p>Jobzumi uses AI to automate candidate screening. Create custom questionnaires, set ideal answers, get AI-ranked applicants. Cuts screening time dramatically. No monthly fees - pay per evaluation. For small agencies and businesses seeking efficient hiring.</p>\n<hr />\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41588857">https://news.ycombinator.com/item?id=41588857</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-19 06:28:24,025 - INFO - clean content - clean_content='Jobzumi uses AI to automate candidate screening. Create custom questionnaires, set ideal answers, get AI-ranked applicants. Cuts screening time dramatically. No monthly fees - pay per evaluation. For small agencies and businesses seeking efficient hiring. Comments URL: Points: 1 # Comments: 0'
+2024-09-19 06:28:24,025 - INFO - Generating summary with BART model
+2024-09-19 06:28:29,055 - INFO - Generating summary with BART model
+2024-09-19 06:28:34,006 - INFO - full_tweet='Jobzumi uses AI to automate candidate screening. Create custom questionnaires, set ideal answers, get..[read more👇🏼] #AI #screening https://jobzumi.com/'
+2024-09-19 06:28:34,253 - INFO - Tweet posted successfully: Response(data={'id': '1836653591005925619', 'text': 'Jobzumi uses AI to automate candidate screening. Create custom questionnaires, set ideal answers, get..[read more👇🏼] #AI #screening https://t.co/ZS3P5WDKfk', 'edit_history_tweet_ids': ['1836653591005925619']}, includes={}, errors=[], meta={})
+2024-09-19 06:28:34,253 - INFO - Sleeping for 3 minutes and 3 seconds.
+2024-09-19 06:31:37,253 - INFO - Saved posted URL: https://jobzumi.com/ at 2024-09-19 06:31:37
+2024-09-19 06:31:37,254 - INFO - Input content - content='<p>Article URL: <a href="https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/">https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41588842">https://news.ycombinator.com/item?id=41588842</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>'
+2024-09-19 06:31:37,254 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 5 # Comments: 1'
+2024-09-19 06:31:37,254 - INFO - Generating summary with BART model
+2024-09-19 06:31:42,322 - INFO - Generating summary with BART model
+2024-09-19 06:31:47,328 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/'
+2024-09-19 06:31:47,528 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/iYZ7FyCVqF', 'id': '1836654401559367901', 'edit_history_tweet_ids': ['1836654401559367901']}, includes={}, errors=[], meta={})
+2024-09-19 06:31:47,528 - INFO - Sleeping for 5 minutes and 14 seconds.
+2024-09-19 06:37:01,528 - INFO - Saved posted URL: https://arstechnica.com/information-technology/2024/09/openai-threatens-bans-for-probing-new-ai-models-reasoning-process/ at 2024-09-19 06:37:01
+2024-09-19 06:37:01,528 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I tried a Kaggle competition <a href="https://www.kaggle.com/competitions/playground-series-s3e19">https://www.kaggle.com/competitions/playground-series-s3e19</a> on Google\'s Data Science Agent tool - basically I just dumped the description as prompt and uploaded the datasets there, and it generated this Jupyter notebook: <a href="https://colab.research.google.com/drive/17DkaHhcdiURHPtYBZoRvoDE9NaSzn4V4">https://colab.research.google.com/drive/17DkaHhcdiURHPtYBZoRvoDE9NaSzn4V4</a></p> <p>I also tried it on ChatGPT but unfortunately I don\'t have Plus so the task was terminated in the middle (no model was trained). Anyone with Plus tried kaggle tasks on ChatGPT? Wondering how long will we see a bot win the competition, I imagine RL would play a huge role here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/caterpillarous"> /u/caterpillarous </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/">[comments]</a></span>'
+2024-09-19 06:37:01,529 - INFO - clean content - clean_content="I tried a Kaggle competition on Google's Data Science Agent tool - basically I just dumped the description as prompt and uploaded the datasets there, and it generated this Jupyter notebook: I also tried it on ChatGPT but unfortunately I don't have Plus so the task was terminated in the middle (no model was trained). Anyone with Plus tried kaggle tasks on ChatGPT? Wondering how long will we see a bot win the competition, I imagine RL would play a huge role here. &#32; submitted by &#32; /u/caterpillarous [link] &#32; [comments]"
+2024-09-19 06:37:01,529 - INFO - Generating summary with BART model
+2024-09-19 06:37:10,331 - INFO - Generating summary with BART model
+2024-09-19 06:37:19,083 - INFO - full_tweet="I tried a Kaggle competition on Google's Data Science Agent tool - basically I just dumped the..[read more👇🏼] #Data #I https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/"
+2024-09-19 06:37:19,343 - INFO - Tweet posted successfully: Response(data={'text': "I tried a Kaggle competition on Google's Data Science Agent tool - basically I just dumped the..[read more👇🏼] #Data #I https://t.co/9NRvYh82jW", 'edit_history_tweet_ids': ['1836655793330098256'], 'id': '1836655793330098256'}, includes={}, errors=[], meta={})
+2024-09-19 06:37:19,343 - INFO - Sleeping for 9 minutes and 6 seconds.
+2024-09-19 06:46:25,344 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/ at 2024-09-19 06:46:25
+2024-09-19 06:46:25,344 - INFO - This link is already posted: https://www.wired.com/story/united-nations-artificial-intelligence-report/
+2024-09-19 06:46:25,344 - INFO - This link is already posted: https://news.mit.edu/2024/study-ai-inconsistent-outcomes-home-surveillance-0919
+2024-09-19 06:46:25,344 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/google-gemini-lives-ai-voice-now-comes-in-ten-more-styles-that-take-inspiration-from-the-stars
+2024-09-19 06:46:25,344 - INFO - Input content - content='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot.'
+2024-09-19 06:46:25,344 - INFO - clean content - clean_content='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot.'
+2024-09-19 06:46:25,344 - INFO - Generating summary with BART model
+2024-09-19 06:46:29,544 - INFO - Generating summary with BART model
+2024-09-19 06:46:33,721 - INFO - full_tweet='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot. Snapchat debutsAI features like my..[read more👇🏼] #AI #features https://www.techradar.com/computing/artificial-intelligence/snapchats-ai-upgrade-will-make-you-look-as-old-as-the-features-feel'
+2024-09-19 06:46:33,981 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836658119625314479'], 'id': '1836658119625314479', 'text': 'Snapchat debuts AI features like My Selfie and upgraded My AI chatbot. Snapchat debutsAI features like my..[read more👇🏼] #AI #features https://t.co/7lJX5WvRn7'}, includes={}, errors=[], meta={})
+2024-09-19 06:46:33,981 - INFO - Sleeping for 4 minutes and 13 seconds.
+2024-09-19 06:50:46,981 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/snapchats-ai-upgrade-will-make-you-look-as-old-as-the-features-feel at 2024-09-19 06:50:46
+2024-09-19 06:50:46,982 - INFO - This link is already posted: https://www.theverge.com/2024/9/18/24248471/linkedin-ai-training-user-accounts-data-opt-in
+2024-09-19 06:50:46,982 - INFO - This link is already posted: https://venturebeat.com/ai/how-one-fintech-startup-used-gen-ai-to-boost-productivity-by-70/
+2024-09-19 06:50:46,982 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/youtube-wants-you-to-use-ai-to-help-create-shorts/#ftag=CAD590a51e
+2024-09-19 06:50:46,982 - INFO - This link is already posted: https://venturebeat.com/ai/why-jensen-huang-and-marc-benioff-see-gigantic-opportunity-for-agentic-ai/
+2024-09-19 06:50:46,982 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fk5frs/r_windows_agent_arena_a_benchmark_for_ai_agents/
+2024-09-19 06:50:46,982 - INFO - Input content - content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 06:50:46,982 - INFO - clean content - clean_content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 06:50:46,982 - INFO - Generating summary with BART model
+2024-09-19 06:50:51,113 - INFO - Generating summary with BART model
+2024-09-19 06:50:55,263 - INFO - full_tweet='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an..[read more👇🏼] #startup #AI https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/'
+2024-09-19 06:50:55,342 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
