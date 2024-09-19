@@ -1,0 +1,18 @@
+2024-09-19 13:19:43,733 - INFO - Starting configuration setup
+2024-09-19 13:19:43,733 - INFO - Environment variables loaded successfully
+2024-09-19 13:19:43,734 - INFO - Twitter API client initialized successfully
+2024-09-19 13:19:45,672 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 13:19:53,163 - INFO - Summarization model initialized successfully
+2024-09-19 13:19:53,163 - INFO - Starting tweet scheduling
+2024-09-19 13:19:53,164 - INFO - Tweeting process started at 2024-09-19 13:19:53.164031!
+2024-09-19 13:19:53,164 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 13:19:53,164 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 13:20:14,731 - INFO - Total entries found: 617
+2024-09-19 13:20:14,734 - INFO - Recent AI-related entries found: 32
+2024-09-19 13:20:14,735 - INFO - Input content - content='<p>In many meetings today, it sometimes feels like there are more AI notetaking and transcription bots than people. There are seemingly dozens of options to choose from these days, but one I&#8217;ve seen with increasing regularity is Fathom. The company was one of the earlier players when it launched in 2020. Fathom then raised a [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-19 13:20:14,735 - INFO - clean content - clean_content='In many meetings today, it sometimes feels like there are more AI notetaking and transcription bots than people. There are seemingly dozens of options to choose from these days, but one I&#8217;ve seen with increasing regularity is Fathom. The company was one of the earlier players when it launched in 2020. Fathom then raised a [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-19 13:20:14,735 - INFO - Generating summary with BART model
+2024-09-19 13:20:20,063 - INFO - Generating summary with BART model
+2024-09-19 13:20:24,737 - INFO - full_tweet='Fathom was one of the earlier players when it launched in 2020. Fathom then raised a [&#8230;] © 2024..[read more👇🏼] #Fathom #launched https://techcrunch.com/2024/09/19/ai-notetaker-fathom-raises-17m/'
+2024-09-19 13:20:24,879 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
