@@ -1,0 +1,19 @@
+2024-09-19 02:11:17,707 - INFO - Starting configuration setup
+2024-09-19 02:11:17,707 - INFO - Environment variables loaded successfully
+2024-09-19 02:11:17,707 - INFO - Twitter API client initialized successfully
+2024-09-19 02:11:19,567 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 02:11:26,565 - INFO - Summarization model initialized successfully
+2024-09-19 02:11:26,565 - INFO - Starting tweet scheduling
+2024-09-19 02:11:26,565 - INFO - Tweeting process started at 2024-09-19 02:11:26.565615!
+2024-09-19 02:11:26,565 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 02:11:26,565 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 02:11:48,264 - INFO - Total entries found: 652
+2024-09-19 02:11:48,267 - INFO - Recent AI-related entries found: 36
+2024-09-19 02:11:48,267 - INFO - This link is already posted: https://www.theverge.com/2024/9/18/24248471/linkedin-ai-training-user-accounts-data-opt-in
+2024-09-19 02:11:48,268 - INFO - Input content - content='<p>Article URL: <a href="https://www.devgen.xyz/">https://www.devgen.xyz/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41587551">https://news.ycombinator.com/item?id=41587551</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-19 02:11:48,268 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-19 02:11:48,268 - INFO - Generating summary with BART model
+2024-09-19 02:11:54,281 - INFO - Generating summary with BART model
+2024-09-19 02:11:59,651 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.devgen.xyz/'
+2024-09-19 02:11:59,794 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
