@@ -1,0 +1,38 @@
+2024-09-19 09:12:35,250 - INFO - Starting configuration setup
+2024-09-19 09:12:35,251 - INFO - Environment variables loaded successfully
+2024-09-19 09:12:35,251 - INFO - Twitter API client initialized successfully
+2024-09-19 09:12:37,130 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 09:12:46,526 - INFO - Summarization model initialized successfully
+2024-09-19 09:12:46,527 - INFO - Starting tweet scheduling
+2024-09-19 09:12:46,527 - INFO - Tweeting process started at 2024-09-19 09:12:46.527095!
+2024-09-19 09:12:46,527 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 09:12:46,527 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 09:13:02,068 - INFO - Total entries found: 617
+2024-09-19 09:13:02,071 - INFO - Recent AI-related entries found: 36
+2024-09-19 09:13:02,071 - INFO - Input content - content='<img height="417" src="https://img-cdn.tnwcdn.com/image?fit=796%2C417&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F09%2FUntitled-design-8.jpg&amp;signature=776b91a00afeff4f06fb09cf9bfe1d35" width="796" /><br />This year, Air Canada lost a lawsuit against a customer who was misled by an AI chatbot into purchasing full-price plane tickets, being assured they would later be refunded under the company’s bereavement policy. The airline tried to claim the bot was “responsible for its own actions.” This line of argumentation was rejected by the court and the company not only had to pay compensation, it also received public criticism for attempting to distance itself from the situation. It’s clear companies are liable for AI models, even when they make mistakes beyond our control. The rapidly advancing world of AI,&#8230;<br /><br /><a href="https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall?utm_source=social&#038;utm_medium=feed&#038;utm_campaign=profeed">This story continues</a> at The Next Web'
+2024-09-19 09:13:02,072 - INFO - clean content - clean_content='This year, Air Canada lost a lawsuit against a customer who was misled by an AI chatbot into purchasing full-price plane tickets, being assured they would later be refunded under the company’s bereavement policy. The airline tried to claim the bot was “responsible for its own actions.” This line of argumentation was rejected by the court and the company not only had to pay compensation, it also received public criticism for attempting to distance itself from the situation. It’s clear companies are liable for AI models, even when they make mistakes beyond our control. The rapidly advancing world of AI,&#8230;This story continues at The Next Web'
+2024-09-19 09:13:02,072 - INFO - Generating summary with BART model
+2024-09-19 09:13:09,222 - INFO - Generating summary with BART model
+2024-09-19 09:13:15,730 - INFO - full_tweet='Air Canada lost a lawsuit against a customer who was misled by an AI chatbot into purchasing full-price..[read more👇🏼] #AI #by https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall'
+2024-09-19 09:13:16,015 - INFO - Tweet posted successfully: Response(data={'id': '1836695038010466473', 'text': 'Air Canada lost a lawsuit against a customer who was misled by an AI chatbot into purchasing full-price..[read more👇🏼] #AI #by https://t.co/ZITtMQSUbn', 'edit_history_tweet_ids': ['1836695038010466473']}, includes={}, errors=[], meta={})
+2024-09-19 09:13:16,015 - INFO - Sleeping for 1 minutes and 23 seconds.
+2024-09-19 09:14:39,015 - INFO - Saved posted URL: https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall at 2024-09-19 09:14:39
+2024-09-19 09:14:39,015 - INFO - This link is already posted: https://www.wired.com/story/content-creators-in-the-adult-industry-want-a-say-in-ai-rules/
+2024-09-19 09:14:39,015 - INFO - This link is already posted: https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.wired.com/story/united-nations-artificial-intelligence-report/
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://news.mit.edu/2024/study-ai-inconsistent-outcomes-home-surveillance-0919
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/google-gemini-lives-ai-voice-now-comes-in-ten-more-styles-that-take-inspiration-from-the-stars
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/snapchats-ai-upgrade-will-make-you-look-as-old-as-the-features-feel
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.theverge.com/2024/9/18/24248471/linkedin-ai-training-user-accounts-data-opt-in
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://venturebeat.com/ai/how-one-fintech-startup-used-gen-ai-to-boost-productivity-by-70/
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/youtube-wants-you-to-use-ai-to-help-create-shorts/#ftag=CAD590a51e
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://venturebeat.com/ai/why-jensen-huang-and-marc-benioff-see-gigantic-opportunity-for-agentic-ai/
+2024-09-19 09:14:39,016 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fk5frs/r_windows_agent_arena_a_benchmark_for_ai_agents/
+2024-09-19 09:14:39,016 - INFO - Input content - content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 09:14:39,016 - INFO - clean content - clean_content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 09:14:39,016 - INFO - Generating summary with BART model
+2024-09-19 09:14:43,184 - INFO - Generating summary with BART model
+2024-09-19 09:14:47,331 - INFO - full_tweet='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an..[read more👇🏼] #startup #AI https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/'
+2024-09-19 09:14:47,407 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
