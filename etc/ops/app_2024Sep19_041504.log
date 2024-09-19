@@ -1,0 +1,50 @@
+2024-09-19 04:15:04,555 - INFO - Starting configuration setup
+2024-09-19 04:15:04,555 - INFO - Environment variables loaded successfully
+2024-09-19 04:15:04,555 - INFO - Twitter API client initialized successfully
+2024-09-19 04:15:06,385 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 04:15:13,032 - INFO - Summarization model initialized successfully
+2024-09-19 04:15:13,032 - INFO - Starting tweet scheduling
+2024-09-19 04:15:13,032 - INFO - Tweeting process started at 2024-09-19 04:15:13.032699!
+2024-09-19 04:15:13,032 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 04:15:13,033 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 04:15:34,696 - INFO - Total entries found: 622
+2024-09-19 04:15:34,699 - INFO - Recent AI-related entries found: 29
+2024-09-19 04:15:34,699 - INFO - Input content - content='Researchers find large language models make inconsistent decisions about whether to call the police when analyzing surveillance videos.'
+2024-09-19 04:15:34,700 - INFO - clean content - clean_content='Researchers find large language models make inconsistent decisions about whether to call the police when analyzing surveillance videos.'
+2024-09-19 04:15:34,700 - INFO - Generating summary with BART model
+2024-09-19 04:15:39,350 - INFO - Generating summary with BART model
+2024-09-19 04:15:43,391 - INFO - full_tweet='Researchers find large language models make inconsistent decisions about whether to call the police when..[read more👇🏼] #inconsistent #Researchers https://news.mit.edu/2024/study-ai-inconsistent-outcomes-home-surveillance-0919'
+2024-09-19 04:15:43,747 - INFO - Tweet posted successfully: Response(data={'text': 'Researchers find large language models make inconsistent decisions about whether to call the police when..[read more👇🏼] #inconsistent #Researchers https://t.co/yIbdI37Qk6', 'id': '1836620160116937051', 'edit_history_tweet_ids': ['1836620160116937051']}, includes={}, errors=[], meta={})
+2024-09-19 04:15:43,748 - INFO - Sleeping for 1 minutes and 47 seconds.
+2024-09-19 04:17:30,748 - INFO - Saved posted URL: https://news.mit.edu/2024/study-ai-inconsistent-outcomes-home-surveillance-0919 at 2024-09-19 04:17:30
+2024-09-19 04:17:30,748 - INFO - Input content - content='<p>Article URL: <a href="https://www.akeru.ai/">https://www.akeru.ai/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41588319">https://news.ycombinator.com/item?id=41588319</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>'
+2024-09-19 04:17:30,748 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 1'
+2024-09-19 04:17:30,748 - INFO - Generating summary with BART model
+2024-09-19 04:17:35,521 - INFO - Generating summary with BART model
+2024-09-19 04:17:40,288 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.akeru.ai/'
+2024-09-19 04:17:40,507 - INFO - Tweet posted successfully: Response(data={'id': '1836620649864851593', 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/yHLCI77zup', 'edit_history_tweet_ids': ['1836620649864851593']}, includes={}, errors=[], meta={})
+2024-09-19 04:17:40,507 - INFO - Sleeping for 7 minutes and 37 seconds.
+2024-09-19 04:25:17,508 - INFO - Saved posted URL: https://www.akeru.ai/ at 2024-09-19 04:25:17
+2024-09-19 04:25:17,508 - INFO - Input content - content='<p>Article URL: <a href="https://www.thenile.dev/blog/nile-public-launch">https://www.thenile.dev/blog/nile-public-launch</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41588258">https://news.ycombinator.com/item?id=41588258</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>'
+2024-09-19 04:25:17,508 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 3 # Comments: 0'
+2024-09-19 04:25:17,508 - INFO - Generating summary with BART model
+2024-09-19 04:25:22,726 - INFO - Generating summary with BART model
+2024-09-19 04:25:27,914 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.thenile.dev/blog/nile-public-launch'
+2024-09-19 04:25:28,206 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/9wY0YETEqy', 'id': '1836622611519885581', 'edit_history_tweet_ids': ['1836622611519885581']}, includes={}, errors=[], meta={})
+2024-09-19 04:25:28,206 - INFO - Sleeping for 2 minutes and 13 seconds.
+2024-09-19 04:27:41,206 - INFO - Saved posted URL: https://www.thenile.dev/blog/nile-public-launch at 2024-09-19 04:27:41
+2024-09-19 04:27:41,206 - INFO - Input content - content='Google Gemini Live AI adds ten new voice options.'
+2024-09-19 04:27:41,207 - INFO - clean content - clean_content='Google Gemini Live AI adds ten new voice options.'
+2024-09-19 04:27:41,207 - INFO - Generating summary with BART model
+2024-09-19 04:27:46,509 - INFO - Generating summary with BART model
+2024-09-19 04:27:51,780 - INFO - full_tweet='Google Gemini Live AI adds ten new voice options. Google Gemini Live is a new voice-activated AI system..[read more👇🏼] #AI #technology https://www.techradar.com/computing/artificial-intelligence/google-gemini-lives-ai-voice-now-comes-in-ten-more-styles-that-take-inspiration-from-the-stars'
+2024-09-19 04:27:51,996 - INFO - Tweet posted successfully: Response(data={'id': '1836623214643949740', 'edit_history_tweet_ids': ['1836623214643949740'], 'text': 'Google Gemini Live AI adds ten new voice options. Google Gemini Live is a new voice-activated AI system..[read more👇🏼] #AI #technology https://t.co/NBfF4ewFaj'}, includes={}, errors=[], meta={})
+2024-09-19 04:27:51,996 - INFO - Sleeping for 4 minutes and 34 seconds.
+2024-09-19 04:32:25,997 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/google-gemini-lives-ai-voice-now-comes-in-ten-more-styles-that-take-inspiration-from-the-stars at 2024-09-19 04:32:25
+2024-09-19 04:32:25,997 - INFO - Input content - content='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot.'
+2024-09-19 04:32:25,997 - INFO - clean content - clean_content='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot.'
+2024-09-19 04:32:25,997 - INFO - Generating summary with BART model
+2024-09-19 04:32:30,023 - INFO - Generating summary with BART model
+2024-09-19 04:32:34,045 - INFO - full_tweet='Snapchat debuts AI features like My Selfie and upgraded My AI chatbot. Snapchat debutsAI features like my..[read more👇🏼] #AI #features https://www.techradar.com/computing/artificial-intelligence/snapchats-ai-upgrade-will-make-you-look-as-old-as-the-features-feel'
+2024-09-19 04:32:34,245 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
