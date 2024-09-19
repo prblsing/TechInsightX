@@ -1,0 +1,184 @@
+2024-09-18 22:11:53,419 - INFO - Starting configuration setup
+2024-09-18 22:11:53,419 - INFO - Environment variables loaded successfully
+2024-09-18 22:11:53,419 - INFO - Twitter API client initialized successfully
+2024-09-18 22:11:55,275 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-18 22:12:04,421 - INFO - Summarization model initialized successfully
+2024-09-18 22:12:04,422 - INFO - Starting tweet scheduling
+2024-09-18 22:12:04,422 - INFO - Tweeting process started at 2024-09-18 22:12:04.422291!
+2024-09-18 22:12:04,422 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep18.csv
+2024-09-18 22:12:04,422 - INFO - Fetching latest tech news from RSS feeds
+2024-09-18 22:12:30,648 - INFO - Total entries found: 622
+2024-09-18 22:12:30,651 - INFO - Recent AI-related entries found: 26
+2024-09-18 22:12:30,651 - INFO - Input content - content='<p>Article URL: <a href="https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/">https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41585930">https://news.ycombinator.com/item?id=41585930</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-18 22:12:30,651 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-18 22:12:30,651 - INFO - Generating summary with BART model
+2024-09-18 22:12:36,761 - INFO - Generating summary with BART model
+2024-09-18 22:12:42,233 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/'
+2024-09-18 22:12:42,553 - INFO - Tweet posted successfully: Response(data={'id': '1836528803138670908', 'text': 'https://t.co/O2xYLX3il1 will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots..[read more👇🏼] #gallery #Travel https://t.co/2ZHiXh1rfu', 'edit_history_tweet_ids': ['1836528803138670908']}, includes={}, errors=[], meta={})
+2024-09-18 22:12:42,553 - INFO - Sleeping for 2 minutes and 13 seconds.
+2024-09-18 22:14:55,553 - INFO - Saved posted URL: https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/ at 2024-09-18 22:14:55
+2024-09-18 22:14:55,553 - INFO - Input content - content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-18 22:14:55,554 - INFO - clean content - clean_content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-18 22:14:55,554 - INFO - Generating summary with BART model
+2024-09-18 22:14:59,842 - INFO - Generating summary with BART model
+2024-09-18 22:15:04,126 - INFO - full_tweet='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an..[read more👇🏼] #startup #AI https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/'
+2024-09-18 22:15:04,340 - INFO - Tweet posted successfully: Response(data={'text': 'The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an..[read more👇🏼] #startup #AI https://t.co/Xo80wd3s9d', 'id': '1836529397970632803', 'edit_history_tweet_ids': ['1836529397970632803']}, includes={}, errors=[], meta={})
+2024-09-18 22:15:04,340 - INFO - Sleeping for 3 minutes and 19 seconds.
+2024-09-18 22:18:23,340 - INFO - Saved posted URL: https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/ at 2024-09-18 22:18:23
+2024-09-18 22:18:23,340 - INFO - Input content - content='Creators can make AI-generated backgrounds later this year, and upload them to videos through a green-screen-style feature. Complete video clips (up to six seconds) will follow in 2025.'
+2024-09-18 22:18:23,341 - INFO - clean content - clean_content='Creators can make AI-generated backgrounds later this year, and upload them to videos through a green-screen-style feature. Complete video clips (up to six seconds) will follow in 2025.'
+2024-09-18 22:18:23,341 - INFO - Generating summary with BART model
+2024-09-18 22:18:28,087 - INFO - Generating summary with BART model
+2024-09-18 22:18:32,810 - INFO - full_tweet='AI-generated backgrounds will be available later this year, and video clips will follow in 2025. Creators..[read more👇🏼] #AI #backgrounds https://www.pcmag.com/news/googles-veo-text-to-video-ai-generator-is-coming-to-youtube-shorts'
+2024-09-18 22:18:33,002 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836530273191891395'], 'text': 'AI-generated backgrounds will be available later this year, and video clips will follow in 2025. Creators..[read more👇🏼] #AI #backgrounds https://t.co/sX6pNCz1lD', 'id': '1836530273191891395'}, includes={}, errors=[], meta={})
+2024-09-18 22:18:33,002 - INFO - Sleeping for 3 minutes and 54 seconds.
+2024-09-18 22:22:27,003 - INFO - Saved posted URL: https://www.pcmag.com/news/googles-veo-text-to-video-ai-generator-is-coming-to-youtube-shorts at 2024-09-18 22:22:27
+2024-09-18 22:22:27,003 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Anyone with recent interview experience with OpenAI? I found a really helpful thread on their interview process but that’s from 7 years ago. Wondering how the process is and how others experience has been. Would appreciate any insights</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/plantparent2021"> /u/plantparent2021 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fk3plt/d_interview_experience_at_openai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fk3plt/d_interview_experience_at_openai/">[comments]</a></span>'
+2024-09-18 22:22:27,003 - INFO - clean content - clean_content='Anyone with recent interview experience with OpenAI? I found a really helpful thread on their interview process but that’s from 7 years ago. Wondering how the process is and how others experience has been. Would appreciate any insights &#32; submitted by &#32; /u/plantparent2021 [link] &#32; [comments]'
+2024-09-18 22:22:27,003 - INFO - Generating summary with BART model
+2024-09-18 22:22:32,332 - INFO - Generating summary with BART model
+2024-09-18 22:22:37,638 - INFO - full_tweet='Anyone with recent interview experience with OpenAI? I found a really helpful thread on their interview..[read more👇🏼] #experience #interview https://www.reddit.com/r/MachineLearning/comments/1fk3plt/d_interview_experience_at_openai/'
+2024-09-18 22:22:37,828 - INFO - Tweet posted successfully: Response(data={'id': '1836531300100116770', 'edit_history_tweet_ids': ['1836531300100116770'], 'text': 'Anyone with recent interview experience with OpenAI? I found a really helpful thread on their interview..[read more👇🏼] #experience #interview https://t.co/vefWG7RQMJ'}, includes={}, errors=[], meta={})
+2024-09-18 22:22:37,829 - INFO - Sleeping for 9 minutes and 19 seconds.
+2024-09-18 22:31:56,829 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fk3plt/d_interview_experience_at_openai/ at 2024-09-18 22:31:56
+2024-09-18 22:31:56,829 - INFO - Input content - content='AI agents from Salesforce are coming to Slack to help boost productivity and efficiency.'
+2024-09-18 22:31:56,829 - INFO - clean content - clean_content='AI agents from Salesforce are coming to Slack to help boost productivity and efficiency.'
+2024-09-18 22:31:56,829 - INFO - Generating summary with BART model
+2024-09-18 22:32:00,896 - INFO - Generating summary with BART model
+2024-09-18 22:32:04,954 - INFO - full_tweet='AI agents from Salesforce are coming to Slack to help boost productivity and efficiency. Salesforce..[read more👇🏼] #AI #Salesforce https://www.techradar.com/pro/slack-s-latest-ai-boost-will-give-you-notes-from-even-the-smallest-meetings'
+2024-09-18 22:32:05,248 - INFO - Tweet posted successfully: Response(data={'id': '1836533679931429065', 'text': 'AI agents from Salesforce are coming to Slack to help boost productivity and efficiency. Salesforce..[read more👇🏼] #AI #Salesforce https://t.co/34PLau17Xj', 'edit_history_tweet_ids': ['1836533679931429065']}, includes={}, errors=[], meta={})
+2024-09-18 22:32:05,248 - INFO - Sleeping for 2 minutes and 10 seconds.
+2024-09-18 22:34:15,249 - INFO - Saved posted URL: https://www.techradar.com/pro/slack-s-latest-ai-boost-will-give-you-notes-from-even-the-smallest-meetings at 2024-09-18 22:34:15
+2024-09-18 22:34:15,249 - INFO - Input content - content='<p>Fal.ai, a dev-focused platform for AI-generated audio, video, and images, today revealed that it&#8217;s raised $23 million in funding from investors including Andreessen Horowitz (a16z), Black Forest Labs co-founder Robin Rombach, and Perplexity CEO Aravind Srinivas. It&#8217;s a two-round deal. $14 million of Fal&#8217;s total came from a Series A tranche led by Kindred Ventures. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 22:34:15,249 - INFO - clean content - clean_content='Fal.ai, a dev-focused platform for AI-generated audio, video, and images, today revealed that it&#8217;s raised $23 million in funding from investors including Andreessen Horowitz (a16z), Black Forest Labs co-founder Robin Rombach, and Perplexity CEO Aravind Srinivas. It&#8217;s a two-round deal. $14 million of Fal&#8217;s total came from a Series A tranche led by Kindred Ventures. [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 22:34:15,249 - INFO - Generating summary with BART model
+2024-09-18 22:34:25,797 - INFO - Generating summary with BART model
+2024-09-18 22:34:36,304 - INFO - full_tweet='Fal.ai, a dev-focused platform for AI-generated audio, video, and images, today revealed that it&#8217;s..[read more👇🏼] #ai #AI https://techcrunch.com/2024/09/18/fal-ai-which-hosts-media-generating-ai-models-raises-23m-from-a16z-and-others/'
+2024-09-18 22:34:36,505 - INFO - Tweet posted successfully: Response(data={'id': '1836534314378629582', 'edit_history_tweet_ids': ['1836534314378629582'], 'text': 'https://t.co/Kf5ncBumVP, a dev-focused platform for AI-generated audio, video, and images, today revealed that it&amp;#8217;s..[read more👇🏼] #ai #AI https://t.co/IqoQQoxAmK'}, includes={}, errors=[], meta={})
+2024-09-18 22:34:36,505 - INFO - Sleeping for 8 minutes and 4 seconds.
+2024-09-18 22:42:40,505 - INFO - Saved posted URL: https://techcrunch.com/2024/09/18/fal-ai-which-hosts-media-generating-ai-models-raises-23m-from-a16z-and-others/ at 2024-09-18 22:42:40
+2024-09-18 22:42:40,505 - INFO - Input content - content='I spoke with the tech pioneer about his new Netflix docuseries that touches on the future of AI, global warming and more.'
+2024-09-18 22:42:40,506 - INFO - clean content - clean_content='I spoke with the tech pioneer about his new Netflix docuseries that touches on the future of AI, global warming and more.'
+2024-09-18 22:42:40,506 - INFO - Generating summary with BART model
+2024-09-18 22:42:44,687 - INFO - Generating summary with BART model
+2024-09-18 22:42:48,868 - INFO - full_tweet="The tech pioneer's new Netflix docuseries touches on the future of AI, global warming and more. I spoke..[read more👇🏼] #tech #AI https://www.cnet.com/tech/services-and-software/bill-gates-chats-with-us-about-ai-misinformation-and-climate-change/#ftag=CAD590a51e"
+2024-09-18 22:42:49,163 - INFO - Tweet posted successfully: Response(data={'text': "The tech pioneer's new Netflix docuseries touches on the future of AI, global warming and more. I spoke..[read more👇🏼] #tech #AI https://t.co/Ftay5KhPh7", 'edit_history_tweet_ids': ['1836536380710883437'], 'id': '1836536380710883437'}, includes={}, errors=[], meta={})
+2024-09-18 22:42:49,163 - INFO - Sleeping for 6 minutes and 58 seconds.
+2024-09-18 22:49:47,163 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/bill-gates-chats-with-us-about-ai-misinformation-and-climate-change/#ftag=CAD590a51e at 2024-09-18 22:49:47
+2024-09-18 22:49:47,163 - INFO - Input content - content='Businesses of all sizes are getting productivity boosts thanks to Copilot'
+2024-09-18 22:49:47,163 - INFO - clean content - clean_content='Businesses of all sizes are getting productivity boosts thanks to Copilot'
+2024-09-18 22:49:47,163 - INFO - Generating summary with BART model
+2024-09-18 22:49:50,861 - INFO - Generating summary with BART model
+2024-09-18 22:49:54,557 - INFO - full_tweet='Businesses of all sizes are getting productivity boosts thanks to Copilot. Copilot is a cloud-based..[read more👇🏼] #software #cloud https://www.techradar.com/pro/top-microsoft-office-apps-are-getting-a-major-ai-upgrade-powerpoint-outlook-and-even-teams-get-a-copilot-boost'
+2024-09-18 22:49:54,899 - INFO - Tweet posted successfully: Response(data={'id': '1836538166217740745', 'text': 'Businesses of all sizes are getting productivity boosts thanks to Copilot. Copilot is a cloud-based..[read more👇🏼] #software #cloud https://t.co/iwTkbpnyi6', 'edit_history_tweet_ids': ['1836538166217740745']}, includes={}, errors=[], meta={})
+2024-09-18 22:49:54,899 - INFO - Sleeping for 4 minutes and 42 seconds.
+2024-09-18 22:54:36,899 - INFO - Saved posted URL: https://www.techradar.com/pro/top-microsoft-office-apps-are-getting-a-major-ai-upgrade-powerpoint-outlook-and-even-teams-get-a-copilot-boost at 2024-09-18 22:54:36
+2024-09-18 22:54:36,899 - INFO - Input content - content='SocialAI is an online universe where everyone you interact with is a bot—for better or worse.'
+2024-09-18 22:54:36,899 - INFO - clean content - clean_content='SocialAI is an online universe where everyone you interact with is a bot—for better or worse.'
+2024-09-18 22:54:36,899 - INFO - Generating summary with BART model
+2024-09-18 22:54:40,602 - INFO - Generating summary with BART model
+2024-09-18 22:54:44,301 - INFO - full_tweet='SocialAI is an online universe where everyone you interact with is a bot. For better or worse, this is..[read more👇🏼] #universe #everyone https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/'
+2024-09-18 22:54:44,617 - INFO - Tweet posted successfully: Response(data={'id': '1836539381613834266', 'edit_history_tweet_ids': ['1836539381613834266'], 'text': 'SocialAI is an online universe where everyone you interact with is a bot. For better or worse, this is..[read more👇🏼] #universe #everyone https://t.co/2ZHiXh1rfu'}, includes={}, errors=[], meta={})
+2024-09-18 22:54:44,617 - INFO - Sleeping for 9 minutes and 19 seconds.
+2024-09-18 23:04:03,617 - INFO - Saved posted URL: https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/ at 2024-09-18 23:04:03
+2024-09-18 23:04:03,617 - INFO - Input content - content="The goal is to run a new customer service platform called 'IntentCX,' which promises to take AI customer support to the next level for T-Mobile customers."
+2024-09-18 23:04:03,618 - INFO - clean content - clean_content="The goal is to run a new customer service platform called 'IntentCX,' which promises to take AI customer support to the next level for T-Mobile customers."
+2024-09-18 23:04:03,618 - INFO - Generating summary with BART model
+2024-09-18 23:04:07,697 - INFO - Generating summary with BART model
+2024-09-18 23:04:11,780 - INFO - full_tweet="The goal is to run a new customer service platform called 'IntentCX' It promises to take AI customer..[read more👇🏼] #Mobile #AI https://www.pcmag.com/news/t-mobile-to-use-chatgpt-tech-for-ai-powered-customer-support"
+2024-09-18 23:04:12,106 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836541761768034649'], 'text': "The goal is to run a new customer service platform called 'IntentCX' It promises to take AI customer..[read more👇🏼] #Mobile #AI https://t.co/LwgwBF1Bt7", 'id': '1836541761768034649'}, includes={}, errors=[], meta={})
+2024-09-18 23:04:12,106 - INFO - Sleeping for 4 minutes and 54 seconds.
+2024-09-18 23:09:06,106 - INFO - Saved posted URL: https://www.pcmag.com/news/t-mobile-to-use-chatgpt-tech-for-ai-powered-customer-support at 2024-09-18 23:09:06
+2024-09-18 23:09:06,106 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>A few of us have been curating a bi-weekly &quot;AI Pulse&quot; newsletter at OpenAI developer forums. The news relates to not only OpenAI, but general AI, including technology updates, infrastructure initiative, government and policy initiatives, economics, research and legal matters.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/newcomb_benford_law"> /u/newcomb_benford_law </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fk04io/n_ai_pulse_edition_2_latest_ai_news_updates_for/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fk04io/n_ai_pulse_edition_2_latest_ai_news_updates_for/">[comments]</a></span>'
+2024-09-18 23:09:06,106 - INFO - clean content - clean_content='A few of us have been curating a bi-weekly &quot;AI Pulse&quot; newsletter at OpenAI developer forums. The news relates to not only OpenAI, but general AI, including technology updates, infrastructure initiative, government and policy initiatives, economics, research and legal matters. &#32; submitted by &#32; /u/newcomb_benford_law [link] &#32; [comments]'
+2024-09-18 23:09:06,107 - INFO - Generating summary with BART model
+2024-09-18 23:09:11,760 - INFO - Generating summary with BART model
+2024-09-18 23:09:17,397 - INFO - full_tweet='A few of us have been curating a bi-weekly AI Pulse newsletter at OpenAI developer forums. The news..[read more👇🏼] #AI #technology https://www.reddit.com/r/MachineLearning/comments/1fk04io/n_ai_pulse_edition_2_latest_ai_news_updates_for/'
+2024-09-18 23:09:17,685 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836543043492810906'], 'text': 'A few of us have been curating a bi-weekly AI Pulse newsletter at OpenAI developer forums. The news..[read more👇🏼] #AI #technology https://t.co/sEIEhpM3A4', 'id': '1836543043492810906'}, includes={}, errors=[], meta={})
+2024-09-18 23:09:17,685 - INFO - Sleeping for 9 minutes and 17 seconds.
+2024-09-18 23:18:34,685 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fk04io/n_ai_pulse_edition_2_latest_ai_news_updates_for/ at 2024-09-18 23:18:34
+2024-09-18 23:18:34,685 - INFO - Input content - content='<p>Check out this guide on how to write better AI prompts.</p>\n<p>The post <a href="https://www.atlassian.com/blog/artificial-intelligence/ultimate-guide-writing-ai-prompts">Ultimate Guide to Writing Effective AI Prompts</a> appeared first on <a href="https://www.atlassian.com/blog">Work Life by Atlassian</a>.</p>'
+2024-09-18 23:18:34,686 - INFO - clean content - clean_content='Check out this guide on how to write better AI prompts. The post Ultimate Guide to Writing Effective AI Prompts appeared first on Work Life by Atlassian.'
+2024-09-18 23:18:34,686 - INFO - Generating summary with BART model
+2024-09-18 23:18:38,888 - INFO - Generating summary with BART model
+2024-09-18 23:18:43,086 - INFO - full_tweet='The Ultimate Guide to Writing Effective AI Prompts is published by Atlassian. Check out this guide on how..[read more👇🏼] #AI #out https://www.atlassian.com/blog/artificial-intelligence/ultimate-guide-writing-ai-prompts'
+2024-09-18 23:18:43,403 - INFO - Tweet posted successfully: Response(data={'text': 'The Ultimate Guide to Writing Effective AI Prompts is published by Atlassian. Check out this guide on how..[read more👇🏼] #AI #out https://t.co/bm1qh36yyg', 'edit_history_tweet_ids': ['1836545416252526932'], 'id': '1836545416252526932'}, includes={}, errors=[], meta={})
+2024-09-18 23:18:43,403 - INFO - Sleeping for 5 minutes and 45 seconds.
+2024-09-18 23:24:28,403 - INFO - Saved posted URL: https://www.atlassian.com/blog/artificial-intelligence/ultimate-guide-writing-ai-prompts at 2024-09-18 23:24:28
+2024-09-18 23:24:28,404 - INFO - Input content - content='<p>Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. It&#8217;s been just a few days since OpenAI revealed its latest flagship generative model, o1, to the world. Marketed as a &#8220;reasoning&#8221; model, o1 essentially takes longer to &#8220;think&#8221; about questions before answering them, breaking down [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 23:24:28,404 - INFO - clean content - clean_content='Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. It&#8217;s been just a few days since OpenAI revealed its latest flagship generative model, o1, to the world. Marketed as a &#8220;reasoning&#8221; model, o1 essentially takes longer to &#8220;think&#8221; about questions before answering them, breaking down [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 23:24:28,404 - INFO - Generating summary with BART model
+2024-09-18 23:24:34,025 - INFO - Generating summary with BART model
+2024-09-18 23:24:39,630 - INFO - full_tweet='OpenAI unveiled its latest flagship generative model, o1, to the world. Marketed as a..[read more👇🏼] #model #essentially https://techcrunch.com/2024/09/18/this-week-in-ai-why-openais-o1-changes-the-ai-regulation-game/'
+2024-09-18 23:24:39,917 - INFO - Tweet posted successfully: Response(data={'text': 'OpenAI unveiled its latest flagship generative model, o1, to the world. Marketed as a..[read more👇🏼] #model #essentially https://t.co/VYTPXzGRUP', 'id': '1836546911635148906', 'edit_history_tweet_ids': ['1836546911635148906']}, includes={}, errors=[], meta={})
+2024-09-18 23:24:39,917 - INFO - Sleeping for 5 minutes and 7 seconds.
+2024-09-18 23:29:46,918 - INFO - Saved posted URL: https://techcrunch.com/2024/09/18/this-week-in-ai-why-openais-o1-changes-the-ai-regulation-game/ at 2024-09-18 23:29:46
+2024-09-18 23:29:46,918 - INFO - Input content - content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. LinkedIn is updating its policies to disclose the practice.'
+2024-09-18 23:29:46,918 - INFO - clean content - clean_content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. LinkedIn is updating its policies to disclose the practice.'
+2024-09-18 23:29:46,918 - INFO - Generating summary with BART model
+2024-09-18 23:29:51,749 - INFO - Generating summary with BART model
+2024-09-18 23:29:56,558 - INFO - full_tweet='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent...[read more👇🏼] #data #AI https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it'
+2024-09-18 23:29:56,848 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836548240898167062'], 'text': 'Microsoft-owned LinkedIn recently began training AI models on your data without your express consent...[read more👇🏼] #data #AI https://t.co/T5wcpYZt77', 'id': '1836548240898167062'}, includes={}, errors=[], meta={})
+2024-09-18 23:29:56,848 - INFO - Sleeping for 8 minutes and 25 seconds.
+2024-09-18 23:38:21,849 - INFO - Saved posted URL: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it at 2024-09-18 23:38:21
+2024-09-18 23:38:21,849 - INFO - Input content - content='<p>Edera, a startup looking to simplify and improve how Kubernetes containers and AI workloads are secured by offering a new hypervisor, today announced that it has raised a $5 million seed funding round led by 645 Ventures and Eniac Ventures. Kubernetes is now 10 years old, but Edera founders Ariadne Conill (distinguished engineer), Emily Long [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 23:38:21,849 - INFO - clean content - clean_content='Edera, a startup looking to simplify and improve how Kubernetes containers and AI workloads are secured by offering a new hypervisor, today announced that it has raised a $5 million seed funding round led by 645 Ventures and Eniac Ventures. Kubernetes is now 10 years old, but Edera founders Ariadne Conill (distinguished engineer), Emily Long [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 23:38:21,849 - INFO - Generating summary with BART model
+2024-09-18 23:38:27,915 - INFO - Generating summary with BART model
+2024-09-18 23:38:33,974 - INFO - full_tweet='Edera is looking to simplify and improve how Kubernetes containers and AI workloads are secured by..[read more👇🏼] #AI #Ventures https://techcrunch.com/2024/09/18/edera-is-building-a-better-kubernetes-and-ai-security-solution-from-the-ground-up/'
+2024-09-18 23:38:34,295 - INFO - Tweet posted successfully: Response(data={'text': 'Edera is looking to simplify and improve how Kubernetes containers and AI workloads are secured by..[read more👇🏼] #AI #Ventures https://t.co/Bk2xnU04Fr', 'edit_history_tweet_ids': ['1836550411186245929'], 'id': '1836550411186245929'}, includes={}, errors=[], meta={})
+2024-09-18 23:38:34,295 - INFO - Sleeping for 4 minutes and 24 seconds.
+2024-09-18 23:42:58,296 - INFO - Saved posted URL: https://techcrunch.com/2024/09/18/edera-is-building-a-better-kubernetes-and-ai-security-solution-from-the-ground-up/ at 2024-09-18 23:42:58
+2024-09-18 23:42:58,296 - INFO - Input content - content='Controlled AI experimentation offers middle ground between C-suite demands and technical team concerns.'
+2024-09-18 23:42:58,296 - INFO - clean content - clean_content='Controlled AI experimentation offers middle ground between C-suite demands and technical team concerns.'
+2024-09-18 23:42:58,296 - INFO - Generating summary with BART model
+2024-09-18 23:43:02,106 - INFO - Generating summary with BART model
+2024-09-18 23:43:05,906 - INFO - full_tweet='Controlled AI experimentation offers middle ground between C-suite demands and technical team concerns...[read more👇🏼] #AI #experimentation https://www.techradar.com/pro/why-controlled-experimentation-is-a-key-step-in-an-ai-roll-out'
+2024-09-18 23:43:06,139 - INFO - Tweet posted successfully: Response(data={'id': '1836551551319707670', 'text': 'Controlled AI experimentation offers middle ground between C-suite demands and technical team concerns...[read more👇🏼] #AI #experimentation https://t.co/Vxri4RF4Qx', 'edit_history_tweet_ids': ['1836551551319707670']}, includes={}, errors=[], meta={})
+2024-09-18 23:43:06,139 - INFO - Sleeping for 3 minutes and 26 seconds.
+2024-09-18 23:46:32,140 - INFO - Saved posted URL: https://www.techradar.com/pro/why-controlled-experimentation-is-a-key-step-in-an-ai-roll-out at 2024-09-18 23:46:32
+2024-09-18 23:46:32,140 - INFO - Input content - content='New video generation technology in YouTube Shorts will help millions of people realize their creative vision'
+2024-09-18 23:46:32,140 - INFO - clean content - clean_content='New video generation technology in YouTube Shorts will help millions of people realize their creative vision'
+2024-09-18 23:46:32,140 - INFO - Generating summary with BART model
+2024-09-18 23:46:35,733 - INFO - Generating summary with BART model
+2024-09-18 23:46:39,321 - INFO - full_tweet='YouTube Shorts will help millions of people realize their creative vision. New video generation..[read more👇🏼] #technology #Shorts https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/'
+2024-09-18 23:46:39,811 - INFO - Tweet posted successfully: Response(data={'id': '1836552447034298770', 'edit_history_tweet_ids': ['1836552447034298770'], 'text': 'YouTube Shorts will help millions of people realize their creative vision. New video generation..[read more👇🏼] #technology #Shorts https://t.co/komFgwJhgt'}, includes={}, errors=[], meta={})
+2024-09-18 23:46:39,812 - INFO - Sleeping for 2 minutes and 35 seconds.
+2024-09-18 23:49:14,812 - INFO - Saved posted URL: https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/ at 2024-09-18 23:49:14
+2024-09-18 23:49:14,812 - INFO - Input content - content='<p>At its Made On YouTube event on Wednesday, the company announced that creators can now brainstorm ideas for videos with the help of AI right within YouTube Studio. YouTube will also soon start letting creators create AI-generated thumbnails and quickly respond to users with new AI-assisted comments.\xa0 After beta testing the ability for creators to [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 23:49:14,812 - INFO - clean content - clean_content='At its Made On YouTube event on Wednesday, the company announced that creators can now brainstorm ideas for videos with the help of AI right within YouTube Studio. YouTube will also soon start letting creators create AI-generated thumbnails and quickly respond to users with new AI-assisted comments. After beta testing the ability for creators to [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 23:49:14,812 - INFO - Generating summary with BART model
+2024-09-18 23:49:20,083 - INFO - Generating summary with BART model
+2024-09-18 23:49:25,327 - INFO - full_tweet='YouTube will soon start letting creators create AI-generated thumbnails and quickly respond to users with..[read more👇🏼] #AI #creators https://techcrunch.com/2024/09/18/youtube-studio-now-lets-creators-brainstorm-video-ideas-with-the-help-of-ai/'
+2024-09-18 23:49:25,591 - INFO - Tweet posted successfully: Response(data={'text': 'YouTube will soon start letting creators create AI-generated thumbnails and quickly respond to users with..[read more👇🏼] #AI #creators https://t.co/nQod1pCAdD', 'edit_history_tweet_ids': ['1836553142873526558'], 'id': '1836553142873526558'}, includes={}, errors=[], meta={})
+2024-09-18 23:49:25,591 - INFO - Sleeping for 8 minutes and 0 seconds.
+2024-09-18 23:57:25,591 - INFO - Saved posted URL: https://techcrunch.com/2024/09/18/youtube-studio-now-lets-creators-brainstorm-video-ideas-with-the-help-of-ai/ at 2024-09-18 23:57:25
+2024-09-18 23:57:25,591 - INFO - Input content - content='<p>The main attraction of YouTube’s Made On YouTube event on Wednesday morning was, you guessed it, artificial intelligence. The company announced that it is integrating Google DeepMind&#8217;s AI video generation model, Veo, into YouTube Shorts, letting creators generate high-quality backgrounds as well as six-second clips. At Google&#8217;s I/O 2024 developer conference, Veo was unveiled as [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-18 23:57:25,592 - INFO - clean content - clean_content='The main attraction of YouTube’s Made On YouTube event on Wednesday morning was, you guessed it, artificial intelligence. The company announced that it is integrating Google DeepMind&#8217;s AI video generation model, Veo, into YouTube Shorts, letting creators generate high-quality backgrounds as well as six-second clips. At Google&#8217;s I/O 2024 developer conference, Veo was unveiled as [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-18 23:57:25,592 - INFO - Generating summary with BART model
+2024-09-18 23:57:30,903 - INFO - Generating summary with BART model
+2024-09-18 23:57:36,201 - INFO - full_tweet='YouTube is integrating Google DeepMind&#8217;s AI video generation model, Veo, into YouTube Shorts. Veo..[read more👇🏼] #AI #Veo https://techcrunch.com/2024/09/18/youtube-shorts-to-integrate-veo-google-ai-video-model/'
+2024-09-18 23:57:36,541 - INFO - Tweet posted successfully: Response(data={'text': 'YouTube is integrating Google DeepMind&amp;#8217;s AI video generation model, Veo, into YouTube Shorts. Veo..[read more👇🏼] #AI #Veo https://t.co/YpF3M3Lvsn', 'edit_history_tweet_ids': ['1836555202109026588'], 'id': '1836555202109026588'}, includes={}, errors=[], meta={})
+2024-09-18 23:57:36,541 - INFO - Sleeping for 8 minutes and 5 seconds.
+2024-09-19 00:05:41,542 - INFO - Saved posted URL: https://techcrunch.com/2024/09/18/youtube-shorts-to-integrate-veo-google-ai-video-model/ at 2024-09-19 00:05:41
+2024-09-19 00:05:41,542 - INFO - Input content - content='Google plans to add an AI feature next year inside of the YouTube app for creators to generate 6-second clips using the company’s Veo model.'
+2024-09-19 00:05:41,542 - INFO - clean content - clean_content='Google plans to add an AI feature next year inside of the YouTube app for creators to generate 6-second clips using the company’s Veo model.'
+2024-09-19 00:05:41,542 - INFO - Generating summary with BART model
+2024-09-19 00:05:45,642 - INFO - Generating summary with BART model
+2024-09-19 00:05:49,724 - INFO - full_tweet='Google plans to add an AI feature next year inside of the YouTube app. Creators will be able to generate..[read more👇🏼] #app #AI https://www.wired.com/story/generative-ai-tools-youtube-shorts-veo/'
+2024-09-19 00:05:50,041 - INFO - Tweet posted successfully: Response(data={'id': '1836557272044179926', 'text': 'Google plans to add an AI feature next year inside of the YouTube app. Creators will be able to generate..[read more👇🏼] #app #AI https://t.co/oK946wBfVG', 'edit_history_tweet_ids': ['1836557272044179926']}, includes={}, errors=[], meta={})
+2024-09-19 00:05:50,041 - INFO - Sleeping for 1 minutes and 0 seconds.
+2024-09-19 00:06:50,041 - INFO - Saved posted URL: https://www.wired.com/story/generative-ai-tools-youtube-shorts-veo/ at 2024-09-19 00:06:50
+2024-09-19 00:06:50,041 - INFO - This link is already posted: https://techcrunch.com/2024/09/18/generative-ai-startup-runway-inks-deal-with-a-major-hollywood-studio/
+2024-09-19 00:06:50,042 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fjrvui/sec_ops_and_ai_discussion/
+2024-09-19 00:06:50,042 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/stability-ai-amazon-bedrock/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-19 00:06:50,042 - INFO - This link is already posted: https://www.infoq.com/news/2024/09/kubernetes-elli-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+2024-09-19 00:06:50,042 - INFO - This link is already posted: https://www.wired.com/story/teens-generative-ai-use-schools-parents/
+2024-09-19 00:06:50,042 - INFO - Input content - content='If you try to figure out how OpenAI’s o1 models solve problems, you might get a nastygram.'
+2024-09-19 00:06:50,042 - INFO - clean content - clean_content='If you try to figure out how OpenAI’s o1 models solve problems, you might get a nastygram.'
+2024-09-19 00:06:50,042 - INFO - Generating summary with BART model
+2024-09-19 00:06:53,545 - INFO - Generating summary with BART model
+2024-09-19 00:06:57,042 - INFO - full_tweet='OpenAI’s o1 models solve problems. If you try to figure out how they solve problems, you might get a nastygram. #problems #solve https://www.wired.com/story/openai-threatens-bans-as-users-probe-o1-model/'
+2024-09-19 00:06:57,234 - INFO - Tweet posted successfully: Response(data={'id': '1836557553922380046', 'edit_history_tweet_ids': ['1836557553922380046'], 'text': 'OpenAI’s o1 models solve problems. If you try to figure out how they solve problems, you might get a nastygram. #problems #solve https://t.co/SUKTa8dgBY'}, includes={}, errors=[], meta={})
+2024-09-19 00:06:57,234 - INFO - Sleeping for 1 minutes and 8 seconds.
+2024-09-19 00:08:05,234 - INFO - Saved posted URL: https://www.wired.com/story/openai-threatens-bans-as-users-probe-o1-model/ at 2024-09-19 00:08:05
