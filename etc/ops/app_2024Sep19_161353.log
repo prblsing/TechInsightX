@@ -1,0 +1,18 @@
+2024-09-19 16:13:53,005 - INFO - Starting configuration setup
+2024-09-19 16:13:53,006 - INFO - Environment variables loaded successfully
+2024-09-19 16:13:53,006 - INFO - Twitter API client initialized successfully
+2024-09-19 16:13:54,873 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 16:14:01,629 - INFO - Summarization model initialized successfully
+2024-09-19 16:14:01,629 - INFO - Starting tweet scheduling
+2024-09-19 16:14:01,629 - INFO - Tweeting process started at 2024-09-19 16:14:01.629827!
+2024-09-19 16:14:01,630 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 16:14:01,630 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 16:14:19,171 - INFO - Total entries found: 587
+2024-09-19 16:14:19,173 - INFO - Recent AI-related entries found: 22
+2024-09-19 16:14:19,174 - INFO - Input content - content='The investment unit would be one of the the largest investment vehicles raised on Wall Street.'
+2024-09-19 16:14:19,174 - INFO - clean content - clean_content='The investment unit would be one of the the largest investment vehicles raised on Wall Street.'
+2024-09-19 16:14:19,174 - INFO - Generating summary with BART model
+2024-09-19 16:14:24,077 - INFO - Generating summary with BART model
+2024-09-19 16:14:28,311 - INFO - full_tweet='The investment unit would be one of the the largest investment vehicles raised on Wall Street. It would..[read more👇🏼] #investment #vehicles https://www.techradar.com/pro/microsoft-and-blackrock-team-up-on-30-billion-ai-investment'
+2024-09-19 16:14:28,429 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
