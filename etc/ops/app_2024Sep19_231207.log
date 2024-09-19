@@ -1,0 +1,18 @@
+2024-09-19 23:12:07,979 - INFO - Starting configuration setup
+2024-09-19 23:12:07,979 - INFO - Environment variables loaded successfully
+2024-09-19 23:12:07,980 - INFO - Twitter API client initialized successfully
+2024-09-19 23:12:09,861 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 23:12:16,961 - INFO - Summarization model initialized successfully
+2024-09-19 23:12:16,961 - INFO - Starting tweet scheduling
+2024-09-19 23:12:16,961 - INFO - Tweeting process started at 2024-09-19 23:12:16.961778!
+2024-09-19 23:12:16,962 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 23:12:16,962 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 23:12:33,858 - INFO - Total entries found: 617
+2024-09-19 23:12:33,861 - INFO - Recent AI-related entries found: 17
+2024-09-19 23:12:33,861 - INFO - Input content - content='New SocialAI app keeps interactions limited to AI chatbots.'
+2024-09-19 23:12:33,862 - INFO - clean content - clean_content='New SocialAI app keeps interactions limited to AI chatbots.'
+2024-09-19 23:12:33,862 - INFO - Generating summary with BART model
+2024-09-19 23:12:39,115 - INFO - Generating summary with BART model
+2024-09-19 23:12:43,748 - INFO - full_tweet='New SocialAI app keeps interactions limited to AI chatbots. The app is designed to help people interact..[read more👇🏼] #app #AI https://www.techradar.com/computing/artificial-intelligence/socialai-makes-you-the-most-important-and-only-person-on-social-media'
+2024-09-19 23:12:43,869 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
