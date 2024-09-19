@@ -1,0 +1,44 @@
+2024-09-19 07:11:37,003 - INFO - Starting configuration setup
+2024-09-19 07:11:37,003 - INFO - Environment variables loaded successfully
+2024-09-19 07:11:37,003 - INFO - Twitter API client initialized successfully
+2024-09-19 07:11:38,835 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-19 07:11:46,005 - INFO - Summarization model initialized successfully
+2024-09-19 07:11:46,005 - INFO - Starting tweet scheduling
+2024-09-19 07:11:46,005 - INFO - Tweeting process started at 2024-09-19 07:11:46.005490!
+2024-09-19 07:11:46,005 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep19.csv
+2024-09-19 07:11:46,005 - INFO - Fetching latest tech news from RSS feeds
+2024-09-19 07:12:02,893 - INFO - Total entries found: 617
+2024-09-19 07:12:02,896 - INFO - Recent AI-related entries found: 36
+2024-09-19 07:12:02,896 - INFO - Input content - content='A group that includes sex workers, sex tech businesses, and sex educators has demanded a seat at the table to shape AI regulations that they say could lead to discrimination against them.'
+2024-09-19 07:12:02,897 - INFO - clean content - clean_content='A group that includes sex workers, sex tech businesses, and sex educators has demanded a seat at the table to shape AI regulations that they say could lead to discrimination against them.'
+2024-09-19 07:12:02,897 - INFO - Generating summary with BART model
+2024-09-19 07:12:07,663 - INFO - Generating summary with BART model
+2024-09-19 07:12:11,782 - INFO - full_tweet='Sex workers, sex tech businesses, and sex educators have demanded a seat at the table to shape AI..[read more👇🏼] #AI #tech https://www.wired.com/story/content-creators-in-the-adult-industry-want-a-say-in-ai-rules/'
+2024-09-19 07:12:12,100 - INFO - Tweet posted successfully: Response(data={'text': 'Sex workers, sex tech businesses, and sex educators have demanded a seat at the table to shape AI..[read more👇🏼] #AI #tech https://t.co/DHa8bBv0dG', 'id': '1836664570930196680', 'edit_history_tweet_ids': ['1836664570930196680']}, includes={}, errors=[], meta={})
+2024-09-19 07:12:12,100 - INFO - Sleeping for 1 minutes and 6 seconds.
+2024-09-19 07:13:18,100 - INFO - Saved posted URL: https://www.wired.com/story/content-creators-in-the-adult-industry-want-a-say-in-ai-rules/ at 2024-09-19 07:13:18
+2024-09-19 07:13:18,100 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2600/1*FHNP7kNIBWmXmFSqhB5eQA.jpeg" width="4032" /></a></p><p class="medium-feed-snippet">Learn to build a neutral network that can drive using PyTorch in Python</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-09-19 07:13:18,100 - INFO - clean content - clean_content='Learn to build a neutral network that can drive using PyTorch in PythonContinue reading on Towards Data Science »'
+2024-09-19 07:13:18,100 - INFO - Generating summary with BART model
+2024-09-19 07:13:24,194 - INFO - Generating summary with BART model
+2024-09-19 07:13:30,332 - INFO - full_tweet='Learn to build a neutral network that can drive using PyTorch in Python. Learn to build an open source..[read more👇🏼] #network #data https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4'
+2024-09-19 07:13:30,533 - INFO - Tweet posted successfully: Response(data={'id': '1836664899927220252', 'text': 'Learn to build a neutral network that can drive using PyTorch in Python. Learn to build an open source..[read more👇🏼] #network #data https://t.co/MvXc5GZSbB', 'edit_history_tweet_ids': ['1836664899927220252']}, includes={}, errors=[], meta={})
+2024-09-19 07:13:30,533 - INFO - Sleeping for 9 minutes and 55 seconds.
+2024-09-19 07:23:25,534 - INFO - Saved posted URL: https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4 at 2024-09-19 07:23:25
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://www.wired.com/story/united-nations-artificial-intelligence-report/
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://news.mit.edu/2024/study-ai-inconsistent-outcomes-home-surveillance-0919
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/google-gemini-lives-ai-voice-now-comes-in-ten-more-styles-that-take-inspiration-from-the-stars
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/snapchats-ai-upgrade-will-make-you-look-as-old-as-the-features-feel
+2024-09-19 07:23:25,534 - INFO - This link is already posted: https://www.theverge.com/2024/9/18/24248471/linkedin-ai-training-user-accounts-data-opt-in
+2024-09-19 07:23:25,535 - INFO - This link is already posted: https://venturebeat.com/ai/how-one-fintech-startup-used-gen-ai-to-boost-productivity-by-70/
+2024-09-19 07:23:25,535 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/youtube-wants-you-to-use-ai-to-help-create-shorts/#ftag=CAD590a51e
+2024-09-19 07:23:25,535 - INFO - This link is already posted: https://venturebeat.com/ai/why-jensen-huang-and-marc-benioff-see-gigantic-opportunity-for-agentic-ai/
+2024-09-19 07:23:25,535 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fk5frs/r_windows_agent_arena_a_benchmark_for_ai_agents/
+2024-09-19 07:23:25,535 - INFO - Input content - content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 07:23:25,535 - INFO - clean content - clean_content='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an artificial intelligence startup to use its back catalog to build a custom AI model. It could be a tipping point.'
+2024-09-19 07:23:25,535 - INFO - Generating summary with BART model
+2024-09-19 07:23:30,671 - INFO - Generating summary with BART model
+2024-09-19 07:23:35,591 - INFO - full_tweet='The studio behind the John Wick, Hunger Games, and Twilight franchises just made a deal with an..[read more👇🏼] #startup #AI https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/'
+2024-09-19 07:23:35,821 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
