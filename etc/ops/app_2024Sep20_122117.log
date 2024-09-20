@@ -1,0 +1,37 @@
+2024-09-20 12:21:17,909 - INFO - Starting configuration setup
+2024-09-20 12:21:17,910 - INFO - Environment variables loaded successfully
+2024-09-20 12:21:17,910 - INFO - Twitter API client initialized successfully
+2024-09-20 12:21:19,834 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 12:21:26,293 - INFO - Summarization model initialized successfully
+2024-09-20 12:21:26,293 - INFO - Starting tweet scheduling
+2024-09-20 12:21:26,293 - INFO - Tweeting process started at 2024-09-20 12:21:26.293931!
+2024-09-20 12:21:26,294 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 12:21:26,294 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 12:21:43,838 - INFO - Total entries found: 617
+2024-09-20 12:21:43,841 - INFO - Recent AI-related entries found: 12
+2024-09-20 12:21:43,841 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I am currently fresh graduate, I do self study but I wanted some guidance. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/aym_Emman"> /u/aym_Emman </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fladue/d_how_to_find_a_mentor_for_my_dream_career_in_the/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fladue/d_how_to_find_a_mentor_for_my_dream_career_in_the/">[comments]</a></span>'
+2024-09-20 12:21:43,841 - INFO - clean content - clean_content='I am currently fresh graduate, I do self study but I wanted some guidance. &#32; submitted by &#32; /u/aym_Emman [link] &#32; [comments]'
+2024-09-20 12:21:43,841 - INFO - Generating summary with BART model
+2024-09-20 12:21:49,114 - INFO - Generating summary with BART model
+2024-09-20 12:21:53,692 - INFO - full_tweet='I am currently fresh graduate, I do self study but I wanted some guidance. I am currentlyFresh Graduate...[read more👇🏼] #I #guidance https://www.reddit.com/r/MachineLearning/comments/1fladue/d_how_to_find_a_mentor_for_my_dream_career_in_the/'
+2024-09-20 12:21:53,985 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837104896866124186'], 'text': 'I am currently fresh graduate, I do self study but I wanted some guidance. I am currentlyFresh Graduate...[read more👇🏼] #I #guidance https://t.co/jCcpLKWlWw', 'id': '1837104896866124186'}, includes={}, errors=[], meta={})
+2024-09-20 12:21:53,985 - INFO - Sleeping for 4 minutes and 30 seconds.
+2024-09-20 12:26:23,986 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fladue/d_how_to_find_a_mentor_for_my_dream_career_in_the/ at 2024-09-20 12:26:23
+2024-09-20 12:26:23,986 - INFO - Input content - content='Let artificial intelligence step in for a different perspective when creating a presentation and see what happens.'
+2024-09-20 12:26:23,986 - INFO - clean content - clean_content='Let artificial intelligence step in for a different perspective when creating a presentation and see what happens.'
+2024-09-20 12:26:23,986 - INFO - Generating summary with BART model
+2024-09-20 12:26:28,043 - INFO - Generating summary with BART model
+2024-09-20 12:26:32,037 - INFO - full_tweet='Artificial intelligence can be used to help you create a presentation. Let artificial intelligence step..[read more👇🏼] #intelligence #presentation https://www.cnet.com/tech/services-and-software/how-to-make-a-work-presentation-using-ai/#ftag=CAD590a51e'
+2024-09-20 12:26:32,253 - INFO - Tweet posted successfully: Response(data={'text': 'Artificial intelligence can be used to help you create a presentation. Let artificial intelligence step..[read more👇🏼] #intelligence #presentation https://t.co/wISYiPVPPn', 'edit_history_tweet_ids': ['1837106064023486540'], 'id': '1837106064023486540'}, includes={}, errors=[], meta={})
+2024-09-20 12:26:32,253 - INFO - Sleeping for 6 minutes and 40 seconds.
+2024-09-20 12:33:12,253 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-to-make-a-work-presentation-using-ai/#ftag=CAD590a51e at 2024-09-20 12:33:12
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://www.techradar.com/pro/alibaba-says-its-is-ready-for-ai-demand-with-new-modular-datacenter-architecture
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://towardsdatascience.com/openai-o1-the-enigmatic-force-that-will-reshape-every-knowledge-sector-that-we-know-of-or-99396d641fff?source=rss----7f60cf5620c9---4
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://news.mit.edu/2024/new-ai-jetpack-accelerates-entrepreneurial-process-0919
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://www.pcmag.com/news/shopping-on-amazon-almost-everything-you-see-could-soon-be-ai-generated
+2024-09-20 12:33:12,254 - INFO - This link is already posted: https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919
