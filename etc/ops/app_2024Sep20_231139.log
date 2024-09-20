@@ -1,0 +1,24 @@
+2024-09-20 23:11:39,153 - INFO - Starting configuration setup
+2024-09-20 23:11:39,153 - INFO - Environment variables loaded successfully
+2024-09-20 23:11:39,153 - INFO - Twitter API client initialized successfully
+2024-09-20 23:11:41,011 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 23:11:47,731 - INFO - Summarization model initialized successfully
+2024-09-20 23:11:47,732 - INFO - Starting tweet scheduling
+2024-09-20 23:11:47,732 - INFO - Tweeting process started at 2024-09-20 23:11:47.732211!
+2024-09-20 23:11:47,732 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 23:11:47,732 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 23:12:04,403 - INFO - Total entries found: 617
+2024-09-20 23:12:04,406 - INFO - Recent AI-related entries found: 13
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/chat-with-this-ai-chatbot-to-find-everything-you-want-to-buy
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://www.techradar.com/pro/this-is-the-world-s-most-powerful-mini-pc-and-i-can-t-wait-to-test-it-beelink-s-tiny-computer-packs-the-ryzen-ai-9-hx-370-cpu-and-promises-to-deliver-the-gpu-performance-of-an-rtx-3050-with-a-whopping-50-tops
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4
+2024-09-20 23:12:04,406 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-amazon-announces-ai-powered-tools-for-creating-video-ads/
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/linkedin-has-stopped-grabbing-u-k-users-data-for-ai/
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://www.wired.com/story/restaurant-ai-hosts/
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/
+2024-09-20 23:12:04,407 - INFO - This link is already posted: https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/
