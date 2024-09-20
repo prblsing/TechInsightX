@@ -1,0 +1,42 @@
+2024-09-20 17:10:33,476 - INFO - Starting configuration setup
+2024-09-20 17:10:33,477 - INFO - Environment variables loaded successfully
+2024-09-20 17:10:33,477 - INFO - Twitter API client initialized successfully
+2024-09-20 17:10:35,413 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 17:10:41,433 - INFO - Summarization model initialized successfully
+2024-09-20 17:10:41,434 - INFO - Starting tweet scheduling
+2024-09-20 17:10:41,434 - INFO - Tweeting process started at 2024-09-20 17:10:41.434126!
+2024-09-20 17:10:41,434 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 17:10:41,434 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 17:10:57,981 - INFO - Total entries found: 617
+2024-09-20 17:10:57,984 - INFO - Recent AI-related entries found: 17
+2024-09-20 17:10:57,984 - INFO - Input content - content='<p>This week brought reassuring signs that dealmaking is still happening on both sides of the table. New unicorns are being minted, and more capital is flowing into AI.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-20 17:10:57,985 - INFO - clean content - clean_content='This week brought reassuring signs that dealmaking is still happening on both sides of the table. New unicorns are being minted, and more capital is flowing into AI. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-20 17:10:57,985 - INFO - Generating summary with BART model
+2024-09-20 17:11:03,003 - INFO - Generating summary with BART model
+2024-09-20 17:11:07,336 - INFO - full_tweet='This week brought reassuring signs that dealmaking is still happening on both sides of the table. New..[read more👇🏼] #AI #reassuring https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/'
+2024-09-20 17:11:07,630 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837177683366617348'], 'id': '1837177683366617348', 'text': 'This week brought reassuring signs that dealmaking is still happening on both sides of the table. New..[read more👇🏼] #AI #reassuring https://t.co/4IwLmQqEz5'}, includes={}, errors=[], meta={})
+2024-09-20 17:11:07,630 - INFO - Sleeping for 1 minutes and 31 seconds.
+2024-09-20 17:12:38,631 - INFO - Saved posted URL: https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/ at 2024-09-20 17:12:38
+2024-09-20 17:12:38,631 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-amazon-announces-ai-powered-tools-for-creating-video-ads/
+2024-09-20 17:12:38,631 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1flexbg/p_i_hated_sponsored_google_results_so_i_built_an/
+2024-09-20 17:12:38,631 - INFO - This link is already posted: https://www.techradar.com/pro/amazon-s-new-project-amelia-ai-can-give-you-personalised-business-advice
+2024-09-20 17:12:38,631 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/linkedin-has-stopped-grabbing-u-k-users-data-for-ai/
+2024-09-20 17:12:38,631 - INFO - Input content - content="The site of the nation's most serious nuclear reactor accident could reopen by 2028 with Microsoft as its sole customer."
+2024-09-20 17:12:38,631 - INFO - clean content - clean_content="The site of the nation's most serious nuclear reactor accident could reopen by 2028 with Microsoft as its sole customer."
+2024-09-20 17:12:38,631 - INFO - Generating summary with BART model
+2024-09-20 17:12:44,095 - INFO - Generating summary with BART model
+2024-09-20 17:12:49,610 - INFO - full_tweet="The site of the nation's most serious nuclear reactor accident could reopen by 2028 with Microsoft as its..[read more👇🏼] #as #reopen https://www.cnet.com/news/microsofts-ai-energy-needs-may-bring-three-mile-island-nuclear-plant-back-into-service/#ftag=CAD590a51e"
+2024-09-20 17:12:49,826 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837178112003428614'], 'id': '1837178112003428614', 'text': "The site of the nation's most serious nuclear reactor accident could reopen by 2028 with Microsoft as its..[read more👇🏼] #as #reopen https://t.co/azUzVO0jmT"}, includes={}, errors=[], meta={})
+2024-09-20 17:12:49,826 - INFO - Sleeping for 1 minutes and 27 seconds.
+2024-09-20 17:14:16,826 - INFO - Saved posted URL: https://www.cnet.com/news/microsofts-ai-energy-needs-may-bring-three-mile-island-nuclear-plant-back-into-service/#ftag=CAD590a51e at 2024-09-20 17:14:16
+2024-09-20 17:14:16,826 - INFO - This link is already posted: https://www.techradar.com/computing/cpu/amds-incoming-flagship-laptop-cpus-could-be-called-ryzen-ai-max-and-might-be-astonishingly-fast-were-just-worried-about-the-price
+2024-09-20 17:14:16,826 - INFO - This link is already posted: https://www.wired.com/story/restaurant-ai-hosts/
+2024-09-20 17:14:16,826 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://www.techradar.com/pro/ai-and-the-ambitious-future-of-it-service-management
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/
+2024-09-20 17:14:16,827 - INFO - This link is already posted: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/
