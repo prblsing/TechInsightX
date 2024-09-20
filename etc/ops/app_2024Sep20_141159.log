@@ -1,0 +1,26 @@
+2024-09-20 14:11:59,812 - INFO - Starting configuration setup
+2024-09-20 14:11:59,812 - INFO - Environment variables loaded successfully
+2024-09-20 14:11:59,813 - INFO - Twitter API client initialized successfully
+2024-09-20 14:12:01,707 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 14:12:08,989 - INFO - Summarization model initialized successfully
+2024-09-20 14:12:08,989 - INFO - Starting tweet scheduling
+2024-09-20 14:12:08,989 - INFO - Tweeting process started at 2024-09-20 14:12:08.989771!
+2024-09-20 14:12:08,990 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 14:12:08,990 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 14:12:25,353 - INFO - Total entries found: 617
+2024-09-20 14:12:25,356 - INFO - Recent AI-related entries found: 15
+2024-09-20 14:12:25,356 - INFO - Input content - content='<p>The data centers that train all the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-20 14:12:25,357 - INFO - clean content - clean_content='The data centers that train all the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-20 14:12:25,357 - INFO - Generating summary with BART model
+2024-09-20 14:12:32,042 - INFO - Generating summary with BART model
+2024-09-20 14:12:38,056 - INFO - full_tweet='The data centers that train all the large language models behind AI consume unimaginable amounts of..[read more👇🏼] #data #tech https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/'
+2024-09-20 14:12:38,328 - INFO - Tweet posted successfully: Response(data={'id': '1837132765273141446', 'text': 'The data centers that train all the large language models behind AI consume unimaginable amounts of..[read more👇🏼] #data #tech https://t.co/nOWIjayc8U', 'edit_history_tweet_ids': ['1837132765273141446']}, includes={}, errors=[], meta={})
+2024-09-20 14:12:38,328 - INFO - Sleeping for 4 minutes and 22 seconds.
+2024-09-20 14:17:00,328 - INFO - Saved posted URL: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/ at 2024-09-20 14:17:00
+2024-09-20 14:17:00,329 - INFO - Input content - content='<p>The data centers that train all the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-20 14:17:00,329 - INFO - clean content - clean_content='The data centers that train all the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-20 14:17:00,329 - INFO - Generating summary with BART model
+2024-09-20 14:17:06,339 - INFO - Generating summary with BART model
+2024-09-20 14:17:12,340 - INFO - full_tweet='The data centers that train all the large language models behind AI consume unimaginable amounts of..[read more👇🏼] #data #tech https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/'
+2024-09-20 14:17:12,425 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
