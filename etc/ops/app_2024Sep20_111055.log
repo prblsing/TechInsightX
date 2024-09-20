@@ -1,0 +1,37 @@
+2024-09-20 11:10:55,271 - INFO - Starting configuration setup
+2024-09-20 11:10:55,271 - INFO - Environment variables loaded successfully
+2024-09-20 11:10:55,271 - INFO - Twitter API client initialized successfully
+2024-09-20 11:10:57,153 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 11:11:04,815 - INFO - Summarization model initialized successfully
+2024-09-20 11:11:04,815 - INFO - Starting tweet scheduling
+2024-09-20 11:11:04,815 - INFO - Tweeting process started at 2024-09-20 11:11:04.815895!
+2024-09-20 11:11:04,816 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 11:11:04,816 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 11:11:21,534 - INFO - Total entries found: 617
+2024-09-20 11:11:21,537 - INFO - Recent AI-related entries found: 12
+2024-09-20 11:11:21,537 - INFO - Input content - content='The TikTok owner’s newest board member revels in challenging the establishment.'
+2024-09-20 11:11:21,538 - INFO - clean content - clean_content='The TikTok owner’s newest board member revels in challenging the establishment.'
+2024-09-20 11:11:21,538 - INFO - Generating summary with BART model
+2024-09-20 11:11:27,010 - INFO - Generating summary with BART model
+2024-09-20 11:11:31,855 - INFO - full_tweet='The TikTok owner’s newest board member revels in challenging the establishment. “I’m not afraid to say..[read more👇🏼] #I #establishment https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/'
+2024-09-20 11:11:32,134 - INFO - Tweet posted successfully: Response(data={'id': '1837087189164757375', 'edit_history_tweet_ids': ['1837087189164757375'], 'text': 'The TikTok owner’s newest board member revels in challenging the establishment. “I’m not afraid to say..[read more👇🏼] #I #establishment https://t.co/eiblJWmpor'}, includes={}, errors=[], meta={})
+2024-09-20 11:11:32,134 - INFO - Sleeping for 9 minutes and 50 seconds.
+2024-09-20 11:21:22,135 - INFO - Saved posted URL: https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/ at 2024-09-20 11:21:22
+2024-09-20 11:21:22,135 - INFO - Input content - content='Alibaba has revealed a new modular datacenter architecture, which promises to cut deployment times by 50%.'
+2024-09-20 11:21:22,135 - INFO - clean content - clean_content='Alibaba has revealed a new modular datacenter architecture, which promises to cut deployment times by 50%.'
+2024-09-20 11:21:22,135 - INFO - Generating summary with BART model
+2024-09-20 11:21:26,386 - INFO - Generating summary with BART model
+2024-09-20 11:21:30,661 - INFO - full_tweet='Alibaba unveils new modular datacenter architecture. New architecture promises to cut deployment times by..[read more👇🏼] #architecture #Alibaba https://www.techradar.com/pro/alibaba-says-its-is-ready-for-ai-demand-with-new-modular-datacenter-architecture'
+2024-09-20 11:21:30,929 - INFO - Tweet posted successfully: Response(data={'text': 'Alibaba unveils new modular datacenter architecture. New architecture promises to cut deployment times by..[read more👇🏼] #architecture #Alibaba https://t.co/bMy3ElB0DX', 'id': '1837089700705644793', 'edit_history_tweet_ids': ['1837089700705644793']}, includes={}, errors=[], meta={})
+2024-09-20 11:21:30,929 - INFO - Sleeping for 1 minutes and 7 seconds.
+2024-09-20 11:22:37,929 - INFO - Saved posted URL: https://www.techradar.com/pro/alibaba-says-its-is-ready-for-ai-demand-with-new-modular-datacenter-architecture at 2024-09-20 11:22:37
+2024-09-20 11:22:37,929 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/stop-snapchat-using-your-new-ai-selfie-in-adverts-by-turning-off-this-one-setting
+2024-09-20 11:22:37,929 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/
+2024-09-20 11:22:37,929 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-feature-might-be-your-secret-weapon-for-winning-at-prime-day
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://towardsdatascience.com/openai-o1-the-enigmatic-force-that-will-reshape-every-knowledge-sector-that-we-know-of-or-99396d641fff?source=rss----7f60cf5620c9---4
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://news.mit.edu/2024/new-ai-jetpack-accelerates-entrepreneurial-process-0919
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://www.pcmag.com/news/shopping-on-amazon-almost-everything-you-see-could-soon-be-ai-generated
+2024-09-20 11:22:37,930 - INFO - This link is already posted: https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919
