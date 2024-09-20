@@ -1,0 +1,19 @@
+2024-09-20 00:50:27,302 - INFO - Starting configuration setup
+2024-09-20 00:50:27,302 - INFO - Environment variables loaded successfully
+2024-09-20 00:50:27,302 - INFO - Twitter API client initialized successfully
+2024-09-20 00:50:29,185 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 00:50:36,777 - INFO - Summarization model initialized successfully
+2024-09-20 00:50:36,777 - INFO - Starting tweet scheduling
+2024-09-20 00:50:36,777 - INFO - Tweeting process started at 2024-09-20 00:50:36.777468!
+2024-09-20 00:50:36,777 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 00:50:36,777 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 00:50:36,777 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 00:50:53,380 - INFO - Total entries found: 617
+2024-09-20 00:50:53,383 - INFO - Recent AI-related entries found: 16
+2024-09-20 00:50:53,383 - INFO - Input content - content='<p>California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. These bills try to address the most pressing issues in artificial intelligence: everything from futuristic AI systems creating existential risk, deepfake nudes from AI image generators, to Hollywood [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-20 00:50:53,384 - INFO - clean content - clean_content='California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. These bills try to address the most pressing issues in artificial intelligence: everything from futuristic AI systems creating existential risk, deepfake nudes from AI image generators, to Hollywood [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-20 00:50:53,384 - INFO - Generating summary with BART model
+2024-09-20 00:50:58,662 - INFO - Generating summary with BART model
+2024-09-20 00:51:03,418 - INFO - full_tweet='California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly..[read more👇🏼] #AI #bills https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/'
+2024-09-20 00:51:03,566 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
