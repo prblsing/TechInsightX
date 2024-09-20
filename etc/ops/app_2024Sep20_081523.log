@@ -1,0 +1,32 @@
+2024-09-20 08:15:23,946 - INFO - Starting configuration setup
+2024-09-20 08:15:23,947 - INFO - Environment variables loaded successfully
+2024-09-20 08:15:23,947 - INFO - Twitter API client initialized successfully
+2024-09-20 08:15:25,798 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 08:15:35,011 - INFO - Summarization model initialized successfully
+2024-09-20 08:15:35,012 - INFO - Starting tweet scheduling
+2024-09-20 08:15:35,012 - INFO - Tweeting process started at 2024-09-20 08:15:35.012126!
+2024-09-20 08:15:35,012 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 08:15:35,012 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 08:15:57,017 - INFO - Total entries found: 617
+2024-09-20 08:15:57,020 - INFO - Recent AI-related entries found: 14
+2024-09-20 08:15:57,020 - INFO - Input content - content="How to turn off Snapchat's ability to use your AI Selfie in adverts."
+2024-09-20 08:15:57,021 - INFO - clean content - clean_content="How to turn off Snapchat's ability to use your AI Selfie in adverts."
+2024-09-20 08:15:57,021 - INFO - Generating summary with BART model
+2024-09-20 08:16:02,582 - INFO - Generating summary with BART model
+2024-09-20 08:16:07,518 - INFO - full_tweet="How to turn off Snapchat's ability to use your AI Selfie in adverts. How to stop Snapchat from using your..[read more👇🏼] #AI #Snapchat https://www.techradar.com/computing/artificial-intelligence/stop-snapchat-using-your-new-ai-selfie-in-adverts-by-turning-off-this-one-setting"
+2024-09-20 08:16:07,809 - INFO - Tweet posted successfully: Response(data={'text': "How to turn off Snapchat's ability to use your AI Selfie in adverts. How to stop Snapchat from using your..[read more👇🏼] #AI #Snapchat https://t.co/QITf3UFni0", 'id': '1837043046996922656', 'edit_history_tweet_ids': ['1837043046996922656']}, includes={}, errors=[], meta={})
+2024-09-20 08:16:07,810 - INFO - Sleeping for 4 minutes and 56 seconds.
+2024-09-20 08:21:03,810 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/stop-snapchat-using-your-new-ai-selfie-in-adverts-by-turning-off-this-one-setting at 2024-09-20 08:21:03
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-feature-might-be-your-secret-weapon-for-winning-at-prime-day
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/socialai-makes-you-the-most-important-and-only-person-on-social-media
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://www.techradar.com/pro/us-dhs-head-when-it-comes-to-ai-government-needs-to-move-as-fast-as-businesses
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://towardsdatascience.com/openai-o1-the-enigmatic-force-that-will-reshape-every-knowledge-sector-that-we-know-of-or-99396d641fff?source=rss----7f60cf5620c9---4
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://news.mit.edu/2024/new-ai-jetpack-accelerates-entrepreneurial-process-0919
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://www.pcmag.com/news/shopping-on-amazon-almost-everything-you-see-could-soon-be-ai-generated
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919
+2024-09-20 08:21:03,810 - INFO - This link is already posted: https://sloanreview.mit.edu/article/how-genai-changes-creative-work/
+2024-09-20 08:21:03,811 - INFO - This link is already posted: https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall
