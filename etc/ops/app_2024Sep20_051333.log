@@ -1,0 +1,49 @@
+2024-09-20 05:13:33,886 - INFO - Starting configuration setup
+2024-09-20 05:13:33,886 - INFO - Environment variables loaded successfully
+2024-09-20 05:13:33,886 - INFO - Twitter API client initialized successfully
+2024-09-20 05:13:35,724 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 05:13:46,613 - INFO - Summarization model initialized successfully
+2024-09-20 05:13:46,614 - INFO - Starting tweet scheduling
+2024-09-20 05:13:46,614 - INFO - Tweeting process started at 2024-09-20 05:13:46.614100!
+2024-09-20 05:13:46,614 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 05:13:46,614 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 05:14:03,637 - INFO - Total entries found: 617
+2024-09-20 05:14:03,640 - INFO - Recent AI-related entries found: 17
+2024-09-20 05:14:03,640 - INFO - Input content - content='<p>Indian filmmaker Ram Gopal Varma is ditching human musicians for artificial intelligence, saying he&#8217;ll use only AI-generated tunes in future projects, a move that underscores AI&#8217;s growing reach in creative industries. The filmmaker and screenwriter, known for popular Bollywood movies including Company, Rangeela, Sarkar, and Satya has launched a venture, called RGV Den Music, that [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-20 05:14:03,640 - INFO - clean content - clean_content='Indian filmmaker Ram Gopal Varma is ditching human musicians for artificial intelligence, saying he&#8217;ll use only AI-generated tunes in future projects, a move that underscores AI&#8217;s growing reach in creative industries. The filmmaker and screenwriter, known for popular Bollywood movies including Company, Rangeela, Sarkar, and Satya has launched a venture, called RGV Den Music, that [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-20 05:14:03,640 - INFO - Generating summary with BART model
+2024-09-20 05:14:08,913 - INFO - Generating summary with BART model
+2024-09-20 05:14:13,528 - INFO - full_tweet='Indian filmmaker Ram Gopal Varma is ditching human musicians for artificial intelligence. He says..[read more👇🏼] #AI #intelligence https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/'
+2024-09-20 05:14:13,803 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836997270278922375'], 'text': 'Indian filmmaker Ram Gopal Varma is ditching human musicians for artificial intelligence. He says..[read more👇🏼] #AI #intelligence https://t.co/ieJT1ODObR', 'id': '1836997270278922375'}, includes={}, errors=[], meta={})
+2024-09-20 05:14:13,803 - INFO - Sleeping for 1 minutes and 21 seconds.
+2024-09-20 05:15:34,804 - INFO - Saved posted URL: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/ at 2024-09-20 05:15:34
+2024-09-20 05:15:34,804 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fl0ido/d_advice_on_masters_degree_in_ai/
+2024-09-20 05:15:34,804 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-feature-might-be-your-secret-weapon-for-winning-at-prime-day
+2024-09-20 05:15:34,804 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 05:15:34,804 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/socialai-makes-you-the-most-important-and-only-person-on-social-media
+2024-09-20 05:15:34,804 - INFO - Input content - content='OpenAI has expanded its latest AI models, o1-preview and o1-mini, to ChatGPT Enterprise and Edu customers, offering advanced reasoning capabilities for complex problem-solving in business and education.'
+2024-09-20 05:15:34,804 - INFO - clean content - clean_content='OpenAI has expanded its latest AI models, o1-preview and o1-mini, to ChatGPT Enterprise and Edu customers, offering advanced reasoning capabilities for complex problem-solving in business and education.'
+2024-09-20 05:15:34,804 - INFO - Generating summary with BART model
+2024-09-20 05:15:38,941 - INFO - Generating summary with BART model
+2024-09-20 05:15:43,168 - INFO - full_tweet='OpenAI has expanded its latest AI models to ChatGPT Enterprise and Edu customers. The models offer..[read more👇🏼] #AI #models https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/'
+2024-09-20 05:15:43,369 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1836997645954437345'], 'id': '1836997645954437345', 'text': 'OpenAI has expanded its latest AI models to ChatGPT Enterprise and Edu customers. The models offer..[read more👇🏼] #AI #models https://t.co/T7a7GxmMaj'}, includes={}, errors=[], meta={})
+2024-09-20 05:15:43,369 - INFO - Sleeping for 2 minutes and 48 seconds.
+2024-09-20 05:18:31,369 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/ at 2024-09-20 05:18:31
+2024-09-20 05:18:31,370 - INFO - This link is already posted: https://www.techradar.com/pro/us-dhs-head-when-it-comes-to-ai-government-needs-to-move-as-fast-as-businesses
+2024-09-20 05:18:31,370 - INFO - Input content - content="Microsoft's new AI model, GRIN-MoE, delivers groundbreaking scalability and performance in coding and math tasks, outperforming competitors like GPT-3.5 and LLaMA3, making it a powerful tool for enterprise applications."
+2024-09-20 05:18:31,370 - INFO - clean content - clean_content="Microsoft's new AI model, GRIN-MoE, delivers groundbreaking scalability and performance in coding and math tasks, outperforming competitors like GPT-3.5 and LLaMA3, making it a powerful tool for enterprise applications."
+2024-09-20 05:18:31,370 - INFO - Generating summary with BART model
+2024-09-20 05:18:37,436 - INFO - Generating summary with BART model
+2024-09-20 05:18:43,497 - INFO - full_tweet="Microsoft's new AI model, GRIN-MoE, delivers groundbreaking scalability and performance in coding and..[read more👇🏼] #coding #AI https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/"
+2024-09-20 05:18:43,699 - INFO - Tweet posted successfully: Response(data={'id': '1836998402300629495', 'edit_history_tweet_ids': ['1836998402300629495'], 'text': "Microsoft's new AI model, GRIN-MoE, delivers groundbreaking scalability and performance in coding and..[read more👇🏼] #coding #AI https://t.co/HkRkkE4ZYl"}, includes={}, errors=[], meta={})
+2024-09-20 05:18:43,699 - INFO - Sleeping for 6 minutes and 50 seconds.
+2024-09-20 05:25:33,700 - INFO - Saved posted URL: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/ at 2024-09-20 05:25:33
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://towardsdatascience.com/openai-o1-the-enigmatic-force-that-will-reshape-every-knowledge-sector-that-we-know-of-or-99396d641fff?source=rss----7f60cf5620c9---4
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://news.mit.edu/2024/new-ai-jetpack-accelerates-entrepreneurial-process-0919
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://www.pcmag.com/news/shopping-on-amazon-almost-everything-you-see-could-soon-be-ai-generated
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://sloanreview.mit.edu/article/how-genai-changes-creative-work/
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://www.wired.com/story/content-creators-in-the-adult-industry-want-a-say-in-ai-rules/
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://towardsdatascience.com/the-basics-behind-ai-models-for-self-driving-cars-42fd0e1f58b4?source=rss----7f60cf5620c9---4
+2024-09-20 05:25:33,700 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fkde5a/d_kaggle_competitions_get_owned_by_ai_agents/
