@@ -1,0 +1,24 @@
+2024-09-20 07:12:12,841 - INFO - Starting configuration setup
+2024-09-20 07:12:12,841 - INFO - Environment variables loaded successfully
+2024-09-20 07:12:12,841 - INFO - Twitter API client initialized successfully
+2024-09-20 07:12:14,673 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 07:12:21,635 - INFO - Summarization model initialized successfully
+2024-09-20 07:12:21,635 - INFO - Starting tweet scheduling
+2024-09-20 07:12:21,635 - INFO - Tweeting process started at 2024-09-20 07:12:21.635372!
+2024-09-20 07:12:21,635 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 07:12:21,635 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 07:12:39,413 - INFO - Total entries found: 617
+2024-09-20 07:12:39,416 - INFO - Recent AI-related entries found: 13
+2024-09-20 07:12:39,416 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/indian-filmmaker-ram-gopal-varma-abandons-human-musicians-for-ai-generated-music/
+2024-09-20 07:12:39,416 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-feature-might-be-your-secret-weapon-for-winning-at-prime-day
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://techcrunch.com/2024/09/19/here-is-whats-illegal-under-californias-8-and-counting-new-ai-laws/
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/socialai-makes-you-the-most-important-and-only-person-on-social-media
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://venturebeat.com/ai/openai-expands-o1-ai-models-to-enterprise-and-education-competing-directly-with-anthropic/
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://www.techradar.com/pro/us-dhs-head-when-it-comes-to-ai-government-needs-to-move-as-fast-as-businesses
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://venturebeat.com/ai/microsofts-grin-moe-ai-model-takes-on-coding-and-math-beating-competitors-in-key-benchmarks/
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://towardsdatascience.com/openai-o1-the-enigmatic-force-that-will-reshape-every-knowledge-sector-that-we-know-of-or-99396d641fff?source=rss----7f60cf5620c9---4
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://news.mit.edu/2024/new-ai-jetpack-accelerates-entrepreneurial-process-0919
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://www.pcmag.com/news/shopping-on-amazon-almost-everything-you-see-could-soon-be-ai-generated
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://sloanreview.mit.edu/article/how-genai-changes-creative-work/
+2024-09-20 07:12:39,417 - INFO - This link is already posted: https://thenextweb.com/news/ai-hallucinate-why-human-tech-users-pitfall
