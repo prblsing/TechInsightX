@@ -1,0 +1,33 @@
+2024-09-20 15:12:18,086 - INFO - Starting configuration setup
+2024-09-20 15:12:18,087 - INFO - Environment variables loaded successfully
+2024-09-20 15:12:18,087 - INFO - Twitter API client initialized successfully
+2024-09-20 15:12:19,967 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-20 15:12:30,033 - INFO - Summarization model initialized successfully
+2024-09-20 15:12:30,033 - INFO - Starting tweet scheduling
+2024-09-20 15:12:30,033 - INFO - Tweeting process started at 2024-09-20 15:12:30.033606!
+2024-09-20 15:12:30,033 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep20.csv
+2024-09-20 15:12:30,034 - INFO - Fetching latest tech news from RSS feeds
+2024-09-20 15:12:52,830 - INFO - Total entries found: 617
+2024-09-20 15:12:52,833 - INFO - Recent AI-related entries found: 18
+2024-09-20 15:12:52,833 - INFO - Input content - content='AMD Strix Halo leak suggests this’ll be an immense CPU for gaming laptops and handhelds, but how expensive might those devices be?'
+2024-09-20 15:12:52,834 - INFO - clean content - clean_content='AMD Strix Halo leak suggests this’ll be an immense CPU for gaming laptops and handhelds, but how expensive might those devices be?'
+2024-09-20 15:12:52,834 - INFO - Generating summary with BART model
+2024-09-20 15:12:58,220 - INFO - Generating summary with BART model
+2024-09-20 15:13:02,917 - INFO - full_tweet='AMD Strix Halo leak suggests this’ll be an immense CPU for gaming laptops and handhelds. How expensive..[read more👇🏼] #handhelds #expensive https://www.techradar.com/computing/cpu/amds-incoming-flagship-laptop-cpus-could-be-called-ryzen-ai-max-and-might-be-astonishingly-fast-were-just-worried-about-the-price'
+2024-09-20 15:13:03,273 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837147969243730073'], 'id': '1837147969243730073', 'text': 'AMD Strix Halo leak suggests this’ll be an immense CPU for gaming laptops and handhelds. How expensive..[read more👇🏼] #handhelds #expensive https://t.co/Qxy9XIqDBi'}, includes={}, errors=[], meta={})
+2024-09-20 15:13:03,273 - INFO - Sleeping for 1 minutes and 27 seconds.
+2024-09-20 15:14:30,274 - INFO - Saved posted URL: https://www.techradar.com/computing/cpu/amds-incoming-flagship-laptop-cpus-could-be-called-ryzen-ai-max-and-might-be-astonishingly-fast-were-just-worried-about-the-price at 2024-09-20 15:14:30
+2024-09-20 15:14:30,274 - INFO - Input content - content='Restaurants field a high volume of phone calls from inquisitive tourists or diners running late. Increasingly, voice chatbots are picking up on the other end of the line.'
+2024-09-20 15:14:30,275 - INFO - clean content - clean_content='Restaurants field a high volume of phone calls from inquisitive tourists or diners running late. Increasingly, voice chatbots are picking up on the other end of the line.'
+2024-09-20 15:14:30,275 - INFO - Generating summary with BART model
+2024-09-20 15:14:34,908 - INFO - Generating summary with BART model
+2024-09-20 15:14:39,591 - INFO - full_tweet='Increasingly, voice chatbots are picking up on the other end of the line. Restaurants field a high volume..[read more👇🏼] #Increasingly #Restaurants https://www.wired.com/story/restaurant-ai-hosts/'
+2024-09-20 15:14:39,804 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837148374270902530'], 'id': '1837148374270902530', 'text': 'Increasingly, voice chatbots are picking up on the other end of the line. Restaurants field a high volume..[read more👇🏼] #Increasingly #Restaurants https://t.co/wzanQ6qlfN'}, includes={}, errors=[], meta={})
+2024-09-20 15:14:39,804 - INFO - Sleeping for 6 minutes and 24 seconds.
+2024-09-20 15:21:03,804 - INFO - Saved posted URL: https://www.wired.com/story/restaurant-ai-hosts/ at 2024-09-20 15:21:03
+2024-09-20 15:21:03,805 - INFO - Input content - content='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant, which suffered a partial nuclear meltdown in 1979.'
+2024-09-20 15:21:03,805 - INFO - clean content - clean_content='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant, which suffered a partial nuclear meltdown in 1979.'
+2024-09-20 15:21:03,805 - INFO - Generating summary with BART model
+2024-09-20 15:21:08,761 - INFO - Generating summary with BART model
+2024-09-20 15:21:13,752 - INFO - full_tweet='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant. The..[read more👇🏼] #nuclear #plant https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing'
+2024-09-20 15:37:35,668 - ERROR - Failed to post tweet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
