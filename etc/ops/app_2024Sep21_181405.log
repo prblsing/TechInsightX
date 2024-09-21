@@ -1,0 +1,22 @@
+2024-09-21 18:14:05,900 - INFO - Starting configuration setup
+2024-09-21 18:14:05,900 - INFO - Environment variables loaded successfully
+2024-09-21 18:14:05,901 - INFO - Twitter API client initialized successfully
+2024-09-21 18:14:07,798 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 18:14:16,718 - INFO - Summarization model initialized successfully
+2024-09-21 18:14:16,718 - INFO - Starting tweet scheduling
+2024-09-21 18:14:16,718 - INFO - Tweeting process started at 2024-09-21 18:14:16.718855!
+2024-09-21 18:14:16,719 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 18:14:16,719 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 18:14:35,647 - INFO - Total entries found: 569
+2024-09-21 18:14:35,650 - INFO - Recent AI-related entries found: 4
+2024-09-21 18:14:35,650 - INFO - Input content - content="Liongate's deal with AI video start-up Runway marks the beginning of a new era for the major film studio."
+2024-09-21 18:14:35,651 - INFO - clean content - clean_content="Liongate's deal with AI video start-up Runway marks the beginning of a new era for the major film studio."
+2024-09-21 18:14:35,651 - INFO - Generating summary with BART model
+2024-09-21 18:14:41,612 - INFO - Generating summary with BART model
+2024-09-21 18:14:46,913 - INFO - full_tweet="Liongate's deal with AI video start-up Runway marks the beginning of a new era for the major film studio...[read more👇🏼] #AI #Liongate https://www.cnet.com/tech/services-and-software/lionsgate-is-trading-its-movies-and-tv-shows-for-custom-ai/#ftag=CAD590a51e"
+2024-09-21 18:14:47,267 - INFO - Tweet posted successfully: Response(data={'text': "Liongate's deal with AI video start-up Runway marks the beginning of a new era for the major film studio...[read more👇🏼] #AI #Liongate https://t.co/vl2hzdB1AP", 'edit_history_tweet_ids': ['1837556091909296146'], 'id': '1837556091909296146'}, includes={}, errors=[], meta={})
+2024-09-21 18:14:47,267 - INFO - Sleeping for 2 minutes and 0 seconds.
+2024-09-21 18:16:47,267 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/lionsgate-is-trading-its-movies-and-tv-shows-for-custom-ai/#ftag=CAD590a51e at 2024-09-21 18:16:47
+2024-09-21 18:16:47,267 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect
+2024-09-21 18:16:47,267 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-21 18:16:47,267 - INFO - This link is already posted: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it
