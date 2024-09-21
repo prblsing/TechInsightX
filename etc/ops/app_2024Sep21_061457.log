@@ -1,0 +1,21 @@
+2024-09-21 06:14:57,258 - INFO - Starting configuration setup
+2024-09-21 06:14:57,258 - INFO - Environment variables loaded successfully
+2024-09-21 06:14:57,258 - INFO - Twitter API client initialized successfully
+2024-09-21 06:14:59,163 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 06:15:06,514 - INFO - Summarization model initialized successfully
+2024-09-21 06:15:06,514 - INFO - Starting tweet scheduling
+2024-09-21 06:15:06,515 - INFO - Tweeting process started at 2024-09-21 06:15:06.515016!
+2024-09-21 06:15:06,515 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 06:15:06,515 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 06:15:26,169 - INFO - Total entries found: 617
+2024-09-21 06:15:26,172 - INFO - Recent AI-related entries found: 14
+2024-09-21 06:15:26,172 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 06:15:26,172 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-21 06:15:26,172 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/
+2024-09-21 06:15:26,172 - INFO - Input content - content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. Days later, LinkedIn stops scraping UK users after regulators sound the alarm.'
+2024-09-21 06:15:26,172 - INFO - clean content - clean_content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. Days later, LinkedIn stops scraping UK users after regulators sound the alarm.'
+2024-09-21 06:15:26,173 - INFO - Generating summary with BART model
+2024-09-21 06:15:30,710 - INFO - Generating summary with BART model
+2024-09-21 06:15:34,590 - INFO - full_tweet='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent...[read more👇🏼] #data #AI https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it'
+2024-09-21 06:15:34,722 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
