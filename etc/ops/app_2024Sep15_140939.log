@@ -1,0 +1,16 @@
+2024-09-15 14:09:39,157 - INFO - Starting configuration setup
+2024-09-15 14:09:39,157 - INFO - Environment variables loaded successfully
+2024-09-15 14:09:39,157 - INFO - Twitter API client initialized successfully
+2024-09-15 14:09:40,421 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 14:09:41,283 - INFO - Model initialized successfully
+2024-09-15 14:09:41,284 - INFO - Starting tweet scheduling
+2024-09-15 14:09:41,284 - INFO - Tweeting process started at 2024-09-15 14:09:41.284171!
+2024-09-15 14:09:41,284 - INFO - Loaded posted URLs from /Users/prabalsingh/PycharmProjects/pythonProject/TechX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 14:09:41,284 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 14:10:20,307 - INFO - Total entries found: 574
+2024-09-15 14:10:20,310 - INFO - Recent AI-related entries found: 9
+2024-09-15 14:10:20,310 - INFO - Input content - content='<p>Article URL: <a href="https://www.theguardian.com/technology/article/2024/sep/15/whats-so-funny-about-getting-an-ai-app-to-give-you-a-roasting">https://www.theguardian.com/technology/article/2024/sep/15/whats-so-funny-about-getting-an-ai-app-to-give-you-a-roasting</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545855">https://news.ycombinator.com/item?id=41545855</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-15 14:10:20,310 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-15 14:10:20,310 - INFO - Generating summary with LLM
+2024-09-15 14:11:32,268 - INFO - Generating summary with LLM
+2024-09-15 14:13:51,369 - ERROR - Failed to post tweet: Consumer key must be string or bytes, not NoneType

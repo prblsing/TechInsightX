@@ -1,0 +1,6 @@
+2024-09-15 13:43:51,585 - INFO - Starting configuration setup
+2024-09-15 13:43:51,585 - INFO - Environment variables loaded successfully
+2024-09-15 13:43:51,585 - INFO - Twitter API client initialized successfully
+2024-09-15 13:43:51,586 - INFO - NLTK package already downloaded: punkt
+2024-09-15 13:43:51,586 - INFO - Downloading NLTK package: averaged_perceptron_tagger
+2024-09-15 13:43:51,895 - INFO - Successfully downloaded NLTK package: averaged_perceptron_tagger

@@ -1,0 +1,39 @@
+2024-09-15 13:20:24,500 - INFO - Starting configuration setup
+2024-09-15 13:20:24,500 - INFO - Environment variables loaded successfully
+2024-09-15 13:20:24,501 - INFO - Twitter API client initialized successfully
+2024-09-15 13:20:25,776 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 13:20:27,000 - INFO - Model initialized successfully
+2024-09-15 13:20:27,000 - INFO - Starting tweet scheduling
+2024-09-15 13:20:27,000 - INFO - Tweeting process started at 2024-09-15 13:20:27.000587!
+2024-09-15 13:20:27,000 - INFO - Loaded posted URLs from /Users/prabalsingh/PycharmProjects/pythonProject/TechX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 13:20:27,000 - INFO - Fetching latest tech news from RSS feeds
+2024-09-15 13:21:07,011 - INFO - Total entries found: 559
+2024-09-15 13:21:07,013 - INFO - Recent AI-related entries found: 11
+2024-09-15 13:21:07,013 - INFO - Input content - content='<p>Article URL: <a href="https://www.theguardian.com/technology/article/2024/sep/15/whats-so-funny-about-getting-an-ai-app-to-give-you-a-roasting">https://www.theguardian.com/technology/article/2024/sep/15/whats-so-funny-about-getting-an-ai-app-to-give-you-a-roasting</a></p>\n<p>Comments URL: <a href="https://news.ycombinator.com/item?id=41545855">https://news.ycombinator.com/item?id=41545855</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>'
+2024-09-15 13:21:07,013 - INFO - clean content - clean_content='Article URL: Comments URL: Points: 1 # Comments: 0'
+2024-09-15 13:21:07,013 - INFO - Generating summary with LLM
+2024-09-15 13:22:09,442 - INFO - Downloading NLTK package: punkt
+2024-09-15 13:22:09,545 - INFO - Downloading NLTK package: averaged_perceptron_tagger
+2024-09-15 13:22:09,552 - ERROR - Failed to post tweet: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/Users/prabalsingh/nltk_data'
+    - '/Users/prabalsingh/PycharmProjects/pythonProject/TechX/venv/nltk_data'
+    - '/Users/prabalsingh/PycharmProjects/pythonProject/TechX/venv/share/nltk_data'
+    - '/Users/prabalsingh/PycharmProjects/pythonProject/TechX/venv/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+

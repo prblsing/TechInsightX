@@ -1,0 +1,9 @@
+2024-09-15 13:07:00,549 - INFO - Starting configuration setup
+2024-09-15 13:07:00,549 - INFO - Environment variables loaded successfully
+2024-09-15 13:07:00,550 - INFO - Twitter API client initialized successfully
+2024-09-15 13:07:02,131 - INFO - Initializing text-generation model: EleutherAI/gpt-neo-1.3B
+2024-09-15 13:07:06,145 - INFO - Model initialized successfully
+2024-09-15 13:07:06,146 - INFO - Starting tweet scheduling
+2024-09-15 13:07:06,146 - INFO - Tweeting process started at 2024-09-15 13:07:06.146215!
+2024-09-15 13:07:06,146 - INFO - Loaded posted URLs from /Users/prabalsingh/PycharmProjects/pythonProject/TechX/src/../etc/ops/posted_links_2024Sep15.csv
+2024-09-15 13:07:06,146 - INFO - Fetching latest tech news from RSS feeds
