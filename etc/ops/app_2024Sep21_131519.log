@@ -1,0 +1,37 @@
+2024-09-21 13:15:19,580 - INFO - Starting configuration setup
+2024-09-21 13:15:19,581 - INFO - Environment variables loaded successfully
+2024-09-21 13:15:19,581 - INFO - Twitter API client initialized successfully
+2024-09-21 13:15:21,497 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 13:15:30,930 - INFO - Summarization model initialized successfully
+2024-09-21 13:15:30,931 - INFO - Starting tweet scheduling
+2024-09-21 13:15:30,931 - INFO - Tweeting process started at 2024-09-21 13:15:30.931147!
+2024-09-21 13:15:30,931 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 13:15:30,931 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 13:15:51,832 - INFO - Total entries found: 599
+2024-09-21 13:15:51,835 - INFO - Recent AI-related entries found: 12
+2024-09-21 13:15:51,836 - INFO - Input content - content='<figure>\n      <img alt="Pair of Ray-Ban Meta Smart Glasses illuminated from below" src="https://cdn.vox-cdn.com/thumbor/fWaO22ZpzrnwS0mDf70R_rMg418=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73600589/236834_Ray_Ban_Meta_Smart_Glasses_AKrales_0818.0.jpg" />\n        <figcaption><em>Of all the AI wearables this year, the Ray-Ban Meta smart glasses made the most sense.</em></figcaption>\n    </figure>\n\n\n  \t\t <p>The Ray-Ban Meta smart glasses exceeded expectations in a year when AI gadgets flopped. But can it keep the momentum going?</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect">Continue reading&hellip;</a>\n  </p>'
+2024-09-21 13:15:51,836 - INFO - clean content - clean_content='Of all the AI wearables this year, the Ray-Ban Meta smart glasses made the most sense. The Ray-Ban Meta smart glasses exceeded expectations in a year when AI gadgets flopped. But can it keep the momentum going? Continue reading&hellip;'
+2024-09-21 13:15:51,836 - INFO - Generating summary with BART model
+2024-09-21 13:15:57,719 - INFO - Generating summary with BART model
+2024-09-21 13:16:02,971 - INFO - full_tweet='Of all the AI wearables this year, the Ray-Ban Meta smart glasses made the most sense. The glasses..[read more👇🏼] #AI #glasses https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect'
+2024-09-21 13:16:03,323 - INFO - Tweet posted successfully: Response(data={'id': '1837480913418310021', 'text': 'Of all the AI wearables this year, the Ray-Ban Meta smart glasses made the most sense. The glasses..[read more👇🏼] #AI #glasses https://t.co/Ss2jMgK4lr', 'edit_history_tweet_ids': ['1837480913418310021']}, includes={}, errors=[], meta={})
+2024-09-21 13:16:03,323 - INFO - Sleeping for 1 minutes and 9 seconds.
+2024-09-21 13:17:12,323 - INFO - Saved posted URL: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect at 2024-09-21 13:17:12
+2024-09-21 13:17:12,323 - INFO - Input content - content='If you need help with strategizing how and where to find your ideal job, ChatGPT could help.'
+2024-09-21 13:17:12,324 - INFO - clean content - clean_content='If you need help with strategizing how and where to find your ideal job, ChatGPT could help.'
+2024-09-21 13:17:12,324 - INFO - Generating summary with BART model
+2024-09-21 13:17:16,436 - INFO - Generating summary with BART model
+2024-09-21 13:17:20,536 - INFO - full_tweet='ChatGPT can help you find your ideal job. If you need help with strategizing how and where to find an..[read more👇🏼] #help #ideal https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-find-your-dream-job/#ftag=CAD590a51e'
+2024-09-21 13:17:20,740 - INFO - Tweet posted successfully: Response(data={'id': '1837481238183268529', 'edit_history_tweet_ids': ['1837481238183268529'], 'text': 'ChatGPT can help you find your ideal job. If you need help with strategizing how and where to find an..[read more👇🏼] #help #ideal https://t.co/LXebvlJjXv'}, includes={}, errors=[], meta={})
+2024-09-21 13:17:20,741 - INFO - Sleeping for 9 minutes and 59 seconds.
+2024-09-21 13:27:19,741 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-find-your-dream-job/#ftag=CAD590a51e at 2024-09-21 13:27:19
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/chat-with-this-ai-chatbot-to-find-everything-you-want-to-buy
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/
+2024-09-21 13:27:19,741 - INFO - This link is already posted: https://techcrunch.com/video/techcrunch-minute-amazon-announces-ai-powered-tools-for-creating-video-ads/
+2024-09-21 13:27:19,742 - INFO - This link is already posted: https://www.wired.com/story/restaurant-ai-hosts/
+2024-09-21 13:27:19,742 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing
+2024-09-21 13:27:19,742 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/
