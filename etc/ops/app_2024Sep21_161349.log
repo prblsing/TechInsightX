@@ -1,0 +1,18 @@
+2024-09-21 16:13:49,134 - INFO - Starting configuration setup
+2024-09-21 16:13:49,134 - INFO - Environment variables loaded successfully
+2024-09-21 16:13:49,134 - INFO - Twitter API client initialized successfully
+2024-09-21 16:13:50,984 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 16:13:59,204 - INFO - Summarization model initialized successfully
+2024-09-21 16:13:59,204 - INFO - Starting tweet scheduling
+2024-09-21 16:13:59,204 - INFO - Tweeting process started at 2024-09-21 16:13:59.204702!
+2024-09-21 16:13:59,204 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 16:13:59,205 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 16:14:15,468 - INFO - Total entries found: 599
+2024-09-21 16:14:15,471 - INFO - Recent AI-related entries found: 7
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-find-your-dream-job/#ftag=CAD590a51e
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4
+2024-09-21 16:14:15,471 - INFO - This link is already posted: https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/
