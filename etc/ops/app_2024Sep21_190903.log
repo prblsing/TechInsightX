@@ -1,0 +1,23 @@
+2024-09-21 19:09:03,303 - INFO - Starting configuration setup
+2024-09-21 19:09:03,303 - INFO - Environment variables loaded successfully
+2024-09-21 19:09:03,303 - INFO - Twitter API client initialized successfully
+2024-09-21 19:09:05,178 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 19:09:12,620 - INFO - Summarization model initialized successfully
+2024-09-21 19:09:12,752 - INFO - Starting tweet scheduling
+2024-09-21 19:09:12,752 - INFO - Tweeting process started at 2024-09-21 19:09:12.752175!
+2024-09-21 19:09:12,752 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 19:09:12,752 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 19:09:27,005 - INFO - Total entries found: 599
+2024-09-21 19:09:27,007 - INFO - Recent AI-related entries found: 5
+2024-09-21 19:09:27,007 - INFO - Input content - content='Iodyne’s Pro Mini SSD comes in 4TB and 8TB capacities and is cooled by Frore AirJet technology'
+2024-09-21 19:09:27,008 - INFO - clean content - clean_content='Iodyne’s Pro Mini SSD comes in 4TB and 8TB capacities and is cooled by Frore AirJet technology'
+2024-09-21 19:09:27,008 - INFO - Generating summary with BART model
+2024-09-21 19:09:32,543 - INFO - Generating summary with BART model
+2024-09-21 19:09:37,490 - INFO - full_tweet='Iodyne’s Pro Mini SSD comes in 4TB and 8TB capacities. It is cooled by Frore AirJet technology. #technology #capacities https://www.techradar.com/pro/obscure-ssd-vendor-is-using-revolutionary-cooling-system-in-order-to-deliver-best-in-class-performance-iodyne-s-portable-ssd-packs-airjet-iphone-connectivity-and-unique-raid-6-capabilities-in-a-tiny-footprint'
+2024-09-21 19:09:37,744 - INFO - Tweet posted successfully: Response(data={'text': 'Iodyne’s Pro Mini SSD comes in 4TB and 8TB capacities. It is cooled by Frore AirJet technology. #technology #capacities https://t.co/VGKb0KcLXl', 'id': '1837569893216157864', 'edit_history_tweet_ids': ['1837569893216157864']}, includes={}, errors=[], meta={})
+2024-09-21 19:09:37,744 - INFO - Sleeping for 6 minutes and 17 seconds.
+2024-09-21 19:15:54,745 - INFO - Saved posted URL: https://www.techradar.com/pro/obscure-ssd-vendor-is-using-revolutionary-cooling-system-in-order-to-deliver-best-in-class-performance-iodyne-s-portable-ssd-packs-airjet-iphone-connectivity-and-unique-raid-6-capabilities-in-a-tiny-footprint at 2024-09-21 19:15:54
+2024-09-21 19:15:54,745 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/lionsgate-is-trading-its-movies-and-tv-shows-for-custom-ai/#ftag=CAD590a51e
+2024-09-21 19:15:54,745 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect
+2024-09-21 19:15:54,745 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 19:15:54,745 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
