@@ -1,0 +1,102 @@
+2024-09-21 05:11:19,771 - INFO - Starting configuration setup
+2024-09-21 05:11:19,771 - INFO - Environment variables loaded successfully
+2024-09-21 05:11:19,772 - INFO - Twitter API client initialized successfully
+2024-09-21 05:11:21,797 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 05:11:33,349 - INFO - Summarization model initialized successfully
+2024-09-21 05:11:33,349 - INFO - Starting tweet scheduling
+2024-09-21 05:11:33,349 - INFO - Tweeting process started at 2024-09-21 05:11:33.349741!
+2024-09-21 05:11:33,349 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 05:11:33,350 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 05:11:51,906 - INFO - Total entries found: 617
+2024-09-21 05:11:51,909 - INFO - Recent AI-related entries found: 14
+2024-09-21 05:11:51,909 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 05:11:51,909 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
+2024-09-21 05:11:51,909 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1flmi0d/p_i_created_an_ai_trading_and_financial_research/
+2024-09-21 05:11:51,909 - INFO - Input content - content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. Days later, LinkedIn stops scraping UK users after regulators sound the alarm.'
+2024-09-21 05:11:51,909 - INFO - clean content - clean_content='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent. Days later, LinkedIn stops scraping UK users after regulators sound the alarm.'
+2024-09-21 05:11:51,909 - INFO - Generating summary with BART model
+2024-09-21 05:11:56,754 - INFO - Generating summary with BART model
+2024-09-21 05:12:00,948 - INFO - full_tweet='Microsoft-owned LinkedIn recently began training AI models on your data without your express consent...[read more👇🏼] #data #AI https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it'
+2024-09-21 05:12:01,201 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837359102147842325'], 'text': 'Microsoft-owned LinkedIn recently began training AI models on your data without your express consent...[read more👇🏼] #data #AI https://t.co/T5wcpYZt77', 'id': '1837359102147842325'}, includes={}, errors=[], meta={})
+2024-09-21 05:12:01,201 - INFO - Sleeping for 4 minutes and 16 seconds.
+2024-09-21 05:16:17,202 - INFO - Saved posted URL: https://www.pcmag.com/news/linkedin-is-quietly-training-ai-on-your-data-heres-how-to-stop-it at 2024-09-21 05:16:17
+2024-09-21 05:16:17,202 - INFO - Input content - content='Klaran debuts AI chatbot shopping assistant.'
+2024-09-21 05:16:17,202 - INFO - clean content - clean_content='Klaran debuts AI chatbot shopping assistant.'
+2024-09-21 05:16:17,202 - INFO - Generating summary with BART model
+2024-09-21 05:16:21,944 - INFO - Generating summary with BART model
+2024-09-21 05:16:26,707 - INFO - full_tweet='Klaran debuts AI chatbot shopping assistant. Klaran is the first of its kind in the U.S. and will be..[read more👇🏼] #AI #Klaran https://www.techradar.com/computing/artificial-intelligence/chat-with-this-ai-chatbot-to-find-everything-you-want-to-buy'
+2024-09-21 05:16:26,889 - INFO - Tweet posted successfully: Response(data={'id': '1837360216494723585', 'edit_history_tweet_ids': ['1837360216494723585'], 'text': 'Klaran debuts AI chatbot shopping assistant. Klaran is the first of its kind in the U.S. and will be..[read more👇🏼] #AI #Klaran https://t.co/mUlJ5z4t8U'}, includes={}, errors=[], meta={})
+2024-09-21 05:16:26,889 - INFO - Sleeping for 5 minutes and 35 seconds.
+2024-09-21 05:22:01,889 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/chat-with-this-ai-chatbot-to-find-everything-you-want-to-buy at 2024-09-21 05:22:01
+2024-09-21 05:22:01,889 - INFO - Input content - content="Beelink's SER9 mini PC will be powered by AMD's Ryzen AI 9 HX 370 Strix Point processor."
+2024-09-21 05:22:01,890 - INFO - clean content - clean_content="Beelink's SER9 mini PC will be powered by AMD's Ryzen AI 9 HX 370 Strix Point processor."
+2024-09-21 05:22:01,890 - INFO - Generating summary with BART model
+2024-09-21 05:22:07,369 - INFO - Generating summary with BART model
+2024-09-21 05:22:12,763 - INFO - full_tweet="Beelink's SER9 mini PC will be powered by AMD's AMD's Ryzen AI 9 HX 370 Strix Point processor. #AI #s https://www.techradar.com/pro/this-is-the-world-s-most-powerful-mini-pc-and-i-can-t-wait-to-test-it-beelink-s-tiny-computer-packs-the-ryzen-ai-9-hx-370-cpu-and-promises-to-deliver-the-gpu-performance-of-an-rtx-3050-with-a-whopping-50-tops"
+2024-09-21 05:22:12,998 - INFO - Tweet posted successfully: Response(data={'id': '1837361668172697720', 'text': "Beelink's SER9 mini PC will be powered by AMD's AMD's Ryzen AI 9 HX 370 Strix Point processor. #AI #s https://t.co/c4DWoQuurP", 'edit_history_tweet_ids': ['1837361668172697720']}, includes={}, errors=[], meta={})
+2024-09-21 05:22:12,998 - INFO - Sleeping for 7 minutes and 44 seconds.
+2024-09-21 05:29:56,998 - INFO - Saved posted URL: https://www.techradar.com/pro/this-is-the-world-s-most-powerful-mini-pc-and-i-can-t-wait-to-test-it-beelink-s-tiny-computer-packs-the-ryzen-ai-9-hx-370-cpu-and-promises-to-deliver-the-gpu-performance-of-an-rtx-3050-with-a-whopping-50-tops at 2024-09-21 05:29:56
+2024-09-21 05:29:56,998 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/1095/0*6Glukoi9WkLiiG4U" width="1095" /></a></p><p class="medium-feed-snippet">The clue you need to understand the LinkedIn OptIn scandal</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-09-21 05:29:56,998 - INFO - clean content - clean_content='The clue you need to understand the LinkedIn OptIn scandalContinue reading on Towards Data Science »'
+2024-09-21 05:29:56,999 - INFO - Generating summary with BART model
+2024-09-21 05:30:02,226 - INFO - Generating summary with BART model
+2024-09-21 05:30:07,492 - INFO - full_tweet='LinkedIn OptIn scandal: The clue you need to understand the LinkedIn Optin scandal. The LinkedIn Opt In..[read more👇🏼] #scandal #understand https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4'
+2024-09-21 05:30:07,733 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837363659334635995'], 'text': 'LinkedIn OptIn scandal: The clue you need to understand the LinkedIn Optin scandal. The LinkedIn Opt In..[read more👇🏼] #scandal #understand https://t.co/sPIrCtZspi', 'id': '1837363659334635995'}, includes={}, errors=[], meta={})
+2024-09-21 05:30:07,733 - INFO - Sleeping for 9 minutes and 16 seconds.
+2024-09-21 05:39:23,734 - INFO - Saved posted URL: https://towardsdatascience.com/why-genai-is-a-data-deletion-and-privacy-nightmare-bd79a3c0ed85?source=rss----7f60cf5620c9---4 at 2024-09-21 05:39:23
+2024-09-21 05:39:23,734 - INFO - Input content - content='<p>This week brought reassuring signs that dealmaking is still happening on both sides of the table. New unicorns are being minted, and more capital is flowing into AI.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-21 05:39:23,734 - INFO - clean content - clean_content='This week brought reassuring signs that dealmaking is still happening on both sides of the table. New unicorns are being minted, and more capital is flowing into AI. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-21 05:39:23,734 - INFO - Generating summary with BART model
+2024-09-21 05:39:28,089 - INFO - Generating summary with BART model
+2024-09-21 05:39:32,515 - INFO - full_tweet='This week brought reassuring signs that dealmaking is still happening on both sides of the table. New..[read more👇🏼] #AI #reassuring https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/'
+2024-09-21 05:39:32,755 - INFO - Tweet posted successfully: Response(data={'text': 'This week brought reassuring signs that dealmaking is still happening on both sides of the table. New..[read more👇🏼] #AI #reassuring https://t.co/4IwLmQrcoD', 'id': '1837366029196087625', 'edit_history_tweet_ids': ['1837366029196087625']}, includes={}, errors=[], meta={})
+2024-09-21 05:39:32,755 - INFO - Sleeping for 4 minutes and 2 seconds.
+2024-09-21 05:43:34,755 - INFO - Saved posted URL: https://techcrunch.com/2024/09/20/mas-and-ai-are-in-the-spotlight-but-theres-still-capital-left-for-quick-commerce-and-more/ at 2024-09-21 05:43:34
+2024-09-21 05:43:34,755 - INFO - Input content - content='<p>Businesses that sell on Amazon will have access to new generative AI tools allowing them to create video ads from a single product image. There are actually two related products that Amazon announced — live image and video generator. Both of them are being pitched as a way for sellers to easily create video ads [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-21 05:43:34,756 - INFO - clean content - clean_content='Businesses that sell on Amazon will have access to new generative AI tools allowing them to create video ads from a single product image. There are actually two related products that Amazon announced — live image and video generator. Both of them are being pitched as a way for sellers to easily create video ads [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-21 05:43:34,756 - INFO - Generating summary with BART model
+2024-09-21 05:43:40,949 - INFO - Generating summary with BART model
+2024-09-21 05:43:47,188 - INFO - full_tweet='Businesses that sell on Amazon will have access to new generative AI tools. There are actually two..[read more👇🏼] #AI #Amazon https://techcrunch.com/video/techcrunch-minute-amazon-announces-ai-powered-tools-for-creating-video-ads/'
+2024-09-21 05:43:47,358 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837367097179132003'], 'id': '1837367097179132003', 'text': 'Businesses that sell on Amazon will have access to new generative AI tools. There are actually two..[read more👇🏼] #AI #Amazon https://t.co/DBJnfbAcdp'}, includes={}, errors=[], meta={})
+2024-09-21 05:43:47,358 - INFO - Sleeping for 1 minutes and 4 seconds.
+2024-09-21 05:44:51,359 - INFO - Saved posted URL: https://techcrunch.com/video/techcrunch-minute-amazon-announces-ai-powered-tools-for-creating-video-ads/ at 2024-09-21 05:44:51
+2024-09-21 05:44:51,359 - INFO - Input content - content='<p>The U.K.&#8217;s data protection watchdog has confirmed that Microsoft-owned LinkedIn has stopped processing user data for AI model training for now. Stephen Almond, executive director of regulatory risk for the Information Commissioner&#8217;s Office, wrote in a statement on Friday: &#8220;We\xa0are pleased that LinkedIn has reflected on the concerns we raised about its approach to training [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-21 05:44:51,359 - INFO - clean content - clean_content='The U.K.&#8217;s data protection watchdog has confirmed that Microsoft-owned LinkedIn has stopped processing user data for AI model training for now. Stephen Almond, executive director of regulatory risk for the Information Commissioner&#8217;s Office, wrote in a statement on Friday: &#8220;We are pleased that LinkedIn has reflected on the concerns we raised about its approach to training [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-21 05:44:51,359 - INFO - Generating summary with BART model
+2024-09-21 05:44:58,492 - INFO - Generating summary with BART model
+2024-09-21 05:45:05,780 - INFO - full_tweet='The U.K. data protection watchdog has confirmed that Microsoft-owned LinkedIn has stopped processing user..[read more👇🏼] #data #AI https://techcrunch.com/2024/09/20/linkedin-has-stopped-grabbing-u-k-users-data-for-ai/'
+2024-09-21 05:45:05,946 - INFO - Tweet posted successfully: Response(data={'id': '1837367426826281182', 'edit_history_tweet_ids': ['1837367426826281182'], 'text': 'The U.K. data protection watchdog has confirmed that Microsoft-owned LinkedIn has stopped processing user..[read more👇🏼] #data #AI https://t.co/gGGpJvOBut'}, includes={}, errors=[], meta={})
+2024-09-21 05:45:05,946 - INFO - Sleeping for 4 minutes and 34 seconds.
+2024-09-21 05:49:39,946 - INFO - Saved posted URL: https://techcrunch.com/2024/09/20/linkedin-has-stopped-grabbing-u-k-users-data-for-ai/ at 2024-09-21 05:49:39
+2024-09-21 05:49:39,947 - INFO - Input content - content='Restaurants field a high volume of phone calls from inquisitive tourists or diners running late. Increasingly, voice chatbots are picking up on the other end of the line.'
+2024-09-21 05:49:39,947 - INFO - clean content - clean_content='Restaurants field a high volume of phone calls from inquisitive tourists or diners running late. Increasingly, voice chatbots are picking up on the other end of the line.'
+2024-09-21 05:49:39,947 - INFO - Generating summary with BART model
+2024-09-21 05:49:44,676 - INFO - Generating summary with BART model
+2024-09-21 05:49:49,397 - INFO - full_tweet='Increasingly, voice chatbots are picking up on the other end of the line. Restaurants field a high volume..[read more👇🏼] #Increasingly #Restaurants https://www.wired.com/story/restaurant-ai-hosts/'
+2024-09-21 05:49:49,595 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837368616456704497'], 'id': '1837368616456704497', 'text': 'Increasingly, voice chatbots are picking up on the other end of the line. Restaurants field a high volume..[read more👇🏼] #Increasingly #Restaurants https://t.co/wzanQ6qlfN'}, includes={}, errors=[], meta={})
+2024-09-21 05:49:49,595 - INFO - Sleeping for 5 minutes and 27 seconds.
+2024-09-21 05:55:16,596 - INFO - Saved posted URL: https://www.wired.com/story/restaurant-ai-hosts/ at 2024-09-21 05:55:16
+2024-09-21 05:55:16,596 - INFO - Input content - content='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant, which suffered a partial nuclear meltdown in 1979.'
+2024-09-21 05:55:16,596 - INFO - clean content - clean_content='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant, which suffered a partial nuclear meltdown in 1979.'
+2024-09-21 05:55:16,596 - INFO - Generating summary with BART model
+2024-09-21 05:55:21,619 - INFO - Generating summary with BART model
+2024-09-21 05:55:26,608 - INFO - full_tweet='Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant. The..[read more👇🏼] #nuclear #plant https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing'
+2024-09-21 05:55:26,844 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837370031048642880'], 'id': '1837370031048642880', 'text': 'Microsoft signs a deal to restart a dormant nuclear facility next to the original nuclear plant. The..[read more👇🏼] #nuclear #plant https://t.co/ocvKumyQE3'}, includes={}, errors=[], meta={})
+2024-09-21 05:55:26,844 - INFO - Sleeping for 9 minutes and 17 seconds.
+2024-09-21 06:04:43,845 - INFO - Saved posted URL: https://www.pcmag.com/news/microsoft-to-revive-nuclear-plant-on-three-mile-island-to-handle-ai-processing at 2024-09-21 06:04:43
+2024-09-21 06:04:43,845 - INFO - Input content - content='<p>The data centers that train the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major deal [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-21 06:04:43,845 - INFO - clean content - clean_content='The data centers that train the large language models behind AI consume unimaginable amounts of energy, and the stakes are high for big tech companies to ensure they have enough power to run those plants. That&#8217;s why Microsoft is now throwing its weight behind nuclear power. The tech giant on Friday signed a major deal [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-21 06:04:43,845 - INFO - Generating summary with BART model
+2024-09-21 06:04:49,766 - INFO - Generating summary with BART model
+2024-09-21 06:04:55,628 - INFO - full_tweet='The data centers that train the large language models behind AI consume unimaginable amounts of energy...[read more👇🏼] #data #tech https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/'
+2024-09-21 06:04:55,869 - INFO - Tweet posted successfully: Response(data={'id': '1837372417645453365', 'text': 'The data centers that train the large language models behind AI consume unimaginable amounts of energy...[read more👇🏼] #data #tech https://t.co/nOWIjayJYs', 'edit_history_tweet_ids': ['1837372417645453365']}, includes={}, errors=[], meta={})
+2024-09-21 06:04:55,869 - INFO - Sleeping for 7 minutes and 25 seconds.
+2024-09-21 06:12:20,870 - INFO - Saved posted URL: https://techcrunch.com/2024/09/20/microsoft-taps-three-mile-island-nuclear-plant-to-power-ai/ at 2024-09-21 06:12:20
+2024-09-21 06:12:20,870 - INFO - Input content - content='The TikTok owner’s newest board member revels in challenging the establishment.'
+2024-09-21 06:12:20,870 - INFO - clean content - clean_content='The TikTok owner’s newest board member revels in challenging the establishment.'
+2024-09-21 06:12:20,870 - INFO - Generating summary with BART model
+2024-09-21 06:12:25,822 - INFO - Generating summary with BART model
+2024-09-21 06:12:30,796 - INFO - full_tweet='The TikTok owner’s newest board member revels in challenging the establishment. “I’m not afraid to say..[read more👇🏼] #I #establishment https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/'
+2024-09-21 06:12:31,042 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837374326754136473'], 'text': 'The TikTok owner’s newest board member revels in challenging the establishment. “I’m not afraid to say..[read more👇🏼] #I #establishment https://t.co/eiblJWmXdZ', 'id': '1837374326754136473'}, includes={}, errors=[], meta={})
+2024-09-21 06:12:31,043 - INFO - Sleeping for 3 minutes and 52 seconds.
+2024-09-21 06:16:23,043 - INFO - Saved posted URL: https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/ at 2024-09-21 06:16:23
