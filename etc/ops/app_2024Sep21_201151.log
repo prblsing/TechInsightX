@@ -1,0 +1,16 @@
+2024-09-21 20:11:51,644 - INFO - Starting configuration setup
+2024-09-21 20:11:51,644 - INFO - Environment variables loaded successfully
+2024-09-21 20:11:51,644 - INFO - Twitter API client initialized successfully
+2024-09-21 20:11:53,488 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-21 20:12:00,275 - INFO - Summarization model initialized successfully
+2024-09-21 20:12:00,276 - INFO - Starting tweet scheduling
+2024-09-21 20:12:00,276 - INFO - Tweeting process started at 2024-09-21 20:12:00.276323!
+2024-09-21 20:12:00,276 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep21.csv
+2024-09-21 20:12:00,276 - INFO - Fetching latest tech news from RSS feeds
+2024-09-21 20:12:14,695 - INFO - Total entries found: 599
+2024-09-21 20:12:14,698 - INFO - Recent AI-related entries found: 5
+2024-09-21 20:12:14,698 - INFO - This link is already posted: https://www.techradar.com/pro/obscure-ssd-vendor-is-using-revolutionary-cooling-system-in-order-to-deliver-best-in-class-performance-iodyne-s-portable-ssd-packs-airjet-iphone-connectivity-and-unique-raid-6-capabilities-in-a-tiny-footprint
+2024-09-21 20:12:14,698 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/lionsgate-is-trading-its-movies-and-tv-shows-for-custom-ai/#ftag=CAD590a51e
+2024-09-21 20:12:14,699 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect
+2024-09-21 20:12:14,699 - INFO - This link is already posted: https://venturebeat.com/security/adversarial-attacks-on-ai-models-are-rising-what-should-you-do-now/
+2024-09-21 20:12:14,699 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/this-ai-teddy-bear-can-make-up-new-bedtime-stories-to-tell-you-every-night
