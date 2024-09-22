@@ -1,0 +1,43 @@
+2024-09-22 17:11:09,244 - INFO - Starting configuration setup
+2024-09-22 17:11:09,245 - INFO - Environment variables loaded successfully
+2024-09-22 17:11:09,245 - INFO - Twitter API client initialized successfully
+2024-09-22 17:11:11,124 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-22 17:11:19,105 - INFO - Summarization model initialized successfully
+2024-09-22 17:11:19,106 - INFO - Starting tweet scheduling
+2024-09-22 17:11:19,106 - INFO - Tweeting process started at 2024-09-22 17:11:19.106097!
+2024-09-22 17:11:19,106 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep22.csv
+2024-09-22 17:11:19,106 - INFO - Fetching latest tech news from RSS feeds
+2024-09-22 17:11:33,715 - INFO - Total entries found: 617
+2024-09-22 17:11:33,718 - INFO - Recent AI-related entries found: 11
+2024-09-22 17:11:33,718 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I\'m excited to share a project I\'ve been working on called FileWizardAi, a Python and Angular-based tool designed to manage your files. This tool automatically organizes your files into a well-structured directory hierarchy and renames them based on their content, making it easier to declutter your workspace and locate files quickly.</p> <p>The app cann be launched 100% locally.</p> <p>Here\'s the GitHub repo; let me know if you\'d like to add other functionalities or if there are bugs to fix. Pull requests are also very welcome:</p> <p><a href="https://github.com/AIxHunter/FileWizardAI">https://github.com/AIxHunter/FileWizardAI</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Majestic-Quarter-958"> /u/Majestic-Quarter-958 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/">[comments]</a></span>'
+2024-09-22 17:11:33,719 - INFO - clean content - clean_content="I'm excited to share a project I've been working on called FileWizardAi, a Python and Angular-based tool designed to manage your files. This tool automatically organizes your files into a well-structured directory hierarchy and renames them based on their content, making it easier to declutter your workspace and locate files quickly. The app cann be launched 100% locally. Here's the GitHub repo; let me know if you'd like to add other functionalities or if there are bugs to fix. Pull requests are also very welcome: &#32; submitted by &#32; /u/Majestic-Quarter-958 [link] &#32; [comments]"
+2024-09-22 17:11:33,719 - INFO - Generating summary with BART model
+2024-09-22 17:11:39,810 - INFO - Generating summary with BART model
+2024-09-22 17:11:45,238 - INFO - full_tweet='FileWizardAi is a Python and Angular-based tool designed to manage your files. It automatically organizes..[read more👇🏼] #based #files https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/'
+2024-09-22 17:11:45,520 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1837902618045108722'], 'text': 'FileWizardAi is a Python and Angular-based tool designed to manage your files. It automatically organizes..[read more👇🏼] #based #files https://t.co/kSSqlW5kaK', 'id': '1837902618045108722'}, includes={}, errors=[], meta={})
+2024-09-22 17:11:45,520 - INFO - Sleeping for 6 minutes and 7 seconds.
+2024-09-22 17:17:52,520 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/ at 2024-09-22 17:17:52
+2024-09-22 17:17:52,520 - INFO - Input content - content='<p>Jony Ive, the legendary designer who left his full-time role at Apple five years ago, is working on a new startup with OpenAI and its CEO Sam Altman. The collaboration was first reported last year, and Ive confirmed it in a New York Times profile about what he’s been up to since leaving Apple. If [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-22 17:17:52,521 - INFO - clean content - clean_content='Jony Ive, the legendary designer who left his full-time role at Apple five years ago, is working on a new startup with OpenAI and its CEO Sam Altman. The collaboration was first reported last year, and Ive confirmed it in a New York Times profile about what he’s been up to since leaving Apple. If [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-22 17:17:52,521 - INFO - Generating summary with BART model
+2024-09-22 17:17:58,718 - INFO - Generating summary with BART model
+2024-09-22 17:18:04,914 - INFO - full_tweet='Jony Ive is working on a new startup with OpenAI and its CEO Sam Altman. The collaboration was first..[read more👇🏼] #startup #Ive https://techcrunch.com/2024/09/22/yup-jony-ive-is-working-on-a-new-ai-device-company-with-openai/'
+2024-09-22 17:18:05,257 - INFO - Tweet posted successfully: Response(data={'text': 'Jony Ive is working on a new startup with OpenAI and its CEO Sam Altman. The collaboration was first..[read more👇🏼] #startup #Ive https://t.co/9zFZABtizI', 'id': '1837904210509070666', 'edit_history_tweet_ids': ['1837904210509070666']}, includes={}, errors=[], meta={})
+2024-09-22 17:18:05,257 - INFO - Sleeping for 3 minutes and 44 seconds.
+2024-09-22 17:21:49,257 - INFO - Saved posted URL: https://techcrunch.com/2024/09/22/yup-jony-ive-is-working-on-a-new-ai-device-company-with-openai/ at 2024-09-22 17:21:49
+2024-09-22 17:21:49,257 - INFO - Input content - content='The rumors were true: OpenAI and its CEO Sam Altman have enlisted the help of designer Jony Ive.'
+2024-09-22 17:21:49,257 - INFO - clean content - clean_content='The rumors were true: OpenAI and its CEO Sam Altman have enlisted the help of designer Jony Ive.'
+2024-09-22 17:21:49,257 - INFO - Generating summary with BART model
+2024-09-22 17:21:53,575 - INFO - Generating summary with BART model
+2024-09-22 17:21:57,886 - INFO - full_tweet='OpenAI and its CEO Sam Altman have enlisted the help of designer Jony Ive. The rumors were true: OpenAI..[read more👇🏼] #enlisted #help https://www.techradar.com/computing/artificial-intelligence/jony-ive-confirms-hes-working-on-a-device-for-openai-but-what-could-it-be'
+2024-09-22 17:21:58,150 - INFO - Tweet posted successfully: Response(data={'text': 'OpenAI and its CEO Sam Altman have enlisted the help of designer Jony Ive. The rumors were true: OpenAI..[read more👇🏼] #enlisted #help https://t.co/Ocw4k8BTWC', 'id': '1837905187354157151', 'edit_history_tweet_ids': ['1837905187354157151']}, includes={}, errors=[], meta={})
+2024-09-22 17:21:58,150 - INFO - Sleeping for 4 minutes and 47 seconds.
+2024-09-22 17:26:45,151 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/jony-ive-confirms-hes-working-on-a-device-for-openai-but-what-could-it-be at 2024-09-22 17:26:45
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://towardsdatascience.com/how-i-deal-with-hallucinations-at-an-ai-startup-9fc4121295cc?source=rss----7f60cf5620c9---4
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.pcmag.com/opinions/the-ai-movie-era-is-here-but-openai-is-still-working-on-its-blockbuster
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/features/a-cambrian-explosion-ais-radical-reshaping-of-your-phone-coming-soon/#ftag=CAD590a51e
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fmkhok/d_last_week_in_medical_ai_top_research/
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fme9af/dwhat_are_the_top_3_countries_in_development_of/
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250867/jony-ive-confirms-collaboration-openai-hardware
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://techcrunch.com/2024/09/21/google-ceo-sundar-pichai-announces-120m-fund-for-global-ai-education/
+2024-09-22 17:26:45,151 - INFO - This link is already posted: https://www.techradar.com/pro/obscure-ssd-vendor-is-using-revolutionary-cooling-system-in-order-to-deliver-best-in-class-performance-iodyne-s-portable-ssd-packs-airjet-iphone-connectivity-and-unique-raid-6-capabilities-in-a-tiny-footprint
