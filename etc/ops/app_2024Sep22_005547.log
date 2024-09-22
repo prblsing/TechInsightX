@@ -1,0 +1,19 @@
+2024-09-22 00:55:47,784 - INFO - Starting configuration setup
+2024-09-22 00:55:47,785 - INFO - Environment variables loaded successfully
+2024-09-22 00:55:47,785 - INFO - Twitter API client initialized successfully
+2024-09-22 00:55:49,649 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-22 00:55:56,353 - INFO - Summarization model initialized successfully
+2024-09-22 00:55:56,353 - INFO - Starting tweet scheduling
+2024-09-22 00:55:56,353 - INFO - Tweeting process started at 2024-09-22 00:55:56.353549!
+2024-09-22 00:55:56,353 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep22.csv
+2024-09-22 00:55:56,353 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep22.csv
+2024-09-22 00:55:56,353 - INFO - Fetching latest tech news from RSS feeds
+2024-09-22 00:56:11,435 - INFO - Total entries found: 599
+2024-09-22 00:56:11,437 - INFO - Recent AI-related entries found: 6
+2024-09-22 00:56:11,437 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Undoubtedly, the United States and China are leading in the development of Large Language Models. How are other countries performing?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Realistic-Ad-6231"> /u/Realistic-Ad-6231 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fme9af/dwhat_are_the_top_3_countries_in_development_of/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fme9af/dwhat_are_the_top_3_countries_in_development_of/">[comments]</a></span>'
+2024-09-22 00:56:11,438 - INFO - clean content - clean_content='Undoubtedly, the United States and China are leading in the development of Large Language Models. How are other countries performing? &#32; submitted by &#32; /u/Realistic-Ad-6231 [link] &#32; [comments]'
+2024-09-22 00:56:11,438 - INFO - Generating summary with BART model
+2024-09-22 00:56:16,098 - INFO - Generating summary with BART model
+2024-09-22 00:56:20,115 - INFO - full_tweet='The U.S. and China are leading in the development of Large Language Models. How are other countries..[read more👇🏼] #development #performing https://www.reddit.com/r/MachineLearning/comments/1fme9af/dwhat_are_the_top_3_countries_in_development_of/'
+2024-09-22 00:56:20,251 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
