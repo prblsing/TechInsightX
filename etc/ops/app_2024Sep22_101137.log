@@ -1,0 +1,17 @@
+2024-09-22 10:11:37,455 - INFO - Starting configuration setup
+2024-09-22 10:11:37,455 - INFO - Environment variables loaded successfully
+2024-09-22 10:11:37,455 - INFO - Twitter API client initialized successfully
+2024-09-22 10:11:39,342 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-22 10:11:46,728 - INFO - Summarization model initialized successfully
+2024-09-22 10:11:46,729 - INFO - Starting tweet scheduling
+2024-09-22 10:11:46,729 - INFO - Tweeting process started at 2024-09-22 10:11:46.729151!
+2024-09-22 10:11:46,729 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep22.csv
+2024-09-22 10:11:46,729 - INFO - Fetching latest tech news from RSS feeds
+2024-09-22 10:12:01,507 - INFO - Total entries found: 599
+2024-09-22 10:12:01,510 - INFO - Recent AI-related entries found: 6
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fmkhok/d_last_week_in_medical_ai_top_research/
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fme9af/dwhat_are_the_top_3_countries_in_development_of/
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250867/jony-ive-confirms-collaboration-openai-hardware
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://techcrunch.com/2024/09/21/google-ceo-sundar-pichai-announces-120m-fund-for-global-ai-education/
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://www.techradar.com/pro/obscure-ssd-vendor-is-using-revolutionary-cooling-system-in-order-to-deliver-best-in-class-performance-iodyne-s-portable-ssd-packs-airjet-iphone-connectivity-and-unique-raid-6-capabilities-in-a-tiny-footprint
+2024-09-22 10:12:01,510 - INFO - This link is already posted: https://www.theverge.com/2024/9/21/24250020/ray-ban-meta-smart-glasses-ai-hardware-meta-connect
