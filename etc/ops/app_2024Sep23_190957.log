@@ -1,0 +1,44 @@
+2024-09-23 19:09:57,708 - INFO - Starting configuration setup
+2024-09-23 19:09:57,709 - INFO - Environment variables loaded successfully
+2024-09-23 19:09:57,709 - INFO - Twitter API client initialized successfully
+2024-09-23 19:09:59,769 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 19:10:07,246 - INFO - Summarization model initialized successfully
+2024-09-23 19:10:07,246 - INFO - Starting tweet scheduling
+2024-09-23 19:10:07,246 - INFO - Tweeting process started at 2024-09-23 19:10:07.246802!
+2024-09-23 19:10:07,247 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 19:10:07,247 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 19:10:23,607 - INFO - Total entries found: 617
+2024-09-23 19:10:23,610 - INFO - Recent AI-related entries found: 19
+2024-09-23 19:10:23,611 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>It detects key frames in the video and talks without prompting. In the backend, I use Whisper for STT, Gemini Flash for vision and ElevenLabs for voice.</p> <p>Demo: <a href="https://www.veed.io/view/b19f452b-9589-4270-b11f-e041f2065713?panel=share">https://www.veed.io/view/b19f452b-9589-4270-b11f-e041f2065713?panel=share</a></p> <p>GitHub: <a href="https://github.com/outspeed-ai/outspeed/tree/main/examples/sports_commentator">https://github.com/outspeed-ai/outspeed/tree/main/examples/sports_commentator</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/jaakeyb1"> /u/jaakeyb1 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fnry1x/p_i_built_a_live_ai_sports_commentator_that_can/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fnry1x/p_i_built_a_live_ai_sports_commentator_that_can/">[comments]</a></span>'
+2024-09-23 19:10:23,611 - INFO - clean content - clean_content='It detects key frames in the video and talks without prompting. In the backend, I use Whisper for STT, Gemini Flash for vision and ElevenLabs for voice. Demo: GitHub: &#32; submitted by &#32; /u/jaakeyb1 [link] &#32; [comments]'
+2024-09-23 19:10:23,611 - INFO - Generating summary with BART model
+2024-09-23 19:10:29,525 - INFO - Generating summary with BART model
+2024-09-23 19:10:34,629 - INFO - full_tweet='In the backend, I use Whisper for STT, Gemini Flash for vision and ElevenLabs for voice. It detects key..[read more👇🏼] #prompting #backend https://www.reddit.com/r/MachineLearning/comments/1fnry1x/p_i_built_a_live_ai_sports_commentator_that_can/'
+2024-09-23 19:10:34,896 - INFO - Tweet posted successfully: Response(data={'text': 'In the backend, I use Whisper for STT, Gemini Flash for vision and ElevenLabs for voice. It detects key..[read more👇🏼] #prompting #backend https://t.co/ofDaNKTxEY', 'edit_history_tweet_ids': ['1838294908601536608'], 'id': '1838294908601536608'}, includes={}, errors=[], meta={})
+2024-09-23 19:10:34,896 - INFO - Sleeping for 3 minutes and 43 seconds.
+2024-09-23 19:14:17,897 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fnry1x/p_i_built_a_live_ai_sports_commentator_that_can/ at 2024-09-23 19:14:17
+2024-09-23 19:14:17,897 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/ephos-wants-to-shatter-the-market-for-ai-and-quantum-chips-with-a-new-design-based-on-glass/
+2024-09-23 19:14:17,897 - INFO - Input content - content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-23 19:14:17,897 - INFO - clean content - clean_content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-23 19:14:17,897 - INFO - Generating summary with BART model
+2024-09-23 19:14:22,377 - INFO - Generating summary with BART model
+2024-09-23 19:14:26,855 - INFO - full_tweet='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device'
+2024-09-23 19:14:27,042 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838295882397290887'], 'text': 'OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://t.co/b8xuNAzx4p', 'id': '1838295882397290887'}, includes={}, errors=[], meta={})
+2024-09-23 19:14:27,043 - INFO - Sleeping for 8 minutes and 30 seconds.
+2024-09-23 19:22:57,043 - INFO - Saved posted URL: https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device at 2024-09-23 19:22:57
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://www.techradar.com/pro/i-want-one-msi-quietly-debuts-sub-1kg-laptop-with-a-killer-price-tag-and-exceptional-performance-prestige-13-ai-will-appeal-to-businesses-and-no-don-t-get-put-off-by-its-lack-of-ram-upgradability
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://venturebeat.com/ai/together-ai-promises-faster-inference-and-lower-costs-with-enterprise-ai-platform-for-private-cloud/
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://www.pcmag.com/news/openai-is-developing-a-hardware-device-with-ex-apple-designer-jony-ive
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://venturebeat.com/ai/altera-brings-more-ai-to-the-edge-and-cloud-with-new-programmable-chips/
+2024-09-23 19:22:57,043 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/meta-connect-2024-how-to-watch-the-metaverse-and-generative-ai-event/
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.techradar.com/pro/security-pros-are-stressed-by-c-suite-ai-expectations
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.techradar.com/pro/ai-is-no-silver-bullet-for-workforce-transformation-without-planning
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.pcmag.com/news/dont-need-ai-microsoft-will-let-you-customize-the-copilot-key
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://venturebeat.com/ai/openai-academy-launches-with-1m-in-developer-credits-for-devs-in-low-and-middle-income-countries/
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.techradar.com/pro/visual-ai-a-future-proof-solution-for-better-meetings-today
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-will-let-websites-charge-ai-bots-for-scraping/
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.wired.com/story/cloudflare-tools-detect-block-ai-bots/
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://venturebeat.com/ai/how-agentic-ai-could-improve-enterprise-data-operations/
+2024-09-23 19:22:57,044 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnefsr/how_ai_companions_alleviate_loneliness_insights/
