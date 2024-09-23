@@ -1,0 +1,49 @@
+2024-09-23 22:11:54,773 - INFO - Starting configuration setup
+2024-09-23 22:11:54,774 - INFO - Environment variables loaded successfully
+2024-09-23 22:11:54,774 - INFO - Twitter API client initialized successfully
+2024-09-23 22:11:56,610 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 22:12:03,356 - INFO - Summarization model initialized successfully
+2024-09-23 22:12:03,357 - INFO - Starting tweet scheduling
+2024-09-23 22:12:03,357 - INFO - Tweeting process started at 2024-09-23 22:12:03.357205!
+2024-09-23 22:12:03,357 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 22:12:03,357 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 22:12:17,431 - INFO - Total entries found: 617
+2024-09-23 22:12:17,433 - INFO - Recent AI-related entries found: 24
+2024-09-23 22:12:17,433 - INFO - Input content - content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-23 22:12:17,434 - INFO - clean content - clean_content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-23 22:12:17,434 - INFO - Generating summary with BART model
+2024-09-23 22:12:23,014 - INFO - Generating summary with BART model
+2024-09-23 22:12:27,965 - INFO - full_tweet="Lifetime subscription to CNN.com includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform"
+2024-09-23 22:12:28,255 - INFO - Tweet posted successfully: Response(data={'id': '1838340682626318384', 'text': "Lifetime subscription to https://t.co/O2xYLX2Kvt includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://t.co/p38Kycx33u", 'edit_history_tweet_ids': ['1838340682626318384']}, includes={}, errors=[], meta={})
+2024-09-23 22:12:28,255 - INFO - Sleeping for 9 minutes and 52 seconds.
+2024-09-23 22:22:20,256 - INFO - Saved posted URL: https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform at 2024-09-23 22:22:20
+2024-09-23 22:22:20,256 - INFO - Input content - content='In a manifesto, OpenAI CEO Sam Altman said deep learning and AI can solve the climate crisis and other remaining societal problems.'
+2024-09-23 22:22:20,256 - INFO - clean content - clean_content='In a manifesto, OpenAI CEO Sam Altman said deep learning and AI can solve the climate crisis and other remaining societal problems.'
+2024-09-23 22:22:20,256 - INFO - Generating summary with BART model
+2024-09-23 22:22:25,100 - INFO - Generating summary with BART model
+2024-09-23 22:22:29,933 - INFO - full_tweet='OpenAI CEO Sam Altman says deep learning and AI can solve the climate crisis and other remaining societal..[read more👇🏼] #AI #learning https://venturebeat.com/ai/openai-ceo-sam-altman-anticipates-superintelligence-soon-defends-ai-in-rare-personal-blog-post/'
+2024-09-23 22:22:30,219 - INFO - Tweet posted successfully: Response(data={'id': '1838343207442079915', 'edit_history_tweet_ids': ['1838343207442079915'], 'text': 'OpenAI CEO Sam Altman says deep learning and AI can solve the climate crisis and other remaining societal..[read more👇🏼] #AI #learning https://t.co/DQ5RSNMHW0'}, includes={}, errors=[], meta={})
+2024-09-23 22:22:30,219 - INFO - Sleeping for 9 minutes and 8 seconds.
+2024-09-23 22:31:38,220 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-ceo-sam-altman-anticipates-superintelligence-soon-defends-ai-in-rare-personal-blog-post/ at 2024-09-23 22:31:38
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/here-is-whats-illegal-under-californias-9-and-counting-new-ai-laws/
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/sam-altman-catapults-past-founder-mode-into-god-mode-with-latest-ai-post/
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://towardsdatascience.com/using-generative-ai-to-automatically-create-a-video-talk-from-an-article-6381c44c5fe0?source=rss----7f60cf5620c9---4
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/jony-ive-and-openais-sam-altman-are-working-on-a-top-secret-ai-device/#ftag=CAD590a51e
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnry1x/p_i_built_a_live_ai_sports_commentator_that_can/
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/ephos-wants-to-shatter-the-market-for-ai-and-quantum-chips-with-a-new-design-based-on-glass/
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://www.techradar.com/pro/i-want-one-msi-quietly-debuts-sub-1kg-laptop-with-a-killer-price-tag-and-exceptional-performance-prestige-13-ai-will-appeal-to-businesses-and-no-don-t-get-put-off-by-its-lack-of-ram-upgradability
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://venturebeat.com/ai/together-ai-promises-faster-inference-and-lower-costs-with-enterprise-ai-platform-for-private-cloud/
+2024-09-23 22:31:38,220 - INFO - This link is already posted: https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.pcmag.com/news/openai-is-developing-a-hardware-device-with-ex-apple-designer-jony-ive
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://venturebeat.com/ai/altera-brings-more-ai-to-the-edge-and-cloud-with-new-programmable-chips/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/meta-connect-2024-how-to-watch-the-metaverse-and-generative-ai-event/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.techradar.com/pro/security-pros-are-stressed-by-c-suite-ai-expectations
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.techradar.com/pro/ai-is-no-silver-bullet-for-workforce-transformation-without-planning
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.pcmag.com/news/dont-need-ai-microsoft-will-let-you-customize-the-copilot-key
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://venturebeat.com/ai/openai-academy-launches-with-1m-in-developer-credits-for-devs-in-low-and-middle-income-countries/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.techradar.com/pro/visual-ai-a-future-proof-solution-for-better-meetings-today
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.wired.com/story/cloudflare-tools-detect-block-ai-bots/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://venturebeat.com/ai/how-agentic-ai-could-improve-enterprise-data-operations/
+2024-09-23 22:31:38,221 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnefsr/how_ai_companions_alleviate_loneliness_insights/
