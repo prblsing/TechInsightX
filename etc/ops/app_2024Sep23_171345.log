@@ -1,0 +1,48 @@
+2024-09-23 17:13:45,197 - INFO - Starting configuration setup
+2024-09-23 17:13:45,197 - INFO - Environment variables loaded successfully
+2024-09-23 17:13:45,198 - INFO - Twitter API client initialized successfully
+2024-09-23 17:13:47,058 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 17:13:53,771 - INFO - Summarization model initialized successfully
+2024-09-23 17:13:53,771 - INFO - Starting tweet scheduling
+2024-09-23 17:13:53,771 - INFO - Tweeting process started at 2024-09-23 17:13:53.771579!
+2024-09-23 17:13:53,771 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 17:13:53,772 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 17:14:07,704 - INFO - Total entries found: 617
+2024-09-23 17:14:07,707 - INFO - Recent AI-related entries found: 16
+2024-09-23 17:14:07,707 - INFO - Input content - content="There's a new option for securely running enterprise AI in a private cloud deployment as Together Enterprise Platform makes its debut."
+2024-09-23 17:14:07,707 - INFO - clean content - clean_content="There's a new option for securely running enterprise AI in a private cloud deployment as Together Enterprise Platform makes its debut."
+2024-09-23 17:14:07,707 - INFO - Generating summary with BART model
+2024-09-23 17:14:12,925 - INFO - Generating summary with BART model
+2024-09-23 17:14:17,518 - INFO - full_tweet="The Together Enterprise Platform lets you securely run enterprise AI in a private cloud deployment. It's..[read more👇🏼] #cloud #AI https://venturebeat.com/ai/together-ai-promises-faster-inference-and-lower-costs-with-enterprise-ai-platform-for-private-cloud/"
+2024-09-23 17:14:17,824 - INFO - Tweet posted successfully: Response(data={'id': '1838265644631928906', 'edit_history_tweet_ids': ['1838265644631928906'], 'text': "The Together Enterprise Platform lets you securely run enterprise AI in a private cloud deployment. It's..[read more👇🏼] #cloud #AI https://t.co/I9JlDtefIl"}, includes={}, errors=[], meta={})
+2024-09-23 17:14:17,824 - INFO - Sleeping for 1 minutes and 24 seconds.
+2024-09-23 17:15:41,825 - INFO - Saved posted URL: https://venturebeat.com/ai/together-ai-promises-faster-inference-and-lower-costs-with-enterprise-ai-platform-for-private-cloud/ at 2024-09-23 17:15:41
+2024-09-23 17:15:41,825 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2000/0*YihfkjrhSLSy8drj" width="2000" /></a></p><p class="medium-feed-snippet">An interaction between electronics and LLMs</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-09-23 17:15:41,825 - INFO - clean content - clean_content='An interaction between electronics and LLMsContinue reading on Towards Data Science »'
+2024-09-23 17:15:41,825 - INFO - Generating summary with BART model
+2024-09-23 17:15:47,051 - INFO - Generating summary with BART model
+2024-09-23 17:15:52,283 - INFO - full_tweet='An interaction between electronics and LLMs is a key part of Towards Data Science. In this article, we..[read more👇🏼] #Data #data https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4'
+2024-09-23 17:15:52,520 - INFO - Tweet posted successfully: Response(data={'id': '1838266041777922431', 'edit_history_tweet_ids': ['1838266041777922431'], 'text': 'An interaction between electronics and LLMs is a key part of Towards Data Science. In this article, we..[read more👇🏼] #Data #data https://t.co/LhkKWuDmaP'}, includes={}, errors=[], meta={})
+2024-09-23 17:15:52,520 - INFO - Sleeping for 8 minutes and 18 seconds.
+2024-09-23 17:24:10,521 - INFO - Saved posted URL: https://towardsdatascience.com/programming-an-arduino-with-crewai-agents-3ac5ad200fdf?source=rss----7f60cf5620c9---4 at 2024-09-23 17:24:10
+2024-09-23 17:24:10,521 - INFO - Input content - content="In an interview with The New York Times, Ive details plans for a device that is 'less socially disruptive than the iPhone.' Will it fare better than the Humane Ai Pin and Rabbit R1?"
+2024-09-23 17:24:10,521 - INFO - clean content - clean_content="In an interview with The New York Times, Ive details plans for a device that is 'less socially disruptive than the iPhone.' Will it fare better than the Humane Ai Pin and Rabbit R1?"
+2024-09-23 17:24:10,521 - INFO - Generating summary with BART model
+2024-09-23 17:24:14,656 - INFO - Generating summary with BART model
+2024-09-23 17:24:18,828 - INFO - full_tweet="Ive says he wants to make a device that is 'less socially disruptive than the iPhone' Will it fare better..[read more👇🏼] #Ai #than https://www.pcmag.com/news/openai-is-developing-a-hardware-device-with-ex-apple-designer-jony-ive"
+2024-09-23 17:24:19,142 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838268166687871189'], 'text': "Ive says he wants to make a device that is 'less socially disruptive than the iPhone' Will it fare better..[read more👇🏼] #Ai #than https://t.co/g4NtakTXbB", 'id': '1838268166687871189'}, includes={}, errors=[], meta={})
+2024-09-23 17:24:19,142 - INFO - Sleeping for 9 minutes and 0 seconds.
+2024-09-23 17:33:19,143 - INFO - Saved posted URL: https://www.pcmag.com/news/openai-is-developing-a-hardware-device-with-ex-apple-designer-jony-ive at 2024-09-23 17:33:19
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://venturebeat.com/ai/altera-brings-more-ai-to-the-edge-and-cloud-with-new-programmable-chips/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/meta-connect-2024-how-to-watch-the-metaverse-and-generative-ai-event/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.techradar.com/pro/security-pros-are-stressed-by-c-suite-ai-expectations
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/jony-ive-and-openais-sam-altman-are-working-on-a-top-secret-ai-device/#ftag=CAD590a51e
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.techradar.com/pro/ai-is-no-silver-bullet-for-workforce-transformation-without-planning
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.pcmag.com/news/dont-need-ai-microsoft-will-let-you-customize-the-copilot-key
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://venturebeat.com/ai/openai-academy-launches-with-1m-in-developer-credits-for-devs-in-low-and-middle-income-countries/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.techradar.com/pro/visual-ai-a-future-proof-solution-for-better-meetings-today
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-will-let-websites-charge-ai-bots-for-scraping/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.wired.com/story/cloudflare-tools-detect-block-ai-bots/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://venturebeat.com/ai/how-agentic-ai-could-improve-enterprise-data-operations/
+2024-09-23 17:33:19,143 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnefsr/how_ai_companions_alleviate_loneliness_insights/
