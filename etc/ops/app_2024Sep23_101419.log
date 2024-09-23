@@ -1,0 +1,18 @@
+2024-09-23 10:14:19,246 - INFO - Starting configuration setup
+2024-09-23 10:14:19,246 - INFO - Environment variables loaded successfully
+2024-09-23 10:14:19,246 - INFO - Twitter API client initialized successfully
+2024-09-23 10:14:21,190 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 10:14:28,282 - INFO - Summarization model initialized successfully
+2024-09-23 10:14:28,282 - INFO - Starting tweet scheduling
+2024-09-23 10:14:28,283 - INFO - Tweeting process started at 2024-09-23 10:14:28.283059!
+2024-09-23 10:14:28,283 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 10:14:28,283 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 10:14:40,210 - INFO - Total entries found: 617
+2024-09-23 10:14:40,213 - INFO - Recent AI-related entries found: 7
+2024-09-23 10:14:40,213 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/i-tried-google-s-new-one-click-ai-podcast-creator-and-now-i-don-t-know-what-s-real-anymore
+2024-09-23 10:14:40,213 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnefsr/how_ai_companions_alleviate_loneliness_insights/
+2024-09-23 10:14:40,213 - INFO - This link is already posted: https://www.techradar.com/pro/building-the-ai-infrastructure-of-the-future-microsoft-partners-with-blackrock-for-30b-fund-to-develop-and-power-data-centers
+2024-09-23 10:14:40,214 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/
+2024-09-23 10:14:40,214 - INFO - This link is already posted: https://techcrunch.com/2024/09/22/yup-jony-ive-is-working-on-a-new-ai-device-company-with-openai/
+2024-09-23 10:14:40,214 - INFO - This link is already posted: https://towardsdatascience.com/how-i-deal-with-hallucinations-at-an-ai-startup-9fc4121295cc?source=rss----7f60cf5620c9---4
+2024-09-23 10:14:40,214 - INFO - This link is already posted: https://www.pcmag.com/opinions/the-ai-movie-era-is-here-but-openai-is-still-working-on-its-blockbuster
