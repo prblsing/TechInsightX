@@ -1,0 +1,25 @@
+2024-09-23 12:21:31,454 - INFO - Starting configuration setup
+2024-09-23 12:21:31,454 - INFO - Environment variables loaded successfully
+2024-09-23 12:21:31,455 - INFO - Twitter API client initialized successfully
+2024-09-23 12:21:33,340 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 12:21:42,354 - INFO - Summarization model initialized successfully
+2024-09-23 12:21:42,354 - INFO - Starting tweet scheduling
+2024-09-23 12:21:42,354 - INFO - Tweeting process started at 2024-09-23 12:21:42.354670!
+2024-09-23 12:21:42,354 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 12:21:42,355 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 12:22:02,507 - INFO - Total entries found: 617
+2024-09-23 12:22:02,510 - INFO - Recent AI-related entries found: 8
+2024-09-23 12:22:02,510 - INFO - Input content - content="Voice AI company WellSaid believes it's a platform that supports AI for humanity."
+2024-09-23 12:22:02,510 - INFO - clean content - clean_content="Voice AI company WellSaid believes it's a platform that supports AI for humanity."
+2024-09-23 12:22:02,510 - INFO - Generating summary with BART model
+2024-09-23 12:22:07,131 - INFO - Generating summary with BART model
+2024-09-23 12:22:11,116 - INFO - full_tweet="Voice AI company WellSaid believes it's a platform that supports AI for humanity. WellSaid is based in..[read more👇🏼] #AI #Francisco https://www.cnet.com/tech/services-and-software/this-ai-startup-is-supporting-artificial-voices-and-the-humans-who-need-them/#ftag=CAD590a51e"
+2024-09-23 12:22:11,435 - INFO - Tweet posted successfully: Response(data={'id': '1838192133620244571', 'text': "Voice AI company WellSaid believes it's a platform that supports AI for humanity. WellSaid is based in..[read more👇🏼] #AI #Francisco https://t.co/b2HprKKN0j", 'edit_history_tweet_ids': ['1838192133620244571']}, includes={}, errors=[], meta={})
+2024-09-23 12:22:11,435 - INFO - Sleeping for 5 minutes and 17 seconds.
+2024-09-23 12:27:28,435 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/this-ai-startup-is-supporting-artificial-voices-and-the-humans-who-need-them/#ftag=CAD590a51e at 2024-09-23 12:27:28
+2024-09-23 12:27:28,435 - INFO - Input content - content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-09-23 12:27:28,435 - INFO - clean content - clean_content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-09-23 12:27:28,436 - INFO - Generating summary with BART model
+2024-09-23 12:27:33,593 - INFO - Generating summary with BART model
+2024-09-23 12:27:38,714 - INFO - full_tweet="This week in AI. Get up to speed on the rapidly evolving world of AI with our roundup of the week's..[read more👇🏼] #AI #week https://www.cnet.com/tech/computing/ai-is-evolving-even-faster-than-experts-including-bill-gates-imagined/#ftag=CAD590a51e"
+2024-09-23 12:43:59,941 - ERROR - Failed to post tweet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
