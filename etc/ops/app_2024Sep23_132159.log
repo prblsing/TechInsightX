@@ -1,0 +1,49 @@
+2024-09-23 13:21:59,960 - INFO - Starting configuration setup
+2024-09-23 13:21:59,961 - INFO - Environment variables loaded successfully
+2024-09-23 13:21:59,961 - INFO - Twitter API client initialized successfully
+2024-09-23 13:22:01,901 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-23 13:22:09,527 - INFO - Summarization model initialized successfully
+2024-09-23 13:22:09,527 - INFO - Starting tweet scheduling
+2024-09-23 13:22:09,527 - INFO - Tweeting process started at 2024-09-23 13:22:09.527957!
+2024-09-23 13:22:09,528 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep23.csv
+2024-09-23 13:22:09,528 - INFO - Fetching latest tech news from RSS feeds
+2024-09-23 13:22:23,668 - INFO - Total entries found: 587
+2024-09-23 13:22:23,670 - INFO - Recent AI-related entries found: 10
+2024-09-23 13:22:23,670 - INFO - Input content - content='<p>Cloudflare announced plans on Monday to launch a marketplace in the next year where website owners can sell AI model providers access to scrape their site&#8217;s content. The marketplace is the final step of Cloudflare CEO Matthew Prince&#8217;s larger plan to give publishers greater control over how and when AI bots scrape their websites. &#8220;If [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-23 13:22:23,671 - INFO - clean content - clean_content='Cloudflare announced plans on Monday to launch a marketplace in the next year where website owners can sell AI model providers access to scrape their site&#8217;s content. The marketplace is the final step of Cloudflare CEO Matthew Prince&#8217;s larger plan to give publishers greater control over how and when AI bots scrape their websites. &#8220;If [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-23 13:22:23,671 - INFO - Generating summary with BART model
+2024-09-23 13:22:32,148 - INFO - Generating summary with BART model
+2024-09-23 13:22:39,960 - INFO - full_tweet='Cloudflare will launch a marketplace in the next year where website owners can sell AI model providers..[read more👇🏼] #AI #marketplace https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-lets-websites-charge-ai-bots-for-scraping/'
+2024-09-23 13:22:40,263 - INFO - Tweet posted successfully: Response(data={'id': '1838207354032066979', 'edit_history_tweet_ids': ['1838207354032066979'], 'text': 'Cloudflare will launch a marketplace in the next year where website owners can sell AI model providers..[read more👇🏼] #AI #marketplace https://t.co/0Sc4RzHTUi'}, includes={}, errors=[], meta={})
+2024-09-23 13:22:40,264 - INFO - Sleeping for 5 minutes and 8 seconds.
+2024-09-23 13:27:48,264 - INFO - Saved posted URL: https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-lets-websites-charge-ai-bots-for-scraping/ at 2024-09-23 13:27:48
+2024-09-23 13:27:48,264 - INFO - Input content - content='“The path we’re on isn’t sustainable,” Cloudflare CEO Matthew Prince tells WIRED, in reference to rampant AI scraping. Here’s his plan to course-correct.'
+2024-09-23 13:27:48,264 - INFO - clean content - clean_content='“The path we’re on isn’t sustainable,” Cloudflare CEO Matthew Prince tells WIRED, in reference to rampant AI scraping. Here’s his plan to course-correct.'
+2024-09-23 13:27:48,264 - INFO - Generating summary with BART model
+2024-09-23 13:27:53,540 - INFO - Generating summary with BART model
+2024-09-23 13:27:58,718 - INFO - full_tweet='“The path we’re on isn’t sustainable,” Cloudflare CEO Matthew Prince tells WIRED. Here’s his plan to course-correct. #sustainable #Cloudflare https://www.wired.com/story/cloudflare-tools-detect-block-ai-bots/'
+2024-09-23 13:27:59,030 - INFO - Tweet posted successfully: Response(data={'id': '1838208690962252001', 'edit_history_tweet_ids': ['1838208690962252001'], 'text': '“The path we’re on isn’t sustainable,” Cloudflare CEO Matthew Prince tells WIRED. Here’s his plan to course-correct. #sustainable #Cloudflare https://t.co/U23AEBoV6v'}, includes={}, errors=[], meta={})
+2024-09-23 13:27:59,031 - INFO - Sleeping for 2 minutes and 35 seconds.
+2024-09-23 13:30:34,031 - INFO - Saved posted URL: https://www.wired.com/story/cloudflare-tools-detect-block-ai-bots/ at 2024-09-23 13:30:34
+2024-09-23 13:30:34,031 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/this-ai-startup-is-supporting-artificial-voices-and-the-humans-who-need-them/#ftag=CAD590a51e
+2024-09-23 13:30:34,031 - INFO - Input content - content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-09-23 13:30:34,031 - INFO - clean content - clean_content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-09-23 13:30:34,031 - INFO - Generating summary with BART model
+2024-09-23 13:30:39,303 - INFO - Generating summary with BART model
+2024-09-23 13:30:44,549 - INFO - full_tweet="This week in AI. Get up to speed on the rapidly evolving world of AI with our roundup of the week's..[read more👇🏼] #AI #week https://www.cnet.com/tech/computing/ai-is-evolving-even-faster-than-experts-including-bill-gates-imagined/#ftag=CAD590a51e"
+2024-09-23 13:30:44,788 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838209386159693860'], 'id': '1838209386159693860', 'text': "This week in AI. Get up to speed on the rapidly evolving world of AI with our roundup of the week's..[read more👇🏼] #AI #week https://t.co/kofuKoCTnf"}, includes={}, errors=[], meta={})
+2024-09-23 13:30:44,788 - INFO - Sleeping for 5 minutes and 50 seconds.
+2024-09-23 13:36:34,789 - INFO - Saved posted URL: https://www.cnet.com/tech/computing/ai-is-evolving-even-faster-than-experts-including-bill-gates-imagined/#ftag=CAD590a51e at 2024-09-23 13:36:34
+2024-09-23 13:36:34,789 - INFO - Input content - content='Leaks seemingly show that a serious GoPro and DJI rival could be on the horizon, the Insta360 Ace Pro 2.'
+2024-09-23 13:36:34,789 - INFO - clean content - clean_content='Leaks seemingly show that a serious GoPro and DJI rival could be on the horizon, the Insta360 Ace Pro 2.'
+2024-09-23 13:36:34,789 - INFO - Generating summary with BART model
+2024-09-23 13:36:38,951 - INFO - Generating summary with BART model
+2024-09-23 13:36:43,139 - INFO - full_tweet='The Insta360 Ace Pro 2.0 could be a serious GoPro and DJI rival. Leaks seem to show that the device could..[read more👇🏼] #serious #horizon https://www.techradar.com/cameras/action-cameras/insta360-ace-pro-2-leaks-reveal-an-8k-ai-powered-action-camera-with-better-battery-life'
+2024-09-23 13:36:43,480 - INFO - Tweet posted successfully: Response(data={'id': '1838210890690121882', 'edit_history_tweet_ids': ['1838210890690121882'], 'text': 'The Insta360 Ace Pro 2.0 could be a serious GoPro and DJI rival. Leaks seem to show that the device could..[read more👇🏼] #serious #horizon https://t.co/2i7scVG6a0'}, includes={}, errors=[], meta={})
+2024-09-23 13:36:43,480 - INFO - Sleeping for 5 minutes and 46 seconds.
+2024-09-23 13:42:29,480 - INFO - Saved posted URL: https://www.techradar.com/cameras/action-cameras/insta360-ace-pro-2-leaks-reveal-an-8k-ai-powered-action-camera-with-better-battery-life at 2024-09-23 13:42:29
+2024-09-23 13:42:29,480 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fnefsr/how_ai_companions_alleviate_loneliness_insights/
+2024-09-23 13:42:29,480 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fmy7j0/p_introducing_filewizardai_organizes_your_files/
+2024-09-23 13:42:29,481 - INFO - This link is already posted: https://techcrunch.com/2024/09/22/yup-jony-ive-is-working-on-a-new-ai-device-company-with-openai/
+2024-09-23 13:42:29,481 - INFO - This link is already posted: https://towardsdatascience.com/how-i-deal-with-hallucinations-at-an-ai-startup-9fc4121295cc?source=rss----7f60cf5620c9---4
+2024-09-23 13:42:29,481 - INFO - This link is already posted: https://www.pcmag.com/opinions/the-ai-movie-era-is-here-but-openai-is-still-working-on-its-blockbuster
