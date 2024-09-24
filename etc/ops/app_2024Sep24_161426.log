@@ -1,0 +1,50 @@
+2024-09-24 16:14:26,733 - INFO - Starting configuration setup
+2024-09-24 16:14:26,733 - INFO - Environment variables loaded successfully
+2024-09-24 16:14:26,734 - INFO - Twitter API client initialized successfully
+2024-09-24 16:14:28,596 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 16:14:36,731 - INFO - Summarization model initialized successfully
+2024-09-24 16:14:36,731 - INFO - Starting tweet scheduling
+2024-09-24 16:14:36,731 - INFO - Tweeting process started at 2024-09-24 16:14:36.731651!
+2024-09-24 16:14:36,731 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 16:14:36,732 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 16:14:50,411 - INFO - Total entries found: 617
+2024-09-24 16:14:50,414 - INFO - Recent AI-related entries found: 27
+2024-09-24 16:14:50,415 - INFO - Input content - content='The new AI-powered captioning solution can reduce time spent captioning by 80% and cost by 50%, but it would still require human oversight at first.'
+2024-09-24 16:14:50,415 - INFO - clean content - clean_content='The new AI-powered captioning solution can reduce time spent captioning by 80% and cost by 50%, but it would still require human oversight at first.'
+2024-09-24 16:14:50,415 - INFO - Generating summary with BART model
+2024-09-24 16:14:55,115 - INFO - Generating summary with BART model
+2024-09-24 16:14:59,181 - INFO - full_tweet='The new AI-powered captioning solution can reduce time spent captioning by 80% and cost by 50%. But it..[read more👇🏼] #AI #captioning https://www.pcmag.com/news/google-to-help-warner-bros-create-ai-captions-for-unscripted-shows-on-max'
+2024-09-24 16:14:59,491 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838613107788103992'], 'id': '1838613107788103992', 'text': 'The new AI-powered captioning solution can reduce time spent captioning by 80% and cost by 50%. But it..[read more👇🏼] #AI #captioning https://t.co/JcYO3LM03e'}, includes={}, errors=[], meta={})
+2024-09-24 16:14:59,491 - INFO - Sleeping for 7 minutes and 8 seconds.
+2024-09-24 16:22:07,491 - INFO - Saved posted URL: https://www.pcmag.com/news/google-to-help-warner-bros-create-ai-captions-for-unscripted-shows-on-max at 2024-09-24 16:22:07
+2024-09-24 16:22:07,491 - INFO - Input content - content='<figure>\n      <img alt="Illustration of hands and a keyboard" src="https://cdn.vox-cdn.com/thumbor/KxZTbDQ8EFzeP31WI3NSAmbJdMY=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607024/AI_Hands_A_Bernis_01.0.jpg" />\n        <figcaption>Illustration by Álvaro Bernis / The Verge</figcaption>\n    </figure>\n\n  <p id="beqGLu">Warner Bros. Discovery (WBD) is partnering with Google Cloud to <a href="https://www.prnewswire.com/news-releases/warner-bros-discovery-deploys-ai-powered-captioning-solution-built-using-google-cloud-ai-302256591.html">generate closed captioning for content</a> on the studio’s Max streaming service in the US. WBD will use a new “caption AI” solution that runs on Google Cloud’s Vertex AI platform to generate speech-to-text for some shows, starting with “unscripted programming.”</p>\n<p id="lEHPye">Captions generated for the Max shows will have human oversight for quality assurance. According to Google, the workflow will reduce caption file creation time by up to 80 percent and cut costs by up to 50 percent compared to manual methods. WBD will continuously refine and train caption AI to make fewer mistakes.</p>\n<p id="r1lUzo">Notably, most content on Max already has closed captioning tracks, and WBD hasn’t said how extensively it...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253107/warner-bros-discovery-caption-ai-google-cloud-closed-captioning">Continue reading&hellip;</a>\n  </p>'
+2024-09-24 16:22:07,492 - INFO - clean content - clean_content='Illustration by Álvaro Bernis / The Verge Warner Bros. Discovery (WBD) is partnering with Google Cloud to generate closed captioning for content on the studio’s Max streaming service in the US. WBD will use a new “caption AI” solution that runs on Google Cloud’s Vertex AI platform to generate speech-to-text for some shows, starting with “unscripted programming.” Captions generated for the Max shows will have human oversight for quality assurance. According to Google, the workflow will reduce caption file creation time by up to 80 percent and cut costs by up to 50 percent compared to manual methods. WBD will continuously refine and train caption AI to make fewer mistakes. Notably, most content on Max already has closed captioning tracks, and WBD hasn’t said how extensively it... Continue reading&hellip;'
+2024-09-24 16:22:07,492 - INFO - Generating summary with BART model
+2024-09-24 16:22:17,279 - INFO - Generating summary with BART model
+2024-09-24 16:22:27,007 - INFO - full_tweet='Warner Bros. Discovery is partnering with Google Cloud to generate closed captioning for content on the..[read more👇🏼] #Cloud #AI https://www.theverge.com/2024/9/24/24253107/warner-bros-discovery-caption-ai-google-cloud-closed-captioning'
+2024-09-24 16:22:27,513 - INFO - Tweet posted successfully: Response(data={'id': '1838614986861523230', 'edit_history_tweet_ids': ['1838614986861523230'], 'text': 'Warner Bros. Discovery is partnering with Google Cloud to generate closed captioning for content on the..[read more👇🏼] #Cloud #AI https://t.co/DAiT8tton7'}, includes={}, errors=[], meta={})
+2024-09-24 16:22:27,513 - INFO - Sleeping for 6 minutes and 17 seconds.
+2024-09-24 16:28:44,513 - INFO - Saved posted URL: https://www.theverge.com/2024/9/24/24253107/warner-bros-discovery-caption-ai-google-cloud-closed-captioning at 2024-09-24 16:28:44
+2024-09-24 16:28:44,514 - INFO - Input content - content='Researchers argue that in health care settings, “responsible use” labels could ensure AI systems are deployed appropriately.'
+2024-09-24 16:28:44,514 - INFO - clean content - clean_content='Researchers argue that in health care settings, “responsible use” labels could ensure AI systems are deployed appropriately.'
+2024-09-24 16:28:44,514 - INFO - Generating summary with BART model
+2024-09-24 16:28:50,202 - INFO - Generating summary with BART model
+2024-09-24 16:28:55,883 - INFO - full_tweet='Researchers argue that in health care settings, “responsible use’ labels could ensure AI systems are..[read more👇🏼] #AI #appropriately https://news.mit.edu/2024/3-questions-should-we-label-ai-systems-like-prescription-drugs-0924'
+2024-09-24 16:28:56,252 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838616617388814739'], 'text': 'Researchers argue that in health care settings, “responsible use’ labels could ensure AI systems are..[read more👇🏼] #AI #appropriately https://t.co/z8p395rXVd', 'id': '1838616617388814739'}, includes={}, errors=[], meta={})
+2024-09-24 16:28:56,252 - INFO - Sleeping for 7 minutes and 26 seconds.
+2024-09-24 16:36:22,253 - INFO - Saved posted URL: https://news.mit.edu/2024/3-questions-should-we-label-ai-systems-like-prescription-drugs-0924 at 2024-09-24 16:36:22
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://venturebeat.com/ai/intel-launches-xeon-6-and-gaudi-3-ai-chips-to-boost-ai-and-hpc-performance/
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-launches-bot-management-tools-to-charge-ai-bots-for-data-scraping
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/a-startup-from-ex-revolut-employees-uses-ai-to-automate-accounts-but-hopes-to-keep-accountants-in-jobs/
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/workeras-ceo-was-mentored-by-andrew-ng-now-he-wants-an-ai-agent-to-mentor-you/
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://www.pcmag.com/articles/adobe-responsible-ai-use
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/spotify-ai-playlist-rolls-out-to-the-us-canada-new-zealand/
+2024-09-24 16:36:22,253 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/snapchat-taps-googles-gemini-to-power-its-chatbots-generative-ai-features/
+2024-09-24 16:36:22,253 - INFO - Input content - content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 16:36:22,253 - INFO - clean content - clean_content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 16:36:22,253 - INFO - Generating summary with BART model
+2024-09-24 16:36:26,451 - INFO - Generating summary with BART model
+2024-09-24 16:36:30,640 - INFO - full_tweet='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device'
+2024-09-24 16:36:30,872 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
