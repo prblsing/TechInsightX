@@ -1,0 +1,51 @@
+2024-09-24 21:10:27,768 - INFO - Starting configuration setup
+2024-09-24 21:10:27,768 - INFO - Environment variables loaded successfully
+2024-09-24 21:10:27,768 - INFO - Twitter API client initialized successfully
+2024-09-24 21:10:29,675 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 21:10:46,804 - INFO - Summarization model initialized successfully
+2024-09-24 21:10:46,804 - INFO - Starting tweet scheduling
+2024-09-24 21:10:46,805 - INFO - Tweeting process started at 2024-09-24 21:10:46.804981!
+2024-09-24 21:10:46,805 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 21:10:46,805 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 21:11:07,337 - INFO - Total entries found: 617
+2024-09-24 21:11:07,340 - INFO - Recent AI-related entries found: 29
+2024-09-24 21:11:07,340 - INFO - Input content - content='<figure>\n      <img alt="California Gov. Gavin Newsom (L) talks onstage with Salesforce CEO Marc Benioff (R) during Salesforce’s Dreamforce" src="https://cdn.vox-cdn.com/thumbor/ssjMPw1AsubJQYCbkwM63Qz2CXo=/0x110:5016x3454/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607951/2172735379.0.jpg" />\n        <figcaption><em>Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week.</em> | Photo by Justin Sullivan / Getty Images</figcaption>\n    </figure>\n\n\n  \t\t <p>As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage.</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety">Continue reading&hellip;</a>\n  </p>'
+2024-09-24 21:11:07,341 - INFO - clean content - clean_content='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week. | Photo by Justin Sullivan / Getty Images As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage. Continue reading&hellip;'
+2024-09-24 21:11:07,341 - INFO - Generating summary with BART model
+2024-09-24 21:11:14,068 - INFO - Generating summary with BART model
+2024-09-24 21:11:20,210 - INFO - full_tweet='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event..[read more👇🏼] #Salesforce #Dreamforce https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety'
+2024-09-24 21:11:20,510 - INFO - Tweet posted successfully: Response(data={'text': 'Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event..[read more👇🏼] #Salesforce #Dreamforce https://t.co/Wq44WKmLxn', 'id': '1838687686816920015', 'edit_history_tweet_ids': ['1838687686816920015']}, includes={}, errors=[], meta={})
+2024-09-24 21:11:20,510 - INFO - Sleeping for 7 minutes and 36 seconds.
+2024-09-24 21:18:56,510 - INFO - Saved posted URL: https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety at 2024-09-24 21:18:56
+2024-09-24 21:18:56,510 - INFO - This link is already posted: https://www.techradar.com/pro/the-raspberry-pi-of-ai-korean-startup-wants-to-bring-ultra-cheap-high-performance-npus-to-billions-of-devices-using-its-own-secret-quantization-sauce-with-1-tops-target-on-the-horizon
+2024-09-24 21:18:56,510 - INFO - This link is already posted: https://www.theverge.com/2024/9/24/24253272/james-cameron-stability-ai
+2024-09-24 21:18:56,510 - INFO - This link is already posted: https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears
+2024-09-24 21:18:56,510 - INFO - Input content - content='The company said users are limited only to the nine voices from OpenAI. It also said that it evaluated its safety before release.'
+2024-09-24 21:18:56,511 - INFO - clean content - clean_content='The company said users are limited only to the nine voices from OpenAI. It also said that it evaluated its safety before release.'
+2024-09-24 21:18:56,511 - INFO - Generating summary with BART model
+2024-09-24 21:19:01,748 - INFO - Generating summary with BART model
+2024-09-24 21:19:06,921 - INFO - full_tweet='OpenAI said users are limited only to the nine voices from OpenAI. It also said that it evaluated its..[read more👇🏼] #said #voices https://venturebeat.com/ai/openai-finally-brings-humanlike-chatgpt-advanced-voice-mode-to-u-s-plus-team-users/'
+2024-09-24 21:19:07,239 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838689644428562815'], 'id': '1838689644428562815', 'text': 'OpenAI said users are limited only to the nine voices from OpenAI. It also said that it evaluated its..[read more👇🏼] #said #voices https://t.co/doqo4FoGDF'}, includes={}, errors=[], meta={})
+2024-09-24 21:19:07,239 - INFO - Sleeping for 6 minutes and 22 seconds.
+2024-09-24 21:25:29,240 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-finally-brings-humanlike-chatgpt-advanced-voice-mode-to-u-s-plus-team-users/ at 2024-09-24 21:25:29
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://venturebeat.com/ai/generative-ai-adoption-surpasses-early-pc-and-internet-usage-study-finds/
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://venturebeat.com/ai/ai-video-gains-boost-from-prominent-filmmakers-james-cameron-andy-serkis/
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://www.pcmag.com/news/hp-spots-a-malware-attack-that-was-likely-built-with-generative-ai
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://www.pcmag.com/news/spotifys-ai-playlist-tool-rolling-out-to-us-premium-users
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/openai-rolls-out-advanced-voice-mode-with-more-voices-and-a-new-look/
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://www.techradar.com/pro/hp-is-giving-your-printer-an-ai-upgrade-that-might-actually-solve-some-of-your-biggest-printing-problems
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://venturebeat.com/ai/microsoft-unveils-trustworthy-ai-features-to-fix-hallucinations-and-boost-privacy/
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://www.pcmag.com/news/google-to-help-warner-bros-create-ai-captions-for-unscripted-shows-on-max
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://news.mit.edu/2024/3-questions-should-we-label-ai-systems-like-prescription-drugs-0924
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://venturebeat.com/ai/intel-launches-xeon-6-and-gaudi-3-ai-chips-to-boost-ai-and-hpc-performance/
+2024-09-24 21:25:29,240 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/a-startup-from-ex-revolut-employees-uses-ai-to-automate-accounts-but-hopes-to-keep-accountants-in-jobs/
+2024-09-24 21:25:29,241 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/
+2024-09-24 21:25:29,241 - INFO - This link is already posted: https://www.pcmag.com/articles/adobe-responsible-ai-use
+2024-09-24 21:25:29,241 - INFO - Input content - content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 21:25:29,241 - INFO - clean content - clean_content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 21:25:29,241 - INFO - Generating summary with BART model
+2024-09-24 21:25:33,529 - INFO - Generating summary with BART model
+2024-09-24 21:25:37,812 - INFO - full_tweet='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device'
+2024-09-24 21:25:38,039 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
