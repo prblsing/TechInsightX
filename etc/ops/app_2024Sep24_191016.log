@@ -1,0 +1,71 @@
+2024-09-24 19:10:16,666 - INFO - Starting configuration setup
+2024-09-24 19:10:16,666 - INFO - Environment variables loaded successfully
+2024-09-24 19:10:16,666 - INFO - Twitter API client initialized successfully
+2024-09-24 19:10:18,549 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 19:10:25,408 - INFO - Summarization model initialized successfully
+2024-09-24 19:10:25,409 - INFO - Starting tweet scheduling
+2024-09-24 19:10:25,409 - INFO - Tweeting process started at 2024-09-24 19:10:25.409193!
+2024-09-24 19:10:25,409 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 19:10:25,409 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 19:10:39,396 - INFO - Total entries found: 617
+2024-09-24 19:10:39,399 - INFO - Recent AI-related entries found: 30
+2024-09-24 19:10:39,400 - INFO - Input content - content='New study reveals generative AI adoption has surpassed early PC and internet usage rates, with 39.4% of Americans now using AI tools, potentially boosting workplace productivity across industries'
+2024-09-24 19:10:39,400 - INFO - clean content - clean_content='New study reveals generative AI adoption has surpassed early PC and internet usage rates, with 39.4% of Americans now using AI tools, potentially boosting workplace productivity across industries'
+2024-09-24 19:10:39,400 - INFO - Generating summary with BART model
+2024-09-24 19:10:44,904 - INFO - Generating summary with BART model
+2024-09-24 19:10:49,748 - INFO - full_tweet='39.4% of Americans now using AI tools, potentially boosting workplace productivity across industries. New..[read more👇🏼] #AI #internet https://venturebeat.com/ai/generative-ai-adoption-surpasses-early-pc-and-internet-usage-study-finds/'
+2024-09-24 19:10:50,049 - INFO - Tweet posted successfully: Response(data={'text': '39.4% of Americans now using AI tools, potentially boosting workplace productivity across industries. New..[read more👇🏼] #AI #internet https://t.co/sYefRPUPDC', 'edit_history_tweet_ids': ['1838657360086159388'], 'id': '1838657360086159388'}, includes={}, errors=[], meta={})
+2024-09-24 19:10:50,050 - INFO - Sleeping for 4 minutes and 37 seconds.
+2024-09-24 19:15:27,050 - INFO - Saved posted URL: https://venturebeat.com/ai/generative-ai-adoption-surpasses-early-pc-and-internet-usage-study-finds/ at 2024-09-24 19:15:27
+2024-09-24 19:15:27,050 - INFO - Input content - content='Along with Snoop Dogg, it seems some of the biggest names in Hollywood and entertainment writ large are hopping on the AI video train.'
+2024-09-24 19:15:27,050 - INFO - clean content - clean_content='Along with Snoop Dogg, it seems some of the biggest names in Hollywood and entertainment writ large are hopping on the AI video train.'
+2024-09-24 19:15:27,050 - INFO - Generating summary with BART model
+2024-09-24 19:15:31,269 - INFO - Generating summary with BART model
+2024-09-24 19:15:35,505 - INFO - full_tweet='Snoop Dogg and other big names in entertainment have also posted AI videos. The company behind the videos..[read more👇🏼] #AI #videos https://venturebeat.com/ai/ai-video-gains-boost-from-prominent-filmmakers-james-cameron-andy-serkis/'
+2024-09-24 19:15:36,137 - INFO - Tweet posted successfully: Response(data={'text': 'Snoop Dogg and other big names in entertainment have also posted AI videos. The company behind the videos..[read more👇🏼] #AI #videos https://t.co/IvDqQeDt6v', 'edit_history_tweet_ids': ['1838658559401251116'], 'id': '1838658559401251116'}, includes={}, errors=[], meta={})
+2024-09-24 19:15:36,138 - INFO - Sleeping for 7 minutes and 4 seconds.
+2024-09-24 19:22:40,138 - INFO - Saved posted URL: https://venturebeat.com/ai/ai-video-gains-boost-from-prominent-filmmakers-james-cameron-andy-serkis/ at 2024-09-24 19:22:40
+2024-09-24 19:22:40,138 - INFO - Input content - content='Security researchers find that the malicious code used in the attack contained comments that were likely left by a generative AI program.'
+2024-09-24 19:22:40,138 - INFO - clean content - clean_content='Security researchers find that the malicious code used in the attack contained comments that were likely left by a generative AI program.'
+2024-09-24 19:22:40,138 - INFO - Generating summary with BART model
+2024-09-24 19:22:44,651 - INFO - Generating summary with BART model
+2024-09-24 19:22:49,176 - INFO - full_tweet='The malicious code used in the attack contained comments that were likely left by a generative AI..[read more👇🏼] #AI #malicious https://www.pcmag.com/news/hp-spots-a-malware-attack-that-was-likely-built-with-generative-ai'
+2024-09-24 19:22:49,501 - INFO - Tweet posted successfully: Response(data={'id': '1838660377678119146', 'edit_history_tweet_ids': ['1838660377678119146'], 'text': 'The malicious code used in the attack contained comments that were likely left by a generative AI..[read more👇🏼] #AI #malicious https://t.co/unPFCwxaJp'}, includes={}, errors=[], meta={})
+2024-09-24 19:22:49,501 - INFO - Sleeping for 7 minutes and 42 seconds.
+2024-09-24 19:30:31,501 - INFO - Saved posted URL: https://www.pcmag.com/news/hp-spots-a-malware-attack-that-was-likely-built-with-generative-ai at 2024-09-24 19:30:31
+2024-09-24 19:30:31,501 - INFO - Input content - content="Spotify's AI Playlist can create music collections from text prompts."
+2024-09-24 19:30:31,501 - INFO - clean content - clean_content="Spotify's AI Playlist can create music collections from text prompts."
+2024-09-24 19:30:31,501 - INFO - Generating summary with BART model
+2024-09-24 19:30:34,987 - INFO - Generating summary with BART model
+2024-09-24 19:30:38,487 - INFO - full_tweet=". Spotify's AI Playlist can create music collections from text prompts. It can also create playlists..[read more👇🏼] #AI #create https://www.pcmag.com/news/spotifys-ai-playlist-tool-rolling-out-to-us-premium-users"
+2024-09-24 19:30:38,739 - INFO - Tweet posted successfully: Response(data={'text': ". Spotify's AI Playlist can create music collections from text prompts. It can also create playlists..[read more👇🏼] #AI #create https://t.co/k1ZB3P4nY7", 'edit_history_tweet_ids': ['1838662345825935404'], 'id': '1838662345825935404'}, includes={}, errors=[], meta={})
+2024-09-24 19:30:38,739 - INFO - Sleeping for 4 minutes and 14 seconds.
+2024-09-24 19:34:52,739 - INFO - Saved posted URL: https://www.pcmag.com/news/spotifys-ai-playlist-tool-rolling-out-to-us-premium-users at 2024-09-24 19:34:52
+2024-09-24 19:34:52,739 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/openai-rolls-out-advanced-voice-mode-with-more-voices-and-a-new-look/
+2024-09-24 19:34:52,739 - INFO - This link is already posted: https://www.theverge.com/2024/9/24/24253252/figma-ai-make-designs-first-draft-app-ui-generator
+2024-09-24 19:34:52,739 - INFO - This link is already posted: https://www.techradar.com/pro/hp-is-giving-your-printer-an-ai-upgrade-that-might-actually-solve-some-of-your-biggest-printing-problems
+2024-09-24 19:34:52,740 - INFO - This link is already posted: https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot
+2024-09-24 19:34:52,740 - INFO - Input content - content="Microsoft unveils new 'Trustworthy AI' features to combat hallucinations, enhance privacy, and improve security in AI systems, setting new industry standards for responsible AI development."
+2024-09-24 19:34:52,740 - INFO - clean content - clean_content="Microsoft unveils new 'Trustworthy AI' features to combat hallucinations, enhance privacy, and improve security in AI systems, setting new industry standards for responsible AI development."
+2024-09-24 19:34:52,740 - INFO - Generating summary with BART model
+2024-09-24 19:34:58,350 - INFO - Generating summary with BART model
+2024-09-24 19:35:04,006 - INFO - full_tweet="Microsoft unveils new 'Trustworthy AI' features to combat hallucinations, enhance privacy, and improve..[read more👇🏼] #AI #Microsoft https://venturebeat.com/ai/microsoft-unveils-trustworthy-ai-features-to-fix-hallucinations-and-boost-privacy/"
+2024-09-24 19:35:04,280 - INFO - Tweet posted successfully: Response(data={'text': "Microsoft unveils new 'Trustworthy AI' features to combat hallucinations, enhance privacy, and improve..[read more👇🏼] #AI #Microsoft https://t.co/xoCyK78i0D", 'id': '1838663459262583282', 'edit_history_tweet_ids': ['1838663459262583282']}, includes={}, errors=[], meta={})
+2024-09-24 19:35:04,280 - INFO - Sleeping for 9 minutes and 27 seconds.
+2024-09-24 19:44:31,280 - INFO - Saved posted URL: https://venturebeat.com/ai/microsoft-unveils-trustworthy-ai-features-to-fix-hallucinations-and-boost-privacy/ at 2024-09-24 19:44:31
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://www.pcmag.com/news/google-to-help-warner-bros-create-ai-captions-for-unscripted-shows-on-max
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://news.mit.edu/2024/3-questions-should-we-label-ai-systems-like-prescription-drugs-0924
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://venturebeat.com/ai/intel-launches-xeon-6-and-gaudi-3-ai-chips-to-boost-ai-and-hpc-performance/
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/a-startup-from-ex-revolut-employees-uses-ai-to-automate-accounts-but-hopes-to-keep-accountants-in-jobs/
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/workeras-ceo-was-mentored-by-andrew-ng-now-he-wants-an-ai-agent-to-mentor-you/
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://www.pcmag.com/articles/adobe-responsible-ai-use
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/spotify-ai-playlist-rolls-out-to-the-us-canada-new-zealand/
+2024-09-24 19:44:31,281 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/snapchat-taps-googles-gemini-to-power-its-chatbots-generative-ai-features/
+2024-09-24 19:44:31,281 - INFO - Input content - content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 19:44:31,281 - INFO - clean content - clean_content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 19:44:31,281 - INFO - Generating summary with BART model
+2024-09-24 19:44:35,510 - INFO - Generating summary with BART model
+2024-09-24 19:44:39,728 - INFO - full_tweet='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device'
+2024-09-24 19:44:39,958 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
