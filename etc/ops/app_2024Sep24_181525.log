@@ -1,0 +1,53 @@
+2024-09-24 18:15:25,906 - INFO - Starting configuration setup
+2024-09-24 18:15:25,906 - INFO - Environment variables loaded successfully
+2024-09-24 18:15:25,906 - INFO - Twitter API client initialized successfully
+2024-09-24 18:15:27,854 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 18:15:34,412 - INFO - Summarization model initialized successfully
+2024-09-24 18:15:34,412 - INFO - Starting tweet scheduling
+2024-09-24 18:15:34,412 - INFO - Tweeting process started at 2024-09-24 18:15:34.412321!
+2024-09-24 18:15:34,412 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 18:15:34,412 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 18:15:48,491 - INFO - Total entries found: 587
+2024-09-24 18:15:48,494 - INFO - Recent AI-related entries found: 25
+2024-09-24 18:15:48,494 - INFO - Input content - content='<p>OpenAI announced it is rolling out Advanced Voice Mode (AVM) to an expanded set of ChatGPT&#8217;s paying customers on Tuesday. The audio feature, which makes ChatGPT more natural to speak with, will initially roll out to customers in ChatGPT&#8217;s Plus and Teams tiers. Enterprise and Edu customers will start receiving access next week. As part [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-24 18:15:48,495 - INFO - clean content - clean_content='OpenAI announced it is rolling out Advanced Voice Mode (AVM) to an expanded set of ChatGPT&#8217;s paying customers on Tuesday. The audio feature, which makes ChatGPT more natural to speak with, will initially roll out to customers in ChatGPT&#8217;s Plus and Teams tiers. Enterprise and Edu customers will start receiving access next week. As part [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-24 18:15:48,495 - INFO - Generating summary with BART model
+2024-09-24 18:15:55,010 - INFO - Generating summary with BART model
+2024-09-24 18:16:00,438 - INFO - full_tweet='OpenAI is rolling out Advanced Voice Mode to ChatGPT customers. The feature will initially roll out to..[read more👇🏼] #customers #out https://techcrunch.com/2024/09/24/openai-rolls-out-advanced-voice-mode-with-more-voices-and-a-new-look/'
+2024-09-24 18:16:00,743 - INFO - Tweet posted successfully: Response(data={'text': 'OpenAI is rolling out Advanced Voice Mode to ChatGPT customers. The feature will initially roll out to..[read more👇🏼] #customers #out https://t.co/vGBdhkLskf', 'edit_history_tweet_ids': ['1838643563581632517'], 'id': '1838643563581632517'}, includes={}, errors=[], meta={})
+2024-09-24 18:16:00,743 - INFO - Sleeping for 3 minutes and 18 seconds.
+2024-09-24 18:19:18,743 - INFO - Saved posted URL: https://techcrunch.com/2024/09/24/openai-rolls-out-advanced-voice-mode-with-more-voices-and-a-new-look/ at 2024-09-24 18:19:18
+2024-09-24 18:19:18,743 - INFO - Input content - content='<figure>\n      <img alt="Vector illustration of the Figma logo." src="https://cdn.vox-cdn.com/thumbor/BJ1VsS9EFawqHD7E0xLwDDHYn3k=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607402/STK273_FIGMA_D.0.jpg" />\n        <figcaption>Image: Cath Virginia / The Verge</figcaption>\n    </figure>\n\n  <p id="vbMAGr">Figma announced Make Designs in June as a way for designers to use generative AI to help start app designs, but early users quickly showed how it could mock up a weather app that looked <a href="https://www.theverge.com/2024/7/2/24190823/figma-ai-tool-apple-weather-app-copy">remarkably close</a> to Apple’s iPhone weather app. Although Figma insisted that the feature wasn’t trained on customer data — in fact, Figma said it <a href="https://www.theverge.com/2024/7/18/24201308/figma-make-designs-vet-apple">didn’t train</a> the off-the-shelf generative AI models used — the company removed the feature to give it more testing.</p>\n<p id="qWogZh">Now it’s coming back, <a href="https://www.figma.com/blog/figma-ai-first-draft/">called “First Draft,”</a> and like Figma’s other AI features, it’s available currently in a limited beta.</p>\n<p id="y9U4iH">Figma is also adding features to First Draft as part of the relaunch:</p>\n<blockquote><p id="Qu4QWL">We’re also introducing some key updates, like letting you choose from one of four libraries depending on...</p></blockquote>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253252/figma-ai-make-designs-first-draft-app-ui-generator">Continue reading&hellip;</a>\n  </p>'
+2024-09-24 18:19:18,744 - INFO - clean content - clean_content='Image: Cath Virginia / The Verge Figma announced Make Designs in June as a way for designers to use generative AI to help start app designs, but early users quickly showed how it could mock up a weather app that looked remarkably close to Apple’s iPhone weather app. Although Figma insisted that the feature wasn’t trained on customer data — in fact, Figma said it didn’t train the off-the-shelf generative AI models used — the company removed the feature to give it more testing. Now it’s coming back, called “First Draft,” and like Figma’s other AI features, it’s available currently in a limited beta. Figma is also adding features to First Draft as part of the relaunch: We’re also introducing some key updates, like letting you choose from one of four libraries depending on... Continue reading&hellip;'
+2024-09-24 18:19:18,744 - INFO - Generating summary with BART model
+2024-09-24 18:19:27,717 - INFO - Generating summary with BART model
+2024-09-24 18:19:36,773 - INFO - full_tweet='Figma announced Make Designs in June as a way for designers to use generative AI to help start app..[read more👇🏼] #app #AI https://www.theverge.com/2024/9/24/24253252/figma-ai-make-designs-first-draft-app-ui-generator'
+2024-09-24 18:19:37,057 - INFO - Tweet posted successfully: Response(data={'id': '1838644470939517124', 'text': 'Figma announced Make Designs in June as a way for designers to use generative AI to help start app..[read more👇🏼] #app #AI https://t.co/te19RmARGE', 'edit_history_tweet_ids': ['1838644470939517124']}, includes={}, errors=[], meta={})
+2024-09-24 18:19:37,057 - INFO - Sleeping for 3 minutes and 13 seconds.
+2024-09-24 18:22:50,057 - INFO - Saved posted URL: https://www.theverge.com/2024/9/24/24253252/figma-ai-make-designs-first-draft-app-ui-generator at 2024-09-24 18:22:50
+2024-09-24 18:22:50,057 - INFO - This link is already posted: https://www.techradar.com/pro/hp-is-giving-your-printer-an-ai-upgrade-that-might-actually-solve-some-of-your-biggest-printing-problems
+2024-09-24 18:22:50,057 - INFO - Input content - content='HP Print AI promises to simplify the experience of setting up a printer and automatically optimize web pages for printing.'
+2024-09-24 18:22:50,057 - INFO - clean content - clean_content='HP Print AI promises to simplify the experience of setting up a printer and automatically optimize web pages for printing.'
+2024-09-24 18:22:50,058 - INFO - Generating summary with BART model
+2024-09-24 18:22:54,819 - INFO - Generating summary with BART model
+2024-09-24 18:22:59,534 - INFO - full_tweet='HP Print AI promises to simplify the experience of setting up a printer. It will automatically optimize..[read more👇🏼] #AI #web https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot'
+2024-09-24 18:22:59,859 - INFO - Tweet posted successfully: Response(data={'text': 'HP Print AI promises to simplify the experience of setting up a printer. It will automatically optimize..[read more👇🏼] #AI #web https://t.co/mWCeskSp7y', 'edit_history_tweet_ids': ['1838645321271771331'], 'id': '1838645321271771331'}, includes={}, errors=[], meta={})
+2024-09-24 18:22:59,859 - INFO - Sleeping for 2 minutes and 17 seconds.
+2024-09-24 18:25:16,859 - INFO - Saved posted URL: https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot at 2024-09-24 18:25:16
+2024-09-24 18:25:16,859 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/ai-surprised-me-by-giving-good-dating-advice-how-to-gain-its-insights/#ftag=CAD590a51e
+2024-09-24 18:25:16,859 - INFO - This link is already posted: https://www.pcmag.com/news/google-to-help-warner-bros-create-ai-captions-for-unscripted-shows-on-max
+2024-09-24 18:25:16,859 - INFO - This link is already posted: https://news.mit.edu/2024/3-questions-should-we-label-ai-systems-like-prescription-drugs-0924
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-launches-bot-management-tools-to-charge-ai-bots-for-data-scraping
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/a-startup-from-ex-revolut-employees-uses-ai-to-automate-accounts-but-hopes-to-keep-accountants-in-jobs/
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/workeras-ceo-was-mentored-by-andrew-ng-now-he-wants-an-ai-agent-to-mentor-you/
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://www.pcmag.com/articles/adobe-responsible-ai-use
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/spotify-ai-playlist-rolls-out-to-the-us-canada-new-zealand/
+2024-09-24 18:25:16,860 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/snapchat-taps-googles-gemini-to-power-its-chatbots-generative-ai-features/
+2024-09-24 18:25:16,860 - INFO - Input content - content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 18:25:16,860 - INFO - clean content - clean_content='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your mobile device via the right shortcuts, tricks, and third-party apps.'
+2024-09-24 18:25:16,860 - INFO - Generating summary with BART model
+2024-09-24 18:25:21,346 - INFO - Generating summary with BART model
+2024-09-24 18:25:25,808 - INFO - full_tweet='OpenAI offers a free ChatGPT app for iOS, iPadOS, and Android. But you can also chat with an AI on your..[read more👇🏼] #mobile #app https://www.pcmag.com/how-to/ai-on-the-go-how-to-use-chatgpt-from-your-mobile-device'
+2024-09-24 18:25:25,885 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
