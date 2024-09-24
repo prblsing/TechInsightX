@@ -1,0 +1,42 @@
+2024-09-24 20:13:35,428 - INFO - Starting configuration setup
+2024-09-24 20:13:35,428 - INFO - Environment variables loaded successfully
+2024-09-24 20:13:35,428 - INFO - Twitter API client initialized successfully
+2024-09-24 20:13:37,297 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 20:13:44,277 - INFO - Summarization model initialized successfully
+2024-09-24 20:13:44,277 - INFO - Starting tweet scheduling
+2024-09-24 20:13:44,277 - INFO - Tweeting process started at 2024-09-24 20:13:44.277922!
+2024-09-24 20:13:44,278 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 20:13:44,278 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 20:13:58,218 - INFO - Total entries found: 617
+2024-09-24 20:13:58,221 - INFO - Recent AI-related entries found: 32
+2024-09-24 20:13:58,221 - INFO - Input content - content='DeepX is partnering with LG to get its NPUs into mobile devices, cars, and white goods'
+2024-09-24 20:13:58,221 - INFO - clean content - clean_content='DeepX is partnering with LG to get its NPUs into mobile devices, cars, and white goods'
+2024-09-24 20:13:58,221 - INFO - Generating summary with BART model
+2024-09-24 20:14:03,895 - INFO - Generating summary with BART model
+2024-09-24 20:14:08,920 - INFO - full_tweet="DeepX is partnering with LG to get its NPUs into mobile devices, cars, and white goods. DeepX's NPU..[read more👇🏼] #technology #mobile https://www.techradar.com/pro/the-raspberry-pi-of-ai-korean-startup-wants-to-bring-ultra-cheap-high-performance-npus-to-billions-of-devices-using-its-own-secret-quantization-sauce-with-1-tops-target-on-the-horizon"
+2024-09-24 20:14:09,223 - INFO - Tweet posted successfully: Response(data={'id': '1838673294884560969', 'text': "DeepX is partnering with LG to get its NPUs into mobile devices, cars, and white goods. DeepX's NPU..[read more👇🏼] #technology #mobile https://t.co/j3rQCn6aPa", 'edit_history_tweet_ids': ['1838673294884560969']}, includes={}, errors=[], meta={})
+2024-09-24 20:14:09,223 - INFO - Sleeping for 7 minutes and 47 seconds.
+2024-09-24 20:21:56,223 - INFO - Saved posted URL: https://www.techradar.com/pro/the-raspberry-pi-of-ai-korean-startup-wants-to-bring-ultra-cheap-high-performance-npus-to-billions-of-devices-using-its-own-secret-quantization-sauce-with-1-tops-target-on-the-horizon at 2024-09-24 20:21:56
+2024-09-24 20:21:56,223 - INFO - Input content - content='<figure>\n      <img alt="A man in a black suit speaking into a microphone while standing in front of a blue backdrop with the words “Avatar: The Way of Water” written across it." src="https://cdn.vox-cdn.com/thumbor/Kyf4vev1WMnUy_2wpFANPOp3v94=/0x6:3094x2069/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607762/1456244157.0.jpg" />\n        <figcaption>Image: Getty</figcaption>\n    </figure>\n\n  <p id="AOsbXb">Though director James Cameron <a href="https://www.businessinsider.com/james-cameron-bill-gates-ai-hard-write-science-fiction-2024-9">recently expressed concern</a> about the potential of artificial intelligence to leave people without a sense of purpose, the <a href="https://www.theverge.com/23473033/avatar-way-of-water-trailer-technology-james-cameron">longtime early adopter</a> has now joined Stability AI’s board of directors.</p>\n<p id="h0IBFU">Today, Stability AI — the company behind Stable Diffusion — announced that Cameron has signed a deal to become <a href="https://stability.ai/news/james-cameron-joins-stability-ai-board-of-directors">the newest member of its executive leadership team</a>. In a statement, CEO Prem Akkaraju described Cameron’s coming on as a “monumental statement” for the AI industry as a whole and described the director as someone who “lives in the future and waits for the rest of us to catch up.” Cameron cited his long history of experimenting with emerging technologies as part of what inspired him to join Stability AI’s...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253272/james-cameron-stability-ai">Continue reading&hellip;</a>\n  </p>'
+2024-09-24 20:21:56,224 - INFO - clean content - clean_content='Image: Getty Though director James Cameron recently expressed concern about the potential of artificial intelligence to leave people without a sense of purpose, the longtime early adopter has now joined Stability AI’s board of directors. Today, Stability AI — the company behind Stable Diffusion — announced that Cameron has signed a deal to become the newest member of its executive leadership team. In a statement, CEO Prem Akkaraju described Cameron’s coming on as a “monumental statement” for the AI industry as a whole and described the director as someone who “lives in the future and waits for the rest of us to catch up.” Cameron cited his long history of experimenting with emerging technologies as part of what inspired him to join Stability AI’s... Continue reading&hellip;'
+2024-09-24 20:21:56,224 - INFO - Generating summary with BART model
+2024-09-24 20:22:02,015 - INFO - Generating summary with BART model
+2024-09-24 20:22:07,814 - INFO - full_tweet='James Cameron has joined the board of Stability AI. The company is the company behind Stable Diffusion...[read more👇🏼] #AI #Cameron https://www.theverge.com/2024/9/24/24253272/james-cameron-stability-ai'
+2024-09-24 20:22:08,181 - INFO - Tweet posted successfully: Response(data={'text': 'James Cameron has joined the board of Stability AI. The company is the company behind Stable Diffusion...[read more👇🏼] #AI #Cameron https://t.co/pHVgQLs4H6', 'edit_history_tweet_ids': ['1838675303750623684'], 'id': '1838675303750623684'}, includes={}, errors=[], meta={})
+2024-09-24 20:22:08,182 - INFO - Sleeping for 6 minutes and 38 seconds.
+2024-09-24 20:28:46,182 - INFO - Saved posted URL: https://www.theverge.com/2024/9/24/24253272/james-cameron-stability-ai at 2024-09-24 20:28:46
+2024-09-24 20:28:46,182 - INFO - Input content - content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-24 20:28:46,182 - INFO - clean content - clean_content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-24 20:28:46,182 - INFO - Generating summary with BART model
+2024-09-24 20:28:50,227 - INFO - Generating summary with BART model
+2024-09-24 20:28:54,311 - INFO - full_tweet="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears"
+2024-09-24 20:28:55,010 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838677010236768463'], 'text': "US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://t.co/dTN1s6a6ks", 'id': '1838677010236768463'}, includes={}, errors=[], meta={})
+2024-09-24 20:28:55,010 - INFO - Sleeping for 9 minutes and 28 seconds.
+2024-09-24 20:38:23,011 - INFO - Saved posted URL: https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears at 2024-09-24 20:38:23
+2024-09-24 20:38:23,011 - INFO - Input content - content='The company said users are limited only to the nine voices from OpenAI. It also said that it evaluated its safety before release.'
+2024-09-24 20:38:23,011 - INFO - clean content - clean_content='The company said users are limited only to the nine voices from OpenAI. It also said that it evaluated its safety before release.'
+2024-09-24 20:38:23,011 - INFO - Generating summary with BART model
+2024-09-24 20:38:28,306 - INFO - Generating summary with BART model
+2024-09-24 20:38:33,574 - INFO - full_tweet='OpenAI said users are limited only to the nine voices from OpenAI. It also said that it evaluated its..[read more👇🏼] #said #voices https://venturebeat.com/ai/openai-finally-brings-humanlike-chatgpt-advanced-voice-mode-to-u-s-plus-team-users/'
+2024-09-24 20:38:33,756 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
