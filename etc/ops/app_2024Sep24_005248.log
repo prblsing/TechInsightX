@@ -1,0 +1,43 @@
+2024-09-24 00:52:48,586 - INFO - Starting configuration setup
+2024-09-24 00:52:48,586 - INFO - Environment variables loaded successfully
+2024-09-24 00:52:48,586 - INFO - Twitter API client initialized successfully
+2024-09-24 00:52:50,470 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 00:52:58,221 - INFO - Summarization model initialized successfully
+2024-09-24 00:52:58,221 - INFO - Starting tweet scheduling
+2024-09-24 00:52:58,222 - INFO - Tweeting process started at 2024-09-24 00:52:58.221984!
+2024-09-24 00:52:58,222 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 00:52:58,222 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 00:52:58,222 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 00:53:13,859 - INFO - Total entries found: 617
+2024-09-24 00:53:13,861 - INFO - Recent AI-related entries found: 25
+2024-09-24 00:53:13,862 - INFO - Input content - content='OpenAI releases multilingual AI dataset evaluating 14 languages to expand global reach and accessibility of language models.'
+2024-09-24 00:53:13,862 - INFO - clean content - clean_content='OpenAI releases multilingual AI dataset evaluating 14 languages to expand global reach and accessibility of language models.'
+2024-09-24 00:53:13,862 - INFO - Generating summary with BART model
+2024-09-24 00:53:20,229 - INFO - Generating summary with BART model
+2024-09-24 00:53:25,972 - INFO - full_tweet='OpenAI releases multilingual AI dataset evaluating 14 languages to expand global reach and accessibility..[read more👇🏼] #AI #languages https://venturebeat.com/ai/openai-tackles-global-language-divide-with-massive-multilingual-ai-dataset-release/'
+2024-09-24 00:53:26,233 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838381191101075744'], 'text': 'OpenAI releases multilingual AI dataset evaluating 14 languages to expand global reach and accessibility..[read more👇🏼] #AI #languages https://t.co/u8C25pSBJI', 'id': '1838381191101075744'}, includes={}, errors=[], meta={})
+2024-09-24 00:53:26,233 - INFO - Sleeping for 7 minutes and 10 seconds.
+2024-09-24 01:00:36,233 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-tackles-global-language-divide-with-massive-multilingual-ai-dataset-release/ at 2024-09-24 01:00:36
+2024-09-24 01:00:36,233 - INFO - Input content - content='<figure>\n      <img alt="Vector illustration of the Chat GPT logo." src="https://cdn.vox-cdn.com/thumbor/lX9fIJVTZCpCyXHWCEWf6oXNkf8=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73605702/STK155_OPEN_AI_CVirginia_2_D.0.jpg" />\n        <figcaption>Image: The Verge</figcaption>\n    </figure>\n\n  <p id="0dYfAz">An official OpenAI account on X was taken over to peddle a cryptocurrency scam on Monday evening.</p>\n<p id="TRCVyy">On Monday at 6:24PM ET, the @OpenAINewsroom account, which shares news from OpenAI and has nearly 54,000 followers, made a now-deleted post advertising an “$OPENAI” token.</p>\n<p id="kMKclz">“We’re very happy to announce $OPEANAI: the token bridging the gap between Al and blockchain technology,” the post said. “All OpenAI users are eligible to claim a piece of $OPENAI’s initial supply. Holding $OPENAI will grant access to all of our future beta programs.” The post also included a link to a spoofed version of OpenAI’s website at a URL that wasn’t <a href="http://openai.com">openai.com</a>.</p>\n<figure class="e-image">\n        \n      <cite>Screenshot by Jay Peters / The Verge</cite>\n      <figcaption><em>Two posts from the hijacked OpenAI Newsroom...</em></figcaption></figure>\n  <p>\n    <a href="https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom">Continue reading&hellip;</a>\n  </p>'
+2024-09-24 01:00:36,234 - INFO - clean content - clean_content='Image: The Verge An official OpenAI account on X was taken over to peddle a cryptocurrency scam on Monday evening. On Monday at 6:24PM ET, the @OpenAINewsroom account, which shares news from OpenAI and has nearly 54,000 followers, made a now-deleted post advertising an “$OPENAI” token. “We’re very happy to announce $OPEANAI: the token bridging the gap between Al and blockchain technology,” the post said. “All OpenAI users are eligible to claim a piece of $OPENAI’s initial supply. Holding $OPENAI will grant access to all of our future beta programs.” The post also included a link to a spoofed version of OpenAI’s website at a URL that wasn’t openai.com. Screenshot by Jay Peters / The Verge Two posts from the hijacked OpenAI Newsroom... Continue reading&hellip;'
+2024-09-24 01:00:36,234 - INFO - Generating summary with BART model
+2024-09-24 01:00:46,337 - INFO - Generating summary with BART model
+2024-09-24 01:00:56,497 - INFO - full_tweet='An official OpenAI account on X was taken over to peddle a cryptocurrency scam. The @OpenAINewsroom..[read more👇🏼] #cryptocurrency #account https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom'
+2024-09-24 01:00:56,796 - INFO - Tweet posted successfully: Response(data={'id': '1838383080840609830', 'text': 'An official OpenAI account on X was taken over to peddle a cryptocurrency scam. The @OpenAINewsroom..[read more👇🏼] #cryptocurrency #account https://t.co/dDcIk9tnX7', 'edit_history_tweet_ids': ['1838383080840609830']}, includes={}, errors=[], meta={})
+2024-09-24 01:00:56,796 - INFO - Sleeping for 2 minutes and 45 seconds.
+2024-09-24 01:03:41,796 - INFO - Saved posted URL: https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom at 2024-09-24 01:03:41
+2024-09-24 01:03:41,796 - INFO - Input content - content='<p>OpenAI&#8217;s official press account on X appears to have been compromised by the same cryptocurrency scammers who did the same with company leadership in previous months. Late Monday afternoon, OpenAI Newsroom, an account OpenAI recently created to spotlight product- and policy-related announcements, posted about a supposedly new OpenAI-branded blockchain token, &#8220;$OPENAI.&#8221; &#8220;We&#8217;re very happy to [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-24 01:03:41,797 - INFO - clean content - clean_content='OpenAI&#8217;s official press account on X appears to have been compromised by the same cryptocurrency scammers who did the same with company leadership in previous months. Late Monday afternoon, OpenAI Newsroom, an account OpenAI recently created to spotlight product- and policy-related announcements, posted about a supposedly new OpenAI-branded blockchain token, &#8220;$OPENAI.&#8221; &#8220;We&#8217;re very happy to [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-24 01:03:41,797 - INFO - Generating summary with BART model
+2024-09-24 01:03:48,133 - INFO - Generating summary with BART model
+2024-09-24 01:03:54,450 - INFO - full_tweet="OpenAI's official press account on X appears to have been compromised by the same cryptocurrency scammers..[read more👇🏼] #cryptocurrency #same https://techcrunch.com/2024/09/23/crypto-scammers-hack-openais-press-account-on-x/"
+2024-09-24 01:03:54,653 - INFO - Tweet posted successfully: Response(data={'id': '1838383826906632321', 'text': "OpenAI's official press account on X appears to have been compromised by the same cryptocurrency scammers..[read more👇🏼] #cryptocurrency #same https://t.co/HzWKmb4CYo", 'edit_history_tweet_ids': ['1838383826906632321']}, includes={}, errors=[], meta={})
+2024-09-24 01:03:54,653 - INFO - Sleeping for 9 minutes and 15 seconds.
+2024-09-24 01:13:09,654 - INFO - Saved posted URL: https://techcrunch.com/2024/09/23/crypto-scammers-hack-openais-press-account-on-x/ at 2024-09-24 01:13:09
+2024-09-24 01:13:09,654 - INFO - Input content - content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 01:13:09,654 - INFO - clean content - clean_content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 01:13:09,654 - INFO - Generating summary with BART model
+2024-09-24 01:13:14,497 - INFO - Generating summary with BART model
+2024-09-24 01:13:19,340 - INFO - full_tweet="Lifetime subscription to CNN.com includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform"
+2024-09-24 01:13:19,486 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
