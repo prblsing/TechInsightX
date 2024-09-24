@@ -1,0 +1,47 @@
+2024-09-24 04:14:39,680 - INFO - Starting configuration setup
+2024-09-24 04:14:39,680 - INFO - Environment variables loaded successfully
+2024-09-24 04:14:39,680 - INFO - Twitter API client initialized successfully
+2024-09-24 04:14:41,522 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 04:14:52,328 - INFO - Summarization model initialized successfully
+2024-09-24 04:14:52,328 - INFO - Starting tweet scheduling
+2024-09-24 04:14:52,328 - INFO - Tweeting process started at 2024-09-24 04:14:52.328439!
+2024-09-24 04:14:52,328 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 04:14:52,328 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 04:15:11,266 - INFO - Total entries found: 617
+2024-09-24 04:15:11,268 - INFO - Recent AI-related entries found: 27
+2024-09-24 04:15:11,269 - INFO - Input content - content='Alibaba reveals a new text-to-video AI tool.'
+2024-09-24 04:15:11,269 - INFO - clean content - clean_content='Alibaba reveals a new text-to-video AI tool.'
+2024-09-24 04:15:11,269 - INFO - Generating summary with BART model
+2024-09-24 04:15:16,530 - INFO - Generating summary with BART model
+2024-09-24 04:15:21,165 - INFO - full_tweet='Alibaba reveals a new text-to-video AI tool. The company is hoping to use the technology to improve..[read more👇🏼] #technology #mobile https://www.techradar.com/computing/artificial-intelligence/alibabas-new-ai-video-generator-joins-growing-crowd-of-sora-competitors'
+2024-09-24 04:15:21,442 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838432005991862398'], 'id': '1838432005991862398', 'text': 'Alibaba reveals a new text-to-video AI tool. The company is hoping to use the technology to improve..[read more👇🏼] #technology #mobile https://t.co/qzEVItyUZn'}, includes={}, errors=[], meta={})
+2024-09-24 04:15:21,442 - INFO - Sleeping for 6 minutes and 56 seconds.
+2024-09-24 04:22:17,442 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/alibabas-new-ai-video-generator-joins-growing-crowd-of-sora-competitors at 2024-09-24 04:22:17
+2024-09-24 04:22:17,443 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-just-made-a-mockery-of-captcha-and-thats-bad-news-for-real-people
+2024-09-24 04:22:17,443 - INFO - This link is already posted: https://venturebeat.com/ai/openai-tackles-global-language-divide-with-massive-multilingual-ai-dataset-release/
+2024-09-24 04:22:17,443 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/us-state-department-and-big-tech-will-invest-100-million-in-global-ai-access/#ftag=CAD590a51e
+2024-09-24 04:22:17,443 - INFO - This link is already posted: https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom
+2024-09-24 04:22:17,443 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/crypto-scammers-hack-openais-press-account-on-x/
+2024-09-24 04:22:17,443 - INFO - Input content - content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 04:22:17,443 - INFO - clean content - clean_content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 04:22:17,443 - INFO - Generating summary with BART model
+2024-09-24 04:22:22,435 - INFO - Generating summary with BART model
+2024-09-24 04:22:27,415 - INFO - full_tweet="Lifetime subscription to CNN.com includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform"
+2024-09-24 04:22:27,710 - INFO - Tweet posted successfully: Response(data={'text': "Lifetime subscription to https://t.co/O2xYLX3il1 includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://t.co/p38KycxAT2", 'edit_history_tweet_ids': ['1838433793826525202'], 'id': '1838433793826525202'}, includes={}, errors=[], meta={})
+2024-09-24 04:22:27,710 - INFO - Sleeping for 4 minutes and 8 seconds.
+2024-09-24 04:26:35,710 - INFO - Saved posted URL: https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform at 2024-09-24 04:26:35
+2024-09-24 04:26:35,710 - INFO - Input content - content='In a manifesto, OpenAI CEO Sam Altman said deep learning and AI can solve the climate crisis and other remaining societal problems.'
+2024-09-24 04:26:35,711 - INFO - clean content - clean_content='In a manifesto, OpenAI CEO Sam Altman said deep learning and AI can solve the climate crisis and other remaining societal problems.'
+2024-09-24 04:26:35,711 - INFO - Generating summary with BART model
+2024-09-24 04:26:40,572 - INFO - Generating summary with BART model
+2024-09-24 04:26:45,421 - INFO - full_tweet='OpenAI CEO Sam Altman says deep learning and AI can solve the climate crisis and other remaining societal..[read more👇🏼] #AI #learning https://venturebeat.com/ai/openai-ceo-sam-altman-anticipates-superintelligence-soon-defends-ai-in-rare-personal-blog-post/'
+2024-09-24 04:26:45,640 - INFO - Tweet posted successfully: Response(data={'id': '1838434875680133218', 'edit_history_tweet_ids': ['1838434875680133218'], 'text': 'OpenAI CEO Sam Altman says deep learning and AI can solve the climate crisis and other remaining societal..[read more👇🏼] #AI #learning https://t.co/DQ5RSNNfLy'}, includes={}, errors=[], meta={})
+2024-09-24 04:26:45,640 - INFO - Sleeping for 9 minutes and 45 seconds.
+2024-09-24 04:36:30,641 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-ceo-sam-altman-anticipates-superintelligence-soon-defends-ai-in-rare-personal-blog-post/ at 2024-09-24 04:36:30
+2024-09-24 04:36:30,641 - INFO - Input content - content='<p>California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. These bills try to address the most pressing issues in artificial intelligence: everything from futuristic AI systems creating existential risk, deepfake nudes from AI image generators, to Hollywood [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-24 04:36:30,641 - INFO - clean content - clean_content='California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. These bills try to address the most pressing issues in artificial intelligence: everything from futuristic AI systems creating existential risk, deepfake nudes from AI image generators, to Hollywood [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-24 04:36:30,641 - INFO - Generating summary with BART model
+2024-09-24 04:36:35,056 - INFO - Generating summary with BART model
+2024-09-24 04:36:39,460 - INFO - full_tweet='California Governor Gavin Newsom is currently considering 38 AI-related bills, including the highly..[read more👇🏼] #AI #bills https://techcrunch.com/2024/09/23/here-is-whats-illegal-under-californias-9-and-counting-new-ai-laws/'
+2024-09-24 04:36:39,633 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
