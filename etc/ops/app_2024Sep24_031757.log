@@ -1,0 +1,23 @@
+2024-09-24 03:17:57,435 - INFO - Starting configuration setup
+2024-09-24 03:17:57,435 - INFO - Environment variables loaded successfully
+2024-09-24 03:17:57,435 - INFO - Twitter API client initialized successfully
+2024-09-24 03:17:59,395 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 03:18:10,303 - INFO - Summarization model initialized successfully
+2024-09-24 03:18:10,303 - INFO - Starting tweet scheduling
+2024-09-24 03:18:10,304 - INFO - Tweeting process started at 2024-09-24 03:18:10.304042!
+2024-09-24 03:18:10,304 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 03:18:10,304 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 03:18:38,765 - INFO - Total entries found: 617
+2024-09-24 03:18:38,768 - INFO - Recent AI-related entries found: 27
+2024-09-24 03:18:38,768 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-just-made-a-mockery-of-captcha-and-thats-bad-news-for-real-people
+2024-09-24 03:18:38,769 - INFO - This link is already posted: https://venturebeat.com/ai/openai-tackles-global-language-divide-with-massive-multilingual-ai-dataset-release/
+2024-09-24 03:18:38,769 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/us-state-department-and-big-tech-will-invest-100-million-in-global-ai-access/#ftag=CAD590a51e
+2024-09-24 03:18:38,769 - INFO - This link is already posted: https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom
+2024-09-24 03:18:38,769 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/crypto-scammers-hack-openais-press-account-on-x/
+2024-09-24 03:18:38,769 - INFO - Input content - content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 03:18:38,769 - INFO - clean content - clean_content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 03:18:38,769 - INFO - Generating summary with BART model
+2024-09-24 03:18:44,502 - INFO - Generating summary with BART model
+2024-09-24 03:18:49,538 - INFO - full_tweet="Lifetime subscription to CNN.com includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform"
+2024-09-24 03:18:49,695 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
