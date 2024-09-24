@@ -1,0 +1,37 @@
+2024-09-24 02:14:43,461 - INFO - Starting configuration setup
+2024-09-24 02:14:43,461 - INFO - Environment variables loaded successfully
+2024-09-24 02:14:43,461 - INFO - Twitter API client initialized successfully
+2024-09-24 02:14:45,315 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 02:14:52,441 - INFO - Summarization model initialized successfully
+2024-09-24 02:14:52,442 - INFO - Starting tweet scheduling
+2024-09-24 02:14:52,442 - INFO - Tweeting process started at 2024-09-24 02:14:52.442227!
+2024-09-24 02:14:52,442 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 02:14:52,442 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 02:15:05,750 - INFO - Total entries found: 617
+2024-09-24 02:15:05,753 - INFO - Recent AI-related entries found: 27
+2024-09-24 02:15:05,753 - INFO - Input content - content='Study shows AI besting CAPTCHA tests perfectly.'
+2024-09-24 02:15:05,753 - INFO - clean content - clean_content='Study shows AI besting CAPTCHA tests perfectly.'
+2024-09-24 02:15:05,753 - INFO - Generating summary with BART model
+2024-09-24 02:15:11,031 - INFO - Generating summary with BART model
+2024-09-24 02:15:15,725 - INFO - full_tweet='Study shows AI besting CAPTCHA tests perfectly. Study shows AI bettering CAPtCHA tests than humans...[read more👇🏼] #AI #computer https://www.techradar.com/computing/artificial-intelligence/ai-just-made-a-mockery-of-captcha-and-thats-bad-news-for-real-people'
+2024-09-24 02:15:16,071 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838401784340942963'], 'text': 'Study shows AI besting CAPTCHA tests perfectly. Study shows AI bettering CAPtCHA tests than humans...[read more👇🏼] #AI #computer https://t.co/B27mCAwz7U', 'id': '1838401784340942963'}, includes={}, errors=[], meta={})
+2024-09-24 02:15:16,072 - INFO - Sleeping for 3 minutes and 34 seconds.
+2024-09-24 02:18:50,072 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/ai-just-made-a-mockery-of-captcha-and-thats-bad-news-for-real-people at 2024-09-24 02:18:50
+2024-09-24 02:18:50,072 - INFO - This link is already posted: https://venturebeat.com/ai/openai-tackles-global-language-divide-with-massive-multilingual-ai-dataset-release/
+2024-09-24 02:18:50,072 - INFO - Input content - content="Secretary of State Antony Blinken spoke highly of AI's impact on the world, but only if the tech was equally available."
+2024-09-24 02:18:50,072 - INFO - clean content - clean_content="Secretary of State Antony Blinken spoke highly of AI's impact on the world, but only if the tech was equally available."
+2024-09-24 02:18:50,072 - INFO - Generating summary with BART model
+2024-09-24 02:18:55,198 - INFO - Generating summary with BART model
+2024-09-24 02:19:00,322 - INFO - full_tweet="Secretary of State Antony Blinken spoke highly of AI's impact on the world. But only if the tech was..[read more👇🏼] #tech #AI https://www.cnet.com/tech/services-and-software/us-state-department-and-big-tech-will-invest-100-million-in-global-ai-access/#ftag=CAD590a51e"
+2024-09-24 02:19:00,536 - INFO - Tweet posted successfully: Response(data={'text': "Secretary of State Antony Blinken spoke highly of AI's impact on the world. But only if the tech was..[read more👇🏼] #tech #AI https://t.co/5BnRurZLNB", 'id': '1838402725903573037', 'edit_history_tweet_ids': ['1838402725903573037']}, includes={}, errors=[], meta={})
+2024-09-24 02:19:00,536 - INFO - Sleeping for 5 minutes and 10 seconds.
+2024-09-24 02:24:10,537 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/us-state-department-and-big-tech-will-invest-100-million-in-global-ai-access/#ftag=CAD590a51e at 2024-09-24 02:24:10
+2024-09-24 02:24:10,537 - INFO - This link is already posted: https://www.theverge.com/2024/9/23/24252664/openai-x-account-crypto-scam-newsroom
+2024-09-24 02:24:10,537 - INFO - This link is already posted: https://techcrunch.com/2024/09/23/crypto-scammers-hack-openais-press-account-on-x/
+2024-09-24 02:24:10,537 - INFO - Input content - content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 02:24:10,537 - INFO - clean content - clean_content='Access powerful AI tools under one "roof" with a lifetime subscription.'
+2024-09-24 02:24:10,537 - INFO - Generating summary with BART model
+2024-09-24 02:24:15,310 - INFO - Generating summary with BART model
+2024-09-24 02:24:20,106 - INFO - full_tweet="Lifetime subscription to CNN.com includes access to all of the site's news, features and analysis. Use..[read more👇🏼] #CNN #subscription https://www.pcmag.com/deals/ditch-the-dozens-of-apps-with-this-all-in-one-ai-platform"
+2024-09-24 02:24:20,276 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
