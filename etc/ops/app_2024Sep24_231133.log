@@ -1,0 +1,18 @@
+2024-09-24 23:11:33,801 - INFO - Starting configuration setup
+2024-09-24 23:11:33,802 - INFO - Environment variables loaded successfully
+2024-09-24 23:11:33,802 - INFO - Twitter API client initialized successfully
+2024-09-24 23:11:35,699 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-24 23:11:43,736 - INFO - Summarization model initialized successfully
+2024-09-24 23:11:43,737 - INFO - Starting tweet scheduling
+2024-09-24 23:11:43,737 - INFO - Tweeting process started at 2024-09-24 23:11:43.737173!
+2024-09-24 23:11:43,737 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep24.csv
+2024-09-24 23:11:43,737 - INFO - Fetching latest tech news from RSS feeds
+2024-09-24 23:11:57,572 - INFO - Total entries found: 617
+2024-09-24 23:11:57,575 - INFO - Recent AI-related entries found: 32
+2024-09-24 23:11:57,575 - INFO - Input content - content='YouTube rolls out AI chatbot to discuss videos.'
+2024-09-24 23:11:57,575 - INFO - clean content - clean_content='YouTube rolls out AI chatbot to discuss videos.'
+2024-09-24 23:11:57,575 - INFO - Generating summary with BART model
+2024-09-24 23:12:02,063 - INFO - Generating summary with BART model
+2024-09-24 23:12:05,930 - INFO - full_tweet='YouTube rolls out AI chatbot to discuss videos. YouTube rolls outAI chatbot for the first time to chat..[read more👇🏼] #AI #chatbot https://www.techradar.com/computing/artificial-intelligence/too-long-didnt-watch-youtubes-ai-chatbot-will-answer-your-questions-about-the-video'
+2024-09-24 23:12:06,069 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
