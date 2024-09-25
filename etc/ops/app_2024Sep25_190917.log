@@ -1,0 +1,18 @@
+2024-09-25 19:09:17,471 - INFO - Starting configuration setup
+2024-09-25 19:09:17,471 - INFO - Environment variables loaded successfully
+2024-09-25 19:09:17,471 - INFO - Twitter API client initialized successfully
+2024-09-25 19:09:19,332 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 19:09:29,307 - INFO - Summarization model initialized successfully
+2024-09-25 19:09:29,308 - INFO - Starting tweet scheduling
+2024-09-25 19:09:29,308 - INFO - Tweeting process started at 2024-09-25 19:09:29.308126!
+2024-09-25 19:09:29,308 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 19:09:29,308 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 19:09:45,043 - INFO - Total entries found: 587
+2024-09-25 19:09:45,046 - INFO - Recent AI-related entries found: 37
+2024-09-25 19:09:45,046 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><h1>[N] Linear Regression Podcast :) Easy to learn for beginners AI powered material</h1> <p><a href="https://podcasters.spotify.com/pod/show/diamonds-deluge/episodes/Linear-Regression-Part-of-Machine-Learning-Algorithms-Series-e2orupt">Linear Regression Podcast</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/youandI123777"> /u/youandI123777 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fpchdb/n_linear_regression_podcast_easy_to_learn_for/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fpchdb/n_linear_regression_podcast_easy_to_learn_for/">[comments]</a></span>'
+2024-09-25 19:09:45,047 - INFO - clean content - clean_content='[N] Linear Regression Podcast :) Easy to learn for beginners AI powered material Linear Regression Podcast &#32; submitted by &#32; /u/youandI123777 [link] &#32; [comments]'
+2024-09-25 19:09:45,047 - INFO - Generating summary with BART model
+2024-09-25 19:09:50,990 - INFO - Generating summary with BART model
+2024-09-25 19:09:56,256 - INFO - full_tweet='Linear Regression Podcast is easy to learn for beginners. We use AI-powered algorithms to solve complex..[read more👇🏼] #AI #Regression https://www.reddit.com/r/MachineLearning/comments/1fpchdb/n_linear_regression_podcast_easy_to_learn_for/'
+2024-09-25 19:09:56,488 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
