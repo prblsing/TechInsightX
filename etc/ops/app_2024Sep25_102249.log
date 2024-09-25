@@ -1,0 +1,51 @@
+2024-09-25 10:22:49,952 - INFO - Starting configuration setup
+2024-09-25 10:22:49,953 - INFO - Environment variables loaded successfully
+2024-09-25 10:22:49,953 - INFO - Twitter API client initialized successfully
+2024-09-25 10:22:51,789 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 10:22:58,427 - INFO - Summarization model initialized successfully
+2024-09-25 10:22:58,427 - INFO - Starting tweet scheduling
+2024-09-25 10:22:58,427 - INFO - Tweeting process started at 2024-09-25 10:22:58.427611!
+2024-09-25 10:22:58,427 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 10:22:58,427 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 10:23:14,396 - INFO - Total entries found: 617
+2024-09-25 10:23:14,399 - INFO - Recent AI-related entries found: 31
+2024-09-25 10:23:14,399 - INFO - Input content - content='Researchers are saying this is the first concrete piece of evidence that hackers are using GenAI for code building.'
+2024-09-25 10:23:14,400 - INFO - clean content - clean_content='Researchers are saying this is the first concrete piece of evidence that hackers are using GenAI for code building.'
+2024-09-25 10:23:14,400 - INFO - Generating summary with BART model
+2024-09-25 10:23:19,859 - INFO - Generating summary with BART model
+2024-09-25 10:23:24,707 - INFO - full_tweet='Researchers say this is the first concrete piece of evidence that hackers are using GenAI for code..[read more👇🏼] #Researchers #concrete https://www.techradar.com/pro/security/malware-written-by-ai-spotted-targeting-victims-in-france'
+2024-09-25 10:23:24,972 - INFO - Tweet posted successfully: Response(data={'id': '1838887018807337332', 'text': 'Researchers say this is the first concrete piece of evidence that hackers are using GenAI for code..[read more👇🏼] #Researchers #concrete https://t.co/IuoacISL03', 'edit_history_tweet_ids': ['1838887018807337332']}, includes={}, errors=[], meta={})
+2024-09-25 10:23:24,973 - INFO - Sleeping for 2 minutes and 37 seconds.
+2024-09-25 10:26:01,973 - INFO - Saved posted URL: https://www.techradar.com/pro/security/malware-written-by-ai-spotted-targeting-victims-in-france at 2024-09-25 10:26:01
+2024-09-25 10:26:01,973 - INFO - Input content - content='He’s deep in the defense-startup world as a Founders Fund partner and Anduril cofounder. His bunker, though, isn’t fully prepped for the end times.'
+2024-09-25 10:26:01,973 - INFO - clean content - clean_content='He’s deep in the defense-startup world as a Founders Fund partner and Anduril cofounder. His bunker, though, isn’t fully prepped for the end times.'
+2024-09-25 10:26:01,973 - INFO - Generating summary with BART model
+2024-09-25 10:26:06,522 - INFO - Generating summary with BART model
+2024-09-25 10:26:11,062 - INFO - full_tweet="He's deep in the defense-startup world as a Founders Fund partner and Anduril cofounder. His bunker,..[read more👇🏼] #startup #cofounder https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/"
+2024-09-25 10:26:11,361 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838887716404007162'], 'id': '1838887716404007162', 'text': "He's deep in the defense-startup world as a Founders Fund partner and Anduril cofounder. His bunker,..[read more👇🏼] #startup #cofounder https://t.co/EhU4Q4h53b"}, includes={}, errors=[], meta={})
+2024-09-25 10:26:11,361 - INFO - Sleeping for 3 minutes and 53 seconds.
+2024-09-25 10:30:04,361 - INFO - Saved posted URL: https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/ at 2024-09-25 10:30:04
+2024-09-25 10:30:04,362 - INFO - Input content - content='<p>Reddit is bringing machine learning-powered translations to more than 35 new languages, including Brazilian Portuguese and Spanish.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 10:30:04,362 - INFO - clean content - clean_content='Reddit is bringing machine learning-powered translations to more than 35 new languages, including Brazilian Portuguese and Spanish. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 10:30:04,362 - INFO - Generating summary with BART model
+2024-09-25 10:30:09,394 - INFO - Generating summary with BART model
+2024-09-25 10:30:14,452 - INFO - full_tweet='Reddit is bringing machine learning-powered translations to more than 35 new languages, including..[read more👇🏼] #Portuguese #Spanish https://techcrunch.com/2024/09/25/reddit-is-bringing-ai-powered-automatic-translation-to-dozens-of-new-countries/'
+2024-09-25 10:30:14,661 - INFO - Tweet posted successfully: Response(data={'id': '1838888737175900401', 'text': 'Reddit is bringing machine learning-powered translations to more than 35 new languages, including..[read more👇🏼] #Portuguese #Spanish https://t.co/nBjIu3tkuY', 'edit_history_tweet_ids': ['1838888737175900401']}, includes={}, errors=[], meta={})
+2024-09-25 10:30:14,661 - INFO - Sleeping for 4 minutes and 34 seconds.
+2024-09-25 10:34:48,661 - INFO - Saved posted URL: https://techcrunch.com/2024/09/25/reddit-is-bringing-ai-powered-automatic-translation-to-dozens-of-new-countries/ at 2024-09-25 10:34:48
+2024-09-25 10:34:48,661 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/airtel-taps-ai-to-combat-india-rampant-spam-calls-problem/
+2024-09-25 10:34:48,661 - INFO - This link is already posted: https://towardsdatascience.com/doctors-leverage-multimodal-data-medical-ai-should-too-6475c247b243?source=rss----7f60cf5620c9---4
+2024-09-25 10:34:48,661 - INFO - This link is already posted: https://thenextweb.com/news/uk-startup-raises-12m-personal-ai-agents-long-term-memory
+2024-09-25 10:34:48,661 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/john-cena-and-judi-denchs-next-role-is-your-meta-ai-voice
+2024-09-25 10:34:48,661 - INFO - This link is already posted: https://www.techradar.com/audio/spotify/spotifys-ai-playlist-is-now-rolling-out-to-more-premium-subscribers-heres-whos-getting-it-next
+2024-09-25 10:34:48,662 - INFO - This link is already posted: https://www.theverge.com/2024/9/24/24253452/microsoft-correction-ai-safety-tool-fix-errors
+2024-09-25 10:34:48,662 - INFO - This link is already posted: https://towardsdatascience.com/the-key-to-success-in-enterprise-ai-chain-of-values-973656c117a6?source=rss----7f60cf5620c9---4
+2024-09-25 10:34:48,662 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-25 10:34:48,662 - INFO - This link is already posted: https://www.pcmag.com/news/hp-pressing-ctrl-plusp-will-one-day-trigger-our-ai-print-bot
+2024-09-25 10:34:48,662 - INFO - Input content - content='<figure>\n      <img alt="California Gov. Gavin Newsom (L) talks onstage with Salesforce CEO Marc Benioff (R) during Salesforce’s Dreamforce" src="https://cdn.vox-cdn.com/thumbor/ssjMPw1AsubJQYCbkwM63Qz2CXo=/0x110:5016x3454/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607951/2172735379.0.jpg" />\n        <figcaption><em>Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week.</em> | Photo by Justin Sullivan / Getty Images</figcaption>\n    </figure>\n\n\n  \t\t <p>As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage.</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety">Continue reading&hellip;</a>\n  </p>'
+2024-09-25 10:34:48,662 - INFO - clean content - clean_content='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week. | Photo by Justin Sullivan / Getty Images As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage. Continue reading&hellip;'
+2024-09-25 10:34:48,662 - INFO - Generating summary with BART model
+2024-09-25 10:34:54,713 - INFO - Generating summary with BART model
+2024-09-25 10:35:00,743 - INFO - full_tweet='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event..[read more👇🏼] #Salesforce #Dreamforce https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety'
+2024-09-25 10:35:00,874 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
