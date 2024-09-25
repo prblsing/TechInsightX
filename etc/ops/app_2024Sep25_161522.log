@@ -1,0 +1,111 @@
+2024-09-25 16:15:22,996 - INFO - Starting configuration setup
+2024-09-25 16:15:22,996 - INFO - Environment variables loaded successfully
+2024-09-25 16:15:22,997 - INFO - Twitter API client initialized successfully
+2024-09-25 16:15:24,925 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 16:15:34,418 - INFO - Summarization model initialized successfully
+2024-09-25 16:15:34,419 - INFO - Starting tweet scheduling
+2024-09-25 16:15:34,419 - INFO - Tweeting process started at 2024-09-25 16:15:34.419266!
+2024-09-25 16:15:34,419 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 16:15:34,419 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 16:15:54,109 - INFO - Total entries found: 587
+2024-09-25 16:15:54,112 - INFO - Recent AI-related entries found: 23
+2024-09-25 16:15:54,112 - INFO - Input content - content="Microsoft's new Correction tool will flag any potential factual errors caused by AI."
+2024-09-25 16:15:54,113 - INFO - clean content - clean_content="Microsoft's new Correction tool will flag any potential factual errors caused by AI."
+2024-09-25 16:15:54,113 - INFO - Generating summary with BART model
+2024-09-25 16:15:58,393 - INFO - Generating summary with BART model
+2024-09-25 16:16:02,021 - INFO - full_tweet="Microsoft's new Correction tool will flag any potential factual errors caused by AI. The tool will be..[read more👇🏼] #AI #Microsoft https://www.techradar.com/pro/microsoft-s-new-ai-tool-tries-to-find-and-revise-ai-generated-text-that-s-factually-wrong"
+2024-09-25 16:16:02,478 - INFO - Tweet posted successfully: Response(data={'text': "Microsoft's new Correction tool will flag any potential factual errors caused by AI. The tool will be..[read more👇🏼] #AI #Microsoft https://t.co/I7i36xEEcM", 'id': '1838975759773548921', 'edit_history_tweet_ids': ['1838975759773548921']}, includes={}, errors=[], meta={})
+2024-09-25 16:16:02,478 - INFO - Sleeping for 2 minutes and 25 seconds.
+2024-09-25 16:18:27,478 - INFO - Saved posted URL: https://www.techradar.com/pro/microsoft-s-new-ai-tool-tries-to-find-and-revise-ai-generated-text-that-s-factually-wrong at 2024-09-25 16:18:27
+2024-09-25 16:18:27,479 - INFO - Input content - content='<p>Audible, the Amazon-owned audiobook service, continues to experiment with AI to improve audiobook discovery and offer customized recommendations. Recent tests involve AI-powered tags, which analyze customer feedback to offer tailored suggestions according to individual preferences, and topic pages that recommend tags to help you find closely related subjects. The experiments are only available to 50% [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 16:18:27,479 - INFO - clean content - clean_content='Audible, the Amazon-owned audiobook service, continues to experiment with AI to improve audiobook discovery and offer customized recommendations. Recent tests involve AI-powered tags, which analyze customer feedback to offer tailored suggestions according to individual preferences, and topic pages that recommend tags to help you find closely related subjects. The experiments are only available to 50% [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 16:18:27,479 - INFO - Generating summary with BART model
+2024-09-25 16:18:32,169 - INFO - Generating summary with BART model
+2024-09-25 16:18:36,864 - INFO - full_tweet='Audible continues to experiment with AI to improve audiobook discovery and offer customized..[read more👇🏼] #AI #offer https://techcrunch.com/2024/09/25/audible-experiments-with-new-ai-features-tailored-audiobook-recommendations/'
+2024-09-25 16:18:37,081 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838976408292647015'], 'text': 'Audible continues to experiment with AI to improve audiobook discovery and offer customized..[read more👇🏼] #AI #offer https://t.co/EQyRzooDUZ', 'id': '1838976408292647015'}, includes={}, errors=[], meta={})
+2024-09-25 16:18:37,081 - INFO - Sleeping for 9 minutes and 24 seconds.
+2024-09-25 16:28:01,082 - INFO - Saved posted URL: https://techcrunch.com/2024/09/25/audible-experiments-with-new-ai-features-tailored-audiobook-recommendations/ at 2024-09-25 16:28:01
+2024-09-25 16:28:01,082 - INFO - Input content - content="The new ChatGPT Advanced Voice mode is rolling out this week, but not in the EU, and we've got a good idea why."
+2024-09-25 16:28:01,082 - INFO - clean content - clean_content="The new ChatGPT Advanced Voice mode is rolling out this week, but not in the EU, and we've got a good idea why."
+2024-09-25 16:28:01,082 - INFO - Generating summary with BART model
+2024-09-25 16:28:06,022 - INFO - Generating summary with BART model
+2024-09-25 16:28:10,971 - INFO - full_tweet="The new ChatGPT Advanced Voice mode is rolling out this week, but not in the EU. We've got a good idea why. #Advanced #rolling https://www.techradar.com/computing/artificial-intelligence/openai-s-advanced-voice-is-unavailable-in-the-eu-and-now-we-might-know-why"
+2024-09-25 16:28:11,246 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838978816615834061'], 'id': '1838978816615834061', 'text': "The new ChatGPT Advanced Voice mode is rolling out this week, but not in the EU. We've got a good idea why. #Advanced #rolling https://t.co/j0JHe8FfeO"}, includes={}, errors=[], meta={})
+2024-09-25 16:28:11,246 - INFO - Sleeping for 3 minutes and 26 seconds.
+2024-09-25 16:31:37,247 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/openai-s-advanced-voice-is-unavailable-in-the-eu-and-now-we-might-know-why at 2024-09-25 16:31:37
+2024-09-25 16:31:37,247 - INFO - Input content - content='Resharing a post on Facebook, Instagram, or another social media platform is not how you legally protect your data or opt out of anything.'
+2024-09-25 16:31:37,247 - INFO - clean content - clean_content='Resharing a post on Facebook, Instagram, or another social media platform is not how you legally protect your data or opt out of anything.'
+2024-09-25 16:31:37,247 - INFO - Generating summary with BART model
+2024-09-25 16:31:42,557 - INFO - Generating summary with BART model
+2024-09-25 16:31:47,815 - INFO - full_tweet='Resharing a post on Facebook, Instagram, or another social media platform is not how you legally protect..[read more👇🏼] #data #Resharing https://www.wired.com/story/viral-facebook-copypasta-will-not-protect-you/'
+2024-09-25 16:31:48,015 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838979725764833678'], 'id': '1838979725764833678', 'text': 'Resharing a post on Facebook, Instagram, or another social media platform is not how you legally protect..[read more👇🏼] #data #Resharing https://t.co/Nsa6HOIjA9'}, includes={}, errors=[], meta={})
+2024-09-25 16:31:48,015 - INFO - Sleeping for 9 minutes and 51 seconds.
+2024-09-25 16:41:39,016 - INFO - Saved posted URL: https://www.wired.com/story/viral-facebook-copypasta-will-not-protect-you/ at 2024-09-25 16:41:39
+2024-09-25 16:41:39,016 - INFO - Input content - content='<p>The European Commission has revealed a list of the first 100-plus signatories to the AI Pact — an initiative focused on getting companies to publish &#8220;voluntary pledges&#8221; on how they approach and deploy artificial intelligence. While the bloc&#8217;s legally binding risk-based AI rulebook (the AI Act) entered into force last month, it will be several [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 16:41:39,016 - INFO - clean content - clean_content='The European Commission has revealed a list of the first 100-plus signatories to the AI Pact — an initiative focused on getting companies to publish &#8220;voluntary pledges&#8221; on how they approach and deploy artificial intelligence. While the bloc&#8217;s legally binding risk-based AI rulebook (the AI Act) entered into force last month, it will be several [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 16:41:39,016 - INFO - Generating summary with BART model
+2024-09-25 16:41:44,344 - INFO - Generating summary with BART model
+2024-09-25 16:41:49,711 - INFO - full_tweet='The European Commission has revealed a list of the first 100-plus signatories to the AI Pact. The..[read more👇🏼] #AI #The https://techcrunch.com/2024/09/25/early-sign-ups-to-eus-ai-pact-include-amazon-google-microsoft-and-openai-but-apple-and-meta-are-missing/'
+2024-09-25 16:41:50,060 - INFO - Tweet posted successfully: Response(data={'text': 'The European Commission has revealed a list of the first 100-plus signatories to the AI Pact. The..[read more👇🏼] #AI #The https://t.co/TnAr22zBD8', 'edit_history_tweet_ids': ['1838982250911990254'], 'id': '1838982250911990254'}, includes={}, errors=[], meta={})
+2024-09-25 16:41:50,060 - INFO - Sleeping for 7 minutes and 34 seconds.
+2024-09-25 16:49:24,061 - INFO - Saved posted URL: https://techcrunch.com/2024/09/25/early-sign-ups-to-eus-ai-pact-include-amazon-google-microsoft-and-openai-but-apple-and-meta-are-missing/ at 2024-09-25 16:49:24
+2024-09-25 16:49:24,061 - INFO - Input content - content="<p>Meta Connect starts Wednesday at 10 a.m. PT and is set to focus on Meta's XR platforms, the metaverse, and its generative AI platform, Llama.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-09-25 16:49:24,061 - INFO - clean content - clean_content="Meta Connect starts Wednesday at 10 a.m. PT and is set to focus on Meta's XR platforms, the metaverse, and its generative AI platform, Llama. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-09-25 16:49:24,061 - INFO - Generating summary with BART model
+2024-09-25 16:49:28,809 - INFO - Generating summary with BART model
+2024-09-25 16:49:33,582 - INFO - full_tweet="Meta Connect starts Wednesday at 10 a.m. PT and is set to focus on Meta's XR platforms, the metaverse,..[read more👇🏼] #AI #Meta https://techcrunch.com/2024/09/25/meta-connect-2024-how-to-watch-the-metaverse-and-generative-ai-event-today/"
+2024-09-25 16:49:34,011 - INFO - Tweet posted successfully: Response(data={'text': "Meta Connect starts Wednesday at 10 a.m. PT and is set to focus on Meta's XR platforms, the metaverse,..[read more👇🏼] #AI #Meta https://t.co/C6mYExhYyG", 'id': '1838984196871893417', 'edit_history_tweet_ids': ['1838984196871893417']}, includes={}, errors=[], meta={})
+2024-09-25 16:49:34,012 - INFO - Sleeping for 3 minutes and 43 seconds.
+2024-09-25 16:53:17,012 - INFO - Saved posted URL: https://techcrunch.com/2024/09/25/meta-connect-2024-how-to-watch-the-metaverse-and-generative-ai-event-today/ at 2024-09-25 16:53:17
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-tries-fixing-ai-hallucinations-with-more-ai
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.wired.com/story/molmo-open-source-multimodal-ai-model-allen-institute-agents/
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.wired.com/review/msi-stealth-18-ai-studio-a1v/
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-create-ai-images-in-canva/#ftag=CAD590a51e
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.cnet.com/news/microsofts-ai-uses-so-much-energy-that-it-could-bring-infamous-nuclear-plant-back-into-service/#ftag=CAD590a51e
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://techcrunch.com/2024/09/25/reddit-is-bringing-ai-powered-automatic-translation-to-dozens-of-new-countries/
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://towardsdatascience.com/doctors-leverage-multimodal-data-medical-ai-should-too-6475c247b243?source=rss----7f60cf5620c9---4
+2024-09-25 16:53:17,012 - INFO - This link is already posted: https://thenextweb.com/news/uk-startup-raises-12m-personal-ai-agents-long-term-memory
+2024-09-25 16:53:17,013 - INFO - This link is already posted: https://towardsdatascience.com/the-key-to-success-in-enterprise-ai-chain-of-values-973656c117a6?source=rss----7f60cf5620c9---4
+2024-09-25 16:53:17,013 - INFO - This link is already posted: https://www.pcmag.com/news/hp-pressing-ctrl-plusp-will-one-day-trigger-our-ai-print-bot
+2024-09-25 16:53:17,013 - INFO - Input content - content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 16:53:17,013 - INFO - clean content - clean_content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 16:53:17,013 - INFO - Generating summary with BART model
+2024-09-25 16:53:21,248 - INFO - Generating summary with BART model
+2024-09-25 16:53:25,472 - INFO - full_tweet="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears"
+2024-09-25 16:53:25,670 - INFO - Tweet posted successfully: Response(data={'text': "US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://t.co/dTN1s6aEa0", 'id': '1838985168553734203', 'edit_history_tweet_ids': ['1838985168553734203']}, includes={}, errors=[], meta={})
+2024-09-25 16:53:25,670 - INFO - Sleeping for 1 minutes and 28 seconds.
+2024-09-25 16:54:53,671 - INFO - Saved posted URL: https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears at 2024-09-25 16:54:53
+2024-09-25 16:54:53,671 - INFO - Input content - content='Security researchers find that the malicious code used in the attack contained comments that were likely left by a generative AI program.'
+2024-09-25 16:54:53,671 - INFO - clean content - clean_content='Security researchers find that the malicious code used in the attack contained comments that were likely left by a generative AI program.'
+2024-09-25 16:54:53,671 - INFO - Generating summary with BART model
+2024-09-25 16:54:58,246 - INFO - Generating summary with BART model
+2024-09-25 16:55:02,826 - INFO - full_tweet='The malicious code used in the attack contained comments that were likely left by a generative AI..[read more👇🏼] #AI #malicious https://www.pcmag.com/news/hp-spots-a-malware-attack-that-was-likely-built-with-generative-ai'
+2024-09-25 16:55:03,041 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838985576915296424'], 'text': 'The malicious code used in the attack contained comments that were likely left by a generative AI..[read more👇🏼] #AI #malicious https://t.co/unPFCwxIyX', 'id': '1838985576915296424'}, includes={}, errors=[], meta={})
+2024-09-25 16:55:03,042 - INFO - Sleeping for 5 minutes and 38 seconds.
+2024-09-25 17:00:41,042 - INFO - Saved posted URL: https://www.pcmag.com/news/hp-spots-a-malware-attack-that-was-likely-built-with-generative-ai at 2024-09-25 17:00:41
+2024-09-25 17:00:41,042 - INFO - Input content - content="Spotify's AI Playlist can create music collections from text prompts."
+2024-09-25 17:00:41,042 - INFO - clean content - clean_content="Spotify's AI Playlist can create music collections from text prompts."
+2024-09-25 17:00:41,042 - INFO - Generating summary with BART model
+2024-09-25 17:00:44,764 - INFO - Generating summary with BART model
+2024-09-25 17:00:48,496 - INFO - full_tweet=". Spotify's AI Playlist can create music collections from text prompts. It can also create playlists..[read more👇🏼] #AI #create https://www.pcmag.com/news/spotifys-ai-playlist-tool-rolling-out-to-us-premium-users"
+2024-09-25 17:00:48,802 - INFO - Tweet posted successfully: Response(data={'id': '1838987027037265923', 'text': ". Spotify's AI Playlist can create music collections from text prompts. It can also create playlists..[read more👇🏼] #AI #create https://t.co/k1ZB3P4VNF", 'edit_history_tweet_ids': ['1838987027037265923']}, includes={}, errors=[], meta={})
+2024-09-25 17:00:48,803 - INFO - Sleeping for 3 minutes and 16 seconds.
+2024-09-25 17:04:04,803 - INFO - Saved posted URL: https://www.pcmag.com/news/spotifys-ai-playlist-tool-rolling-out-to-us-premium-users at 2024-09-25 17:04:04
+2024-09-25 17:04:04,803 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>A few years ago this reading list was said to cover \'90% of what matters\', and so I would be curious about some feedback on this summary: <a href="https://tensorlabbet.com/2024/09/24/ai-reading-list/">https://tensorlabbet.com/2024/09/24/ai-reading-list/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AccomplishedCat4770"> /u/AccomplishedCat4770 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1foj0lq/d_a_summary_of_ilya_sutskevers_ai_reading_list/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1foj0lq/d_a_summary_of_ilya_sutskevers_ai_reading_list/">[comments]</a></span>'
+2024-09-25 17:04:04,803 - INFO - clean content - clean_content="A few years ago this reading list was said to cover '90% of what matters', and so I would be curious about some feedback on this summary: &#32; submitted by &#32; /u/AccomplishedCat4770 [link] &#32; [comments]"
+2024-09-25 17:04:04,803 - INFO - Generating summary with BART model
+2024-09-25 17:04:08,917 - INFO - Generating summary with BART model
+2024-09-25 17:04:13,001 - INFO - full_tweet="A few years ago this reading list was said to cover '90% of what matters', and so I would be curious..[read more👇🏼] #feedback #reading https://www.reddit.com/r/MachineLearning/comments/1foj0lq/d_a_summary_of_ilya_sutskevers_ai_reading_list/"
+2024-09-25 17:04:13,189 - INFO - Tweet posted successfully: Response(data={'id': '1838987884503937265', 'edit_history_tweet_ids': ['1838987884503937265'], 'text': "A few years ago this reading list was said to cover '90% of what matters', and so I would be curious..[read more👇🏼] #feedback #reading https://t.co/MX69inQQx1"}, includes={}, errors=[], meta={})
+2024-09-25 17:04:13,189 - INFO - Sleeping for 5 minutes and 4 seconds.
+2024-09-25 17:09:17,190 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1foj0lq/d_a_summary_of_ilya_sutskevers_ai_reading_list/ at 2024-09-25 17:09:17
+2024-09-25 17:09:17,190 - INFO - Input content - content='HP Print AI promises to simplify the experience of setting up a printer and automatically optimize web pages for printing.'
+2024-09-25 17:09:17,190 - INFO - clean content - clean_content='HP Print AI promises to simplify the experience of setting up a printer and automatically optimize web pages for printing.'
+2024-09-25 17:09:17,190 - INFO - Generating summary with BART model
+2024-09-25 17:09:21,930 - INFO - Generating summary with BART model
+2024-09-25 17:09:26,667 - INFO - full_tweet='HP Print AI promises to simplify the experience of setting up a printer. It will automatically optimize..[read more👇🏼] #AI #web https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot'
+2024-09-25 17:09:27,036 - INFO - Tweet posted successfully: Response(data={'id': '1838989200651321459', 'text': 'HP Print AI promises to simplify the experience of setting up a printer. It will automatically optimize..[read more👇🏼] #AI #web https://t.co/mWCeskSWX6', 'edit_history_tweet_ids': ['1838989200651321459']}, includes={}, errors=[], meta={})
+2024-09-25 17:09:27,036 - INFO - Sleeping for 4 minutes and 24 seconds.
+2024-09-25 17:13:51,037 - INFO - Saved posted URL: https://www.pcmag.com/news/hps-answer-for-your-printing-needs-an-ai-chatbot at 2024-09-25 17:13:51
