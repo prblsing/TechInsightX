@@ -1,0 +1,18 @@
+2024-09-25 21:11:41,049 - INFO - Starting configuration setup
+2024-09-25 21:11:41,050 - INFO - Environment variables loaded successfully
+2024-09-25 21:11:41,050 - INFO - Twitter API client initialized successfully
+2024-09-25 21:11:42,911 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 21:11:53,038 - INFO - Summarization model initialized successfully
+2024-09-25 21:11:53,038 - INFO - Starting tweet scheduling
+2024-09-25 21:11:53,038 - INFO - Tweeting process started at 2024-09-25 21:11:53.038606!
+2024-09-25 21:11:53,039 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 21:11:53,039 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 21:12:12,386 - INFO - Total entries found: 617
+2024-09-25 21:12:12,389 - INFO - Recent AI-related entries found: 43
+2024-09-25 21:12:12,390 - INFO - Input content - content='<p>Meta Connect 2024 is a developer-centric event featuring a keynote from CEO Mark Zuckerberg. He showcased new hardware and software to support two of Meta’s big ambitions: AI and the metaverse. This included everything from new Quest headsets, updates to Meta’s Llama AI model, and even a new fully AR glasses prototype. Meta Connect 2024 [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 21:12:12,390 - INFO - clean content - clean_content='Meta Connect 2024 is a developer-centric event featuring a keynote from CEO Mark Zuckerberg. He showcased new hardware and software to support two of Meta’s big ambitions: AI and the metaverse. This included everything from new Quest headsets, updates to Meta’s Llama AI model, and even a new fully AR glasses prototype. Meta Connect 2024 [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 21:12:12,390 - INFO - Generating summary with BART model
+2024-09-25 21:12:18,711 - INFO - Generating summary with BART model
+2024-09-25 21:12:24,397 - INFO - full_tweet='Meta Connect 2024 is a developer-centric event featuring a keynote from CEO Mark Zuckerberg. This..[read more👇🏼] #AI #AR https://techcrunch.com/2024/09/25/meta-connect-2024-orion-glasses-quest-3s-headset-meta-ai-upgrades-ray-ban-meta-real-time-video-and-more-revealed/'
+2024-09-25 21:12:24,691 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
