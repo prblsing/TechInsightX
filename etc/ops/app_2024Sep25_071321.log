@@ -1,0 +1,18 @@
+2024-09-25 07:13:21,447 - INFO - Starting configuration setup
+2024-09-25 07:13:21,447 - INFO - Environment variables loaded successfully
+2024-09-25 07:13:21,447 - INFO - Twitter API client initialized successfully
+2024-09-25 07:13:23,318 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 07:13:31,803 - INFO - Summarization model initialized successfully
+2024-09-25 07:13:31,803 - INFO - Starting tweet scheduling
+2024-09-25 07:13:31,804 - INFO - Tweeting process started at 2024-09-25 07:13:31.804035!
+2024-09-25 07:13:31,804 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 07:13:31,804 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 07:13:47,310 - INFO - Total entries found: 617
+2024-09-25 07:13:47,313 - INFO - Recent AI-related entries found: 31
+2024-09-25 07:13:47,313 - INFO - Input content - content='<p>Bharti Airtel, India&#8217;s second-largest telecom operator, said on Wednesday it&#8217;s rolling out an AI-powered spam detection solution to all its customers as it vowed to curb the rising spam calls and messages in the world&#8217;s most populous nation.&#160; The company, which counts Google among its backers, announced the launch of what it claims is India&#8217;s [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 07:13:47,314 - INFO - clean content - clean_content='Bharti Airtel, India&#8217;s second-largest telecom operator, said on Wednesday it&#8217;s rolling out an AI-powered spam detection solution to all its customers as it vowed to curb the rising spam calls and messages in the world&#8217;s most populous nation.&#160; The company, which counts Google among its backers, announced the launch of what it claims is India&#8217;s [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 07:13:47,314 - INFO - Generating summary with BART model
+2024-09-25 07:13:54,857 - INFO - Generating summary with BART model
+2024-09-25 07:14:01,752 - INFO - full_tweet='Bharti Airtel is rolling out an AI-powered spam detection solution to all its customers. The company,..[read more👇🏼] #AI #its https://techcrunch.com/2024/09/24/airtel-taps-ai-to-combat-india-rampant-spam-calls-problem/'
+2024-09-25 07:14:01,888 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
