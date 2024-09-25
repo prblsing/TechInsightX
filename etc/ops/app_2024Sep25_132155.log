@@ -1,0 +1,78 @@
+2024-09-25 13:21:55,575 - INFO - Starting configuration setup
+2024-09-25 13:21:55,575 - INFO - Environment variables loaded successfully
+2024-09-25 13:21:55,575 - INFO - Twitter API client initialized successfully
+2024-09-25 13:21:57,445 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 13:22:05,469 - INFO - Summarization model initialized successfully
+2024-09-25 13:22:05,470 - INFO - Starting tweet scheduling
+2024-09-25 13:22:05,470 - INFO - Tweeting process started at 2024-09-25 13:22:05.470200!
+2024-09-25 13:22:05,470 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 13:22:05,470 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 13:22:20,194 - INFO - Total entries found: 617
+2024-09-25 13:22:20,197 - INFO - Recent AI-related entries found: 32
+2024-09-25 13:22:20,198 - INFO - Input content - content='<p>The common wisdom is that companies like Google, OpenAI, and Anthropic, with bottomless cash reserves and hundreds of top-tier researchers, are the only ones that can make state-of-the-art foundation model. But as one among them famously noted, they &#8220;have no moat&#8221; — and AI2 showed that today with the release of Molmo, a multimodal AI [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-25 13:22:20,198 - INFO - clean content - clean_content='The common wisdom is that companies like Google, OpenAI, and Anthropic, with bottomless cash reserves and hundreds of top-tier researchers, are the only ones that can make state-of-the-art foundation model. But as one among them famously noted, they &#8220;have no moat&#8221; — and AI2 showed that today with the release of Molmo, a multimodal AI [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-25 13:22:20,198 - INFO - Generating summary with BART model
+2024-09-25 13:22:26,583 - INFO - Generating summary with BART model
+2024-09-25 13:22:32,305 - INFO - full_tweet='AI2 shows that Google, OpenAI, and Anthropic have no moat. Molmo is a multimodal AI system that can be..[read more👇🏼] #AI #Molmo https://techcrunch.com/2024/09/25/ai2s-molmo-shows-open-source-can-meet-and-beat-closed-multimodal-models/'
+2024-09-25 13:22:32,599 - INFO - Tweet posted successfully: Response(data={'text': 'AI2 shows that Google, OpenAI, and Anthropic have no moat. Molmo is a multimodal AI system that can be..[read more👇🏼] #AI #Molmo https://t.co/rTEXhYYbeE', 'id': '1838932097592934507', 'edit_history_tweet_ids': ['1838932097592934507']}, includes={}, errors=[], meta={})
+2024-09-25 13:22:32,599 - INFO - Sleeping for 7 minutes and 56 seconds.
+2024-09-25 13:30:28,599 - INFO - Saved posted URL: https://techcrunch.com/2024/09/25/ai2s-molmo-shows-open-source-can-meet-and-beat-closed-multimodal-models/ at 2024-09-25 13:30:28
+2024-09-25 13:30:28,599 - INFO - Input content - content='A compact and fully open source visual AI model will make it easier for AI to take control of your computer—hopefully in a good way.'
+2024-09-25 13:30:28,600 - INFO - clean content - clean_content='A compact and fully open source visual AI model will make it easier for AI to take control of your computer—hopefully in a good way.'
+2024-09-25 13:30:28,600 - INFO - Generating summary with BART model
+2024-09-25 13:30:32,991 - INFO - Generating summary with BART model
+2024-09-25 13:30:37,393 - INFO - full_tweet='A compact and fully open source visual AI model will make it easier for AI to take control of your..[read more👇🏼] #AI #computer https://www.wired.com/story/molmo-open-source-multimodal-ai-model-allen-institute-agents/'
+2024-09-25 13:30:37,675 - INFO - Tweet posted successfully: Response(data={'id': '1838934132186857880', 'edit_history_tweet_ids': ['1838934132186857880'], 'text': 'A compact and fully open source visual AI model will make it easier for AI to take control of your..[read more👇🏼] #AI #computer https://t.co/s6DLMrKmy6'}, includes={}, errors=[], meta={})
+2024-09-25 13:30:37,675 - INFO - Sleeping for 4 minutes and 3 seconds.
+2024-09-25 13:34:40,676 - INFO - Saved posted URL: https://www.wired.com/story/molmo-open-source-multimodal-ai-model-allen-institute-agents/ at 2024-09-25 13:34:40
+2024-09-25 13:34:40,676 - INFO - Input content - content='There’s more to AI-powered enterprise software development than just coding assistants.'
+2024-09-25 13:34:40,676 - INFO - clean content - clean_content='There’s more to AI-powered enterprise software development than just coding assistants.'
+2024-09-25 13:34:40,676 - INFO - Generating summary with BART model
+2024-09-25 13:34:44,593 - INFO - Generating summary with BART model
+2024-09-25 13:34:48,542 - INFO - full_tweet='There’s more to AI-powered enterprise software development than just coding assistants. There are more to..[read more👇🏼] #coding #software https://venturebeat.com/ai/harness-aims-to-accelerate-enterprise-software-development-with-ai-agents/'
+2024-09-25 13:34:48,783 - INFO - Tweet posted successfully: Response(data={'id': '1838935185372438746', 'text': 'There’s more to AI-powered enterprise software development than just coding assistants. There are more to..[read more👇🏼] #coding #software https://t.co/Itc4fjvXw9', 'edit_history_tweet_ids': ['1838935185372438746']}, includes={}, errors=[], meta={})
+2024-09-25 13:34:48,783 - INFO - Sleeping for 2 minutes and 31 seconds.
+2024-09-25 13:37:19,783 - INFO - Saved posted URL: https://venturebeat.com/ai/harness-aims-to-accelerate-enterprise-software-development-with-ai-agents/ at 2024-09-25 13:37:19
+2024-09-25 13:37:19,783 - INFO - Input content - content='If you look past all the AI features and marketing, there’s a powerful workhorse and gaming laptop under the hood.'
+2024-09-25 13:37:19,783 - INFO - clean content - clean_content='If you look past all the AI features and marketing, there’s a powerful workhorse and gaming laptop under the hood.'
+2024-09-25 13:37:19,783 - INFO - Generating summary with BART model
+2024-09-25 13:37:25,003 - INFO - Generating summary with BART model
+2024-09-25 13:37:30,245 - INFO - full_tweet='If you look past all the AI features and marketing, there’s a powerful workhorse and gaming laptop under..[read more👇🏼] #AI #laptop https://www.wired.com/review/msi-stealth-18-ai-studio-a1v/'
+2024-09-25 13:37:30,451 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1838935863528436118'], 'id': '1838935863528436118', 'text': 'If you look past all the AI features and marketing, there’s a powerful workhorse and gaming laptop under..[read more👇🏼] #AI #laptop https://t.co/rJcJf9NVZk'}, includes={}, errors=[], meta={})
+2024-09-25 13:37:30,451 - INFO - Sleeping for 5 minutes and 46 seconds.
+2024-09-25 13:43:16,451 - INFO - Saved posted URL: https://www.wired.com/review/msi-stealth-18-ai-studio-a1v/ at 2024-09-25 13:43:16
+2024-09-25 13:43:16,451 - INFO - Input content - content="Looking for a basic, easy-to-use AI image generator? Canva's Magic Media is a great choice. Here's what you need to know."
+2024-09-25 13:43:16,451 - INFO - clean content - clean_content="Looking for a basic, easy-to-use AI image generator? Canva's Magic Media is a great choice. Here's what you need to know."
+2024-09-25 13:43:16,451 - INFO - Generating summary with BART model
+2024-09-25 13:43:20,665 - INFO - Generating summary with BART model
+2024-09-25 13:43:24,871 - INFO - full_tweet="Canva's Magic Media is a basic, easy-to-use AI image generator. Here's what you need to know about the tool. #AI #s https://www.cnet.com/tech/services-and-software/how-to-create-ai-images-in-canva/#ftag=CAD590a51e"
+2024-09-25 13:43:25,172 - INFO - Tweet posted successfully: Response(data={'id': '1838937351411679579', 'edit_history_tweet_ids': ['1838937351411679579'], 'text': "Canva's Magic Media is a basic, easy-to-use AI image generator. Here's what you need to know about the tool. #AI #s https://t.co/49kHbNmhU9"}, includes={}, errors=[], meta={})
+2024-09-25 13:43:25,172 - INFO - Sleeping for 8 minutes and 59 seconds.
+2024-09-25 13:52:24,172 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-to-create-ai-images-in-canva/#ftag=CAD590a51e at 2024-09-25 13:52:24
+2024-09-25 13:52:24,172 - INFO - Input content - content="Three Mile Island, the site of the nation's most serious nuclear reactor accident, could reopen with Microsoft as its sole customer."
+2024-09-25 13:52:24,172 - INFO - clean content - clean_content="Three Mile Island, the site of the nation's most serious nuclear reactor accident, could reopen with Microsoft as its sole customer."
+2024-09-25 13:52:24,173 - INFO - Generating summary with BART model
+2024-09-25 13:52:28,556 - INFO - Generating summary with BART model
+2024-09-25 13:52:32,913 - INFO - full_tweet="Three Mile Island, the site of the nation's most serious nuclear reactor accident, could reopen with..[read more👇🏼] #Microsoft #customer https://www.cnet.com/news/microsofts-ai-uses-so-much-energy-that-it-could-bring-infamous-nuclear-plant-back-into-service/#ftag=CAD590a51e"
+2024-09-25 13:52:33,227 - INFO - Tweet posted successfully: Response(data={'id': '1838939650011889965', 'text': "Three Mile Island, the site of the nation's most serious nuclear reactor accident, could reopen with..[read more👇🏼] #Microsoft #customer https://t.co/jye2qk9CjX", 'edit_history_tweet_ids': ['1838939650011889965']}, includes={}, errors=[], meta={})
+2024-09-25 13:52:33,227 - INFO - Sleeping for 2 minutes and 30 seconds.
+2024-09-25 13:55:03,227 - INFO - Saved posted URL: https://www.cnet.com/news/microsofts-ai-uses-so-much-energy-that-it-could-bring-infamous-nuclear-plant-back-into-service/#ftag=CAD590a51e at 2024-09-25 13:55:03
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.techradar.com/pro/millions-more-google-workspace-users-are-getting-access-to-gemini-ai-platform
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving-meal/#ftag=CAD590a51e
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-soon-be-adding-narration-to-your-memories-in-google-photos
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://techcrunch.com/2024/09/25/reddit-is-bringing-ai-powered-automatic-translation-to-dozens-of-new-countries/
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/airtel-taps-ai-to-combat-india-rampant-spam-calls-problem/
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://towardsdatascience.com/doctors-leverage-multimodal-data-medical-ai-should-too-6475c247b243?source=rss----7f60cf5620c9---4
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://thenextweb.com/news/uk-startup-raises-12m-personal-ai-agents-long-term-memory
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://towardsdatascience.com/the-key-to-success-in-enterprise-ai-chain-of-values-973656c117a6?source=rss----7f60cf5620c9---4
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-25 13:55:03,228 - INFO - This link is already posted: https://www.pcmag.com/news/hp-pressing-ctrl-plusp-will-one-day-trigger-our-ai-print-bot
+2024-09-25 13:55:03,228 - INFO - Input content - content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 13:55:03,228 - INFO - clean content - clean_content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 13:55:03,228 - INFO - Generating summary with BART model
+2024-09-25 13:55:07,208 - INFO - Generating summary with BART model
+2024-09-25 13:55:11,179 - INFO - full_tweet="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears"
+2024-09-25 13:55:11,308 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
