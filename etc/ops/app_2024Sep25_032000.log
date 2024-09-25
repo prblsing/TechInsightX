@@ -1,0 +1,25 @@
+2024-09-25 03:20:00,984 - INFO - Starting configuration setup
+2024-09-25 03:20:00,984 - INFO - Environment variables loaded successfully
+2024-09-25 03:20:00,984 - INFO - Twitter API client initialized successfully
+2024-09-25 03:20:02,841 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 03:20:10,274 - INFO - Summarization model initialized successfully
+2024-09-25 03:20:10,274 - INFO - Starting tweet scheduling
+2024-09-25 03:20:10,274 - INFO - Tweeting process started at 2024-09-25 03:20:10.274510!
+2024-09-25 03:20:10,274 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 03:20:10,274 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 03:20:33,241 - INFO - Total entries found: 617
+2024-09-25 03:20:33,244 - INFO - Recent AI-related entries found: 33
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/john-cena-and-judi-denchs-next-role-is-your-meta-ai-voice
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://www.techradar.com/audio/spotify/spotifys-ai-playlist-is-now-rolling-out-to-more-premium-subscribers-heres-whos-getting-it-next
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/too-long-didnt-watch-youtubes-ai-chatbot-will-answer-your-questions-about-the-video
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://www.theverge.com/2024/9/24/24253452/microsoft-correction-ai-safety-tool-fix-errors
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://towardsdatascience.com/the-key-to-success-in-enterprise-ai-chain-of-values-973656c117a6?source=rss----7f60cf5620c9---4
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-25 03:20:33,245 - INFO - This link is already posted: https://www.pcmag.com/news/hp-pressing-ctrl-plusp-will-one-day-trigger-our-ai-print-bot
+2024-09-25 03:20:33,245 - INFO - Input content - content='<figure>\n      <img alt="California Gov. Gavin Newsom (L) talks onstage with Salesforce CEO Marc Benioff (R) during Salesforce’s Dreamforce" src="https://cdn.vox-cdn.com/thumbor/ssjMPw1AsubJQYCbkwM63Qz2CXo=/0x110:5016x3454/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73607951/2172735379.0.jpg" />\n        <figcaption><em>Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week.</em> | Photo by Justin Sullivan / Getty Images</figcaption>\n    </figure>\n\n\n  \t\t <p>As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage.</p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety">Continue reading&hellip;</a>\n  </p>'
+2024-09-25 03:20:33,246 - INFO - clean content - clean_content='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event last week. | Photo by Justin Sullivan / Getty Images As Governor Gavin Newsom’s decision looms, SAG-AFTRA members leverage star power to push for SB 1047’s passage. Continue reading&hellip;'
+2024-09-25 03:20:33,246 - INFO - Generating summary with BART model
+2024-09-25 03:20:39,965 - INFO - Generating summary with BART model
+2024-09-25 03:20:46,031 - INFO - full_tweet='Governor Gavin Newsom gave his thoughts on SB 1047 for the first time at Salesforce’s Dreamforce event..[read more👇🏼] #Salesforce #Dreamforce https://www.theverge.com/2024/9/24/24253439/california-sb-1047-newsom-hollywood-sag-aftra-ai-safety'
+2024-09-25 03:20:46,207 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
