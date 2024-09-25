@@ -1,0 +1,19 @@
+2024-09-25 00:53:08,862 - INFO - Starting configuration setup
+2024-09-25 00:53:08,863 - INFO - Environment variables loaded successfully
+2024-09-25 00:53:08,863 - INFO - Twitter API client initialized successfully
+2024-09-25 00:53:10,849 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 00:53:21,143 - INFO - Summarization model initialized successfully
+2024-09-25 00:53:21,143 - INFO - Starting tweet scheduling
+2024-09-25 00:53:21,143 - INFO - Tweeting process started at 2024-09-25 00:53:21.143427!
+2024-09-25 00:53:21,143 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 00:53:21,143 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 00:53:21,143 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 00:53:35,827 - INFO - Total entries found: 617
+2024-09-25 00:53:35,830 - INFO - Recent AI-related entries found: 32
+2024-09-25 00:53:35,830 - INFO - Input content - content="Spotify's AI Playlist, which is like a chatbot for creating playlists, is rolling out to more premium subscribers in the United States, Canada, Ireland, and New Zealand."
+2024-09-25 00:53:35,831 - INFO - clean content - clean_content="Spotify's AI Playlist, which is like a chatbot for creating playlists, is rolling out to more premium subscribers in the United States, Canada, Ireland, and New Zealand."
+2024-09-25 00:53:35,831 - INFO - Generating summary with BART model
+2024-09-25 00:53:41,477 - INFO - Generating summary with BART model
+2024-09-25 00:53:46,522 - INFO - full_tweet="Spotify's AI Playlist is like a chatbot for creating playlists. It's rolling out to more premium..[read more👇🏼] #AI #s https://www.techradar.com/audio/spotify/spotifys-ai-playlist-is-now-rolling-out-to-more-premium-subscribers-heres-whos-getting-it-next"
+2024-09-25 00:53:46,593 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
