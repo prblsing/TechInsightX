@@ -1,0 +1,52 @@
+2024-09-25 12:21:34,134 - INFO - Starting configuration setup
+2024-09-25 12:21:34,135 - INFO - Environment variables loaded successfully
+2024-09-25 12:21:34,135 - INFO - Twitter API client initialized successfully
+2024-09-25 12:21:36,054 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-25 12:21:43,684 - INFO - Summarization model initialized successfully
+2024-09-25 12:21:43,684 - INFO - Starting tweet scheduling
+2024-09-25 12:21:43,684 - INFO - Tweeting process started at 2024-09-25 12:21:43.684673!
+2024-09-25 12:21:43,684 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep25.csv
+2024-09-25 12:21:43,685 - INFO - Fetching latest tech news from RSS feeds
+2024-09-25 12:21:57,879 - INFO - Total entries found: 617
+2024-09-25 12:21:57,882 - INFO - Recent AI-related entries found: 29
+2024-09-25 12:21:57,882 - INFO - Input content - content='Google announces series of new updates to Gemini designed to make it more appealing for businesses.'
+2024-09-25 12:21:57,882 - INFO - clean content - clean_content='Google announces series of new updates to Gemini designed to make it more appealing for businesses.'
+2024-09-25 12:21:57,883 - INFO - Generating summary with BART model
+2024-09-25 12:22:02,297 - INFO - Generating summary with BART model
+2024-09-25 12:22:06,037 - INFO - full_tweet='Google announces series of new updates to Gemini designed to make it more appealing for businesses...[read more👇🏼] #businesses #announces https://www.techradar.com/pro/millions-more-google-workspace-users-are-getting-access-to-gemini-ai-platform'
+2024-09-25 12:22:06,335 - INFO - Tweet posted successfully: Response(data={'id': '1838916887943507969', 'edit_history_tweet_ids': ['1838916887943507969'], 'text': 'Google announces series of new updates to Gemini designed to make it more appealing for businesses...[read more👇🏼] #businesses #announces https://t.co/uKbFzeYJ1P'}, includes={}, errors=[], meta={})
+2024-09-25 12:22:06,335 - INFO - Sleeping for 4 minutes and 37 seconds.
+2024-09-25 12:26:43,335 - INFO - Saved posted URL: https://www.techradar.com/pro/millions-more-google-workspace-users-are-getting-access-to-gemini-ai-platform at 2024-09-25 12:26:43
+2024-09-25 12:26:43,335 - INFO - Input content - content='With only nine weeks until Thanksgiving, it might be time to start thinking about what to cook.'
+2024-09-25 12:26:43,335 - INFO - clean content - clean_content='With only nine weeks until Thanksgiving, it might be time to start thinking about what to cook.'
+2024-09-25 12:26:43,335 - INFO - Generating summary with BART model
+2024-09-25 12:26:47,133 - INFO - Generating summary with BART model
+2024-09-25 12:26:50,867 - INFO - full_tweet='With only nine weeks until Thanksgiving, it might be time to start thinking about what to cook. Here are..[read more👇🏼] #what #Thanksgiving https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving-meal/#ftag=CAD590a51e'
+2024-09-25 12:26:51,065 - INFO - Tweet posted successfully: Response(data={'id': '1838918082300932474', 'edit_history_tweet_ids': ['1838918082300932474'], 'text': 'With only nine weeks until Thanksgiving, it might be time to start thinking about what to cook. Here are..[read more👇🏼] #what #Thanksgiving https://t.co/PgCIZpk51H'}, includes={}, errors=[], meta={})
+2024-09-25 12:26:51,065 - INFO - Sleeping for 8 minutes and 21 seconds.
+2024-09-25 12:35:12,066 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving-meal/#ftag=CAD590a51e at 2024-09-25 12:35:12
+2024-09-25 12:35:12,066 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p><a href="https://www.infoq.com/news/2024/09/uber-genai-gateway-llm-openai/">https://www.infoq.com/news/2024/09/uber-genai-gateway-llm-openai/</a></p> <p>Uber created a unified platform for serving large language models (LLMs) from external vendors and self-hosted ones and opted to mirror OpenAI API to help with internal adoption. GenAI Gateway provides a consistent and efficient interface and serves over 60 distinct LLM use cases across many areas.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/rgancarz"> /u/rgancarz </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/">[comments]</a></span>'
+2024-09-25 12:35:12,066 - INFO - clean content - clean_content='Uber created a unified platform for serving large language models (LLMs) from external vendors and self-hosted ones and opted to mirror OpenAI API to help with internal adoption. GenAI Gateway provides a consistent and efficient interface and serves over 60 distinct LLM use cases across many areas. &#32; submitted by &#32; /u/rgancarz [link] &#32; [comments]'
+2024-09-25 12:35:12,066 - INFO - Generating summary with BART model
+2024-09-25 12:35:17,715 - INFO - Generating summary with BART model
+2024-09-25 12:35:23,316 - INFO - full_tweet='Uber created a unified platform for serving large language models (LLMs) from external vendors and..[read more👇🏼] #consistent #efficient https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/'
+2024-09-25 12:35:23,618 - INFO - Tweet posted successfully: Response(data={'id': '1838920232078815320', 'text': 'Uber created a unified platform for serving large language models (LLMs) from external vendors and..[read more👇🏼] #consistent #efficient https://t.co/bbGoimfQXh', 'edit_history_tweet_ids': ['1838920232078815320']}, includes={}, errors=[], meta={})
+2024-09-25 12:35:23,618 - INFO - Sleeping for 8 minutes and 4 seconds.
+2024-09-25 12:43:27,618 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fp2kdz/n_uber_creates_genai_gateway_mirroring_openai_api/ at 2024-09-25 12:43:27
+2024-09-25 12:43:27,618 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/gemini-ai-could-soon-be-adding-narration-to-your-memories-in-google-photos
+2024-09-25 12:43:27,618 - INFO - This link is already posted: https://www.techradar.com/pro/security/malware-written-by-ai-spotted-targeting-victims-in-france
+2024-09-25 12:43:27,618 - INFO - This link is already posted: https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/
+2024-09-25 12:43:27,618 - INFO - This link is already posted: https://techcrunch.com/2024/09/25/reddit-is-bringing-ai-powered-automatic-translation-to-dozens-of-new-countries/
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/airtel-taps-ai-to-combat-india-rampant-spam-calls-problem/
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://towardsdatascience.com/doctors-leverage-multimodal-data-medical-ai-should-too-6475c247b243?source=rss----7f60cf5620c9---4
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://thenextweb.com/news/uk-startup-raises-12m-personal-ai-agents-long-term-memory
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://towardsdatascience.com/the-key-to-success-in-enterprise-ai-chain-of-values-973656c117a6?source=rss----7f60cf5620c9---4
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://techcrunch.com/2024/09/24/chatgpt-everything-to-know-about-the-ai-chatbot/
+2024-09-25 12:43:27,619 - INFO - This link is already posted: https://www.pcmag.com/news/hp-pressing-ctrl-plusp-will-one-day-trigger-our-ai-print-bot
+2024-09-25 12:43:27,619 - INFO - Input content - content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 12:43:27,619 - INFO - clean content - clean_content="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala Harris through AI-generated text, image, audio, and video posts on social media."
+2024-09-25 12:43:27,619 - INFO - Generating summary with BART model
+2024-09-25 12:43:31,661 - INFO - Generating summary with BART model
+2024-09-25 12:43:35,734 - INFO - full_tweet="US intelligence officials release a report on the Kremlin's efforts to denigrate Vice President Kamala..[read more👇🏼] #AI #intelligence https://www.pcmag.com/news/russia-taps-ai-to-tip-2024-election-toward-trump-stoke-immigration-fears"
+2024-09-25 12:43:35,908 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
