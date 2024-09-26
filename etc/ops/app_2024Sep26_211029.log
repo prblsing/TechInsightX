@@ -1,0 +1,18 @@
+2024-09-26 21:10:29,221 - INFO - Starting configuration setup
+2024-09-26 21:10:29,221 - INFO - Environment variables loaded successfully
+2024-09-26 21:10:29,221 - INFO - Twitter API client initialized successfully
+2024-09-26 21:10:31,073 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 21:10:37,783 - INFO - Summarization model initialized successfully
+2024-09-26 21:10:37,783 - INFO - Starting tweet scheduling
+2024-09-26 21:10:37,783 - INFO - Tweeting process started at 2024-09-26 21:10:37.783563!
+2024-09-26 21:10:37,783 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 21:10:37,783 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 21:10:53,908 - INFO - Total entries found: 587
+2024-09-26 21:10:53,911 - INFO - Recent AI-related entries found: 18
+2024-09-26 21:10:53,911 - INFO - Input content - content='<p>Departures might be dominating the week&#8217;s OpenAI-related headlines. But comments on AI bias from Anna Makanju, the company&#8217;s VP of global affairs, also grabbed our attention. Makanju, speaking on a panel at the UN&#8217;s Summit of the Future event on Tuesday, suggested that emerging &#8220;reasoning&#8221; models such as OpenAI&#8217;s o1 have the potential to make [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-26 21:10:53,912 - INFO - clean content - clean_content='Departures might be dominating the week&#8217;s OpenAI-related headlines. But comments on AI bias from Anna Makanju, the company&#8217;s VP of global affairs, also grabbed our attention. Makanju, speaking on a panel at the UN&#8217;s Summit of the Future event on Tuesday, suggested that emerging &#8220;reasoning&#8221; models such as OpenAI&#8217;s o1 have the potential to make [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-26 21:10:53,912 - INFO - Generating summary with BART model
+2024-09-26 21:11:01,383 - INFO - Generating summary with BART model
+2024-09-26 21:11:08,217 - INFO - full_tweet='Anna Makanju, the company&#8217;s VP of global affairs, spoke on a panel at the UN Summit of the Future..[read more👇🏼] #AI #s https://techcrunch.com/2024/09/26/openais-vp-of-global-affairs-claims-o1-is-virtually-perfect-at-correcting-bias-but-the-data-doesnt-quite-back-that-up/'
+2024-09-26 21:11:08,463 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
