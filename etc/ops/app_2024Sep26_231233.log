@@ -1,0 +1,18 @@
+2024-09-26 23:12:33,173 - INFO - Starting configuration setup
+2024-09-26 23:12:33,173 - INFO - Environment variables loaded successfully
+2024-09-26 23:12:33,173 - INFO - Twitter API client initialized successfully
+2024-09-26 23:12:35,031 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 23:12:42,005 - INFO - Summarization model initialized successfully
+2024-09-26 23:12:42,005 - INFO - Starting tweet scheduling
+2024-09-26 23:12:42,005 - INFO - Tweeting process started at 2024-09-26 23:12:42.005522!
+2024-09-26 23:12:42,005 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 23:12:42,005 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 23:12:58,284 - INFO - Total entries found: 617
+2024-09-26 23:12:58,287 - INFO - Recent AI-related entries found: 30
+2024-09-26 23:12:58,287 - INFO - Input content - content='<p>AI video generators need to believe that filmmakers will use their models in the production process. Otherwise why exist? To jump-start the new AI film ecosystem, Runway has set aside $5 million in cash and more in service credits to fund up to 100 original films. If you&#8217;re an AI-curious director, now&#8217;s your chance to [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-26 23:12:58,288 - INFO - clean content - clean_content='AI video generators need to believe that filmmakers will use their models in the production process. Otherwise why exist? To jump-start the new AI film ecosystem, Runway has set aside $5 million in cash and more in service credits to fund up to 100 original films. If you&#8217;re an AI-curious director, now&#8217;s your chance to [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-26 23:12:58,288 - INFO - Generating summary with BART model
+2024-09-26 23:13:04,754 - INFO - Generating summary with BART model
+2024-09-26 23:13:10,526 - INFO - full_tweet='Runway has set aside $5 million in cash and more in service credits to fund up to 100 original films. AI..[read more👇🏼] #AI #generators https://techcrunch.com/2024/09/26/runway-earmarks-5m-to-fund-up-to-100-films-using-ai-generated-video/'
+2024-09-26 23:13:10,624 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
