@@ -1,0 +1,25 @@
+2024-09-26 10:12:35,375 - INFO - Starting configuration setup
+2024-09-26 10:12:35,376 - INFO - Environment variables loaded successfully
+2024-09-26 10:12:35,376 - INFO - Twitter API client initialized successfully
+2024-09-26 10:12:37,256 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 10:12:43,752 - INFO - Summarization model initialized successfully
+2024-09-26 10:12:43,752 - INFO - Starting tweet scheduling
+2024-09-26 10:12:43,753 - INFO - Tweeting process started at 2024-09-26 10:12:43.753029!
+2024-09-26 10:12:43,753 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 10:12:43,753 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 10:12:58,364 - INFO - Total entries found: 617
+2024-09-26 10:12:58,366 - INFO - Recent AI-related entries found: 32
+2024-09-26 10:12:58,367 - INFO - Input content - content='HubSpot showcases Breeze AI CRM tools.'
+2024-09-26 10:12:58,367 - INFO - clean content - clean_content='HubSpot showcases Breeze AI CRM tools.'
+2024-09-26 10:12:58,367 - INFO - Generating summary with BART model
+2024-09-26 10:13:02,833 - INFO - Generating summary with BART model
+2024-09-26 10:13:06,672 - INFO - full_tweet='HubSpot showcases Breeze AI CRM tools. Breeze CRM is a cloud-based CRM system that uses artificial..[read more👇🏼] #cloud #AI https://www.techradar.com/pro/software-services/hubspot-uses-ai-to-make-marketing-and-sales-a-breeze'
+2024-09-26 10:13:06,946 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839246814500786589'], 'text': 'HubSpot showcases Breeze AI CRM tools. Breeze CRM is a cloud-based CRM system that uses artificial..[read more👇🏼] #cloud #AI https://t.co/tgD257Jx7o', 'id': '1839246814500786589'}, includes={}, errors=[], meta={})
+2024-09-26 10:13:06,946 - INFO - Sleeping for 7 minutes and 59 seconds.
+2024-09-26 10:21:05,946 - INFO - Saved posted URL: https://www.techradar.com/pro/software-services/hubspot-uses-ai-to-make-marketing-and-sales-a-breeze at 2024-09-26 10:21:05
+2024-09-26 10:21:05,946 - INFO - Input content - content='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and injured hundreds in Lebanon last week. How did it do it? Lots of artificial intelligence tools.'
+2024-09-26 10:21:05,947 - INFO - clean content - clean_content='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and injured hundreds in Lebanon last week. How did it do it? Lots of artificial intelligence tools.'
+2024-09-26 10:21:05,947 - INFO - Generating summary with BART model
+2024-09-26 10:21:12,305 - INFO - Generating summary with BART model
+2024-09-26 10:21:18,670 - INFO - full_tweet='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and..[read more👇🏼] #intelligence #artificial https://www.wired.com/story/pager-protocol-pager-explosion-ai-podcast/'
+2024-09-26 10:37:39,944 - ERROR - Failed to post tweet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
