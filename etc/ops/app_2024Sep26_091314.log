@@ -1,0 +1,18 @@
+2024-09-26 09:13:14,782 - INFO - Starting configuration setup
+2024-09-26 09:13:14,783 - INFO - Environment variables loaded successfully
+2024-09-26 09:13:14,783 - INFO - Twitter API client initialized successfully
+2024-09-26 09:13:16,747 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 09:13:28,911 - INFO - Summarization model initialized successfully
+2024-09-26 09:13:28,911 - INFO - Starting tweet scheduling
+2024-09-26 09:13:28,911 - INFO - Tweeting process started at 2024-09-26 09:13:28.911577!
+2024-09-26 09:13:28,911 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 09:13:28,911 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 09:13:48,675 - INFO - Total entries found: 617
+2024-09-26 09:13:48,678 - INFO - Recent AI-related entries found: 36
+2024-09-26 09:13:48,678 - INFO - Input content - content='HubSpot showcases Breeze AI CRM tools.'
+2024-09-26 09:13:48,679 - INFO - clean content - clean_content='HubSpot showcases Breeze AI CRM tools.'
+2024-09-26 09:13:48,679 - INFO - Generating summary with BART model
+2024-09-26 09:13:53,024 - INFO - Generating summary with BART model
+2024-09-26 09:13:56,751 - INFO - full_tweet='HubSpot showcases Breeze AI CRM tools. Breeze CRM is a cloud-based CRM system that uses artificial..[read more👇🏼] #cloud #AI https://www.techradar.com/pro/software-services/hubspot-uses-ai-to-make-marketing-and-sales-a-breeze'
+2024-09-26 09:13:56,907 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
