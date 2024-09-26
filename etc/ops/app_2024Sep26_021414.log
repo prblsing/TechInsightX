@@ -1,0 +1,26 @@
+2024-09-26 02:14:14,263 - INFO - Starting configuration setup
+2024-09-26 02:14:14,263 - INFO - Environment variables loaded successfully
+2024-09-26 02:14:14,263 - INFO - Twitter API client initialized successfully
+2024-09-26 02:14:16,117 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 02:14:25,258 - INFO - Summarization model initialized successfully
+2024-09-26 02:14:25,259 - INFO - Starting tweet scheduling
+2024-09-26 02:14:25,259 - INFO - Tweeting process started at 2024-09-26 02:14:25.259208!
+2024-09-26 02:14:25,259 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 02:14:25,259 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 02:14:44,364 - INFO - Total entries found: 617
+2024-09-26 02:14:44,367 - INFO - Recent AI-related entries found: 39
+2024-09-26 02:14:44,367 - INFO - Input content - content='Nintendo goes after AI images of Mario shared on X.'
+2024-09-26 02:14:44,368 - INFO - clean content - clean_content='Nintendo goes after AI images of Mario shared on X.'
+2024-09-26 02:14:44,368 - INFO - Generating summary with BART model
+2024-09-26 02:14:49,545 - INFO - Generating summary with BART model
+2024-09-26 02:14:54,115 - INFO - full_tweet='Nintendo goes after AI images of Mario shared on X. Nintendo goes after artificial intelligence images of..[read more👇🏼] #AI #Nintendo https://www.techradar.com/computing/artificial-intelligence/nintendo-jumps-on-ai-images-of-mario-shared-on-x'
+2024-09-26 02:14:54,413 - INFO - Tweet posted successfully: Response(data={'text': 'Nintendo goes after AI images of Mario shared on X. Nintendo goes after artificial intelligence images of..[read more👇🏼] #AI #Nintendo https://t.co/nRo7PuAklJ', 'edit_history_tweet_ids': ['1839126469324452285'], 'id': '1839126469324452285'}, includes={}, errors=[], meta={})
+2024-09-26 02:14:54,413 - INFO - Sleeping for 1 minutes and 57 seconds.
+2024-09-26 02:16:51,414 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/nintendo-jumps-on-ai-images-of-mario-shared-on-x at 2024-09-26 02:16:51
+2024-09-26 02:16:51,414 - INFO - Input content - content='<p>OpenAI&#8217;s chief research officer, Bob McGrew, and a research VP, Barret Zoph, have left the company hours after OpenAI CTO Mira Murati announced she would be departing. CEO Sam Altman revealed the two latest resignations in a post on X Wednesday evening, along with leadership transition plans. &#8220;Mira, Bob, and Barret made these decisions independently [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-26 02:16:51,414 - INFO - clean content - clean_content='OpenAI&#8217;s chief research officer, Bob McGrew, and a research VP, Barret Zoph, have left the company hours after OpenAI CTO Mira Murati announced she would be departing. CEO Sam Altman revealed the two latest resignations in a post on X Wednesday evening, along with leadership transition plans. &#8220;Mira, Bob, and Barret made these decisions independently [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-26 02:16:51,414 - INFO - Generating summary with BART model
+2024-09-26 02:16:56,307 - INFO - Generating summary with BART model
+2024-09-26 02:17:01,227 - INFO - full_tweet="OpenAI's chief research officer Bob McGrew and research VP Barret Zoph have left the company. CEO Sam..[read more👇🏼] #research #resignations https://techcrunch.com/2024/09/25/openais-chief-research-officer-has-left/"
+2024-09-26 02:17:01,284 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
