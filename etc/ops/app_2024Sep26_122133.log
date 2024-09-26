@@ -1,0 +1,25 @@
+2024-09-26 12:21:33,667 - INFO - Starting configuration setup
+2024-09-26 12:21:33,667 - INFO - Environment variables loaded successfully
+2024-09-26 12:21:33,667 - INFO - Twitter API client initialized successfully
+2024-09-26 12:21:35,504 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 12:21:43,743 - INFO - Summarization model initialized successfully
+2024-09-26 12:21:43,743 - INFO - Starting tweet scheduling
+2024-09-26 12:21:43,743 - INFO - Tweeting process started at 2024-09-26 12:21:43.743611!
+2024-09-26 12:21:43,743 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 12:21:43,743 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 12:21:56,672 - INFO - Total entries found: 617
+2024-09-26 12:21:56,675 - INFO - Recent AI-related entries found: 31
+2024-09-26 12:21:56,676 - INFO - Input content - content='<p>Explore multimodal &#038; small language models, plus advanced benchmarks for AI evaluation. Microsoft researchers are working on breakthroughs in weather prediction, materials design, even a new kind of computer for AI inference and hard optimization problems.</p>\n<p>The post <a href="https://www.microsoft.com/en-us/research/blog/microsoft-research-forum-episode-4-the-future-of-multimodal-models-a-new-small-language-model-and-other-ai-updates/">Microsoft Research Forum Episode 4: The future of multimodal models, a new “small” language model, and other AI updates</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>'
+2024-09-26 12:21:56,676 - INFO - clean content - clean_content='Explore multimodal &#038; small language models, plus advanced benchmarks for AI evaluation. Microsoft researchers are working on breakthroughs in weather prediction, materials design, even a new kind of computer for AI inference and hard optimization problems. The post Microsoft Research Forum Episode 4: The future of multimodal models, a new “small” language model, and other AI updates appeared first on Microsoft Research.'
+2024-09-26 12:21:56,676 - INFO - Generating summary with BART model
+2024-09-26 12:22:01,947 - INFO - Generating summary with BART model
+2024-09-26 12:22:06,582 - INFO - full_tweet='Microsoft researchers are working on breakthroughs in weather prediction, materials design, and more...[read more👇🏼] #AI #breakthroughs https://www.microsoft.com/en-us/research/blog/microsoft-research-forum-episode-4-the-future-of-multimodal-models-a-new-small-language-model-and-other-ai-updates/'
+2024-09-26 12:22:06,925 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839279278279512154'], 'text': 'Microsoft researchers are working on breakthroughs in weather prediction, materials design, and more...[read more👇🏼] #AI #breakthroughs https://t.co/Edf2RuDao3', 'id': '1839279278279512154'}, includes={}, errors=[], meta={})
+2024-09-26 12:22:06,925 - INFO - Sleeping for 5 minutes and 32 seconds.
+2024-09-26 12:27:38,925 - INFO - Saved posted URL: https://www.microsoft.com/en-us/research/blog/microsoft-research-forum-episode-4-the-future-of-multimodal-models-a-new-small-language-model-and-other-ai-updates/ at 2024-09-26 12:27:38
+2024-09-26 12:27:38,925 - INFO - Input content - content='Gaxos.AI\xa0has launched its Gaxos Labs AI development tools so game developers can increase revenue and empower player creativity.'
+2024-09-26 12:27:38,926 - INFO - clean content - clean_content='Gaxos.AI has launched its Gaxos Labs AI development tools so game developers can increase revenue and empower player creativity.'
+2024-09-26 12:27:38,926 - INFO - Generating summary with BART model
+2024-09-26 12:27:43,618 - INFO - Generating summary with BART model
+2024-09-26 12:27:48,300 - INFO - full_tweet='Gaxos.AI has launched its Gaxos Labs AI development tools. The tools will help game developers increase..[read more👇🏼] #AI #Gaxos https://venturebeat.com/games/gaxos-launches-gaxos-labs-ai-development-tools-for-game-devs/'
+2024-09-26 12:44:09,937 - ERROR - Failed to post tweet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
