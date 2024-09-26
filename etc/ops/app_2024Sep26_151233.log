@@ -1,0 +1,50 @@
+2024-09-26 15:12:33,723 - INFO - Starting configuration setup
+2024-09-26 15:12:33,723 - INFO - Environment variables loaded successfully
+2024-09-26 15:12:33,723 - INFO - Twitter API client initialized successfully
+2024-09-26 15:12:35,590 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 15:12:42,665 - INFO - Summarization model initialized successfully
+2024-09-26 15:12:42,665 - INFO - Starting tweet scheduling
+2024-09-26 15:12:42,665 - INFO - Tweeting process started at 2024-09-26 15:12:42.665784!
+2024-09-26 15:12:42,666 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 15:12:42,666 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 15:12:57,070 - INFO - Total entries found: 617
+2024-09-26 15:12:57,073 - INFO - Recent AI-related entries found: 36
+2024-09-26 15:12:57,073 - INFO - Input content - content='<p>We’re thrilled to announce that the agenda for our dedicated AI Stage presented by Google Cloud to TechCrunch Disrupt 2024 is complete and ready to go! It joins fintech, SaaS, and space as the other industry-focused stages — all under one big roof. We couldn&#8217;t possibly host TechCrunch Disrupt 2024 without a huge deep dive [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-26 15:12:57,073 - INFO - clean content - clean_content='We’re thrilled to announce that the agenda for our dedicated AI Stage presented by Google Cloud to TechCrunch Disrupt 2024 is complete and ready to go! It joins fintech, SaaS, and space as the other industry-focused stages — all under one big roof. We couldn&#8217;t possibly host TechCrunch Disrupt 2024 without a huge deep dive [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-26 15:12:57,074 - INFO - Generating summary with BART model
+2024-09-26 15:13:03,989 - INFO - Generating summary with BART model
+2024-09-26 15:13:10,262 - INFO - full_tweet='The agenda for our dedicated AI Stage presented by Google Cloud to TechCrunch Disrupt 2024 is complete..[read more👇🏼] #fintech #Cloud https://techcrunch.com/2024/09/26/announcing-the-final-agenda-for-the-ai-stage-at-techcrunch-disrupt-2024/'
+2024-09-26 15:13:10,727 - INFO - Tweet posted successfully: Response(data={'id': '1839322327294615996', 'edit_history_tweet_ids': ['1839322327294615996'], 'text': 'The agenda for our dedicated AI Stage presented by Google Cloud to TechCrunch Disrupt 2024 is complete..[read more👇🏼] #fintech #Cloud https://t.co/Rsi99LW6VB'}, includes={}, errors=[], meta={})
+2024-09-26 15:13:10,727 - INFO - Sleeping for 7 minutes and 56 seconds.
+2024-09-26 15:21:06,728 - INFO - Saved posted URL: https://techcrunch.com/2024/09/26/announcing-the-final-agenda-for-the-ai-stage-at-techcrunch-disrupt-2024/ at 2024-09-26 15:21:06
+2024-09-26 15:21:06,728 - INFO - Input content - content='The Samsung Galaxy Tab S10 Plus, Galaxy S10 Ultra, and Galaxy S24 FE will all be available in early October.'
+2024-09-26 15:21:06,728 - INFO - clean content - clean_content='The Samsung Galaxy Tab S10 Plus, Galaxy S10 Ultra, and Galaxy S24 FE will all be available in early October.'
+2024-09-26 15:21:06,728 - INFO - Generating summary with BART model
+2024-09-26 15:21:12,020 - INFO - Generating summary with BART model
+2024-09-26 15:21:17,369 - INFO - full_tweet='The Samsung Galaxy Tab S10 Plus, Galaxy S10 Ultra, and Galaxy S24 FE will all be available in early..[read more👇🏼] #Galaxy #Plus https://www.techradar.com/phones/samsung-galaxy-phones/the-samsung-galaxy-s24-fe-and-galaxy-tab-s10-series-have-landed-with-high-end-specs-and-a-whole-lot-of-ai'
+2024-09-26 15:21:17,819 - INFO - Tweet posted successfully: Response(data={'text': 'The Samsung Galaxy Tab S10 Plus, Galaxy S10 Ultra, and Galaxy S24 FE will all be available in early..[read more👇🏼] #Galaxy #Plus https://t.co/Tmjoe6BPsl', 'edit_history_tweet_ids': ['1839324370126200952'], 'id': '1839324370126200952'}, includes={}, errors=[], meta={})
+2024-09-26 15:21:17,819 - INFO - Sleeping for 7 minutes and 41 seconds.
+2024-09-26 15:28:58,819 - INFO - Saved posted URL: https://www.techradar.com/phones/samsung-galaxy-phones/the-samsung-galaxy-s24-fe-and-galaxy-tab-s10-series-have-landed-with-high-end-specs-and-a-whole-lot-of-ai at 2024-09-26 15:28:58
+2024-09-26 15:28:58,819 - INFO - Input content - content='<p>Ken Kutaragi, father of the PlayStation, gave an opening keynote at the Tokyo Game Show where he said the game industry could grow by more than 10 times to 100 times as it kicks off the age of real-time computing. Kutaragi did a fireside chat with Katsuhiko Hayashi of Kadokawa Game Linkage. Kutaragi said his&#160;[&#8230;]\n</p>'
+2024-09-26 15:28:58,820 - INFO - clean content - clean_content='Ken Kutaragi, father of the PlayStation, gave an opening keynote at the Tokyo Game Show where he said the game industry could grow by more than 10 times to 100 times as it kicks off the age of real-time computing. Kutaragi did a fireside chat with Katsuhiko Hayashi of Kadokawa Game Linkage. Kutaragi said his&#160;[&#8230;]'
+2024-09-26 15:28:58,820 - INFO - Generating summary with BART model
+2024-09-26 15:29:04,628 - INFO - Generating summary with BART model
+2024-09-26 15:29:10,419 - INFO - full_tweet='Ken Kutaragi, father of the PlayStation, gave an opening keynote at the Tokyo Game Show. He said the game..[read more👇🏼] #times #computing https://venturebeat.com/ai/ken-kutaragi-sees-gaming-leading-the-way-to-ai-real-time-computing/'
+2024-09-26 15:29:10,686 - INFO - Tweet posted successfully: Response(data={'id': '1839326354208096544', 'edit_history_tweet_ids': ['1839326354208096544'], 'text': 'Ken Kutaragi, father of the PlayStation, gave an opening keynote at the Tokyo Game Show. He said the game..[read more👇🏼] #times #computing https://t.co/7tkjQwrAMG'}, includes={}, errors=[], meta={})
+2024-09-26 15:29:10,687 - INFO - Sleeping for 3 minutes and 59 seconds.
+2024-09-26 15:33:09,687 - INFO - Saved posted URL: https://venturebeat.com/ai/ken-kutaragi-sees-gaming-leading-the-way-to-ai-real-time-computing/ at 2024-09-26 15:33:09
+2024-09-26 15:33:09,687 - INFO - Input content - content='Refresh 2024 introduces new features, streamlined business tools, and enhanced payment options, receiving positive reviews for helping entrepreneurs simplify operations and focus on what they love.'
+2024-09-26 15:33:09,687 - INFO - clean content - clean_content='Refresh 2024 introduces new features, streamlined business tools, and enhanced payment options, receiving positive reviews for helping entrepreneurs simplify operations and focus on what they love.'
+2024-09-26 15:33:09,687 - INFO - Generating summary with BART model
+2024-09-26 15:33:13,702 - INFO - Generating summary with BART model
+2024-09-26 15:33:17,694 - INFO - full_tweet='Refresh 2024 introduces new features, streamlined business tools, and enhanced payment options. The new..[read more👇🏼] #features #new https://www.techradar.com/pro/squarespace-refresh-2024-empowers-entrepreneurs-with-ai-driven-tools-to-simplify-website-building-and-management-enhance-creativity-and-online-presence-transforming-how-businesses-build-and-manage-their-digital-identity'
+2024-09-26 15:33:18,049 - INFO - Tweet posted successfully: Response(data={'id': '1839327391061102888', 'text': 'Refresh 2024 introduces new features, streamlined business tools, and enhanced payment options. The new..[read more👇🏼] #features #new https://t.co/9Mjtaezrqs', 'edit_history_tweet_ids': ['1839327391061102888']}, includes={}, errors=[], meta={})
+2024-09-26 15:33:18,049 - INFO - Sleeping for 4 minutes and 3 seconds.
+2024-09-26 15:37:21,049 - INFO - Saved posted URL: https://www.techradar.com/pro/squarespace-refresh-2024-empowers-entrepreneurs-with-ai-driven-tools-to-simplify-website-building-and-management-enhance-creativity-and-online-presence-transforming-how-businesses-build-and-manage-their-digital-identity at 2024-09-26 15:37:21
+2024-09-26 15:37:21,049 - INFO - Input content - content='Gemini could increase your productivity for any writing you do in Google apps.'
+2024-09-26 15:37:21,049 - INFO - clean content - clean_content='Gemini could increase your productivity for any writing you do in Google apps.'
+2024-09-26 15:37:21,049 - INFO - Generating summary with BART model
+2024-09-26 15:37:24,505 - INFO - Generating summary with BART model
+2024-09-26 15:37:28,004 - INFO - full_tweet='Gemini could increase your productivity for any writing you do in Google apps. Gemini is a constellation..[read more👇🏼] #Gemini #constellation https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-summarize-a-google-doc/#ftag=CAD590a51e'
+2024-09-26 15:37:28,447 - ERROR - Failed to post tweet: 503 Service Unavailable
+Service Unavailable
