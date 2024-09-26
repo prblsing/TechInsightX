@@ -1,0 +1,18 @@
+2024-09-26 07:11:44,660 - INFO - Starting configuration setup
+2024-09-26 07:11:44,660 - INFO - Environment variables loaded successfully
+2024-09-26 07:11:44,660 - INFO - Twitter API client initialized successfully
+2024-09-26 07:11:46,538 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 07:11:52,865 - INFO - Summarization model initialized successfully
+2024-09-26 07:11:52,865 - INFO - Starting tweet scheduling
+2024-09-26 07:11:52,865 - INFO - Tweeting process started at 2024-09-26 07:11:52.865755!
+2024-09-26 07:11:52,865 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 07:11:52,866 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 07:12:06,278 - INFO - Total entries found: 617
+2024-09-26 07:12:06,281 - INFO - Recent AI-related entries found: 36
+2024-09-26 07:12:06,281 - INFO - Input content - content='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and injured hundreds in Lebanon last week. How did it do it? Lots of artificial intelligence tools.'
+2024-09-26 07:12:06,282 - INFO - clean content - clean_content='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and injured hundreds in Lebanon last week. How did it do it? Lots of artificial intelligence tools.'
+2024-09-26 07:12:06,282 - INFO - Generating summary with BART model
+2024-09-26 07:12:13,348 - INFO - Generating summary with BART model
+2024-09-26 07:12:19,726 - INFO - full_tweet='The Pager Protocol podcast went up hours after exploding pagers and two-way radios killed dozens and..[read more👇🏼] #intelligence #artificial https://www.wired.com/story/pager-protocol-pager-explosion-ai-podcast/'
+2024-09-26 07:12:19,842 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
