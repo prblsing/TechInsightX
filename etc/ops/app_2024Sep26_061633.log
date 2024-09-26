@@ -1,0 +1,18 @@
+2024-09-26 06:16:33,292 - INFO - Starting configuration setup
+2024-09-26 06:16:33,292 - INFO - Environment variables loaded successfully
+2024-09-26 06:16:33,292 - INFO - Twitter API client initialized successfully
+2024-09-26 06:16:35,203 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-26 06:16:42,247 - INFO - Summarization model initialized successfully
+2024-09-26 06:16:42,247 - INFO - Starting tweet scheduling
+2024-09-26 06:16:42,247 - INFO - Tweeting process started at 2024-09-26 06:16:42.247938!
+2024-09-26 06:16:42,248 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep26.csv
+2024-09-26 06:16:42,248 - INFO - Fetching latest tech news from RSS feeds
+2024-09-26 06:16:56,331 - INFO - Total entries found: 617
+2024-09-26 06:16:56,334 - INFO - Recent AI-related entries found: 36
+2024-09-26 06:16:56,334 - INFO - Input content - content='Google, Samsung and Microsoft among those signing up for voluntary commitments, but Meta has chosen not to.'
+2024-09-26 06:16:56,335 - INFO - clean content - clean_content='Google, Samsung and Microsoft among those signing up for voluntary commitments, but Meta has chosen not to.'
+2024-09-26 06:16:56,335 - INFO - Generating summary with BART model
+2024-09-26 06:17:01,587 - INFO - Generating summary with BART model
+2024-09-26 06:17:06,179 - INFO - full_tweet='Google, Samsung and Microsoft among those signing up for voluntary commitments, but Meta has chosen not..[read more👇🏼] #network #Meta https://www.techradar.com/pro/hundreds-of-companies-sign-eu-artificial-intelligence-pact'
+2024-09-26 06:17:06,326 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
