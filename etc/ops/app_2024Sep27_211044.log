@@ -1,0 +1,30 @@
+2024-09-27 21:10:44,672 - INFO - Starting configuration setup
+2024-09-27 21:10:44,673 - INFO - Environment variables loaded successfully
+2024-09-27 21:10:44,673 - INFO - Twitter API client initialized successfully
+2024-09-27 21:10:46,549 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-27 21:10:52,883 - INFO - Summarization model initialized successfully
+2024-09-27 21:10:52,883 - INFO - Starting tweet scheduling
+2024-09-27 21:10:52,883 - INFO - Tweeting process started at 2024-09-27 21:10:52.883346!
+2024-09-27 21:10:52,883 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep27.csv
+2024-09-27 21:10:52,883 - INFO - Fetching latest tech news from RSS feeds
+2024-09-27 21:11:07,173 - INFO - Total entries found: 617
+2024-09-27 21:11:07,176 - INFO - Recent AI-related entries found: 12
+2024-09-27 21:11:07,176 - INFO - Input content - content='<figure>\n      <img alt="ISRAEL-SCIENCE-TECHNOLOGY-AI" src="https://cdn.vox-cdn.com/thumbor/DvB36uJg8KYBZ7pwEx2FRWNp-RI=/0x0:6000x4000/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73616251/1258459861.0.jpg" />\n        <figcaption>Photo by Jack Guez / AFP via Getty Images</figcaption>\n    </figure>\n\n  <p id="i1h4EY">Here’s the thing about asking investors for money: they want to see returns.</p>\n<p id="rjjxJH">OpenAI launched with a famously altruistic mission: to help humanity by developing artificial general intelligence. But along the way, it became one of the best-funded companies in Silicon Valley. Now, the tension between those two facts is coming to a head. </p>\n<p id="WlnQKy">Weeks after releasing a new model it claims can “reason,” OpenAI is barreling toward dropping its nonprofit status, some of its most senior employees are leaving, and CEO Sam Altman — who was once briefly ousted over apparent trust concerns — is solidifying his position as one of the most powerful people in tech.</p>\n<p id="v5aeFN">On Wednesday, OpenAI’s longtime chief technology officer, Mira Murati, <a href="https://www.theverge.com/2024/9/25/24254431/openai-cto-mira-murati-leaving">announced she’s leaving...</a></p>\n  <p>\n    <a href="https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus">Continue reading&hellip;</a>\n  </p>'
+2024-09-27 21:11:07,177 - INFO - clean content - clean_content='Photo by Jack Guez / AFP via Getty Images Here’s the thing about asking investors for money: they want to see returns. OpenAI launched with a famously altruistic mission: to help humanity by developing artificial general intelligence. But along the way, it became one of the best-funded companies in Silicon Valley. Now, the tension between those two facts is coming to a head. Weeks after releasing a new model it claims can “reason,” OpenAI is barreling toward dropping its nonprofit status, some of its most senior employees are leaving, and CEO Sam Altman — who was once briefly ousted over apparent trust concerns — is solidifying his position as one of the most powerful people in tech. On Wednesday, OpenAI’s longtime chief technology officer, Mira Murati, announced she’s leaving... Continue reading&hellip;'
+2024-09-27 21:11:07,177 - INFO - Generating summary with BART model
+2024-09-27 21:11:16,203 - INFO - Generating summary with BART model
+2024-09-27 21:11:24,525 - INFO - full_tweet='OpenAI launched with a famously altruistic mission: to help humanity by developing artificial general..[read more👇🏼] #intelligence #altruistic https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus'
+2024-09-27 21:11:24,799 - INFO - Tweet posted successfully: Response(data={'text': 'OpenAI launched with a famously altruistic mission: to help humanity by developing artificial general..[read more👇🏼] #intelligence #altruistic https://t.co/ra4mPKTyVj', 'edit_history_tweet_ids': ['1839774868377624833'], 'id': '1839774868377624833'}, includes={}, errors=[], meta={})
+2024-09-27 21:11:24,799 - INFO - Sleeping for 4 minutes and 41 seconds.
+2024-09-27 21:16:05,800 - INFO - Saved posted URL: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus at 2024-09-27 21:16:05
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.pcmag.com/news/hands-on-with-samsungs-high-end-tablets-can-galaxy-ai-trounce-the-ipad
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-gives-controversial-recall-ai-feature-some-extra-security
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openais-6-5b-funding-round-may-close-as-soon-as-next-week/
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.pcmag.com/news/gmail-swaps-boring-smart-replies-with-contextual-ai-suggestions
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.wired.com/story/plaintext-no-sam-altman-ai-wont-solve-all-of-humanitys-problems/
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/
+2024-09-27 21:16:05,800 - INFO - This link is already posted: https://techcrunch.com/2024/09/26/runway-earmarks-5m-to-fund-up-to-100-films-using-ai-generated-video/
