@@ -1,0 +1,18 @@
+2024-09-27 04:14:53,279 - INFO - Starting configuration setup
+2024-09-27 04:14:53,279 - INFO - Environment variables loaded successfully
+2024-09-27 04:14:53,279 - INFO - Twitter API client initialized successfully
+2024-09-27 04:14:55,162 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-27 04:15:01,609 - INFO - Summarization model initialized successfully
+2024-09-27 04:15:01,610 - INFO - Starting tweet scheduling
+2024-09-27 04:15:01,610 - INFO - Tweeting process started at 2024-09-27 04:15:01.610190!
+2024-09-27 04:15:01,610 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep27.csv
+2024-09-27 04:15:01,610 - INFO - Fetching latest tech news from RSS feeds
+2024-09-27 04:15:21,466 - INFO - Total entries found: 617
+2024-09-27 04:15:21,469 - INFO - Recent AI-related entries found: 32
+2024-09-27 04:15:21,470 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hey Reddit!</p> <p>As someone working in AI, I\'ve always found it hard to keep up with the fast pace of AI research.</p> <p>So, I built the arXiv AI Newsletter as a fun side project (<a href="https://newsletter.pantheon.so">https://newsletter.pantheon.so</a>).</p> <p>It\'s a newsletter of recent trending AI papers with a summary of what problem each one is solving.</p> <p>Its using Mendeley reader count and X to find trending AI papers covering all arXiv CS topics.</p> <p>I hope you find this project useful, and I would love to hear the community\'s thoughts and feedback!</p> <p>P.S. I\'ve also added bioRxiv in addition to arXiv and am planning to add more preprint journals. Let me know if you have any favorites I should prioritize!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/yachty66"> /u/yachty66 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/">[comments]</a></span>'
+2024-09-27 04:15:21,470 - INFO - clean content - clean_content="Hey Reddit! As someone working in AI, I've always found it hard to keep up with the fast pace of AI research. So, I built the arXiv AI Newsletter as a fun side project ( It's a newsletter of recent trending AI papers with a summary of what problem each one is solving. Its using Mendeley reader count and X to find trending AI papers covering all arXiv CS topics. I hope you find this project useful, and I would love to hear the community's thoughts and feedback! P.S. I've also added bioRxiv in addition to arXiv and am planning to add more preprint journals. Let me know if you have any favorites I should prioritize! &#32; submitted by &#32; /u/yachty66 [link] &#32; [comments]"
+2024-09-27 04:15:21,470 - INFO - Generating summary with BART model
+2024-09-27 04:15:28,336 - INFO - Generating summary with BART model
+2024-09-27 04:15:34,526 - INFO - full_tweet='The arXiv AI Newsletter is a newsletter of recent trending AI papers with a summary of what problem each..[read more👇🏼] #AI #papers https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/'
+2024-09-27 04:15:34,695 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
