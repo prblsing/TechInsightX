@@ -1,0 +1,28 @@
+2024-09-27 09:13:18,166 - INFO - Starting configuration setup
+2024-09-27 09:13:18,166 - INFO - Environment variables loaded successfully
+2024-09-27 09:13:18,166 - INFO - Twitter API client initialized successfully
+2024-09-27 09:13:20,112 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-27 09:14:29,500 - INFO - Summarization model initialized successfully
+2024-09-27 09:14:29,500 - INFO - Starting tweet scheduling
+2024-09-27 09:14:29,501 - INFO - Tweeting process started at 2024-09-27 09:14:29.501019!
+2024-09-27 09:14:29,501 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep27.csv
+2024-09-27 09:14:29,501 - INFO - Fetching latest tech news from RSS feeds
+2024-09-27 09:14:49,984 - INFO - Total entries found: 617
+2024-09-27 09:14:49,987 - INFO - Recent AI-related entries found: 33
+2024-09-27 09:14:49,987 - INFO - Input content - content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-27 09:14:49,988 - INFO - clean content - clean_content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-27 09:14:49,988 - INFO - Generating summary with BART model
+2024-09-27 09:14:55,463 - INFO - Generating summary with BART model
+2024-09-27 09:15:00,268 - INFO - full_tweet='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated..[read more👇🏼] #AI #regulation https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/'
+2024-09-27 09:15:00,514 - INFO - Tweet posted successfully: Response(data={'text': 'New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated..[read more👇🏼] #AI #regulation https://t.co/MlJHK0Ahhv', 'id': '1839594579269726403', 'edit_history_tweet_ids': ['1839594579269726403']}, includes={}, errors=[], meta={})
+2024-09-27 09:15:00,514 - INFO - Sleeping for 1 minutes and 57 seconds.
+2024-09-27 09:16:57,515 - INFO - Saved posted URL: https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/ at 2024-09-27 09:16:57
+2024-09-27 09:16:57,515 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/deepak-chopras-ai-voice-aims-to-enlighten-your-listening
+2024-09-27 09:16:57,515 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/you-can-now-chat-and-play-games-with-duolingos-ai-characters-to-learn-spanish-or-french
+2024-09-27 09:16:57,515 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hey Reddit!</p> <p>As someone working in AI, I\'ve always found it hard to keep up with the fast pace of AI research.</p> <p>So, I built the arXiv AI Newsletter as a fun side project (<a href="https://newsletter.pantheon.so">https://newsletter.pantheon.so</a>).</p> <p>It\'s a newsletter of recent trending AI papers with a summary of what problem each one is solving.</p> <p>Its using Mendeley reader count and X to find trending AI papers covering all arXiv CS topics.</p> <p>I hope you find this project useful, and I would love to hear the community\'s thoughts and feedback!</p> <p>P.S. I\'ve also added bioRxiv in addition to arXiv and am planning to add more preprint journals. Let me know if you have any favorites I should prioritize!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/yachty66"> /u/yachty66 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/">[comments]</a></span>'
+2024-09-27 09:16:57,516 - INFO - clean content - clean_content="Hey Reddit! As someone working in AI, I've always found it hard to keep up with the fast pace of AI research. So, I built the arXiv AI Newsletter as a fun side project ( It's a newsletter of recent trending AI papers with a summary of what problem each one is solving. Its using Mendeley reader count and X to find trending AI papers covering all arXiv CS topics. I hope you find this project useful, and I would love to hear the community's thoughts and feedback! P.S. I've also added bioRxiv in addition to arXiv and am planning to add more preprint journals. Let me know if you have any favorites I should prioritize! &#32; submitted by &#32; /u/yachty66 [link] &#32; [comments]"
+2024-09-27 09:16:57,516 - INFO - Generating summary with BART model
+2024-09-27 09:17:04,001 - INFO - Generating summary with BART model
+2024-09-27 09:17:10,522 - INFO - full_tweet='The arXiv AI Newsletter is a newsletter of recent trending AI papers with a summary of what problem each..[read more👇🏼] #AI #papers https://www.reddit.com/r/MachineLearning/comments/1fqaohu/p_arxiv_ai_papers_keep_up_with_ai_research_the/'
+2024-09-27 09:17:10,600 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
