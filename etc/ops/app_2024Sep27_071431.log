@@ -1,0 +1,18 @@
+2024-09-27 07:14:31,307 - INFO - Starting configuration setup
+2024-09-27 07:14:31,308 - INFO - Environment variables loaded successfully
+2024-09-27 07:14:31,308 - INFO - Twitter API client initialized successfully
+2024-09-27 07:14:33,291 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-27 07:14:40,694 - INFO - Summarization model initialized successfully
+2024-09-27 07:14:40,694 - INFO - Starting tweet scheduling
+2024-09-27 07:14:40,694 - INFO - Tweeting process started at 2024-09-27 07:14:40.694423!
+2024-09-27 07:14:40,694 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep27.csv
+2024-09-27 07:14:40,694 - INFO - Fetching latest tech news from RSS feeds
+2024-09-27 07:14:56,612 - INFO - Total entries found: 617
+2024-09-27 07:14:56,615 - INFO - Recent AI-related entries found: 33
+2024-09-27 07:14:56,615 - INFO - Input content - content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-27 07:14:56,616 - INFO - clean content - clean_content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-27 07:14:56,616 - INFO - Generating summary with BART model
+2024-09-27 07:15:02,090 - INFO - Generating summary with BART model
+2024-09-27 07:15:06,872 - INFO - full_tweet='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated..[read more👇🏼] #AI #regulation https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/'
+2024-09-27 07:15:07,149 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
