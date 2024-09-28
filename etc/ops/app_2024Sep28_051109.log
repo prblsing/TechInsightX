@@ -1,0 +1,46 @@
+2024-09-28 05:11:09,830 - INFO - Starting configuration setup
+2024-09-28 05:11:09,830 - INFO - Environment variables loaded successfully
+2024-09-28 05:11:09,830 - INFO - Twitter API client initialized successfully
+2024-09-28 05:11:11,677 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 05:11:19,085 - INFO - Summarization model initialized successfully
+2024-09-28 05:11:19,085 - INFO - Starting tweet scheduling
+2024-09-28 05:11:19,085 - INFO - Tweeting process started at 2024-09-28 05:11:19.085549!
+2024-09-28 05:11:19,085 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 05:11:19,085 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 05:11:34,206 - INFO - Total entries found: 617
+2024-09-28 05:11:34,209 - INFO - Recent AI-related entries found: 14
+2024-09-28 05:11:34,209 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 05:11:34,209 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 05:11:34,209 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 05:11:34,209 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 05:11:34,209 - INFO - Input content - content='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full control over, to create a handy looking camera for kids'
+2024-09-28 05:11:34,210 - INFO - clean content - clean_content='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full control over, to create a handy looking camera for kids'
+2024-09-28 05:11:34,210 - INFO - Generating summary with BART model
+2024-09-28 05:11:39,378 - INFO - Generating summary with BART model
+2024-09-28 05:11:43,906 - INFO - full_tweet='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full..[read more👇🏼] #app #AI https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative'
+2024-09-28 05:11:44,229 - INFO - Tweet posted successfully: Response(data={'id': '1839895745891025215', 'text': 'myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full..[read more👇🏼] #app #AI https://t.co/iiCqEeft2E', 'edit_history_tweet_ids': ['1839895745891025215']}, includes={}, errors=[], meta={})
+2024-09-28 05:11:44,229 - INFO - Sleeping for 1 minutes and 48 seconds.
+2024-09-28 05:13:32,230 - INFO - Saved posted URL: https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative at 2024-09-28 05:13:32
+2024-09-28 05:13:32,230 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/1792/0*2FOJvz14pQILP9Xb.png" width="1792" /></a></p><p class="medium-feed-snippet">We use CrewAI to create apps that demonstrate how to choose the right architecture for your LLM application</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-09-28 05:13:32,230 - INFO - clean content - clean_content='We use CrewAI to create apps that demonstrate how to choose the right architecture for your LLM applicationContinue reading on Towards Data Science »'
+2024-09-28 05:13:32,230 - INFO - Generating summary with BART model
+2024-09-28 05:13:36,905 - INFO - Generating summary with BART model
+2024-09-28 05:13:41,571 - INFO - full_tweet='CrewAI creates apps that demonstrate how to choose the right architecture for your LLM application. We..[read more👇🏼] #app #apps https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4'
+2024-09-28 05:13:41,768 - INFO - Tweet posted successfully: Response(data={'text': 'CrewAI creates apps that demonstrate how to choose the right architecture for your LLM application. We..[read more👇🏼] #app #apps https://t.co/may7OpgtBX', 'edit_history_tweet_ids': ['1839896238876979613'], 'id': '1839896238876979613'}, includes={}, errors=[], meta={})
+2024-09-28 05:13:41,768 - INFO - Sleeping for 7 minutes and 52 seconds.
+2024-09-28 05:21:33,768 - INFO - Saved posted URL: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4 at 2024-09-28 05:21:33
+2024-09-28 05:21:33,768 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I work as an undergraduate research assistant. I\'m curious about what do you think is the new frontier for AI?</p> <p>For example, we\'re full of LLM models, which are so good for language and vision tasks. But they are very poor when it comes to planning, control, real-world interaction, out-of-distribution thinking, etc.</p> <p>What are those topics that remains at the shadow within research niches, but have the capacity to become the new cutting-edge paradigm? Biased opinions are very encourage. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/One_Obligation3987"> /u/One_Obligation3987 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/">[comments]</a></span>'
+2024-09-28 05:21:33,769 - INFO - clean content - clean_content="I work as an undergraduate research assistant. I'm curious about what do you think is the new frontier for AI? For example, we're full of LLM models, which are so good for language and vision tasks. But they are very poor when it comes to planning, control, real-world interaction, out-of-distribution thinking, etc. What are those topics that remains at the shadow within research niches, but have the capacity to become the new cutting-edge paradigm? Biased opinions are very encourage. &#32; submitted by &#32; /u/One_Obligation3987 [link] &#32; [comments]"
+2024-09-28 05:21:33,769 - INFO - Generating summary with BART model
+2024-09-28 05:21:41,534 - INFO - Generating summary with BART model
+2024-09-28 05:21:49,326 - INFO - full_tweet="I work as an undergraduate research assistant. I'm curious about what do you think is the new frontier..[read more👇🏼] #AI #I https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/"
+2024-09-28 05:21:49,624 - INFO - Tweet posted successfully: Response(data={'text': "I work as an undergraduate research assistant. I'm curious about what do you think is the new frontier..[read more👇🏼] #AI #I https://t.co/YQLEHTqRHX", 'id': '1839898285047181417', 'edit_history_tweet_ids': ['1839898285047181417']}, includes={}, errors=[], meta={})
+2024-09-28 05:21:49,624 - INFO - Sleeping for 4 minutes and 13 seconds.
+2024-09-28 05:26:02,625 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/ at 2024-09-28 05:26:02
+2024-09-28 05:26:02,625 - INFO - Input content - content='<p>Welcome to Startups Weekly — your weekly recap of everything you can’t miss from the world of startups. Want it in your inbox every Friday? Sign up here. This week was a busy one for the startup and VC world, with its fair share of funding news and, of course, the latest edition of YC&#8217;s [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-28 05:26:02,625 - INFO - clean content - clean_content='Welcome to Startups Weekly — your weekly recap of everything you can’t miss from the world of startups. Want it in your inbox every Friday? Sign up here. This week was a busy one for the startup and VC world, with its fair share of funding news and, of course, the latest edition of YC&#8217;s [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-28 05:26:02,625 - INFO - Generating summary with BART model
+2024-09-28 05:26:07,620 - INFO - Generating summary with BART model
+2024-09-28 05:26:12,616 - INFO - full_tweet="Startups Weekly is our weekly recap of everything you can't miss from the world of startups. This week..[read more👇🏼] #startup #world https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/"
+2024-09-28 05:26:12,658 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
