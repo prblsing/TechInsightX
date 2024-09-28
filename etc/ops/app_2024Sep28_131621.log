@@ -1,0 +1,36 @@
+2024-09-28 13:16:21,180 - INFO - Starting configuration setup
+2024-09-28 13:16:21,180 - INFO - Environment variables loaded successfully
+2024-09-28 13:16:21,180 - INFO - Twitter API client initialized successfully
+2024-09-28 13:16:23,080 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 13:16:31,365 - INFO - Summarization model initialized successfully
+2024-09-28 13:16:31,365 - INFO - Starting tweet scheduling
+2024-09-28 13:16:31,365 - INFO - Tweeting process started at 2024-09-28 13:16:31.365961!
+2024-09-28 13:16:31,366 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 13:16:31,366 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 13:16:46,895 - INFO - Total entries found: 617
+2024-09-28 13:16:46,898 - INFO - Recent AI-related entries found: 18
+2024-09-28 13:16:46,898 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Is it possible to submit my paper, currently under review for the AAAI conference, to a CoRL workshop without making any changes? Will this affect my AAAI submission in any way? It says that &quot; Accepted papers will be published on the workshop webpage and will be presented as a spotlight talk or as a poster.&quot; in the CoRL workshop page.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/drainageleak"> /u/drainageleak </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/">[comments]</a></span>'
+2024-09-28 13:16:46,898 - INFO - clean content - clean_content='Is it possible to submit my paper, currently under review for the AAAI conference, to a CoRL workshop without making any changes? Will this affect my AAAI submission in any way? It says that &quot; Accepted papers will be published on the workshop webpage and will be presented as a spotlight talk or as a poster.&quot; in the CoRL workshop page. &#32; submitted by &#32; /u/drainageleak [link] &#32; [comments]'
+2024-09-28 13:16:46,898 - INFO - Generating summary with BART model
+2024-09-28 13:16:52,660 - INFO - Generating summary with BART model
+2024-09-28 13:16:57,758 - INFO - full_tweet='Is it possible to submit my paper, currently under review for the AAAI conference, to a CoRL workshop..[read more👇🏼] #AAAI #any https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/'
+2024-09-28 13:16:58,031 - INFO - Tweet posted successfully: Response(data={'id': '1840017858019110962', 'edit_history_tweet_ids': ['1840017858019110962'], 'text': 'Is it possible to submit my paper, currently under review for the AAAI conference, to a CoRL workshop..[read more👇🏼] #AAAI #any https://t.co/R6jxtnp67g'}, includes={}, errors=[], meta={})
+2024-09-28 13:16:58,032 - INFO - Sleeping for 8 minutes and 26 seconds.
+2024-09-28 13:25:24,032 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/ at 2024-09-28 13:25:24
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.wired.com/story/jony-ive-iphone-of-ai/
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/custom-ai-posts-in-our-instagram-feeds-no-thanks-meta/#ftag=CAD590a51e
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.cnet.com/tech/computing/samsung-galaxy-s10-tablets-revealed-complete-with-ai-features-s-pen/#ftag=CAD590a51e
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.techradar.com/pro/from-a-toaster-to-a-server-uk-startup-promises-5x-speed-up-without-changing-a-line-of-code-as-it-plans-to-take-on-nvidia-amd-in-the-generative-ai-battlefield
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/iphone-designer-jony-ive-and-openais-sam-altman-working-on-top-secret-ai-device-report-says/#ftag=CAD590a51e
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 13:25:24,032 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.pcmag.com/news/hands-on-with-samsungs-high-end-tablets-can-galaxy-ai-trounce-the-ipad
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-gives-controversial-recall-ai-feature-some-extra-security
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openais-6-5b-funding-round-may-close-as-soon-as-next-week/
+2024-09-28 13:25:24,033 - INFO - This link is already posted: https://www.pcmag.com/news/gmail-swaps-boring-smart-replies-with-contextual-ai-suggestions
