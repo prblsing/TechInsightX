@@ -1,0 +1,29 @@
+2024-09-28 04:14:10,810 - INFO - Starting configuration setup
+2024-09-28 04:14:10,810 - INFO - Environment variables loaded successfully
+2024-09-28 04:14:10,810 - INFO - Twitter API client initialized successfully
+2024-09-28 04:14:12,765 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 04:14:22,547 - INFO - Summarization model initialized successfully
+2024-09-28 04:14:22,547 - INFO - Starting tweet scheduling
+2024-09-28 04:14:22,547 - INFO - Tweeting process started at 2024-09-28 04:14:22.547672!
+2024-09-28 04:14:22,547 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 04:14:22,547 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 04:14:38,665 - INFO - Total entries found: 617
+2024-09-28 04:14:38,668 - INFO - Recent AI-related entries found: 14
+2024-09-28 04:14:38,669 - INFO - Input content - content='Samsung AI head discusses predictions for AI in coming year.'
+2024-09-28 04:14:38,669 - INFO - clean content - clean_content='Samsung AI head discusses predictions for AI in coming year.'
+2024-09-28 04:14:38,669 - INFO - Generating summary with BART model
+2024-09-28 04:14:43,075 - INFO - Generating summary with BART model
+2024-09-28 04:14:46,837 - INFO - full_tweet="Samsung AI head discusses predictions for AI in coming year. Samsung AI head: 'We're going to be able to..[read more👇🏼] #AI #Samsung https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life"
+2024-09-28 04:14:47,095 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839881413354762428'], 'id': '1839881413354762428', 'text': "Samsung AI head discusses predictions for AI in coming year. Samsung AI head: 'We're going to be able to..[read more👇🏼] #AI #Samsung https://t.co/i1lVoU4mBS"}, includes={}, errors=[], meta={})
+2024-09-28 04:14:47,095 - INFO - Sleeping for 5 minutes and 45 seconds.
+2024-09-28 04:20:32,096 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life at 2024-09-28 04:20:32
+2024-09-28 04:20:32,096 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 04:20:32,096 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 04:20:32,096 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 04:20:32,096 - INFO - Input content - content='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full control over, to create a handy looking camera for kids'
+2024-09-28 04:20:32,096 - INFO - clean content - clean_content='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full control over, to create a handy looking camera for kids'
+2024-09-28 04:20:32,096 - INFO - Generating summary with BART model
+2024-09-28 04:20:36,857 - INFO - Generating summary with BART model
+2024-09-28 04:20:41,614 - INFO - full_tweet='myFirst Camera 50 features AI photo and editing tools, plus a dedicated app that parents have full..[read more👇🏼] #app #AI https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative'
+2024-09-28 04:20:41,741 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
