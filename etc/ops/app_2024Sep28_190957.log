@@ -1,0 +1,40 @@
+2024-09-28 19:09:57,864 - INFO - Starting configuration setup
+2024-09-28 19:09:57,864 - INFO - Environment variables loaded successfully
+2024-09-28 19:09:57,864 - INFO - Twitter API client initialized successfully
+2024-09-28 19:09:59,777 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 19:10:07,624 - INFO - Summarization model initialized successfully
+2024-09-28 19:10:07,624 - INFO - Starting tweet scheduling
+2024-09-28 19:10:07,624 - INFO - Tweeting process started at 2024-09-28 19:10:07.624800!
+2024-09-28 19:10:07,625 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 19:10:07,625 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 19:10:24,999 - INFO - Total entries found: 617
+2024-09-28 19:10:25,002 - INFO - Recent AI-related entries found: 15
+2024-09-28 19:10:25,002 - INFO - Input content - content='Today’s AI systems can’t earn our trust by sharing the reasoning behind what they say, because there is no such reasoning.'
+2024-09-28 19:10:25,003 - INFO - clean content - clean_content='Today’s AI systems can’t earn our trust by sharing the reasoning behind what they say, because there is no such reasoning.'
+2024-09-28 19:10:25,003 - INFO - Generating summary with BART model
+2024-09-28 19:10:30,509 - INFO - Generating summary with BART model
+2024-09-28 19:10:35,235 - INFO - full_tweet='Today’s AI systems can’t earn our trust by sharing the reasoning behind what they say, because there is..[read more👇🏼] #AI #reasoning https://venturebeat.com/ai/why-ai-is-a-know-it-all-know-nothing/'
+2024-09-28 19:10:35,560 - INFO - Tweet posted successfully: Response(data={'text': 'Today’s AI systems can’t earn our trust by sharing the reasoning behind what they say, because there is..[read more👇🏼] #AI #reasoning https://t.co/9vUzHVql61', 'edit_history_tweet_ids': ['1840106850752032948'], 'id': '1840106850752032948'}, includes={}, errors=[], meta={})
+2024-09-28 19:10:35,560 - INFO - Sleeping for 7 minutes and 27 seconds.
+2024-09-28 19:18:02,560 - INFO - Saved posted URL: https://venturebeat.com/ai/why-ai-is-a-know-it-all-know-nothing/ at 2024-09-28 19:18:02
+2024-09-28 19:18:02,560 - INFO - Input content - content="Want to create custom images? We've tested and reviewed a lot of AI generators -- here are the best ones."
+2024-09-28 19:18:02,560 - INFO - clean content - clean_content="Want to create custom images? We've tested and reviewed a lot of AI generators -- here are the best ones."
+2024-09-28 19:18:02,561 - INFO - Generating summary with BART model
+2024-09-28 19:18:07,259 - INFO - Generating summary with BART model
+2024-09-28 19:18:12,010 - INFO - full_tweet="We've tested and reviewed a lot of AI generators -- here are the best ones. Want to create custom images?..[read more👇🏼] #AI #tested https://www.cnet.com/tech/services-and-software/best-ai-image-generators/#ftag=CAD590a51e"
+2024-09-28 19:18:12,312 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840108766454235537'], 'text': "We've tested and reviewed a lot of AI generators -- here are the best ones. Want to create custom images?..[read more👇🏼] #AI #tested https://t.co/sIOO7xTgon", 'id': '1840108766454235537'}, includes={}, errors=[], meta={})
+2024-09-28 19:18:12,312 - INFO - Sleeping for 9 minutes and 36 seconds.
+2024-09-28 19:27:48,313 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/best-ai-image-generators/#ftag=CAD590a51e at 2024-09-28 19:27:48
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-create-ai-images-a-complete-guide-with-expert-advice/#ftag=CAD590a51e
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.techradar.com/pro/lenovo-launches-two-new-notebooks-in-the-thinkbook-series-with-snapdragon-x-plus-x1p-42-100-and-amd-s-ryzen-ai-9-365-processor
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frha2f/d_last_week_in_medical_ai_top_research/
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.pcmag.com/picks/the-best-ai-search-engines
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.wired.com/story/jony-ive-iphone-of-ai/
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.techradar.com/pro/from-a-toaster-to-a-server-uk-startup-promises-5x-speed-up-without-changing-a-line-of-code-as-it-plans-to-take-on-nvidia-amd-in-the-generative-ai-battlefield
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4
+2024-09-28 19:27:48,313 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/
