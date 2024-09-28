@@ -1,0 +1,74 @@
+2024-09-28 06:15:06,505 - INFO - Starting configuration setup
+2024-09-28 06:15:06,505 - INFO - Environment variables loaded successfully
+2024-09-28 06:15:06,505 - INFO - Twitter API client initialized successfully
+2024-09-28 06:15:08,412 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 06:15:16,927 - INFO - Summarization model initialized successfully
+2024-09-28 06:15:16,927 - INFO - Starting tweet scheduling
+2024-09-28 06:15:16,927 - INFO - Tweeting process started at 2024-09-28 06:15:16.927496!
+2024-09-28 06:15:16,927 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 06:15:16,927 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 06:15:35,761 - INFO - Total entries found: 617
+2024-09-28 06:15:35,764 - INFO - Recent AI-related entries found: 14
+2024-09-28 06:15:35,764 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 06:15:35,764 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 06:15:35,764 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 06:15:35,764 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 06:15:35,764 - INFO - This link is already posted: https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative
+2024-09-28 06:15:35,765 - INFO - This link is already posted: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4
+2024-09-28 06:15:35,765 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/
+2024-09-28 06:15:35,765 - INFO - Input content - content='<p>Welcome to Startups Weekly — your weekly recap of everything you can’t miss from the world of startups. Want it in your inbox every Friday? Sign up here. This week was a busy one for the startup and VC world, with its fair share of funding news and, of course, the latest edition of YC&#8217;s [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-28 06:15:35,765 - INFO - clean content - clean_content='Welcome to Startups Weekly — your weekly recap of everything you can’t miss from the world of startups. Want it in your inbox every Friday? Sign up here. This week was a busy one for the startup and VC world, with its fair share of funding news and, of course, the latest edition of YC&#8217;s [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-28 06:15:35,765 - INFO - Generating summary with BART model
+2024-09-28 06:15:41,399 - INFO - Generating summary with BART model
+2024-09-28 06:15:46,379 - INFO - full_tweet="Startups Weekly is our weekly recap of everything you can't miss from the world of startups. This week..[read more👇🏼] #startup #world https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/"
+2024-09-28 06:15:46,643 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839911862122807568'], 'id': '1839911862122807568', 'text': "Startups Weekly is our weekly recap of everything you can't miss from the world of startups. This week..[read more👇🏼] #startup #world https://t.co/r6vKr2Uk7H"}, includes={}, errors=[], meta={})
+2024-09-28 06:15:46,643 - INFO - Sleeping for 8 minutes and 15 seconds.
+2024-09-28 06:24:01,643 - INFO - Saved posted URL: https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/ at 2024-09-28 06:24:01
+2024-09-28 06:24:01,643 - INFO - Input content - content="Samsung's Galaxy Tab S10+ and S10 Ultra are the company's first tablets to include Galaxy AI. These slick slates take the fight directly to the Apple iPad Pro. Here are our early impressions."
+2024-09-28 06:24:01,643 - INFO - clean content - clean_content="Samsung's Galaxy Tab S10+ and S10 Ultra are the company's first tablets to include Galaxy AI. These slick slates take the fight directly to the Apple iPad Pro. Here are our early impressions."
+2024-09-28 06:24:01,643 - INFO - Generating summary with BART model
+2024-09-28 06:24:06,674 - INFO - Generating summary with BART model
+2024-09-28 06:24:11,719 - INFO - full_tweet="Samsung's Galaxy Tab S10+ and S10 Ultra are the company's first tablets to include Galaxy AI. These slick..[read more👇🏼] #AI #Galaxy https://www.pcmag.com/news/hands-on-with-samsungs-high-end-tablets-can-galaxy-ai-trounce-the-ipad"
+2024-09-28 06:24:11,981 - INFO - Tweet posted successfully: Response(data={'text': "Samsung's Galaxy Tab S10+ and S10 Ultra are the company's first tablets to include Galaxy AI. These slick..[read more👇🏼] #AI #Galaxy https://t.co/vGoRAPj52x", 'edit_history_tweet_ids': ['1839913981609423236'], 'id': '1839913981609423236'}, includes={}, errors=[], meta={})
+2024-09-28 06:24:11,981 - INFO - Sleeping for 4 minutes and 47 seconds.
+2024-09-28 06:28:58,981 - INFO - Saved posted URL: https://www.pcmag.com/news/hands-on-with-samsungs-high-end-tablets-can-galaxy-ai-trounce-the-ipad at 2024-09-28 06:28:58
+2024-09-28 06:28:58,982 - INFO - Input content - content="Microsoft promises its Recall feature won't screenshot your personal or financial information. It'll also require Windows Hello verification."
+2024-09-28 06:28:58,982 - INFO - clean content - clean_content="Microsoft promises its Recall feature won't screenshot your personal or financial information. It'll also require Windows Hello verification."
+2024-09-28 06:28:58,982 - INFO - Generating summary with BART model
+2024-09-28 06:29:03,009 - INFO - Generating summary with BART model
+2024-09-28 06:29:07,035 - INFO - full_tweet="Microsoft promises its Recall feature won't screenshot your personal or financial information. It'll also..[read more👇🏼] #feature #Windows https://www.pcmag.com/news/microsoft-gives-controversial-recall-ai-feature-some-extra-security"
+2024-09-28 06:29:07,288 - INFO - Tweet posted successfully: Response(data={'id': '1839915220279668963', 'text': "Microsoft promises its Recall feature won't screenshot your personal or financial information. It'll also..[read more👇🏼] #feature #Windows https://t.co/KWxtIiF171", 'edit_history_tweet_ids': ['1839915220279668963']}, includes={}, errors=[], meta={})
+2024-09-28 06:29:07,288 - INFO - Sleeping for 7 minutes and 33 seconds.
+2024-09-28 06:36:40,288 - INFO - Saved posted URL: https://www.pcmag.com/news/microsoft-gives-controversial-recall-ai-feature-some-extra-security at 2024-09-28 06:36:40
+2024-09-28 06:36:40,288 - INFO - Input content - content="<p>The WSJ reports that OpenAI's next funding round, worth around $6.5 billion, could close as soon as the first week in October.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-09-28 06:36:40,289 - INFO - clean content - clean_content="The WSJ reports that OpenAI's next funding round, worth around $6.5 billion, could close as soon as the first week in October. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-09-28 06:36:40,289 - INFO - Generating summary with BART model
+2024-09-28 06:36:44,131 - INFO - Generating summary with BART model
+2024-09-28 06:36:47,969 - INFO - full_tweet="The WSJ reports that OpenAI's next funding round, worth around $6.5 billion, could close as soon as the..[read more👇🏼] #as #reports https://techcrunch.com/2024/09/27/openais-6-5b-funding-round-may-close-as-soon-as-next-week/"
+2024-09-28 06:36:48,210 - INFO - Tweet posted successfully: Response(data={'text': "The WSJ reports that OpenAI's next funding round, worth around $6.5 billion, could close as soon as the..[read more👇🏼] #as #reports https://t.co/PAQPGryjFK", 'edit_history_tweet_ids': ['1839917153539272864'], 'id': '1839917153539272864'}, includes={}, errors=[], meta={})
+2024-09-28 06:36:48,210 - INFO - Sleeping for 1 minutes and 24 seconds.
+2024-09-28 06:38:12,211 - INFO - Saved posted URL: https://techcrunch.com/2024/09/27/openais-6-5b-funding-round-may-close-as-soon-as-next-week/ at 2024-09-28 06:38:12
+2024-09-28 06:38:12,211 - INFO - Input content - content='With Gemini AI, contextual smart replies can prepare responses addressing multiple queries.'
+2024-09-28 06:38:12,211 - INFO - clean content - clean_content='With Gemini AI, contextual smart replies can prepare responses addressing multiple queries.'
+2024-09-28 06:38:12,211 - INFO - Generating summary with BART model
+2024-09-28 06:38:17,134 - INFO - Generating summary with BART model
+2024-09-28 06:38:22,047 - INFO - full_tweet='Gemini AI can prepare responses addressing multiple queries. With Gemini AI, contextual smart replies can..[read more👇🏼] #AI #Gemini https://www.pcmag.com/news/gmail-swaps-boring-smart-replies-with-contextual-ai-suggestions'
+2024-09-28 06:38:22,234 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839917547917062544'], 'text': 'Gemini AI can prepare responses addressing multiple queries. With Gemini AI, contextual smart replies can..[read more👇🏼] #AI #Gemini https://t.co/dK5cVKawVD', 'id': '1839917547917062544'}, includes={}, errors=[], meta={})
+2024-09-28 06:38:22,234 - INFO - Sleeping for 9 minutes and 4 seconds.
+2024-09-28 06:47:26,234 - INFO - Saved posted URL: https://www.pcmag.com/news/gmail-swaps-boring-smart-replies-with-contextual-ai-suggestions at 2024-09-28 06:47:26
+2024-09-28 06:47:26,234 - INFO - Input content - content='The OpenAI CEO’s recent mini-manifesto argues (again) that AI will make the future impossibly bright. He could use a refresher course on the basics of human behavior.'
+2024-09-28 06:47:26,234 - INFO - clean content - clean_content='The OpenAI CEO’s recent mini-manifesto argues (again) that AI will make the future impossibly bright. He could use a refresher course on the basics of human behavior.'
+2024-09-28 06:47:26,235 - INFO - Generating summary with BART model
+2024-09-28 06:47:31,040 - INFO - Generating summary with BART model
+2024-09-28 06:47:35,845 - INFO - full_tweet='The OpenAI CEO’s recent mini-manifesto argues (again) that AI will make the future impossibly bright. He..[read more👇🏼] #AI #impossibly https://www.wired.com/story/plaintext-no-sam-altman-ai-wont-solve-all-of-humanitys-problems/'
+2024-09-28 06:47:36,115 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1839919871045579046'], 'id': '1839919871045579046', 'text': 'The OpenAI CEO’s recent mini-manifesto argues (again) that AI will make the future impossibly bright. He..[read more👇🏼] #AI #impossibly https://t.co/Wv4MInnudr'}, includes={}, errors=[], meta={})
+2024-09-28 06:47:36,115 - INFO - Sleeping for 1 minutes and 55 seconds.
+2024-09-28 06:49:31,115 - INFO - Saved posted URL: https://www.wired.com/story/plaintext-no-sam-altman-ai-wont-solve-all-of-humanitys-problems/ at 2024-09-28 06:49:31
+2024-09-28 06:49:31,115 - INFO - Input content - content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-28 06:49:31,116 - INFO - clean content - clean_content='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated disinformation.'
+2024-09-28 06:49:31,116 - INFO - Generating summary with BART model
+2024-09-28 06:49:35,555 - INFO - Generating summary with BART model
+2024-09-28 06:49:39,979 - INFO - full_tweet='New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated..[read more👇🏼] #AI #regulation https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/'
+2024-09-28 06:49:40,165 - INFO - Tweet posted successfully: Response(data={'id': '1839920391403516291', 'edit_history_tweet_ids': ['1839920391403516291'], 'text': 'New Chinese regulation attempts to define how AI content labeling should work and stamp out AI-generated..[read more👇🏼] #AI #regulation https://t.co/MlJHK0Ahhv'}, includes={}, errors=[], meta={})
+2024-09-28 06:49:40,165 - INFO - Sleeping for 8 minutes and 58 seconds.
+2024-09-28 06:58:38,166 - INFO - Saved posted URL: https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen/ at 2024-09-28 06:58:38
