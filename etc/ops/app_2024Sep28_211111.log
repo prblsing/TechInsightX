@@ -1,0 +1,30 @@
+2024-09-28 21:11:11,782 - INFO - Starting configuration setup
+2024-09-28 21:11:11,782 - INFO - Environment variables loaded successfully
+2024-09-28 21:11:11,782 - INFO - Twitter API client initialized successfully
+2024-09-28 21:11:13,807 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 21:11:20,915 - INFO - Summarization model initialized successfully
+2024-09-28 21:11:20,915 - INFO - Starting tweet scheduling
+2024-09-28 21:11:20,915 - INFO - Tweeting process started at 2024-09-28 21:11:20.915461!
+2024-09-28 21:11:20,915 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 21:11:20,915 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 21:11:35,157 - INFO - Total entries found: 617
+2024-09-28 21:11:35,160 - INFO - Recent AI-related entries found: 12
+2024-09-28 21:11:35,160 - INFO - Input content - content="With Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI creating new AI models and systems, it's good to stay up to date on all the latest terminology."
+2024-09-28 21:11:35,160 - INFO - clean content - clean_content="With Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI creating new AI models and systems, it's good to stay up to date on all the latest terminology."
+2024-09-28 21:11:35,160 - INFO - Generating summary with BART model
+2024-09-28 21:11:40,482 - INFO - Generating summary with BART model
+2024-09-28 21:11:45,117 - INFO - full_tweet="With Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI creating new AI models and systems, it's..[read more👇🏼] #AI #terminology https://www.cnet.com/tech/services-and-software/chatgpt-glossary-47-ai-terms-that-everyone-should-know/#ftag=CAD590a51e"
+2024-09-28 21:11:45,400 - INFO - Tweet posted successfully: Response(data={'text': "With Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI creating new AI models and systems, it's..[read more👇🏼] #AI #terminology https://t.co/FIYcMMr71i", 'id': '1840137342645899747', 'edit_history_tweet_ids': ['1840137342645899747']}, includes={}, errors=[], meta={})
+2024-09-28 21:11:45,400 - INFO - Sleeping for 2 minutes and 31 seconds.
+2024-09-28 21:14:16,400 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/chatgpt-glossary-47-ai-terms-that-everyone-should-know/#ftag=CAD590a51e at 2024-09-28 21:14:16
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://venturebeat.com/ai/why-ai-is-a-know-it-all-know-nothing/
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/best-ai-image-generators/#ftag=CAD590a51e
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.techradar.com/pro/lenovo-launches-two-new-notebooks-in-the-thinkbook-series-with-snapdragon-x-plus-x1p-42-100-and-amd-s-ryzen-ai-9-365-processor
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frha2f/d_last_week_in_medical_ai_top_research/
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.pcmag.com/picks/the-best-ai-search-engines
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frdyq5/d_aaai_submission_and_corl_workshop/
+2024-09-28 21:14:16,400 - INFO - This link is already posted: https://www.wired.com/story/jony-ive-iphone-of-ai/
+2024-09-28 21:14:16,401 - INFO - This link is already posted: https://www.techradar.com/pro/from-a-toaster-to-a-server-uk-startup-promises-5x-speed-up-without-changing-a-line-of-code-as-it-plans-to-take-on-nvidia-amd-in-the-generative-ai-battlefield
+2024-09-28 21:14:16,401 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 21:14:16,401 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 21:14:16,401 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
