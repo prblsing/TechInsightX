@@ -1,0 +1,36 @@
+2024-09-28 12:19:00,451 - INFO - Starting configuration setup
+2024-09-28 12:19:00,451 - INFO - Environment variables loaded successfully
+2024-09-28 12:19:00,451 - INFO - Twitter API client initialized successfully
+2024-09-28 12:19:02,280 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-28 12:19:09,010 - INFO - Summarization model initialized successfully
+2024-09-28 12:19:09,011 - INFO - Starting tweet scheduling
+2024-09-28 12:19:09,011 - INFO - Tweeting process started at 2024-09-28 12:19:09.011232!
+2024-09-28 12:19:09,011 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep28.csv
+2024-09-28 12:19:09,011 - INFO - Fetching latest tech news from RSS feeds
+2024-09-28 12:19:25,191 - INFO - Total entries found: 617
+2024-09-28 12:19:25,194 - INFO - Recent AI-related entries found: 18
+2024-09-28 12:19:25,194 - INFO - Input content - content="Commentary: Meta's starting to test out integrating custom AI images into our Instagram and Facebook feeds. It won't end well."
+2024-09-28 12:19:25,195 - INFO - clean content - clean_content="Commentary: Meta's starting to test out integrating custom AI images into our Instagram and Facebook feeds. It won't end well."
+2024-09-28 12:19:25,195 - INFO - Generating summary with BART model
+2024-09-28 12:19:30,212 - INFO - Generating summary with BART model
+2024-09-28 12:19:34,605 - INFO - full_tweet="Meta is testing out integrating custom AI images into our Instagram and Facebook feeds. It won't end..[read more👇🏼] #AI #integrating https://www.cnet.com/tech/services-and-software/custom-ai-posts-in-our-instagram-feeds-no-thanks-meta/#ftag=CAD590a51e"
+2024-09-28 12:19:34,898 - INFO - Tweet posted successfully: Response(data={'text': "Meta is testing out integrating custom AI images into our Instagram and Facebook feeds. It won't end..[read more👇🏼] #AI #integrating https://t.co/m7krDrHnHl", 'id': '1840003416430420156', 'edit_history_tweet_ids': ['1840003416430420156']}, includes={}, errors=[], meta={})
+2024-09-28 12:19:34,898 - INFO - Sleeping for 4 minutes and 51 seconds.
+2024-09-28 12:24:25,898 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/custom-ai-posts-in-our-instagram-feeds-no-thanks-meta/#ftag=CAD590a51e at 2024-09-28 12:24:25
+2024-09-28 12:24:25,898 - INFO - This link is already posted: https://www.wired.com/story/jony-ive-iphone-of-ai/
+2024-09-28 12:24:25,898 - INFO - This link is already posted: https://www.cnet.com/tech/computing/samsung-galaxy-s10-tablets-revealed-complete-with-ai-features-s-pen/#ftag=CAD590a51e
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.techradar.com/pro/from-a-toaster-to-a-server-uk-startup-promises-5x-speed-up-without-changing-a-line-of-code-as-it-plans-to-take-on-nvidia-amd-in-the-generative-ai-battlefield
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/iphone-designer-jony-ive-and-openais-sam-altman-working-on-top-secret-ai-device-report-says/#ftag=CAD590a51e
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-ai-chief-predicts-ai-in-every-corner-of-life
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openai-might-raise-the-price-of-chatgpt-to-22-by-2025-44-by-2029/
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqzyom/r_p_generative_ai_for_3d_and_4d/
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.theverge.com/2024/9/27/24255177/openai-safety-mira-murati-quit-sam-altman-cofounders-exodus
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.techradar.com/cameras/compact-cameras/this-game-changing-ai-camera-for-kids-wants-to-keep-your-little-ones-safe-and-creative
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://towardsdatascience.com/ai-agents-vs-ai-pipelines-a-practical-guide-to-coding-your-llm-application-167e3c9a654c?source=rss----7f60cf5620c9---4
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fqvy7d/d_r_what_is_the_next_frontier_to_ai/
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/ai-dominated-both-yc-demo-day-and-startup-news/
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.pcmag.com/news/hands-on-with-samsungs-high-end-tablets-can-galaxy-ai-trounce-the-ipad
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-gives-controversial-recall-ai-feature-some-extra-security
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://techcrunch.com/2024/09/27/openais-6-5b-funding-round-may-close-as-soon-as-next-week/
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.pcmag.com/news/gmail-swaps-boring-smart-replies-with-contextual-ai-suggestions
+2024-09-28 12:24:25,899 - INFO - This link is already posted: https://www.wired.com/story/plaintext-no-sam-altman-ai-wont-solve-all-of-humanitys-problems/
