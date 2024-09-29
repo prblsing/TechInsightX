@@ -1,0 +1,19 @@
+2024-09-29 22:10:44,768 - INFO - Starting configuration setup
+2024-09-29 22:10:44,768 - INFO - Environment variables loaded successfully
+2024-09-29 22:10:44,769 - INFO - Twitter API client initialized successfully
+2024-09-29 22:10:46,705 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-29 22:10:57,516 - INFO - Summarization model initialized successfully
+2024-09-29 22:10:57,517 - INFO - Starting tweet scheduling
+2024-09-29 22:10:57,517 - INFO - Tweeting process started at 2024-09-29 22:10:57.517090!
+2024-09-29 22:10:57,517 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep29.csv
+2024-09-29 22:10:57,517 - INFO - Fetching latest tech news from RSS feeds
+2024-09-29 22:11:12,437 - INFO - Total entries found: 617
+2024-09-29 22:11:12,440 - INFO - Recent AI-related entries found: 8
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/gov-newsom-vetoes-californias-controversial-ai-bill-sb-1047/
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://www.techradar.com/pro/wait-now-broadcom-makes-gpus-nvidia-could-face-unexpected-foe-in-china-as-bytedance-could-use-rival-bigger-than-intel-amd-arm-and-qualcomm-to-design-its-ai-chip
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-drops-another-hint-that-galaxy-ai-wont-be-free-beyond-2025
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast
+2024-09-29 22:11:12,440 - INFO - This link is already posted: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor
