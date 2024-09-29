@@ -1,0 +1,32 @@
+2024-09-29 16:13:25,822 - INFO - Starting configuration setup
+2024-09-29 16:13:25,822 - INFO - Environment variables loaded successfully
+2024-09-29 16:13:25,822 - INFO - Twitter API client initialized successfully
+2024-09-29 16:13:27,669 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-29 16:13:35,869 - INFO - Summarization model initialized successfully
+2024-09-29 16:13:35,869 - INFO - Starting tweet scheduling
+2024-09-29 16:13:35,869 - INFO - Tweeting process started at 2024-09-29 16:13:35.869883!
+2024-09-29 16:13:35,870 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep29.csv
+2024-09-29 16:13:35,870 - INFO - Fetching latest tech news from RSS feeds
+2024-09-29 16:13:49,150 - INFO - Total entries found: 617
+2024-09-29 16:13:49,153 - INFO - Recent AI-related entries found: 7
+2024-09-29 16:13:49,153 - INFO - Input content - content='Users in Brazil and Spain will be the first to get the feature after it previously launched in France.'
+2024-09-29 16:13:49,154 - INFO - clean content - clean_content='Users in Brazil and Spain will be the first to get the feature after it previously launched in France.'
+2024-09-29 16:13:49,154 - INFO - Generating summary with BART model
+2024-09-29 16:13:54,020 - INFO - Generating summary with BART model
+2024-09-29 16:13:58,228 - INFO - full_tweet='Users in Brazil and Spain will be the first to get the feature after it previously launched in France...[read more👇🏼] #feature #previously https://www.cnet.com/tech/services-and-software/reddit-is-using-ai-to-expand-translation-services/#ftag=CAD590a51e'
+2024-09-29 16:13:58,502 - INFO - Tweet posted successfully: Response(data={'id': '1840424791313990031', 'edit_history_tweet_ids': ['1840424791313990031'], 'text': 'Users in Brazil and Spain will be the first to get the feature after it previously launched in France...[read more👇🏼] #feature #previously https://t.co/clFU6zM7Ue'}, includes={}, errors=[], meta={})
+2024-09-29 16:13:58,502 - INFO - Sleeping for 8 minutes and 9 seconds.
+2024-09-29 16:22:07,502 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/reddit-is-using-ai-to-expand-translation-services/#ftag=CAD590a51e at 2024-09-29 16:22:07
+2024-09-29 16:22:07,503 - INFO - Input content - content='From super scary elements to kid-friendly spooks, AI can give you advice on everything it takes to have the best decor.'
+2024-09-29 16:22:07,503 - INFO - clean content - clean_content='From super scary elements to kid-friendly spooks, AI can give you advice on everything it takes to have the best decor.'
+2024-09-29 16:22:07,503 - INFO - Generating summary with BART model
+2024-09-29 16:22:11,712 - INFO - Generating summary with BART model
+2024-09-29 16:22:15,920 - INFO - full_tweet='AI can give you advice on everything it takes to have the best decor. From super scary elements to..[read more👇🏼] #AI #everything https://www.cnet.com/tech/services-and-software/you-can-plan-your-halloween-decor-with-ai-heres-how/#ftag=CAD590a51e'
+2024-09-29 16:22:16,212 - INFO - Tweet posted successfully: Response(data={'text': 'AI can give you advice on everything it takes to have the best decor. From super scary elements to..[read more👇🏼] #AI #everything https://t.co/OWkPokM85J', 'edit_history_tweet_ids': ['1840426878814810275'], 'id': '1840426878814810275'}, includes={}, errors=[], meta={})
+2024-09-29 16:22:16,212 - INFO - Sleeping for 2 minutes and 13 seconds.
+2024-09-29 16:24:29,213 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/you-can-plan-your-halloween-decor-with-ai-heres-how/#ftag=CAD590a51e at 2024-09-29 16:24:29
+2024-09-29 16:24:29,213 - INFO - This link is already posted: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast
+2024-09-29 16:24:29,213 - INFO - This link is already posted: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor
+2024-09-29 16:24:29,213 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frugon/d_custom_ai_program/
+2024-09-29 16:24:29,213 - INFO - This link is already posted: https://venturebeat.com/ai/why-ai-is-a-know-it-all-know-nothing/
+2024-09-29 16:24:29,213 - INFO - This link is already posted: https://www.techradar.com/pro/lenovo-launches-two-new-notebooks-in-the-thinkbook-series-with-snapdragon-x-plus-x1p-42-100-and-amd-s-ryzen-ai-9-365-processor
