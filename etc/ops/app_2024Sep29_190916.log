@@ -1,0 +1,27 @@
+2024-09-29 19:09:16,063 - INFO - Starting configuration setup
+2024-09-29 19:09:16,063 - INFO - Environment variables loaded successfully
+2024-09-29 19:09:16,064 - INFO - Twitter API client initialized successfully
+2024-09-29 19:09:17,921 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-29 19:09:25,728 - INFO - Summarization model initialized successfully
+2024-09-29 19:09:25,728 - INFO - Starting tweet scheduling
+2024-09-29 19:09:25,728 - INFO - Tweeting process started at 2024-09-29 19:09:25.728656!
+2024-09-29 19:09:25,728 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep29.csv
+2024-09-29 19:09:25,728 - INFO - Fetching latest tech news from RSS feeds
+2024-09-29 19:09:40,126 - INFO - Total entries found: 617
+2024-09-29 19:09:40,128 - INFO - Recent AI-related entries found: 9
+2024-09-29 19:09:40,129 - INFO - Input content - content='<p><span class="ARTICLELISTING__LABEL"><span class="ARTICLE-TYPE">GUEST:</span></span> AI is rapidly evolving, poised to transform the workplace in ways that were thought of as science fiction only a few years ago. For example, Google recently updated its NotebookLM, an AI-powered research assistant and note-taking tool, with Audio Overview to turn documents into audio discussions. Writing in ArsTechnica, Kyle Orland describes how he used&#160;[&#8230;]\n</p>'
+2024-09-29 19:09:40,129 - INFO - clean content - clean_content='GUEST: AI is rapidly evolving, poised to transform the workplace in ways that were thought of as science fiction only a few years ago. For example, Google recently updated its NotebookLM, an AI-powered research assistant and note-taking tool, with Audio Overview to turn documents into audio discussions. Writing in ArsTechnica, Kyle Orland describes how he used&#160;[&#8230;]'
+2024-09-29 19:09:40,129 - INFO - Generating summary with BART model
+2024-09-29 19:09:45,115 - INFO - Generating summary with BART model
+2024-09-29 19:09:49,420 - INFO - full_tweet='Google recently updated its NotebookLM, an AI-powered research assistant and note-taking tool, with Audio..[read more👇🏼] #AI #discussions https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/'
+2024-09-29 19:09:49,750 - INFO - Tweet posted successfully: Response(data={'id': '1840469046447239192', 'edit_history_tweet_ids': ['1840469046447239192'], 'text': 'Google recently updated its NotebookLM, an AI-powered research assistant and note-taking tool, with Audio..[read more👇🏼] #AI #discussions https://t.co/feJKcjVoqy'}, includes={}, errors=[], meta={})
+2024-09-29 19:09:49,750 - INFO - Sleeping for 9 minutes and 22 seconds.
+2024-09-29 19:19:11,750 - INFO - Saved posted URL: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/ at 2024-09-29 19:19:11
+2024-09-29 19:19:11,750 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-drops-another-hint-that-galaxy-ai-wont-be-free-beyond-2025
+2024-09-29 19:19:11,750 - INFO - This link is already posted: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4
+2024-09-29 19:19:11,750 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/google-maps-now-has-ai-to-zap-clouds-and-haze/#ftag=CAD590a51e
+2024-09-29 19:19:11,750 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/reddit-is-using-ai-to-expand-translation-services/#ftag=CAD590a51e
+2024-09-29 19:19:11,751 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/you-can-plan-your-halloween-decor-with-ai-heres-how/#ftag=CAD590a51e
+2024-09-29 19:19:11,751 - INFO - This link is already posted: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast
+2024-09-29 19:19:11,751 - INFO - This link is already posted: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor
+2024-09-29 19:19:11,751 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1frugon/d_custom_ai_program/
