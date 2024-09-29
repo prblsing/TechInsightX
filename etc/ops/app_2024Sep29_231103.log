@@ -1,0 +1,35 @@
+2024-09-29 23:11:03,568 - INFO - Starting configuration setup
+2024-09-29 23:11:03,568 - INFO - Environment variables loaded successfully
+2024-09-29 23:11:03,568 - INFO - Twitter API client initialized successfully
+2024-09-29 23:11:05,413 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-29 23:11:12,244 - INFO - Summarization model initialized successfully
+2024-09-29 23:11:12,244 - INFO - Starting tweet scheduling
+2024-09-29 23:11:12,244 - INFO - Tweeting process started at 2024-09-29 23:11:12.244678!
+2024-09-29 23:11:12,244 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep29.csv
+2024-09-29 23:11:12,245 - INFO - Fetching latest tech news from RSS feeds
+2024-09-29 23:11:27,111 - INFO - Total entries found: 617
+2024-09-29 23:11:27,114 - INFO - Recent AI-related entries found: 10
+2024-09-29 23:11:27,114 - INFO - Input content - content='<p>In September, California Governor Gavin Newsom considered 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. He vetoed SB 1047 on Sunday, but signed more than a dozen other AI bills into law over the course of the month. These bills try to address [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-29 23:11:27,115 - INFO - clean content - clean_content='In September, California Governor Gavin Newsom considered 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. He vetoed SB 1047 on Sunday, but signed more than a dozen other AI bills into law over the course of the month. These bills try to address [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-29 23:11:27,115 - INFO - Generating summary with BART model
+2024-09-29 23:11:32,223 - INFO - Generating summary with BART model
+2024-09-29 23:11:36,683 - INFO - full_tweet='In September, California Governor Gavin Newsom considered 38 AI-related bills. He vetoed SB 1047 on..[read more👇🏼] #AI #bills https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/'
+2024-09-29 23:11:36,982 - INFO - Tweet posted successfully: Response(data={'text': 'In September, California Governor Gavin Newsom considered 38 AI-related bills. He vetoed SB 1047 on..[read more👇🏼] #AI #bills https://t.co/gkagT7ghkW', 'id': '1840529894150660439', 'edit_history_tweet_ids': ['1840529894150660439']}, includes={}, errors=[], meta={})
+2024-09-29 23:11:36,982 - INFO - Sleeping for 8 minutes and 9 seconds.
+2024-09-29 23:19:45,983 - INFO - Saved posted URL: https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/ at 2024-09-29 23:19:45
+2024-09-29 23:19:45,983 - INFO - Input content - content='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like magic to our grandparents."'
+2024-09-29 23:19:45,983 - INFO - clean content - clean_content='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like magic to our grandparents."'
+2024-09-29 23:19:45,983 - INFO - Generating summary with BART model
+2024-09-29 23:19:49,522 - INFO - Generating summary with BART model
+2024-09-29 23:19:53,064 - INFO - full_tweet='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like..[read more👇🏼] #AI #grandparents https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/#ftag=CAD590a51e'
+2024-09-29 23:19:53,364 - INFO - Tweet posted successfully: Response(data={'text': 'Altman predicts that with AI in the future, "We will be able to do things that would have seemed like..[read more👇🏼] #AI #grandparents https://t.co/H7WaBLNd5w', 'edit_history_tweet_ids': ['1840531976169701801'], 'id': '1840531976169701801'}, includes={}, errors=[], meta={})
+2024-09-29 23:19:53,364 - INFO - Sleeping for 7 minutes and 45 seconds.
+2024-09-29 23:27:38,364 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/#ftag=CAD590a51e at 2024-09-29 23:27:38
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/gov-newsom-vetoes-californias-controversial-ai-bill-sb-1047/
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://www.techradar.com/pro/wait-now-broadcom-makes-gpus-nvidia-could-face-unexpected-foe-in-china-as-bytedance-could-use-rival-bigger-than-intel-amd-arm-and-qualcomm-to-design-its-ai-chip
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-drops-another-hint-that-galaxy-ai-wont-be-free-beyond-2025
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast
+2024-09-29 23:27:38,365 - INFO - This link is already posted: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor
