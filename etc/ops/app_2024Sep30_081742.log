@@ -1,0 +1,74 @@
+2024-09-30 08:17:42,633 - INFO - Starting configuration setup
+2024-09-30 08:17:42,633 - INFO - Environment variables loaded successfully
+2024-09-30 08:17:42,633 - INFO - Twitter API client initialized successfully
+2024-09-30 08:17:44,494 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 08:17:51,616 - INFO - Summarization model initialized successfully
+2024-09-30 08:17:51,616 - INFO - Starting tweet scheduling
+2024-09-30 08:17:51,616 - INFO - Tweeting process started at 2024-09-30 08:17:51.616739!
+2024-09-30 08:17:51,616 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 08:17:51,617 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 08:18:05,487 - INFO - Total entries found: 617
+2024-09-30 08:18:05,490 - INFO - Recent AI-related entries found: 14
+2024-09-30 08:18:05,490 - INFO - Input content - content="HP Print AI is coming to fix your printing woes, and it's about time."
+2024-09-30 08:18:05,491 - INFO - clean content - clean_content="HP Print AI is coming to fix your printing woes, and it's about time."
+2024-09-30 08:18:05,491 - INFO - Generating summary with BART model
+2024-09-30 08:18:10,429 - INFO - Generating summary with BART model
+2024-09-30 08:18:14,695 - INFO - full_tweet="HP Print AI is coming to fix your printing woes, and it's about time. HP Print AI will be available in..[read more👇🏼] #AI #Print https://www.techradar.com/computing/artificial-intelligence/fed-up-with-unnecessary-white-space-when-printing-from-the-web-ai-is-here-to-fix-that"
+2024-09-30 08:18:15,000 - INFO - Tweet posted successfully: Response(data={'text': "HP Print AI is coming to fix your printing woes, and it's about time. HP Print AI will be available in..[read more👇🏼] #AI #Print https://t.co/OMycStA0Fa", 'id': '1840667459029811408', 'edit_history_tweet_ids': ['1840667459029811408']}, includes={}, errors=[], meta={})
+2024-09-30 08:18:15,000 - INFO - Sleeping for 4 minutes and 30 seconds.
+2024-09-30 08:22:45,001 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/fed-up-with-unnecessary-white-space-when-printing-from-the-web-ai-is-here-to-fix-that at 2024-09-30 08:22:45
+2024-09-30 08:22:45,001 - INFO - Input content - content='32GB of LPDDR5X RAM and 1TB PCIe Gen 4 M.2 SSD ensures that all your 4K videos are saved, and you can easily move large files or run heavy applications.'
+2024-09-30 08:22:45,001 - INFO - clean content - clean_content='32GB of LPDDR5X RAM and 1TB PCIe Gen 4 M.2 SSD ensures that all your 4K videos are saved, and you can easily move large files or run heavy applications.'
+2024-09-30 08:22:45,001 - INFO - Generating summary with BART model
+2024-09-30 08:22:49,477 - INFO - Generating summary with BART model
+2024-09-30 08:22:53,920 - INFO - full_tweet='32GB of LPDDR5X RAM and 1TB PCIe Gen 4 M.2 SSD. All your 4K videos are saved, and you can easily move large files. #videos #easily https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor'
+2024-09-30 08:22:54,132 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840668629806850516'], 'id': '1840668629806850516', 'text': '32GB of LPDDR5X RAM and 1TB PCIe Gen 4 M.2 SSD. All your 4K videos are saved, and you can easily move large files. #videos #easily https://t.co/fVKfJZXFNE'}, includes={}, errors=[], meta={})
+2024-09-30 08:22:54,132 - INFO - Sleeping for 9 minutes and 24 seconds.
+2024-09-30 08:32:18,132 - INFO - Saved posted URL: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor at 2024-09-30 08:32:18
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/raspberry-pi-launches-camera-module-for-vision-based-ai-applications/
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://www.techradar.com/pro/it-s-an-ai-revolution-acer-unveils-the-travelmate-p6-14-ai-a-powerful-business-laptop-with-intel-core-ultra-processors-and-advanced-ai-tools-for-enhanced-productivity
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/#ftag=CAD590a51e
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/gov-newsom-vetoes-californias-controversial-ai-bill-sb-1047/
+2024-09-30 08:32:18,133 - INFO - This link is already posted: https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom
+2024-09-30 08:32:18,133 - INFO - Input content - content='TikTok parent company ByteDance wants Broadcom and TSMC to design its AI chips.'
+2024-09-30 08:32:18,133 - INFO - clean content - clean_content='TikTok parent company ByteDance wants Broadcom and TSMC to design its AI chips.'
+2024-09-30 08:32:18,133 - INFO - Generating summary with BART model
+2024-09-30 08:32:23,218 - INFO - Generating summary with BART model
+2024-09-30 08:32:28,267 - INFO - full_tweet='TikTok parent company ByteDance wants Broadcom and TSMC to design its AI chips. TikTok is a social..[read more👇🏼] #network #mobile https://www.techradar.com/pro/wait-now-broadcom-makes-gpus-nvidia-could-face-unexpected-foe-in-china-as-bytedance-could-use-rival-bigger-than-intel-amd-arm-and-qualcomm-to-design-its-ai-chip'
+2024-09-30 08:32:28,568 - INFO - Tweet posted successfully: Response(data={'id': '1840671039212097692', 'text': 'TikTok parent company ByteDance wants Broadcom and TSMC to design its AI chips. TikTok is a social..[read more👇🏼] #network #mobile https://t.co/lC4GVHXFMH', 'edit_history_tweet_ids': ['1840671039212097692']}, includes={}, errors=[], meta={})
+2024-09-30 08:32:28,568 - INFO - Sleeping for 6 minutes and 4 seconds.
+2024-09-30 08:38:32,569 - INFO - Saved posted URL: https://www.techradar.com/pro/wait-now-broadcom-makes-gpus-nvidia-could-face-unexpected-foe-in-china-as-bytedance-could-use-rival-bigger-than-intel-amd-arm-and-qualcomm-to-design-its-ai-chip at 2024-09-30 08:38:32
+2024-09-30 08:38:32,569 - INFO - Input content - content='By 2030, AI will have evolved from a back-office assistant to a front-line collaborator in enterprise. Those who embrace it will thrive.'
+2024-09-30 08:38:32,569 - INFO - clean content - clean_content='By 2030, AI will have evolved from a back-office assistant to a front-line collaborator in enterprise. Those who embrace it will thrive.'
+2024-09-30 08:38:32,569 - INFO - Generating summary with BART model
+2024-09-30 08:38:36,567 - INFO - Generating summary with BART model
+2024-09-30 08:38:40,644 - INFO - full_tweet='By 2030, AI will have evolved from a back-office assistant to a front-line collaborator in enterprise...[read more👇🏼] #AI #collaborator https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/'
+2024-09-30 08:38:40,907 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840672600910918039'], 'text': 'By 2030, AI will have evolved from a back-office assistant to a front-line collaborator in enterprise...[read more👇🏼] #AI #collaborator https://t.co/feJKcjVoqy', 'id': '1840672600910918039'}, includes={}, errors=[], meta={})
+2024-09-30 08:38:40,907 - INFO - Sleeping for 4 minutes and 14 seconds.
+2024-09-30 08:42:54,907 - INFO - Saved posted URL: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/ at 2024-09-30 08:42:54
+2024-09-30 08:42:54,908 - INFO - Input content - content='In its new product information, Samsung has reiterated that fees may be attached to AI by the end of next year.'
+2024-09-30 08:42:54,908 - INFO - clean content - clean_content='In its new product information, Samsung has reiterated that fees may be attached to AI by the end of next year.'
+2024-09-30 08:42:54,908 - INFO - Generating summary with BART model
+2024-09-30 08:42:59,585 - INFO - Generating summary with BART model
+2024-09-30 08:43:04,260 - INFO - full_tweet='Samsung has reiterated that fees may be attached to AI by the end of next year. In its new product..[read more👇🏼] #AI #Samsung https://www.techradar.com/computing/artificial-intelligence/samsung-drops-another-hint-that-galaxy-ai-wont-be-free-beyond-2025'
+2024-09-30 08:43:04,509 - INFO - Tweet posted successfully: Response(data={'text': 'Samsung has reiterated that fees may be attached to AI by the end of next year. In its new product..[read more👇🏼] #AI #Samsung https://t.co/XjFhFKMNFB', 'id': '1840673706349064242', 'edit_history_tweet_ids': ['1840673706349064242']}, includes={}, errors=[], meta={})
+2024-09-30 08:43:04,509 - INFO - Sleeping for 7 minutes and 54 seconds.
+2024-09-30 08:50:58,509 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/samsung-drops-another-hint-that-galaxy-ai-wont-be-free-beyond-2025 at 2024-09-30 08:50:58
+2024-09-30 08:50:58,509 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2600/0*hTbbl06T9qQisioL" width="6982" /></a></p><p class="medium-feed-snippet">with Ollama, LangChain, LangGraph (No GPU, No APIKEY)</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-09-30 08:50:58,510 - INFO - clean content - clean_content='with Ollama, LangChain, LangGraph (No GPU, No APIKEY)Continue reading on Towards Data Science »'
+2024-09-30 08:50:58,510 - INFO - Generating summary with BART model
+2024-09-30 08:51:02,382 - INFO - Generating summary with BART model
+2024-09-30 08:51:06,249 - INFO - full_tweet='With Ollama, LangChain, LangGraph (No GPU, No APIKEY) and LangGraph, we can help you understand data in new ways. #data #No https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4'
+2024-09-30 08:51:06,524 - INFO - Tweet posted successfully: Response(data={'text': 'With Ollama, LangChain, LangGraph (No GPU, No APIKEY) and LangGraph, we can help you understand data in new ways. #data #No https://t.co/AjCI5jq16S', 'id': '1840675728213307539', 'edit_history_tweet_ids': ['1840675728213307539']}, includes={}, errors=[], meta={})
+2024-09-30 08:51:06,525 - INFO - Sleeping for 4 minutes and 48 seconds.
+2024-09-30 08:55:54,525 - INFO - Saved posted URL: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4 at 2024-09-30 08:55:54
+2024-09-30 08:55:54,525 - INFO - Input content - content='<figure>\n      <img alt="" src="https://cdn.vox-cdn.com/thumbor/fmffZ5cVpk9arrS2WgJhUNjhLMk=/0x0:3000x2000/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73619329/The_Vergecast_chatbot_Site__1_.0.jpg" />\n        <figcaption>The Verge</figcaption>\n    </figure>\n\n  <p id="lvDXac">Roughly a month ago, Michael Sayman realized he could finally build the app he’d been thinking about for years: a social network where everyone but you is an AI bot. Large language models are finally good enough and cheap enough that the experience might actually feel social and useful, and not like a gimmick or a game. And so, after years of waiting and months of testing the latest models, Sayman got to work.</p>\n<p id="lQXpcI">The app he built is called <a href="https://socialaiapp.com/">SocialAI</a>, and it has become <a href="https://www.theverge.com/2024/9/17/24247253/social-ai-app-replace-humans-with-bots">something of a viral phenomenon</a> since it launched. (All he’d tell me is that it was downloaded 20,000 times in the first couple of days — but says the number has gone up substantially since then.) Some people thought it seemed fun and useful; other people thought it felt deeply...</p>\n  <p>\n    <a href="https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast">Continue reading&hellip;</a>\n  </p>'
+2024-09-30 08:55:54,525 - INFO - clean content - clean_content='The Verge Roughly a month ago, Michael Sayman realized he could finally build the app he’d been thinking about for years: a social network where everyone but you is an AI bot. Large language models are finally good enough and cheap enough that the experience might actually feel social and useful, and not like a gimmick or a game. And so, after years of waiting and months of testing the latest models, Sayman got to work. The app he built is called SocialAI, and it has become something of a viral phenomenon since it launched. (All he’d tell me is that it was downloaded 20,000 times in the first couple of days — but says the number has gone up substantially since then.) Some people thought it seemed fun and useful; other people thought it felt deeply... Continue reading&hellip;'
+2024-09-30 08:55:54,525 - INFO - Generating summary with BART model
+2024-09-30 08:56:00,062 - INFO - Generating summary with BART model
+2024-09-30 08:56:05,611 - INFO - full_tweet='SocialAI is a social network where everyone but you is an AI bot. Large language models are finally good..[read more👇🏼] #network #AI https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast'
+2024-09-30 08:56:05,926 - INFO - Tweet posted successfully: Response(data={'text': 'SocialAI is a social network where everyone but you is an AI bot. Large language models are finally good..[read more👇🏼] #network #AI https://t.co/XgSJrmPgBA', 'edit_history_tweet_ids': ['1840676983954375097'], 'id': '1840676983954375097'}, includes={}, errors=[], meta={})
+2024-09-30 08:56:05,926 - INFO - Sleeping for 9 minutes and 35 seconds.
+2024-09-30 09:05:40,926 - INFO - Saved posted URL: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast at 2024-09-30 09:05:40
