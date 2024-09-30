@@ -1,0 +1,25 @@
+2024-09-30 14:11:58,112 - INFO - Starting configuration setup
+2024-09-30 14:11:58,112 - INFO - Environment variables loaded successfully
+2024-09-30 14:11:58,112 - INFO - Twitter API client initialized successfully
+2024-09-30 14:11:59,968 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 14:12:07,775 - INFO - Summarization model initialized successfully
+2024-09-30 14:12:07,776 - INFO - Starting tweet scheduling
+2024-09-30 14:12:07,776 - INFO - Tweeting process started at 2024-09-30 14:12:07.776234!
+2024-09-30 14:12:07,776 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 14:12:07,776 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 14:12:22,246 - INFO - Total entries found: 617
+2024-09-30 14:12:22,249 - INFO - Recent AI-related entries found: 20
+2024-09-30 14:12:22,249 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hi everyone,</p> <p>I will have my on-site MAANG interview rounds in the coming 2 weeks and I am prepping for them.</p> <p>I found leetcode and neetcode quite valuable resources for the code part.</p> <p>However, I found the resource pool for design interview quite confusing.<br /> I will have 1 System Design + 1 AI System Design.</p> <p>Any hints/suggestions/success stories?<br /> Also happy to jump in a call for mocks :)</p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/medioman222"> /u/medioman222 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fswf2h/discussion_system_design_ai_system_design/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fswf2h/discussion_system_design_ai_system_design/">[comments]</a></span>'
+2024-09-30 14:12:22,250 - INFO - clean content - clean_content='Hi everyone, I will have my on-site MAANG interview rounds in the coming 2 weeks and I am prepping for them. I found leetcode and neetcode quite valuable resources for the code part. However, I found the resource pool for design interview quite confusing. I will have 1 System Design + 1 AI System Design. Any hints/suggestions/success stories? Also happy to jump in a call for mocks :) Thank you! &#32; submitted by &#32; /u/medioman222 [link] &#32; [comments]'
+2024-09-30 14:12:22,250 - INFO - Generating summary with BART model
+2024-09-30 14:12:32,013 - INFO - Generating summary with BART model
+2024-09-30 14:12:41,122 - INFO - full_tweet='I will have my on-site MAANG interview rounds in the coming 2 weeks. I found leetcode and neetcode quite..[read more👇🏼] #I #interview https://www.reddit.com/r/MachineLearning/comments/1fswf2h/discussion_system_design_ai_system_design/'
+2024-09-30 14:12:41,439 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840756656977698926'], 'id': '1840756656977698926', 'text': 'I will have my on-site MAANG interview rounds in the coming 2 weeks. I found leetcode and neetcode quite..[read more👇🏼] #I #interview https://t.co/lcZP47GvvJ'}, includes={}, errors=[], meta={})
+2024-09-30 14:12:41,440 - INFO - Sleeping for 6 minutes and 18 seconds.
+2024-09-30 14:18:59,440 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fswf2h/discussion_system_design_ai_system_design/ at 2024-09-30 14:18:59
+2024-09-30 14:18:59,440 - INFO - Input content - content='The human impact of generative AI and Generative AI’s influence on employee experiences.'
+2024-09-30 14:18:59,440 - INFO - clean content - clean_content='The human impact of generative AI and Generative AI’s influence on employee experiences.'
+2024-09-30 14:18:59,440 - INFO - Generating summary with BART model
+2024-09-30 14:19:04,753 - INFO - Generating summary with BART model
+2024-09-30 14:19:10,063 - INFO - full_tweet='The human impact of generative AI and Generative AI’s influence on employee experiences. The human impact..[read more👇🏼] #AI #impact https://www.techradar.com/pro/creating-the-future-of-work-through-the-power-of-people-and-ai'
+2024-09-30 14:35:31,742 - ERROR - Failed to post tweet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
