@@ -1,0 +1,52 @@
+2024-09-30 18:15:23,195 - INFO - Starting configuration setup
+2024-09-30 18:15:23,195 - INFO - Environment variables loaded successfully
+2024-09-30 18:15:23,195 - INFO - Twitter API client initialized successfully
+2024-09-30 18:15:25,040 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 18:15:32,104 - INFO - Summarization model initialized successfully
+2024-09-30 18:15:32,104 - INFO - Starting tweet scheduling
+2024-09-30 18:15:32,104 - INFO - Tweeting process started at 2024-09-30 18:15:32.104641!
+2024-09-30 18:15:32,105 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 18:15:32,105 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 18:15:46,343 - INFO - Total entries found: 617
+2024-09-30 18:15:46,346 - INFO - Recent AI-related entries found: 20
+2024-09-30 18:15:46,346 - INFO - Input content - content="Open NotebookLM, a free open-source AI tool developed in one day, challenges Google's NotebookLM by converting PDFs to podcasts, highlighting rapid AI development and its implications."
+2024-09-30 18:15:46,347 - INFO - clean content - clean_content="Open NotebookLM, a free open-source AI tool developed in one day, challenges Google's NotebookLM by converting PDFs to podcasts, highlighting rapid AI development and its implications."
+2024-09-30 18:15:46,347 - INFO - Generating summary with BART model
+2024-09-30 18:15:50,941 - INFO - Generating summary with BART model
+2024-09-30 18:15:54,828 - INFO - full_tweet='Open NotebookLM is a free open-source AI tool developed in one day. It converts PDFs to podcasts to..[read more👇🏼] #AI #development https://venturebeat.com/ai/this-open-source-ai-tool-was-built-in-a-day-and-its-coming-for-googles-notebooklm/'
+2024-09-30 18:15:55,138 - INFO - Tweet posted successfully: Response(data={'id': '1840817867295511019', 'text': 'Open NotebookLM is a free open-source AI tool developed in one day. It converts PDFs to podcasts to..[read more👇🏼] #AI #development https://t.co/liK32utLEF', 'edit_history_tweet_ids': ['1840817867295511019']}, includes={}, errors=[], meta={})
+2024-09-30 18:15:55,138 - INFO - Sleeping for 10 minutes and 0 seconds.
+2024-09-30 18:25:55,139 - INFO - Saved posted URL: https://venturebeat.com/ai/this-open-source-ai-tool-was-built-in-a-day-and-its-coming-for-googles-notebooklm/ at 2024-09-30 18:25:55
+2024-09-30 18:25:55,139 - INFO - Input content - content='Microsoft will purchase energy produced by the restarted Three Mile Island nuclear plant'
+2024-09-30 18:25:55,139 - INFO - clean content - clean_content='Microsoft will purchase energy produced by the restarted Three Mile Island nuclear plant'
+2024-09-30 18:25:55,139 - INFO - Generating summary with BART model
+2024-09-30 18:25:58,810 - INFO - Generating summary with BART model
+2024-09-30 18:26:02,459 - INFO - full_tweet='Microsoft will purchase energy produced by the restarted Three Mile Island nuclear plant. The company..[read more👇🏼] #restarted #nuclear https://www.techradar.com/pro/microsoft-embraces-nuclear-power-for-its-energy-hungry-data-centers-as-it-bets-on-infamous-three-mile-island-power-station-for-its-ai-ambitions'
+2024-09-30 18:26:02,725 - INFO - Tweet posted successfully: Response(data={'id': '1840820415855317059', 'text': 'Microsoft will purchase energy produced by the restarted Three Mile Island nuclear plant. The company..[read more👇🏼] #restarted #nuclear https://t.co/bHwPWUpogw', 'edit_history_tweet_ids': ['1840820415855317059']}, includes={}, errors=[], meta={})
+2024-09-30 18:26:02,725 - INFO - Sleeping for 6 minutes and 52 seconds.
+2024-09-30 18:32:54,725 - INFO - Saved posted URL: https://www.techradar.com/pro/microsoft-embraces-nuclear-power-for-its-energy-hungry-data-centers-as-it-bets-on-infamous-three-mile-island-power-station-for-its-ai-ambitions at 2024-09-30 18:32:54
+2024-09-30 18:32:54,725 - INFO - Input content - content='Google NotebookLM product leader\xa0Raiza Martin says her team will be adding new updates to allow users to control more of the Audio Overviews.'
+2024-09-30 18:32:54,725 - INFO - clean content - clean_content='Google NotebookLM product leader Raiza Martin says her team will be adding new updates to allow users to control more of the Audio Overviews.'
+2024-09-30 18:32:54,725 - INFO - Generating summary with BART model
+2024-09-30 18:32:58,425 - INFO - Generating summary with BART model
+2024-09-30 18:33:02,114 - INFO - full_tweet='Google NotebookLM product leader Raiza Martin says her team will be adding new updates to allow users to..[read more👇🏼] #Overviews #product https://venturebeat.com/ai/google-notebooklm-leader-says-more-controls-coming-for-ai-generated-podcasts/'
+2024-09-30 18:33:02,394 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840822176024240541'], 'id': '1840822176024240541', 'text': 'Google NotebookLM product leader Raiza Martin says her team will be adding new updates to allow users to..[read more👇🏼] #Overviews #product https://t.co/6XdUUqxw6I'}, includes={}, errors=[], meta={})
+2024-09-30 18:33:02,394 - INFO - Sleeping for 2 minutes and 4 seconds.
+2024-09-30 18:35:06,395 - INFO - Saved posted URL: https://venturebeat.com/ai/google-notebooklm-leader-says-more-controls-coming-for-ai-generated-podcasts/ at 2024-09-30 18:35:06
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/series-the-genai-startup-reinventing-game-development-has-quietly-raised-28m-from-netflix-dell-a16z-others/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.pcmag.com/news/california-governor-vetoes-ai-safety-bill-for-only-targeting-large-models
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.wired.com/story/license-to-scrape-youtube-ai-data-license-creators/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/ai-reading-coach-startup-ello-launches-custom-story-creation-feature-for-kids/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://towardsdatascience.com/causal-ai-at-kdd-2024-why-companies-that-wont-jump-on-the-causal-train-now-will-have-a-harder-bdd0671543cf?source=rss----7f60cf5620c9---4
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/microsoft-to-face-higher-competition-scrutiny-in-germany-including-over-its-use-of-ai/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.techradar.com/pro/what-the-coalition-for-secure-ai-means-for-the-ai-industry
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.techradar.com/pro/creating-the-future-of-work-through-the-power-of-people-and-ai
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/augmented-intelligence-claims-its-symbolic-ai-can-make-chatbots-more-useful/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.techradar.com/pro/china-wants-to-be-the-global-ai-leader-in-personal-computing-but-businesses-is-where-they-want-to-go-large
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://venturebeat.com/business/artisan-raises-11-5m-to-deploy-ai-employees-for-sales-teams/
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://towardsdatascience.com/the-ai-developers-dilemma-proprietary-ai-vs-open-source-ecosystem-453ac735b760?source=rss----7f60cf5620c9---4
+2024-09-30 18:35:06,395 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fstn9m/p_i_tried_to_map_the_most_recurrent_and_popular/
+2024-09-30 18:35:06,396 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/
+2024-09-30 18:35:06,396 - INFO - This link is already posted: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/
