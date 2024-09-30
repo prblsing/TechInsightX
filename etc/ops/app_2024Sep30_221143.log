@@ -1,0 +1,36 @@
+2024-09-30 22:11:43,030 - INFO - Starting configuration setup
+2024-09-30 22:11:43,031 - INFO - Environment variables loaded successfully
+2024-09-30 22:11:43,031 - INFO - Twitter API client initialized successfully
+2024-09-30 22:11:44,853 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 22:11:51,816 - INFO - Summarization model initialized successfully
+2024-09-30 22:11:51,816 - INFO - Starting tweet scheduling
+2024-09-30 22:11:51,816 - INFO - Tweeting process started at 2024-09-30 22:11:51.816367!
+2024-09-30 22:11:51,816 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 22:11:51,816 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 22:12:06,173 - INFO - Total entries found: 617
+2024-09-30 22:12:06,176 - INFO - Recent AI-related entries found: 18
+2024-09-30 22:12:06,177 - INFO - Input content - content="The startup from MIT's CSAIL says its Liquid Foundation Models have smaller memory needs thanks to a post-transformer architecture."
+2024-09-30 22:12:06,177 - INFO - clean content - clean_content="The startup from MIT's CSAIL says its Liquid Foundation Models have smaller memory needs thanks to a post-transformer architecture."
+2024-09-30 22:12:06,177 - INFO - Generating summary with BART model
+2024-09-30 22:12:11,190 - INFO - Generating summary with BART model
+2024-09-30 22:12:15,548 - INFO - full_tweet='Liquid Foundation Models have smaller memory needs thanks to a post-transformer architecture. The startup..[read more👇🏼] #startup #Foundation https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/'
+2024-09-30 22:12:15,948 - INFO - Tweet posted successfully: Response(data={'id': '1840877345952960726', 'edit_history_tweet_ids': ['1840877345952960726'], 'text': 'Liquid Foundation Models have smaller memory needs thanks to a post-transformer architecture. The startup..[read more👇🏼] #startup #Foundation https://t.co/fKknnnwGeh'}, includes={}, errors=[], meta={})
+2024-09-30 22:12:15,948 - INFO - Sleeping for 5 minutes and 15 seconds.
+2024-09-30 22:17:30,948 - INFO - Saved posted URL: https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/ at 2024-09-30 22:17:30
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://www.pcmag.com/news/70-ai-camera-from-raspberry-pi-sony-works-with-all-pi-models
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1ft2v10/project_a_lossless_compression_library_taliored/
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://venturebeat.com/ai/this-open-source-ai-tool-was-built-in-a-day-and-its-coming-for-googles-notebooklm/
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://www.techradar.com/pro/microsoft-embraces-nuclear-power-for-its-energy-hungry-data-centers-as-it-bets-on-infamous-three-mile-island-power-station-for-its-ai-ambitions
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://venturebeat.com/ai/google-notebooklm-leader-says-more-controls-coming-for-ai-generated-podcasts/
+2024-09-30 22:17:30,948 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/series-the-genai-startup-reinventing-game-development-has-quietly-raised-28m-from-netflix-dell-a16z-others/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://www.pcmag.com/news/california-governor-vetoes-ai-safety-bill-for-only-targeting-large-models
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://www.wired.com/story/license-to-scrape-youtube-ai-data-license-creators/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/ai-reading-coach-startup-ello-launches-custom-story-creation-feature-for-kids/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://towardsdatascience.com/causal-ai-at-kdd-2024-why-companies-that-wont-jump-on-the-causal-train-now-will-have-a-harder-bdd0671543cf?source=rss----7f60cf5620c9---4
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/microsoft-to-face-higher-competition-scrutiny-in-germany-including-over-its-use-of-ai/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://venturebeat.com/business/artisan-raises-11-5m-to-deploy-ai-employees-for-sales-teams/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://towardsdatascience.com/the-ai-developers-dilemma-proprietary-ai-vs-open-source-ecosystem-453ac735b760?source=rss----7f60cf5620c9---4
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fstn9m/p_i_tried_to_map_the_most_recurrent_and_popular/
+2024-09-30 22:17:30,949 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/
