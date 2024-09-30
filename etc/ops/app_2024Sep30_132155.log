@@ -1,0 +1,46 @@
+2024-09-30 13:21:55,330 - INFO - Starting configuration setup
+2024-09-30 13:21:55,331 - INFO - Environment variables loaded successfully
+2024-09-30 13:21:55,331 - INFO - Twitter API client initialized successfully
+2024-09-30 13:21:57,216 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 13:22:05,532 - INFO - Summarization model initialized successfully
+2024-09-30 13:22:05,532 - INFO - Starting tweet scheduling
+2024-09-30 13:22:05,532 - INFO - Tweeting process started at 2024-09-30 13:22:05.532626!
+2024-09-30 13:22:05,532 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 13:22:05,532 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 13:22:20,413 - INFO - Total entries found: 587
+2024-09-30 13:22:20,416 - INFO - Recent AI-related entries found: 14
+2024-09-30 13:22:20,416 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>can you share them</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Internal_Complaint64"> /u/Internal_Complaint64 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/">[comments]</a></span>'
+2024-09-30 13:22:20,417 - INFO - clean content - clean_content='can you share them &#32; submitted by &#32; /u/Internal_Complaint64 [link] &#32; [comments]'
+2024-09-30 13:22:20,417 - INFO - Generating summary with BART model
+2024-09-30 13:22:26,081 - INFO - Generating summary with BART model
+2024-09-30 13:22:31,095 - INFO - full_tweet='can you share them &#32; submitted by & #32; /u/Internal_Complaint64 [link] &# 32; [comments] #submitted #comments https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/'
+2024-09-30 13:22:31,337 - INFO - Tweet posted successfully: Response(data={'text': 'can you share them &amp;#32; submitted by &amp; #32; /u/Internal_Complaint64 [link] &amp;# 32; [comments] #submitted #comments https://t.co/a2xBj0Xf03', 'edit_history_tweet_ids': ['1840744031808352706'], 'id': '1840744031808352706'}, includes={}, errors=[], meta={})
+2024-09-30 13:22:31,337 - INFO - Sleeping for 6 minutes and 6 seconds.
+2024-09-30 13:28:37,337 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1fsv7js/discussion_what_are_some_the_informative_blogs_on/ at 2024-09-30 13:28:37
+2024-09-30 13:28:37,338 - INFO - Input content - content='Here are some ways you can use ChatGPT to stop cheating and plagiarism.'
+2024-09-30 13:28:37,338 - INFO - clean content - clean_content='Here are some ways you can use ChatGPT to stop cheating and plagiarism.'
+2024-09-30 13:28:37,338 - INFO - Generating summary with BART model
+2024-09-30 13:28:41,784 - INFO - Generating summary with BART model
+2024-09-30 13:28:46,301 - INFO - full_tweet='Here are some ways you can use ChatGPT to stop cheating and plagiarism. Here are some Ways to Use ChatG..[read more👇🏼] #Here #some https://www.cnet.com/tech/services-and-software/you-can-use-ai-to-catch-cheaters-in-school-heres-how/#ftag=CAD590a51e'
+2024-09-30 13:28:46,554 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840745605473464432'], 'id': '1840745605473464432', 'text': 'Here are some ways you can use ChatGPT to stop cheating and plagiarism. Here are some Ways to Use ChatG..[read more👇🏼] #Here #some https://t.co/t630CPn6JJ'}, includes={}, errors=[], meta={})
+2024-09-30 13:28:46,554 - INFO - Sleeping for 4 minutes and 31 seconds.
+2024-09-30 13:33:17,554 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/you-can-use-ai-to-catch-cheaters-in-school-heres-how/#ftag=CAD590a51e at 2024-09-30 13:33:17
+2024-09-30 13:33:17,555 - INFO - Input content - content='New dataset of “illusory” faces reveals differences between human and algorithmic face detection, links to animal face recognition, and a formula predicting where people most often perceive faces.'
+2024-09-30 13:33:17,555 - INFO - clean content - clean_content='New dataset of “illusory” faces reveals differences between human and algorithmic face detection, links to animal face recognition, and a formula predicting where people most often perceive faces.'
+2024-09-30 13:33:17,555 - INFO - Generating summary with BART model
+2024-09-30 13:33:22,245 - INFO - Generating summary with BART model
+2024-09-30 13:33:26,948 - INFO - full_tweet='New dataset of “illusory” faces reveals differences between human and algorithmic face detection, links..[read more👇🏼] #faces #face https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930'
+2024-09-30 13:33:27,154 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840746782437064809'], 'id': '1840746782437064809', 'text': 'New dataset of “illusory” faces reveals differences between human and algorithmic face detection, links..[read more👇🏼] #faces #face https://t.co/WI9oSneXXT'}, includes={}, errors=[], meta={})
+2024-09-30 13:33:27,154 - INFO - Sleeping for 5 minutes and 15 seconds.
+2024-09-30 13:38:42,155 - INFO - Saved posted URL: https://news.mit.edu/2024/ai-pareidolia-can-machines-spot-faces-in-inanimate-objects-0930 at 2024-09-30 13:38:42
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://towardsdatascience.com/the-ai-developers-dilemma-proprietary-ai-vs-open-source-ecosystem-453ac735b760?source=rss----7f60cf5620c9---4
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/google-chromes-ai-extension-does-your-mundane-prep-work-and-more/#ftag=CAD590a51e
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.cnet.com/tech/computing/ai-awkwafina-is-ready-to-answer-questions-while-deepak-chopra-reads-you-a-story/#ftag=CAD590a51e
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fstn9m/p_i_tried_to_map_the_most_recurrent_and_popular/
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.theverge.com/2024/9/30/24258134/raspberry-pi-ai-camera-module-sony-price-availability
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/raspberry-pi-launches-camera-module-for-vision-based-ai-applications/
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/gov-newsom-vetoes-californias-controversial-ai-bill-sb-1047/
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom
+2024-09-30 13:38:42,155 - INFO - This link is already posted: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4
