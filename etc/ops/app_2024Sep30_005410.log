@@ -1,0 +1,27 @@
+2024-09-30 00:54:10,463 - INFO - Starting configuration setup
+2024-09-30 00:54:10,463 - INFO - Environment variables loaded successfully
+2024-09-30 00:54:10,463 - INFO - Twitter API client initialized successfully
+2024-09-30 00:54:12,346 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 00:54:26,566 - INFO - Summarization model initialized successfully
+2024-09-30 00:54:26,567 - INFO - Starting tweet scheduling
+2024-09-30 00:54:26,567 - INFO - Tweeting process started at 2024-09-30 00:54:26.567272!
+2024-09-30 00:54:26,567 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 00:54:26,567 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 00:54:26,567 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 00:54:40,350 - INFO - Total entries found: 617
+2024-09-30 00:54:40,353 - INFO - Recent AI-related entries found: 10
+2024-09-30 00:54:40,353 - INFO - Input content - content='<p>In September, California Governor Gavin Newsom considered 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. He vetoed SB 1047 on Sunday, marking the end of the road for California&#8217;s controversial AI bill that tried to prevent AI disasters, but signed more than a [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-09-30 00:54:40,353 - INFO - clean content - clean_content='In September, California Governor Gavin Newsom considered 38 AI-related bills, including the highly contentious SB 1047, which the state&#8217;s legislature sent to his desk for final approval. He vetoed SB 1047 on Sunday, marking the end of the road for California&#8217;s controversial AI bill that tried to prevent AI disasters, but signed more than a [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-09-30 00:54:40,353 - INFO - Generating summary with BART model
+2024-09-30 00:54:46,117 - INFO - Generating summary with BART model
+2024-09-30 00:54:51,207 - INFO - full_tweet='In September, California Governor Gavin Newsom considered 38 AI-related bills. The state&#8217;s..[read more👇🏼] #AI #legislature https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/'
+2024-09-30 00:54:51,489 - INFO - Tweet posted successfully: Response(data={'text': 'In September, California Governor Gavin Newsom considered 38 AI-related bills. The state&amp;#8217;s..[read more👇🏼] #AI #legislature https://t.co/gkagT7ghkW', 'edit_history_tweet_ids': ['1840555875989078062'], 'id': '1840555875989078062'}, includes={}, errors=[], meta={})
+2024-09-30 00:54:51,489 - INFO - Sleeping for 3 minutes and 53 seconds.
+2024-09-30 00:58:44,490 - INFO - Saved posted URL: https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/ at 2024-09-30 00:58:44
+2024-09-30 00:58:44,490 - INFO - Input content - content='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like magic to our grandparents."'
+2024-09-30 00:58:44,490 - INFO - clean content - clean_content='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like magic to our grandparents."'
+2024-09-30 00:58:44,490 - INFO - Generating summary with BART model
+2024-09-30 00:58:48,103 - INFO - Generating summary with BART model
+2024-09-30 00:58:51,683 - INFO - full_tweet='Altman predicts that with AI in the future, "We will be able to do things that would have seemed like..[read more👇🏼] #AI #grandparents https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/#ftag=CAD590a51e'
+2024-09-30 00:58:51,768 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
