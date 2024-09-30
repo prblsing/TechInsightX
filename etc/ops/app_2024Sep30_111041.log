@@ -1,0 +1,24 @@
+2024-09-30 11:10:41,739 - INFO - Starting configuration setup
+2024-09-30 11:10:41,739 - INFO - Environment variables loaded successfully
+2024-09-30 11:10:41,739 - INFO - Twitter API client initialized successfully
+2024-09-30 11:10:43,665 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-09-30 11:10:50,712 - INFO - Summarization model initialized successfully
+2024-09-30 11:10:50,712 - INFO - Starting tweet scheduling
+2024-09-30 11:10:50,712 - INFO - Tweeting process started at 2024-09-30 11:10:50.712774!
+2024-09-30 11:10:50,713 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Sep30.csv
+2024-09-30 11:10:50,713 - INFO - Fetching latest tech news from RSS feeds
+2024-09-30 11:11:04,343 - INFO - Total entries found: 617
+2024-09-30 11:11:04,346 - INFO - Recent AI-related entries found: 13
+2024-09-30 11:11:04,346 - INFO - This link is already posted: https://www.theverge.com/2024/9/30/24258134/raspberry-pi-ai-camera-module-sony-price-availability
+2024-09-30 11:11:04,346 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/fed-up-with-unnecessary-white-space-when-printing-from-the-web-ai-is-here-to-fix-that
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.techradar.com/pro/yoga-pro-7-is-a-reliable-and-efficient-device-for-even-the-most-demanding-creative-workflows-with-a-premium-2-8k-oled-screen-excellent-keyboard-and-a-ryzen-ai-9-365-processor
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/raspberry-pi-launches-camera-module-for-vision-based-ai-applications/
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1fsnzl5/r_looking_for_endorsement_in_arxiv_csai/
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.techradar.com/pro/it-s-an-ai-revolution-acer-unveils-the-travelmate-p6-14-ai-a-powerful-business-laptop-with-intel-core-ultra-processors-and-advanced-ai-tools-for-enhanced-productivity
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/here-is-whats-illegal-under-californias-18-and-counting-new-ai-laws/
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/superintelligent-ai-is-only-a-few-thousand-days-away-openai-ceo-sam-altman/#ftag=CAD590a51e
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://techcrunch.com/2024/09/29/gov-newsom-vetoes-californias-controversial-ai-bill-sb-1047/
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.theverge.com/2024/9/29/24232172/california-ai-safety-bill-1047-vetoed-gavin-newsom
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://venturebeat.com/ai/onboarding-the-ai-workforce-how-digital-agents-will-redefine-work-itself/
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://towardsdatascience.com/genai-with-python-build-agents-from-scratch-complete-tutorial-4fc1e084e2ec?source=rss----7f60cf5620c9---4
+2024-09-30 11:11:04,347 - INFO - This link is already posted: https://www.theverge.com/24255887/social-ai-bots-social-network-chatgpt-vergecast
