@@ -1,0 +1,29 @@
+2024-10-01 02:24:01,533 - INFO - Starting configuration setup
+2024-10-01 02:24:01,534 - INFO - Environment variables loaded successfully
+2024-10-01 02:24:01,534 - INFO - Twitter API client initialized successfully
+2024-10-01 02:24:03,475 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-01 02:24:10,323 - INFO - Summarization model initialized successfully
+2024-10-01 02:24:10,323 - INFO - Starting tweet scheduling
+2024-10-01 02:24:10,323 - INFO - Tweeting process started at 2024-10-01 02:24:10.323623!
+2024-10-01 02:24:10,323 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct01.csv
+2024-10-01 02:24:10,323 - INFO - Fetching latest tech news from RSS feeds
+2024-10-01 02:24:25,592 - INFO - Total entries found: 617
+2024-10-01 02:24:25,595 - INFO - Recent AI-related entries found: 22
+2024-10-01 02:24:25,595 - INFO - Input content - content='Apple focuses on AirPods with cameras and AI.'
+2024-10-01 02:24:25,596 - INFO - clean content - clean_content='Apple focuses on AirPods with cameras and AI.'
+2024-10-01 02:24:25,596 - INFO - Generating summary with BART model
+2024-10-01 02:24:32,969 - INFO - Generating summary with BART model
+2024-10-01 02:24:39,658 - INFO - full_tweet="Apple's new AirPods have a built-in camera that can take pictures of the user. The company is also..[read more👇🏼] #new #version https://www.techradar.com/computing/artificial-intelligence/can-apple-beat-metas-smart-glasses-by-adding-cameras-and-ai-to-airpods-pro"
+2024-10-01 02:24:39,969 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1840940864610119740'], 'id': '1840940864610119740', 'text': "Apple's new AirPods have a built-in camera that can take pictures of the user. The company is also..[read more👇🏼] #new #version https://t.co/bpVokl4Tkg"}, includes={}, errors=[], meta={})
+2024-10-01 02:24:39,969 - INFO - Sleeping for 9 minutes and 25 seconds.
+2024-10-01 02:34:04,970 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/can-apple-beat-metas-smart-glasses-by-adding-cameras-and-ai-to-airpods-pro at 2024-10-01 02:34:04
+2024-10-01 02:34:04,970 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1ftb4hk/r_synthpai_a_synthetic_dataset_for_personal/
+2024-10-01 02:34:04,970 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/meta-wont-say-whether-it-trains-ai-on-ray-ban-meta-smart-glasses-photos/
+2024-10-01 02:34:04,970 - INFO - This link is already posted: https://techcrunch.com/2024/09/30/y-combinator-is-being-criticized-after-it-backed-an-ai-startup-that-admits-it-basically-cloned-another-ai-startup/
+2024-10-01 02:34:04,970 - INFO - Input content - content="Gov. Gavin Newsom's veto of SB 1047 has been hailed by some industry veterans as good for open source innovation."
+2024-10-01 02:34:04,970 - INFO - clean content - clean_content="Gov. Gavin Newsom's veto of SB 1047 has been hailed by some industry veterans as good for open source innovation."
+2024-10-01 02:34:04,970 - INFO - Generating summary with BART model
+2024-10-01 02:34:10,060 - INFO - Generating summary with BART model
+2024-10-01 02:34:15,145 - INFO - full_tweet="Gov. Gavin Newsom's veto of SB 1047 has been hailed by some industry veterans as good for open source..[read more👇🏼] #innovation #industry https://venturebeat.com/ai/california-ai-bill-veto-could-allow-smaller-devs-models-to-flourish/"
+2024-10-01 02:34:15,258 - ERROR - Failed to post tweet: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
