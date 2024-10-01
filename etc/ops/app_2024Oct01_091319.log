@@ -1,0 +1,18 @@
+2024-10-01 09:13:19,761 - INFO - Starting configuration setup
+2024-10-01 09:13:19,761 - INFO - Environment variables loaded successfully
+2024-10-01 09:13:19,761 - INFO - Twitter API client initialized successfully
+2024-10-01 09:13:21,622 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-01 09:13:29,410 - INFO - Summarization model initialized successfully
+2024-10-01 09:13:29,410 - INFO - Starting tweet scheduling
+2024-10-01 09:13:29,410 - INFO - Tweeting process started at 2024-10-01 09:13:29.410530!
+2024-10-01 09:13:29,410 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct01.csv
+2024-10-01 09:13:29,410 - INFO - Fetching latest tech news from RSS feeds
+2024-10-01 09:13:45,801 - INFO - Total entries found: 617
+2024-10-01 09:13:45,804 - INFO - Recent AI-related entries found: 25
+2024-10-01 09:13:45,805 - INFO - Input content - content='The importance of implementing AI for now, rather than the future.'
+2024-10-01 09:13:45,805 - INFO - clean content - clean_content='The importance of implementing AI for now, rather than the future.'
+2024-10-01 09:13:45,805 - INFO - Generating summary with BART model
+2024-10-01 09:13:51,079 - INFO - Generating summary with BART model
+2024-10-01 09:13:55,722 - INFO - full_tweet='The importance of implementing AI for now, rather than the future, has been underlined by Google. The..[read more👇🏼] #AI #future https://www.techradar.com/pro/ai-maximizing-innovation-for-good'
+2024-10-01 09:13:55,829 - ERROR - Failed to post tweet: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
