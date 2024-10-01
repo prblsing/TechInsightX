@@ -1,0 +1,18 @@
+2024-10-01 06:17:12,921 - INFO - Starting configuration setup
+2024-10-01 06:17:12,921 - INFO - Environment variables loaded successfully
+2024-10-01 06:17:12,921 - INFO - Twitter API client initialized successfully
+2024-10-01 06:17:14,777 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-01 06:17:20,966 - INFO - Summarization model initialized successfully
+2024-10-01 06:17:20,966 - INFO - Starting tweet scheduling
+2024-10-01 06:17:20,966 - INFO - Tweeting process started at 2024-10-01 06:17:20.966737!
+2024-10-01 06:17:20,966 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct01.csv
+2024-10-01 06:17:20,967 - INFO - Fetching latest tech news from RSS feeds
+2024-10-01 06:17:36,830 - INFO - Total entries found: 587
+2024-10-01 06:17:36,833 - INFO - Recent AI-related entries found: 19
+2024-10-01 06:17:36,833 - INFO - Input content - content='By enabling users to chat with an older version of themselves, Future You is aimed at reducing anxiety and guiding young people to make better choices.'
+2024-10-01 06:17:36,834 - INFO - clean content - clean_content='By enabling users to chat with an older version of themselves, Future You is aimed at reducing anxiety and guiding young people to make better choices.'
+2024-10-01 06:17:36,834 - INFO - Generating summary with BART model
+2024-10-01 06:17:42,194 - INFO - Generating summary with BART model
+2024-10-01 06:17:46,932 - INFO - full_tweet='Future You is aimed at reducing anxiety and guiding young people to make better choices. By enabling..[read more👇🏼] #anxiety #Future https://news.mit.edu/2024/ai-simulation-gives-people-glimpse-potential-future-self-1001'
+2024-10-01 06:17:47,032 - ERROR - Failed to post tweet: 403 Forbidden
+Your account is temporarily locked. Please log in to https://twitter.com to unlock your account.
