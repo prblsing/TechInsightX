@@ -1,0 +1,19 @@
+2024-10-09 01:53:21,715 - INFO - Starting configuration setup
+2024-10-09 01:53:21,715 - INFO - Environment variables loaded successfully
+2024-10-09 01:53:21,715 - INFO - Twitter API client initialized successfully
+2024-10-09 01:53:23,612 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 01:53:30,942 - INFO - Summarization model initialized successfully
+2024-10-09 01:53:30,943 - INFO - Starting tweet scheduling
+2024-10-09 01:53:30,943 - INFO - Tweeting process started at 2024-10-09 01:53:30.943112!
+2024-10-09 01:53:30,943 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 01:53:30,943 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 01:53:30,943 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 01:53:46,687 - INFO - Total entries found: 587
+2024-10-09 01:53:46,690 - INFO - Recent AI-related entries found: 15
+2024-10-09 01:53:46,690 - INFO - Input content - content='Instacart showcases AI-powered Caper Cart for grocery shopping.'
+2024-10-09 01:53:46,690 - INFO - clean content - clean_content='Instacart showcases AI-powered Caper Cart for grocery shopping.'
+2024-10-09 01:53:46,690 - INFO - Generating summary with BART model
+2024-10-09 01:53:51,936 - INFO - Generating summary with BART model
+2024-10-09 01:53:56,501 - INFO - full_tweet='. Instacart showcases AI-powered Caper Cart for grocery shopping. CaperCart.com is a new service that..[read more👇🏼] #AI #Instacart https://www.techradar.com/computing/artificial-intelligence/instacarts-ai-powered-shopping-cart-turns-shopping-into-a-side-quest'
+2024-10-09 01:53:56,583 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
