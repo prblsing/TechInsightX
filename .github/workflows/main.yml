@@ -1,70 +1,70 @@
-# name: Tweet AI News Daily
+name: Tweet AI News Daily
 
-# on:
-#   schedule:
-#     - cron: '0 * * * *'
-#   workflow_dispatch:
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
-# jobs:
-#   tweet:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v2
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-#       - name: Set up Python
-#         uses: actions/setup-python@v2
-#         with:
-#           python-version: 3.11.9
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11.9
 
-#       - name: Check for lock file
-#         id: check-lock
-#         run: |
-#           if [ -f "/tmp/random_sleep.lock" ]; then
-#             echo "Previous instance is still running. Exiting."
-#             exit 1
-#           fi
+      - name: Check for lock file
+        id: check-lock
+        run: |
+          if [ -f "/tmp/random_sleep.lock" ]; then
+            echo "Previous instance is still running. Exiting."
+            exit 1
+          fi
 
-#       - name: Create lock file
-#         if: steps.check-lock.outcome == 'success'
-#         run: touch /tmp/random_sleep.lock
+      - name: Create lock file
+        if: steps.check-lock.outcome == 'success'
+        run: touch /tmp/random_sleep.lock
 
-#       - name: Install dependencies
-#         run: |
-#           python -m pip install --upgrade pip
-#           pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-#       - name: Set up directory and file for logs and posted URLs
-#         run: |
-#           mkdir -p etc/ops
-#           touch etc/ops/posted_links.txt
-#           echo "Initialized posted_links.txt file."
+      - name: Set up directory and file for logs and posted URLs
+        run: |
+          mkdir -p etc/ops
+          touch etc/ops/posted_links.txt
+          echo "Initialized posted_links.txt file."
 
-#       - name: Run the scheduler
-#         env:
-#           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-#           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
-#           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-#           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-#           BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
-#           HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
-#           POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
-#           MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
-#         run: |
-#           python src/main.py
+      - name: Run the scheduler
+        env:
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
+          HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
+          POST_INTERVAL_HOURS: ${{ secrets.POST_INTERVAL_HOURS }}
+          MAX_TWEET_LENGTH: ${{ secrets.MAX_TWEET_LENGTH }}
+        run: |
+          python src/main.py
 
-#       - name: Pull the latest changes
-#         run: git pull origin main
+      - name: Pull the latest changes
+        run: git pull origin main
 
-#       - name: Commit and push changes
-#         run: |
-#           git config --global user.name 'GitHub Actions'
-#           git config --global user.email 'actions@github.com'
-#           git add etc/ops/posted_links_*.csv etc/ops/*.log
-#           git commit -m "Update posted links and logs after run"
-#           git push origin main
-#         continue-on-error: true
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add etc/ops/posted_links_*.csv etc/ops/*.log
+          git commit -m "Update posted links and logs after run"
+          git push origin main
+        continue-on-error: true
 
-#       - name: Remove lock file on failure
-#         if: failure()
-#         run: rm -f /tmp/random_sleep.lock
+      - name: Remove lock file on failure
+        if: failure()
+        run: rm -f /tmp/random_sleep.lock
