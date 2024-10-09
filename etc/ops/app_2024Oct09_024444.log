@@ -1,0 +1,18 @@
+2024-10-09 02:44:44,104 - INFO - Starting configuration setup
+2024-10-09 02:44:44,104 - INFO - Environment variables loaded successfully
+2024-10-09 02:44:44,105 - INFO - Twitter API client initialized successfully
+2024-10-09 02:44:45,955 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 02:44:52,772 - INFO - Summarization model initialized successfully
+2024-10-09 02:44:52,773 - INFO - Starting tweet scheduling
+2024-10-09 02:44:52,773 - INFO - Tweeting process started at 2024-10-09 02:44:52.773117!
+2024-10-09 02:44:52,773 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 02:44:52,773 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 02:45:07,667 - INFO - Total entries found: 617
+2024-10-09 02:45:07,670 - INFO - Recent AI-related entries found: 24
+2024-10-09 02:45:07,670 - INFO - Input content - content="Anthropic's new Message Batches API cuts costs for big AI tasks by half, making advanced data analysis more affordable for businesses and changing how companies use AI."
+2024-10-09 02:45:07,671 - INFO - clean content - clean_content="Anthropic's new Message Batches API cuts costs for big AI tasks by half, making advanced data analysis more affordable for businesses and changing how companies use AI."
+2024-10-09 02:45:07,671 - INFO - Generating summary with BART model
+2024-10-09 02:45:12,750 - INFO - Generating summary with BART model
+2024-10-09 02:45:17,122 - INFO - full_tweet="Anthropic's new Message Batches API cuts costs for big AI tasks by half. The API will make advanced data..[read more👇🏼] #API #AI https://venturebeat.com/ai/anthropic-challenges-openai-with-affordable-batch-processing/"
+2024-10-09 02:45:17,240 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
