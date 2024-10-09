@@ -1,0 +1,18 @@
+2024-10-09 15:09:34,116 - INFO - Starting configuration setup
+2024-10-09 15:09:34,117 - INFO - Environment variables loaded successfully
+2024-10-09 15:09:34,117 - INFO - Twitter API client initialized successfully
+2024-10-09 15:09:36,166 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 15:09:51,505 - INFO - Summarization model initialized successfully
+2024-10-09 15:09:51,505 - INFO - Starting tweet scheduling
+2024-10-09 15:09:51,505 - INFO - Tweeting process started at 2024-10-09 15:09:51.505890!
+2024-10-09 15:09:51,506 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 15:09:51,506 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 15:10:07,506 - INFO - Total entries found: 617
+2024-10-09 15:10:07,509 - INFO - Recent AI-related entries found: 24
+2024-10-09 15:10:07,510 - INFO - Input content - content='<p>On Wednesday Amazon introduced the latest in a series of AI features and products aimed at consumers with the launch of AI shopping guides. The guides, arriving tomorrow, will span over 100 product types on Amazon.com and will help to consolidate the key information consumers tend to research before making a purchase as well as [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-09 15:10:07,510 - INFO - clean content - clean_content='On Wednesday Amazon introduced the latest in a series of AI features and products aimed at consumers with the launch of AI shopping guides. The guides, arriving tomorrow, will span over 100 product types on Amazon.com and will help to consolidate the key information consumers tend to research before making a purchase as well as [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-09 15:10:07,510 - INFO - Generating summary with BART model
+2024-10-09 15:10:12,882 - INFO - Generating summary with BART model
+2024-10-09 15:10:17,542 - INFO - full_tweet='The guides, arriving tomorrow, will span over 100 product types on Amazon.com. They will help to..[read more👇🏼] #consolidate #information https://techcrunch.com/2024/10/09/amazon-debuts-ai-powered-shopping-guides/'
+2024-10-09 15:10:17,689 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
