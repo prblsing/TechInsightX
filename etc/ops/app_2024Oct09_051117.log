@@ -1,0 +1,18 @@
+2024-10-09 05:11:17,251 - INFO - Starting configuration setup
+2024-10-09 05:11:17,251 - INFO - Environment variables loaded successfully
+2024-10-09 05:11:17,251 - INFO - Twitter API client initialized successfully
+2024-10-09 05:11:19,110 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 05:11:26,708 - INFO - Summarization model initialized successfully
+2024-10-09 05:11:26,708 - INFO - Starting tweet scheduling
+2024-10-09 05:11:26,708 - INFO - Tweeting process started at 2024-10-09 05:11:26.708536!
+2024-10-09 05:11:26,708 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 05:11:26,708 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 05:11:42,444 - INFO - Total entries found: 617
+2024-10-09 05:11:42,447 - INFO - Recent AI-related entries found: 26
+2024-10-09 05:11:42,447 - INFO - Input content - content="MediaTek's Dimensity 9400 chip supports advanced AI capabilities on phones along with performance improvements."
+2024-10-09 05:11:42,448 - INFO - clean content - clean_content="MediaTek's Dimensity 9400 chip supports advanced AI capabilities on phones along with performance improvements."
+2024-10-09 05:11:42,448 - INFO - Generating summary with BART model
+2024-10-09 05:11:50,427 - INFO - Generating summary with BART model
+2024-10-09 05:11:57,764 - INFO - full_tweet="MediaTek's Dimensity 9400 chip supports advanced AI capabilities on phones along with performance..[read more👇🏼] #AI #chip https://www.cnet.com/tech/mobile/mediateks-next-chip-lets-android-phone-makers-use-more-advanced-ai/#ftag=CAD590a51e"
+2024-10-09 05:11:57,846 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
