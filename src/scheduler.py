@@ -74,12 +74,11 @@ def tweet_ai_news():
                 # Uncomment the next line to actually post the tweet
                 response = client.create_tweet(text=full_tweet)
                 logging.info(f'Tweet posted successfully: {response}')
+                save_posted_url(link)
+                logging.info(f'Tweet link saved successfully.')
                 sleep_time = random.randint(180, 600)
                 logging.info(f"Sleeping for {sleep_time // 60} minutes and {sleep_time % 60} seconds.")
                 time.sleep(sleep_time)
-
-
-                save_posted_url(link)
         else:
             logging.info('No AI news to tweet.')
     except Exception as e:
