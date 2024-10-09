@@ -1,0 +1,18 @@
+2024-10-09 17:08:54,359 - INFO - Starting configuration setup
+2024-10-09 17:08:54,359 - INFO - Environment variables loaded successfully
+2024-10-09 17:08:54,360 - INFO - Twitter API client initialized successfully
+2024-10-09 17:08:56,274 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 17:09:04,753 - INFO - Summarization model initialized successfully
+2024-10-09 17:09:04,753 - INFO - Starting tweet scheduling
+2024-10-09 17:09:04,753 - INFO - Tweeting process started at 2024-10-09 17:09:04.753572!
+2024-10-09 17:09:04,753 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 17:09:04,753 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 17:09:23,014 - INFO - Total entries found: 587
+2024-10-09 17:09:23,017 - INFO - Recent AI-related entries found: 21
+2024-10-09 17:09:23,017 - INFO - Input content - content='<p>Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. This week in AI, synthetic data rose to prominence. OpenAI last Thursday introduced Canvas, a new way to interact with ChatGPT, its AI-powered chatbot platform. Canvas opens a window with a workspace for writing and coding [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-09 17:09:23,018 - INFO - clean content - clean_content='Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up&#160;here. This week in AI, synthetic data rose to prominence. OpenAI last Thursday introduced Canvas, a new way to interact with ChatGPT, its AI-powered chatbot platform. Canvas opens a window with a workspace for writing and coding [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-09 17:09:23,018 - INFO - Generating summary with BART model
+2024-10-09 17:09:28,280 - INFO - Generating summary with BART model
+2024-10-09 17:09:32,887 - INFO - full_tweet='OpenAI last Thursday introduced Canvas, a new way to interact with ChatGPT. Canvas opens a window with a..[read more👇🏼] #coding #Canvas https://techcrunch.com/2024/10/09/this-week-in-ai-tech-giants-embrace-synthetic-data/'
+2024-10-09 17:09:33,001 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
