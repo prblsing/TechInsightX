@@ -1,0 +1,18 @@
+2024-10-09 08:13:12,832 - INFO - Starting configuration setup
+2024-10-09 08:13:12,832 - INFO - Environment variables loaded successfully
+2024-10-09 08:13:12,833 - INFO - Twitter API client initialized successfully
+2024-10-09 08:13:14,732 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 08:13:21,382 - INFO - Summarization model initialized successfully
+2024-10-09 08:13:21,383 - INFO - Starting tweet scheduling
+2024-10-09 08:13:21,383 - INFO - Tweeting process started at 2024-10-09 08:13:21.383180!
+2024-10-09 08:13:21,383 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 08:13:21,383 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 08:13:35,163 - INFO - Total entries found: 587
+2024-10-09 08:13:35,166 - INFO - Recent AI-related entries found: 22
+2024-10-09 08:13:35,166 - INFO - Input content - content='<p>OpenAI said in a post on X that it is opening new offices in multiple cities, including NYC, Seattle, Paris, Brussels, and Singapore, in addition to its existing locations in San Francisco, London, Dublin and Tokyo, as part of the company&#8217;s global expansion efforts. The expansion effort follows the San Francisco-based ChatGPT maker&#8217;s whopping $6.4 [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-09 08:13:35,166 - INFO - clean content - clean_content='OpenAI said in a post on X that it is opening new offices in multiple cities, including NYC, Seattle, Paris, Brussels, and Singapore, in addition to its existing locations in San Francisco, London, Dublin and Tokyo, as part of the company&#8217;s global expansion efforts. The expansion effort follows the San Francisco-based ChatGPT maker&#8217;s whopping $6.4 [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-09 08:13:35,166 - INFO - Generating summary with BART model
+2024-10-09 08:13:42,382 - INFO - Generating summary with BART model
+2024-10-09 08:13:48,872 - INFO - full_tweet='OpenAI is opening new offices in multiple cities, including NYC, Seattle, Paris, Brussels, and Singapore...[read more👇🏼] #including #Singapore https://techcrunch.com/2024/10/09/openai-to-open-offices-in-singapore-paris-brussels-to-facilitate-global-expansion/'
+2024-10-09 08:13:48,980 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
