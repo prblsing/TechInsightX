@@ -1,0 +1,18 @@
+2024-10-09 11:09:30,054 - INFO - Starting configuration setup
+2024-10-09 11:09:30,054 - INFO - Environment variables loaded successfully
+2024-10-09 11:09:30,054 - INFO - Twitter API client initialized successfully
+2024-10-09 11:09:31,922 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 11:09:40,099 - INFO - Summarization model initialized successfully
+2024-10-09 11:09:40,099 - INFO - Starting tweet scheduling
+2024-10-09 11:09:40,099 - INFO - Tweeting process started at 2024-10-09 11:09:40.099754!
+2024-10-09 11:09:40,099 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 11:09:40,100 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 11:09:53,892 - INFO - Total entries found: 617
+2024-10-09 11:09:53,895 - INFO - Recent AI-related entries found: 28
+2024-10-09 11:09:53,895 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>There is plenty of room for integration of AI into our life and its happening at rapid rate. I am at a point where I would consider letting AI see exactly what I am doing on my computer and let it get the context of my current problem asap, i.e. without the need to type it in some chatgpt interface.</p> <p>The analogy here is same as with Cursor for example, it sees the codebase your are in and wpp (words oper prompt) is much less than using just chat interface for most tasks. Also Adobe and more apps have integrated ai into their system in some way.</p> <p>So - writing a report, working in a spreadsheet, doing math, editing videos. Would you be comfortable integrating AI into your computer?</p> <p>Hope im not being too vague, interpret the terminology of \'integrating AI into your computer\' as you want, whats the limit you would into and why.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/iceee-coffee"> /u/iceee-coffee </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fznox0/d_how_far_would_you_go_to_be_the_best_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1fznox0/d_how_far_would_you_go_to_be_the_best_ai/">[comments]</a></span>'
+2024-10-09 11:09:53,896 - INFO - clean content - clean_content="There is plenty of room for integration of AI into our life and its happening at rapid rate. I am at a point where I would consider letting AI see exactly what I am doing on my computer and let it get the context of my current problem asap, i.e. without the need to type it in some chatgpt interface. The analogy here is same as with Cursor for example, it sees the codebase your are in and wpp (words oper prompt) is much less than using just chat interface for most tasks. Also Adobe and more apps have integrated ai into their system in some way. So - writing a report, working in a spreadsheet, doing math, editing videos. Would you be comfortable integrating AI into your computer? Hope im not being too vague, interpret the terminology of 'integrating AI into your computer' as you want, whats the limit you would into and why. &#32; submitted by &#32; /u/iceee-coffee [link] &#32; [comments]"
+2024-10-09 11:09:53,896 - INFO - Generating summary with BART model
+2024-10-09 11:10:02,603 - INFO - Generating summary with BART model
+2024-10-09 11:10:10,728 - INFO - full_tweet='There is plenty of room for integration of AI into our life and its happening at rapid rate. I would..[read more👇🏼] #AI #computer https://www.reddit.com/r/MachineLearning/comments/1fznox0/d_how_far_would_you_go_to_be_the_best_ai/'
+2024-10-09 11:10:10,842 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
