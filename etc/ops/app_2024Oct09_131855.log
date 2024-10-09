@@ -1,0 +1,18 @@
+2024-10-09 13:18:55,871 - INFO - Starting configuration setup
+2024-10-09 13:18:55,871 - INFO - Environment variables loaded successfully
+2024-10-09 13:18:55,871 - INFO - Twitter API client initialized successfully
+2024-10-09 13:18:57,760 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 13:19:05,912 - INFO - Summarization model initialized successfully
+2024-10-09 13:19:05,912 - INFO - Starting tweet scheduling
+2024-10-09 13:19:05,912 - INFO - Tweeting process started at 2024-10-09 13:19:05.912860!
+2024-10-09 13:19:05,913 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 13:19:05,913 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 13:19:17,968 - INFO - Total entries found: 617
+2024-10-09 13:19:17,971 - INFO - Recent AI-related entries found: 26
+2024-10-09 13:19:17,972 - INFO - Input content - content="<p>Amazon is introducing new Ring subscription plans, including a tier that'll bring 24/7 recording and AI-powered video search.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-09 13:19:17,972 - INFO - clean content - clean_content="Amazon is introducing new Ring subscription plans, including a tier that'll bring 24/7 recording and AI-powered video search. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-09 13:19:17,972 - INFO - Generating summary with BART model
+2024-10-09 13:19:23,704 - INFO - Generating summary with BART model
+2024-10-09 13:19:28,785 - INFO - full_tweet="Amazon is introducing new Ring subscription plans, including a tier that'll bring 24/7 recording and..[read more👇🏼] #AI #Ring https://techcrunch.com/2024/10/09/amazon-revamps-ring-subscriptions-with-ai-video-search/"
+2024-10-09 13:19:28,854 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
