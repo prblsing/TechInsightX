@@ -1,0 +1,18 @@
+2024-10-09 09:11:05,332 - INFO - Starting configuration setup
+2024-10-09 09:11:05,333 - INFO - Environment variables loaded successfully
+2024-10-09 09:11:05,333 - INFO - Twitter API client initialized successfully
+2024-10-09 09:11:07,221 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 09:11:16,393 - INFO - Summarization model initialized successfully
+2024-10-09 09:11:16,393 - INFO - Starting tweet scheduling
+2024-10-09 09:11:16,393 - INFO - Tweeting process started at 2024-10-09 09:11:16.393624!
+2024-10-09 09:11:16,393 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 09:11:16,393 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 09:11:35,714 - INFO - Total entries found: 617
+2024-10-09 09:11:35,717 - INFO - Recent AI-related entries found: 31
+2024-10-09 09:11:35,717 - INFO - Input content - content='Gemini-powered code-writing tool looks to help developers everywhere.'
+2024-10-09 09:11:35,718 - INFO - clean content - clean_content='Gemini-powered code-writing tool looks to help developers everywhere.'
+2024-10-09 09:11:35,718 - INFO - Generating summary with BART model
+2024-10-09 09:11:40,205 - INFO - Generating summary with BART model
+2024-10-09 09:11:44,034 - INFO - full_tweet='Gemini-powered code-writing tool looks to help developers everywhere. Gemini- powered code- writing tool..[read more👇🏼] #everywhere #powered https://www.techradar.com/pro/google-wants-to-make-writing-code-for-your-business-even-easier-using-gemini-ai'
+2024-10-09 09:11:44,163 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
