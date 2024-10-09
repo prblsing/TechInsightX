@@ -1,0 +1,18 @@
+2024-10-09 20:11:03,816 - INFO - Starting configuration setup
+2024-10-09 20:11:03,816 - INFO - Environment variables loaded successfully
+2024-10-09 20:11:03,817 - INFO - Twitter API client initialized successfully
+2024-10-09 20:11:05,757 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-09 20:11:14,548 - INFO - Summarization model initialized successfully
+2024-10-09 20:11:14,548 - INFO - Starting tweet scheduling
+2024-10-09 20:11:14,549 - INFO - Tweeting process started at 2024-10-09 20:11:14.549015!
+2024-10-09 20:11:14,549 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct09.csv
+2024-10-09 20:11:14,549 - INFO - Fetching latest tech news from RSS feeds
+2024-10-09 20:11:30,380 - INFO - Total entries found: 587
+2024-10-09 20:11:30,383 - INFO - Recent AI-related entries found: 21
+2024-10-09 20:11:30,383 - INFO - Input content - content='It has been a billboard week for artificial intelligence research. But could big wins for Demis Hassabis and Geoffrey Hinton change broader scientific incentives?'
+2024-10-09 20:11:30,384 - INFO - clean content - clean_content='It has been a billboard week for artificial intelligence research. But could big wins for Demis Hassabis and Geoffrey Hinton change broader scientific incentives?'
+2024-10-09 20:11:30,384 - INFO - Generating summary with BART model
+2024-10-09 20:11:35,833 - INFO - Generating summary with BART model
+2024-10-09 20:11:40,538 - INFO - full_tweet='Could big wins for Demis Hassabis and Geoffrey Hinton change broader scientific incentives? It has been a..[read more👇🏼] #intelligence #scientific https://www.wired.com/story/how-the-ai-nobel-prizes-could-change-the-focus-of-research/'
+2024-10-09 20:11:40,623 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
