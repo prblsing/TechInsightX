@@ -1,0 +1,18 @@
+2024-10-10 15:10:10,915 - INFO - Starting configuration setup
+2024-10-10 15:10:10,915 - INFO - Environment variables loaded successfully
+2024-10-10 15:10:10,915 - INFO - Twitter API client initialized successfully
+2024-10-10 15:10:12,913 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 15:10:21,237 - INFO - Summarization model initialized successfully
+2024-10-10 15:10:21,237 - INFO - Starting tweet scheduling
+2024-10-10 15:10:21,237 - INFO - Tweeting process started at 2024-10-10 15:10:21.237557!
+2024-10-10 15:10:21,237 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 15:10:21,237 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 15:10:35,751 - INFO - Total entries found: 616
+2024-10-10 15:10:35,754 - INFO - Recent AI-related entries found: 16
+2024-10-10 15:10:35,755 - INFO - Input content - content='Armand Ruiz, VP for AI platform watsonx at IBM discusses unraveling AI complexity for scale.'
+2024-10-10 15:10:35,755 - INFO - clean content - clean_content='Armand Ruiz, VP for AI platform watsonx at IBM discusses unraveling AI complexity for scale.'
+2024-10-10 15:10:35,755 - INFO - Generating summary with BART model
+2024-10-10 15:10:42,373 - INFO - Generating summary with BART model
+2024-10-10 15:10:48,252 - INFO - full_tweet='Armand Ruiz, VP for AI platform watsonx at IBM discusses unraveling AI complexity for scale. Ruiz: "I..[read more👇🏼] #AI #Ruiz https://www.techradar.com/pro/ai-developers-are-hitting-a-complexity-wall-despite-industry-hype'
+2024-10-10 15:10:48,353 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
