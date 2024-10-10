@@ -1,0 +1,19 @@
+2024-10-10 00:42:00,168 - INFO - Starting configuration setup
+2024-10-10 00:42:00,169 - INFO - Environment variables loaded successfully
+2024-10-10 00:42:00,169 - INFO - Twitter API client initialized successfully
+2024-10-10 00:42:02,054 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 00:42:10,011 - INFO - Summarization model initialized successfully
+2024-10-10 00:42:10,011 - INFO - Starting tweet scheduling
+2024-10-10 00:42:10,011 - INFO - Tweeting process started at 2024-10-10 00:42:10.011348!
+2024-10-10 00:42:10,011 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 00:42:10,011 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 00:42:10,011 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 00:42:24,629 - INFO - Total entries found: 617
+2024-10-10 00:42:24,632 - INFO - Recent AI-related entries found: 25
+2024-10-10 00:42:24,633 - INFO - Input content - content='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow'
+2024-10-10 00:42:24,633 - INFO - clean content - clean_content='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow'
+2024-10-10 00:42:24,633 - INFO - Generating summary with BART model
+2024-10-10 00:42:29,997 - INFO - Generating summary with BART model
+2024-10-10 00:42:34,727 - INFO - full_tweet='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow. ChatGPT has been a..[read more👇🏼] #knowledge #negative https://www.techradar.com/pro/could-ai-finally-bring-an-end-to-reddits-seo-dominance-researchers-correlate-rise-of-chatgpt-with-drop-in-knowledge-sharing-on-public-platforms'
+2024-10-10 00:42:34,828 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
