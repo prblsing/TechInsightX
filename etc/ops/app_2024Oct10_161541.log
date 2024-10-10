@@ -1,0 +1,18 @@
+2024-10-10 16:15:41,162 - INFO - Starting configuration setup
+2024-10-10 16:15:41,163 - INFO - Environment variables loaded successfully
+2024-10-10 16:15:41,163 - INFO - Twitter API client initialized successfully
+2024-10-10 16:15:43,081 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 16:15:50,835 - INFO - Summarization model initialized successfully
+2024-10-10 16:15:50,835 - INFO - Starting tweet scheduling
+2024-10-10 16:15:50,835 - INFO - Tweeting process started at 2024-10-10 16:15:50.835666!
+2024-10-10 16:15:50,835 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 16:15:50,835 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 16:16:05,512 - INFO - Total entries found: 616
+2024-10-10 16:16:05,515 - INFO - Recent AI-related entries found: 16
+2024-10-10 16:16:05,515 - INFO - Input content - content="I wish these Opera AI tab managemnet tools were coming to Chrome, here's how to use them."
+2024-10-10 16:16:05,516 - INFO - clean content - clean_content="I wish these Opera AI tab managemnet tools were coming to Chrome, here's how to use them."
+2024-10-10 16:16:05,516 - INFO - Generating summary with BART model
+2024-10-10 16:16:10,174 - INFO - Generating summary with BART model
+2024-10-10 16:16:14,197 - INFO - full_tweet="Opera AI tab managemnet tools are coming to Chrome. Here's how to use them. I wish these Opera AI tab..[read more👇🏼] #AI #coming https://www.techradar.com/computing/artificial-intelligence/i-desperately-want-this-opera-ai-feature-to-come-to-chrome-and-fix-my-tabs-nightmare"
+2024-10-10 16:16:14,309 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
