@@ -1,0 +1,18 @@
+2024-10-10 02:12:31,460 - INFO - Starting configuration setup
+2024-10-10 02:12:31,460 - INFO - Environment variables loaded successfully
+2024-10-10 02:12:31,460 - INFO - Twitter API client initialized successfully
+2024-10-10 02:12:33,291 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 02:12:41,530 - INFO - Summarization model initialized successfully
+2024-10-10 02:12:41,531 - INFO - Starting tweet scheduling
+2024-10-10 02:12:41,531 - INFO - Tweeting process started at 2024-10-10 02:12:41.531218!
+2024-10-10 02:12:41,531 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 02:12:41,531 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 02:12:56,244 - INFO - Total entries found: 617
+2024-10-10 02:12:56,247 - INFO - Recent AI-related entries found: 25
+2024-10-10 02:12:56,247 - INFO - Input content - content='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow'
+2024-10-10 02:12:56,248 - INFO - clean content - clean_content='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow'
+2024-10-10 02:12:56,248 - INFO - Generating summary with BART model
+2024-10-10 02:13:01,588 - INFO - Generating summary with BART model
+2024-10-10 02:13:06,310 - INFO - full_tweet='ChatGPT is having a negative impact on knowledge-sharing sites like Stack Overflow. ChatGPT has been a..[read more👇🏼] #knowledge #negative https://www.techradar.com/pro/could-ai-finally-bring-an-end-to-reddits-seo-dominance-researchers-correlate-rise-of-chatgpt-with-drop-in-knowledge-sharing-on-public-platforms'
+2024-10-10 02:13:06,411 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
