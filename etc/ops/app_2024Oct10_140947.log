@@ -1,0 +1,18 @@
+2024-10-10 14:09:47,671 - INFO - Starting configuration setup
+2024-10-10 14:09:47,671 - INFO - Environment variables loaded successfully
+2024-10-10 14:09:47,671 - INFO - Twitter API client initialized successfully
+2024-10-10 14:09:49,535 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 14:09:56,897 - INFO - Summarization model initialized successfully
+2024-10-10 14:09:56,898 - INFO - Starting tweet scheduling
+2024-10-10 14:09:56,898 - INFO - Tweeting process started at 2024-10-10 14:09:56.898099!
+2024-10-10 14:09:56,898 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 14:09:56,898 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 14:10:11,642 - INFO - Total entries found: 616
+2024-10-10 14:10:11,646 - INFO - Recent AI-related entries found: 18
+2024-10-10 14:10:11,646 - INFO - Input content - content='Check out these key considerations for successfully implementing AI solutions.'
+2024-10-10 14:10:11,646 - INFO - clean content - clean_content='Check out these key considerations for successfully implementing AI solutions.'
+2024-10-10 14:10:11,646 - INFO - Generating summary with BART model
+2024-10-10 14:10:17,743 - INFO - Generating summary with BART model
+2024-10-10 14:10:23,159 - INFO - full_tweet='AI solutions can be difficult to implement. Check out these key considerations for successfully..[read more👇🏼] #AI #considerations https://www.kdnuggets.com/seven-factors-driving-ai-adoption'
+2024-10-10 14:10:23,230 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
