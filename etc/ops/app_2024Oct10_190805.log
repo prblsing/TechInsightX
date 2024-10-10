@@ -1,0 +1,18 @@
+2024-10-10 19:08:05,437 - INFO - Starting configuration setup
+2024-10-10 19:08:05,437 - INFO - Environment variables loaded successfully
+2024-10-10 19:08:05,438 - INFO - Twitter API client initialized successfully
+2024-10-10 19:08:07,317 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 19:08:15,220 - INFO - Summarization model initialized successfully
+2024-10-10 19:08:15,220 - INFO - Starting tweet scheduling
+2024-10-10 19:08:15,220 - INFO - Tweeting process started at 2024-10-10 19:08:15.220490!
+2024-10-10 19:08:15,220 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 19:08:15,220 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 19:08:30,209 - INFO - Total entries found: 616
+2024-10-10 19:08:30,212 - INFO - Recent AI-related entries found: 19
+2024-10-10 19:08:30,212 - INFO - Input content - content='AMD Ryzen AI Pro 300 chips bring Copilot+ AI PCs to enterprise users, including a 55 TOPS NPU, up to Radeon 890M graphics, and enhanced security features.'
+2024-10-10 19:08:30,212 - INFO - clean content - clean_content='AMD Ryzen AI Pro 300 chips bring Copilot+ AI PCs to enterprise users, including a 55 TOPS NPU, up to Radeon 890M graphics, and enhanced security features.'
+2024-10-10 19:08:30,212 - INFO - Generating summary with BART model
+2024-10-10 19:08:35,650 - INFO - Generating summary with BART model
+2024-10-10 19:08:40,459 - INFO - full_tweet="AMD's new AI Pro 300 chips bring Copilot+ AI PCs to enterprise users. Chips include a 55 TOPS NPU, up to..[read more👇🏼] #AI #enterprise https://www.techradar.com/computing/cpu/amd-announces-new-ryzen-ai-pro-300-series-processors-bringing-copilot-pcs-to-enterprise-users"
+2024-10-10 19:08:40,578 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
