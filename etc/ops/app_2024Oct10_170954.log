@@ -1,0 +1,18 @@
+2024-10-10 17:09:54,885 - INFO - Starting configuration setup
+2024-10-10 17:09:54,885 - INFO - Environment variables loaded successfully
+2024-10-10 17:09:54,885 - INFO - Twitter API client initialized successfully
+2024-10-10 17:09:56,816 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 17:10:04,287 - INFO - Summarization model initialized successfully
+2024-10-10 17:10:04,288 - INFO - Starting tweet scheduling
+2024-10-10 17:10:04,288 - INFO - Tweeting process started at 2024-10-10 17:10:04.288211!
+2024-10-10 17:10:04,288 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 17:10:04,288 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 17:10:19,842 - INFO - Total entries found: 616
+2024-10-10 17:10:19,845 - INFO - Recent AI-related entries found: 15
+2024-10-10 17:10:19,846 - INFO - Input content - content='Intel brings the AI PC to the desktop with the first desktop processor with a built-in NPU'
+2024-10-10 17:10:19,846 - INFO - clean content - clean_content='Intel brings the AI PC to the desktop with the first desktop processor with a built-in NPU'
+2024-10-10 17:10:19,846 - INFO - Generating summary with BART model
+2024-10-10 17:10:26,225 - INFO - Generating summary with BART model
+2024-10-10 17:10:31,995 - INFO - full_tweet='Intel unveils its first desktop processor with a built-in NPU. The Intel Core i9 is the first processor..[read more👇🏼] #AI #Intel https://www.techradar.com/computing/cpu/intel-announces-core-ultra-200-series-desktop-cpus-the-first-desktop-ai-processors-on-the-market'
+2024-10-10 17:10:32,068 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
