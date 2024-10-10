@@ -1,0 +1,18 @@
+2024-10-10 04:12:19,452 - INFO - Starting configuration setup
+2024-10-10 04:12:19,453 - INFO - Environment variables loaded successfully
+2024-10-10 04:12:19,453 - INFO - Twitter API client initialized successfully
+2024-10-10 04:12:21,305 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 04:12:28,855 - INFO - Summarization model initialized successfully
+2024-10-10 04:12:28,856 - INFO - Starting tweet scheduling
+2024-10-10 04:12:28,856 - INFO - Tweeting process started at 2024-10-10 04:12:28.856162!
+2024-10-10 04:12:28,856 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 04:12:28,856 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 04:12:41,326 - INFO - Total entries found: 617
+2024-10-10 04:12:41,329 - INFO - Recent AI-related entries found: 25
+2024-10-10 04:12:41,329 - INFO - Input content - content='<p>Health and life insurance providers face a rising volume of claims due to chronic disease and aging populations, but their processes lack scalability. AI automation can help, but it takes more tailoring than for other insurance types. Automating property and casualty insurance, for instance, gave rise to public company Guidewire decades ago, but health insurance [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-10 04:12:41,330 - INFO - clean content - clean_content='Health and life insurance providers face a rising volume of claims due to chronic disease and aging populations, but their processes lack scalability. AI automation can help, but it takes more tailoring than for other insurance types. Automating property and casualty insurance, for instance, gave rise to public company Guidewire decades ago, but health insurance [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-10 04:12:41,330 - INFO - Generating summary with BART model
+2024-10-10 04:12:46,506 - INFO - Generating summary with BART model
+2024-10-10 04:12:50,958 - INFO - full_tweet='Health and life insurance providers face a rising volume of claims due to chronic disease and aging..[read more👇🏼] #automation #AI https://techcrunch.com/2024/10/09/health-insurtech-startup-qantev-raises-e30-million-to-outperform-llms-with-small-ai-models/'
+2024-10-10 04:12:51,128 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
