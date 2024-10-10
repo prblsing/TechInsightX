@@ -1,0 +1,18 @@
+2024-10-10 13:19:22,562 - INFO - Starting configuration setup
+2024-10-10 13:19:22,562 - INFO - Environment variables loaded successfully
+2024-10-10 13:19:22,563 - INFO - Twitter API client initialized successfully
+2024-10-10 13:19:24,432 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 13:19:32,993 - INFO - Summarization model initialized successfully
+2024-10-10 13:19:32,994 - INFO - Starting tweet scheduling
+2024-10-10 13:19:32,994 - INFO - Tweeting process started at 2024-10-10 13:19:32.994093!
+2024-10-10 13:19:32,994 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 13:19:32,994 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 13:19:49,037 - INFO - Total entries found: 587
+2024-10-10 13:19:49,040 - INFO - Recent AI-related entries found: 15
+2024-10-10 13:19:49,040 - INFO - Input content - content='<p>The startup, which already monitors the climate impact of digital advertising, is expanding to include artificial intelligence.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-10 13:19:49,041 - INFO - clean content - clean_content='The startup, which already monitors the climate impact of digital advertising, is expanding to include artificial intelligence. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-10 13:19:49,041 - INFO - Generating summary with BART model
+2024-10-10 13:19:54,193 - INFO - Generating summary with BART model
+2024-10-10 13:19:58,695 - INFO - full_tweet='The startup, which already monitors the climate impact of digital advertising, is expanding to include..[read more👇🏼] #startup #digital https://techcrunch.com/2024/10/10/scope3-starts-tracking-the-carbon-footprint-of-ai/'
+2024-10-10 13:19:58,773 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
