@@ -1,0 +1,18 @@
+2024-10-10 12:17:08,904 - INFO - Starting configuration setup
+2024-10-10 12:17:08,905 - INFO - Environment variables loaded successfully
+2024-10-10 12:17:08,905 - INFO - Twitter API client initialized successfully
+2024-10-10 12:17:10,834 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 12:17:21,719 - INFO - Summarization model initialized successfully
+2024-10-10 12:17:21,719 - INFO - Starting tweet scheduling
+2024-10-10 12:17:21,719 - INFO - Tweeting process started at 2024-10-10 12:17:21.719614!
+2024-10-10 12:17:21,719 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 12:17:21,719 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 12:17:38,336 - INFO - Total entries found: 617
+2024-10-10 12:17:38,339 - INFO - Recent AI-related entries found: 20
+2024-10-10 12:17:38,339 - INFO - Input content - content='Google TV just massively upped its wallpaper game'
+2024-10-10 12:17:38,340 - INFO - clean content - clean_content='Google TV just massively upped its wallpaper game'
+2024-10-10 12:17:38,340 - INFO - Generating summary with BART model
+2024-10-10 12:17:43,428 - INFO - Generating summary with BART model
+2024-10-10 12:17:47,882 - INFO - full_tweet='Google TV just massively upped its wallpaper game. Google TV now has more wallpaper options than ever..[read more👇🏼] #TV #wallpaper https://www.techradar.com/televisions/google-tv-rolls-out-fancy-new-ai-generated-wallpapers-heres-how-to-find-them'
+2024-10-10 12:17:48,004 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
