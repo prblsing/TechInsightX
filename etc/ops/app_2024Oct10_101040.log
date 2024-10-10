@@ -1,0 +1,18 @@
+2024-10-10 10:10:40,329 - INFO - Starting configuration setup
+2024-10-10 10:10:40,329 - INFO - Environment variables loaded successfully
+2024-10-10 10:10:40,330 - INFO - Twitter API client initialized successfully
+2024-10-10 10:10:42,218 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 10:10:50,355 - INFO - Summarization model initialized successfully
+2024-10-10 10:10:50,355 - INFO - Starting tweet scheduling
+2024-10-10 10:10:50,355 - INFO - Tweeting process started at 2024-10-10 10:10:50.355421!
+2024-10-10 10:10:50,355 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 10:10:50,355 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 10:11:05,974 - INFO - Total entries found: 617
+2024-10-10 10:11:05,977 - INFO - Recent AI-related entries found: 24
+2024-10-10 10:11:05,977 - INFO - Input content - content='Zoom announces AI Companion 2.0 with a new avatar add-on.'
+2024-10-10 10:11:05,978 - INFO - clean content - clean_content='Zoom announces AI Companion 2.0 with a new avatar add-on.'
+2024-10-10 10:11:05,978 - INFO - Generating summary with BART model
+2024-10-10 10:11:11,473 - INFO - Generating summary with BART model
+2024-10-10 10:11:16,340 - INFO - full_tweet='Zoom announces AI Companion 2.0 with a new avatar add-on. Zoom also announces a new version of its mobile..[read more👇🏼] #mobile #app https://www.techradar.com/pro/zoom-upgrades-ai-companion-and-wants-to-create-super-detailed-virtual-avatars-for-your-meetings'
+2024-10-10 10:11:16,427 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
