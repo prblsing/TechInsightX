@@ -1,0 +1,18 @@
+2024-10-10 20:11:08,569 - INFO - Starting configuration setup
+2024-10-10 20:11:08,569 - INFO - Environment variables loaded successfully
+2024-10-10 20:11:08,570 - INFO - Twitter API client initialized successfully
+2024-10-10 20:11:10,444 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-10 20:11:18,542 - INFO - Summarization model initialized successfully
+2024-10-10 20:11:18,543 - INFO - Starting tweet scheduling
+2024-10-10 20:11:18,543 - INFO - Tweeting process started at 2024-10-10 20:11:18.543124!
+2024-10-10 20:11:18,543 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct10.csv
+2024-10-10 20:11:18,543 - INFO - Fetching latest tech news from RSS feeds
+2024-10-10 20:11:33,006 - INFO - Total entries found: 616
+2024-10-10 20:11:33,009 - INFO - Recent AI-related entries found: 20
+2024-10-10 20:11:33,009 - INFO - Input content - content="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks, revealing both the progress and limitations of AI in machine learning engineering compared to human experts."
+2024-10-10 20:11:33,010 - INFO - clean content - clean_content="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks, revealing both the progress and limitations of AI in machine learning engineering compared to human experts."
+2024-10-10 20:11:33,010 - INFO - Generating summary with BART model
+2024-10-10 20:11:38,141 - INFO - Generating summary with BART model
+2024-10-10 20:11:42,615 - INFO - full_tweet="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks. It reveals the progress..[read more👇🏼] #AI #data https://venturebeat.com/ai/can-ai-really-compete-with-human-data-scientists-openai-new-benchmark-puts-it-to-the-test/"
+2024-10-10 20:11:42,733 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
