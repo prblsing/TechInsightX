@@ -1,0 +1,18 @@
+2024-10-11 16:11:40,404 - INFO - Starting configuration setup
+2024-10-11 16:11:40,405 - INFO - Environment variables loaded successfully
+2024-10-11 16:11:40,405 - INFO - Twitter API client initialized successfully
+2024-10-11 16:11:42,344 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 16:11:53,449 - INFO - Summarization model initialized successfully
+2024-10-11 16:11:53,449 - INFO - Starting tweet scheduling
+2024-10-11 16:11:53,449 - INFO - Tweeting process started at 2024-10-11 16:11:53.449697!
+2024-10-11 16:11:53,449 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 16:11:53,449 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 16:12:11,791 - INFO - Total entries found: 587
+2024-10-11 16:12:11,794 - INFO - Recent AI-related entries found: 15
+2024-10-11 16:12:11,794 - INFO - Input content - content='<p>Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous weapons.  </p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-11 16:12:11,795 - INFO - clean content - clean_content='Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous weapons. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-11 16:12:11,795 - INFO - Generating summary with BART model
+2024-10-11 16:12:17,102 - INFO - Generating summary with BART model
+2024-10-11 16:12:21,832 - INFO - full_tweet='Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous..[read more👇🏼] #autonomous #weapons https://techcrunch.com/2024/10/11/silicon-valley-is-debating-if-ai-weapons-should-be-allowed-to-decide-to-kill/'
+2024-10-11 16:12:21,951 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
