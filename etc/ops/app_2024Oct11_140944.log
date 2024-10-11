@@ -1,0 +1,18 @@
+2024-10-11 14:09:44,748 - INFO - Starting configuration setup
+2024-10-11 14:09:44,748 - INFO - Environment variables loaded successfully
+2024-10-11 14:09:44,748 - INFO - Twitter API client initialized successfully
+2024-10-11 14:09:46,581 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 14:09:54,150 - INFO - Summarization model initialized successfully
+2024-10-11 14:09:54,150 - INFO - Starting tweet scheduling
+2024-10-11 14:09:54,150 - INFO - Tweeting process started at 2024-10-11 14:09:54.150710!
+2024-10-11 14:09:54,150 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 14:09:54,150 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 14:10:09,742 - INFO - Total entries found: 616
+2024-10-11 14:10:09,745 - INFO - Recent AI-related entries found: 17
+2024-10-11 14:10:09,745 - INFO - Input content - content='<p>ByteDance&#8217;s TikTok is laying off hundreds of employees, mainly in Malaysia, according to Reuters. The cuts come as the social network is increasingly turning to AI for content moderation. Although TikTok did not provide the exact number, it said that less than 500 people were affected. The company said it&#8217;s making the changes as part [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-11 14:10:09,746 - INFO - clean content - clean_content='ByteDance&#8217;s TikTok is laying off hundreds of employees, mainly in Malaysia, according to Reuters. The cuts come as the social network is increasingly turning to AI for content moderation. Although TikTok did not provide the exact number, it said that less than 500 people were affected. The company said it&#8217;s making the changes as part [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-11 14:10:09,746 - INFO - Generating summary with BART model
+2024-10-11 14:10:16,937 - INFO - Generating summary with BART model
+2024-10-11 14:10:23,518 - INFO - full_tweet="ByteDance's TikTok is laying off hundreds of employees, mainly in Malaysia. The cuts come as the social..[read more👇🏼] #network #AI https://techcrunch.com/2024/10/11/bytedance-lays-off-hundreds-of-tiktok-employees-in-shift-to-ai-content-moderation/"
+2024-10-11 14:10:23,595 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
