@@ -1,0 +1,18 @@
+2024-10-11 13:16:16,704 - INFO - Starting configuration setup
+2024-10-11 13:16:16,704 - INFO - Environment variables loaded successfully
+2024-10-11 13:16:16,704 - INFO - Twitter API client initialized successfully
+2024-10-11 13:16:18,589 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 13:16:26,888 - INFO - Summarization model initialized successfully
+2024-10-11 13:16:26,888 - INFO - Starting tweet scheduling
+2024-10-11 13:16:26,888 - INFO - Tweeting process started at 2024-10-11 13:16:26.888953!
+2024-10-11 13:16:26,889 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 13:16:26,889 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 13:16:40,828 - INFO - Total entries found: 616
+2024-10-11 13:16:40,831 - INFO - Recent AI-related entries found: 17
+2024-10-11 13:16:40,831 - INFO - Input content - content='Crooks are selling a huge database of private information online for just $15,000.'
+2024-10-11 13:16:40,832 - INFO - clean content - clean_content='Crooks are selling a huge database of private information online for just $15,000.'
+2024-10-11 13:16:40,832 - INFO - Generating summary with BART model
+2024-10-11 13:16:45,887 - INFO - Generating summary with BART model
+2024-10-11 13:16:50,261 - INFO - full_tweet='Crooks are selling a huge database of private information online for just $15,000. Crooks sell the..[read more👇🏼] #database #data https://www.techradar.com/pro/security/millions-of-conversations-leaked-after-ai-call-center-hacked'
+2024-10-11 13:16:50,319 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
