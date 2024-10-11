@@ -1,0 +1,18 @@
+2024-10-11 22:09:14,363 - INFO - Starting configuration setup
+2024-10-11 22:09:14,363 - INFO - Environment variables loaded successfully
+2024-10-11 22:09:14,363 - INFO - Twitter API client initialized successfully
+2024-10-11 22:09:16,238 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 22:09:24,017 - INFO - Summarization model initialized successfully
+2024-10-11 22:09:24,017 - INFO - Starting tweet scheduling
+2024-10-11 22:09:24,017 - INFO - Tweeting process started at 2024-10-11 22:09:24.017656!
+2024-10-11 22:09:24,017 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 22:09:24,017 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 22:09:39,039 - INFO - Total entries found: 616
+2024-10-11 22:09:39,042 - INFO - Recent AI-related entries found: 23
+2024-10-11 22:09:39,042 - INFO - Input content - content='Researchers give AI-powered taste detector to electronic tongue'
+2024-10-11 22:09:39,042 - INFO - clean content - clean_content='Researchers give AI-powered taste detector to electronic tongue'
+2024-10-11 22:09:39,042 - INFO - Generating summary with BART model
+2024-10-11 22:09:44,117 - INFO - Generating summary with BART model
+2024-10-11 22:09:48,559 - INFO - full_tweet='Researchers give AI-powered taste detector to electronic tongue. They hope it will help them better..[read more👇🏼] #technology #AI https://www.techradar.com/computing/artificial-intelligence/ai-tastebuds-are-better-at-identifying-whats-in-food-than-you'
+2024-10-11 22:09:48,678 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
