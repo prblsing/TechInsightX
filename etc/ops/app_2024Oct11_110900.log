@@ -1,0 +1,18 @@
+2024-10-11 11:09:00,289 - INFO - Starting configuration setup
+2024-10-11 11:09:00,290 - INFO - Environment variables loaded successfully
+2024-10-11 11:09:00,290 - INFO - Twitter API client initialized successfully
+2024-10-11 11:09:02,143 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 11:09:12,434 - INFO - Summarization model initialized successfully
+2024-10-11 11:09:12,434 - INFO - Starting tweet scheduling
+2024-10-11 11:09:12,434 - INFO - Tweeting process started at 2024-10-11 11:09:12.434289!
+2024-10-11 11:09:12,434 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 11:09:12,434 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 11:09:26,609 - INFO - Total entries found: 616
+2024-10-11 11:09:26,612 - INFO - Recent AI-related entries found: 15
+2024-10-11 11:09:26,612 - INFO - Input content - content="Microsoft's AI tools look to help tackle the shortage of medical staff, increased workloads and rising costs."
+2024-10-11 11:09:26,613 - INFO - clean content - clean_content="Microsoft's AI tools look to help tackle the shortage of medical staff, increased workloads and rising costs."
+2024-10-11 11:09:26,613 - INFO - Generating summary with BART model
+2024-10-11 11:09:32,114 - INFO - Generating summary with BART model
+2024-10-11 11:09:36,967 - INFO - full_tweet="Microsoft's AI tools look to help tackle the shortage of medical staff, increased workloads and rising..[read more👇🏼] #AI #Microsoft https://www.techradar.com/pro/microsoft-reveals-new-ai-tools-to-help-doctors-and-nurses-workload"
+2024-10-11 11:09:37,066 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
