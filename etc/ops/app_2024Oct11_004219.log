@@ -1,0 +1,19 @@
+2024-10-11 00:42:19,237 - INFO - Starting configuration setup
+2024-10-11 00:42:19,238 - INFO - Environment variables loaded successfully
+2024-10-11 00:42:19,238 - INFO - Twitter API client initialized successfully
+2024-10-11 00:42:21,118 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 00:42:32,004 - INFO - Summarization model initialized successfully
+2024-10-11 00:42:32,005 - INFO - Starting tweet scheduling
+2024-10-11 00:42:32,005 - INFO - Tweeting process started at 2024-10-11 00:42:32.005221!
+2024-10-11 00:42:32,005 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 00:42:32,005 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 00:42:32,005 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 00:45:06,802 - INFO - Total entries found: 606
+2024-10-11 00:45:06,805 - INFO - Recent AI-related entries found: 17
+2024-10-11 00:45:06,805 - INFO - Input content - content="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks, revealing both the progress and limitations of AI in machine learning engineering compared to human experts."
+2024-10-11 00:45:06,806 - INFO - clean content - clean_content="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks, revealing both the progress and limitations of AI in machine learning engineering compared to human experts."
+2024-10-11 00:45:06,806 - INFO - Generating summary with BART model
+2024-10-11 00:45:11,873 - INFO - Generating summary with BART model
+2024-10-11 00:45:16,299 - INFO - full_tweet="OpenAI's new MLE-bench challenges AI systems with real-world data science tasks. It reveals the progress..[read more👇🏼] #AI #data https://venturebeat.com/ai/can-ai-really-compete-with-human-data-scientists-openai-new-benchmark-puts-it-to-the-test/"
+2024-10-11 00:45:16,385 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
