@@ -1,0 +1,18 @@
+2024-10-11 17:08:53,198 - INFO - Starting configuration setup
+2024-10-11 17:08:53,199 - INFO - Environment variables loaded successfully
+2024-10-11 17:08:53,199 - INFO - Twitter API client initialized successfully
+2024-10-11 17:08:55,094 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 17:09:03,617 - INFO - Summarization model initialized successfully
+2024-10-11 17:09:03,617 - INFO - Starting tweet scheduling
+2024-10-11 17:09:03,617 - INFO - Tweeting process started at 2024-10-11 17:09:03.617774!
+2024-10-11 17:09:03,617 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 17:09:03,618 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 17:09:21,764 - INFO - Total entries found: 616
+2024-10-11 17:09:21,767 - INFO - Recent AI-related entries found: 19
+2024-10-11 17:09:21,767 - INFO - Input content - content='<p>Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads users losing access to their accounts, having posts disappear, and more, saying that the company &#8220;found mistakes&#8221; that it&#8217;s attributing to human moderators, not AI systems, as many believed. In a post on Threads, Mosseri addressed the issue that has [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-11 17:09:21,768 - INFO - clean content - clean_content='Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads users losing access to their accounts, having posts disappear, and more, saying that the company &#8220;found mistakes&#8221; that it&#8217;s attributing to human moderators, not AI systems, as many believed. In a post on Threads, Mosseri addressed the issue that has [&#8230;] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-11 17:09:21,768 - INFO - Generating summary with BART model
+2024-10-11 17:09:28,778 - INFO - Generating summary with BART model
+2024-10-11 17:09:35,225 - INFO - full_tweet='Instagram head Adam Mosseri addressed the moderation issues that saw Instagram and Threads users lose..[read more👇🏼] #Instagram #Mosseri https://techcrunch.com/2024/10/11/instagram-blames-moderation-issues-on-human-reviewers-not-ai/'
+2024-10-11 17:09:35,298 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
