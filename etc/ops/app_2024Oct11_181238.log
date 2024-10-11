@@ -1,0 +1,18 @@
+2024-10-11 18:12:38,545 - INFO - Starting configuration setup
+2024-10-11 18:12:38,546 - INFO - Environment variables loaded successfully
+2024-10-11 18:12:38,546 - INFO - Twitter API client initialized successfully
+2024-10-11 18:12:40,491 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 18:12:49,736 - INFO - Summarization model initialized successfully
+2024-10-11 18:12:49,737 - INFO - Starting tweet scheduling
+2024-10-11 18:12:49,737 - INFO - Tweeting process started at 2024-10-11 18:12:49.737144!
+2024-10-11 18:12:49,737 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 18:12:49,737 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 18:13:04,270 - INFO - Total entries found: 587
+2024-10-11 18:13:04,273 - INFO - Recent AI-related entries found: 15
+2024-10-11 18:13:04,273 - INFO - Input content - content="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation but at $26,000 isn’t cheap"
+2024-10-11 18:13:04,274 - INFO - clean content - clean_content="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation but at $26,000 isn’t cheap"
+2024-10-11 18:13:04,274 - INFO - Generating summary with BART model
+2024-10-11 18:13:09,496 - INFO - Generating summary with BART model
+2024-10-11 18:13:14,024 - INFO - full_tweet="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation. But at $26,000 isn’t cheap. #AI #workstation https://www.techradar.com/pro/a-virtual-128tb-ssd-running-at-28gbps-highpoints-new-all-in-one-storage-card-will-be-a-perfect-fit-for-your-ai-workstation-but-at-usd26-000-it-wont-come-cheap"
+2024-10-11 18:13:14,106 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
