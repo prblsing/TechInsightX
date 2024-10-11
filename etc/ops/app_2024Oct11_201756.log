@@ -1,0 +1,18 @@
+2024-10-11 20:17:56,369 - INFO - Starting configuration setup
+2024-10-11 20:17:56,369 - INFO - Environment variables loaded successfully
+2024-10-11 20:17:56,369 - INFO - Twitter API client initialized successfully
+2024-10-11 20:17:58,284 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-11 20:18:42,430 - INFO - Summarization model initialized successfully
+2024-10-11 20:18:42,431 - INFO - Starting tweet scheduling
+2024-10-11 20:18:42,431 - INFO - Tweeting process started at 2024-10-11 20:18:42.431160!
+2024-10-11 20:18:42,431 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct11.csv
+2024-10-11 20:18:42,431 - INFO - Fetching latest tech news from RSS feeds
+2024-10-11 20:18:56,847 - INFO - Total entries found: 587
+2024-10-11 20:18:56,850 - INFO - Recent AI-related entries found: 16
+2024-10-11 20:18:56,850 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I come from web background and hold a lot of familiarity with spring boot but recently started learning ML as i have to produce a ML research based project in 4 months</p> <p>If you were to learn ML today what resources would you use and what would you prioritise to learn</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/amulli21"> /u/amulli21 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g1icy0/r_machine_learning/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g1icy0/r_machine_learning/">[comments]</a></span>'
+2024-10-11 20:18:56,851 - INFO - clean content - clean_content='I come from web background and hold a lot of familiarity with spring boot but recently started learning ML as i have to produce a ML research based project in 4 months If you were to learn ML today what resources would you use and what would you prioritise to learn &#32; submitted by &#32; /u/amulli21 [link] &#32; [comments]'
+2024-10-11 20:18:56,851 - INFO - Generating summary with BART model
+2024-10-11 20:19:02,627 - INFO - Generating summary with BART model
+2024-10-11 20:19:07,776 - INFO - full_tweet='I recently started learning ML as i have to produce a ML research based project in 4 months. If you were..[read more👇🏼] #ML #learn https://www.reddit.com/r/MachineLearning/comments/1g1icy0/r_machine_learning/'
+2024-10-11 20:19:07,898 - ERROR - Failed to post tweet: 401 Unauthorized
+Unauthorized
