@@ -1,6 +1,8 @@
 from transformers import pipeline
 import re
 from config import *
+import html
+
 
 logger = logging.getLogger(__name__)
 
@@ -53,6 +55,8 @@ def clean_text(text: str) -> str:
     for word in offensive_words:
         text = re.sub(r'\b' + re.escape(word) + r'\b', '*' * len(word), text, flags=re.IGNORECASE)
 
+    # Assuming 'text' is your raw input
+    text = html.unescape(text)
     return text
 
 def summarize_with_llm(text: str, max_length: int = max_tweet_length) -> str:
