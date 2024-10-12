@@ -1,0 +1,18 @@
+2024-10-12 05:09:33,707 - INFO - Starting configuration setup
+2024-10-12 05:09:33,708 - INFO - Environment variables loaded successfully
+2024-10-12 05:09:33,708 - INFO - Twitter API client initialized successfully
+2024-10-12 05:09:35,581 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-12 05:09:43,805 - INFO - Summarization model initialized successfully
+2024-10-12 05:09:43,805 - INFO - Starting tweet scheduling
+2024-10-12 05:09:43,805 - INFO - Tweeting process started at 2024-10-12 05:09:43.805911!
+2024-10-12 05:09:43,806 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct12.csv
+2024-10-12 05:09:43,806 - INFO - Fetching latest tech news from RSS feeds
+2024-10-12 05:10:03,311 - INFO - Total entries found: 616
+2024-10-12 05:10:03,314 - INFO - Recent AI-related entries found: 24
+2024-10-12 05:10:03,314 - INFO - Input content - content='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances.'
+2024-10-12 05:10:03,314 - INFO - clean content - clean_content='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances.'
+2024-10-12 05:10:03,314 - INFO - Generating summary with BART model
+2024-10-12 05:10:08,926 - INFO - Generating summary with BART model
+2024-10-12 05:10:13,875 - INFO - full_tweet='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances. Oracle..[read more👇🏼] #Cloud #software https://www.techradar.com/pro/amd-lands-yet-another-major-cloud-deal-as-oracle-adopts-thousands-of-instinct-mi300x-gpus-to-power-new-ai-supercluster'
+2024-10-12 05:10:14,037 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
