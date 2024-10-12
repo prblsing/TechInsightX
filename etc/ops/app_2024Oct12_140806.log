@@ -1,0 +1,50 @@
+2024-10-12 14:08:06,308 - INFO - Starting configuration setup
+2024-10-12 14:08:06,309 - INFO - Environment variables loaded successfully
+2024-10-12 14:08:06,309 - INFO - Twitter API client initialized successfully
+2024-10-12 14:08:08,210 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-12 14:08:15,130 - INFO - Summarization model initialized successfully
+2024-10-12 14:08:15,130 - INFO - Starting tweet scheduling
+2024-10-12 14:08:15,130 - INFO - Tweeting process started at 2024-10-12 14:08:15.130845!
+2024-10-12 14:08:15,131 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct12.csv
+2024-10-12 14:08:15,131 - INFO - Fetching latest tech news from RSS feeds
+2024-10-12 14:08:49,875 - INFO - Total entries found: 616
+2024-10-12 14:08:49,878 - INFO - Recent AI-related entries found: 23
+2024-10-12 14:08:49,878 - INFO - Input content - content='Some companies let you opt out of allowing your content to be used for generative AI. Here’s how to take back (at least a little) control from ChatGPT, Google’s Gemini, and more.'
+2024-10-12 14:08:49,879 - INFO - clean content - clean_content='Some companies let you opt out of allowing your content to be used for generative AI. Here’s how to take back (at least a little) control from ChatGPT, Google’s Gemini, and more.'
+2024-10-12 14:08:49,879 - INFO - Generating summary with BART model
+2024-10-12 14:08:55,275 - INFO - Generating summary with BART model
+2024-10-12 14:08:59,983 - INFO - full_tweet="Some companies let you opt out of allowing your content to be used for generative AI. Here's how to take..[read more👇🏼] #AI #generative https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/"
+2024-10-12 14:09:00,250 - INFO - Tweet posted successfully: Response(data={'text': "Some companies let you opt out of allowing your content to be used for generative AI. Here's how to take..[read more👇🏼] #AI #generative https://t.co/RAreBdrl2E", 'edit_history_tweet_ids': ['1845104383630938174'], 'id': '1845104383630938174'}, includes={}, errors=[], meta={})
+2024-10-12 14:09:00,250 - INFO - Saved posted URL: https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/ at 2024-10-12 14:09:00
+2024-10-12 14:09:00,250 - INFO - Tweet link saved successfully.
+2024-10-12 14:09:00,250 - INFO - Sleeping for 4 minutes and 5 seconds.
+2024-10-12 14:13:05,250 - INFO - This link is already posted: https://www.techradar.com/pro/huawei-rolls-out-its-next-gen-oceanstor-dorado-all-flash-storage-targeting-ai-mission-critical-workloads
+2024-10-12 14:13:05,251 - INFO - Input content - content="I've done years of hands-on smart home work. I was skeptical, thinking AI integration would be a hassle and a hindrance, but it turned out to be exactly what I wanted to see."
+2024-10-12 14:13:05,251 - INFO - clean content - clean_content="I've done years of hands-on smart home work. I was skeptical, thinking AI integration would be a hassle and a hindrance, but it turned out to be exactly what I wanted to see."
+2024-10-12 14:13:05,251 - INFO - Generating summary with BART model
+2024-10-12 14:13:11,041 - INFO - Generating summary with BART model
+2024-10-12 14:13:16,815 - INFO - full_tweet='I was skeptical, thinking AI integration would be a hassle and a hindrance, but it turned out to be..[read more👇🏼] #AI #I https://www.cnet.com/home/security/features/i-thought-id-hate-ai-in-home-security-i-couldnt-have-been-more-wrong/#ftag=CAD590a51e'
+2024-10-12 14:13:17,022 - INFO - Tweet posted successfully: Response(data={'text': 'I was skeptical, thinking AI integration would be a hassle and a hindrance, but it turned out to be..[read more👇🏼] #AI #I https://t.co/8UALAgzlXL', 'id': '1845105460602356132', 'edit_history_tweet_ids': ['1845105460602356132']}, includes={}, errors=[], meta={})
+2024-10-12 14:13:17,023 - INFO - Saved posted URL: https://www.cnet.com/home/security/features/i-thought-id-hate-ai-in-home-security-i-couldnt-have-been-more-wrong/#ftag=CAD590a51e at 2024-10-12 14:13:17
+2024-10-12 14:13:17,023 - INFO - Tweet link saved successfully.
+2024-10-12 14:13:17,023 - INFO - Sleeping for 5 minutes and 7 seconds.
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://towardsdatascience.com/why-the-2024-nobel-prize-in-ai-for-chemistry-matters-so-much-a06126cb5ca3?source=rss----7f60cf5620c9---4
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1w6qa/p_improving_ai_agents_using_dspy/
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://www.techradar.com/pro/amd-lands-yet-another-major-cloud-deal-as-oracle-adopts-thousands-of-instinct-mi300x-gpus-to-power-new-ai-supercluster
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1plva/d_aaai_2025_phase_1_decision_leak/
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://towardsdatascience.com/bursting-the-ai-hype-bubble-once-and-for-all-581a994fe762?source=rss----7f60cf5620c9---4
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/anthropic-ceo-goes-full-techno-optimist-in-15000-word-paean-to-ai/
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-tastebuds-are-better-at-identifying-whats-in-food-than-you
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 14:18:24,023 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/khosla-ventures-just-backed-openai-with-405m-more-but-not-necessarily-with-its-own-capital/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://venturebeat.com/ai/ai21-ceo-says-transformers-not-right-for-ai-agents-due-to-error-perpetuation/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-guides-know-what-you-want-to-buy-before-you-do
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://www.techradar.com/pro/a-virtual-128tb-ssd-running-at-28gbps-highpoints-new-all-in-one-storage-card-will-be-a-perfect-fit-for-your-ai-workstation-but-at-usd26-000-it-wont-come-cheap
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://towardsdatascience.com/tracking-hurricanes-with-ai-weather-models-6f09e5b52839?source=rss----7f60cf5620c9---4
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/instagram-blames-moderation-issues-on-human-reviewers-not-ai/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/silicon-valley-is-debating-if-ai-weapons-should-be-allowed-to-decide-to-kill/
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://www.atlassian.com/blog/artificial-intelligence/5-ai-features-that-will-delight-your-support-agents
+2024-10-12 14:18:24,024 - INFO - This link is already posted: https://www.techradar.com/pro/security/openai-says-it-shuts-down-multiple-campaigns-using-its-systems-for-cybercrime
