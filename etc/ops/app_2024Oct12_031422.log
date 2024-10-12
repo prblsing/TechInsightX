@@ -1,0 +1,26 @@
+2024-10-12 03:14:22,864 - INFO - Starting configuration setup
+2024-10-12 03:14:22,864 - INFO - Environment variables loaded successfully
+2024-10-12 03:14:22,864 - INFO - Twitter API client initialized successfully
+2024-10-12 03:14:24,818 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-12 03:14:37,599 - INFO - Summarization model initialized successfully
+2024-10-12 03:14:37,599 - INFO - Starting tweet scheduling
+2024-10-12 03:14:37,599 - INFO - Tweeting process started at 2024-10-12 03:14:37.599321!
+2024-10-12 03:14:37,599 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct12.csv
+2024-10-12 03:14:37,599 - INFO - Fetching latest tech news from RSS feeds
+2024-10-12 03:14:52,703 - INFO - Total entries found: 587
+2024-10-12 03:14:52,706 - INFO - Recent AI-related entries found: 23
+2024-10-12 03:14:52,706 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1plva/d_aaai_2025_phase_1_decision_leak/
+2024-10-12 03:14:52,706 - INFO - This link is already posted: https://towardsdatascience.com/bursting-the-ai-hype-bubble-once-and-for-all-581a994fe762?source=rss----7f60cf5620c9---4
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/anthropic-ceo-goes-full-techno-optimist-in-15000-word-paean-to-ai/
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-tastebuds-are-better-at-identifying-whats-in-food-than-you
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 03:14:52,707 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 03:14:52,707 - INFO - Input content - content='<p>Khosla Ventures has raised $405 million for OpenAI, according to a regulatory filing. Based on the filing alone, Khosla’s stake in the ChatGPT maker appears to be at least 6% of the $6.6 billion round the company closed last week. But that doesn’t mean Khosla has put substantial or any capital into the round. The [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 03:14:52,708 - INFO - clean content - clean_content='Khosla Ventures has raised $405 million for OpenAI, according to a regulatory filing. Based on the filing alone, Khosla’s stake in the ChatGPT maker appears to be at least 6% of the $6.6 billion round the company closed last week. But that doesn’t mean Khosla has put substantial or any capital into the round. The […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 03:14:52,708 - INFO - Generating summary with BART model
+2024-10-12 03:15:00,099 - INFO - Generating summary with BART model
+2024-10-12 03:15:06,729 - INFO - full_tweet='Khosla Ventures has raised $405 million for OpenAI. Based on the filing alone, Khosla’s stake in the..[read more👇🏼] #Khosla #Ventures https://techcrunch.com/2024/10/11/khosla-ventures-just-backed-openai-with-405m-more-but-not-necessarily-with-its-own-capital/'
+2024-10-12 03:15:06,995 - ERROR - Failed to post tweet: 503 Service Unavailable
+Service Unavailable
