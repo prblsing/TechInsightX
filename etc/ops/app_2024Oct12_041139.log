@@ -1,0 +1,163 @@
+2024-10-12 04:11:39,287 - INFO - Starting configuration setup
+2024-10-12 04:11:39,288 - INFO - Environment variables loaded successfully
+2024-10-12 04:11:39,288 - INFO - Twitter API client initialized successfully
+2024-10-12 04:11:41,155 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-12 04:11:49,054 - INFO - Summarization model initialized successfully
+2024-10-12 04:11:49,055 - INFO - Starting tweet scheduling
+2024-10-12 04:11:49,055 - INFO - Tweeting process started at 2024-10-12 04:11:49.055077!
+2024-10-12 04:11:49,055 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct12.csv
+2024-10-12 04:11:49,055 - INFO - Fetching latest tech news from RSS feeds
+2024-10-12 04:12:03,136 - INFO - Total entries found: 616
+2024-10-12 04:12:03,139 - INFO - Recent AI-related entries found: 24
+2024-10-12 04:12:03,139 - INFO - Input content - content='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances.'
+2024-10-12 04:12:03,140 - INFO - clean content - clean_content='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances.'
+2024-10-12 04:12:03,140 - INFO - Generating summary with BART model
+2024-10-12 04:12:08,617 - INFO - Generating summary with BART model
+2024-10-12 04:12:13,462 - INFO - full_tweet='Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances. Oracle..[read more👇🏼] #Cloud #software https://www.techradar.com/pro/amd-lands-yet-another-major-cloud-deal-as-oracle-adopts-thousands-of-instinct-mi300x-gpus-to-power-new-ai-supercluster'
+2024-10-12 04:12:13,747 - INFO - Tweet posted successfully: Response(data={'text': 'Oracle Cloud Infrastructure will add the AI accelerator to its selection of bare metal instances. Oracle..[read more👇🏼] #Cloud #software https://t.co/rPElikP6Tv', 'id': '1844954200293175602', 'edit_history_tweet_ids': ['1844954200293175602']}, includes={}, errors=[], meta={})
+2024-10-12 04:12:13,747 - INFO - Saved posted URL: https://www.techradar.com/pro/amd-lands-yet-another-major-cloud-deal-as-oracle-adopts-thousands-of-instinct-mi300x-gpus-to-power-new-ai-supercluster at 2024-10-12 04:12:13
+2024-10-12 04:12:13,747 - INFO - Tweet link saved successfully.
+2024-10-12 04:12:13,747 - INFO - Sleeping for 3 minutes and 52 seconds.
+2024-10-12 04:16:05,747 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1plva/d_aaai_2025_phase_1_decision_leak/
+2024-10-12 04:16:05,747 - INFO - This link is already posted: https://towardsdatascience.com/bursting-the-ai-hype-bubble-once-and-for-all-581a994fe762?source=rss----7f60cf5620c9---4
+2024-10-12 04:16:05,747 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/anthropic-ceo-goes-full-techno-optimist-in-15000-word-paean-to-ai/
+2024-10-12 04:16:05,748 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-tastebuds-are-better-at-identifying-whats-in-food-than-you
+2024-10-12 04:16:05,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 04:16:05,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 04:16:05,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 04:16:05,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 04:16:05,748 - INFO - Input content - content='<p>Khosla Ventures has raised $405 million for OpenAI, according to a regulatory filing. Based on the filing alone, Khosla’s stake in the ChatGPT maker appears to be at least 6% of the $6.6 billion round the company closed last week. But that doesn’t mean Khosla has put substantial or any capital into the round. The [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 04:16:05,748 - INFO - clean content - clean_content='Khosla Ventures has raised $405 million for OpenAI, according to a regulatory filing. Based on the filing alone, Khosla’s stake in the ChatGPT maker appears to be at least 6% of the $6.6 billion round the company closed last week. But that doesn’t mean Khosla has put substantial or any capital into the round. The […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 04:16:05,748 - INFO - Generating summary with BART model
+2024-10-12 04:16:12,216 - INFO - Generating summary with BART model
+2024-10-12 04:16:18,674 - INFO - full_tweet='Khosla Ventures has raised $405 million for OpenAI. Based on the filing alone, Khosla’s stake in the..[read more👇🏼] #Khosla #Ventures https://techcrunch.com/2024/10/11/khosla-ventures-just-backed-openai-with-405m-more-but-not-necessarily-with-its-own-capital/'
+2024-10-12 04:16:18,867 - INFO - Tweet posted successfully: Response(data={'id': '1844955228392546336', 'text': 'Khosla Ventures has raised $405 million for OpenAI. Based on the filing alone, Khosla’s stake in the..[read more👇🏼] #Khosla #Ventures https://t.co/lVto2O8QzC', 'edit_history_tweet_ids': ['1844955228392546336']}, includes={}, errors=[], meta={})
+2024-10-12 04:16:18,867 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/khosla-ventures-just-backed-openai-with-405m-more-but-not-necessarily-with-its-own-capital/ at 2024-10-12 04:16:18
+2024-10-12 04:16:18,867 - INFO - Tweet link saved successfully.
+2024-10-12 04:16:18,867 - INFO - Sleeping for 8 minutes and 53 seconds.
+2024-10-12 04:25:11,867 - INFO - Input content - content='Ori Goshen, CEO of enterprise AI company AI21, believes alternative model architectures will make AI agents work better.'
+2024-10-12 04:25:11,867 - INFO - clean content - clean_content='Ori Goshen, CEO of enterprise AI company AI21, believes alternative model architectures will make AI agents work better.'
+2024-10-12 04:25:11,868 - INFO - Generating summary with BART model
+2024-10-12 04:25:16,842 - INFO - Generating summary with BART model
+2024-10-12 04:25:21,780 - INFO - full_tweet='Ori Goshen, CEO of enterprise AI company AI21, believes alternative model architectures will make AI..[read more👇🏼] #AI #Goshen https://venturebeat.com/ai/ai21-ceo-says-transformers-not-right-for-ai-agents-due-to-error-perpetuation/'
+2024-10-12 04:25:22,123 - INFO - Tweet posted successfully: Response(data={'id': '1844957506952483109', 'edit_history_tweet_ids': ['1844957506952483109'], 'text': 'Ori Goshen, CEO of enterprise AI company AI21, believes alternative model architectures will make AI..[read more👇🏼] #AI #Goshen https://t.co/CSUV0HCPCN'}, includes={}, errors=[], meta={})
+2024-10-12 04:25:22,123 - INFO - Saved posted URL: https://venturebeat.com/ai/ai21-ceo-says-transformers-not-right-for-ai-agents-due-to-error-perpetuation/ at 2024-10-12 04:25:22
+2024-10-12 04:25:22,123 - INFO - Tweet link saved successfully.
+2024-10-12 04:25:22,123 - INFO - Sleeping for 3 minutes and 31 seconds.
+2024-10-12 04:28:53,123 - INFO - Input content - content='Amazon debuts new AI shopping guides.'
+2024-10-12 04:28:53,124 - INFO - clean content - clean_content='Amazon debuts new AI shopping guides.'
+2024-10-12 04:28:53,124 - INFO - Generating summary with BART model
+2024-10-12 04:28:57,797 - INFO - Generating summary with BART model
+2024-10-12 04:29:02,463 - INFO - full_tweet='Amazon debuts new AI shopping guides. Amazon.com will be using the technology to help customers with..[read more👇🏼] #technology #AI https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-guides-know-what-you-want-to-buy-before-you-do'
+2024-10-12 04:29:02,677 - INFO - Tweet posted successfully: Response(data={'id': '1844958431981048025', 'edit_history_tweet_ids': ['1844958431981048025'], 'text': 'Amazon debuts new AI shopping guides. https://t.co/bXMaiwf71s will be using the technology to help customers with..[read more👇🏼] #technology #AI https://t.co/HipYA557Pz'}, includes={}, errors=[], meta={})
+2024-10-12 04:29:02,678 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-guides-know-what-you-want-to-buy-before-you-do at 2024-10-12 04:29:02
+2024-10-12 04:29:02,678 - INFO - Tweet link saved successfully.
+2024-10-12 04:29:02,678 - INFO - Sleeping for 5 minutes and 45 seconds.
+2024-10-12 04:34:47,678 - INFO - Input content - content="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation but at $26,000 isn’t cheap"
+2024-10-12 04:34:47,678 - INFO - clean content - clean_content="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation but at $26,000 isn’t cheap"
+2024-10-12 04:34:47,678 - INFO - Generating summary with BART model
+2024-10-12 04:34:51,943 - INFO - Generating summary with BART model
+2024-10-12 04:34:56,216 - INFO - full_tweet="Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation. But at $26,000 isn’t cheap. #AI #workstation https://www.techradar.com/pro/a-virtual-128tb-ssd-running-at-28gbps-highpoints-new-all-in-one-storage-card-will-be-a-perfect-fit-for-your-ai-workstation-but-at-usd26-000-it-wont-come-cheap"
+2024-10-12 04:34:56,501 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844959916089332126'], 'id': '1844959916089332126', 'text': "Highpoint's new all-in-one 128TB storage card will be a perfect fit for your AI workstation. But at $26,000 isn’t cheap. #AI #workstation https://t.co/W1YLJnzxGA"}, includes={}, errors=[], meta={})
+2024-10-12 04:34:56,501 - INFO - Saved posted URL: https://www.techradar.com/pro/a-virtual-128tb-ssd-running-at-28gbps-highpoints-new-all-in-one-storage-card-will-be-a-perfect-fit-for-your-ai-workstation-but-at-usd26-000-it-wont-come-cheap at 2024-10-12 04:34:56
+2024-10-12 04:34:56,502 - INFO - Tweet link saved successfully.
+2024-10-12 04:34:56,502 - INFO - Sleeping for 6 minutes and 1 seconds.
+2024-10-12 04:40:57,502 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/tracking-hurricanes-with-ai-weather-models-6f09e5b52839?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/1452/1*J88QY4DZA1LTWeYQaf7kOA.png" width="1452" /></a></p><p class="medium-feed-snippet">Storm chasing for data scientists: A Hurricane Milton case study</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/tracking-hurricanes-with-ai-weather-models-6f09e5b52839?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-12 04:40:57,502 - INFO - clean content - clean_content='Storm chasing for data scientists: A Hurricane Milton case studyContinue reading on Towards Data Science »'
+2024-10-12 04:40:57,502 - INFO - Generating summary with BART model
+2024-10-12 04:41:02,564 - INFO - Generating summary with BART model
+2024-10-12 04:41:07,641 - INFO - full_tweet='Towards Data Science: A Hurricane Milton case study. Storm chasing for data scientists: A hurricane case..[read more👇🏼] #Data #data https://towardsdatascience.com/tracking-hurricanes-with-ai-weather-models-6f09e5b52839?source=rss----7f60cf5620c9---4'
+2024-10-12 04:41:07,967 - INFO - Tweet posted successfully: Response(data={'id': '1844961474147479921', 'text': 'Towards Data Science: A Hurricane Milton case study. Storm chasing for data scientists: A hurricane case..[read more👇🏼] #Data #data https://t.co/xwURgtzp56', 'edit_history_tweet_ids': ['1844961474147479921']}, includes={}, errors=[], meta={})
+2024-10-12 04:41:07,967 - INFO - Saved posted URL: https://towardsdatascience.com/tracking-hurricanes-with-ai-weather-models-6f09e5b52839?source=rss----7f60cf5620c9---4 at 2024-10-12 04:41:07
+2024-10-12 04:41:07,967 - INFO - Tweet link saved successfully.
+2024-10-12 04:41:07,967 - INFO - Sleeping for 9 minutes and 47 seconds.
+2024-10-12 04:50:54,967 - INFO - Input content - content='<p>Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads users losing access to their accounts, having posts disappear, and more, saying that the company &#8220;found mistakes&#8221; that it&#8217;s attributing to human moderators. The company did not initially blame faulty AI systems, as many believed would be the case. In [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 04:50:54,968 - INFO - clean content - clean_content='Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads users losing access to their accounts, having posts disappear, and more, saying that the company “found mistakes” that it’s attributing to human moderators. The company did not initially blame faulty AI systems, as many believed would be the case. In […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 04:50:54,968 - INFO - Generating summary with BART model
+2024-10-12 04:51:00,613 - INFO - Generating summary with BART model
+2024-10-12 04:51:06,270 - INFO - full_tweet='Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads..[read more👇🏼] #Instagram #Mosseri https://techcrunch.com/2024/10/11/instagram-blames-moderation-issues-on-human-reviewers-not-ai/'
+2024-10-12 04:51:06,526 - INFO - Tweet posted successfully: Response(data={'text': 'Instagram head Adam Mosseri on Friday addressed the moderation issues that saw Instagram and Threads..[read more👇🏼] #Instagram #Mosseri https://t.co/9R7sXlk6R9', 'id': '1844963984715170061', 'edit_history_tweet_ids': ['1844963984715170061']}, includes={}, errors=[], meta={})
+2024-10-12 04:51:06,527 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/instagram-blames-moderation-issues-on-human-reviewers-not-ai/ at 2024-10-12 04:51:06
+2024-10-12 04:51:06,527 - INFO - Tweet link saved successfully.
+2024-10-12 04:51:06,527 - INFO - Sleeping for 7 minutes and 37 seconds.
+2024-10-12 04:58:43,527 - INFO - Input content - content='<p>Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous weapons.  </p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 04:58:43,527 - INFO - clean content - clean_content='Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous weapons. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 04:58:43,527 - INFO - Generating summary with BART model
+2024-10-12 04:58:47,909 - INFO - Generating summary with BART model
+2024-10-12 04:58:52,295 - INFO - full_tweet='Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous..[read more👇🏼] #autonomous #weapons https://techcrunch.com/2024/10/11/silicon-valley-is-debating-if-ai-weapons-should-be-allowed-to-decide-to-kill/'
+2024-10-12 04:58:52,603 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844965939558617550'], 'id': '1844965939558617550', 'text': 'Silicon Valley founders like Palmer Luckey and Joe Lonsdale have been grappling with fully autonomous..[read more👇🏼] #autonomous #weapons https://t.co/EauvrdTy5N'}, includes={}, errors=[], meta={})
+2024-10-12 04:58:52,603 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/silicon-valley-is-debating-if-ai-weapons-should-be-allowed-to-decide-to-kill/ at 2024-10-12 04:58:52
+2024-10-12 04:58:52,603 - INFO - Tweet link saved successfully.
+2024-10-12 04:58:52,603 - INFO - Sleeping for 8 minutes and 53 seconds.
+2024-10-12 05:07:45,603 - INFO - Input content - content='<p>Your support teams need support too, let AI help them</p>\n<p>The post <a href="https://www.atlassian.com/blog/artificial-intelligence/5-ai-features-that-will-delight-your-support-agents">5 AI features that will delight your support agents</a> appeared first on <a href="https://www.atlassian.com/blog">Work Life by Atlassian</a>.</p>'
+2024-10-12 05:07:45,604 - INFO - clean content - clean_content='Your support teams need support too, let AI help them The post 5 AI features that will delight your support agents appeared first on Work Life by Atlassian.'
+2024-10-12 05:07:45,604 - INFO - Generating summary with BART model
+2024-10-12 05:07:50,001 - INFO - Generating summary with BART model
+2024-10-12 05:07:54,398 - INFO - full_tweet='5 AI features that will delight your support agents. Your support teams need support too, let AI help..[read more👇🏼] #AI #support https://www.atlassian.com/blog/artificial-intelligence/5-ai-features-that-will-delight-your-support-agents'
+2024-10-12 05:07:54,625 - INFO - Tweet posted successfully: Response(data={'text': '5 AI features that will delight your support agents. Your support teams need support too, let AI help..[read more👇🏼] #AI #support https://t.co/yV32rDLgC7', 'id': '1844968213026664790', 'edit_history_tweet_ids': ['1844968213026664790']}, includes={}, errors=[], meta={})
+2024-10-12 05:07:54,625 - INFO - Saved posted URL: https://www.atlassian.com/blog/artificial-intelligence/5-ai-features-that-will-delight-your-support-agents at 2024-10-12 05:07:54
+2024-10-12 05:07:54,625 - INFO - Tweet link saved successfully.
+2024-10-12 05:07:54,625 - INFO - Sleeping for 4 minutes and 18 seconds.
+2024-10-12 05:12:12,625 - INFO - Input content - content='Crooks are debugging malware with Chat-GPT, parent company OpenAI has claimed.'
+2024-10-12 05:12:12,625 - INFO - clean content - clean_content='Crooks are debugging malware with Chat-GPT, parent company OpenAI has claimed.'
+2024-10-12 05:12:12,625 - INFO - Generating summary with BART model
+2024-10-12 05:12:16,307 - INFO - Generating summary with BART model
+2024-10-12 05:12:19,980 - INFO - full_tweet='OpenAI claims Chat-GPT can be used to diagnose and fix malware. The technology is being used to develop..[read more👇🏼] #technology #malware https://www.techradar.com/pro/security/openai-says-it-shuts-down-multiple-campaigns-using-its-systems-for-cybercrime'
+2024-10-12 05:12:20,180 - INFO - Tweet posted successfully: Response(data={'id': '1844969326761197805', 'text': 'OpenAI claims Chat-GPT can be used to diagnose and fix malware. The technology is being used to develop..[read more👇🏼] #technology #malware https://t.co/vcQVlaT26o', 'edit_history_tweet_ids': ['1844969326761197805']}, includes={}, errors=[], meta={})
+2024-10-12 05:12:20,180 - INFO - Saved posted URL: https://www.techradar.com/pro/security/openai-says-it-shuts-down-multiple-campaigns-using-its-systems-for-cybercrime at 2024-10-12 05:12:20
+2024-10-12 05:12:20,180 - INFO - Tweet link saved successfully.
+2024-10-12 05:12:20,180 - INFO - Sleeping for 4 minutes and 3 seconds.
+2024-10-12 05:16:23,180 - INFO - Input content - content='<p>As well as being a major cause of premature death worldwide, hypertension, also known as high blood pressure, is a major risk factor for stroke, coronary artery disease, heart failure, and a contributing factor to dementia. It also affects an estimated 1.3 billion people, while up to 95% of cases are due to lifestyle factors [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 05:16:23,181 - INFO - clean content - clean_content='As well as being a major cause of premature death worldwide, hypertension, also known as high blood pressure, is a major risk factor for stroke, coronary artery disease, heart failure, and a contributing factor to dementia. It also affects an estimated 1.3 billion people, while up to 95% of cases are due to lifestyle factors […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 05:16:23,181 - INFO - Generating summary with BART model
+2024-10-12 05:16:28,923 - INFO - Generating summary with BART model
+2024-10-12 05:16:34,643 - INFO - full_tweet='High blood pressure is a major risk factor for stroke, coronary artery disease, heart failure, and a..[read more👇🏼] #factor #contributing https://techcrunch.com/2024/10/11/aktiia-trained-ai-on-11-billion-data-points-of-blood-pressure-and-now-a-clinically-certified-app-is-coming/'
+2024-10-12 05:16:34,834 - INFO - Tweet posted successfully: Response(data={'text': 'High blood pressure is a major risk factor for stroke, coronary artery disease, heart failure, and a..[read more👇🏼] #factor #contributing https://t.co/CsV3aBTFvM', 'edit_history_tweet_ids': ['1844970394874184104'], 'id': '1844970394874184104'}, includes={}, errors=[], meta={})
+2024-10-12 05:16:34,834 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/aktiia-trained-ai-on-11-billion-data-points-of-blood-pressure-and-now-a-clinically-certified-app-is-coming/ at 2024-10-12 05:16:34
+2024-10-12 05:16:34,834 - INFO - Tweet link saved successfully.
+2024-10-12 05:16:34,834 - INFO - Sleeping for 4 minutes and 42 seconds.
+2024-10-12 05:21:16,835 - INFO - Input content - content='<p>ByteDance&#8217;s TikTok is laying off hundreds of employees, mainly in Malaysia, according to Reuters. The cuts come as the social network is increasingly turning to AI for content moderation. The cuts do not impact employees in the U.S. Although TikTok did not provide the exact number, it said that less than 500 people were affected. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 05:21:16,835 - INFO - clean content - clean_content='ByteDance’s TikTok is laying off hundreds of employees, mainly in Malaysia, according to Reuters. The cuts come as the social network is increasingly turning to AI for content moderation. The cuts do not impact employees in the U.S. Although TikTok did not provide the exact number, it said that less than 500 people were affected. […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 05:21:16,835 - INFO - Generating summary with BART model
+2024-10-12 05:21:21,077 - INFO - Generating summary with BART model
+2024-10-12 05:21:25,310 - INFO - full_tweet='ByteDance’s TikTok is laying off hundreds of employees, mainly in Malaysia. The cuts come as the social..[read more👇🏼] #network #AI https://techcrunch.com/2024/10/11/bytedance-lays-off-hundreds-of-tiktok-employees-in-shift-to-ai-content-moderation/'
+2024-10-12 05:21:25,603 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844971614300934497'], 'id': '1844971614300934497', 'text': 'ByteDance’s TikTok is laying off hundreds of employees, mainly in Malaysia. The cuts come as the social..[read more👇🏼] #network #AI https://t.co/XyXblJ2g9r'}, includes={}, errors=[], meta={})
+2024-10-12 05:21:25,603 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/bytedance-lays-off-hundreds-of-tiktok-employees-in-shift-to-ai-content-moderation/ at 2024-10-12 05:21:25
+2024-10-12 05:21:25,603 - INFO - Tweet link saved successfully.
+2024-10-12 05:21:25,603 - INFO - Sleeping for 3 minutes and 1 seconds.
+2024-10-12 05:24:26,604 - INFO - Input content - content='TikTok is reportedly ditching more of its human moderators to focus on AI-powered moderation instead.'
+2024-10-12 05:24:26,604 - INFO - clean content - clean_content='TikTok is reportedly ditching more of its human moderators to focus on AI-powered moderation instead.'
+2024-10-12 05:24:26,604 - INFO - Generating summary with BART model
+2024-10-12 05:24:30,412 - INFO - Generating summary with BART model
+2024-10-12 05:24:34,217 - INFO - full_tweet='TikTok is reportedly ditching more of its human moderators to focus on AI-powered moderation instead...[read more👇🏼] #AI #reportedly https://www.pcmag.com/news/tiktok-lays-off-hundreds-of-staff-to-replace-them-focus-on-ai'
+2024-10-12 05:24:34,390 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844972406328201441'], 'id': '1844972406328201441', 'text': 'TikTok is reportedly ditching more of its human moderators to focus on AI-powered moderation instead...[read more👇🏼] #AI #reportedly https://t.co/jX8HgauXpN'}, includes={}, errors=[], meta={})
+2024-10-12 05:24:34,391 - INFO - Saved posted URL: https://www.pcmag.com/news/tiktok-lays-off-hundreds-of-staff-to-replace-them-focus-on-ai at 2024-10-12 05:24:34
+2024-10-12 05:24:34,391 - INFO - Tweet link saved successfully.
+2024-10-12 05:24:34,391 - INFO - Sleeping for 3 minutes and 23 seconds.
+2024-10-12 05:27:57,391 - INFO - Input content - content='Dive into this emerging and powerful LLM-based AI tool for enhancing your business, creative, or daily processes through well-managed conversations.'
+2024-10-12 05:27:57,391 - INFO - clean content - clean_content='Dive into this emerging and powerful LLM-based AI tool for enhancing your business, creative, or daily processes through well-managed conversations.'
+2024-10-12 05:27:57,391 - INFO - Generating summary with BART model
+2024-10-12 05:28:02,352 - INFO - Generating summary with BART model
+2024-10-12 05:28:07,326 - INFO - full_tweet='LMM is an emerging and powerful LLM-based AI tool for enhancing your business, creative, or daily..[read more👇🏼] #AI #conversations https://www.kdnuggets.com/claude-ai-unboxing-anthropics-llm-based-ai-assistant-artifacts-use-cases'
+2024-10-12 05:28:07,525 - INFO - Tweet posted successfully: Response(data={'id': '1844973300172132733', 'edit_history_tweet_ids': ['1844973300172132733'], 'text': 'LMM is an emerging and powerful LLM-based AI tool for enhancing your business, creative, or daily..[read more👇🏼] #AI #conversations https://t.co/IqprXl2Uqy'}, includes={}, errors=[], meta={})
+2024-10-12 05:28:07,525 - INFO - Saved posted URL: https://www.kdnuggets.com/claude-ai-unboxing-anthropics-llm-based-ai-assistant-artifacts-use-cases at 2024-10-12 05:28:07
+2024-10-12 05:28:07,525 - INFO - Tweet link saved successfully.
+2024-10-12 05:28:07,525 - INFO - Sleeping for 4 minutes and 5 seconds.
+2024-10-12 05:32:12,525 - INFO - Input content - content='<p>As AI-generated slop takes over increasing swathes of the user-generated Internet thanks to the rise of large language models (LLMs) like OpenAI&#8217;s GPT, spare a thought for Wikipedia editors. In addition to their usual job of grubbing out bad human edits, they&#8217;re having to spend an increasing proportion of their time trying to weed out [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-12 05:32:12,526 - INFO - clean content - clean_content='As AI-generated slop takes over increasing swathes of the user-generated Internet thanks to the rise of large language models (LLMs) like OpenAI’s GPT, spare a thought for Wikipedia editors. In addition to their usual job of grubbing out bad human edits, they’re having to spend an increasing proportion of their time trying to weed out […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-12 05:32:12,526 - INFO - Generating summary with BART model
+2024-10-12 05:32:19,456 - INFO - Generating summary with BART model
+2024-10-12 05:32:26,382 - INFO - full_tweet='As AI-generated slop takes over increasing swathes of the user-generated Internet, spare a thought for..[read more👇🏼] #Internet #AI https://techcrunch.com/2024/10/11/how-ai-generated-content-is-upping-the-workload-for-wikipedia-editors/'
+2024-10-12 05:32:26,575 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844974386773721577'], 'text': 'As AI-generated slop takes over increasing swathes of the user-generated Internet, spare a thought for..[read more👇🏼] #Internet #AI https://t.co/HAzWeBws14', 'id': '1844974386773721577'}, includes={}, errors=[], meta={})
+2024-10-12 05:32:26,575 - INFO - Saved posted URL: https://techcrunch.com/2024/10/11/how-ai-generated-content-is-upping-the-workload-for-wikipedia-editors/ at 2024-10-12 05:32:26
+2024-10-12 05:32:26,575 - INFO - Tweet link saved successfully.
+2024-10-12 05:32:26,575 - INFO - Sleeping for 7 minutes and 11 seconds.
+2024-10-12 05:39:37,576 - INFO - Input content - content='OpenAI promised payouts to custom GPT creators. Now most are turning to outside sources for revenue.'
+2024-10-12 05:39:37,576 - INFO - clean content - clean_content='OpenAI promised payouts to custom GPT creators. Now most are turning to outside sources for revenue.'
+2024-10-12 05:39:37,576 - INFO - Generating summary with BART model
+2024-10-12 05:39:42,029 - INFO - Generating summary with BART model
+2024-10-12 05:39:46,479 - INFO - full_tweet='OpenAI promised payouts to custom GPT creators. Now most are turning to outside sources for revenue...[read more👇🏼] #promised #creators https://www.wired.com/story/openai-gpt-store/'
+2024-10-12 05:39:46,760 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1844976233013981482'], 'text': 'OpenAI promised payouts to custom GPT creators. Now most are turning to outside sources for revenue...[read more👇🏼] #promised #creators https://t.co/hisNw9jqIH', 'id': '1844976233013981482'}, includes={}, errors=[], meta={})
+2024-10-12 05:39:46,761 - INFO - Saved posted URL: https://www.wired.com/story/openai-gpt-store/ at 2024-10-12 05:39:46
+2024-10-12 05:39:46,761 - INFO - Tweet link saved successfully.
+2024-10-12 05:39:46,761 - INFO - Sleeping for 9 minutes and 22 seconds.
