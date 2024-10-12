@@ -1,0 +1,48 @@
+2024-10-12 19:06:58,794 - INFO - Starting configuration setup
+2024-10-12 19:06:58,795 - INFO - Environment variables loaded successfully
+2024-10-12 19:06:58,795 - INFO - Twitter API client initialized successfully
+2024-10-12 19:07:00,726 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-12 19:07:07,957 - INFO - Summarization model initialized successfully
+2024-10-12 19:07:07,958 - INFO - Starting tweet scheduling
+2024-10-12 19:07:07,958 - INFO - Tweeting process started at 2024-10-12 19:07:07.958213!
+2024-10-12 19:07:08,249 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct12.csv
+2024-10-12 19:07:08,249 - INFO - Fetching latest tech news from RSS feeds
+2024-10-12 19:08:02,478 - INFO - Total entries found: 616
+2024-10-12 19:08:02,481 - INFO - Recent AI-related entries found: 21
+2024-10-12 19:08:02,481 - INFO - Input content - content="A simple letter counting experiment exposes a fundamental limitation of LLMs ChatGPT and Claude, proving they can't yet “think” like humans."
+2024-10-12 19:08:02,482 - INFO - clean content - clean_content="A simple letter counting experiment exposes a fundamental limitation of LLMs ChatGPT and Claude, proving they can't yet “think” like humans."
+2024-10-12 19:08:02,482 - INFO - Generating summary with BART model
+2024-10-12 19:08:07,476 - INFO - Generating summary with BART model
+2024-10-12 19:08:11,790 - INFO - full_tweet='A simple letter counting experiment exposes a fundamental limitation of LLMs ChatGPT and Claude. It..[read more👇🏼] #fundamental #experiment https://venturebeat.com/ai/the-strawberrry-problem-how-to-overcome-ais-limitations/'
+2024-10-12 19:08:12,013 - INFO - Tweet posted successfully: Response(data={'id': '1845179678824264157', 'edit_history_tweet_ids': ['1845179678824264157'], 'text': 'A simple letter counting experiment exposes a fundamental limitation of LLMs ChatGPT and Claude. It..[read more👇🏼] #fundamental #experiment https://t.co/jkoO58GMVT'}, includes={}, errors=[], meta={})
+2024-10-12 19:08:12,013 - INFO - Saved posted URL: https://venturebeat.com/ai/the-strawberrry-problem-how-to-overcome-ais-limitations/ at 2024-10-12 19:08:12
+2024-10-12 19:08:12,013 - INFO - Tweet link saved successfully.
+2024-10-12 19:08:12,013 - INFO - Sleeping for 4 minutes and 55 seconds.
+2024-10-12 19:13:07,013 - INFO - Input content - content="With AI technology embedding itself in products from Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI, it's good to stay up to date on all the latest terminology."
+2024-10-12 19:13:07,013 - INFO - clean content - clean_content="With AI technology embedding itself in products from Google, Microsoft, Apple, Anthropic, Perplexity and OpenAI, it's good to stay up to date on all the latest terminology."
+2024-10-12 19:13:07,014 - INFO - Generating summary with BART model
+2024-10-12 19:13:12,535 - INFO - Generating summary with BART model
+2024-10-12 19:13:18,060 - INFO - full_tweet='AI technology embedding itself in products from Google, Microsoft, Apple, Anthropic, Perplexity and..[read more👇🏼] #technology #AI https://www.cnet.com/tech/services-and-software/chatgpt-glossary-48-ai-terms-that-everyone-should-know/#ftag=CAD590a51e'
+2024-10-12 19:13:18,290 - INFO - Tweet posted successfully: Response(data={'text': 'AI technology embedding itself in products from Google, Microsoft, Apple, Anthropic, Perplexity and..[read more👇🏼] #technology #AI https://t.co/cXDos3aI2c', 'id': '1845180963459908000', 'edit_history_tweet_ids': ['1845180963459908000']}, includes={}, errors=[], meta={})
+2024-10-12 19:13:18,290 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/chatgpt-glossary-48-ai-terms-that-everyone-should-know/#ftag=CAD590a51e at 2024-10-12 19:13:18
+2024-10-12 19:13:18,290 - INFO - Tweet link saved successfully.
+2024-10-12 19:13:18,290 - INFO - Sleeping for 6 minutes and 2 seconds.
+2024-10-12 19:19:20,290 - INFO - This link is already posted: https://techcrunch.com/2024/10/12/where-we-are-today-in-biology-ai-is-similar-to-gpt-in-2020-an-interview-with-the-ceo-of-africas-biggest-ai-startup/
+2024-10-12 19:19:20,290 - INFO - This link is already posted: https://www.theverge.com/2024/10/12/24268441/meta-ai-generated-northern-lights-images-threads-users-upset
+2024-10-12 19:19:20,290 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/decorating-for-halloween-this-weekend-heres-how-ai-can-help/#ftag=CAD590a51e
+2024-10-12 19:19:20,290 - INFO - This link is already posted: https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/
+2024-10-12 19:19:20,290 - INFO - This link is already posted: https://www.techradar.com/pro/huawei-rolls-out-its-next-gen-oceanstor-dorado-all-flash-storage-targeting-ai-mission-critical-workloads
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://towardsdatascience.com/why-the-2024-nobel-prize-in-ai-for-chemistry-matters-so-much-a06126cb5ca3?source=rss----7f60cf5620c9---4
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1w6qa/p_improving_ai_agents_using_dspy/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://www.techradar.com/pro/amd-lands-yet-another-major-cloud-deal-as-oracle-adopts-thousands-of-instinct-mi300x-gpus-to-power-new-ai-supercluster
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1plva/d_aaai_2025_phase_1_decision_leak/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://towardsdatascience.com/bursting-the-ai-hype-bubble-once-and-for-all-581a994fe762?source=rss----7f60cf5620c9---4
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/anthropic-ceo-goes-full-techno-optimist-in-15000-word-paean-to-ai/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-tastebuds-are-better-at-identifying-whats-in-food-than-you
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/heres-the-full-list-of-39-us-ai-startups-that-have-raised-100m-or-more-in-2024/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://techcrunch.com/2024/10/11/khosla-ventures-just-backed-openai-with-405m-more-but-not-necessarily-with-its-own-capital/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://venturebeat.com/ai/ai21-ceo-says-transformers-not-right-for-ai-agents-due-to-error-perpetuation/
+2024-10-12 19:19:20,291 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/amazons-new-ai-guides-know-what-you-want-to-buy-before-you-do
