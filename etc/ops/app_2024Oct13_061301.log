@@ -1,0 +1,18 @@
+2024-10-13 06:13:01,675 - INFO - Starting configuration setup
+2024-10-13 06:13:01,676 - INFO - Environment variables loaded successfully
+2024-10-13 06:13:01,676 - INFO - Twitter API client initialized successfully
+2024-10-13 06:13:03,593 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-13 06:13:10,430 - INFO - Summarization model initialized successfully
+2024-10-13 06:13:10,430 - INFO - Starting tweet scheduling
+2024-10-13 06:13:10,430 - INFO - Tweeting process started at 2024-10-13 06:13:10.430841!
+2024-10-13 06:13:10,745 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct13.csv
+2024-10-13 06:13:10,745 - INFO - Fetching latest tech news from RSS feeds
+2024-10-13 06:13:26,687 - INFO - Total entries found: 616
+2024-10-13 06:13:26,690 - INFO - Recent AI-related entries found: 7
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://venturebeat.com/ai/the-strawberrry-problem-how-to-overcome-ais-limitations/
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://techcrunch.com/2024/10/12/where-we-are-today-in-biology-ai-is-similar-to-gpt-in-2020-an-interview-with-the-ceo-of-africas-biggest-ai-startup/
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://www.theverge.com/2024/10/12/24268441/meta-ai-generated-northern-lights-images-threads-users-upset
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://www.techradar.com/pro/huawei-rolls-out-its-next-gen-oceanstor-dorado-all-flash-storage-targeting-ai-mission-critical-workloads
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://towardsdatascience.com/why-the-2024-nobel-prize-in-ai-for-chemistry-matters-so-much-a06126cb5ca3?source=rss----7f60cf5620c9---4
+2024-10-13 06:13:26,690 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g1w6qa/p_improving_ai_agents_using_dspy/
