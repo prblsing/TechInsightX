@@ -1,0 +1,14 @@
+2024-10-13 19:09:04,525 - INFO - Starting configuration setup
+2024-10-13 19:09:04,525 - INFO - Environment variables loaded successfully
+2024-10-13 19:09:04,526 - INFO - Twitter API client initialized successfully
+2024-10-13 19:09:06,430 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-13 19:09:42,614 - INFO - Summarization model initialized successfully
+2024-10-13 19:09:42,614 - INFO - Starting tweet scheduling
+2024-10-13 19:09:42,614 - INFO - Tweeting process started at 2024-10-13 19:09:42.614441!
+2024-10-13 19:09:42,852 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct13.csv
+2024-10-13 19:09:42,852 - INFO - Fetching latest tech news from RSS feeds
+2024-10-13 19:10:17,637 - INFO - Total entries found: 616
+2024-10-13 19:10:17,640 - INFO - Recent AI-related entries found: 3
+2024-10-13 19:10:17,640 - INFO - This link is already posted: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs
+2024-10-13 19:10:17,640 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities
+2024-10-13 19:10:17,640 - INFO - This link is already posted: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/
