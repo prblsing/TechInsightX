@@ -1,0 +1,27 @@
+2024-10-13 15:08:53,478 - INFO - Starting configuration setup
+2024-10-13 15:08:53,479 - INFO - Environment variables loaded successfully
+2024-10-13 15:08:53,479 - INFO - Twitter API client initialized successfully
+2024-10-13 15:08:55,341 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-13 15:09:01,417 - INFO - Summarization model initialized successfully
+2024-10-13 15:09:01,418 - INFO - Starting tweet scheduling
+2024-10-13 15:09:01,418 - INFO - Tweeting process started at 2024-10-13 15:09:01.418223!
+2024-10-13 15:09:01,418 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct13.csv
+2024-10-13 15:09:01,418 - INFO - Fetching latest tech news from RSS feeds
+2024-10-13 15:09:18,672 - INFO - Total entries found: 616
+2024-10-13 15:09:18,674 - INFO - Recent AI-related entries found: 8
+2024-10-13 15:09:18,675 - INFO - Input content - content='The highly decorated scientist is skeptical about the long-term potential of Language Language Models (LLMs).'
+2024-10-13 15:09:18,675 - INFO - clean content - clean_content='The highly decorated scientist is skeptical about the long-term potential of Language Language Models (LLMs).'
+2024-10-13 15:09:18,675 - INFO - Generating summary with BART model
+2024-10-13 15:09:23,779 - INFO - Generating summary with BART model
+2024-10-13 15:09:28,149 - INFO - full_tweet='The highly decorated scientist is skeptical about the long-term potential of Language Language Models..[read more👇🏼] #Language #about https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs'
+2024-10-13 15:09:28,414 - INFO - Tweet posted successfully: Response(data={'id': '1845481989140345251', 'edit_history_tweet_ids': ['1845481989140345251'], 'text': 'The highly decorated scientist is skeptical about the long-term potential of Language Language Models..[read more👇🏼] #Language #about https://t.co/SSRm95SSbl'}, includes={}, errors=[], meta={})
+2024-10-13 15:09:28,415 - INFO - Saved posted URL: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs at 2024-10-13 15:09:28
+2024-10-13 15:09:28,415 - INFO - Tweet link saved successfully.
+2024-10-13 15:09:28,415 - INFO - Sleeping for 8 minutes and 40 seconds.
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-find-the-best-deals-and-coupons-using-ai/#ftag=CAD590a51e
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/i-used-ai-to-help-with-grief-heres-what-i-learned/#ftag=CAD590a51e
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://venturebeat.com/ai/the-strawberrry-problem-how-to-overcome-ais-limitations/
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://techcrunch.com/2024/10/12/where-we-are-today-in-biology-ai-is-similar-to-gpt-in-2020-an-interview-with-the-ceo-of-africas-biggest-ai-startup/
+2024-10-13 15:18:08,415 - INFO - This link is already posted: https://www.theverge.com/2024/10/12/24268441/meta-ai-generated-northern-lights-images-threads-users-upset
