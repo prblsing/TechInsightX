@@ -1,0 +1,19 @@
+2024-10-14 00:44:24,032 - INFO - Starting configuration setup
+2024-10-14 00:44:24,033 - INFO - Environment variables loaded successfully
+2024-10-14 00:44:24,033 - INFO - Twitter API client initialized successfully
+2024-10-14 00:44:25,960 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 00:44:34,359 - INFO - Summarization model initialized successfully
+2024-10-14 00:44:34,359 - INFO - Starting tweet scheduling
+2024-10-14 00:44:34,359 - INFO - Tweeting process started at 2024-10-14 00:44:34.359466!
+2024-10-14 00:44:34,359 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 00:44:34,359 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 00:44:34,359 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 00:45:29,777 - INFO - Total entries found: 616
+2024-10-14 00:45:29,779 - INFO - Recent AI-related entries found: 5
+2024-10-14 00:45:29,779 - INFO - Input content - content='<p>One of the most attention-grabbing aspects of “Roadrunner,” the Morgan Neville-directed documentary about Anthony Bourdain, was Neville’s use of generative AI to replicate Bourdain’s voice. Looking back now, Neville told Wired that he saw this as a “fun” way to “keep [Bourdain’s] voice going in the film.” But his approach drew intense criticism — while [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-14 00:45:29,780 - INFO - clean content - clean_content='One of the most attention-grabbing aspects of “Roadrunner,” the Morgan Neville-directed documentary about Anthony Bourdain, was Neville’s use of generative AI to replicate Bourdain’s voice. Looking back now, Neville told Wired that he saw this as a “fun” way to “keep [Bourdain’s] voice going in the film.” But his approach drew intense criticism — while […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-14 00:45:29,780 - INFO - Generating summary with BART model
+2024-10-14 00:45:37,103 - INFO - Generating summary with BART model
+2024-10-14 00:45:43,700 - INFO - full_tweet="Morgan Neville used generative AI to replicate Anthony Bourdain's voice in a documentary. Neville told..[read more👇🏼] #AI #Bourdain https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/"
+2024-10-14 00:45:43,881 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
