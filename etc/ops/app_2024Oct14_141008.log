@@ -1,0 +1,65 @@
+2024-10-14 14:10:08,531 - INFO - Starting configuration setup
+2024-10-14 14:10:08,532 - INFO - Environment variables loaded successfully
+2024-10-14 14:10:08,532 - INFO - Twitter API client initialized successfully
+2024-10-14 14:10:10,424 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 14:10:17,313 - INFO - Summarization model initialized successfully
+2024-10-14 14:10:17,314 - INFO - Starting tweet scheduling
+2024-10-14 14:10:17,314 - INFO - Tweeting process started at 2024-10-14 14:10:17.314275!
+2024-10-14 14:10:17,314 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 14:10:17,314 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 14:10:33,185 - INFO - Total entries found: 616
+2024-10-14 14:10:33,188 - INFO - Recent AI-related entries found: 14
+2024-10-14 14:10:33,188 - INFO - Input content - content='Meta has been roasted on Threads for suggesting that anyone who missed the Northern Lights could just use its AI image generator instead.'
+2024-10-14 14:10:33,188 - INFO - clean content - clean_content='Meta has been roasted on Threads for suggesting that anyone who missed the Northern Lights could just use its AI image generator instead.'
+2024-10-14 14:10:33,188 - INFO - Generating summary with BART model
+2024-10-14 14:10:38,734 - INFO - Generating summary with BART model
+2024-10-14 14:10:43,505 - INFO - full_tweet='Meta suggested that anyone who missed the Northern Lights could just use its AI image generator instead...[read more👇🏼] #AI #Meta https://www.techradar.com/computing/artificial-intelligence/missed-the-northern-lights-meta-says-you-should-just-fake-photos-with-its-ai-instead'
+2024-10-14 14:10:43,793 - INFO - Tweet posted successfully: Response(data={'id': '1845829593611096270', 'text': 'Meta suggested that anyone who missed the Northern Lights could just use its AI image generator instead...[read more👇🏼] #AI #Meta https://t.co/57jr6q3Jny', 'edit_history_tweet_ids': ['1845829593611096270']}, includes={}, errors=[], meta={})
+2024-10-14 14:10:43,794 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/missed-the-northern-lights-meta-says-you-should-just-fake-photos-with-its-ai-instead at 2024-10-14 14:10:43
+2024-10-14 14:10:43,794 - INFO - Tweet link saved successfully.
+2024-10-14 14:10:43,794 - INFO - Sleeping for 6 minutes and 8 seconds.
+2024-10-14 14:16:51,794 - INFO - Input content - content='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI feedback.'
+2024-10-14 14:16:51,794 - INFO - clean content - clean_content='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI feedback.'
+2024-10-14 14:16:51,794 - INFO - Generating summary with BART model
+2024-10-14 14:16:57,651 - INFO - Generating summary with BART model
+2024-10-14 14:17:03,487 - INFO - full_tweet='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI..[read more👇🏼] #AI #with https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/'
+2024-10-14 14:17:03,789 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845831187438108754'], 'id': '1845831187438108754', 'text': 'PlayVS has partnered with https://t.co/awGvDkioxa, a self-service platform that helps gamers player smarter with AI..[read more👇🏼] #AI #with https://t.co/yufjw73dqA'}, includes={}, errors=[], meta={})
+2024-10-14 14:17:03,789 - INFO - Saved posted URL: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/ at 2024-10-14 14:17:03
+2024-10-14 14:17:03,789 - INFO - Tweet link saved successfully.
+2024-10-14 14:17:03,789 - INFO - Sleeping for 3 minutes and 21 seconds.
+2024-10-14 14:20:24,789 - INFO - Input content - content='AI can be used as a defense tool, as well, but other solutions are needed too.'
+2024-10-14 14:20:24,789 - INFO - clean content - clean_content='AI can be used as a defense tool, as well, but other solutions are needed too.'
+2024-10-14 14:20:24,790 - INFO - Generating summary with BART model
+2024-10-14 14:20:29,309 - INFO - Generating summary with BART model
+2024-10-14 14:20:33,860 - INFO - full_tweet='AI can be used as a defense tool, as well, but other solutions are needed too. AI can also be used to..[read more👇🏼] #AI #used https://www.techradar.com/pro/security/ai-is-making-threats-harder-to-detect-but-security-pros-think-they-have-the-tools-to-fight-back'
+2024-10-14 14:20:34,109 - INFO - Tweet posted successfully: Response(data={'id': '1845832069475172394', 'edit_history_tweet_ids': ['1845832069475172394'], 'text': 'AI can be used as a defense tool, as well, but other solutions are needed too. AI can also be used to..[read more👇🏼] #AI #used https://t.co/pzleLyh8C5'}, includes={}, errors=[], meta={})
+2024-10-14 14:20:34,109 - INFO - Saved posted URL: https://www.techradar.com/pro/security/ai-is-making-threats-harder-to-detect-but-security-pros-think-they-have-the-tools-to-fight-back at 2024-10-14 14:20:34
+2024-10-14 14:20:34,110 - INFO - Tweet link saved successfully.
+2024-10-14 14:20:34,110 - INFO - Sleeping for 7 minutes and 35 seconds.
+2024-10-14 14:28:09,110 - INFO - Input content - content='Adobe Max sees launch of beta video editing tools, including first commercially safe video model.'
+2024-10-14 14:28:09,110 - INFO - clean content - clean_content='Adobe Max sees launch of beta video editing tools, including first commercially safe video model.'
+2024-10-14 14:28:09,110 - INFO - Generating summary with BART model
+2024-10-14 14:28:14,047 - INFO - Generating summary with BART model
+2024-10-14 14:28:18,981 - INFO - full_tweet='Adobe Max sees launch of beta video editing tools, including first commercially safe video model. Adobe..[read more👇🏼] #video #Adobe https://www.techradar.com/pro/game-changing-ai-comes-to-adobe-premiere-pro'
+2024-10-14 14:28:19,259 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845834020585701828'], 'id': '1845834020585701828', 'text': 'Adobe Max sees launch of beta video editing tools, including first commercially safe video model. Adobe..[read more👇🏼] #video #Adobe https://t.co/plWYt2hprZ'}, includes={}, errors=[], meta={})
+2024-10-14 14:28:19,259 - INFO - Saved posted URL: https://www.techradar.com/pro/game-changing-ai-comes-to-adobe-premiere-pro at 2024-10-14 14:28:19
+2024-10-14 14:28:19,259 - INFO - Tweet link saved successfully.
+2024-10-14 14:28:19,259 - INFO - Sleeping for 3 minutes and 10 seconds.
+2024-10-14 14:31:29,259 - INFO - Input content - content="This is everything announced during Monday's Adobe Max keynote, including new features in Premiere Pro, Photoshop, Illustrator and Firefly AI."
+2024-10-14 14:31:29,259 - INFO - clean content - clean_content="This is everything announced during Monday's Adobe Max keynote, including new features in Premiere Pro, Photoshop, Illustrator and Firefly AI."
+2024-10-14 14:31:29,259 - INFO - Generating summary with BART model
+2024-10-14 14:31:33,248 - INFO - Generating summary with BART model
+2024-10-14 14:31:37,260 - INFO - full_tweet='Adobe announced new features for Premiere Pro, Photoshop, Illustrator and Firefly AI. The company also..[read more👇🏼] #software #AI https://www.cnet.com/tech/services-and-software/adobe-max-recap-new-ai-video-tools-photoshop-and-illustrator-updates/#ftag=CAD590a51e'
+2024-10-14 14:31:37,482 - INFO - Tweet posted successfully: Response(data={'text': 'Adobe announced new features for Premiere Pro, Photoshop, Illustrator and Firefly AI. The company also..[read more👇🏼] #software #AI https://t.co/X9g3Z5B7vO', 'edit_history_tweet_ids': ['1845834851980587251'], 'id': '1845834851980587251'}, includes={}, errors=[], meta={})
+2024-10-14 14:31:37,483 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/adobe-max-recap-new-ai-video-tools-photoshop-and-illustrator-updates/#ftag=CAD590a51e at 2024-10-14 14:31:37
+2024-10-14 14:31:37,483 - INFO - Tweet link saved successfully.
+2024-10-14 14:31:37,483 - INFO - Sleeping for 9 minutes and 3 seconds.
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268813/photoshop-distraction-removal-ai-tool-launch
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268695/adobe-ai-video-generation-firefly-model-premiere-pro
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://www.cnet.com/tech/computing/ai-is-definitely-coming-for-your-job/#ftag=CAD590a51e
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
+2024-10-14 14:40:40,483 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
+2024-10-14 14:40:40,484 - INFO - This link is already posted: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs
