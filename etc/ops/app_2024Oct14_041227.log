@@ -1,0 +1,25 @@
+2024-10-14 04:12:27,355 - INFO - Starting configuration setup
+2024-10-14 04:12:27,355 - INFO - Environment variables loaded successfully
+2024-10-14 04:12:27,355 - INFO - Twitter API client initialized successfully
+2024-10-14 04:12:29,235 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 04:12:36,045 - INFO - Summarization model initialized successfully
+2024-10-14 04:12:36,045 - INFO - Starting tweet scheduling
+2024-10-14 04:12:36,046 - INFO - Tweeting process started at 2024-10-14 04:12:36.045983!
+2024-10-14 04:12:36,242 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 04:12:36,242 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 04:13:30,541 - INFO - Total entries found: 606
+2024-10-14 04:13:30,544 - INFO - Recent AI-related entries found: 6
+2024-10-14 04:13:30,544 - INFO - Input content - content='<p>OpenAI has unveiled &#8220;Swarm,&#8221; an experimental framework designed to orchestrate networks of AI agents. This unexpected release has ignited intense discussions among industry leaders and AI ethicists about the future of enterprise automation, despite the company&#8217;s emphasis that Swarm is not an official product. Swarm provides developers with a blueprint for creating interconnected AI networks&#160;[&#8230;]\n</p>'
+2024-10-14 04:13:30,544 - INFO - clean content - clean_content='OpenAI has unveiled “Swarm,” an experimental framework designed to orchestrate networks of AI agents. This unexpected release has ignited intense discussions among industry leaders and AI ethicists about the future of enterprise automation, despite the company’s emphasis that Swarm is not an official product. Swarm provides developers with a blueprint for creating interconnected AI networks\xa0[…]'
+2024-10-14 04:13:30,544 - INFO - Generating summary with BART model
+2024-10-14 04:13:36,153 - INFO - Generating summary with BART model
+2024-10-14 04:13:41,035 - INFO - full_tweet='OpenAI has unveiled “Swarm,’ an experimental framework designed to orchestrate networks of AI agents...[read more👇🏼] #AI #networks https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/'
+2024-10-14 04:13:41,359 - INFO - Tweet posted successfully: Response(data={'id': '1845679343466344862', 'edit_history_tweet_ids': ['1845679343466344862'], 'text': 'OpenAI has unveiled “Swarm,’ an experimental framework designed to orchestrate networks of AI agents...[read more👇🏼] #AI #networks https://t.co/oSzkPeQ1or'}, includes={}, errors=[], meta={})
+2024-10-14 04:13:41,359 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/ at 2024-10-14 04:13:41
+2024-10-14 04:13:41,359 - INFO - Tweet link saved successfully.
+2024-10-14 04:13:41,359 - INFO - Sleeping for 4 minutes and 39 seconds.
+2024-10-14 04:18:20,359 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
+2024-10-14 04:18:20,360 - INFO - This link is already posted: https://www.techradar.com/pro/tiktoks-parent-firm-could-shun-nvidia-amd-as-reports-claim-it-will-use-100-000-huawei-ai-chips-to-train-its-next-gen-llm
+2024-10-14 04:18:20,360 - INFO - This link is already posted: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs
+2024-10-14 04:18:20,360 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities
+2024-10-14 04:18:20,360 - INFO - This link is already posted: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/
