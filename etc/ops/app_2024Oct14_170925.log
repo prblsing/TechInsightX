@@ -1,0 +1,39 @@
+2024-10-14 17:09:25,015 - INFO - Starting configuration setup
+2024-10-14 17:09:25,016 - INFO - Environment variables loaded successfully
+2024-10-14 17:09:25,016 - INFO - Twitter API client initialized successfully
+2024-10-14 17:09:27,065 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 17:09:36,079 - INFO - Summarization model initialized successfully
+2024-10-14 17:09:36,079 - INFO - Starting tweet scheduling
+2024-10-14 17:09:36,079 - INFO - Tweeting process started at 2024-10-14 17:09:36.079918!
+2024-10-14 17:09:36,080 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 17:09:36,080 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 17:09:54,041 - INFO - Total entries found: 587
+2024-10-14 17:09:54,046 - INFO - Recent AI-related entries found: 12
+2024-10-14 17:09:54,046 - INFO - Input content - content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-14 17:09:54,047 - INFO - clean content - clean_content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-14 17:09:54,047 - INFO - Generating summary with BART model
+2024-10-14 17:09:59,152 - INFO - Generating summary with BART model
+2024-10-14 17:10:03,557 - INFO - full_tweet='Energy companies warned to address AI data center power needs or risk losing out on big opportunities...[read more👇🏼] #data #AI https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told'
+2024-10-14 17:10:03,821 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845874724540383272'], 'text': 'Energy companies warned to address AI data center power needs or risk losing out on big opportunities...[read more👇🏼] #data #AI https://t.co/cmvImxSzCI', 'id': '1845874724540383272'}, includes={}, errors=[], meta={})
+2024-10-14 17:10:03,821 - INFO - Saved posted URL: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told at 2024-10-14 17:10:03
+2024-10-14 17:10:03,821 - INFO - Tweet link saved successfully.
+2024-10-14 17:10:03,821 - INFO - Sleeping for 6 minutes and 2 seconds.
+2024-10-14 17:16:05,822 - INFO - Input content - content='Adobe launches GenStudio for Performance Marketing at Adobe Max 2024.'
+2024-10-14 17:16:05,822 - INFO - clean content - clean_content='Adobe launches GenStudio for Performance Marketing at Adobe Max 2024.'
+2024-10-14 17:16:05,822 - INFO - Generating summary with BART model
+2024-10-14 17:16:11,711 - INFO - Generating summary with BART model
+2024-10-14 17:16:17,606 - INFO - full_tweet="Adobe launches GenStudio for Performance Marketing at Adobe Max 2024. Adobe Max is the company's next..[read more👇🏼] #software #Adobe https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams"
+2024-10-14 17:16:17,838 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845876293293998268'], 'id': '1845876293293998268', 'text': "Adobe launches GenStudio for Performance Marketing at Adobe Max 2024. Adobe Max is the company's next..[read more👇🏼] #software #Adobe https://t.co/dS1lsOYXzJ"}, includes={}, errors=[], meta={})
+2024-10-14 17:16:17,838 - INFO - Saved posted URL: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams at 2024-10-14 17:16:17
+2024-10-14 17:16:17,838 - INFO - Tweet link saved successfully.
+2024-10-14 17:16:17,838 - INFO - Sleeping for 6 minutes and 15 seconds.
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-powers-up-photoshop-with-some-clever-new-ai-tools
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268813/photoshop-distraction-removal-ai-tool-launch
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268695/adobe-ai-video-generation-firefly-model-premiere-pro
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/adobe-max-recap-new-ai-video-tools-photoshop-and-illustrator-updates/#ftag=CAD590a51e
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 17:22:32,839 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
