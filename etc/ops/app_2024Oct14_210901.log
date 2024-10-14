@@ -1,0 +1,41 @@
+2024-10-14 21:09:01,961 - INFO - Starting configuration setup
+2024-10-14 21:09:01,962 - INFO - Environment variables loaded successfully
+2024-10-14 21:09:01,962 - INFO - Twitter API client initialized successfully
+2024-10-14 21:09:03,877 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 21:09:10,933 - INFO - Summarization model initialized successfully
+2024-10-14 21:09:10,933 - INFO - Starting tweet scheduling
+2024-10-14 21:09:10,933 - INFO - Tweeting process started at 2024-10-14 21:09:10.933553!
+2024-10-14 21:09:10,934 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 21:09:10,934 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 21:09:26,322 - INFO - Total entries found: 616
+2024-10-14 21:09:26,325 - INFO - Recent AI-related entries found: 14
+2024-10-14 21:09:26,325 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hello, Reddit!</p> <p>I’m excited to share my proposal titled <strong>&quot;Tapping Into the Future: Harnessing NFC Cards to Shape the Future of Intelligence and Paving the Way for Autonomous AI.&quot;</strong> This comprehensive 16-part exploration delves into the transformative potential of combining NFC technology with AI, paving the way for <strong>Artificial Superintelligence (ASI)</strong>.</p> <p><a href="https://open.substack.com/pub/mindboundlabs/p/tapping-into-the-future-harnessing?r=19bbif&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true">LINK TO THE PROPOSAL </a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/GreedyPhilosopher409"> /u/GreedyPhilosopher409 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g3q96i/p_we_propose_combining_nfc_cards_ai_billions_of/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g3q96i/p_we_propose_combining_nfc_cards_ai_billions_of/">[comments]</a></span>'
+2024-10-14 21:09:26,326 - INFO - clean content - clean_content='Hello, Reddit! I’m excited to share my proposal titled "Tapping Into the Future: Harnessing NFC Cards to Shape the Future of Intelligence and Paving the Way for Autonomous AI." This comprehensive 16-part exploration delves into the transformative potential of combining NFC technology with AI, paving the way for Artificial Superintelligence (ASI). LINK TO THE PROPOSAL   submitted by   /u/GreedyPhilosopher409 [link]   [comments]'
+2024-10-14 21:09:26,326 - INFO - Generating summary with BART model
+2024-10-14 21:09:32,809 - INFO - Generating summary with BART model
+2024-10-14 21:09:38,595 - INFO - full_tweet='The proposal was submitted by /u/GreedyPhilosopher409. The 16-part exploration delves into the..[read more👇🏼] #technology #AI https://www.reddit.com/r/MachineLearning/comments/1g3q96i/p_we_propose_combining_nfc_cards_ai_billions_of/'
+2024-10-14 21:09:38,870 - INFO - Tweet posted successfully: Response(data={'id': '1845935017878241753', 'text': 'The proposal was submitted by /u/GreedyPhilosopher409. The 16-part exploration delves into the..[read more👇🏼] #technology #AI https://t.co/sOpuvaQTLv', 'edit_history_tweet_ids': ['1845935017878241753']}, includes={}, errors=[], meta={})
+2024-10-14 21:09:38,870 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g3q96i/p_we_propose_combining_nfc_cards_ai_billions_of/ at 2024-10-14 21:09:38
+2024-10-14 21:09:38,870 - INFO - Tweet link saved successfully.
+2024-10-14 21:09:38,871 - INFO - Sleeping for 8 minutes and 0 seconds.
+2024-10-14 21:17:38,871 - INFO - Input content - content='Artificial intelligence music makers Tad AI debuts song and lyric writing tool.'
+2024-10-14 21:17:38,871 - INFO - clean content - clean_content='Artificial intelligence music makers Tad AI debuts song and lyric writing tool.'
+2024-10-14 21:17:38,871 - INFO - Generating summary with BART model
+2024-10-14 21:17:43,087 - INFO - Generating summary with BART model
+2024-10-14 21:17:47,330 - INFO - full_tweet='Artificial intelligence music makers Tad AI debuts song and lyric writing tool. Tad AI is a collaboration..[read more👇🏼] #AI #Tad https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free'
+2024-10-14 21:17:47,610 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845937067731058739'], 'id': '1845937067731058739', 'text': 'Artificial intelligence music makers Tad AI debuts song and lyric writing tool. Tad AI is a collaboration..[read more👇🏼] #AI #Tad https://t.co/mIrB8V4DyM'}, includes={}, errors=[], meta={})
+2024-10-14 21:17:47,611 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free at 2024-10-14 21:17:47
+2024-10-14 21:17:47,611 - INFO - Tweet link saved successfully.
+2024-10-14 21:17:47,611 - INFO - Sleeping for 9 minutes and 1 seconds.
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-powers-up-photoshop-with-some-clever-new-ai-tools
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-14 21:26:48,611 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-14 21:26:48,612 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 21:26:48,612 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 21:26:48,612 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 21:26:48,612 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
