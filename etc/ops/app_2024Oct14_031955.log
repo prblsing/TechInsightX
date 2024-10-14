@@ -1,0 +1,56 @@
+2024-10-14 03:19:55,762 - INFO - Starting configuration setup
+2024-10-14 03:19:55,762 - INFO - Environment variables loaded successfully
+2024-10-14 03:19:55,763 - INFO - Twitter API client initialized successfully
+2024-10-14 03:19:57,655 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 03:20:06,312 - INFO - Summarization model initialized successfully
+2024-10-14 03:20:06,313 - INFO - Starting tweet scheduling
+2024-10-14 03:20:06,313 - INFO - Tweeting process started at 2024-10-14 03:20:06.313108!
+2024-10-14 03:20:06,399 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 03:20:06,399 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 03:20:26,046 - INFO - Total entries found: 587
+2024-10-14 03:20:26,049 - INFO - Recent AI-related entries found: 5
+2024-10-14 03:20:26,049 - INFO - Input content - content='<p>One of the most attention-grabbing aspects of “Roadrunner,” the Morgan Neville-directed documentary about Anthony Bourdain, was Neville’s use of generative AI to replicate Bourdain’s voice. Looking back now, Neville told Wired that he saw this as a “fun” way to “keep [Bourdain’s] voice going in the film.” But his approach drew intense criticism — while [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-14 03:20:26,050 - INFO - clean content - clean_content='One of the most attention-grabbing aspects of “Roadrunner,” the Morgan Neville-directed documentary about Anthony Bourdain, was Neville’s use of generative AI to replicate Bourdain’s voice. Looking back now, Neville told Wired that he saw this as a “fun” way to “keep [Bourdain’s] voice going in the film.” But his approach drew intense criticism — while […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-14 03:20:26,050 - INFO - Generating summary with BART model
+2024-10-14 03:20:33,501 - INFO - Generating summary with BART model
+2024-10-14 03:20:40,300 - INFO - full_tweet="Morgan Neville used generative AI to replicate Anthony Bourdain's voice in a documentary. Neville told..[read more👇🏼] #AI #Bourdain https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/"
+2024-10-14 03:20:40,537 - INFO - Tweet posted successfully: Response(data={'id': '1845666002178376048', 'text': "Morgan Neville used generative AI to replicate Anthony Bourdain's voice in a documentary. Neville told..[read more👇🏼] #AI #Bourdain https://t.co/etMGLAyXK8", 'edit_history_tweet_ids': ['1845666002178376048']}, includes={}, errors=[], meta={})
+2024-10-14 03:20:40,537 - INFO - Saved posted URL: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/ at 2024-10-14 03:20:40
+2024-10-14 03:20:40,537 - INFO - Tweet link saved successfully.
+2024-10-14 03:20:40,537 - INFO - Sleeping for 6 minutes and 47 seconds.
+2024-10-14 03:27:27,538 - INFO - Input content - content='Reports claim TikTok parent company ByteDance will use 100,000 Huawei AI chips to train its next-gen LLM.'
+2024-10-14 03:27:27,538 - INFO - clean content - clean_content='Reports claim TikTok parent company ByteDance will use 100,000 Huawei AI chips to train its next-gen LLM.'
+2024-10-14 03:27:27,538 - INFO - Generating summary with BART model
+2024-10-14 03:27:33,131 - INFO - Generating summary with BART model
+2024-10-14 03:27:38,763 - INFO - full_tweet='TikTok parent company ByteDance will use 100,000 Huawei AI chips to train its next-gen LLM. Reports claim..[read more👇🏼] #AI #Huawei https://www.techradar.com/pro/tiktoks-parent-firm-could-shun-nvidia-amd-as-reports-claim-it-will-use-100-000-huawei-ai-chips-to-train-its-next-gen-llm'
+2024-10-14 03:27:39,032 - INFO - Tweet posted successfully: Response(data={'text': 'TikTok parent company ByteDance will use 100,000 Huawei AI chips to train its next-gen LLM. Reports claim..[read more👇🏼] #AI #Huawei https://t.co/VrQF6ZExAL', 'edit_history_tweet_ids': ['1845667757444288577'], 'id': '1845667757444288577'}, includes={}, errors=[], meta={})
+2024-10-14 03:27:39,032 - INFO - Saved posted URL: https://www.techradar.com/pro/tiktoks-parent-firm-could-shun-nvidia-amd-as-reports-claim-it-will-use-100-000-huawei-ai-chips-to-train-its-next-gen-llm at 2024-10-14 03:27:39
+2024-10-14 03:27:39,032 - INFO - Tweet link saved successfully.
+2024-10-14 03:27:39,032 - INFO - Sleeping for 8 minutes and 25 seconds.
+2024-10-14 03:36:04,032 - INFO - Input content - content="Just because an AI can manipulate language doesn't mean it's smart, says Yann LeCun."
+2024-10-14 03:36:04,033 - INFO - clean content - clean_content="Just because an AI can manipulate language doesn't mean it's smart, says Yann LeCun."
+2024-10-14 03:36:04,033 - INFO - Generating summary with BART model
+2024-10-14 03:36:08,737 - INFO - Generating summary with BART model
+2024-10-14 03:36:13,446 - INFO - full_tweet="Just because an AI can manipulate language doesn't mean it's smart, says Yann LeCun. Just because an AIs..[read more👇🏼] #AI #manipulate https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs"
+2024-10-14 03:36:13,701 - INFO - Tweet posted successfully: Response(data={'text': "Just because an AI can manipulate language doesn't mean it's smart, says Yann LeCun. Just because an AIs..[read more👇🏼] #AI #manipulate https://t.co/SSRm95Tq0T", 'edit_history_tweet_ids': ['1845669916122436073'], 'id': '1845669916122436073'}, includes={}, errors=[], meta={})
+2024-10-14 03:36:13,702 - INFO - Saved posted URL: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs at 2024-10-14 03:36:13
+2024-10-14 03:36:13,702 - INFO - Tweet link saved successfully.
+2024-10-14 03:36:13,702 - INFO - Sleeping for 6 minutes and 26 seconds.
+2024-10-14 03:42:39,702 - INFO - Input content - content='Cloudflare unveils 12th-gen servers with AMD’s 96-core EPYC 9684X Genoa-X CPUs'
+2024-10-14 03:42:39,702 - INFO - clean content - clean_content='Cloudflare unveils 12th-gen servers with AMD’s 96-core EPYC 9684X Genoa-X CPUs'
+2024-10-14 03:42:39,702 - INFO - Generating summary with BART model
+2024-10-14 03:42:44,328 - INFO - Generating summary with BART model
+2024-10-14 03:42:48,994 - INFO - full_tweet='Cloudflare unveils 12th-gen servers with AMD’s 96-core EPYC 9684X Genoa-X CPUs. #Cloudflare #unveils https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities'
+2024-10-14 03:42:49,240 - INFO - Tweet posted successfully: Response(data={'text': 'Cloudflare unveils 12th-gen servers with AMD’s 96-core EPYC 9684X Genoa-X CPUs. #Cloudflare #unveils https://t.co/e5ci88ZAwK', 'edit_history_tweet_ids': ['1845671575158431877'], 'id': '1845671575158431877'}, includes={}, errors=[], meta={})
+2024-10-14 03:42:49,241 - INFO - Saved posted URL: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities at 2024-10-14 03:42:49
+2024-10-14 03:42:49,241 - INFO - Tweet link saved successfully.
+2024-10-14 03:42:49,241 - INFO - Sleeping for 9 minutes and 16 seconds.
+2024-10-14 03:52:05,241 - INFO - Input content - content='Back in 2021, Morgan Neville thought using AI to recreate the late Anthony Bourdain’s voice would be an interesting Easter egg in his documentary. He ended up being a canary in Hollywood’s AI coal mine.'
+2024-10-14 03:52:05,241 - INFO - clean content - clean_content='Back in 2021, Morgan Neville thought using AI to recreate the late Anthony Bourdain’s voice would be an interesting Easter egg in his documentary. He ended up being a canary in Hollywood’s AI coal mine.'
+2024-10-14 03:52:05,241 - INFO - Generating summary with BART model
+2024-10-14 03:52:10,230 - INFO - Generating summary with BART model
+2024-10-14 03:52:15,207 - INFO - full_tweet="Morgan Neville thought using AI to recreate the late Anthony Bourdain's voice would be an interesting..[read more👇🏼] #AI #s https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/"
+2024-10-14 03:52:15,452 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845673950095040987'], 'id': '1845673950095040987', 'text': "Morgan Neville thought using AI to recreate the late Anthony Bourdain's voice would be an interesting..[read more👇🏼] #AI #s https://t.co/QQ3qtTuxSa"}, includes={}, errors=[], meta={})
+2024-10-14 03:52:15,452 - INFO - Saved posted URL: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/ at 2024-10-14 03:52:15
+2024-10-14 03:52:15,452 - INFO - Tweet link saved successfully.
+2024-10-14 03:52:15,452 - INFO - Sleeping for 3 minutes and 35 seconds.
