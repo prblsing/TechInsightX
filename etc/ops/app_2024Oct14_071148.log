@@ -1,0 +1,26 @@
+2024-10-14 07:11:48,827 - INFO - Starting configuration setup
+2024-10-14 07:11:48,828 - INFO - Environment variables loaded successfully
+2024-10-14 07:11:48,828 - INFO - Twitter API client initialized successfully
+2024-10-14 07:11:50,725 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 07:11:57,281 - INFO - Summarization model initialized successfully
+2024-10-14 07:11:57,281 - INFO - Starting tweet scheduling
+2024-10-14 07:11:57,281 - INFO - Tweeting process started at 2024-10-14 07:11:57.281315!
+2024-10-14 07:11:57,281 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 07:11:57,281 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 07:12:34,528 - INFO - Total entries found: 616
+2024-10-14 07:12:34,530 - INFO - Recent AI-related entries found: 7
+2024-10-14 07:12:34,531 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I need to implement this quickly hence I try to avoid coding if possible</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/xoberzero8"> /u/xoberzero8 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/">[comments]</a></span>'
+2024-10-14 07:12:34,531 - INFO - clean content - clean_content='I need to implement this quickly hence I try to avoid coding if possible   submitted by   /u/xoberzero8 [link]   [comments]'
+2024-10-14 07:12:34,531 - INFO - Generating summary with BART model
+2024-10-14 07:12:39,264 - INFO - Generating summary with BART model
+2024-10-14 07:12:43,296 - INFO - full_tweet='I need to implement this quickly hence I try to avoid coding if possible   submitted by   /u/xoberzero8. #coding #I https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/'
+2024-10-14 07:12:43,551 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845724399577526336'], 'id': '1845724399577526336', 'text': 'I need to implement this quickly hence I try to avoid coding if possible   submitted by   /u/xoberzero8. #coding #I https://t.co/jqdaPH9JAx'}, includes={}, errors=[], meta={})
+2024-10-14 07:12:43,552 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/ at 2024-10-14 07:12:43
+2024-10-14 07:12:43,552 - INFO - Tweet link saved successfully.
+2024-10-14 07:12:43,552 - INFO - Sleeping for 5 minutes and 34 seconds.
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://www.techradar.com/pro/tiktoks-parent-firm-could-shun-nvidia-amd-as-reports-claim-it-will-use-100-000-huawei-ai-chips-to-train-its-next-gen-llm
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities
+2024-10-14 07:18:17,552 - INFO - This link is already posted: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/
