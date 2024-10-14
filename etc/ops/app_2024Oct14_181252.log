@@ -1,0 +1,51 @@
+2024-10-14 18:12:52,496 - INFO - Starting configuration setup
+2024-10-14 18:12:52,497 - INFO - Environment variables loaded successfully
+2024-10-14 18:12:52,497 - INFO - Twitter API client initialized successfully
+2024-10-14 18:12:54,435 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 18:13:03,314 - INFO - Summarization model initialized successfully
+2024-10-14 18:13:03,314 - INFO - Starting tweet scheduling
+2024-10-14 18:13:03,314 - INFO - Tweeting process started at 2024-10-14 18:13:03.314666!
+2024-10-14 18:13:03,629 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 18:13:03,629 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 18:13:19,764 - INFO - Total entries found: 616
+2024-10-14 18:13:19,767 - INFO - Recent AI-related entries found: 16
+2024-10-14 18:13:19,767 - INFO - Input content - content="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia"
+2024-10-14 18:13:19,768 - INFO - clean content - clean_content="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia"
+2024-10-14 18:13:19,768 - INFO - Generating summary with BART model
+2024-10-14 18:13:26,054 - INFO - Generating summary with BART model
+2024-10-14 18:13:31,635 - INFO - full_tweet="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia...[read more👇🏼] #AI #investing https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough"
+2024-10-14 18:13:31,920 - INFO - Tweet posted successfully: Response(data={'id': '1845890696768622880', 'edit_history_tweet_ids': ['1845890696768622880'], 'text': "Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia...[read more👇🏼] #AI #investing https://t.co/0gqHzzeFRi"}, includes={}, errors=[], meta={})
+2024-10-14 18:13:31,920 - INFO - Saved posted URL: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough at 2024-10-14 18:13:31
+2024-10-14 18:13:31,920 - INFO - Tweet link saved successfully.
+2024-10-14 18:13:31,920 - INFO - Sleeping for 7 minutes and 9 seconds.
+2024-10-14 18:20:40,920 - INFO - Input content - content='We go through what you need to know about Meta AI, including the Ray-Ban Meta glasses, live translation, chatbot and image editing.'
+2024-10-14 18:20:40,920 - INFO - clean content - clean_content='We go through what you need to know about Meta AI, including the Ray-Ban Meta glasses, live translation, chatbot and image editing.'
+2024-10-14 18:20:40,920 - INFO - Generating summary with BART model
+2024-10-14 18:20:46,508 - INFO - Generating summary with BART model
+2024-10-14 18:20:52,092 - INFO - full_tweet='Meta AI features include live translation, chatbot and image editing. Meta AI also includes Ray-Ban Meta..[read more👇🏼] #AI #Meta https://www.cnet.com/tech/services-and-software/what-is-meta-ai-everything-to-know-about-the-social-networks-ai-tools/#ftag=CAD590a51e'
+2024-10-14 18:20:52,394 - INFO - Tweet posted successfully: Response(data={'text': 'Meta AI features include live translation, chatbot and image editing. Meta AI also includes Ray-Ban Meta..[read more👇🏼] #AI #Meta https://t.co/HxQjVG19ts', 'edit_history_tweet_ids': ['1845892544292417719'], 'id': '1845892544292417719'}, includes={}, errors=[], meta={})
+2024-10-14 18:20:52,394 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/what-is-meta-ai-everything-to-know-about-the-social-networks-ai-tools/#ftag=CAD590a51e at 2024-10-14 18:20:52
+2024-10-14 18:20:52,394 - INFO - Tweet link saved successfully.
+2024-10-14 18:20:52,394 - INFO - Sleeping for 3 minutes and 44 seconds.
+2024-10-14 18:24:36,394 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-14 18:24:36,394 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-14 18:24:36,394 - INFO - Input content - content="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users."
+2024-10-14 18:24:36,395 - INFO - clean content - clean_content="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users."
+2024-10-14 18:24:36,395 - INFO - Generating summary with BART model
+2024-10-14 18:24:40,873 - INFO - Generating summary with BART model
+2024-10-14 18:24:45,314 - INFO - full_tweet="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users. The..[read more👇🏼] #accounts #scams https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e"
+2024-10-14 18:24:45,531 - INFO - Tweet posted successfully: Response(data={'id': '1845893522123001897', 'edit_history_tweet_ids': ['1845893522123001897'], 'text': "The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users. The..[read more👇🏼] #accounts #scams https://t.co/TG3N4s1f9P"}, includes={}, errors=[], meta={})
+2024-10-14 18:24:45,532 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e at 2024-10-14 18:24:45
+2024-10-14 18:24:45,532 - INFO - Tweet link saved successfully.
+2024-10-14 18:24:45,532 - INFO - Sleeping for 9 minutes and 26 seconds.
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-powers-up-photoshop-with-some-clever-new-ai-tools
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268813/photoshop-distraction-removal-ai-tool-launch
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268695/adobe-ai-video-generation-firefly-model-premiere-pro
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 18:34:11,532 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 18:34:11,533 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
+2024-10-14 18:34:11,533 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
