@@ -1,0 +1,25 @@
+2024-10-14 22:11:26,909 - INFO - Starting configuration setup
+2024-10-14 22:11:26,910 - INFO - Environment variables loaded successfully
+2024-10-14 22:11:26,911 - INFO - Twitter API client initialized successfully
+2024-10-14 22:11:28,817 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 22:11:36,136 - INFO - Summarization model initialized successfully
+2024-10-14 22:11:36,136 - INFO - Starting tweet scheduling
+2024-10-14 22:11:36,136 - INFO - Tweeting process started at 2024-10-14 22:11:36.136389!
+2024-10-14 22:11:36,136 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 22:11:36,136 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 22:11:50,611 - INFO - Total entries found: 616
+2024-10-14 22:11:50,613 - INFO - Recent AI-related entries found: 14
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-powers-up-photoshop-with-some-clever-new-ai-tools
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 22:11:50,614 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
