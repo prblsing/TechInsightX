@@ -1,0 +1,33 @@
+2024-10-14 20:11:41,230 - INFO - Starting configuration setup
+2024-10-14 20:11:41,231 - INFO - Environment variables loaded successfully
+2024-10-14 20:11:41,231 - INFO - Twitter API client initialized successfully
+2024-10-14 20:11:43,174 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 20:11:49,585 - INFO - Summarization model initialized successfully
+2024-10-14 20:11:49,586 - INFO - Starting tweet scheduling
+2024-10-14 20:11:49,586 - INFO - Tweeting process started at 2024-10-14 20:11:49.586129!
+2024-10-14 20:11:49,586 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 20:11:49,586 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 20:12:04,993 - INFO - Total entries found: 616
+2024-10-14 20:12:04,996 - INFO - Recent AI-related entries found: 14
+2024-10-14 20:12:04,996 - INFO - Input content - content='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs," which are mechanisms designed to help agents carry out collaborative tasks in an organized manner.'
+2024-10-14 20:12:04,997 - INFO - clean content - clean_content='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs," which are mechanisms designed to help agents carry out collaborative tasks in an organized manner.'
+2024-10-14 20:12:04,997 - INFO - Generating summary with BART model
+2024-10-14 20:12:10,717 - INFO - Generating summary with BART model
+2024-10-14 20:12:15,774 - INFO - full_tweet='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs" These are mechanisms..[read more👇🏼] #collaborative #mechanisms https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/'
+2024-10-14 20:12:16,050 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845920577585873223'], 'text': 'At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs" These are mechanisms..[read more👇🏼] #collaborative #mechanisms https://t.co/ijSx7A6LBH', 'id': '1845920577585873223'}, includes={}, errors=[], meta={})
+2024-10-14 20:12:16,050 - INFO - Saved posted URL: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/ at 2024-10-14 20:12:16
+2024-10-14 20:12:16,050 - INFO - Tweet link saved successfully.
+2024-10-14 20:12:16,050 - INFO - Sleeping for 5 minutes and 8 seconds.
+2024-10-14 20:17:24,050 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-powers-up-photoshop-with-some-clever-new-ai-tools
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24268813/photoshop-distraction-removal-ai-tool-launch
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g39nc5/d_is_there_any_easy_to_use_ai_api_for_data/
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
+2024-10-14 20:17:24,051 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
