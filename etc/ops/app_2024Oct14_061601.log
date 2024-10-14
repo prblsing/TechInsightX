@@ -1,0 +1,17 @@
+2024-10-14 06:16:01,206 - INFO - Starting configuration setup
+2024-10-14 06:16:01,207 - INFO - Environment variables loaded successfully
+2024-10-14 06:16:01,207 - INFO - Twitter API client initialized successfully
+2024-10-14 06:16:03,185 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-14 06:16:09,654 - INFO - Summarization model initialized successfully
+2024-10-14 06:16:09,654 - INFO - Starting tweet scheduling
+2024-10-14 06:16:09,654 - INFO - Tweeting process started at 2024-10-14 06:16:09.654336!
+2024-10-14 06:16:09,654 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct14.csv
+2024-10-14 06:16:09,655 - INFO - Fetching latest tech news from RSS feeds
+2024-10-14 06:16:45,805 - INFO - Total entries found: 616
+2024-10-14 06:16:45,808 - INFO - Recent AI-related entries found: 6
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://venturebeat.com/ai/openai-unveils-experimental-swarm-framework-igniting-debate-on-ai-driven-automation/
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://techcrunch.com/2024/10/13/director-morgan-neville-is-steering-clear-of-generative-ai-after-roadrunner-backlash/
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://www.techradar.com/pro/tiktoks-parent-firm-could-shun-nvidia-amd-as-reports-claim-it-will-use-100-000-huawei-ai-chips-to-train-its-next-gen-llm
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://www.pcmag.com/news/metas-ai-chief-on-ai-endangering-humanity-thats-complete-bs
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://www.techradar.com/pro/cloudflare-unveils-12th-gen-servers-with-amds-96-core-epyc-9684x-genoa-x-cpus-promises-up-to-145-percent-more-rps-63-percent-better-efficiency-and-enhanced-ai-capabilities
+2024-10-14 06:16:45,808 - INFO - This link is already posted: https://www.wired.com/story/piece-by-piece-director-morgan-neville-will-never-use-ai-again/
