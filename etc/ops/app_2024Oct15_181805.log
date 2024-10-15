@@ -1,0 +1,74 @@
+2024-10-15 18:18:05,640 - INFO - Starting configuration setup
+2024-10-15 18:18:05,641 - INFO - Environment variables loaded successfully
+2024-10-15 18:18:05,641 - INFO - Twitter API client initialized successfully
+2024-10-15 18:18:07,657 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 18:18:18,658 - INFO - Summarization model initialized successfully
+2024-10-15 18:18:18,658 - INFO - Starting tweet scheduling
+2024-10-15 18:18:18,658 - INFO - Tweeting process started at 2024-10-15 18:18:18.658917!
+2024-10-15 18:18:18,659 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 18:18:18,659 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 18:18:35,430 - INFO - Total entries found: 616
+2024-10-15 18:18:35,433 - INFO - Recent AI-related entries found: 31
+2024-10-15 18:18:35,433 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/i-built-an-ai-human-level-game-player-31b78df8aca3?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2600/1*dqbUitIVbfMG3joTK65y5w.jpeg" width="4020" /></a></p><p class="medium-feed-snippet">Old-school game trees can be incredibly effective.</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/i-built-an-ai-human-level-game-player-31b78df8aca3?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-15 18:18:35,433 - INFO - clean content - clean_content='Old-school game trees can be incredibly effective.Continue reading on Towards Data Science »'
+2024-10-15 18:18:35,433 - INFO - Generating summary with BART model
+2024-10-15 18:18:41,437 - INFO - Generating summary with BART model
+2024-10-15 18:18:46,721 - INFO - full_tweet='Old-school game trees can be incredibly effective. Old-school games can be very effective in data..[read more👇🏼] #data #effective https://towardsdatascience.com/i-built-an-ai-human-level-game-player-31b78df8aca3?source=rss----7f60cf5620c9---4'
+2024-10-15 18:18:47,014 - INFO - Tweet posted successfully: Response(data={'id': '1846254406208979100', 'edit_history_tweet_ids': ['1846254406208979100'], 'text': 'Old-school game trees can be incredibly effective. Old-school games can be very effective in data..[read more👇🏼] #data #effective https://t.co/aNLu8vKMkA'}, includes={}, errors=[], meta={})
+2024-10-15 18:18:47,014 - INFO - Saved posted URL: https://towardsdatascience.com/i-built-an-ai-human-level-game-player-31b78df8aca3?source=rss----7f60cf5620c9---4 at 2024-10-15 18:18:47
+2024-10-15 18:18:47,014 - INFO - Tweet link saved successfully.
+2024-10-15 18:18:47,014 - INFO - Sleeping for 3 minutes and 6 seconds.
+2024-10-15 18:21:53,014 - INFO - Input content - content='<p>The Biden administration has privately discussed capping sales of advanced AI chips from Nvidia and AMD to certain Persian Gulf countries in the interest of national security, Bloomberg reported on Monday. The restriction could put a ceiling on export licenses for certain countries, potentially Saudi Arabia and the United Arab Emirates, which are heavily investing [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 18:21:53,015 - INFO - clean content - clean_content='The Biden administration has privately discussed capping sales of advanced AI chips from Nvidia and AMD to certain Persian Gulf countries in the interest of national security, Bloomberg reported on Monday. The restriction could put a ceiling on export licenses for certain countries, potentially Saudi Arabia and the United Arab Emirates, which are heavily investing […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 18:21:53,015 - INFO - Generating summary with BART model
+2024-10-15 18:21:59,038 - INFO - Generating summary with BART model
+2024-10-15 18:22:05,095 - INFO - full_tweet='The Biden administration has privately discussed capping sales of advanced AI chips from Nvidia and AMD..[read more👇🏼] #AI #countries https://techcrunch.com/2024/10/15/white-house-considers-expanding-nvidia-and-amds-ai-chip-export-limits-to-additional-countries/'
+2024-10-15 18:22:05,292 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846255237918531758'], 'id': '1846255237918531758', 'text': 'The Biden administration has privately discussed capping sales of advanced AI chips from Nvidia and AMD..[read more👇🏼] #AI #countries https://t.co/A80K5hveXa'}, includes={}, errors=[], meta={})
+2024-10-15 18:22:05,292 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/white-house-considers-expanding-nvidia-and-amds-ai-chip-export-limits-to-additional-countries/ at 2024-10-15 18:22:05
+2024-10-15 18:22:05,292 - INFO - Tweet link saved successfully.
+2024-10-15 18:22:05,292 - INFO - Sleeping for 9 minutes and 54 seconds.
+2024-10-15 18:31:59,293 - INFO - Input content - content='<figure>\n      <img alt="New York City And Newark Daily Life And Economy" src="https://cdn.vox-cdn.com/thumbor/KV8cQuPE5GL0B9iIKp4OE_pY3yE=/0x0:4107x2738/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73654993/2161729561.0.jpg" />\n        <figcaption>Photo: Jakub Porzycki / NurPhoto via Getty Images</figcaption>\n    </figure>\n\n  <p id="8iOFYl"><em>The New York Times </em>has demanded that AI search engine startup Perplexity stop using content from its site in a cease and desist letter sent to the company, <a href="https://www.wsj.com/business/media/new-york-times-to-bezos-backed-ai-startup-stop-using-our-stuff-20faf2eb">reports <em>The Wall Street Journal</em></a>. The Times, which is <a href="https://www.theverge.com/2023/12/27/24016212/new-york-times-openai-microsoft-lawsuit-copyright-infringement">currently suing</a> OpenAI and Microsoft over allegedly illegally training models on its content, says the startup has been using its content without permission, a claim made earlier this year by <a href="https://www.theverge.com/2024/6/27/24187405/perplexity-ai-twitter-lie-plagiarism"><em>Forbes </em>and Condé Nast</a>.</p>\n<p id="Gqc5dT">The <em>WSJ </em>included this passage from the letter:</p>\n<blockquote><p id="38AJ4a">“Perplexity and its business partners have been unjustly enriched by using, without authorization, The Times’s expressive, carefully written and researched, and edited journalism without a license.”</p></blockquote>\n<p id="jYBDbi"><em>The New York Times </em><a href="https://www.theverge.com/2023/8/14/23831109/the-new-york-times-ai-web-scraping-rules-terms-of-service">prohibits using its content</a> for AI model training. It...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/15/24270774/new-york-times-cease-and-desist-letter-perplexity-ai-search-engine">Continue reading&hellip;</a>\n  </p>'
+2024-10-15 18:31:59,293 - INFO - clean content - clean_content='Photo: Jakub Porzycki / NurPhoto via Getty Images The New York Times has demanded that AI search engine startup Perplexity stop using content from its site in a cease and desist letter sent to the company, reports The Wall Street Journal. The Times, which is currently suing OpenAI and Microsoft over allegedly illegally training models on its content, says the startup has been using its content without permission, a claim made earlier this year by Forbes and Condé Nast. The WSJ included this passage from the letter: “Perplexity and its business partners have been unjustly enriched by using, without authorization, The Times’s expressive, carefully written and researched, and edited journalism without a license.” The New York Times prohibits using its content for AI model training. It... Continue reading…'
+2024-10-15 18:31:59,293 - INFO - Generating summary with BART model
+2024-10-15 18:32:06,413 - INFO - Generating summary with BART model
+2024-10-15 18:32:13,475 - INFO - full_tweet='The New York Times has demanded that AI search engine startup Perplexity stop using content from its..[read more👇🏼] #startup #AI https://www.theverge.com/2024/10/15/24270774/new-york-times-cease-and-desist-letter-perplexity-ai-search-engine'
+2024-10-15 18:32:13,746 - INFO - Tweet posted successfully: Response(data={'text': 'The New York Times has demanded that AI search engine startup Perplexity stop using content from its..[read more👇🏼] #startup #AI https://t.co/yCkxK7ohS5', 'edit_history_tweet_ids': ['1846257789879894333'], 'id': '1846257789879894333'}, includes={}, errors=[], meta={})
+2024-10-15 18:32:13,746 - INFO - Saved posted URL: https://www.theverge.com/2024/10/15/24270774/new-york-times-cease-and-desist-letter-perplexity-ai-search-engine at 2024-10-15 18:32:13
+2024-10-15 18:32:13,746 - INFO - Tweet link saved successfully.
+2024-10-15 18:32:13,746 - INFO - Sleeping for 3 minutes and 53 seconds.
+2024-10-15 18:36:06,746 - INFO - Input content - content="Google plots a path to use nuclear energy. But nuclear power from small modular reactors isn't all that clean—and comes with environmental risks."
+2024-10-15 18:36:06,746 - INFO - clean content - clean_content="Google plots a path to use nuclear energy. But nuclear power from small modular reactors isn't all that clean—and comes with environmental risks."
+2024-10-15 18:36:06,747 - INFO - Generating summary with BART model
+2024-10-15 18:36:11,160 - INFO - Generating summary with BART model
+2024-10-15 18:36:15,576 - INFO - full_tweet="Nuclear power from small modular reactors isn't all that clean and comes with environmental risks. Google..[read more👇🏼] #environmental #reactors https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos"
+2024-10-15 18:36:15,767 - INFO - Tweet posted successfully: Response(data={'id': '1846258805098615247', 'edit_history_tweet_ids': ['1846258805098615247'], 'text': "Nuclear power from small modular reactors isn't all that clean and comes with environmental risks. Google..[read more👇🏼] #environmental #reactors https://t.co/653T7bcbOt"}, includes={}, errors=[], meta={})
+2024-10-15 18:36:15,767 - INFO - Saved posted URL: https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos at 2024-10-15 18:36:15
+2024-10-15 18:36:15,768 - INFO - Tweet link saved successfully.
+2024-10-15 18:36:15,768 - INFO - Sleeping for 8 minutes and 56 seconds.
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ive-seen-the-new-ai-collar-that-lets-your-dog-talk-and-its-as-wild-as-it-sounds
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://www.techradar.com/pro/dynabook-launches-worlds-lightest-ai-powered-laptop
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://venturebeat.com/ai/arm-touts-growing-ecosystem-of-sustainable-ai-datacenter-silicon/
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://www.techradar.com/pro/the-rise-of-agentic-ai-what-does-it-mean-for-businesses
+2024-10-15 18:45:11,768 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 18:45:11,769 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
