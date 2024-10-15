@@ -1,0 +1,68 @@
+2024-10-15 15:14:35,284 - INFO - Starting configuration setup
+2024-10-15 15:14:35,284 - INFO - Environment variables loaded successfully
+2024-10-15 15:14:35,285 - INFO - Twitter API client initialized successfully
+2024-10-15 15:14:37,237 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 15:14:47,161 - INFO - Summarization model initialized successfully
+2024-10-15 15:14:47,162 - INFO - Starting tweet scheduling
+2024-10-15 15:14:47,162 - INFO - Tweeting process started at 2024-10-15 15:14:47.162142!
+2024-10-15 15:14:47,473 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 15:14:47,473 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 15:15:03,821 - INFO - Total entries found: 616
+2024-10-15 15:15:03,824 - INFO - Recent AI-related entries found: 25
+2024-10-15 15:15:03,824 - INFO - Input content - content='Joe Dunleavy, global SVP at Endava discusses the rise of Agentic AI and what it means for businesses.'
+2024-10-15 15:15:03,825 - INFO - clean content - clean_content='Joe Dunleavy, global SVP at Endava discusses the rise of Agentic AI and what it means for businesses.'
+2024-10-15 15:15:03,825 - INFO - Generating summary with BART model
+2024-10-15 15:15:09,614 - INFO - Generating summary with BART model
+2024-10-15 15:15:14,593 - INFO - full_tweet='Joe Dunleavy, global SVP at Endava discusses the rise of Agentic AI and what it means for businesses. He..[read more👇🏼] #technology #AI https://www.techradar.com/pro/the-rise-of-agentic-ai-what-does-it-mean-for-businesses'
+2024-10-15 15:15:14,909 - INFO - Tweet posted successfully: Response(data={'text': 'Joe Dunleavy, global SVP at Endava discusses the rise of Agentic AI and what it means for businesses. He..[read more👇🏼] #technology #AI https://t.co/3FW1zWP8e1', 'id': '1846208218067812826', 'edit_history_tweet_ids': ['1846208218067812826']}, includes={}, errors=[], meta={})
+2024-10-15 15:15:14,909 - INFO - Saved posted URL: https://www.techradar.com/pro/the-rise-of-agentic-ai-what-does-it-mean-for-businesses at 2024-10-15 15:15:14
+2024-10-15 15:15:14,909 - INFO - Tweet link saved successfully.
+2024-10-15 15:15:14,909 - INFO - Sleeping for 9 minutes and 40 seconds.
+2024-10-15 15:24:54,910 - INFO - Input content - content='<p>The New York Times sent a cease and desist letter demanding that Jeff Bezos-backed Perplexity stop accessing and using its content in AI summaries and other output. The Wall Street Journal reviewed the document.&#160; The letter argues that Perplexity has been “unjustly enriched” by using the publisher’s “expressive, carefully written and researched, and edited journalism [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 15:24:54,910 - INFO - clean content - clean_content='The New York Times sent a cease and desist letter demanding that Jeff Bezos-backed Perplexity stop accessing and using its content in AI summaries and other output. The Wall Street Journal reviewed the document.\xa0 The letter argues that Perplexity has been “unjustly enriched” by using the publisher’s “expressive, carefully written and researched, and edited journalism […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 15:24:54,910 - INFO - Generating summary with BART model
+2024-10-15 15:25:00,454 - INFO - Generating summary with BART model
+2024-10-15 15:25:05,984 - INFO - full_tweet='The New York Times sent a cease and desist letter demanding that Jeff Bezos-backed Perplexity stop..[read more👇🏼] #AI #The https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/'
+2024-10-15 15:25:06,268 - INFO - Tweet posted successfully: Response(data={'text': 'The New York Times sent a cease and desist letter demanding that Jeff Bezos-backed Perplexity stop..[read more👇🏼] #AI #The https://t.co/qNBv1BDxKN', 'edit_history_tweet_ids': ['1846210698457604476'], 'id': '1846210698457604476'}, includes={}, errors=[], meta={})
+2024-10-15 15:25:06,268 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/ at 2024-10-15 15:25:06
+2024-10-15 15:25:06,268 - INFO - Tweet link saved successfully.
+2024-10-15 15:25:06,269 - INFO - Sleeping for 5 minutes and 55 seconds.
+2024-10-15 15:31:01,269 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite), and I\'ve found combining some of these have significantly boosted productivity and experience (e.g., o1 + Cursor) for web app development. Wondering if y\'all have used Gen AI for building data engineering pipelines/workflows? What\'s your experience been like? My friend and I are thinking of building an open-source project around this but we\'d love to better understand potential users\' pain points.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Away-Violinist3104"> /u/Away-Violinist3104 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/">[comments]</a></span>'
+2024-10-15 15:31:01,269 - INFO - clean content - clean_content="There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite), and I've found combining some of these have significantly boosted productivity and experience (e.g., o1 + Cursor) for web app development. Wondering if y'all have used Gen AI for building data engineering pipelines/workflows? What's your experience been like? My friend and I are thinking of building an open-source project around this but we'd love to better understand potential users' pain points.   submitted by   /u/Away-Violinist3104 [link]   [comments]"
+2024-10-15 15:31:01,269 - INFO - Generating summary with BART model
+2024-10-15 15:31:10,209 - INFO - Generating summary with BART model
+2024-10-15 15:31:19,128 - INFO - full_tweet='There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite)..[read more👇🏼] #AI #I https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/'
+2024-10-15 15:31:19,408 - INFO - Tweet posted successfully: Response(data={'id': '1846212263566270592', 'text': 'There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite)..[read more👇🏼] #AI #I https://t.co/XIL41WufRr', 'edit_history_tweet_ids': ['1846212263566270592']}, includes={}, errors=[], meta={})
+2024-10-15 15:31:19,409 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/ at 2024-10-15 15:31:19
+2024-10-15 15:31:19,409 - INFO - Tweet link saved successfully.
+2024-10-15 15:31:19,409 - INFO - Sleeping for 5 minutes and 4 seconds.
+2024-10-15 15:36:23,409 - INFO - Input content - content='In this new series we serve up smart and accessible AI-based recipes to solve real-world problems, save you time and money, and improve your life.'
+2024-10-15 15:36:23,409 - INFO - clean content - clean_content='In this new series we serve up smart and accessible AI-based recipes to solve real-world problems, save you time and money, and improve your life.'
+2024-10-15 15:36:23,409 - INFO - Generating summary with BART model
+2024-10-15 15:36:28,525 - INFO - Generating summary with BART model
+2024-10-15 15:36:33,618 - INFO - full_tweet='AI-based recipes to solve real-world problems, save you time and money, and improve your life. In this..[read more👇🏼] #AI #recipes https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life'
+2024-10-15 15:36:33,897 - INFO - Tweet posted successfully: Response(data={'text': 'AI-based recipes to solve real-world problems, save you time and money, and improve your life. In this..[read more👇🏼] #AI #recipes https://t.co/605zo0VXvj', 'edit_history_tweet_ids': ['1846213582628757615'], 'id': '1846213582628757615'}, includes={}, errors=[], meta={})
+2024-10-15 15:36:33,897 - INFO - Saved posted URL: https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life at 2024-10-15 15:36:33
+2024-10-15 15:36:33,898 - INFO - Tweet link saved successfully.
+2024-10-15 15:36:33,898 - INFO - Sleeping for 7 minutes and 4 seconds.
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/google-shopping-will-now-use-ai-to-surface-more-relevant-products-and-deals/#ftag=CAD590a51e
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 15:43:37,898 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving/#ftag=CAD590a51e
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 15:43:37,899 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
