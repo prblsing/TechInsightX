@@ -1,0 +1,73 @@
+2024-10-15 00:42:58,512 - INFO - Starting configuration setup
+2024-10-15 00:42:58,513 - INFO - Environment variables loaded successfully
+2024-10-15 00:42:58,513 - INFO - Twitter API client initialized successfully
+2024-10-15 00:43:00,407 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 00:43:08,736 - INFO - Summarization model initialized successfully
+2024-10-15 00:43:08,736 - INFO - Starting tweet scheduling
+2024-10-15 00:43:08,736 - INFO - Tweeting process started at 2024-10-15 00:43:08.736942!
+2024-10-15 00:43:08,737 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 00:43:08,737 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 00:43:08,737 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 00:43:29,839 - INFO - Total entries found: 616
+2024-10-15 00:43:29,842 - INFO - Recent AI-related entries found: 14
+2024-10-15 00:43:29,842 - INFO - Input content - content='Eventually, Mehrabyan says contextual intelligence will lead PicsArt to an agent-based ecosystem.'
+2024-10-15 00:43:29,843 - INFO - clean content - clean_content='Eventually, Mehrabyan says contextual intelligence will lead PicsArt to an agent-based ecosystem.'
+2024-10-15 00:43:29,843 - INFO - Generating summary with BART model
+2024-10-15 00:43:35,102 - INFO - Generating summary with BART model
+2024-10-15 00:43:39,711 - INFO - full_tweet='Mehrabyan says contextual intelligence will lead PicsArt to an agent-based ecosystem. Eventually, he..[read more👇🏼] #says #intelligence https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/'
+2024-10-15 00:43:40,034 - INFO - Tweet posted successfully: Response(data={'id': '1845988877573734405', 'edit_history_tweet_ids': ['1845988877573734405'], 'text': 'Mehrabyan says contextual intelligence will lead PicsArt to an agent-based ecosystem. Eventually, he..[read more👇🏼] #says #intelligence https://t.co/QR96of9Uxh'}, includes={}, errors=[], meta={})
+2024-10-15 00:43:40,034 - INFO - Saved posted URL: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/ at 2024-10-15 00:43:40
+2024-10-15 00:43:40,034 - INFO - Tweet link saved successfully.
+2024-10-15 00:43:40,034 - INFO - Sleeping for 7 minutes and 38 seconds.
+2024-10-15 00:51:18,034 - INFO - Input content - content='Samsung may replace the Galaxy settings menu with AI.'
+2024-10-15 00:51:18,034 - INFO - clean content - clean_content='Samsung may replace the Galaxy settings menu with AI.'
+2024-10-15 00:51:18,034 - INFO - Generating summary with BART model
+2024-10-15 00:51:23,076 - INFO - Generating summary with BART model
+2024-10-15 00:51:28,058 - INFO - full_tweet='Samsung may replace Galaxy settings menu with AI. Samsung may replace the Galaxy settingsmenu with AI,..[read more👇🏼] #AI #Samsung https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report'
+2024-10-15 00:51:28,417 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845990842110226483'], 'id': '1845990842110226483', 'text': 'Samsung may replace Galaxy settings menu with AI. Samsung may replace the Galaxy settingsmenu with AI,..[read more👇🏼] #AI #Samsung https://t.co/5M6tX5dCb0'}, includes={}, errors=[], meta={})
+2024-10-15 00:51:28,418 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report at 2024-10-15 00:51:28
+2024-10-15 00:51:28,418 - INFO - Tweet link saved successfully.
+2024-10-15 00:51:28,418 - INFO - Sleeping for 4 minutes and 30 seconds.
+2024-10-15 00:55:58,418 - INFO - Input content - content="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users."
+2024-10-15 00:55:58,418 - INFO - clean content - clean_content="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users."
+2024-10-15 00:55:58,418 - INFO - Generating summary with BART model
+2024-10-15 00:56:02,869 - INFO - Generating summary with BART model
+2024-10-15 00:56:07,325 - INFO - full_tweet="The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users. The..[read more👇🏼] #accounts #scams https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e"
+2024-10-15 00:56:07,539 - INFO - Tweet posted successfully: Response(data={'text': "The scams can target Gmail accounts, many of which are part of Google Workspace's 3 billion users. The..[read more👇🏼] #accounts #scams https://t.co/TG3N4s1MZn", 'edit_history_tweet_ids': ['1845992012841152636'], 'id': '1845992012841152636'}, includes={}, errors=[], meta={})
+2024-10-15 00:56:07,539 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e at 2024-10-15 00:56:07
+2024-10-15 00:56:07,539 - INFO - Tweet link saved successfully.
+2024-10-15 00:56:07,539 - INFO - Sleeping for 4 minutes and 32 seconds.
+2024-10-15 01:00:39,540 - INFO - Input content - content='Artificial intelligence music makers Tad AI debuts song and lyric writing tool.'
+2024-10-15 01:00:39,540 - INFO - clean content - clean_content='Artificial intelligence music makers Tad AI debuts song and lyric writing tool.'
+2024-10-15 01:00:39,540 - INFO - Generating summary with BART model
+2024-10-15 01:00:43,402 - INFO - Generating summary with BART model
+2024-10-15 01:00:47,352 - INFO - full_tweet='Artificial intelligence music makers Tad AI debuts song and lyric writing tool. Tad AI is a collaboration..[read more👇🏼] #AI #Tad https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free'
+2024-10-15 01:00:47,564 - INFO - Tweet posted successfully: Response(data={'id': '1845993187317604786', 'text': 'Artificial intelligence music makers Tad AI debuts song and lyric writing tool. Tad AI is a collaboration..[read more👇🏼] #AI #Tad https://t.co/mIrB8V5bok', 'edit_history_tweet_ids': ['1845993187317604786']}, includes={}, errors=[], meta={})
+2024-10-15 01:00:47,564 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free at 2024-10-15 01:00:47
+2024-10-15 01:00:47,564 - INFO - Tweet link saved successfully.
+2024-10-15 01:00:47,564 - INFO - Sleeping for 6 minutes and 56 seconds.
+2024-10-15 01:07:43,564 - INFO - Input content - content='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs," which are mechanisms designed to help agents carry out collaborative tasks in an organized manner.'
+2024-10-15 01:07:43,565 - INFO - clean content - clean_content='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs," which are mechanisms designed to help agents carry out collaborative tasks in an organized manner.'
+2024-10-15 01:07:43,565 - INFO - Generating summary with BART model
+2024-10-15 01:07:48,072 - INFO - Generating summary with BART model
+2024-10-15 01:07:52,574 - INFO - full_tweet='At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs" These are mechanisms..[read more👇🏼] #collaborative #mechanisms https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/'
+2024-10-15 01:07:53,011 - INFO - Tweet posted successfully: Response(data={'text': 'At the heart of OpenAI\'s Swarm are the concepts of "routines" and "handoffs" These are mechanisms..[read more👇🏼] #collaborative #mechanisms https://t.co/ijSx7A7jrf', 'edit_history_tweet_ids': ['1845994971176096177'], 'id': '1845994971176096177'}, includes={}, errors=[], meta={})
+2024-10-15 01:07:53,011 - INFO - Saved posted URL: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/ at 2024-10-15 01:07:53
+2024-10-15 01:07:53,011 - INFO - Tweet link saved successfully.
+2024-10-15 01:07:53,011 - INFO - Sleeping for 3 minutes and 11 seconds.
+2024-10-15 01:11:04,011 - INFO - Input content - content="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia"
+2024-10-15 01:11:04,012 - INFO - clean content - clean_content="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia"
+2024-10-15 01:11:04,012 - INFO - Generating summary with BART model
+2024-10-15 01:11:09,224 - INFO - Generating summary with BART model
+2024-10-15 01:11:14,388 - INFO - full_tweet="Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia...[read more👇🏼] #AI #investing https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough"
+2024-10-15 01:11:14,587 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1845995817293041818'], 'text': "Huawei is investing heavily in AI ecosystem development as it bids to become China's answer to Nvidia...[read more👇🏼] #AI #investing https://t.co/0gqHzzfdGQ", 'id': '1845995817293041818'}, includes={}, errors=[], meta={})
+2024-10-15 01:11:14,588 - INFO - Saved posted URL: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough at 2024-10-15 01:11:14
+2024-10-15 01:11:14,588 - INFO - Tweet link saved successfully.
+2024-10-15 01:11:14,588 - INFO - Sleeping for 7 minutes and 32 seconds.
+2024-10-15 01:18:46,588 - INFO - Input content - content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-15 01:18:46,588 - INFO - clean content - clean_content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-15 01:18:46,588 - INFO - Generating summary with BART model
+2024-10-15 01:18:50,477 - INFO - Generating summary with BART model
+2024-10-15 01:18:54,347 - INFO - full_tweet='Energy companies warned to address AI data center power needs or risk losing out on big opportunities...[read more👇🏼] #data #AI https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told'
+2024-10-15 01:18:54,525 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
