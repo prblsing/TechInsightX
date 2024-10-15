@@ -1,0 +1,52 @@
+2024-10-15 12:17:35,342 - INFO - Starting configuration setup
+2024-10-15 12:17:35,343 - INFO - Environment variables loaded successfully
+2024-10-15 12:17:35,343 - INFO - Twitter API client initialized successfully
+2024-10-15 12:17:37,228 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 12:17:43,721 - INFO - Summarization model initialized successfully
+2024-10-15 12:17:43,721 - INFO - Starting tweet scheduling
+2024-10-15 12:17:43,722 - INFO - Tweeting process started at 2024-10-15 12:17:43.721985!
+2024-10-15 12:17:43,722 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 12:17:43,722 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 12:17:57,956 - INFO - Total entries found: 616
+2024-10-15 12:17:57,958 - INFO - Recent AI-related entries found: 17
+2024-10-15 12:17:57,959 - INFO - Input content - content='<p>SimpliSafe has announced the addition of Active Guard Outdoor Protection to its monthly subscription offerings. The new tier adds an added layer of 24/7 monitoring to the home security service. Outdoor Protection Pro is available for $50 a month, a price that includes the Boston-based firm’s standard $22 \xa0indoor monitoring service. The new offering will [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 12:17:57,959 - INFO - clean content - clean_content='SimpliSafe has announced the addition of Active Guard Outdoor Protection to its monthly subscription offerings. The new tier adds an added layer of 24/7 monitoring to the home security service. Outdoor Protection Pro is available for $50 a month, a price that includes the Boston-based firm’s standard $22 indoor monitoring service. The new offering will […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 12:17:57,959 - INFO - Generating summary with BART model
+2024-10-15 12:18:03,210 - INFO - Generating summary with BART model
+2024-10-15 12:18:07,765 - INFO - full_tweet='The new tier adds an added layer of 24/7 monitoring to the home security service. Outdoor Protection Pro..[read more👇🏼] #monitoring #Protection https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/'
+2024-10-15 12:18:08,060 - INFO - Tweet posted successfully: Response(data={'id': '1846163645887033600', 'edit_history_tweet_ids': ['1846163645887033600'], 'text': 'The new tier adds an added layer of 24/7 monitoring to the home security service. Outdoor Protection Pro..[read more👇🏼] #monitoring #Protection https://t.co/g3A9TbzqvX'}, includes={}, errors=[], meta={})
+2024-10-15 12:18:08,060 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/ at 2024-10-15 12:18:08
+2024-10-15 12:18:08,060 - INFO - Tweet link saved successfully.
+2024-10-15 12:18:08,060 - INFO - Sleeping for 7 minutes and 6 seconds.
+2024-10-15 12:25:14,060 - INFO - Input content - content='The death of an American woman inside Philip Nitschke’s latest invention reveals the next frontier in the right-to-die debate.'
+2024-10-15 12:25:14,060 - INFO - clean content - clean_content='The death of an American woman inside Philip Nitschke’s latest invention reveals the next frontier in the right-to-die debate.'
+2024-10-15 12:25:14,061 - INFO - Generating summary with BART model
+2024-10-15 12:25:19,578 - INFO - Generating summary with BART model
+2024-10-15 12:25:25,092 - INFO - full_tweet='The death of an American woman inside Philip Nitschke’s latest invention reveals the next frontier in the..[read more👇🏼] #invention #American https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/'
+2024-10-15 12:25:25,343 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846165480051966246'], 'text': 'The death of an American woman inside Philip Nitschke’s latest invention reveals the next frontier in the..[read more👇🏼] #invention #American https://t.co/HAsjlcm4Fz', 'id': '1846165480051966246'}, includes={}, errors=[], meta={})
+2024-10-15 12:25:25,343 - INFO - Saved posted URL: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/ at 2024-10-15 12:25:25
+2024-10-15 12:25:25,343 - INFO - Tweet link saved successfully.
+2024-10-15 12:25:25,343 - INFO - Sleeping for 8 minutes and 25 seconds.
+2024-10-15 12:33:50,344 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2600/0*BQ7o4-UhuzcjB6aN" width="2600" /></a></p><p class="medium-feed-snippet">The 4 big challenges of building AI products</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-15 12:33:50,344 - INFO - clean content - clean_content='The 4 big challenges of building AI productsContinue reading on Towards Data Science »'
+2024-10-15 12:33:50,344 - INFO - Generating summary with BART model
+2024-10-15 12:33:55,139 - INFO - Generating summary with BART model
+2024-10-15 12:33:59,914 - INFO - full_tweet='The 4 big challenges of building AI products. The 4 big challenge of buildingAI products. How do we build..[read more👇🏼] #data #AI https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4'
+2024-10-15 12:34:00,173 - INFO - Tweet posted successfully: Response(data={'id': '1846167639401414922', 'text': 'The 4 big challenges of building AI products. The 4 big challenge of buildingAI products. How do we build..[read more👇🏼] #data #AI https://t.co/YjhFmPSlWA', 'edit_history_tweet_ids': ['1846167639401414922']}, includes={}, errors=[], meta={})
+2024-10-15 12:34:00,173 - INFO - Saved posted URL: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4 at 2024-10-15 12:34:00
+2024-10-15 12:34:00,173 - INFO - Tweet link saved successfully.
+2024-10-15 12:34:00,173 - INFO - Sleeping for 4 minutes and 58 seconds.
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/
+2024-10-15 12:38:58,173 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/casio-launches-ai-powered-furry-robot-pet-that-wants-to-replace-your-dog
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/nvidia-the-ai-chipmaker-just-hit-another-record-high/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-15 12:38:58,174 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
