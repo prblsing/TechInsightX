@@ -1,0 +1,83 @@
+2024-10-15 13:22:01,274 - INFO - Starting configuration setup
+2024-10-15 13:22:01,274 - INFO - Environment variables loaded successfully
+2024-10-15 13:22:01,274 - INFO - Twitter API client initialized successfully
+2024-10-15 13:22:03,159 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 13:22:09,793 - INFO - Summarization model initialized successfully
+2024-10-15 13:22:09,793 - INFO - Starting tweet scheduling
+2024-10-15 13:22:09,793 - INFO - Tweeting process started at 2024-10-15 13:22:09.793763!
+2024-10-15 13:22:09,794 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 13:22:09,794 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 13:22:24,254 - INFO - Total entries found: 587
+2024-10-15 13:22:24,257 - INFO - Recent AI-related entries found: 16
+2024-10-15 13:22:24,257 - INFO - Input content - content='<p>Amplitude, a publicly-traded company that makes digital analytics software, has acquired Command AI, an app user engagement startup formerly known as CommandBar. Most of Command AI&#8217;s 30-person, San Francisco-based team will be joining Amplitude. Command AI&#8217;s co-founder and CEO James Evans wouldn&#8217;t reveal the terms of the deal, but said candidly that an acquisition wasn&#8217;t [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 13:22:24,257 - INFO - clean content - clean_content='Amplitude, a publicly-traded company that makes digital analytics software, has acquired Command AI, an app user engagement startup formerly known as CommandBar. Most of Command AI’s 30-person, San Francisco-based team will be joining Amplitude. Command AI’s co-founder and CEO James Evans wouldn’t reveal the terms of the deal, but said candidly that an acquisition wasn’t […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 13:22:24,257 - INFO - Generating summary with BART model
+2024-10-15 13:22:29,818 - INFO - Generating summary with BART model
+2024-10-15 13:22:34,675 - INFO - full_tweet='Command AI is an app user engagement startup formerly known as CommandBar. Most of Command AI’s..[read more👇🏼] #AI #startup https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/'
+2024-10-15 13:22:34,955 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846179864811897102'], 'id': '1846179864811897102', 'text': 'Command AI is an app user engagement startup formerly known as CommandBar. Most of Command AI’s..[read more👇🏼] #AI #startup https://t.co/FsyWR2zkow'}, includes={}, errors=[], meta={})
+2024-10-15 13:22:34,955 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/ at 2024-10-15 13:22:34
+2024-10-15 13:22:34,955 - INFO - Tweet link saved successfully.
+2024-10-15 13:22:34,955 - INFO - Sleeping for 3 minutes and 40 seconds.
+2024-10-15 13:26:14,955 - INFO - Input content - content='<p>Ruben Harris and Timur Meyster, the founders of the upskilling platform Career Karma, announced today the launch of the company OutRival, which offers a service that hosts and lets businesses build their own customer service agents to take on customer interactions. AI agent companies are hot right now, and AI is one of the only [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 13:26:14,956 - INFO - clean content - clean_content='Ruben Harris and Timur Meyster, the founders of the upskilling platform Career Karma, announced today the launch of the company OutRival, which offers a service that hosts and lets businesses build their own customer service agents to take on customer interactions. AI agent companies are hot right now, and AI is one of the only […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 13:26:14,956 - INFO - Generating summary with BART model
+2024-10-15 13:26:21,938 - INFO - Generating summary with BART model
+2024-10-15 13:26:28,906 - INFO - full_tweet='Ruben Harris and Timur Meyster, the founders of the upskilling platform Career Karma, announced today the..[read more👇🏼] #service #upskilling https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/'
+2024-10-15 13:26:29,115 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846180846962680160'], 'text': 'Ruben Harris and Timur Meyster, the founders of the upskilling platform Career Karma, announced today the..[read more👇🏼] #service #upskilling https://t.co/nfGaXYNi1R', 'id': '1846180846962680160'}, includes={}, errors=[], meta={})
+2024-10-15 13:26:29,116 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/ at 2024-10-15 13:26:29
+2024-10-15 13:26:29,116 - INFO - Tweet link saved successfully.
+2024-10-15 13:26:29,116 - INFO - Sleeping for 9 minutes and 3 seconds.
+2024-10-15 13:35:32,116 - INFO - Input content - content='<p>After bringing generative AI to Search in 2023, Google is supercharging its Shopping tab with the technology. The company announced on Tuesday that it will use AI to help users shop for products based on exactly what they’re looking for. It also launched a new scrollable feed of personalized, shoppable products.\xa0 Now, when you search [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 13:35:32,116 - INFO - clean content - clean_content='After bringing generative AI to Search in 2023, Google is supercharging its Shopping tab with the technology. The company announced on Tuesday that it will use AI to help users shop for products based on exactly what they’re looking for. It also launched a new scrollable feed of personalized, shoppable products. Now, when you search […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 13:35:32,116 - INFO - Generating summary with BART model
+2024-10-15 13:35:38,989 - INFO - Generating summary with BART model
+2024-10-15 13:35:45,944 - INFO - full_tweet='Google will use AI to help users shop for products based on exactly what they’re looking for. It also..[read more👇🏼] #AI #products https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/'
+2024-10-15 13:35:46,213 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846183183617794430'], 'id': '1846183183617794430', 'text': 'Google will use AI to help users shop for products based on exactly what they’re looking for. It also..[read more👇🏼] #AI #products https://t.co/pPlBv9p7DW'}, includes={}, errors=[], meta={})
+2024-10-15 13:35:46,213 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/ at 2024-10-15 13:35:46
+2024-10-15 13:35:46,214 - INFO - Tweet link saved successfully.
+2024-10-15 13:35:46,214 - INFO - Sleeping for 5 minutes and 15 seconds.
+2024-10-15 13:41:01,214 - INFO - Input content - content='<p>Creating engaging videos isn&#8217;t only about the visuals. So much of the appeal of good video content is about the audio, but finding (or maybe even creating) the right audio effects can be a time-consuming process. At its annual Max conference, Adobe is showing off Project Super Sonic, an experimental prototype demo that shows how [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 13:41:01,214 - INFO - clean content - clean_content='Creating engaging videos isn’t only about the visuals. So much of the appeal of good video content is about the audio, but finding (or maybe even creating) the right audio effects can be a time-consuming process. At its annual Max conference, Adobe is showing off Project Super Sonic, an experimental prototype demo that shows how […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 13:41:01,214 - INFO - Generating summary with BART model
+2024-10-15 13:41:06,074 - INFO - Generating summary with BART model
+2024-10-15 13:41:10,900 - INFO - full_tweet='Adobe is showing off Project Super Sonic, an experimental prototype demo that shows how audio effects can..[read more👇🏼] #showing #off https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/'
+2024-10-15 13:41:11,184 - INFO - Tweet posted successfully: Response(data={'id': '1846184546607223074', 'text': 'Adobe is showing off Project Super Sonic, an experimental prototype demo that shows how audio effects can..[read more👇🏼] #showing #off https://t.co/zP97yYwEdR', 'edit_history_tweet_ids': ['1846184546607223074']}, includes={}, errors=[], meta={})
+2024-10-15 13:41:11,184 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/ at 2024-10-15 13:41:11
+2024-10-15 13:41:11,184 - INFO - Tweet link saved successfully.
+2024-10-15 13:41:11,184 - INFO - Sleeping for 3 minutes and 2 seconds.
+2024-10-15 13:44:13,184 - INFO - Input content - content='<p>Five-year-old AI customer service startup Neuron7 just closed an oversubscribed $44 million series B round led by Keith Block and his year-and-half-old venture firm, Smith Point Capital. Neuron7 sits in one of the most promising areas for AI technology: customer service. But unlike the hoards of ChatGPT customer chatbot startups, or those doing natural language [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 13:44:13,185 - INFO - clean content - clean_content='Five-year-old AI customer service startup Neuron7 just closed an oversubscribed $44 million series B round led by Keith Block and his year-and-half-old venture firm, Smith Point Capital. Neuron7 sits in one of the most promising areas for AI technology: customer service. But unlike the hoards of ChatGPT customer chatbot startups, or those doing natural language […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 13:44:13,185 - INFO - Generating summary with BART model
+2024-10-15 13:44:19,552 - INFO - Generating summary with BART model
+2024-10-15 13:44:25,950 - INFO - full_tweet='Neuron7 just closed an oversubscribed $44 million series B round led by Keith Block and his..[read more👇🏼] #technology #AI https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/'
+2024-10-15 13:44:26,157 - INFO - Tweet posted successfully: Response(data={'text': 'Neuron7 just closed an oversubscribed $44 million series B round led by Keith Block and his..[read more👇🏼] #technology #AI https://t.co/9jwdViyNSi', 'edit_history_tweet_ids': ['1846185364395851888'], 'id': '1846185364395851888'}, includes={}, errors=[], meta={})
+2024-10-15 13:44:26,157 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/ at 2024-10-15 13:44:26
+2024-10-15 13:44:26,157 - INFO - Tweet link saved successfully.
+2024-10-15 13:44:26,157 - INFO - Sleeping for 4 minutes and 53 seconds.
+2024-10-15 13:49:19,158 - INFO - Input content - content="The Times believes Perplexity is scraping its content without permission. Perplexity has said its bot adheres to websites' rules."
+2024-10-15 13:49:19,158 - INFO - clean content - clean_content="The Times believes Perplexity is scraping its content without permission. Perplexity has said its bot adheres to websites' rules."
+2024-10-15 13:49:19,158 - INFO - Generating summary with BART model
+2024-10-15 13:49:23,752 - INFO - Generating summary with BART model
+2024-10-15 13:49:28,335 - INFO - full_tweet="Perplexity has said its bot adheres to websites' rules. The Times believes Perplexity is scraping its..[read more👇🏼] #Perplexity #its https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report"
+2024-10-15 13:49:28,604 - INFO - Tweet posted successfully: Response(data={'id': '1846186633005039739', 'text': "Perplexity has said its bot adheres to websites' rules. The Times believes Perplexity is scraping its..[read more👇🏼] #Perplexity #its https://t.co/5Pqwir6CST", 'edit_history_tweet_ids': ['1846186633005039739']}, includes={}, errors=[], meta={})
+2024-10-15 13:49:28,604 - INFO - Saved posted URL: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report at 2024-10-15 13:49:28
+2024-10-15 13:49:28,604 - INFO - Tweet link saved successfully.
+2024-10-15 13:49:28,604 - INFO - Sleeping for 5 minutes and 33 seconds.
+2024-10-15 13:55:01,604 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/
+2024-10-15 13:55:01,605 - INFO - Input content - content="MasterClass's three-part Generative AI series helped me connect to artificial intelligence for work and in everyday life. Here's what I learned."
+2024-10-15 13:55:01,605 - INFO - clean content - clean_content="MasterClass's three-part Generative AI series helped me connect to artificial intelligence for work and in everyday life. Here's what I learned."
+2024-10-15 13:55:01,605 - INFO - Generating summary with BART model
+2024-10-15 13:55:06,090 - INFO - Generating summary with BART model
+2024-10-15 13:55:10,577 - INFO - full_tweet="MasterClass's three-part Generative AI series helped me connect to artificial intelligence for work and..[read more👇🏼] #AI #s https://www.cnet.com/tech/services-and-software/i-paid-for-a-90-minute-ai-master-class-and-havent-stopped-using-ai-since/#ftag=CAD590a51e"
+2024-10-15 13:55:10,850 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846188068455297319'], 'text': "MasterClass's three-part Generative AI series helped me connect to artificial intelligence for work and..[read more👇🏼] #AI #s https://t.co/yl7mlj1xPz", 'id': '1846188068455297319'}, includes={}, errors=[], meta={})
+2024-10-15 13:55:10,850 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/i-paid-for-a-90-minute-ai-master-class-and-havent-stopped-using-ai-since/#ftag=CAD590a51e at 2024-10-15 13:55:10
+2024-10-15 13:55:10,850 - INFO - Tweet link saved successfully.
+2024-10-15 13:55:10,850 - INFO - Sleeping for 4 minutes and 41 seconds.
+2024-10-15 13:59:51,850 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 13:59:51,850 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 13:59:51,850 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 13:59:51,850 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 13:59:51,850 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 13:59:51,851 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/
+2024-10-15 13:59:51,851 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 13:59:51,851 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
