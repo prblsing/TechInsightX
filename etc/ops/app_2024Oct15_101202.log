@@ -1,0 +1,39 @@
+2024-10-15 10:12:02,126 - INFO - Starting configuration setup
+2024-10-15 10:12:02,127 - INFO - Environment variables loaded successfully
+2024-10-15 10:12:02,127 - INFO - Twitter API client initialized successfully
+2024-10-15 10:12:04,144 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 10:12:11,825 - INFO - Summarization model initialized successfully
+2024-10-15 10:12:11,825 - INFO - Starting tweet scheduling
+2024-10-15 10:12:11,825 - INFO - Tweeting process started at 2024-10-15 10:12:11.825615!
+2024-10-15 10:12:11,996 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 10:12:11,996 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 10:12:26,748 - INFO - Total entries found: 616
+2024-10-15 10:12:26,751 - INFO - Recent AI-related entries found: 12
+2024-10-15 10:12:26,751 - INFO - Input content - content='<p>In a typical organization, finance is one of the most important functions. Yet teams are often bogged down by manual workflows. According to a survey by Paylocity, an HR software provider, 38% of finance teams spend more than a fourth of their time on manual jobs, like reviewing invoices. Matthieu Hafemeister, an ex-fintech investor at [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 10:12:26,752 - INFO - clean content - clean_content='In a typical organization, finance is one of the most important functions. Yet teams are often bogged down by manual workflows. According to a survey by Paylocity, an HR software provider, 38% of finance teams spend more than a fourth of their time on manual jobs, like reviewing invoices. Matthieu Hafemeister, an ex-fintech investor at […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 10:12:26,752 - INFO - Generating summary with BART model
+2024-10-15 10:12:32,929 - INFO - Generating summary with BART model
+2024-10-15 10:12:38,299 - INFO - full_tweet='38% of finance teams spend more than a fourth of their time on manual jobs, like reviewing invoices...[read more👇🏼] #fintech #Hafemeister https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/'
+2024-10-15 10:12:38,556 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846132064858292338'], 'id': '1846132064858292338', 'text': '38% of finance teams spend more than a fourth of their time on manual jobs, like reviewing invoices...[read more👇🏼] #fintech #Hafemeister https://t.co/PhTtQCkSOh'}, includes={}, errors=[], meta={})
+2024-10-15 10:12:38,556 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/ at 2024-10-15 10:12:38
+2024-10-15 10:12:38,556 - INFO - Tweet link saved successfully.
+2024-10-15 10:12:38,556 - INFO - Sleeping for 7 minutes and 56 seconds.
+2024-10-15 10:20:34,556 - INFO - Input content - content='Casio says its new AI robot pet Moflin can develop a personality – should your dog be worried?'
+2024-10-15 10:20:34,556 - INFO - clean content - clean_content='Casio says its new AI robot pet Moflin can develop a personality – should your dog be worried?'
+2024-10-15 10:20:34,556 - INFO - Generating summary with BART model
+2024-10-15 10:20:40,243 - INFO - Generating summary with BART model
+2024-10-15 10:20:45,947 - INFO - full_tweet='Casio says its new AI robot pet Moflin can develop a personality – should your dog be worried? Casio says..[read more👇🏼] #AI #personality https://www.techradar.com/computing/artificial-intelligence/casio-launches-ai-powered-furry-robot-pet-that-wants-to-replace-your-dog'
+2024-10-15 10:20:46,187 - INFO - Tweet posted successfully: Response(data={'text': 'Casio says its new AI robot pet Moflin can develop a personality – should your dog be worried? Casio says..[read more👇🏼] #AI #personality https://t.co/zS1SqxuWcx', 'id': '1846134110198071492', 'edit_history_tweet_ids': ['1846134110198071492']}, includes={}, errors=[], meta={})
+2024-10-15 10:20:46,187 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/casio-launches-ai-powered-furry-robot-pet-that-wants-to-replace-your-dog at 2024-10-15 10:20:46
+2024-10-15 10:20:46,187 - INFO - Tweet link saved successfully.
+2024-10-15 10:20:46,187 - INFO - Sleeping for 8 minutes and 53 seconds.
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/nvidia-the-ai-chipmaker-just-hit-another-record-high/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-15 10:29:39,188 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
