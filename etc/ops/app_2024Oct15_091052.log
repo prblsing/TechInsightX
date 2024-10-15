@@ -1,0 +1,22 @@
+2024-10-15 09:10:52,816 - INFO - Starting configuration setup
+2024-10-15 09:10:52,816 - INFO - Environment variables loaded successfully
+2024-10-15 09:10:52,816 - INFO - Twitter API client initialized successfully
+2024-10-15 09:10:54,682 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 09:11:02,781 - INFO - Summarization model initialized successfully
+2024-10-15 09:11:02,781 - INFO - Starting tweet scheduling
+2024-10-15 09:11:02,782 - INFO - Tweeting process started at 2024-10-15 09:11:02.782058!
+2024-10-15 09:11:02,782 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 09:11:02,782 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 09:11:23,042 - INFO - Total entries found: 587
+2024-10-15 09:11:23,045 - INFO - Recent AI-related entries found: 11
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/nvidia-the-ai-chipmaker-just-hit-another-record-high/
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-15 09:11:23,045 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
