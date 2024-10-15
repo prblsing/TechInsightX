@@ -1,0 +1,51 @@
+2024-10-15 16:11:47,587 - INFO - Starting configuration setup
+2024-10-15 16:11:47,588 - INFO - Environment variables loaded successfully
+2024-10-15 16:11:47,588 - INFO - Twitter API client initialized successfully
+2024-10-15 16:11:49,476 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 16:11:56,188 - INFO - Summarization model initialized successfully
+2024-10-15 16:11:56,189 - INFO - Starting tweet scheduling
+2024-10-15 16:11:56,189 - INFO - Tweeting process started at 2024-10-15 16:11:56.189133!
+2024-10-15 16:11:56,480 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 16:11:56,480 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 16:12:13,191 - INFO - Total entries found: 616
+2024-10-15 16:12:13,194 - INFO - Recent AI-related entries found: 24
+2024-10-15 16:12:13,194 - INFO - Input content - content='The Microsoft Copilot-powered business laptop is a lightweight powerhouse with a sleek new design.'
+2024-10-15 16:12:13,194 - INFO - clean content - clean_content='The Microsoft Copilot-powered business laptop is a lightweight powerhouse with a sleek new design.'
+2024-10-15 16:12:13,194 - INFO - Generating summary with BART model
+2024-10-15 16:12:18,133 - INFO - Generating summary with BART model
+2024-10-15 16:12:22,351 - INFO - full_tweet="The Microsoft Copilot-powered business laptop is a lightweight powerhouse with a sleek new design. It's..[read more👇🏼] #lightweight #powerhouse https://www.techradar.com/pro/dynabook-launches-worlds-lightest-ai-powered-laptop"
+2024-10-15 16:12:22,702 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846222595156332545'], 'id': '1846222595156332545', 'text': "The Microsoft Copilot-powered business laptop is a lightweight powerhouse with a sleek new design. It's..[read more👇🏼] #lightweight #powerhouse https://t.co/1YDBLwaNuw"}, includes={}, errors=[], meta={})
+2024-10-15 16:12:22,703 - INFO - Saved posted URL: https://www.techradar.com/pro/dynabook-launches-worlds-lightest-ai-powered-laptop at 2024-10-15 16:12:22
+2024-10-15 16:12:22,703 - INFO - Tweet link saved successfully.
+2024-10-15 16:12:22,703 - INFO - Sleeping for 7 minutes and 27 seconds.
+2024-10-15 16:19:49,703 - INFO - Input content - content='<p>Arm said that a year from its introduction, the Arm Total Design ecosystem has doubled in size, drivingglobal silicon innovation for sustinability. Datacenters are constantly challenged to balance power demands with the growth of AI workloads, the increasing cost and complexity of developing chips, and the need for sustainability, Arm said. Eddie Ramirez, vice president&#160;[&#8230;]\n</p>'
+2024-10-15 16:19:49,703 - INFO - clean content - clean_content='Arm said that a year from its introduction, the Arm Total Design ecosystem has doubled in size, drivingglobal silicon innovation for sustinability. Datacenters are constantly challenged to balance power demands with the growth of AI workloads, the increasing cost and complexity of developing chips, and the need for sustainability, Arm said. Eddie Ramirez, vice president\xa0[…]'
+2024-10-15 16:19:49,704 - INFO - Generating summary with BART model
+2024-10-15 16:19:54,781 - INFO - Generating summary with BART model
+2024-10-15 16:19:59,830 - INFO - full_tweet='Arm said that a year from its introduction, the Arm Total Design ecosystem has doubled in size...[read more👇🏼] #AI #Arm https://venturebeat.com/ai/arm-touts-growing-ecosystem-of-sustainable-ai-datacenter-silicon/'
+2024-10-15 16:20:00,225 - INFO - Tweet posted successfully: Response(data={'text': 'Arm said that a year from its introduction, the Arm Total Design ecosystem has doubled in size...[read more👇🏼] #AI #Arm https://t.co/NfbmGfdxT7', 'id': '1846224514310410612', 'edit_history_tweet_ids': ['1846224514310410612']}, includes={}, errors=[], meta={})
+2024-10-15 16:20:00,225 - INFO - Saved posted URL: https://venturebeat.com/ai/arm-touts-growing-ecosystem-of-sustainable-ai-datacenter-silicon/ at 2024-10-15 16:20:00
+2024-10-15 16:20:00,225 - INFO - Tweet link saved successfully.
+2024-10-15 16:20:00,225 - INFO - Sleeping for 3 minutes and 44 seconds.
+2024-10-15 16:23:44,225 - INFO - This link is already posted: https://www.techradar.com/pro/the-rise-of-agentic-ai-what-does-it-mean-for-businesses
+2024-10-15 16:23:44,225 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/
+2024-10-15 16:23:44,225 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/
+2024-10-15 16:23:44,225 - INFO - This link is already posted: https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 16:23:44,226 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 16:23:44,227 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
