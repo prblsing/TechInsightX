@@ -1,0 +1,66 @@
+2024-10-15 14:09:47,188 - INFO - Starting configuration setup
+2024-10-15 14:09:47,189 - INFO - Environment variables loaded successfully
+2024-10-15 14:09:47,189 - INFO - Twitter API client initialized successfully
+2024-10-15 14:09:49,096 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 14:09:55,699 - INFO - Summarization model initialized successfully
+2024-10-15 14:09:55,699 - INFO - Starting tweet scheduling
+2024-10-15 14:09:55,700 - INFO - Tweeting process started at 2024-10-15 14:09:55.700064!
+2024-10-15 14:09:55,700 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 14:09:55,700 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 14:10:11,358 - INFO - Total entries found: 616
+2024-10-15 14:10:11,361 - INFO - Recent AI-related entries found: 23
+2024-10-15 14:10:11,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 14:10:11,361 - INFO - Input content - content="The search giant is tapping Gemini to supercharge its Shopping platform. It's also adding a new personalized deals page."
+2024-10-15 14:10:11,361 - INFO - clean content - clean_content="The search giant is tapping Gemini to supercharge its Shopping platform. It's also adding a new personalized deals page."
+2024-10-15 14:10:11,362 - INFO - Generating summary with BART model
+2024-10-15 14:10:16,636 - INFO - Generating summary with BART model
+2024-10-15 14:10:21,220 - INFO - full_tweet='Google is adding a new personalized deals page. The search giant is tapping Gemini to supercharge its..[read more👇🏼] #personalized #adding https://www.cnet.com/tech/mobile/google-shopping-will-now-use-ai-to-surface-more-relevant-products-and-deals/#ftag=CAD590a51e'
+2024-10-15 14:10:21,508 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846191888061042719'], 'text': 'Google is adding a new personalized deals page. The search giant is tapping Gemini to supercharge its..[read more👇🏼] #personalized #adding https://t.co/fBo0JGPXfY', 'id': '1846191888061042719'}, includes={}, errors=[], meta={})
+2024-10-15 14:10:21,508 - INFO - Saved posted URL: https://www.cnet.com/tech/mobile/google-shopping-will-now-use-ai-to-surface-more-relevant-products-and-deals/#ftag=CAD590a51e at 2024-10-15 14:10:21
+2024-10-15 14:10:21,508 - INFO - Tweet link saved successfully.
+2024-10-15 14:10:21,508 - INFO - Sleeping for 4 minutes and 13 seconds.
+2024-10-15 14:14:34,508 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 14:14:34,509 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 14:14:34,509 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 14:14:34,509 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 14:14:34,509 - INFO - Input content - content='DataStax looks to improve enterprise AI production deployment with Nvidia, using Langflow as the center for building agentic AI workflows.'
+2024-10-15 14:14:34,509 - INFO - clean content - clean_content='DataStax looks to improve enterprise AI production deployment with Nvidia, using Langflow as the center for building agentic AI workflows.'
+2024-10-15 14:14:34,509 - INFO - Generating summary with BART model
+2024-10-15 14:14:39,610 - INFO - Generating summary with BART model
+2024-10-15 14:14:44,690 - INFO - full_tweet='DataStax looks to improve enterprise AI production deployment with Nvidia. DataStax will use Langflow as..[read more👇🏼] #AI #enterprise https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/'
+2024-10-15 14:14:44,894 - INFO - Tweet posted successfully: Response(data={'id': '1846192992752689659', 'text': 'DataStax looks to improve enterprise AI production deployment with Nvidia. DataStax will use Langflow as..[read more👇🏼] #AI #enterprise https://t.co/yhsIGn4Yvq', 'edit_history_tweet_ids': ['1846192992752689659']}, includes={}, errors=[], meta={})
+2024-10-15 14:14:44,894 - INFO - Saved posted URL: https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/ at 2024-10-15 14:14:44
+2024-10-15 14:14:44,894 - INFO - Tweet link saved successfully.
+2024-10-15 14:14:44,894 - INFO - Sleeping for 6 minutes and 11 seconds.
+2024-10-15 14:20:55,894 - INFO - Input content - content='Strella, an AI-powered market research startup, raises $4 million in seed funding to automate and accelerate customer insights, delivering results 10x faster and at half the cost of traditional methods.'
+2024-10-15 14:20:55,895 - INFO - clean content - clean_content='Strella, an AI-powered market research startup, raises $4 million in seed funding to automate and accelerate customer insights, delivering results 10x faster and at half the cost of traditional methods.'
+2024-10-15 14:20:55,895 - INFO - Generating summary with BART model
+2024-10-15 14:21:01,467 - INFO - Generating summary with BART model
+2024-10-15 14:21:06,785 - INFO - full_tweet='Strella, an AI-powered market research startup, raises $4 million in seed funding to automate and..[read more👇🏼] #startup #AI https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/'
+2024-10-15 14:21:07,080 - INFO - Tweet posted successfully: Response(data={'id': '1846194595773677678', 'edit_history_tweet_ids': ['1846194595773677678'], 'text': 'Strella, an AI-powered market research startup, raises $4 million in seed funding to automate and..[read more👇🏼] #startup #AI https://t.co/dAKCDjuPfV'}, includes={}, errors=[], meta={})
+2024-10-15 14:21:07,081 - INFO - Saved posted URL: https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/ at 2024-10-15 14:21:07
+2024-10-15 14:21:07,081 - INFO - Tweet link saved successfully.
+2024-10-15 14:21:07,081 - INFO - Sleeping for 6 minutes and 38 seconds.
+2024-10-15 14:27:45,081 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 14:27:45,081 - INFO - Input content - content="If you're hosting this year, it's probably time to start planning for Thanksgiving dinner."
+2024-10-15 14:27:45,081 - INFO - clean content - clean_content="If you're hosting this year, it's probably time to start planning for Thanksgiving dinner."
+2024-10-15 14:27:45,081 - INFO - Generating summary with BART model
+2024-10-15 14:27:49,846 - INFO - Generating summary with BART model
+2024-10-15 14:27:54,601 - INFO - full_tweet='CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each..[read more👇🏼] #gallery #Travel https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving/#ftag=CAD590a51e'
+2024-10-15 14:27:55,070 - INFO - Tweet posted successfully: Response(data={'id': '1846196306051543531', 'edit_history_tweet_ids': ['1846196306051543531'], 'text': 'https://t.co/O2xYLX2Kvt will feature iReporter photos in a weekly Travel Snapshots gallery. Visit https://t.co/f5cYc5MNFo each..[read more👇🏼] #gallery #Travel https://t.co/Ln6F3iZPmc'}, includes={}, errors=[], meta={})
+2024-10-15 14:27:55,070 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-to-use-ai-to-plan-your-thanksgiving/#ftag=CAD590a51e at 2024-10-15 14:27:55
+2024-10-15 14:27:55,070 - INFO - Tweet link saved successfully.
+2024-10-15 14:27:55,070 - INFO - Sleeping for 3 minutes and 40 seconds.
+2024-10-15 14:31:35,070 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/simplisafes-new-outdoor-monitoring-service-combines-ai-with-human-agents/
+2024-10-15 14:31:35,070 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/i-paid-for-a-90-minute-ai-master-class-and-havent-stopped-using-ai-since/#ftag=CAD590a51e
+2024-10-15 14:31:35,070 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 14:31:35,070 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 14:31:35,071 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
