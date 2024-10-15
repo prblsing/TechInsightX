@@ -1,0 +1,36 @@
+2024-10-15 20:10:59,112 - INFO - Starting configuration setup
+2024-10-15 20:10:59,113 - INFO - Environment variables loaded successfully
+2024-10-15 20:10:59,113 - INFO - Twitter API client initialized successfully
+2024-10-15 20:11:01,031 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 20:11:07,665 - INFO - Summarization model initialized successfully
+2024-10-15 20:11:07,666 - INFO - Starting tweet scheduling
+2024-10-15 20:11:07,666 - INFO - Tweeting process started at 2024-10-15 20:11:07.666275!
+2024-10-15 20:11:07,667 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 20:11:07,667 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 20:11:24,783 - INFO - Total entries found: 587
+2024-10-15 20:11:24,786 - INFO - Recent AI-related entries found: 25
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/keeps-aiops-platform-helps-ops-teams-reduce-alert-fatigue/
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://towardsdatascience.com/i-built-an-ai-human-level-game-player-31b78df8aca3?source=rss----7f60cf5620c9---4
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/white-house-considers-expanding-nvidia-and-amds-ai-chip-export-limits-to-additional-countries/
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://www.theverge.com/2024/10/15/24270774/new-york-times-cease-and-desist-letter-perplexity-ai-search-engine
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide
+2024-10-15 20:11:24,786 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ive-seen-the-new-ai-collar-that-lets-your-dog-talk-and-its-as-wild-as-it-sounds
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.techradar.com/pro/dynabook-launches-worlds-lightest-ai-powered-laptop
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 20:11:24,787 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
