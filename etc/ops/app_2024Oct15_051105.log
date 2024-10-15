@@ -1,0 +1,34 @@
+2024-10-15 05:11:05,614 - INFO - Starting configuration setup
+2024-10-15 05:11:05,615 - INFO - Environment variables loaded successfully
+2024-10-15 05:11:05,616 - INFO - Twitter API client initialized successfully
+2024-10-15 05:11:07,553 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 05:11:15,768 - INFO - Summarization model initialized successfully
+2024-10-15 05:11:15,768 - INFO - Starting tweet scheduling
+2024-10-15 05:11:15,768 - INFO - Tweeting process started at 2024-10-15 05:11:15.768498!
+2024-10-15 05:11:15,999 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 05:11:15,999 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 05:11:31,249 - INFO - Total entries found: 616
+2024-10-15 05:11:31,253 - INFO - Recent AI-related entries found: 15
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/nvidia-the-ai-chipmaker-just-hit-another-record-high/
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-15 05:11:31,253 - INFO - This link is already posted: https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream
+2024-10-15 05:11:31,253 - INFO - Input content - content='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI feedback.'
+2024-10-15 05:11:31,254 - INFO - clean content - clean_content='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI feedback.'
+2024-10-15 05:11:31,254 - INFO - Generating summary with BART model
+2024-10-15 05:11:37,631 - INFO - Generating summary with BART model
+2024-10-15 05:11:43,287 - INFO - full_tweet='PlayVS has partnered with Omnic.AI, a self-service platform that helps gamers player smarter with AI..[read more👇🏼] #AI #with https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/'
+2024-10-15 05:11:43,541 - INFO - Tweet posted successfully: Response(data={'text': 'PlayVS has partnered with https://t.co/awGvDkiWmI, a self-service platform that helps gamers player smarter with AI..[read more👇🏼] #AI #with https://t.co/yufjw73Lg8', 'edit_history_tweet_ids': ['1846056336762773993'], 'id': '1846056336762773993'}, includes={}, errors=[], meta={})
+2024-10-15 05:11:43,542 - INFO - Saved posted URL: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/ at 2024-10-15 05:11:43
+2024-10-15 05:11:43,542 - INFO - Tweet link saved successfully.
+2024-10-15 05:11:43,542 - INFO - Sleeping for 9 minutes and 30 seconds.
+2024-10-15 05:21:13,542 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
+2024-10-15 05:21:13,542 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/after-selling-his-last-ai-startup-to-meta-beyond-presences-founder-nabs-3-1m-to-build-realistic-avatars/
