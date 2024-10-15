@@ -1,0 +1,57 @@
+2024-10-15 11:08:33,880 - INFO - Starting configuration setup
+2024-10-15 11:08:33,881 - INFO - Environment variables loaded successfully
+2024-10-15 11:08:33,881 - INFO - Twitter API client initialized successfully
+2024-10-15 11:08:35,818 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 11:08:44,928 - INFO - Summarization model initialized successfully
+2024-10-15 11:08:44,928 - INFO - Starting tweet scheduling
+2024-10-15 11:08:44,928 - INFO - Tweeting process started at 2024-10-15 11:08:44.928862!
+2024-10-15 11:08:45,149 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 11:08:45,149 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 11:09:03,685 - INFO - Total entries found: 606
+2024-10-15 11:09:03,688 - INFO - Recent AI-related entries found: 14
+2024-10-15 11:09:03,688 - INFO - Input content - content='Andrew Rabinovich began his career in technology working on AI applications for cancer detection. He also spent time at Google, working on early iterations of products like Google Glass. Now at Upwork, as vice president and head of AI and machine learning, Andrew and his team are working to enhance the digital labor platform’s capabilities [&#8230;]'
+2024-10-15 11:09:03,689 - INFO - clean content - clean_content='Andrew Rabinovich began his career in technology working on AI applications for cancer detection. He also spent time at Google, working on early iterations of products like Google Glass. Now at Upwork, as vice president and head of AI and machine learning, Andrew and his team are working to enhance the digital labor platform’s capabilities […]'
+2024-10-15 11:09:03,689 - INFO - Generating summary with BART model
+2024-10-15 11:09:10,945 - INFO - Generating summary with BART model
+2024-10-15 11:09:17,465 - INFO - full_tweet='Andrew Rabinovich began his career in technology working on AI applications for cancer detection. He also..[read more👇🏼] #technology #AI https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/'
+2024-10-15 11:09:17,774 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846146322296144267'], 'id': '1846146322296144267', 'text': 'Andrew Rabinovich began his career in technology working on AI applications for cancer detection. He also..[read more👇🏼] #technology #AI https://t.co/QMt65bsb6P'}, includes={}, errors=[], meta={})
+2024-10-15 11:09:17,774 - INFO - Saved posted URL: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/ at 2024-10-15 11:09:17
+2024-10-15 11:09:17,774 - INFO - Tweet link saved successfully.
+2024-10-15 11:09:17,774 - INFO - Sleeping for 9 minutes and 42 seconds.
+2024-10-15 11:18:59,775 - INFO - Input content - content='Global Intelligence claims its Cybercheck technology can help cops find key evidence to nail a case. But a WIRED investigation reveals the smoking gun often appears far less solid.'
+2024-10-15 11:18:59,775 - INFO - clean content - clean_content='Global Intelligence claims its Cybercheck technology can help cops find key evidence to nail a case. But a WIRED investigation reveals the smoking gun often appears far less solid.'
+2024-10-15 11:18:59,775 - INFO - Generating summary with BART model
+2024-10-15 11:19:04,160 - INFO - Generating summary with BART model
+2024-10-15 11:19:08,425 - INFO - full_tweet='Global Intelligence claims its Cybercheck technology can help cops find key evidence to nail a case. But..[read more👇🏼] #technology #investigation https://www.wired.com/story/cybercheck-crime-reports-prosecutions/'
+2024-10-15 11:19:08,709 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846148800865513868'], 'id': '1846148800865513868', 'text': 'Global Intelligence claims its Cybercheck technology can help cops find key evidence to nail a case. But..[read more👇🏼] #technology #investigation https://t.co/PAecRPr6sg'}, includes={}, errors=[], meta={})
+2024-10-15 11:19:08,709 - INFO - Saved posted URL: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/ at 2024-10-15 11:19:08
+2024-10-15 11:19:08,709 - INFO - Tweet link saved successfully.
+2024-10-15 11:19:08,709 - INFO - Sleeping for 4 minutes and 50 seconds.
+2024-10-15 11:23:58,709 - INFO - Input content - content='Gladia, an AI transcription and audio intelligence provider, has raised $16 million in funding.'
+2024-10-15 11:23:58,710 - INFO - clean content - clean_content='Gladia, an AI transcription and audio intelligence provider, has raised $16 million in funding.'
+2024-10-15 11:23:58,710 - INFO - Generating summary with BART model
+2024-10-15 11:24:02,859 - INFO - Generating summary with BART model
+2024-10-15 11:24:07,006 - INFO - full_tweet='Gladia, an AI transcription and audio intelligence provider, has raised $16 million in funding. Gladia is..[read more👇🏼] #AI #Gladia https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/'
+2024-10-15 11:24:07,317 - INFO - Tweet posted successfully: Response(data={'id': '1846150053301572071', 'text': 'Gladia, an AI transcription and audio intelligence provider, has raised $16 million in funding. Gladia is..[read more👇🏼] #AI #Gladia https://t.co/GbJFmfKh7D', 'edit_history_tweet_ids': ['1846150053301572071']}, includes={}, errors=[], meta={})
+2024-10-15 11:24:07,317 - INFO - Saved posted URL: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/ at 2024-10-15 11:24:07
+2024-10-15 11:24:07,318 - INFO - Tweet link saved successfully.
+2024-10-15 11:24:07,318 - INFO - Sleeping for 5 minutes and 30 seconds.
+2024-10-15 11:29:37,318 - INFO - Input content - content='Bots that “remove clothes” from images have run rampant on the messaging app, allowing people to create nonconsensual deepfake images even as lawmakers and tech companies try to crack down.'
+2024-10-15 11:29:37,318 - INFO - clean content - clean_content='Bots that “remove clothes” from images have run rampant on the messaging app, allowing people to create nonconsensual deepfake images even as lawmakers and tech companies try to crack down.'
+2024-10-15 11:29:37,318 - INFO - Generating summary with BART model
+2024-10-15 11:29:42,131 - INFO - Generating summary with BART model
+2024-10-15 11:29:46,919 - INFO - full_tweet='Bots that “remove clothes” from images have run rampant on the messaging app. People can create..[read more👇🏼] #tech #app https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/'
+2024-10-15 11:29:47,228 - INFO - Tweet posted successfully: Response(data={'text': 'Bots that “remove clothes” from images have run rampant on the messaging app. People can create..[read more👇🏼] #tech #app https://t.co/kIxx7l394l', 'edit_history_tweet_ids': ['1846151478895169630'], 'id': '1846151478895169630'}, includes={}, errors=[], meta={})
+2024-10-15 11:29:47,228 - INFO - Saved posted URL: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/ at 2024-10-15 11:29:47
+2024-10-15 11:29:47,228 - INFO - Tweet link saved successfully.
+2024-10-15 11:29:47,228 - INFO - Sleeping for 9 minutes and 44 seconds.
+2024-10-15 11:39:31,228 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/concourse-is-building-ai-to-automate-financial-tasks/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/casio-launches-ai-powered-furry-robot-pet-that-wants-to-replace-your-dog
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/nvidia-the-ai-chipmaker-just-hit-another-record-high/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://www.kdnuggets.com/measuring-ai-adoption-and-impact
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://venturebeat.com/ai/playvs-partners-with-omnic-to-help-gamers-play-smarter-with-ai-feedback/
+2024-10-15 11:39:31,229 - INFO - This link is already posted: https://www.pcmag.com/news/adobe-moves-deeper-into-generative-ai-with-firefly-video-model
