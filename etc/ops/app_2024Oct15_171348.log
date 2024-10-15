@@ -1,0 +1,70 @@
+2024-10-15 17:13:48,000 - INFO - Starting configuration setup
+2024-10-15 17:13:48,001 - INFO - Environment variables loaded successfully
+2024-10-15 17:13:48,001 - INFO - Twitter API client initialized successfully
+2024-10-15 17:13:49,940 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 17:13:57,278 - INFO - Summarization model initialized successfully
+2024-10-15 17:13:57,278 - INFO - Starting tweet scheduling
+2024-10-15 17:13:57,278 - INFO - Tweeting process started at 2024-10-15 17:13:57.278728!
+2024-10-15 17:13:57,279 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 17:13:57,279 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 17:14:14,050 - INFO - Total entries found: 616
+2024-10-15 17:14:14,053 - INFO - Recent AI-related entries found: 27
+2024-10-15 17:14:14,053 - INFO - Input content - content='<p>At Open Compute Project Summit (OCP) 2024, we’re sharing details about our next-generation network fabric for our AI training clusters. We’ve expanded our network hardware portfolio and are contributing two new disaggregated network fabrics and a new NIC to OCP. We look forward to continued collaboration with OCP to open designs for racks, servers, storage [...]</p>\n<p><a class="btn btn-secondary understrap-read-more-link" href="https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/">Read More...</a></p>\n<p>The post <a href="https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/" rel="nofollow">OCP Summit 2024: The open future of networking hardware for AI</a> appeared first on <a href="https://engineering.fb.com" rel="nofollow">Engineering at Meta</a>.</p>'
+2024-10-15 17:14:14,054 - INFO - clean content - clean_content='At Open Compute Project Summit (OCP) 2024, we’re sharing details about our next-generation network fabric for our AI training clusters. We’ve expanded our network hardware portfolio and are contributing two new disaggregated network fabrics and a new NIC to OCP. We look forward to continued collaboration with OCP to open designs for racks, servers, storage [...] Read More... The post OCP Summit 2024: The open future of networking hardware for AI appeared first on Engineering at Meta.'
+2024-10-15 17:14:14,054 - INFO - Generating summary with BART model
+2024-10-15 17:14:20,634 - INFO - Generating summary with BART model
+2024-10-15 17:14:26,488 - INFO - full_tweet='Meta has expanded its network hardware portfolio and are contributing two new disaggregated network..[read more👇🏼] #network #hardware https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/'
+2024-10-15 17:14:26,735 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846238215138668791'], 'id': '1846238215138668791', 'text': 'Meta has expanded its network hardware portfolio and are contributing two new disaggregated network..[read more👇🏼] #network #hardware https://t.co/EOsFkdfrwX'}, includes={}, errors=[], meta={})
+2024-10-15 17:14:26,735 - INFO - Saved posted URL: https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/ at 2024-10-15 17:14:26
+2024-10-15 17:14:26,735 - INFO - Tweet link saved successfully.
+2024-10-15 17:14:26,735 - INFO - Sleeping for 8 minutes and 30 seconds.
+2024-10-15 17:22:56,735 - INFO - Input content - content='This guide emphasizes the growing significance of GenAI but also highlights the crucial role that data scientists play in harnessing this technology to solve real-world problems.'
+2024-10-15 17:22:56,736 - INFO - clean content - clean_content='This guide emphasizes the growing significance of GenAI but also highlights the crucial role that data scientists play in harnessing this technology to solve real-world problems.'
+2024-10-15 17:22:56,736 - INFO - Generating summary with BART model
+2024-10-15 17:23:00,879 - INFO - Generating summary with BART model
+2024-10-15 17:23:05,008 - INFO - full_tweet='This guide emphasizes the growing significance of GenAI. It also highlights the crucial role that data..[read more👇🏼] #technology #data https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide'
+2024-10-15 17:23:05,280 - INFO - Tweet posted successfully: Response(data={'text': 'This guide emphasizes the growing significance of GenAI. It also highlights the crucial role that data..[read more👇🏼] #technology #data https://t.co/Ur6llJouaN', 'id': '1846240390011068835', 'edit_history_tweet_ids': ['1846240390011068835']}, includes={}, errors=[], meta={})
+2024-10-15 17:23:05,280 - INFO - Saved posted URL: https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide at 2024-10-15 17:23:05
+2024-10-15 17:23:05,281 - INFO - Tweet link saved successfully.
+2024-10-15 17:23:05,281 - INFO - Sleeping for 5 minutes and 25 seconds.
+2024-10-15 17:28:30,281 - INFO - Input content - content='<p>At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware designs with the OCP community. These innovations include a new AI platform, cutting-edge open rack designs, and advanced network fabrics and components.\xa0 By sharing our designs, we hope to inspire collaboration and foster innovation. If you&#8217;re passionate about building [...]</p>\n<p><a class="btn btn-secondary understrap-read-more-link" href="https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/">Read More...</a></p>\n<p>The post <a href="https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/" rel="nofollow">Meta’s open AI hardware vision</a> appeared first on <a href="https://engineering.fb.com" rel="nofollow">Engineering at Meta</a>.</p>'
+2024-10-15 17:28:30,281 - INFO - clean content - clean_content='At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware designs with the OCP community. These innovations include a new AI platform, cutting-edge open rack designs, and advanced network fabrics and components. By sharing our designs, we hope to inspire collaboration and foster innovation. If you’re passionate about building [...] Read More... The post Meta’s open AI hardware vision appeared first on Engineering at Meta.'
+2024-10-15 17:28:30,281 - INFO - Generating summary with BART model
+2024-10-15 17:28:37,100 - INFO - Generating summary with BART model
+2024-10-15 17:28:43,896 - INFO - full_tweet='At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware..[read more👇🏼] #AI #hardware https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/'
+2024-10-15 17:28:44,198 - INFO - Tweet posted successfully: Response(data={'id': '1846241811477516738', 'edit_history_tweet_ids': ['1846241811477516738'], 'text': 'At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware..[read more👇🏼] #AI #hardware https://t.co/fHVuIlcfoy'}, includes={}, errors=[], meta={})
+2024-10-15 17:28:44,198 - INFO - Saved posted URL: https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/ at 2024-10-15 17:28:44
+2024-10-15 17:28:44,198 - INFO - Tweet link saved successfully.
+2024-10-15 17:28:44,199 - INFO - Sleeping for 3 minutes and 17 seconds.
+2024-10-15 17:32:01,199 - INFO - Input content - content='New wearable AI-powered collar aims to get your pets to talk to you.'
+2024-10-15 17:32:01,199 - INFO - clean content - clean_content='New wearable AI-powered collar aims to get your pets to talk to you.'
+2024-10-15 17:32:01,199 - INFO - Generating summary with BART model
+2024-10-15 17:32:05,213 - INFO - Generating summary with BART model
+2024-10-15 17:32:09,236 - INFO - full_tweet='New wearable AI-powered collar aims to get your pets to talk to you. The collar is designed to be worn..[read more👇🏼] #AI #collar https://www.techradar.com/computing/artificial-intelligence/ive-seen-the-new-ai-collar-that-lets-your-dog-talk-and-its-as-wild-as-it-sounds'
+2024-10-15 17:32:09,440 - INFO - Tweet posted successfully: Response(data={'text': 'New wearable AI-powered collar aims to get your pets to talk to you. The collar is designed to be worn..[read more👇🏼] #AI #collar https://t.co/vELKzSFFc2', 'edit_history_tweet_ids': ['1846242672370999459'], 'id': '1846242672370999459'}, includes={}, errors=[], meta={})
+2024-10-15 17:32:09,440 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/ive-seen-the-new-ai-collar-that-lets-your-dog-talk-and-its-as-wild-as-it-sounds at 2024-10-15 17:32:09
+2024-10-15 17:32:09,440 - INFO - Tweet link saved successfully.
+2024-10-15 17:32:09,440 - INFO - Sleeping for 7 minutes and 47 seconds.
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.techradar.com/pro/dynabook-launches-worlds-lightest-ai-powered-laptop
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://venturebeat.com/ai/arm-touts-growing-ecosystem-of-sustainable-ai-datacenter-silicon/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.techradar.com/pro/the-rise-of-agentic-ai-what-does-it-mean-for-businesses
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/new-york-times-sends-perplexity-cease-and-desist-letter-demands-it-stops-using-its-content-in-ai-summaries/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.pcmag.com/articles/introducing-try-ai-clever-and-inspiring-ways-to-use-ai-in-everyday-life
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/amplitude-buys-command-ai-to-bolster-its-app-engagement-offerings/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/career-karma-founders-launch-outrival-to-help-companies-build-ai-agents/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/google-supercharges-shopping-tab-with-ai-and-personalized-recommendation-feed/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/adobes-project-super-sonic-uses-ai-to-generate-sound-effects-for-your-videos/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/how-customer-service-ai-startup-neuron7-convinced-keith-block-to-invest/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://venturebeat.com/ai/datastax-looks-to-help-enterprises-stuck-in-ai-development-hell-with-a-little-help-from-nvidia/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://venturebeat.com/ai/strella-raises-4-million-to-automate-market-research-with-ai-powered-customer-interviews/
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.pcmag.com/news/new-york-times-perplexity-cease-and-desist-ai-scraping-report
+2024-10-15 17:39:56,441 - INFO - This link is already posted: https://www.wired.com/story/the-doctor-behind-the-suicide-pod-wants-ai-to-assist-at-the-end-of-life/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://towardsdatascience.com/ai-feels-easier-than-ever-but-is-it-really-babfb431ac50?source=rss----7f60cf5620c9---4
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://sloanreview.mit.edu/audio/never-too-much-ai-upworks-andrew-rabinovich/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://www.wired.com/story/cybercheck-crime-reports-prosecutions/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://venturebeat.com/ai/gladia-raises-16m-for-ai-transcription-and-analytics/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://www.wired.com/story/ai-deepfake-nudify-bots-telegram/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g41e7v/d_does_anyone_know_of_an_ai_model_that_can_edit/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 17:39:56,442 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
