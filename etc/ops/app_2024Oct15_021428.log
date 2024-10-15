@@ -1,0 +1,51 @@
+2024-10-15 02:14:28,469 - INFO - Starting configuration setup
+2024-10-15 02:14:28,470 - INFO - Environment variables loaded successfully
+2024-10-15 02:14:28,470 - INFO - Twitter API client initialized successfully
+2024-10-15 02:14:30,387 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-15 02:14:36,994 - INFO - Summarization model initialized successfully
+2024-10-15 02:14:36,994 - INFO - Starting tweet scheduling
+2024-10-15 02:14:36,994 - INFO - Tweeting process started at 2024-10-15 02:14:36.994653!
+2024-10-15 02:14:36,995 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct15.csv
+2024-10-15 02:14:36,995 - INFO - Fetching latest tech news from RSS feeds
+2024-10-15 02:14:53,145 - INFO - Total entries found: 616
+2024-10-15 02:14:53,148 - INFO - Recent AI-related entries found: 15
+2024-10-15 02:14:53,148 - INFO - Input content - content='<p>Microsoft has lost an AI expert and OpenAI gained one, after the former&#8217;s VP of generative AI research Sebastian Bubeck left for the latter. The Information first reported the move, and Reuters also confirmed the departure with Microsoft. We know Bubeck as one of the main authors of papers describing Microsoft&#8217;s Phi models, a series [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-15 02:14:53,149 - INFO - clean content - clean_content='Microsoft has lost an AI expert and OpenAI gained one, after the former’s VP of generative AI research Sebastian Bubeck left for the latter. The Information first reported the move, and Reuters also confirmed the departure with Microsoft. We know Bubeck as one of the main authors of papers describing Microsoft’s Phi models, a series […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-15 02:14:53,149 - INFO - Generating summary with BART model
+2024-10-15 02:14:59,795 - INFO - Generating summary with BART model
+2024-10-15 02:15:05,781 - INFO - full_tweet="Sebastian Bubeck, Microsoft's VP of generative AI research, has left for OpenAI. He was one of the main..[read more👇🏼] #AI #Microsoft https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/"
+2024-10-15 02:15:06,140 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846011887965671482'], 'id': '1846011887965671482', 'text': "Sebastian Bubeck, Microsoft's VP of generative AI research, has left for OpenAI. He was one of the main..[read more👇🏼] #AI #Microsoft https://t.co/GEkkncuX0g"}, includes={}, errors=[], meta={})
+2024-10-15 02:15:06,141 - INFO - Saved posted URL: https://techcrunch.com/2024/10/14/openai-snatches-up-microsoft-generative-ai-research-lead/ at 2024-10-15 02:15:06
+2024-10-15 02:15:06,141 - INFO - Tweet link saved successfully.
+2024-10-15 02:15:06,141 - INFO - Sleeping for 3 minutes and 41 seconds.
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://venturebeat.com/ai/picsarts-creative-ai-playbook-a-vision-for-contextual-intelligence-ai-agents/
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/samsung-galaxy-smartphones-may-replace-the-settings-menu-with-ai-report
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/security-experts-warn-gmail-users-of-more-sophisticated-ai-hacks/#ftag=CAD590a51e
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-a-new-free-ai-tool-for-writing-songs-including-lyrics-for-free
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://venturebeat.com/ai/openais-swarm-ai-agent-framework-routines-and-handoffs/
+2024-10-15 02:18:47,141 - INFO - This link is already posted: https://www.techradar.com/pro/move-aside-h100-huawei-wants-chinese-hyperscalers-to-use-its-new-ascend-ai-chip-instead-of-nvidias-workhorse-but-its-going-to-be-tough
+2024-10-15 02:18:47,142 - INFO - Input content - content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-15 02:18:47,142 - INFO - clean content - clean_content='Energy companies are being warned to address AI data center power needs or risk losing out on big opportunities.'
+2024-10-15 02:18:47,142 - INFO - Generating summary with BART model
+2024-10-15 02:18:51,182 - INFO - Generating summary with BART model
+2024-10-15 02:18:55,216 - INFO - full_tweet='Energy companies warned to address AI data center power needs or risk losing out on big opportunities...[read more👇🏼] #data #AI https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told'
+2024-10-15 02:18:55,408 - INFO - Tweet posted successfully: Response(data={'id': '1846012849576886313', 'text': 'Energy companies warned to address AI data center power needs or risk losing out on big opportunities...[read more👇🏼] #data #AI https://t.co/cmvImxS1Na', 'edit_history_tweet_ids': ['1846012849576886313']}, includes={}, errors=[], meta={})
+2024-10-15 02:18:55,408 - INFO - Saved posted URL: https://www.techradar.com/pro/plan-for-ai-datacenter-power-usage-or-face-the-consequences-energy-companies-told at 2024-10-15 02:18:55
+2024-10-15 02:18:55,409 - INFO - Tweet link saved successfully.
+2024-10-15 02:18:55,409 - INFO - Sleeping for 9 minutes and 9 seconds.
+2024-10-15 02:28:04,409 - INFO - Input content - content='Adobe launches GenStudio for Performance Marketing at Adobe Max 2024.'
+2024-10-15 02:28:04,409 - INFO - clean content - clean_content='Adobe launches GenStudio for Performance Marketing at Adobe Max 2024.'
+2024-10-15 02:28:04,409 - INFO - Generating summary with BART model
+2024-10-15 02:28:09,857 - INFO - Generating summary with BART model
+2024-10-15 02:28:15,291 - INFO - full_tweet="Adobe launches GenStudio for Performance Marketing at Adobe Max 2024. Adobe Max is the company's next..[read more👇🏼] #software #Adobe https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams"
+2024-10-15 02:28:15,725 - INFO - Tweet posted successfully: Response(data={'id': '1846015199691645039', 'text': "Adobe launches GenStudio for Performance Marketing at Adobe Max 2024. Adobe Max is the company's next..[read more👇🏼] #software #Adobe https://t.co/dS1lsOYpKb", 'edit_history_tweet_ids': ['1846015199691645039']}, includes={}, errors=[], meta={})
+2024-10-15 02:28:15,725 - INFO - Saved posted URL: https://www.techradar.com/pro/adobe-unveils-new-ai-powered-app-for-marketing-teams at 2024-10-15 02:28:15
+2024-10-15 02:28:15,725 - INFO - Tweet link saved successfully.
+2024-10-15 02:28:15,726 - INFO - Sleeping for 9 minutes and 25 seconds.
+2024-10-15 02:37:40,726 - INFO - Input content - content='This article will explore key metrics and strategies to assess AI adoption and its broader impact on an organization.'
+2024-10-15 02:37:40,726 - INFO - clean content - clean_content='This article will explore key metrics and strategies to assess AI adoption and its broader impact on an organization.'
+2024-10-15 02:37:40,726 - INFO - Generating summary with BART model
+2024-10-15 02:37:44,945 - INFO - Generating summary with BART model
+2024-10-15 02:37:49,157 - INFO - full_tweet='This article will explore key metrics and strategies to assess AI adoption and its broader impact on an..[read more👇🏼] #AI #organization https://www.kdnuggets.com/measuring-ai-adoption-and-impact'
+2024-10-15 02:37:49,289 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
