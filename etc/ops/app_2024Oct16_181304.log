@@ -1,0 +1,27 @@
+2024-10-16 18:13:04,155 - INFO - Starting configuration setup
+2024-10-16 18:13:04,155 - INFO - Environment variables loaded successfully
+2024-10-16 18:13:04,155 - INFO - Twitter API client initialized successfully
+2024-10-16 18:13:06,025 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 18:13:14,582 - INFO - Summarization model initialized successfully
+2024-10-16 18:13:14,582 - INFO - Starting tweet scheduling
+2024-10-16 18:13:14,582 - INFO - Tweeting process started at 2024-10-16 18:13:14.582789!
+2024-10-16 18:13:14,583 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 18:13:14,583 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 18:13:27,856 - INFO - Total entries found: 615
+2024-10-16 18:13:27,859 - INFO - Recent AI-related entries found: 29
+2024-10-16 18:13:27,859 - INFO - Input content - content='<p>Mistral AI, a rising star in the artificial intelligence arena, launched two new language models on Wednesday, potentially reshaping how businesses and developers deploy AI technology. The Paris-based startup&#8217;s new offerings, Ministral 3B and Ministral 8B, are designed to bring powerful AI capabilities to edge devices, marking a significant shift from the cloud-centric approach that&#160;[&#8230;]\n</p>'
+2024-10-16 18:13:27,860 - INFO - clean content - clean_content='Mistral AI, a rising star in the artificial intelligence arena, launched two new language models on Wednesday, potentially reshaping how businesses and developers deploy AI technology. The Paris-based startup’s new offerings, Ministral 3B and Ministral 8B, are designed to bring powerful AI capabilities to edge devices, marking a significant shift from the cloud-centric approach that\xa0[…]'
+2024-10-16 18:13:27,860 - INFO - Generating summary with BART model
+2024-10-16 18:13:33,990 - INFO - Generating summary with BART model
+2024-10-16 18:13:39,484 - INFO - full_tweet='Mistral AI launched two new language models on Wednesday. The Paris-based startup’s new offerings,..[read more👇🏼] #AI #startup https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/'
+2024-10-16 18:13:39,776 - INFO - Tweet posted successfully: Response(data={'id': '1846615505487978611', 'text': 'Mistral AI launched two new language models on Wednesday. The Paris-based startup’s new offerings,..[read more👇🏼] #AI #startup https://t.co/HOiBsGsbd6', 'edit_history_tweet_ids': ['1846615505487978611']}, includes={}, errors=[], meta={})
+2024-10-16 18:13:39,776 - INFO - Saved posted URL: https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/ at 2024-10-16 18:13:39
+2024-10-16 18:13:39,776 - INFO - Tweet link saved successfully.
+2024-10-16 18:13:39,776 - INFO - Sleeping for 9 minutes and 5 seconds.
+2024-10-16 18:22:44,776 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I\'m new to ML and I\'d like to train an AI for a game I like (rocket league). I\'ve seen people do it using reinforcement learning (self play). There is a massive dataset of game replays online (128 million replays with each replay having multiple players) and I\'d like to utilize this somehow. I was wondering if I could use something like a transformer architecture to train a bot on this data (?). Maybe training a small model on the data and using reinforcement learning to take it superhuman? What is the best way to go about this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/heyhellousername"> /u/heyhellousername </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g55afv/transformers_for_game_ai_p/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g55afv/transformers_for_game_ai_p/">[comments]</a></span>'
+2024-10-16 18:22:44,777 - INFO - clean content - clean_content="I'm new to ML and I'd like to train an AI for a game I like (rocket league). I've seen people do it using reinforcement learning (self play). There is a massive dataset of game replays online (128 million replays with each replay having multiple players) and I'd like to utilize this somehow. I was wondering if I could use something like a transformer architecture to train a bot on this data (?). Maybe training a small model on the data and using reinforcement learning to take it superhuman? What is the best way to go about this?   submitted by   /u/heyhellousername [link]   [comments]"
+2024-10-16 18:22:44,777 - INFO - Generating summary with BART model
+2024-10-16 18:22:53,942 - INFO - Generating summary with BART model
+2024-10-16 18:23:03,108 - INFO - full_tweet="I'd like to train an AI for a game I like (rocket league) I've seen people do it using reinforcement..[read more👇🏼] #AI #I https://www.reddit.com/r/MachineLearning/comments/1g55afv/transformers_for_game_ai_p/"
+2024-10-16 18:23:03,220 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
