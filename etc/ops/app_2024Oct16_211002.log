@@ -1,0 +1,69 @@
+2024-10-16 21:10:02,743 - INFO - Starting configuration setup
+2024-10-16 21:10:02,743 - INFO - Environment variables loaded successfully
+2024-10-16 21:10:02,743 - INFO - Twitter API client initialized successfully
+2024-10-16 21:10:04,666 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 21:10:12,807 - INFO - Summarization model initialized successfully
+2024-10-16 21:10:12,807 - INFO - Starting tweet scheduling
+2024-10-16 21:10:12,807 - INFO - Tweeting process started at 2024-10-16 21:10:12.807322!
+2024-10-16 21:10:12,807 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 21:10:12,807 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 21:10:27,523 - INFO - Total entries found: 616
+2024-10-16 21:10:27,526 - INFO - Recent AI-related entries found: 26
+2024-10-16 21:10:27,526 - INFO - Input content - content='<p>Elias Torres has achieved a lot for somebody who immigrated to the US from Nicaragua at 17 without knowing any English. He served as a VP of engineering at HubSpot before co-founding Drift, a company that sold to Vista Equity for about $1.2 billion in 2021. &#8220;It&#8217;s very rare to get this far, but I&#8217;m [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-16 21:10:27,527 - INFO - clean content - clean_content='Elias Torres has achieved a lot for somebody who immigrated to the US from Nicaragua at 17 without knowing any English. He served as a VP of engineering at HubSpot before co-founding Drift, a company that sold to Vista Equity for about $1.2 billion in 2021. “It’s very rare to get this far, but I’m […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-16 21:10:27,527 - INFO - Generating summary with BART model
+2024-10-16 21:10:34,821 - INFO - Generating summary with BART model
+2024-10-16 21:10:41,439 - INFO - full_tweet='Elias Torres immigrated to the US from Nicaragua at 17 without knowing any English. He served as a VP of..[read more👇🏼] #Drift #engineering https://techcrunch.com/2024/10/16/after-selling-drift-ex-hubspot-exec-launches-ai-for-customer-success-managers/'
+2024-10-16 21:10:41,707 - INFO - Tweet posted successfully: Response(data={'text': 'Elias Torres immigrated to the US from Nicaragua at 17 without knowing any English. He served as a VP of..[read more👇🏼] #Drift #engineering https://t.co/iy4nZ5WQL7', 'id': '1846660057087586523', 'edit_history_tweet_ids': ['1846660057087586523']}, includes={}, errors=[], meta={})
+2024-10-16 21:10:41,707 - INFO - Saved posted URL: https://techcrunch.com/2024/10/16/after-selling-drift-ex-hubspot-exec-launches-ai-for-customer-success-managers/ at 2024-10-16 21:10:41
+2024-10-16 21:10:41,707 - INFO - Tweet link saved successfully.
+2024-10-16 21:10:41,707 - INFO - Sleeping for 8 minutes and 50 seconds.
+2024-10-16 21:19:31,707 - INFO - Input content - content="The Company's ‘Turing Chip’ will power EVs, robots and flying cars"
+2024-10-16 21:19:31,707 - INFO - clean content - clean_content="The Company's ‘Turing Chip’ will power EVs, robots and flying cars"
+2024-10-16 21:19:31,708 - INFO - Generating summary with BART model
+2024-10-16 21:19:36,575 - INFO - Generating summary with BART model
+2024-10-16 21:19:41,370 - INFO - full_tweet="The Company's ‘Turing Chip’ will power EVs, robots and flying cars. The Company's 'Turing chip' will..[read more👇🏼] #Company #Turing https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/x-peng-ev-flaunts-new-ai-powered-autonomous-driving-powers-but-its-still-a-long-road-to-hands-free-motoring"
+2024-10-16 21:19:41,609 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846662321688695043'], 'id': '1846662321688695043', 'text': "The Company's ‘Turing Chip’ will power EVs, robots and flying cars. The Company's 'Turing chip' will..[read more👇🏼] #Company #Turing https://t.co/gOmVOykEkq"}, includes={}, errors=[], meta={})
+2024-10-16 21:19:41,609 - INFO - Saved posted URL: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/x-peng-ev-flaunts-new-ai-powered-autonomous-driving-powers-but-its-still-a-long-road-to-hands-free-motoring at 2024-10-16 21:19:41
+2024-10-16 21:19:41,609 - INFO - Tweet link saved successfully.
+2024-10-16 21:19:41,609 - INFO - Sleeping for 9 minutes and 38 seconds.
+2024-10-16 21:29:19,610 - INFO - This link is already posted: https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/
+2024-10-16 21:29:19,610 - INFO - Input content - content='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process—sometimes revealing hidden motives.'
+2024-10-16 21:29:19,610 - INFO - clean content - clean_content='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process—sometimes revealing hidden motives.'
+2024-10-16 21:29:19,610 - INFO - Generating summary with BART model
+2024-10-16 21:29:24,356 - INFO - Generating summary with BART model
+2024-10-16 21:29:29,160 - INFO - full_tweet='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process...[read more👇🏼] #startup #AI https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/'
+2024-10-16 21:29:29,416 - INFO - Tweet posted successfully: Response(data={'id': '1846664787104846200', 'edit_history_tweet_ids': ['1846664787104846200'], 'text': 'Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process...[read more👇🏼] #startup #AI https://t.co/FDIUIfaFaL'}, includes={}, errors=[], meta={})
+2024-10-16 21:29:29,416 - INFO - Saved posted URL: https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/ at 2024-10-16 21:29:29
+2024-10-16 21:29:29,416 - INFO - Tweet link saved successfully.
+2024-10-16 21:29:29,416 - INFO - Sleeping for 7 minutes and 40 seconds.
+2024-10-16 21:37:09,416 - INFO - Input content - content='Redditors weigh in: Is she the asshole for pausing their verbal spats to consult ChatGPT?'
+2024-10-16 21:37:09,416 - INFO - clean content - clean_content='Redditors weigh in: Is she the ******* for pausing their verbal spats to consult ChatGPT?'
+2024-10-16 21:37:09,417 - INFO - Generating summary with BART model
+2024-10-16 21:37:14,440 - INFO - Generating summary with BART model
+2024-10-16 21:37:19,477 - INFO - full_tweet='Redditors weigh in: Is she the ******* for pausing their verbal spats to consult ChatGPT? Redditors also..[read more👇🏼] #app #Redditors https://www.pcmag.com/news/man-outgunned-as-girlfriend-brings-chatgpt-ammo-to-every-argument'
+2024-10-16 21:37:19,711 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846666759702827365'], 'text': 'Redditors weigh in: Is she the ******* for pausing their verbal spats to consult ChatGPT? Redditors also..[read more👇🏼] #app #Redditors https://t.co/6wwtfDQfqX', 'id': '1846666759702827365'}, includes={}, errors=[], meta={})
+2024-10-16 21:37:19,711 - INFO - Saved posted URL: https://www.pcmag.com/news/man-outgunned-as-girlfriend-brings-chatgpt-ammo-to-every-argument at 2024-10-16 21:37:19
+2024-10-16 21:37:19,711 - INFO - Tweet link saved successfully.
+2024-10-16 21:37:19,711 - INFO - Sleeping for 6 minutes and 15 seconds.
+2024-10-16 21:43:34,711 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/this-week-in-ai-aws-loses-a-top-ai-exec/
+2024-10-16 21:43:34,711 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise
+2024-10-16 21:43:34,711 - INFO - This link is already posted: https://www.techradar.com/pro/nvidia-ceo-ai-could-be-the-largest-technological-leap-weve-ever-seen
+2024-10-16 21:43:34,711 - INFO - This link is already posted: https://www.techradar.com/pro/alibaba-releases-new-translation-focused-ai-model-for-international-ecommerce-trade-and-everyday-life
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/boston-dynamics-teams-with-tri-to-bring-ai-smarts-to-atlas-humanoid-robot/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apples-latest-study-proves-that-ai-cant-even-solve-basic-grade-school-math-problems
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/mistral-releases-new-ai-models-optimized-for-edge-devices/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://www.kdnuggets.com/roadmap-for-ai-engineers
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://venturebeat.com/games/live-aware-labs-raises-4-8m-for-its-ai-powered-gamer-feedback-platform/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/lightmatters-400m-d-round-has-ai-hyperscalers-hyped-for-photonic-datacenters/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/amazon-revamps-kindle-line-with-faster-page-turns-ai-and-a-new-green-color/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/treehouse-uses-ai-to-help-electricians-install-tech-like-ev-chargers-and-heat-pumps-more-cheaply/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://venturebeat.com/security/what-open-source-ai-models-should-your-enterprise-use-endor-labs-analyzes-them-all/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://venturebeat.com/ai/cognizant-adds-multi-agent-functionality-to-ai-application-platform/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 21:43:34,712 - INFO - This link is already posted: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/
