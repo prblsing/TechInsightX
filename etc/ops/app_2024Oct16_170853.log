@@ -1,0 +1,76 @@
+2024-10-16 17:08:53,496 - INFO - Starting configuration setup
+2024-10-16 17:08:53,496 - INFO - Environment variables loaded successfully
+2024-10-16 17:08:53,496 - INFO - Twitter API client initialized successfully
+2024-10-16 17:08:55,432 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 17:09:03,249 - INFO - Summarization model initialized successfully
+2024-10-16 17:09:03,249 - INFO - Starting tweet scheduling
+2024-10-16 17:09:03,249 - INFO - Tweeting process started at 2024-10-16 17:09:03.249607!
+2024-10-16 17:09:03,249 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 17:09:03,249 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 17:09:18,901 - INFO - Total entries found: 615
+2024-10-16 17:09:18,904 - INFO - Recent AI-related entries found: 25
+2024-10-16 17:09:18,904 - INFO - Input content - content='<p>Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up\xa0here. Last week, AWS lost a top AI exec. Matt Wood, VP of AI, announced that he&#8217;d be leaving AWS after 15 years. Wood had long been involved in the Amazon division&#8217;s AI initiatives; he was appointed [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-16 17:09:18,905 - INFO - clean content - clean_content='Hiya, folks, welcome to TechCrunch’s regular AI newsletter. If you want this in your inbox every Wednesday, sign up here. Last week, AWS lost a top AI exec. Matt Wood, VP of AI, announced that he’d be leaving AWS after 15 years. Wood had long been involved in the Amazon division’s AI initiatives; he was appointed […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-16 17:09:18,905 - INFO - Generating summary with BART model
+2024-10-16 17:09:25,404 - INFO - Generating summary with BART model
+2024-10-16 17:09:31,165 - INFO - full_tweet='Last week, AWS lost a top AI exec. Matt Wood, VP of AI, announced that he’d be leaving AWS after 15..[read more👇🏼] #AI #Wood https://techcrunch.com/2024/10/16/this-week-in-ai-aws-loses-a-top-ai-exec/'
+2024-10-16 17:09:31,466 - INFO - Tweet posted successfully: Response(data={'id': '1846599364489204064', 'edit_history_tweet_ids': ['1846599364489204064'], 'text': 'Last week, AWS lost a top AI exec. Matt Wood, VP of AI, announced that he’d be leaving AWS after 15..[read more👇🏼] #AI #Wood https://t.co/CHDGojCozH'}, includes={}, errors=[], meta={})
+2024-10-16 17:09:31,466 - INFO - Saved posted URL: https://techcrunch.com/2024/10/16/this-week-in-ai-aws-loses-a-top-ai-exec/ at 2024-10-16 17:09:31
+2024-10-16 17:09:31,466 - INFO - Tweet link saved successfully.
+2024-10-16 17:09:31,466 - INFO - Sleeping for 5 minutes and 51 seconds.
+2024-10-16 17:15:22,467 - INFO - Input content - content='This is a comprehensive resource for developers at all levels, whether they are just starting in AI or are looking to refine their expertise further.'
+2024-10-16 17:15:22,467 - INFO - clean content - clean_content='This is a comprehensive resource for developers at all levels, whether they are just starting in AI or are looking to refine their expertise further.'
+2024-10-16 17:15:22,467 - INFO - Generating summary with BART model
+2024-10-16 17:15:27,517 - INFO - Generating summary with BART model
+2024-10-16 17:15:32,532 - INFO - full_tweet='This is a comprehensive resource for developers at all levels, whether they are just starting in AI or..[read more👇🏼] #AI #comprehensive https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise'
+2024-10-16 17:15:32,802 - INFO - Tweet posted successfully: Response(data={'text': 'This is a comprehensive resource for developers at all levels, whether they are just starting in AI or..[read more👇🏼] #AI #comprehensive https://t.co/fbL18YDzNX', 'id': '1846600880151286001', 'edit_history_tweet_ids': ['1846600880151286001']}, includes={}, errors=[], meta={})
+2024-10-16 17:15:32,802 - INFO - Saved posted URL: https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise at 2024-10-16 17:15:32
+2024-10-16 17:15:32,802 - INFO - Tweet link saved successfully.
+2024-10-16 17:15:32,802 - INFO - Sleeping for 7 minutes and 21 seconds.
+2024-10-16 17:22:53,802 - INFO - Input content - content='AI co-workers and robots will soon be common sights for everyone, Nvidia CEO Jensen Huang declares.'
+2024-10-16 17:22:53,803 - INFO - clean content - clean_content='AI co-workers and robots will soon be common sights for everyone, Nvidia CEO Jensen Huang declares.'
+2024-10-16 17:22:53,803 - INFO - Generating summary with BART model
+2024-10-16 17:22:58,449 - INFO - Generating summary with BART model
+2024-10-16 17:23:03,045 - INFO - full_tweet='AI co-workers and robots will soon be common sights for everyone, Nvidia CEO Jensen Huang declares...[read more👇🏼] #AI #Huang https://www.techradar.com/pro/nvidia-ceo-ai-could-be-the-largest-technological-leap-weve-ever-seen'
+2024-10-16 17:23:03,346 - INFO - Tweet posted successfully: Response(data={'id': '1846602769743884499', 'edit_history_tweet_ids': ['1846602769743884499'], 'text': 'AI co-workers and robots will soon be common sights for everyone, Nvidia CEO Jensen Huang declares...[read more👇🏼] #AI #Huang https://t.co/KQYYHJT3im'}, includes={}, errors=[], meta={})
+2024-10-16 17:23:03,347 - INFO - Saved posted URL: https://www.techradar.com/pro/nvidia-ceo-ai-could-be-the-largest-technological-leap-weve-ever-seen at 2024-10-16 17:23:03
+2024-10-16 17:23:03,347 - INFO - Tweet link saved successfully.
+2024-10-16 17:23:03,347 - INFO - Sleeping for 8 minutes and 58 seconds.
+2024-10-16 17:32:01,347 - INFO - Input content - content='<figure>\n      <img alt="Photo illustration of Dario Amodei of Anthropic." src="https://cdn.vox-cdn.com/thumbor/BD2pRZvDnyIybCvF0n6o_-iuvI0=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73657657/STK202_DARIO_AMODEI_CVIRGINIA_D.0.jpg" />\n        <figcaption>Image: Cath Virginia / The Verge, Getty Images</figcaption>\n    </figure>\n\n  <p id="kOm8yW">If you want to raise ungodly amounts of money, you better have some godly reasons.</p>\n<p id="zXffkp">That’s what Anthropic CEO Dario Amodei <a href="https://darioamodei.com/machines-of-loving-grace#taking-stock">laid out for us on Friday</a> in more than 14,000 words: otherworldly ways in which artificial general intelligence (AGI, <a href="https://www.theverge.com/2024/10/11/24268137/anthropics-ceo-has-many-many-many-thoughts-about-agi">though he prefers to call it “powerful AI”</a>) will change our lives. In the blog, titled<em> </em>“Machines of Loving Grace,”<em> </em>he envisions a future where AI could compress 100 years of medical progress into a decade, cure mental illnesses like PTSD and depression, upload your mind to the cloud, and alleviate poverty. At the same time, it’s <a href="https://www.theinformation.com/articles/openai-rival-anthropic-has-floated-40-billion-valuation-in-early-talks-about-new-funding?rc=mshudk">reported</a> that Anthropic is hoping to raise fresh funds at a $40 billion valuation.</p>\n<p id="fE6m0h">Today’s AI can do exactly none of what Amodei imagines. It will take, by his own admission, <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-models-that-cost-dollar1-billion-to-train-are-in-development-dollar100-billion-models-coming-soon-largest-current-models-take-only-dollar100-million-to-train-anthropic-ceo">h...</a></p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/16/24268209/anthropic-ai-dario-amodei-agi-funding-blog">Continue reading&hellip;</a>\n  </p>'
+2024-10-16 17:32:01,347 - INFO - clean content - clean_content='Image: Cath Virginia / The Verge, Getty Images If you want to raise ungodly amounts of money, you better have some godly reasons. That’s what Anthropic CEO Dario Amodei laid out for us on Friday in more than 14,000 words: otherworldly ways in which artificial general intelligence (AGI, though he prefers to call it “powerful AI”) will change our lives. In the blog, titled “Machines of Loving Grace,” he envisions a future where AI could compress 100 years of medical progress into a decade, cure mental illnesses like PTSD and depression, upload your mind to the cloud, and alleviate poverty. At the same time, it’s reported that Anthropic is hoping to raise fresh funds at a $40 billion valuation. Today’s AI can do exactly none of what Amodei imagines. It will take, by his own admission, h... Continue reading…'
+2024-10-16 17:32:01,347 - INFO - Generating summary with BART model
+2024-10-16 17:32:10,731 - INFO - Generating summary with BART model
+2024-10-16 17:32:20,125 - INFO - full_tweet='Anthropic CEO Dario Amodei lays out his vision of how AI will change our lives. He envisions a future..[read more👇🏼] #AI #Anthropic https://www.theverge.com/2024/10/16/24268209/anthropic-ai-dario-amodei-agi-funding-blog'
+2024-10-16 17:32:20,427 - INFO - Tweet posted successfully: Response(data={'id': '1846605106336202811', 'edit_history_tweet_ids': ['1846605106336202811'], 'text': 'Anthropic CEO Dario Amodei lays out his vision of how AI will change our lives. He envisions a future..[read more👇🏼] #AI #Anthropic https://t.co/LpaRekoFoG'}, includes={}, errors=[], meta={})
+2024-10-16 17:32:20,428 - INFO - Saved posted URL: https://www.theverge.com/2024/10/16/24268209/anthropic-ai-dario-amodei-agi-funding-blog at 2024-10-16 17:32:20
+2024-10-16 17:32:20,428 - INFO - Tweet link saved successfully.
+2024-10-16 17:32:20,428 - INFO - Sleeping for 5 minutes and 0 seconds.
+2024-10-16 17:37:20,428 - INFO - Input content - content='New translation AI model from Alibaba has reportedly already surpassed other translation models, more languages to come.'
+2024-10-16 17:37:20,428 - INFO - clean content - clean_content='New translation AI model from Alibaba has reportedly already surpassed other translation models, more languages to come.'
+2024-10-16 17:37:20,428 - INFO - Generating summary with BART model
+2024-10-16 17:37:25,204 - INFO - Generating summary with BART model
+2024-10-16 17:37:30,013 - INFO - full_tweet='New translation AI model from Alibaba has reportedly already surpassed other translation models, more..[read more👇🏼] #AI #translation https://www.techradar.com/pro/alibaba-releases-new-translation-focused-ai-model-for-international-ecommerce-trade-and-everyday-life'
+2024-10-16 17:37:30,608 - INFO - Tweet posted successfully: Response(data={'id': '1846606407329550387', 'text': 'New translation AI model from Alibaba has reportedly already surpassed other translation models, more..[read more👇🏼] #AI #translation https://t.co/l6W2HR2Rja', 'edit_history_tweet_ids': ['1846606407329550387']}, includes={}, errors=[], meta={})
+2024-10-16 17:37:30,608 - INFO - Saved posted URL: https://www.techradar.com/pro/alibaba-releases-new-translation-focused-ai-model-for-international-ecommerce-trade-and-everyday-life at 2024-10-16 17:37:30
+2024-10-16 17:37:30,609 - INFO - Tweet link saved successfully.
+2024-10-16 17:37:30,609 - INFO - Sleeping for 9 minutes and 24 seconds.
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/boston-dynamics-teams-with-tri-to-bring-ai-smarts-to-atlas-humanoid-robot/
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apples-latest-study-proves-that-ai-cant-even-solve-basic-grade-school-math-problems
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/mistral-releases-new-ai-models-optimized-for-edge-devices/
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://www.kdnuggets.com/roadmap-for-ai-engineers
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://venturebeat.com/games/live-aware-labs-raises-4-8m-for-its-ai-powered-gamer-feedback-platform/
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/lightmatters-400m-d-round-has-ai-hyperscalers-hyped-for-photonic-datacenters/
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/amazon-revamps-kindle-line-with-faster-page-turns-ai-and-a-new-green-color/
+2024-10-16 17:46:54,609 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/treehouse-uses-ai-to-help-electricians-install-tech-like-ev-chargers-and-heat-pumps-more-cheaply/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://venturebeat.com/security/what-open-source-ai-models-should-your-enterprise-use-endor-labs-analyzes-them-all/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/latticeflows-llm-framework-takes-a-first-stab-at-benchmarking-big-ais-compliance-with-eu-ai-act/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://venturebeat.com/ai/cognizant-adds-multi-agent-functionality-to-ai-application-platform/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/
+2024-10-16 17:46:54,610 - INFO - This link is already posted: https://venturebeat.com/ai/anthropic-just-made-it-harder-for-ai-to-go-rogue-with-its-updated-safety-policy/
