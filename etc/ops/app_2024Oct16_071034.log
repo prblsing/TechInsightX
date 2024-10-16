@@ -1,0 +1,47 @@
+2024-10-16 07:10:34,091 - INFO - Starting configuration setup
+2024-10-16 07:10:34,091 - INFO - Environment variables loaded successfully
+2024-10-16 07:10:34,092 - INFO - Twitter API client initialized successfully
+2024-10-16 07:10:36,001 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 07:10:43,271 - INFO - Summarization model initialized successfully
+2024-10-16 07:10:43,271 - INFO - Starting tweet scheduling
+2024-10-16 07:10:43,271 - INFO - Tweeting process started at 2024-10-16 07:10:43.271357!
+2024-10-16 07:10:43,271 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 07:10:43,271 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 07:10:57,412 - INFO - Total entries found: 616
+2024-10-16 07:10:57,415 - INFO - Recent AI-related entries found: 35
+2024-10-16 07:10:57,415 - INFO - Input content - content='How AI maturity of businesses can enable them to serve the business needs of today.'
+2024-10-16 07:10:57,416 - INFO - clean content - clean_content='How AI maturity of businesses can enable them to serve the business needs of today.'
+2024-10-16 07:10:57,416 - INFO - Generating summary with BART model
+2024-10-16 07:11:03,170 - INFO - Generating summary with BART model
+2024-10-16 07:11:08,227 - INFO - full_tweet='How AI maturity of businesses can enable them to serve the business needs of today. How AI maturity can..[read more👇🏼] #AI #businesses https://www.techradar.com/pro/ai-maturity-an-organizational-guide-for-ai-powered-transformation'
+2024-10-16 07:11:08,482 - INFO - Tweet posted successfully: Response(data={'text': 'How AI maturity of businesses can enable them to serve the business needs of today. How AI maturity can..[read more👇🏼] #AI #businesses https://t.co/KHC2zyciSk', 'edit_history_tweet_ids': ['1846448776522727601'], 'id': '1846448776522727601'}, includes={}, errors=[], meta={})
+2024-10-16 07:11:08,482 - INFO - Saved posted URL: https://www.techradar.com/pro/ai-maturity-an-organizational-guide-for-ai-powered-transformation at 2024-10-16 07:11:08
+2024-10-16 07:11:08,482 - INFO - Tweet link saved successfully.
+2024-10-16 07:11:08,482 - INFO - Sleeping for 4 minutes and 57 seconds.
+2024-10-16 07:16:05,483 - INFO - Input content - content='Gmail users are being targeted by authentic looking AI scams.'
+2024-10-16 07:16:05,483 - INFO - clean content - clean_content='Gmail users are being targeted by authentic looking AI scams.'
+2024-10-16 07:16:05,483 - INFO - Generating summary with BART model
+2024-10-16 07:16:09,417 - INFO - Generating summary with BART model
+2024-10-16 07:16:13,353 - INFO - full_tweet='Gmail.com users are being targeted by authentic looking AI scams. The scam is designed to trick Gmail..[read more👇🏼] #AI #Gmail https://www.techradar.com/pro/this-new-scarily-realistic-ai-call-scam-is-targeting-gmail-users'
+2024-10-16 07:16:13,604 - INFO - Tweet posted successfully: Response(data={'text': 'https://t.co/hkzH8xjDuG users are being targeted by authentic looking AI scams. The scam is designed to trick Gmail..[read more👇🏼] #AI #Gmail https://t.co/lXnfDGDwUb', 'id': '1846450056276181242', 'edit_history_tweet_ids': ['1846450056276181242']}, includes={}, errors=[], meta={})
+2024-10-16 07:16:13,604 - INFO - Saved posted URL: https://www.techradar.com/pro/this-new-scarily-realistic-ai-call-scam-is-targeting-gmail-users at 2024-10-16 07:16:13
+2024-10-16 07:16:13,604 - INFO - Tweet link saved successfully.
+2024-10-16 07:16:13,604 - INFO - Sleeping for 8 minutes and 30 seconds.
+2024-10-16 07:24:43,604 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g4r6xv/p_we_created_a_platform_to_build_ai_models_in/
+2024-10-16 07:24:43,604 - INFO - This link is already posted: https://venturebeat.com/ai/cognizant-adds-multi-agent-functionality-to-ai-application-platform/
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/can-an-ai-coach-help-your-esports-team-clinch-the-championship
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-the-latest-impressive-ai-video-generator-for-free
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/
+2024-10-16 07:24:43,605 - INFO - This link is already posted: https://www.cnet.com/tech/mobile/motorolas-new-ai-concept-wants-to-turn-your-phone-into-a-true-assistant/#ftag=CAD590a51e
+2024-10-16 07:24:43,605 - INFO - Input content - content='<figure>\n      <img alt="A screenshot taken of Adobe’s Project Clean Machine sneak." src="https://cdn.vox-cdn.com/thumbor/lY35I0tMaVR6BGPRiaf1tMHWO4U=/96x0:1854x1172/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73655643/Screenshot_2024_10_15_at_16.11.59.0.png" />\n        <figcaption><em>Project “Clean Machine” easily removes distracting flashes and corrects overexposed footage.</em> | Image: Adobe</figcaption>\n    </figure>\n\n  <p id="SRTkmw">Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and photographs that could eventually be added to its Creative Cloud apps.</p>\n<p id="TEPcpr">While the tools apply to vastly different mediums, all three have a similar aim — to automate most of the boring, complex tasks required for content creation, and provide creatives more control over the results than simply plugging a prompt into an AI generator. The idea is to enable people to create animations and images, or make complex video edits, without requiring a great deal of time or experience.</p>\n<p id="fdMCQ3">The first tool, called “Project Scenic,” gives users more control over the images generated by Adobe’s Firefly model. Instead of relying solely on text...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/15/24271151/adobe-sneak-ai-animation-video-editing-3d-tools">Continue reading&hellip;</a>\n  </p>'
+2024-10-16 07:24:43,606 - INFO - clean content - clean_content='Project “Clean Machine” easily removes distracting flashes and corrects overexposed footage. | Image: Adobe Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and photographs that could eventually be added to its Creative Cloud apps. While the tools apply to vastly different mediums, all three have a similar aim — to automate most of the boring, complex tasks required for content creation, and provide creatives more control over the results than simply plugging a prompt into an AI generator. The idea is to enable people to create animations and images, or make complex video edits, without requiring a great deal of time or experience. The first tool, called “Project Scenic,” gives users more control over the images generated by Adobe’s Firefly model. Instead of relying solely on text... Continue reading…'
+2024-10-16 07:24:43,606 - INFO - Generating summary with BART model
+2024-10-16 07:24:50,102 - INFO - Generating summary with BART model
+2024-10-16 07:24:56,570 - INFO - full_tweet='Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and..[read more👇🏼] #AI #video https://www.theverge.com/2024/10/15/24271151/adobe-sneak-ai-animation-video-editing-3d-tools'
+2024-10-16 07:24:56,710 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
