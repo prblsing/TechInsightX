@@ -1,0 +1,82 @@
+2024-10-16 02:15:09,267 - INFO - Starting configuration setup
+2024-10-16 02:15:09,268 - INFO - Environment variables loaded successfully
+2024-10-16 02:15:09,268 - INFO - Twitter API client initialized successfully
+2024-10-16 02:15:11,192 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 02:15:17,825 - INFO - Summarization model initialized successfully
+2024-10-16 02:15:17,826 - INFO - Starting tweet scheduling
+2024-10-16 02:15:17,826 - INFO - Tweeting process started at 2024-10-16 02:15:17.826566!
+2024-10-16 02:15:17,826 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 02:15:17,826 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 02:15:17,827 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 02:15:39,852 - INFO - Total entries found: 616
+2024-10-16 02:15:39,855 - INFO - Recent AI-related entries found: 33
+2024-10-16 02:15:39,856 - INFO - Input content - content='New AI video generator Pollo AI offers limited free video creation.'
+2024-10-16 02:15:39,856 - INFO - clean content - clean_content='New AI video generator Pollo AI offers limited free video creation.'
+2024-10-16 02:15:39,856 - INFO - Generating summary with BART model
+2024-10-16 02:15:44,428 - INFO - Generating summary with BART model
+2024-10-16 02:15:48,289 - INFO - full_tweet="New AI video generator Pollo AI offers limited free video creation. Pollo's free video generator allows..[read more👇🏼] #AI #video https://www.techradar.com/computing/artificial-intelligence/how-to-use-the-latest-impressive-ai-video-generator-for-free"
+2024-10-16 02:15:48,550 - INFO - Tweet posted successfully: Response(data={'text': "New AI video generator Pollo AI offers limited free video creation. Pollo's free video generator allows..[read more👇🏼] #AI #video https://t.co/tpx585ugmf", 'id': '1846374453694869690', 'edit_history_tweet_ids': ['1846374453694869690']}, includes={}, errors=[], meta={})
+2024-10-16 02:15:48,550 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-to-use-the-latest-impressive-ai-video-generator-for-free at 2024-10-16 02:15:48
+2024-10-16 02:15:48,550 - INFO - Tweet link saved successfully.
+2024-10-16 02:15:48,550 - INFO - Sleeping for 3 minutes and 25 seconds.
+2024-10-16 02:19:13,550 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/1920/1*WV7tN7iitHspvfJQG_0jhw.jpeg" width="1920" /></a></p><p class="medium-feed-snippet">How Physics and Machine Learning Joined Forces to Win Physics Nobel 2024</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-16 02:19:13,551 - INFO - clean content - clean_content='How Physics and Machine Learning Joined Forces to Win Physics Nobel 2024Continue reading on Towards Data Science »'
+2024-10-16 02:19:13,551 - INFO - Generating summary with BART model
+2024-10-16 02:19:18,547 - INFO - Generating summary with BART model
+2024-10-16 02:19:23,509 - INFO - full_tweet='How Physics and Machine Learning Joined Forces to Win Physics Nobel 2024. Towards Data Science is a new..[read more👇🏼] #Data #Tech https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4'
+2024-10-16 02:19:23,713 - INFO - Tweet posted successfully: Response(data={'id': '1846375356124586329', 'text': 'How Physics and Machine Learning Joined Forces to Win Physics Nobel 2024. Towards Data Science is a new..[read more👇🏼] #Data #Tech https://t.co/ZpAUgqw1kj', 'edit_history_tweet_ids': ['1846375356124586329']}, includes={}, errors=[], meta={})
+2024-10-16 02:19:23,714 - INFO - Saved posted URL: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4 at 2024-10-16 02:19:23
+2024-10-16 02:19:23,714 - INFO - Tweet link saved successfully.
+2024-10-16 02:19:23,714 - INFO - Sleeping for 6 minutes and 34 seconds.
+2024-10-16 02:25:57,714 - INFO - Input content - content='<p>Dane Stuckey, the former CISO of analytics firm Palantir, has joined OpenAI as its newest CISO, serving alongside OpenAI head of security Matt Knight. Stuckey announced the move in a post on X Tuesday evening. &#8220;Security is germane to OpenAI&#8217;s mission,&#8221; he said. &#8220;It is critical we meet the highest standards for compliance, trust, and [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-16 02:25:57,714 - INFO - clean content - clean_content='Dane Stuckey, the former CISO of analytics firm Palantir, has joined OpenAI as its newest CISO, serving alongside OpenAI head of security Matt Knight. Stuckey announced the move in a post on X Tuesday evening. “Security is germane to OpenAI’s mission,” he said. “It is critical we meet the highest standards for compliance, trust, and […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-16 02:25:57,715 - INFO - Generating summary with BART model
+2024-10-16 02:26:04,643 - INFO - Generating summary with BART model
+2024-10-16 02:26:11,518 - INFO - full_tweet='Dane Stuckey, the former CISO of analytics firm Palantir, has joined OpenAI as its newest CISO. “Security..[read more👇🏼] #analytics #CISO https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/'
+2024-10-16 02:26:11,778 - INFO - Tweet posted successfully: Response(data={'text': 'Dane Stuckey, the former CISO of analytics firm Palantir, has joined OpenAI as its newest CISO. “Security..[read more👇🏼] #analytics #CISO https://t.co/6cfeohMveV', 'id': '1846377067710943742', 'edit_history_tweet_ids': ['1846377067710943742']}, includes={}, errors=[], meta={})
+2024-10-16 02:26:11,778 - INFO - Saved posted URL: https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/ at 2024-10-16 02:26:11
+2024-10-16 02:26:11,778 - INFO - Tweet link saved successfully.
+2024-10-16 02:26:11,778 - INFO - Sleeping for 9 minutes and 5 seconds.
+2024-10-16 02:35:16,778 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/940/1*duvogS-pcVfvBJOs1S1Tgg.png" width="940" /></a></p><p class="medium-feed-snippet">A deep dive into advanced indexing, pre-retrieval, retrieval, and post-retrieval techniques to enhance RAG performance</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-16 02:35:16,778 - INFO - clean content - clean_content='A deep dive into advanced indexing, pre-retrieval, retrieval, and post-retrieval techniques to enhance RAG performanceContinue reading on Towards Data Science »'
+2024-10-16 02:35:16,779 - INFO - Generating summary with BART model
+2024-10-16 02:35:22,008 - INFO - Generating summary with BART model
+2024-10-16 02:35:27,198 - INFO - full_tweet='A deep dive into advanced indexing, pre-retrieval, retrieval, and post- retrieval techniques to enhance RAG performance. #retrieval #performance https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4'
+2024-10-16 02:35:27,442 - INFO - Tweet posted successfully: Response(data={'text': 'A deep dive into advanced indexing, pre-retrieval, retrieval, and post- retrieval techniques to enhance RAG performance. #retrieval #performance https://t.co/j3ncXx1siV', 'edit_history_tweet_ids': ['1846379398322147351'], 'id': '1846379398322147351'}, includes={}, errors=[], meta={})
+2024-10-16 02:35:27,443 - INFO - Saved posted URL: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4 at 2024-10-16 02:35:27
+2024-10-16 02:35:27,443 - INFO - Tweet link saved successfully.
+2024-10-16 02:35:27,443 - INFO - Sleeping for 4 minutes and 3 seconds.
+2024-10-16 02:39:30,443 - INFO - Input content - content="The new frontier in large language models is the ability to “reason” their way through problems. New research from Apple says it's not quite what it's cracked up to be."
+2024-10-16 02:39:30,443 - INFO - clean content - clean_content="The new frontier in large language models is the ability to “reason” their way through problems. New research from Apple says it's not quite what it's cracked up to be."
+2024-10-16 02:39:30,443 - INFO - Generating summary with BART model
+2024-10-16 02:39:34,984 - INFO - Generating summary with BART model
+2024-10-16 02:39:39,582 - INFO - full_tweet="New research from Apple says it's not quite what it's cracked up to be. The new frontier in large..[read more👇🏼] #s #research https://www.wired.com/story/apple-ai-llm-reasoning-research/"
+2024-10-16 02:39:39,792 - INFO - Tweet posted successfully: Response(data={'id': '1846380456721191351', 'edit_history_tweet_ids': ['1846380456721191351'], 'text': "New research from Apple says it's not quite what it's cracked up to be. The new frontier in large..[read more👇🏼] #s #research https://t.co/c6Z1S1UkDX"}, includes={}, errors=[], meta={})
+2024-10-16 02:39:39,792 - INFO - Saved posted URL: https://www.wired.com/story/apple-ai-llm-reasoning-research/ at 2024-10-16 02:39:39
+2024-10-16 02:39:39,792 - INFO - Tweet link saved successfully.
+2024-10-16 02:39:39,792 - INFO - Sleeping for 9 minutes and 33 seconds.
+2024-10-16 02:49:12,792 - INFO - Input content - content="Katanemo's new Arch-Function LLMs promise 12x faster function-calling capabilities, empowering enterprises to build ultra-fast, cost-effective agentic AI applications."
+2024-10-16 02:49:12,793 - INFO - clean content - clean_content="Katanemo's new Arch-Function LLMs promise 12x faster function-calling capabilities, empowering enterprises to build ultra-fast, cost-effective agentic AI applications."
+2024-10-16 02:49:12,793 - INFO - Generating summary with BART model
+2024-10-16 02:49:17,607 - INFO - Generating summary with BART model
+2024-10-16 02:49:22,435 - INFO - full_tweet="Kananemo's new Arch-Function LLMs promise 12x faster function-calling capabilities. They will empower..[read more👇🏼] #AI #capabilities https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/"
+2024-10-16 02:49:22,698 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846382901681676352'], 'id': '1846382901681676352', 'text': "Kananemo's new Arch-Function LLMs promise 12x faster function-calling capabilities. They will empower..[read more👇🏼] #AI #capabilities https://t.co/ZOhj1ZUA24"}, includes={}, errors=[], meta={})
+2024-10-16 02:49:22,698 - INFO - Saved posted URL: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/ at 2024-10-16 02:49:22
+2024-10-16 02:49:22,698 - INFO - Tweet link saved successfully.
+2024-10-16 02:49:22,698 - INFO - Sleeping for 3 minutes and 10 seconds.
+2024-10-16 02:52:32,698 - INFO - Input content - content='Motorola is experimenting with AI that can respond to questions with actions rather than words.'
+2024-10-16 02:52:32,699 - INFO - clean content - clean_content='Motorola is experimenting with AI that can respond to questions with actions rather than words.'
+2024-10-16 02:52:32,699 - INFO - Generating summary with BART model
+2024-10-16 02:52:36,305 - INFO - Generating summary with BART model
+2024-10-16 02:52:39,912 - INFO - full_tweet='Motorola is experimenting with AI that can respond to questions with actions rather than words. The..[read more👇🏼] #technology #AI https://www.cnet.com/tech/mobile/motorolas-new-ai-concept-wants-to-turn-your-phone-into-a-true-assistant/#ftag=CAD590a51e'
+2024-10-16 02:52:40,119 - INFO - Tweet posted successfully: Response(data={'id': '1846383729649840196', 'edit_history_tweet_ids': ['1846383729649840196'], 'text': 'Motorola is experimenting with AI that can respond to questions with actions rather than words. The..[read more👇🏼] #technology #AI https://t.co/U2QoxUSPU8'}, includes={}, errors=[], meta={})
+2024-10-16 02:52:40,119 - INFO - Saved posted URL: https://www.cnet.com/tech/mobile/motorolas-new-ai-concept-wants-to-turn-your-phone-into-a-true-assistant/#ftag=CAD590a51e at 2024-10-16 02:52:40
+2024-10-16 02:52:40,119 - INFO - Tweet link saved successfully.
+2024-10-16 02:52:40,119 - INFO - Sleeping for 4 minutes and 30 seconds.
+2024-10-16 02:57:10,119 - INFO - Input content - content='<figure>\n      <img alt="A screenshot taken of Adobe’s Project Clean Machine sneak." src="https://cdn.vox-cdn.com/thumbor/lY35I0tMaVR6BGPRiaf1tMHWO4U=/96x0:1854x1172/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73655643/Screenshot_2024_10_15_at_16.11.59.0.png" />\n        <figcaption><em>Project “Clean Machine” easily removes distracting flashes and corrects overexposed footage.</em> | Image: Adobe</figcaption>\n    </figure>\n\n  <p id="SRTkmw">Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and photographs that could eventually be added to its Creative Cloud apps.</p>\n<p id="TEPcpr">While the tools apply to vastly different mediums, all three have a similar aim — to automate most of the boring, complex tasks required for content creation, and provide creatives more control over the results than simply plugging a prompt into an AI generator. The idea is to enable people to create animations and images, or make complex video edits, without requiring a great deal of time or experience.</p>\n<p id="fdMCQ3">The first tool, called “Project Scenic,” gives users more control over the images generated by Adobe’s Firefly model. Instead of relying solely on text...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/15/24271151/adobe-sneak-ai-animation-video-editing-3d-tools">Continue reading&hellip;</a>\n  </p>'
+2024-10-16 02:57:10,120 - INFO - clean content - clean_content='Project “Clean Machine” easily removes distracting flashes and corrects overexposed footage. | Image: Adobe Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and photographs that could eventually be added to its Creative Cloud apps. While the tools apply to vastly different mediums, all three have a similar aim — to automate most of the boring, complex tasks required for content creation, and provide creatives more control over the results than simply plugging a prompt into an AI generator. The idea is to enable people to create animations and images, or make complex video edits, without requiring a great deal of time or experience. The first tool, called “Project Scenic,” gives users more control over the images generated by Adobe’s Firefly model. Instead of relying solely on text... Continue reading…'
+2024-10-16 02:57:10,120 - INFO - Generating summary with BART model
+2024-10-16 02:57:16,478 - INFO - Generating summary with BART model
+2024-10-16 02:57:22,787 - INFO - full_tweet='Adobe is previewing some experimental AI tools for animation, image generation, and cleaning up video and..[read more👇🏼] #AI #video https://www.theverge.com/2024/10/15/24271151/adobe-sneak-ai-animation-video-editing-3d-tools'
+2024-10-16 02:57:22,872 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
