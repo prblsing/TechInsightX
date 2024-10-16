@@ -1,0 +1,99 @@
+2024-10-16 14:09:17,872 - INFO - Starting configuration setup
+2024-10-16 14:09:17,873 - INFO - Environment variables loaded successfully
+2024-10-16 14:09:17,873 - INFO - Twitter API client initialized successfully
+2024-10-16 14:09:19,862 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 14:09:28,351 - INFO - Summarization model initialized successfully
+2024-10-16 14:09:28,352 - INFO - Starting tweet scheduling
+2024-10-16 14:09:28,352 - INFO - Tweeting process started at 2024-10-16 14:09:28.352294!
+2024-10-16 14:09:28,352 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 14:09:28,352 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 14:09:44,349 - INFO - Total entries found: 587
+2024-10-16 14:09:44,352 - INFO - Recent AI-related entries found: 24
+2024-10-16 14:09:44,352 - INFO - Input content - content='Learn about 10 easy steps to becoming an AI engineer in 2024.'
+2024-10-16 14:09:44,353 - INFO - clean content - clean_content='Learn about 10 easy steps to becoming an AI engineer in 2024.'
+2024-10-16 14:09:44,353 - INFO - Generating summary with BART model
+2024-10-16 14:09:49,360 - INFO - Generating summary with BART model
+2024-10-16 14:09:53,700 - INFO - full_tweet='Learn about 10 easy steps to becoming an AI engineer in 2024. Learn about 10easy steps to become an AI..[read more👇🏼] #AI #Learn https://www.kdnuggets.com/roadmap-for-ai-engineers'
+2024-10-16 14:09:53,935 - INFO - Tweet posted successfully: Response(data={'id': '1846554160361288081', 'edit_history_tweet_ids': ['1846554160361288081'], 'text': 'Learn about 10 easy steps to becoming an AI engineer in 2024. Learn about 10easy steps to become an AI..[read more👇🏼] #AI #Learn https://t.co/G46BTSuWGB'}, includes={}, errors=[], meta={})
+2024-10-16 14:09:53,935 - INFO - Saved posted URL: https://www.kdnuggets.com/roadmap-for-ai-engineers at 2024-10-16 14:09:53
+2024-10-16 14:09:53,935 - INFO - Tweet link saved successfully.
+2024-10-16 14:09:53,935 - INFO - Sleeping for 5 minutes and 56 seconds.
+2024-10-16 14:15:49,936 - INFO - Input content - content='New AMD Pensando chips enable AI networking at a higher level.'
+2024-10-16 14:15:49,936 - INFO - clean content - clean_content='New AMD Pensando chips enable AI networking at a higher level.'
+2024-10-16 14:15:49,936 - INFO - Generating summary with BART model
+2024-10-16 14:15:55,743 - INFO - Generating summary with BART model
+2024-10-16 14:16:01,622 - INFO - full_tweet='New AMD Pensando chips enable AI networking at a higher level. New AMD Pensandos will be used for AI..[read more👇🏼] #AI #AMD https://www.techradar.com/pro/amd-debuts-new-pensando-chips-and-networking-technology-to-advance-ai-performance'
+2024-10-16 14:16:01,903 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846555703546421511'], 'id': '1846555703546421511', 'text': 'New AMD Pensando chips enable AI networking at a higher level. New AMD Pensandos will be used for AI..[read more👇🏼] #AI #AMD https://t.co/V20wkCnkd1'}, includes={}, errors=[], meta={})
+2024-10-16 14:16:01,903 - INFO - Saved posted URL: https://www.techradar.com/pro/amd-debuts-new-pensando-chips-and-networking-technology-to-advance-ai-performance at 2024-10-16 14:16:01
+2024-10-16 14:16:01,904 - INFO - Tweet link saved successfully.
+2024-10-16 14:16:01,904 - INFO - Sleeping for 5 minutes and 46 seconds.
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/lightmatters-400m-d-round-has-ai-hyperscalers-hyped-for-photonic-datacenters/
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/amazon-revamps-kindle-line-with-faster-page-turns-ai-and-a-new-green-color/
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/treehouse-uses-ai-to-help-electricians-install-tech-like-ev-chargers-and-heat-pumps-more-cheaply/
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/i-tried-an-ai-powered-productivity-tool-the-learning-curve-was-steep/#ftag=CAD590a51e
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.cnet.com/videos/making-friends-with-cleo-the-ai-budgeting-app/#ftag=CAD590a51e
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/features/is-ai-the-answer-to-your-money-problems-heres-what-it-can-and-cant-do/#ftag=CAD590a51e
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.techradar.com/computing/hide-your-wallet-google-shopping-is-now-using-ai-to-help-you-keep-spending
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/latticeflows-llm-framework-takes-a-first-stab-at-benchmarking-big-ais-compliance-with-eu-ai-act/
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://www.techradar.com/tablets/ereaders/the-first-color-amazon-kindle-is-finally-here-and-its-been-joined-by-an-ai-powered-scribe-too
+2024-10-16 14:21:47,904 - INFO - This link is already posted: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai
+2024-10-16 14:21:47,905 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 14:21:47,905 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 14:21:47,905 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/
+2024-10-16 14:21:47,905 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 14:21:47,905 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 14:21:47,905 - INFO - Input content - content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 14:21:47,905 - INFO - clean content - clean_content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 14:21:47,905 - INFO - Generating summary with BART model
+2024-10-16 14:21:52,895 - INFO - Generating summary with BART model
+2024-10-16 14:21:57,893 - INFO - full_tweet="Character.AI lets users create bots in the likeness of any person. Users don't need to give their consent..[read more👇🏼] #AI #Character https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/"
+2024-10-16 14:21:58,139 - INFO - Tweet posted successfully: Response(data={'id': '1846557197893009767', 'edit_history_tweet_ids': ['1846557197893009767'], 'text': "https://t.co/XZfEeirJt6 lets users create bots in the likeness of any person. Users don't need to give their consent..[read more👇🏼] #AI #Character https://t.co/cxtB9yjPCr"}, includes={}, errors=[], meta={})
+2024-10-16 14:21:58,139 - INFO - Saved posted URL: https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/ at 2024-10-16 14:21:58
+2024-10-16 14:21:58,139 - INFO - Tweet link saved successfully.
+2024-10-16 14:21:58,139 - INFO - Sleeping for 4 minutes and 44 seconds.
+2024-10-16 14:26:42,140 - INFO - Input content - content="Google plots a path to use nuclear energy. But nuclear power from small modular reactors isn't all that clean—and comes with environmental risks."
+2024-10-16 14:26:42,140 - INFO - clean content - clean_content="Google plots a path to use nuclear energy. But nuclear power from small modular reactors isn't all that clean—and comes with environmental risks."
+2024-10-16 14:26:42,140 - INFO - Generating summary with BART model
+2024-10-16 14:26:46,493 - INFO - Generating summary with BART model
+2024-10-16 14:26:50,917 - INFO - full_tweet="Nuclear power from small modular reactors isn't all that clean and comes with environmental risks. Google..[read more👇🏼] #environmental #reactors https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos"
+2024-10-16 14:26:51,145 - INFO - Tweet posted successfully: Response(data={'id': '1846558426840871024', 'text': "Nuclear power from small modular reactors isn't all that clean and comes with environmental risks. Google..[read more👇🏼] #environmental #reactors https://t.co/653T7bcJE1", 'edit_history_tweet_ids': ['1846558426840871024']}, includes={}, errors=[], meta={})
+2024-10-16 14:26:51,145 - INFO - Saved posted URL: https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos at 2024-10-16 14:26:51
+2024-10-16 14:26:51,145 - INFO - Tweet link saved successfully.
+2024-10-16 14:26:51,145 - INFO - Sleeping for 5 minutes and 36 seconds.
+2024-10-16 14:32:27,145 - INFO - Input content - content='<p>At Open Compute Project Summit (OCP) 2024, we’re sharing details about our next-generation network fabric for our AI training clusters. We’ve expanded our network hardware portfolio and are contributing two new disaggregated network fabrics and a new NIC to OCP. We look forward to continued collaboration with OCP to open designs for racks, servers, storage [...]</p>\n<p><a class="btn btn-secondary understrap-read-more-link" href="https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/">Read More...</a></p>\n<p>The post <a href="https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/" rel="nofollow">OCP Summit 2024: The open future of networking hardware for AI</a> appeared first on <a href="https://engineering.fb.com" rel="nofollow">Engineering at Meta</a>.</p>'
+2024-10-16 14:32:27,145 - INFO - clean content - clean_content='At Open Compute Project Summit (OCP) 2024, we’re sharing details about our next-generation network fabric for our AI training clusters. We’ve expanded our network hardware portfolio and are contributing two new disaggregated network fabrics and a new NIC to OCP. We look forward to continued collaboration with OCP to open designs for racks, servers, storage [...] Read More... The post OCP Summit 2024: The open future of networking hardware for AI appeared first on Engineering at Meta.'
+2024-10-16 14:32:27,146 - INFO - Generating summary with BART model
+2024-10-16 14:32:32,877 - INFO - Generating summary with BART model
+2024-10-16 14:32:38,600 - INFO - full_tweet='Meta has expanded its network hardware portfolio and are contributing two new disaggregated network..[read more👇🏼] #network #hardware https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/'
+2024-10-16 14:32:38,832 - INFO - Tweet posted successfully: Response(data={'id': '1846559885171003896', 'text': 'Meta has expanded its network hardware portfolio and are contributing two new disaggregated network..[read more👇🏼] #network #hardware https://t.co/EOsFkdfZmv', 'edit_history_tweet_ids': ['1846559885171003896']}, includes={}, errors=[], meta={})
+2024-10-16 14:32:38,832 - INFO - Saved posted URL: https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/ at 2024-10-16 14:32:38
+2024-10-16 14:32:38,832 - INFO - Tweet link saved successfully.
+2024-10-16 14:32:38,832 - INFO - Sleeping for 3 minutes and 38 seconds.
+2024-10-16 14:36:16,832 - INFO - Input content - content='This guide emphasizes the growing significance of GenAI but also highlights the crucial role that data scientists play in harnessing this technology to solve real-world problems.'
+2024-10-16 14:36:16,833 - INFO - clean content - clean_content='This guide emphasizes the growing significance of GenAI but also highlights the crucial role that data scientists play in harnessing this technology to solve real-world problems.'
+2024-10-16 14:36:16,833 - INFO - Generating summary with BART model
+2024-10-16 14:36:20,978 - INFO - Generating summary with BART model
+2024-10-16 14:36:25,059 - INFO - full_tweet='This guide emphasizes the growing significance of GenAI. It also highlights the crucial role that data..[read more👇🏼] #technology #data https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide'
+2024-10-16 14:36:25,257 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846560834803429527'], 'text': 'This guide emphasizes the growing significance of GenAI. It also highlights the crucial role that data..[read more👇🏼] #technology #data https://t.co/Ur6llJp20l', 'id': '1846560834803429527'}, includes={}, errors=[], meta={})
+2024-10-16 14:36:25,257 - INFO - Saved posted URL: https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide at 2024-10-16 14:36:25
+2024-10-16 14:36:25,257 - INFO - Tweet link saved successfully.
+2024-10-16 14:36:25,257 - INFO - Sleeping for 6 minutes and 45 seconds.
+2024-10-16 14:43:10,257 - INFO - Input content - content='<p>At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware designs with the OCP community. These innovations include a new AI platform, cutting-edge open rack designs, and advanced network fabrics and components.\xa0 By sharing our designs, we hope to inspire collaboration and foster innovation. If you&#8217;re passionate about building [...]</p>\n<p><a class="btn btn-secondary understrap-read-more-link" href="https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/">Read More...</a></p>\n<p>The post <a href="https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/" rel="nofollow">Meta’s open AI hardware vision</a> appeared first on <a href="https://engineering.fb.com" rel="nofollow">Engineering at Meta</a>.</p>'
+2024-10-16 14:43:10,258 - INFO - clean content - clean_content='At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware designs with the OCP community. These innovations include a new AI platform, cutting-edge open rack designs, and advanced network fabrics and components. By sharing our designs, we hope to inspire collaboration and foster innovation. If you’re passionate about building [...] Read More... The post Meta’s open AI hardware vision appeared first on Engineering at Meta.'
+2024-10-16 14:43:10,258 - INFO - Generating summary with BART model
+2024-10-16 14:43:18,681 - INFO - Generating summary with BART model
+2024-10-16 14:43:27,781 - INFO - full_tweet='At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware..[read more👇🏼] #AI #hardware https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/'
+2024-10-16 14:43:28,035 - INFO - Tweet posted successfully: Response(data={'text': 'At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware..[read more👇🏼] #AI #hardware https://t.co/fHVuIlcNe6', 'id': '1846562608025088302', 'edit_history_tweet_ids': ['1846562608025088302']}, includes={}, errors=[], meta={})
+2024-10-16 14:43:28,035 - INFO - Saved posted URL: https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/ at 2024-10-16 14:43:28
+2024-10-16 14:43:28,035 - INFO - Tweet link saved successfully.
+2024-10-16 14:43:28,035 - INFO - Sleeping for 3 minutes and 30 seconds.
+2024-10-16 14:46:58,035 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite), and I\'ve found combining some of these have significantly boosted productivity and experience (e.g., o1 + Cursor) for web app development. Wondering if y\'all have used Gen AI for building data engineering pipelines/workflows? What\'s your experience been like? My friend and I are thinking of building an open-source project around this but we\'d love to better understand potential users\' pain points.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Away-Violinist3104"> /u/Away-Violinist3104 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/">[comments]</a></span>'
+2024-10-16 14:46:58,036 - INFO - clean content - clean_content="There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite), and I've found combining some of these have significantly boosted productivity and experience (e.g., o1 + Cursor) for web app development. Wondering if y'all have used Gen AI for building data engineering pipelines/workflows? What's your experience been like? My friend and I are thinking of building an open-source project around this but we'd love to better understand potential users' pain points.   submitted by   /u/Away-Violinist3104 [link]   [comments]"
+2024-10-16 14:46:58,036 - INFO - Generating summary with BART model
+2024-10-16 14:47:08,981 - INFO - Generating summary with BART model
+2024-10-16 14:47:19,856 - INFO - full_tweet='There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite)..[read more👇🏼] #AI #I https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/'
+2024-10-16 14:47:20,034 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846563581195870701'], 'text': 'There are many generative AI models (OpenAI o1, Claude 3.5 Sonnet) and tools (Cursor, one of my favorite)..[read more👇🏼] #AI #I https://t.co/XIL41WuNGZ', 'id': '1846563581195870701'}, includes={}, errors=[], meta={})
+2024-10-16 14:47:20,034 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g48z7x/d_gen_ai_for_data_engineering/ at 2024-10-16 14:47:20
+2024-10-16 14:47:20,034 - INFO - Tweet link saved successfully.
+2024-10-16 14:47:20,034 - INFO - Sleeping for 3 minutes and 43 seconds.
