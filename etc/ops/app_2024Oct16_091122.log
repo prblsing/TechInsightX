@@ -1,0 +1,30 @@
+2024-10-16 09:11:22,600 - INFO - Starting configuration setup
+2024-10-16 09:11:22,600 - INFO - Environment variables loaded successfully
+2024-10-16 09:11:22,600 - INFO - Twitter API client initialized successfully
+2024-10-16 09:11:24,462 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 09:11:31,729 - INFO - Summarization model initialized successfully
+2024-10-16 09:11:31,729 - INFO - Starting tweet scheduling
+2024-10-16 09:11:31,729 - INFO - Tweeting process started at 2024-10-16 09:11:31.729383!
+2024-10-16 09:11:31,729 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 09:11:31,729 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 09:11:47,287 - INFO - Total entries found: 616
+2024-10-16 09:11:47,290 - INFO - Recent AI-related entries found: 33
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.techradar.com/pro/ai-maturity-an-organizational-guide-for-ai-powered-transformation
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.techradar.com/pro/this-new-scarily-realistic-ai-call-scam-is-targeting-gmail-users
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g4r6xv/p_we_created_a_platform_to_build_ai_models_in/
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://venturebeat.com/ai/cognizant-adds-multi-agent-functionality-to-ai-application-platform/
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/can-an-ai-coach-help-your-esports-team-clinch-the-championship
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-the-latest-impressive-ai-video-generator-for-free
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 09:11:47,290 - INFO - This link is already posted: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/
+2024-10-16 09:11:47,290 - INFO - Input content - content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 09:11:47,291 - INFO - clean content - clean_content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 09:11:47,291 - INFO - Generating summary with BART model
+2024-10-16 09:11:53,065 - INFO - Generating summary with BART model
+2024-10-16 09:11:58,219 - INFO - full_tweet="Character.AI lets users create bots in the likeness of any person. Users don't need to give their consent..[read more👇🏼] #AI #Character https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/"
+2024-10-16 09:11:58,403 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
