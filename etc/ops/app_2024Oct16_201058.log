@@ -1,0 +1,18 @@
+2024-10-16 20:10:58,474 - INFO - Starting configuration setup
+2024-10-16 20:10:58,474 - INFO - Environment variables loaded successfully
+2024-10-16 20:10:58,474 - INFO - Twitter API client initialized successfully
+2024-10-16 20:11:00,289 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 20:11:08,369 - INFO - Summarization model initialized successfully
+2024-10-16 20:11:08,369 - INFO - Starting tweet scheduling
+2024-10-16 20:11:08,369 - INFO - Tweeting process started at 2024-10-16 20:11:08.369556!
+2024-10-16 20:11:08,369 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 20:11:08,370 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 20:11:24,873 - INFO - Total entries found: 587
+2024-10-16 20:11:24,875 - INFO - Recent AI-related entries found: 22
+2024-10-16 20:11:24,875 - INFO - Input content - content="The Company's ‘Turing Chip’ will power EVs, robots and flying cars"
+2024-10-16 20:11:24,876 - INFO - clean content - clean_content="The Company's ‘Turing Chip’ will power EVs, robots and flying cars"
+2024-10-16 20:11:24,876 - INFO - Generating summary with BART model
+2024-10-16 20:11:30,114 - INFO - Generating summary with BART model
+2024-10-16 20:11:34,697 - INFO - full_tweet="The Company's ‘Turing Chip’ will power EVs, robots and flying cars. The Company's 'Turing chip' will..[read more👇🏼] #Company #Turing https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/x-peng-ev-flaunts-new-ai-powered-autonomous-driving-powers-but-its-still-a-long-road-to-hands-free-motoring"
+2024-10-16 20:11:34,777 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
