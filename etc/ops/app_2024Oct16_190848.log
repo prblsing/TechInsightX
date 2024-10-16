@@ -1,0 +1,19 @@
+2024-10-16 19:08:48,703 - INFO - Starting configuration setup
+2024-10-16 19:08:48,703 - INFO - Environment variables loaded successfully
+2024-10-16 19:08:48,703 - INFO - Twitter API client initialized successfully
+2024-10-16 19:08:50,706 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 19:08:58,356 - INFO - Summarization model initialized successfully
+2024-10-16 19:08:58,356 - INFO - Starting tweet scheduling
+2024-10-16 19:08:58,356 - INFO - Tweeting process started at 2024-10-16 19:08:58.356674!
+2024-10-16 19:08:58,357 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 19:08:58,357 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 19:09:14,148 - INFO - Total entries found: 615
+2024-10-16 19:09:14,151 - INFO - Recent AI-related entries found: 27
+2024-10-16 19:09:14,151 - INFO - This link is already posted: https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/
+2024-10-16 19:09:14,151 - INFO - Input content - content='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process—sometimes revealing hidden motives.'
+2024-10-16 19:09:14,152 - INFO - clean content - clean_content='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process—sometimes revealing hidden motives.'
+2024-10-16 19:09:14,152 - INFO - Generating summary with BART model
+2024-10-16 19:09:19,642 - INFO - Generating summary with BART model
+2024-10-16 19:09:24,457 - INFO - full_tweet='Dippy, a startup that offers “uncensored” AI companions, lets you peer into their thought process...[read more👇🏼] #startup #AI https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/'
+2024-10-16 19:09:24,572 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
