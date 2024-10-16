@@ -1,0 +1,30 @@
+2024-10-16 23:10:07,358 - INFO - Starting configuration setup
+2024-10-16 23:10:07,359 - INFO - Environment variables loaded successfully
+2024-10-16 23:10:07,359 - INFO - Twitter API client initialized successfully
+2024-10-16 23:10:09,223 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 23:10:17,505 - INFO - Summarization model initialized successfully
+2024-10-16 23:10:17,506 - INFO - Starting tweet scheduling
+2024-10-16 23:10:17,506 - INFO - Tweeting process started at 2024-10-16 23:10:17.506173!
+2024-10-16 23:10:17,506 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 23:10:17,506 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 23:10:33,358 - INFO - Total entries found: 587
+2024-10-16 23:10:33,360 - INFO - Recent AI-related entries found: 19
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/after-selling-drift-ex-hubspot-exec-launches-ai-for-customer-success-managers/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/x-peng-ev-flaunts-new-ai-powered-autonomous-driving-powers-but-its-still-a-long-road-to-hands-free-motoring
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.pcmag.com/news/man-outgunned-as-girlfriend-brings-chatgpt-ammo-to-every-argument
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/this-week-in-ai-aws-loses-a-top-ai-exec/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.techradar.com/pro/nvidia-ceo-ai-could-be-the-largest-technological-leap-weve-ever-seen
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.techradar.com/pro/alibaba-releases-new-translation-focused-ai-model-for-international-ecommerce-trade-and-everyday-life
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/boston-dynamics-teams-with-tri-to-bring-ai-smarts-to-atlas-humanoid-robot/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/mistral-releases-new-ai-models-optimized-for-edge-devices/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.kdnuggets.com/roadmap-for-ai-engineers
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/lightmatters-400m-d-round-has-ai-hyperscalers-hyped-for-photonic-datacenters/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/amazon-revamps-kindle-line-with-faster-page-turns-ai-and-a-new-green-color/
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 23:10:33,361 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
