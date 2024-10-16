@@ -1,0 +1,37 @@
+2024-10-16 16:10:26,305 - INFO - Starting configuration setup
+2024-10-16 16:10:26,306 - INFO - Environment variables loaded successfully
+2024-10-16 16:10:26,306 - INFO - Twitter API client initialized successfully
+2024-10-16 16:10:28,159 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 16:10:34,990 - INFO - Summarization model initialized successfully
+2024-10-16 16:10:34,990 - INFO - Starting tweet scheduling
+2024-10-16 16:10:34,990 - INFO - Tweeting process started at 2024-10-16 16:10:34.990438!
+2024-10-16 16:10:35,318 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 16:10:35,318 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 16:10:49,745 - INFO - Total entries found: 616
+2024-10-16 16:10:49,748 - INFO - Recent AI-related entries found: 26
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/boston-dynamics-teams-with-tri-to-bring-ai-smarts-to-atlas-humanoid-robot/
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/apples-latest-study-proves-that-ai-cant-even-solve-basic-grade-school-math-problems
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/mistral-releases-new-ai-models-optimized-for-edge-devices/
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://www.kdnuggets.com/roadmap-for-ai-engineers
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://venturebeat.com/games/live-aware-labs-raises-4-8m-for-its-ai-powered-gamer-feedback-platform/
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://www.techradar.com/pro/amd-debuts-new-pensando-chips-and-networking-technology-to-advance-ai-performance
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/lightmatters-400m-d-round-has-ai-hyperscalers-hyped-for-photonic-datacenters/
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/amazon-revamps-kindle-line-with-faster-page-turns-ai-and-a-new-green-color/
+2024-10-16 16:10:49,748 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/treehouse-uses-ai-to-help-electricians-install-tech-like-ev-chargers-and-heat-pumps-more-cheaply/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://venturebeat.com/security/what-open-source-ai-models-should-your-enterprise-use-endor-labs-analyzes-them-all/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/latticeflows-llm-framework-takes-a-first-stab-at-benchmarking-big-ais-compliance-with-eu-ai-act/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.techradar.com/tablets/ereaders/the-first-color-amazon-kindle-is-finally-here-and-its-been-joined-by-an-ai-powered-scribe-too
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://venturebeat.com/ai/cognizant-adds-multi-agent-functionality-to-ai-application-platform/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://venturebeat.com/ai/arch-function-llms-promise-lightning-fast-agentic-ai-for-complex-enterprise-workflows/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://venturebeat.com/ai/anthropic-just-made-it-harder-for-ai-to-go-rogue-with-its-updated-safety-policy/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.pcmag.com/news/google-goes-nuclear-buying-energy-us-reactors-power-ai-kairos
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/a-data-scientist-genai-survival-guide
+2024-10-16 16:10:49,749 - INFO - This link is already posted: https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/
