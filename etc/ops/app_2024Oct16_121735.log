@@ -1,0 +1,67 @@
+2024-10-16 12:17:35,491 - INFO - Starting configuration setup
+2024-10-16 12:17:35,492 - INFO - Environment variables loaded successfully
+2024-10-16 12:17:35,492 - INFO - Twitter API client initialized successfully
+2024-10-16 12:17:37,441 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-16 12:17:43,915 - INFO - Summarization model initialized successfully
+2024-10-16 12:17:43,915 - INFO - Starting tweet scheduling
+2024-10-16 12:17:43,915 - INFO - Tweeting process started at 2024-10-16 12:17:43.915630!
+2024-10-16 12:17:43,916 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct16.csv
+2024-10-16 12:17:43,916 - INFO - Fetching latest tech news from RSS feeds
+2024-10-16 12:17:57,555 - INFO - Total entries found: 587
+2024-10-16 12:17:57,558 - INFO - Recent AI-related entries found: 27
+2024-10-16 12:17:57,558 - INFO - Input content - content='Some clever budgeters are using chatbots to make better spending decisions. This is what personal finance experts have to say about that.'
+2024-10-16 12:17:57,558 - INFO - clean content - clean_content='Some clever budgeters are using chatbots to make better spending decisions. This is what personal finance experts have to say about that.'
+2024-10-16 12:17:57,558 - INFO - Generating summary with BART model
+2024-10-16 12:18:03,645 - INFO - Generating summary with BART model
+2024-10-16 12:18:08,967 - INFO - full_tweet='Some clever budgeters are using chatbots to make better spending decisions. This is what personal finance..[read more👇🏼] #decisions #chatbots https://www.cnet.com/tech/services-and-software/features/is-ai-the-answer-to-your-money-problems-heres-what-it-can-and-cant-do/#ftag=CAD590a51e'
+2024-10-16 12:18:09,212 - INFO - Tweet posted successfully: Response(data={'text': 'Some clever budgeters are using chatbots to make better spending decisions. This is what personal finance..[read more👇🏼] #decisions #chatbots https://t.co/QHp5YMCBis', 'id': '1846526038676849017', 'edit_history_tweet_ids': ['1846526038676849017']}, includes={}, errors=[], meta={})
+2024-10-16 12:18:09,212 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/features/is-ai-the-answer-to-your-money-problems-heres-what-it-can-and-cant-do/#ftag=CAD590a51e at 2024-10-16 12:18:09
+2024-10-16 12:18:09,212 - INFO - Tweet link saved successfully.
+2024-10-16 12:18:09,212 - INFO - Sleeping for 8 minutes and 9 seconds.
+2024-10-16 12:26:18,212 - INFO - Input content - content="Motion is an AI tool designed to help most people manage time more efficiently -- but apparently, I'm not one of them."
+2024-10-16 12:26:18,212 - INFO - clean content - clean_content="Motion is an AI tool designed to help most people manage time more efficiently -- but apparently, I'm not one of them."
+2024-10-16 12:26:18,213 - INFO - Generating summary with BART model
+2024-10-16 12:26:23,011 - INFO - Generating summary with BART model
+2024-10-16 12:26:27,805 - INFO - full_tweet="Motion is an AI tool designed to help most people manage time more efficiently. But apparently, I'm not..[read more👇🏼] #AI #Motion https://www.cnet.com/tech/services-and-software/i-tried-an-ai-powered-productivity-tool-the-learning-curve-was-steep/#ftag=CAD590a51e"
+2024-10-16 12:26:28,056 - INFO - Tweet posted successfully: Response(data={'text': "Motion is an AI tool designed to help most people manage time more efficiently. But apparently, I'm not..[read more👇🏼] #AI #Motion https://t.co/YksTtoxHGn", 'edit_history_tweet_ids': ['1846528130917290176'], 'id': '1846528130917290176'}, includes={}, errors=[], meta={})
+2024-10-16 12:26:28,056 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/i-tried-an-ai-powered-productivity-tool-the-learning-curve-was-steep/#ftag=CAD590a51e at 2024-10-16 12:26:28
+2024-10-16 12:26:28,056 - INFO - Tweet link saved successfully.
+2024-10-16 12:26:28,056 - INFO - Sleeping for 9 minutes and 45 seconds.
+2024-10-16 12:36:13,056 - INFO - Input content - content='CNET Personal Finance Editor, Kelly Ernst, tested out AI budgeting app Cleo to see if it could help her cut back on overspending.'
+2024-10-16 12:36:13,056 - INFO - clean content - clean_content='CNET Personal Finance Editor, Kelly Ernst, tested out AI budgeting app Cleo to see if it could help her cut back on overspending.'
+2024-10-16 12:36:13,057 - INFO - Generating summary with BART model
+2024-10-16 12:36:18,646 - INFO - Generating summary with BART model
+2024-10-16 12:36:24,220 - INFO - full_tweet='CNET Personal Finance Editor, Kelly Ernst, tested out AI budgeting app Cleo to see if it could help her..[read more👇🏼] #app #AI https://www.cnet.com/videos/making-friends-with-cleo-the-ai-budgeting-app/#ftag=CAD590a51e'
+2024-10-16 12:36:24,460 - INFO - Tweet posted successfully: Response(data={'text': 'CNET Personal Finance Editor, Kelly Ernst, tested out AI budgeting app Cleo to see if it could help her..[read more👇🏼] #app #AI https://t.co/qhRc6bRbrL', 'id': '1846530632442134711', 'edit_history_tweet_ids': ['1846530632442134711']}, includes={}, errors=[], meta={})
+2024-10-16 12:36:24,460 - INFO - Saved posted URL: https://www.cnet.com/videos/making-friends-with-cleo-the-ai-budgeting-app/#ftag=CAD590a51e at 2024-10-16 12:36:24
+2024-10-16 12:36:24,460 - INFO - Tweet link saved successfully.
+2024-10-16 12:36:24,461 - INFO - Sleeping for 4 minutes and 9 seconds.
+2024-10-16 12:40:33,461 - INFO - This link is already posted: https://www.techradar.com/computing/hide-your-wallet-google-shopping-is-now-using-ai-to-help-you-keep-spending
+2024-10-16 12:40:33,461 - INFO - This link is already posted: https://www.pcmag.com/news/youtube-gets-update-sleep-timer-miniplayer-ai-replies
+2024-10-16 12:40:33,461 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/latticeflows-llm-framework-takes-a-first-stab-at-benchmarking-big-ais-compliance-with-eu-ai-act/
+2024-10-16 12:40:33,461 - INFO - This link is already posted: https://www.techradar.com/tablets/ereaders/the-first-color-amazon-kindle-is-finally-here-and-its-been-joined-by-an-ai-powered-scribe-too
+2024-10-16 12:40:33,461 - INFO - Input content - content='<img height="417" src="https://img-cdn.tnwcdn.com/image?fit=796%2C417&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F06%2Ftnw-podcast-feat-gimp-e1723056297966.jpg&amp;signature=0d0aacac8dbee9820a0a31645c48eed9" width="796" /><br />\ufeff Welcome to the new episode of the TNW Podcast — the show where we discuss the latest developments in the European technology ecosystem and feature interviews with some of the most interesting people in the industry. In today’s special episode, we’re happy to present an interview with Anita Schjøll Abildgaard, co-founder and CEO at Iris.ai. The startup has been around for almost a decade and saw several significant pivots, while Anita and the team have been through all the highs and lows imaginable, including balancing on the brink of bankruptcy. Anita and Andrii talked about it all, as well&#8230;<br /><br /><a href="https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai?utm_source=social&#038;utm_medium=feed&#038;utm_campaign=profeed">This story continues</a> at The Next Web'
+2024-10-16 12:40:33,461 - INFO - clean content - clean_content='\ufeff Welcome to the new episode of the TNW Podcast — the show where we discuss the latest developments in the European technology ecosystem and feature interviews with some of the most interesting people in the industry. In today’s special episode, we’re happy to present an interview with Anita Schjøll Abildgaard, co-founder and CEO at Iris.ai. The startup has been around for almost a decade and saw several significant pivots, while Anita and the team have been through all the highs and lows imaginable, including balancing on the brink of bankruptcy. Anita and Andrii talked about it all, as well…This story continues at The Next Web'
+2024-10-16 12:40:33,462 - INFO - Generating summary with BART model
+2024-10-16 12:40:40,621 - INFO - Generating summary with BART model
+2024-10-16 12:40:47,729 - INFO - full_tweet='Anita Schjøll Abildgaard, co-founder and CEO at Iris.ai. The startup has been around for almost a decade..[read more👇🏼] #startup #ai https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai'
+2024-10-16 12:40:47,938 - INFO - Tweet posted successfully: Response(data={'text': 'Anita Schjøll Abildgaard, co-founder and CEO at https://t.co/0W0hjPns5J. The startup has been around for almost a decade..[read more👇🏼] #startup #ai https://t.co/uDeH6ybfmB', 'edit_history_tweet_ids': ['1846531737502786032'], 'id': '1846531737502786032'}, includes={}, errors=[], meta={})
+2024-10-16 12:40:47,938 - INFO - Saved posted URL: https://thenextweb.com/news/generative-ai-academic-publishing-iris-ai at 2024-10-16 12:40:47
+2024-10-16 12:40:47,938 - INFO - Tweet link saved successfully.
+2024-10-16 12:40:47,938 - INFO - Sleeping for 4 minutes and 39 seconds.
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://www.techradar.com/pro/ai-maturity-an-organizational-guide-for-ai-powered-transformation
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://www.techradar.com/pro/this-new-scarily-realistic-ai-call-scam-is-targeting-gmail-users
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://news.mit.edu/2024/ambience-equips-doctors-with-ai-co-pilots-1016
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/can-an-ai-coach-help-your-esports-team-clinch-the-championship
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-use-the-latest-impressive-ai-video-generator-for-free
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://towardsdatascience.com/the-science-behind-ais-first-nobel-prize-829c788f2202?source=rss----7f60cf5620c9---4
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://techcrunch.com/2024/10/15/former-palantir-ciso-dane-stuckey-joins-openai-to-lead-security/
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://towardsdatascience.com/beyond-na%C3%AFve-rag-advanced-techniques-for-building-smarter-and-reliable-ai-systems-c4fbcf8718b8?source=rss----7f60cf5620c9---4
+2024-10-16 12:45:26,939 - INFO - This link is already posted: https://www.wired.com/story/apple-ai-llm-reasoning-research/
+2024-10-16 12:45:26,939 - INFO - Input content - content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 12:45:26,939 - INFO - clean content - clean_content='Character.AI lets users create bots in the likeness of any person—without requiring their consent.'
+2024-10-16 12:45:26,939 - INFO - Generating summary with BART model
+2024-10-16 12:45:31,650 - INFO - Generating summary with BART model
+2024-10-16 12:45:36,391 - INFO - full_tweet="Character.AI lets users create bots in the likeness of any person. Users don't need to give their consent..[read more👇🏼] #AI #Character https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/"
+2024-10-16 12:45:36,546 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
