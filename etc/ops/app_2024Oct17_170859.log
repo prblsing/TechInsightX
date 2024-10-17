@@ -1,0 +1,48 @@
+2024-10-17 17:08:59,413 - INFO - Starting configuration setup
+2024-10-17 17:08:59,414 - INFO - Environment variables loaded successfully
+2024-10-17 17:08:59,414 - INFO - Twitter API client initialized successfully
+2024-10-17 17:09:01,335 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 17:09:09,248 - INFO - Summarization model initialized successfully
+2024-10-17 17:09:09,248 - INFO - Starting tweet scheduling
+2024-10-17 17:09:09,248 - INFO - Tweeting process started at 2024-10-17 17:09:09.248806!
+2024-10-17 17:09:09,249 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 17:09:09,249 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 17:09:39,580 - INFO - Total entries found: 615
+2024-10-17 17:09:39,583 - INFO - Recent AI-related entries found: 21
+2024-10-17 17:09:39,583 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-17 17:09:39,583 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-17 17:09:39,583 - INFO - This link is already posted: https://www.theverge.com/2024/10/17/24268007/modders-ai-companions-stardew-valley-skyrim
+2024-10-17 17:09:39,583 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer
+2024-10-17 17:09:39,583 - INFO - Input content - content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-17 17:09:39,584 - INFO - clean content - clean_content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-17 17:09:39,584 - INFO - Generating summary with BART model
+2024-10-17 17:09:44,451 - INFO - Generating summary with BART model
+2024-10-17 17:09:48,611 - INFO - full_tweet='A paid version of the increasingly popular Google tool NotebookLM will target businesses. A paid version..[read more👇🏼] #version #paid https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/'
+2024-10-17 17:09:48,897 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846961825444749411'], 'id': '1846961825444749411', 'text': 'A paid version of the increasingly popular Google tool NotebookLM will target businesses. A paid version..[read more👇🏼] #version #paid https://t.co/Yhzab5Xq7H'}, includes={}, errors=[], meta={})
+2024-10-17 17:09:48,898 - INFO - Saved posted URL: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/ at 2024-10-17 17:09:48
+2024-10-17 17:09:48,898 - INFO - Tweet link saved successfully.
+2024-10-17 17:09:48,898 - INFO - Sleeping for 4 minutes and 43 seconds.
+2024-10-17 17:14:31,898 - INFO - Input content - content="Archetype AI's 'Newton' model learns physics from sensor data, promising breakthroughs in industrial applications and scientific discovery."
+2024-10-17 17:14:31,898 - INFO - clean content - clean_content="Archetype AI's 'Newton' model learns physics from sensor data, promising breakthroughs in industrial applications and scientific discovery."
+2024-10-17 17:14:31,898 - INFO - Generating summary with BART model
+2024-10-17 17:14:35,675 - INFO - Generating summary with BART model
+2024-10-17 17:14:39,551 - INFO - full_tweet="Archetype AI's 'Newton' model learns physics from sensor data. The model could lead to breakthroughs in..[read more👇🏼] #data #AI https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/"
+2024-10-17 17:14:39,837 - INFO - Tweet posted successfully: Response(data={'id': '1846963045718766027', 'edit_history_tweet_ids': ['1846963045718766027'], 'text': "Archetype AI's 'Newton' model learns physics from sensor data. The model could lead to breakthroughs in..[read more👇🏼] #data #AI https://t.co/pjQWeof7e8"}, includes={}, errors=[], meta={})
+2024-10-17 17:14:39,837 - INFO - Saved posted URL: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/ at 2024-10-17 17:14:39
+2024-10-17 17:14:39,837 - INFO - Tweet link saved successfully.
+2024-10-17 17:14:39,837 - INFO - Sleeping for 9 minutes and 1 seconds.
+2024-10-17 17:23:40,837 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/from-elon-musk-to-cop-car-chases-how-a-software-engineer-launched-a-police-ai-startup/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/can-ai-make-us-feel-less-alone-the-founder-of-manifest-thinks-so/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-just-dropped-a-new-ai-model-that-crushes-openais-gpt-4-no-big-launch-just-big-results/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://venturebeat.com/ai/pika-1-5-updates-again-to-add-even-more-ai-video-pikaffects-crumble-dissolve-deflate-ta-da/
+2024-10-17 17:23:40,838 - INFO - This link is already posted: https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/
+2024-10-17 17:23:40,839 - INFO - This link is already posted: https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/
