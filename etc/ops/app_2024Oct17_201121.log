@@ -1,0 +1,49 @@
+2024-10-17 20:11:21,681 - INFO - Starting configuration setup
+2024-10-17 20:11:21,681 - INFO - Environment variables loaded successfully
+2024-10-17 20:11:21,682 - INFO - Twitter API client initialized successfully
+2024-10-17 20:11:23,549 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 20:11:31,289 - INFO - Summarization model initialized successfully
+2024-10-17 20:11:31,290 - INFO - Starting tweet scheduling
+2024-10-17 20:11:31,290 - INFO - Tweeting process started at 2024-10-17 20:11:31.290171!
+2024-10-17 20:11:31,290 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 20:11:31,290 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 20:11:47,078 - INFO - Total entries found: 615
+2024-10-17 20:11:47,080 - INFO - Recent AI-related entries found: 22
+2024-10-17 20:11:47,081 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls.</p> <p><a href="https://ieeexplore.ieee.org/document/9917212">An Integrated Generative Adversarial Network for Identification and Mitigation of Cyber-Attacks in Wide-Area Control | IEEE Conference Publication | IEEE Xplore</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Playful_Passage_2985"> /u/Playful_Passage_2985 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/">[comments]</a></span>'
+2024-10-17 20:11:47,081 - INFO - clean content - clean_content='Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls. An Integrated Generative Adversarial Network for Identification and Mitigation of Cyber-Attacks in Wide-Area Control | IEEE Conference Publication | IEEE Xplore   submitted by   /u/Playful_Passage_2985 [link]   [comments]'
+2024-10-17 20:11:47,081 - INFO - Generating summary with BART model
+2024-10-17 20:11:52,652 - INFO - Generating summary with BART model
+2024-10-17 20:11:57,683 - INFO - full_tweet='Gen AI can be used to detect and mitigate cyber-attacks in controls. An Integrated Generative Adversarial..[read more👇🏼] #Network #AI https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/'
+2024-10-17 20:11:57,965 - INFO - Tweet posted successfully: Response(data={'id': '1847007665290928263', 'text': 'Gen AI can be used to detect and mitigate cyber-attacks in controls. An Integrated Generative Adversarial..[read more👇🏼] #Network #AI https://t.co/mbmgO4iCkE', 'edit_history_tweet_ids': ['1847007665290928263']}, includes={}, errors=[], meta={})
+2024-10-17 20:11:57,965 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/ at 2024-10-17 20:11:57
+2024-10-17 20:11:57,965 - INFO - Tweet link saved successfully.
+2024-10-17 20:11:57,965 - INFO - Sleeping for 7 minutes and 21 seconds.
+2024-10-17 20:19:18,965 - INFO - Input content - content='The feds accelerate fraud detection with machine learning, catching up to similar techniques already in use by leading banks and credit cards.'
+2024-10-17 20:19:18,966 - INFO - clean content - clean_content='The feds accelerate fraud detection with machine learning, catching up to similar techniques already in use by leading banks and credit cards.'
+2024-10-17 20:19:18,966 - INFO - Generating summary with BART model
+2024-10-17 20:19:22,730 - INFO - Generating summary with BART model
+2024-10-17 20:19:26,469 - INFO - full_tweet='Feds are catching up to similar techniques already in use by leading banks and credit cards. The federal..[read more👇🏼] #techniques #government https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes'
+2024-10-17 20:19:26,736 - INFO - Tweet posted successfully: Response(data={'id': '1847009547598114912', 'edit_history_tweet_ids': ['1847009547598114912'], 'text': 'Feds are catching up to similar techniques already in use by leading banks and credit cards. The federal..[read more👇🏼] #techniques #government https://t.co/7XM0kCzBsK'}, includes={}, errors=[], meta={})
+2024-10-17 20:19:26,737 - INFO - Saved posted URL: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes at 2024-10-17 20:19:26
+2024-10-17 20:19:26,737 - INFO - Tweet link saved successfully.
+2024-10-17 20:19:26,737 - INFO - Sleeping for 8 minutes and 0 seconds.
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-17 20:27:26,737 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-just-dropped-a-new-ai-model-that-crushes-openais-gpt-4-no-big-launch-just-big-results/
+2024-10-17 20:27:26,738 - INFO - This link is already posted: https://venturebeat.com/ai/pika-1-5-updates-again-to-add-even-more-ai-video-pikaffects-crumble-dissolve-deflate-ta-da/
