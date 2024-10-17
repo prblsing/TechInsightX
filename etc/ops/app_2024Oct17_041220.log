@@ -1,0 +1,18 @@
+2024-10-17 04:12:20,519 - INFO - Starting configuration setup
+2024-10-17 04:12:20,520 - INFO - Environment variables loaded successfully
+2024-10-17 04:12:20,520 - INFO - Twitter API client initialized successfully
+2024-10-17 04:12:22,512 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 04:12:30,603 - INFO - Summarization model initialized successfully
+2024-10-17 04:12:30,603 - INFO - Starting tweet scheduling
+2024-10-17 04:12:30,603 - INFO - Tweeting process started at 2024-10-17 04:12:30.603677!
+2024-10-17 04:12:30,603 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 04:12:30,603 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 04:12:43,452 - INFO - Total entries found: 616
+2024-10-17 04:12:43,455 - INFO - Recent AI-related entries found: 18
+2024-10-17 04:12:43,455 - INFO - Input content - content='Amazon Kindle Scribe gets AI right.'
+2024-10-17 04:12:43,456 - INFO - clean content - clean_content='Amazon Kindle Scribe gets AI right.'
+2024-10-17 04:12:43,456 - INFO - Generating summary with BART model
+2024-10-17 04:12:47,749 - INFO - Generating summary with BART model
+2024-10-17 04:12:51,375 - INFO - full_tweet="Amazon Kindle Scribe gets AI right. Amazon Kindle Scribes gets AI wrong. Amazon's new Kindle has a..[read more👇🏼] #AI #Amazon https://www.techradar.com/computing/artificial-intelligence/ive-used-kindles-since-the-first-version-and-heres-what-amazon-is-getting-right-about-ai-with-the-new-kindle-scribe"
+2024-10-17 04:12:51,514 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
