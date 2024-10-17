@@ -1,0 +1,27 @@
+2024-10-17 22:09:55,461 - INFO - Starting configuration setup
+2024-10-17 22:09:55,462 - INFO - Environment variables loaded successfully
+2024-10-17 22:09:55,462 - INFO - Twitter API client initialized successfully
+2024-10-17 22:09:57,390 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 22:10:04,514 - INFO - Summarization model initialized successfully
+2024-10-17 22:10:04,514 - INFO - Starting tweet scheduling
+2024-10-17 22:10:04,514 - INFO - Tweeting process started at 2024-10-17 22:10:04.514670!
+2024-10-17 22:10:04,515 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 22:10:04,515 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 22:10:19,813 - INFO - Total entries found: 615
+2024-10-17 22:10:19,816 - INFO - Recent AI-related entries found: 25
+2024-10-17 22:10:19,816 - INFO - Input content - content='<p>On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party &#8220;collaborators&#8221; to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI&#8217;s Grok AI chatbot on X user data, leading to an investigation by the EU&#8217;s lead privacy regulator, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-17 22:10:19,816 - INFO - clean content - clean_content='On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party “collaborators” to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI’s Grok AI chatbot on X user data, leading to an investigation by the EU’s lead privacy regulator, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-17 22:10:19,816 - INFO - Generating summary with BART model
+2024-10-17 22:10:29,274 - INFO - Generating summary with BART model
+2024-10-17 22:10:37,985 - INFO - full_tweet='X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/'
+2024-10-17 22:10:38,240 - INFO - Tweet posted successfully: Response(data={'id': '1847037530002121060', 'text': 'X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://t.co/DzYOxo6MlP', 'edit_history_tweet_ids': ['1847037530002121060']}, includes={}, errors=[], meta={})
+2024-10-17 22:10:38,240 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/ at 2024-10-17 22:10:38
+2024-10-17 22:10:38,240 - INFO - Tweet link saved successfully.
+2024-10-17 22:10:38,240 - INFO - Sleeping for 9 minutes and 35 seconds.
+2024-10-17 22:20:13,241 - INFO - Input content - content='<p>On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party &#8220;collaborators&#8221; to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI&#8217;s Grok AI chatbot on X user data, leading to an investigation by the EU&#8217;s lead privacy regulator, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-17 22:20:13,241 - INFO - clean content - clean_content='On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party “collaborators” to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI’s Grok AI chatbot on X user data, leading to an investigation by the EU’s lead privacy regulator, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-17 22:20:13,241 - INFO - Generating summary with BART model
+2024-10-17 22:20:22,005 - INFO - Generating summary with BART model
+2024-10-17 22:20:30,782 - INFO - full_tweet='X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/'
+2024-10-17 22:20:30,916 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
