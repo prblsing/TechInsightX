@@ -1,0 +1,63 @@
+2024-10-17 19:09:10,079 - INFO - Starting configuration setup
+2024-10-17 19:09:10,079 - INFO - Environment variables loaded successfully
+2024-10-17 19:09:10,079 - INFO - Twitter API client initialized successfully
+2024-10-17 19:09:11,962 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 19:09:20,155 - INFO - Summarization model initialized successfully
+2024-10-17 19:09:20,155 - INFO - Starting tweet scheduling
+2024-10-17 19:09:20,155 - INFO - Tweeting process started at 2024-10-17 19:09:20.155741!
+2024-10-17 19:09:20,156 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 19:09:20,156 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 19:11:49,900 - INFO - Total entries found: 615
+2024-10-17 19:11:49,903 - INFO - Recent AI-related entries found: 20
+2024-10-17 19:11:49,904 - INFO - Input content - content='<p>This week, OpenAI quietly published a statement on its website pledging not to use its patents offensively. Asserting its commitment to the principles of &#8220;broad access&#8221; and &#8220;collaboration,&#8221; OpenAI said that it would only use its patents in a way that supports innovation. &#8220;We pledge to only use our patents defensively, so long as a [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-17 19:11:49,904 - INFO - clean content - clean_content='This week, OpenAI quietly published a statement on its website pledging not to use its patents offensively. Asserting its commitment to the principles of “broad access” and “collaboration,” OpenAI said that it would only use its patents in a way that supports innovation. “We pledge to only use our patents defensively, so long as a […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-17 19:11:49,904 - INFO - Generating summary with BART model
+2024-10-17 19:11:58,262 - INFO - Generating summary with BART model
+2024-10-17 19:12:05,898 - INFO - full_tweet='This week, OpenAI quietly published a statement on its website pledging not to use its patents..[read more👇🏼] #its #use https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/'
+2024-10-17 19:12:06,227 - INFO - Tweet posted successfully: Response(data={'text': 'This week, OpenAI quietly published a statement on its website pledging not to use its patents..[read more👇🏼] #its #use https://t.co/TjjhxnietZ', 'id': '1846992600441491490', 'edit_history_tweet_ids': ['1846992600441491490']}, includes={}, errors=[], meta={})
+2024-10-17 19:12:06,227 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/ at 2024-10-17 19:12:06
+2024-10-17 19:12:06,227 - INFO - Tweet link saved successfully.
+2024-10-17 19:12:06,227 - INFO - Sleeping for 3 minutes and 59 seconds.
+2024-10-17 19:16:05,227 - INFO - Input content - content='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies develop new tools, they need filmmakers to show they can be used responsibly.'
+2024-10-17 19:16:05,227 - INFO - clean content - clean_content='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies develop new tools, they need filmmakers to show they can be used responsibly.'
+2024-10-17 19:16:05,228 - INFO - Generating summary with BART model
+2024-10-17 19:16:09,489 - INFO - Generating summary with BART model
+2024-10-17 19:16:13,757 - INFO - full_tweet='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies..[read more👇🏼] #tech #AI https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/'
+2024-10-17 19:16:13,995 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846993639513133431'], 'text': 'Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies..[read more👇🏼] #tech #AI https://t.co/8nnHZBkvIK', 'id': '1846993639513133431'}, includes={}, errors=[], meta={})
+2024-10-17 19:16:13,995 - INFO - Saved posted URL: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/ at 2024-10-17 19:16:13
+2024-10-17 19:16:13,996 - INFO - Tweet link saved successfully.
+2024-10-17 19:16:13,996 - INFO - Sleeping for 5 minutes and 8 seconds.
+2024-10-17 19:21:21,996 - INFO - Input content - content="<p>One of the tech industry’s biggest hype men, Salesforce CEO Marc Benioff, is psyched about AI, but points out that it hasn't cured cancer. </p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-17 19:21:21,996 - INFO - clean content - clean_content="One of the tech industry’s biggest hype men, Salesforce CEO Marc Benioff, is psyched about AI, but points out that it hasn't cured cancer. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-17 19:21:21,996 - INFO - Generating summary with BART model
+2024-10-17 19:21:26,828 - INFO - Generating summary with BART model
+2024-10-17 19:21:31,665 - INFO - full_tweet="Salesforce CEO Marc Benioff is psyched about AI, but points out that it hasn't cured cancer. Salesforce..[read more👇🏼] #tech #AI https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/"
+2024-10-17 19:21:31,946 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846994973213770152'], 'text': "Salesforce CEO Marc Benioff is psyched about AI, but points out that it hasn't cured cancer. Salesforce..[read more👇🏼] #tech #AI https://t.co/JMRENn2C9D", 'id': '1846994973213770152'}, includes={}, errors=[], meta={})
+2024-10-17 19:21:31,947 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/ at 2024-10-17 19:21:31
+2024-10-17 19:21:31,947 - INFO - Tweet link saved successfully.
+2024-10-17 19:21:31,947 - INFO - Sleeping for 7 minutes and 27 seconds.
+2024-10-17 19:28:58,947 - INFO - Input content - content="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a strategic push into enterprise productivity tools."
+2024-10-17 19:28:58,947 - INFO - clean content - clean_content="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a strategic push into enterprise productivity tools."
+2024-10-17 19:28:58,947 - INFO - Generating summary with BART model
+2024-10-17 19:29:04,089 - INFO - Generating summary with BART model
+2024-10-17 19:29:09,251 - INFO - full_tweet="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a..[read more👇🏼] #app #AI https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/"
+2024-10-17 19:29:09,531 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846996892510462381'], 'id': '1846996892510462381', 'text': "OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a..[read more👇🏼] #app #AI https://t.co/pBtV3Xq5dF"}, includes={}, errors=[], meta={})
+2024-10-17 19:29:09,531 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/ at 2024-10-17 19:29:09
+2024-10-17 19:29:09,531 - INFO - Tweet link saved successfully.
+2024-10-17 19:29:09,531 - INFO - Sleeping for 5 minutes and 40 seconds.
+2024-10-17 19:34:49,531 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-just-dropped-a-new-ai-model-that-crushes-openais-gpt-4-no-big-launch-just-big-results/
+2024-10-17 19:34:49,532 - INFO - This link is already posted: https://venturebeat.com/ai/pika-1-5-updates-again-to-add-even-more-ai-video-pikaffects-crumble-dissolve-deflate-ta-da/
