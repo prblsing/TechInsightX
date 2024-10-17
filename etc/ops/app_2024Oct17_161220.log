@@ -1,0 +1,71 @@
+2024-10-17 16:12:20,633 - INFO - Starting configuration setup
+2024-10-17 16:12:20,633 - INFO - Environment variables loaded successfully
+2024-10-17 16:12:20,633 - INFO - Twitter API client initialized successfully
+2024-10-17 16:12:22,535 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 16:12:30,986 - INFO - Summarization model initialized successfully
+2024-10-17 16:12:30,986 - INFO - Starting tweet scheduling
+2024-10-17 16:12:30,986 - INFO - Tweeting process started at 2024-10-17 16:12:30.986479!
+2024-10-17 16:12:30,986 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 16:12:30,986 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 16:12:46,698 - INFO - Total entries found: 587
+2024-10-17 16:12:46,701 - INFO - Recent AI-related entries found: 20
+2024-10-17 16:12:46,701 - INFO - Input content - content="<p>Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-17 16:12:46,702 - INFO - clean content - clean_content="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-17 16:12:46,702 - INFO - Generating summary with BART model
+2024-10-17 16:12:52,134 - INFO - Generating summary with BART model
+2024-10-17 16:12:56,927 - INFO - full_tweet="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the..[read more👇🏼] #organizations #introduced https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/"
+2024-10-17 16:12:57,202 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846947515796717885'], 'id': '1846947515796717885', 'text': "Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the..[read more👇🏼] #organizations #introduced https://t.co/bfietRGqX3"}, includes={}, errors=[], meta={})
+2024-10-17 16:12:57,202 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/ at 2024-10-17 16:12:57
+2024-10-17 16:12:57,202 - INFO - Tweet link saved successfully.
+2024-10-17 16:12:57,203 - INFO - Sleeping for 9 minutes and 42 seconds.
+2024-10-17 16:22:39,203 - INFO - Input content - content='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to enter prompts to personalize the output. I tried it out.'
+2024-10-17 16:22:39,203 - INFO - clean content - clean_content='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to enter prompts to personalize the output. I tried it out.'
+2024-10-17 16:22:39,203 - INFO - Generating summary with BART model
+2024-10-17 16:22:43,359 - INFO - Generating summary with BART model
+2024-10-17 16:22:47,419 - INFO - full_tweet='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to..[read more👇🏼] #AI #personalize https://www.wired.com/story/google-notebooklm-customize-ai-podcast/'
+2024-10-17 16:22:47,685 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846949992503853245'], 'id': '1846949992503853245', 'text': 'The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to..[read more👇🏼] #AI #personalize https://t.co/zjHubwce34'}, includes={}, errors=[], meta={})
+2024-10-17 16:22:47,686 - INFO - Saved posted URL: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/ at 2024-10-17 16:22:47
+2024-10-17 16:22:47,686 - INFO - Tweet link saved successfully.
+2024-10-17 16:22:47,686 - INFO - Sleeping for 7 minutes and 7 seconds.
+2024-10-17 16:29:54,686 - INFO - Input content - content='<figure>\n      <img alt="3D illustration of a player talking to an NPC." src="https://cdn.vox-cdn.com/thumbor/8kaXTouSm5Yml26reJzgBlj2qZ0=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73659841/247305_CHATTY_AI_NPCs_CVirginia.0.jpg" />\n        <figcaption>Image: Jack Bullard for The Verge</figcaption>\n    </figure>\n\n  <div id="xgy8mB">\n\n    \n\n\n\n\n\n</div>\n<p class="p--has-dropcap" id="s5DDn0">In <em>Stardew Valley,</em> you can usually only speak to characters a few times per day. This limitation has led to a number of mods that add things for them to say so that players can spend more time with their virtual pals. But like many games, Stardew recently turned to AI, resulting in the addition of a mod with the ability to have theoretically endless conversations with your favorite farm companion.</p>\n<p id="SQuhJO">“The reception has been a lot better than I initially thought [it would be],” says modder DualityOfSoul. In the comments on Nexus Mods, users have called it “brilliant” and “one of the best mods out this year.”</p>\n<p id="SFEBmu">To function, the mod plugs into OpenAI’s API. The implementation is impressive but limited in its own way. Every character...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/17/24268007/modders-ai-companions-stardew-valley-skyrim">Continue reading&hellip;</a>\n  </p>'
+2024-10-17 16:29:54,687 - INFO - clean content - clean_content='Image: Jack Bullard for The Verge In Stardew Valley, you can usually only speak to characters a few times per day. This limitation has led to a number of mods that add things for them to say so that players can spend more time with their virtual pals. But like many games, Stardew recently turned to AI, resulting in the addition of a mod with the ability to have theoretically endless conversations with your favorite farm companion. “The reception has been a lot better than I initially thought [it would be],” says modder DualityOfSoul. In the comments on Nexus Mods, users have called it “brilliant” and “one of the best mods out this year.” To function, the mod plugs into OpenAI’s API. The implementation is impressive but limited in its own way. Every character... Continue reading…'
+2024-10-17 16:29:54,687 - INFO - Generating summary with BART model
+2024-10-17 16:30:01,582 - INFO - Generating summary with BART model
+2024-10-17 16:30:08,545 - INFO - full_tweet='The Stardew Valley mod lets you have endless conversations with your virtual friends. To function, the..[read more👇🏼] #API #mod https://www.theverge.com/2024/10/17/24268007/modders-ai-companions-stardew-valley-skyrim'
+2024-10-17 16:30:08,809 - INFO - Tweet posted successfully: Response(data={'id': '1846951842733084761', 'text': 'The Stardew Valley mod lets you have endless conversations with your virtual friends. To function, the..[read more👇🏼] #API #mod https://t.co/BmlXvduckI', 'edit_history_tweet_ids': ['1846951842733084761']}, includes={}, errors=[], meta={})
+2024-10-17 16:30:08,810 - INFO - Saved posted URL: https://www.theverge.com/2024/10/17/24268007/modders-ai-companions-stardew-valley-skyrim at 2024-10-17 16:30:08
+2024-10-17 16:30:08,810 - INFO - Tweet link saved successfully.
+2024-10-17 16:30:08,810 - INFO - Sleeping for 7 minutes and 9 seconds.
+2024-10-17 16:37:17,810 - INFO - Input content - content="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation."
+2024-10-17 16:37:17,810 - INFO - clean content - clean_content="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation."
+2024-10-17 16:37:17,810 - INFO - Generating summary with BART model
+2024-10-17 16:37:21,905 - INFO - Generating summary with BART model
+2024-10-17 16:37:25,970 - INFO - full_tweet="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation...[read more👇🏼] #AI #Google https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer"
+2024-10-17 16:37:26,241 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1846953677397057949'], 'id': '1846953677397057949', 'text': "Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation...[read more👇🏼] #AI #Google https://t.co/DJ16M1wPRl"}, includes={}, errors=[], meta={})
+2024-10-17 16:37:26,242 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer at 2024-10-17 16:37:26
+2024-10-17 16:37:26,242 - INFO - Tweet link saved successfully.
+2024-10-17 16:37:26,242 - INFO - Sleeping for 9 minutes and 38 seconds.
+2024-10-17 16:47:04,242 - INFO - Input content - content='<p>As we&#8217;ve reported before, enterprise CIOs are taking generative AI slow. One reason for that is AI doesn&#8217;t fit into existing software engineering workflows, because it literally doesn&#8217;t speak the same language. For instance, LLMs (aka large language models) require a lot of cajoling to deliver valid JSON. That&#8217;s where a U.S.-based startup called Dottxt [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-17 16:47:04,242 - INFO - clean content - clean_content='As we’ve reported before, enterprise CIOs are taking generative AI slow. One reason for that is AI doesn’t fit into existing software engineering workflows, because it literally doesn’t speak the same language. For instance, LLMs (aka large language models) require a lot of cajoling to deliver valid JSON. That’s where a U.S.-based startup called Dottxt […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-17 16:47:04,242 - INFO - Generating summary with BART model
+2024-10-17 16:47:10,424 - INFO - Generating summary with BART model
+2024-10-17 16:47:16,647 - INFO - full_tweet='Generative AI doesn’t fit into existing software engineering workflows. For instance, LLMs (aka large..[read more👇🏼] #software #startup https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/'
+2024-10-17 16:47:16,894 - INFO - Tweet posted successfully: Response(data={'id': '1846956154834112592', 'edit_history_tweet_ids': ['1846956154834112592'], 'text': 'Generative AI doesn’t fit into existing software engineering workflows. For instance, LLMs (aka large..[read more👇🏼] #software #startup https://t.co/RlmiX8q753'}, includes={}, errors=[], meta={})
+2024-10-17 16:47:16,894 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/ at 2024-10-17 16:47:16
+2024-10-17 16:47:16,894 - INFO - Tweet link saved successfully.
+2024-10-17 16:47:16,894 - INFO - Sleeping for 7 minutes and 42 seconds.
+2024-10-17 16:54:58,894 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 16:54:58,894 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 16:54:58,894 - INFO - This link is already posted: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/from-elon-musk-to-cop-car-chases-how-a-software-engineer-launched-a-police-ai-startup/
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.techradar.com/pro/salesforce-ceo-slams-microsoft-ai-work-says-copilot-is-new-clippy
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/can-ai-make-us-feel-less-alone-the-founder-of-manifest-thinks-so/
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/i-used-ai-to-help-with-grief-it-went-to-some-strange-places/#ftag=CAD590a51e
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.cnet.com/health/medical/meet-the-eyebot-an-ai-powered-90-second-vision-test/#ftag=CAD590a51e
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.pcmag.com/news/man-outgunned-as-girlfriend-brings-chatgpt-ammo-to-every-argument
+2024-10-17 16:54:58,895 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise
