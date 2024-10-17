@@ -1,0 +1,18 @@
+2024-10-17 02:12:59,217 - INFO - Starting configuration setup
+2024-10-17 02:12:59,217 - INFO - Environment variables loaded successfully
+2024-10-17 02:12:59,217 - INFO - Twitter API client initialized successfully
+2024-10-17 02:13:01,202 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 02:13:09,340 - INFO - Summarization model initialized successfully
+2024-10-17 02:13:09,340 - INFO - Starting tweet scheduling
+2024-10-17 02:13:09,340 - INFO - Tweeting process started at 2024-10-17 02:13:09.340665!
+2024-10-17 02:13:09,340 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 02:13:09,340 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 02:13:25,401 - INFO - Total entries found: 616
+2024-10-17 02:13:25,404 - INFO - Recent AI-related entries found: 19
+2024-10-17 02:13:25,404 - INFO - Input content - content='<p>Are today&#8217;s AI models truly remembering, thinking, planning, and reasoning, just like a human brain would? Some AI labs would have you believe they are, but according to Meta&#8217;s chief AI scientist Yann LeCun, the answer is no. He thinks we could get there in a decade or so, however, by pursuing a new method [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-17 02:13:25,404 - INFO - clean content - clean_content='Are today’s AI models truly remembering, thinking, planning, and reasoning, just like a human brain would? Some AI labs would have you believe they are, but according to Meta’s chief AI scientist Yann LeCun, the answer is no. He thinks we could get there in a decade or so, however, by pursuing a new method […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-17 02:13:25,405 - INFO - Generating summary with BART model
+2024-10-17 02:13:31,078 - INFO - Generating summary with BART model
+2024-10-17 02:13:36,102 - INFO - full_tweet='Meta’s chief AI scientist Yann LeCun thinks we could get there in a decade or so. He thinks we can get..[read more👇🏼] #AI #thinks https://techcrunch.com/2024/10/16/metas-ai-chief-says-world-models-are-key-to-human-level-ai-but-it-might-be-10-years-out/'
+2024-10-17 02:13:36,232 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
