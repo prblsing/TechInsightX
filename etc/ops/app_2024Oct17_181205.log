@@ -1,0 +1,25 @@
+2024-10-17 18:12:05,070 - INFO - Starting configuration setup
+2024-10-17 18:12:05,070 - INFO - Environment variables loaded successfully
+2024-10-17 18:12:05,070 - INFO - Twitter API client initialized successfully
+2024-10-17 18:12:06,958 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 18:12:23,148 - INFO - Summarization model initialized successfully
+2024-10-17 18:12:23,148 - INFO - Starting tweet scheduling
+2024-10-17 18:12:23,148 - INFO - Tweeting process started at 2024-10-17 18:12:23.148829!
+2024-10-17 18:12:23,149 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 18:12:23,149 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 18:13:39,778 - INFO - Total entries found: 587
+2024-10-17 18:13:39,780 - INFO - Recent AI-related entries found: 14
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.theverge.com/2024/10/17/24268007/modders-ai-companions-stardew-valley-skyrim
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/from-elon-musk-to-cop-car-chases-how-a-software-engineer-launched-a-police-ai-startup/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/can-ai-make-us-feel-less-alone-the-founder-of-manifest-thinks-so/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 18:13:39,781 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
