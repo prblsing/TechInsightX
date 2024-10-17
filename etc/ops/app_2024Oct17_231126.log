@@ -1,0 +1,61 @@
+2024-10-17 23:11:26,982 - INFO - Starting configuration setup
+2024-10-17 23:11:26,983 - INFO - Environment variables loaded successfully
+2024-10-17 23:11:26,983 - INFO - Twitter API client initialized successfully
+2024-10-17 23:11:28,822 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 23:11:37,127 - INFO - Summarization model initialized successfully
+2024-10-17 23:11:37,127 - INFO - Starting tweet scheduling
+2024-10-17 23:11:37,127 - INFO - Tweeting process started at 2024-10-17 23:11:37.127513!
+2024-10-17 23:11:37,127 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 23:11:37,128 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 23:11:50,987 - INFO - Total entries found: 615
+2024-10-17 23:11:50,989 - INFO - Recent AI-related entries found: 26
+2024-10-17 23:11:50,990 - INFO - Input content - content="SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy efficiency, challenging Nvidia's dominance in the evolving AI chip market."
+2024-10-17 23:11:50,990 - INFO - clean content - clean_content="SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy efficiency, challenging Nvidia's dominance in the evolving AI chip market."
+2024-10-17 23:11:50,990 - INFO - Generating summary with BART model
+2024-10-17 23:11:56,305 - INFO - Generating summary with BART model
+2024-10-17 23:12:00,949 - INFO - full_tweet='SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy..[read more👇🏼] #AI #development https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/'
+2024-10-17 23:12:01,236 - INFO - Tweet posted successfully: Response(data={'id': '1847052977539883402', 'text': 'SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy..[read more👇🏼] #AI #development https://t.co/s9s4B8wkvb', 'edit_history_tweet_ids': ['1847052977539883402']}, includes={}, errors=[], meta={})
+2024-10-17 23:12:01,236 - INFO - Saved posted URL: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/ at 2024-10-17 23:12:01
+2024-10-17 23:12:01,236 - INFO - Tweet link saved successfully.
+2024-10-17 23:12:01,236 - INFO - Sleeping for 3 minutes and 0 seconds.
+2024-10-17 23:15:01,236 - INFO - Input content - content='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs.'
+2024-10-17 23:15:01,237 - INFO - clean content - clean_content='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs.'
+2024-10-17 23:15:01,237 - INFO - Generating summary with BART model
+2024-10-17 23:15:05,504 - INFO - Generating summary with BART model
+2024-10-17 23:15:09,750 - INFO - full_tweet='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs. Scenes..[read more👇🏼] #into #feature https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack'
+2024-10-17 23:15:09,939 - INFO - Tweet posted successfully: Response(data={'text': 'Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs. Scenes..[read more👇🏼] #into #feature https://t.co/ARilbaZY2X', 'edit_history_tweet_ids': ['1847053769038496222'], 'id': '1847053769038496222'}, includes={}, errors=[], meta={})
+2024-10-17 23:15:09,939 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack at 2024-10-17 23:15:09
+2024-10-17 23:15:09,940 - INFO - Tweet link saved successfully.
+2024-10-17 23:15:09,940 - INFO - Sleeping for 6 minutes and 6 seconds.
+2024-10-17 23:21:15,940 - INFO - Input content - content="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers"
+2024-10-17 23:21:15,940 - INFO - clean content - clean_content="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers"
+2024-10-17 23:21:15,940 - INFO - Generating summary with BART model
+2024-10-17 23:21:20,586 - INFO - Generating summary with BART model
+2024-10-17 23:21:25,296 - INFO - full_tweet="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers. The price has..[read more👇🏼] #AI #price https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd"
+2024-10-17 23:21:25,562 - INFO - Tweet posted successfully: Response(data={'id': '1847055344494665862', 'text': "The price of the world's largest SSD has skyrocketed likely due to demand for AI servers. The price has..[read more👇🏼] #AI #price https://t.co/hyaTIT2y9p", 'edit_history_tweet_ids': ['1847055344494665862']}, includes={}, errors=[], meta={})
+2024-10-17 23:21:25,563 - INFO - Saved posted URL: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd at 2024-10-17 23:21:25
+2024-10-17 23:21:25,563 - INFO - Tweet link saved successfully.
+2024-10-17 23:21:25,563 - INFO - Sleeping for 5 minutes and 57 seconds.
+2024-10-17 23:27:22,563 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-17 23:27:22,563 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-17 23:27:22,563 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-17 23:27:22,563 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-17 23:27:22,563 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/with-11-9-million-in-funding-dottxt-tells-ai-models-how-to-answer/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 23:27:22,564 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-just-dropped-a-new-ai-model-that-crushes-openais-gpt-4-no-big-launch-just-big-results/
