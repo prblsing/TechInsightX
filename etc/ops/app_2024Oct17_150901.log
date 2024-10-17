@@ -1,0 +1,56 @@
+2024-10-17 15:09:01,817 - INFO - Starting configuration setup
+2024-10-17 15:09:01,817 - INFO - Environment variables loaded successfully
+2024-10-17 15:09:01,817 - INFO - Twitter API client initialized successfully
+2024-10-17 15:09:03,696 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-17 15:09:10,965 - INFO - Summarization model initialized successfully
+2024-10-17 15:09:10,965 - INFO - Starting tweet scheduling
+2024-10-17 15:09:10,966 - INFO - Tweeting process started at 2024-10-17 15:09:10.966014!
+2024-10-17 15:09:10,966 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct17.csv
+2024-10-17 15:09:10,966 - INFO - Fetching latest tech news from RSS feeds
+2024-10-17 15:09:23,893 - INFO - Total entries found: 615
+2024-10-17 15:09:23,895 - INFO - Recent AI-related entries found: 21
+2024-10-17 15:09:23,896 - INFO - Input content - content="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not always going to be 100% accurate."
+2024-10-17 15:09:23,896 - INFO - clean content - clean_content="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not always going to be 100% accurate."
+2024-10-17 15:09:23,896 - INFO - Generating summary with BART model
+2024-10-17 15:09:29,758 - INFO - Generating summary with BART model
+2024-10-17 15:09:34,971 - INFO - full_tweet="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not..[read more👇🏼] #deepfaked #including https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you"
+2024-10-17 15:09:35,233 - INFO - Tweet posted successfully: Response(data={'id': '1846931569220501600', 'edit_history_tweet_ids': ['1846931569220501600'], 'text': "Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not..[read more👇🏼] #deepfaked #including https://t.co/oowzPxu0JA"}, includes={}, errors=[], meta={})
+2024-10-17 15:09:35,233 - INFO - Saved posted URL: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you at 2024-10-17 15:09:35
+2024-10-17 15:09:35,233 - INFO - Tweet link saved successfully.
+2024-10-17 15:09:35,233 - INFO - Sleeping for 4 minutes and 53 seconds.
+2024-10-17 15:14:28,233 - INFO - Input content - content='Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.'
+2024-10-17 15:14:28,234 - INFO - clean content - clean_content='Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.'
+2024-10-17 15:14:28,234 - INFO - Generating summary with BART model
+2024-10-17 15:14:32,713 - INFO - Generating summary with BART model
+2024-10-17 15:14:37,206 - INFO - full_tweet='Use the code EDXSUCCESS24 to save on edX programs, courses, and boot camps. Use the code at the bottom of the page. #code #Use https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses'
+2024-10-17 15:14:37,471 - INFO - Tweet posted successfully: Response(data={'id': '1846932836856553578', 'edit_history_tweet_ids': ['1846932836856553578'], 'text': 'Use the code EDXSUCCESS24 to save on edX programs, courses, and boot camps. Use the code at the bottom of the page. #code #Use https://t.co/H6CL9rUFfV'}, includes={}, errors=[], meta={})
+2024-10-17 15:14:37,471 - INFO - Saved posted URL: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses at 2024-10-17 15:14:37
+2024-10-17 15:14:37,471 - INFO - Tweet link saved successfully.
+2024-10-17 15:14:37,471 - INFO - Sleeping for 7 minutes and 5 seconds.
+2024-10-17 15:21:42,471 - INFO - Input content - content='The rapid pace of AI development means that creating an effective AI strategy can be complex.'
+2024-10-17 15:21:42,472 - INFO - clean content - clean_content='The rapid pace of AI development means that creating an effective AI strategy can be complex.'
+2024-10-17 15:21:42,472 - INFO - Generating summary with BART model
+2024-10-17 15:21:46,992 - INFO - Generating summary with BART model
+2024-10-17 15:21:51,490 - INFO - full_tweet='The rapid pace of AI development means that creating an effective AI strategy can be complex. The world..[read more👇🏼] #AI #rapid https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential'
+2024-10-17 15:21:51,757 - INFO - Tweet posted successfully: Response(data={'id': '1846934658392510695', 'text': 'The rapid pace of AI development means that creating an effective AI strategy can be complex. The world..[read more👇🏼] #AI #rapid https://t.co/9XeArBg1Bt', 'edit_history_tweet_ids': ['1846934658392510695']}, includes={}, errors=[], meta={})
+2024-10-17 15:21:51,758 - INFO - Saved posted URL: https://www.techradar.com/pro/how-flexibility-and-the-cloud-can-unlock-ais-true-business-potential at 2024-10-17 15:21:51
+2024-10-17 15:21:51,758 - INFO - Tweet link saved successfully.
+2024-10-17 15:21:51,758 - INFO - Sleeping for 9 minutes and 11 seconds.
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/from-elon-musk-to-cop-car-chases-how-a-software-engineer-launched-a-police-ai-startup/
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://www.techradar.com/pro/salesforce-ceo-slams-microsoft-ai-work-says-copilot-is-new-clippy
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/can-ai-make-us-feel-less-alone-the-founder-of-manifest-thinks-so/
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/i-used-ai-to-help-with-grief-it-went-to-some-strange-places/#ftag=CAD590a51e
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://www.cnet.com/health/medical/meet-the-eyebot-an-ai-powered-90-second-vision-test/#ftag=CAD590a51e
+2024-10-17 15:31:02,758 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/8-ai-tricks-for-streamlining-work-productivity-that-you-should-try-and-1-you-shouldnt/#ftag=CAD590a51e
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://towardsdatascience.com/a-critical-look-at-ai-image-generation-45001f410147?source=rss----7f60cf5620c9---4
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://techcrunch.com/2024/10/16/metas-ai-chief-says-world-models-are-key-to-human-level-ai-but-it-might-be-10-years-out/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-just-dropped-a-new-ai-model-that-crushes-openais-gpt-4-no-big-launch-just-big-results/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://venturebeat.com/ai/pika-1-5-updates-again-to-add-even-more-ai-video-pikaffects-crumble-dissolve-deflate-ta-da/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://venturebeat.com/business/mistral-ai-new-language-models-bring-ai-power-to-your-phone-and-laptop/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.wired.com/story/dippy-ai-girlfriend-boyfriend-reasoning/
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.pcmag.com/news/man-outgunned-as-girlfriend-brings-chatgpt-ammo-to-every-argument
+2024-10-17 15:31:02,759 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise
