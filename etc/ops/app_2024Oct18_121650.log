@@ -1,0 +1,44 @@
+2024-10-18 12:16:50,318 - INFO - Starting configuration setup
+2024-10-18 12:16:50,318 - INFO - Environment variables loaded successfully
+2024-10-18 12:16:50,318 - INFO - Twitter API client initialized successfully
+2024-10-18 12:16:52,202 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 12:17:00,168 - INFO - Summarization model initialized successfully
+2024-10-18 12:17:00,421 - INFO - Starting tweet scheduling
+2024-10-18 12:17:00,421 - INFO - Tweeting process started at 2024-10-18 12:17:00.421652!
+2024-10-18 12:17:00,422 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 12:17:00,422 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 12:17:14,474 - INFO - Total entries found: 615
+2024-10-18 12:17:14,477 - INFO - Recent AI-related entries found: 25
+2024-10-18 12:17:14,477 - INFO - Input content - content='With the help of this all-in-one AI tool, AI Magicx, will you be working hard or hardly working?'
+2024-10-18 12:17:14,478 - INFO - clean content - clean_content='With the help of this all-in-one AI tool, AI Magicx, will you be working hard or hardly working?'
+2024-10-18 12:17:14,478 - INFO - Generating summary with BART model
+2024-10-18 12:17:21,897 - INFO - Generating summary with BART model
+2024-10-18 12:17:28,603 - INFO - full_tweet='AI Magicx is an all-in-one AI tool that can be used to help you with your work. With the help of this..[read more👇🏼] #AI #working https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it'
+2024-10-18 12:17:28,916 - INFO - Tweet posted successfully: Response(data={'id': '1847250645318795535', 'edit_history_tweet_ids': ['1847250645318795535'], 'text': 'AI Magicx is an all-in-one AI tool that can be used to help you with your work. With the help of this..[read more👇🏼] #AI #working https://t.co/ypXnF4m8ym'}, includes={}, errors=[], meta={})
+2024-10-18 12:17:28,916 - INFO - Saved posted URL: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it at 2024-10-18 12:17:28
+2024-10-18 12:17:28,916 - INFO - Tweet link saved successfully.
+2024-10-18 12:17:28,916 - INFO - Sleeping for 7 minutes and 50 seconds.
+2024-10-18 12:25:18,916 - INFO - This link is already posted: https://www.techradar.com/phones/oneplus-phones/oneplus-shares-release-date-for-android-15-update-announces-new-ai-features
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.techradar.com/pro/business-heads-are-struggling-to-trust-ai-but-hope-it-will-be-a-major-source-of-revenue
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/chatgpt-app-comes-to-windows-finally-add-a-quick-ai-shortcut-to-your-pc-today
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.techradar.com/pro/navigating-the-ai-skills-shortage-strategies-for-global-cios
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 12:25:18,917 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 12:25:18,918 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 12:25:18,918 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 12:25:18,918 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 12:25:18,918 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
