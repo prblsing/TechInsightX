@@ -1,0 +1,44 @@
+2024-10-18 17:08:58,054 - INFO - Starting configuration setup
+2024-10-18 17:08:58,055 - INFO - Environment variables loaded successfully
+2024-10-18 17:08:58,055 - INFO - Twitter API client initialized successfully
+2024-10-18 17:08:59,918 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 17:09:08,009 - INFO - Summarization model initialized successfully
+2024-10-18 17:09:08,009 - INFO - Starting tweet scheduling
+2024-10-18 17:09:08,009 - INFO - Tweeting process started at 2024-10-18 17:09:08.009846!
+2024-10-18 17:09:08,010 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 17:09:08,010 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 17:09:23,524 - INFO - Total entries found: 615
+2024-10-18 17:09:23,527 - INFO - Recent AI-related entries found: 25
+2024-10-18 17:09:23,528 - INFO - Input content - content="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave."
+2024-10-18 17:09:23,528 - INFO - clean content - clean_content="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave."
+2024-10-18 17:09:23,528 - INFO - Generating summary with BART model
+2024-10-18 17:09:29,384 - INFO - Generating summary with BART model
+2024-10-18 17:09:34,621 - INFO - full_tweet="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave. If you're..[read more👇🏼] #If #re https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai"
+2024-10-18 17:09:34,916 - INFO - Tweet posted successfully: Response(data={'id': '1847324154757820647', 'text': "If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave. If you're..[read more👇🏼] #If #re https://t.co/7GykMHBvfV", 'edit_history_tweet_ids': ['1847324154757820647']}, includes={}, errors=[], meta={})
+2024-10-18 17:09:34,916 - INFO - Saved posted URL: https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai at 2024-10-18 17:09:34
+2024-10-18 17:09:34,916 - INFO - Tweet link saved successfully.
+2024-10-18 17:09:34,916 - INFO - Sleeping for 7 minutes and 19 seconds.
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.kdnuggets.com/what-can-ai-do-for-data-science
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/bluesky-surges-into-the-top-5-as-x-changes-blocks-permits-ai-training-on-its-data/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.techradar.com/pro/the-ai-at-scale-revolution-disrupting-industries
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.techradar.com/pro/emerging-ai-regulation-will-shape-the-future-of-data-collection-for-business
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.techradar.com/computing/websites-apps/xs-controversial-changes-to-blocking-and-ai-training-sees-half-a-million-users-leave-for-rival-bluesky-which-then-crashes-under-the-strain
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 17:16:53,917 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 17:16:53,918 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 17:16:53,918 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 17:16:53,918 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 17:16:53,918 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 17:16:53,918 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
