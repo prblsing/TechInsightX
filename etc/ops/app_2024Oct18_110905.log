@@ -1,0 +1,53 @@
+2024-10-18 11:09:05,288 - INFO - Starting configuration setup
+2024-10-18 11:09:05,288 - INFO - Environment variables loaded successfully
+2024-10-18 11:09:05,288 - INFO - Twitter API client initialized successfully
+2024-10-18 11:09:07,151 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 11:09:14,554 - INFO - Summarization model initialized successfully
+2024-10-18 11:09:14,555 - INFO - Starting tweet scheduling
+2024-10-18 11:09:14,555 - INFO - Tweeting process started at 2024-10-18 11:09:14.555197!
+2024-10-18 11:09:14,555 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 11:09:14,555 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 11:09:36,756 - ERROR - Error parsing feed https://techcrunch.com/feed/: Remote end closed connection without response
+2024-10-18 11:10:06,308 - ERROR - Error parsing feed https://techcrunch.com/tag/artificial-intelligence/feed/: Remote end closed connection without response
+2024-10-18 11:10:10,808 - INFO - Total entries found: 575
+2024-10-18 11:10:10,811 - INFO - Recent AI-related entries found: 24
+2024-10-18 11:10:10,811 - INFO - Input content - content='OnePlus has confirmed the release date for its OxygenOS 15 software update.'
+2024-10-18 11:10:10,812 - INFO - clean content - clean_content='OnePlus has confirmed the release date for its OxygenOS 15 software update.'
+2024-10-18 11:10:10,812 - INFO - Generating summary with BART model
+2024-10-18 11:10:15,060 - INFO - Generating summary with BART model
+2024-10-18 11:10:18,670 - INFO - full_tweet='OnePlus has confirmed the release date for its OxygenOS 15 software update. The software update is..[read more👇🏼] #software #update https://www.techradar.com/phones/oneplus-phones/oneplus-shares-release-date-for-android-15-update-announces-new-ai-features'
+2024-10-18 11:10:18,947 - INFO - Tweet posted successfully: Response(data={'id': '1847233742382723133', 'text': 'OnePlus has confirmed the release date for its OxygenOS 15 software update. The software update is..[read more👇🏼] #software #update https://t.co/h0G0SLwaPh', 'edit_history_tweet_ids': ['1847233742382723133']}, includes={}, errors=[], meta={})
+2024-10-18 11:10:18,947 - INFO - Saved posted URL: https://www.techradar.com/phones/oneplus-phones/oneplus-shares-release-date-for-android-15-update-announces-new-ai-features at 2024-10-18 11:10:18
+2024-10-18 11:10:18,947 - INFO - Tweet link saved successfully.
+2024-10-18 11:10:18,947 - INFO - Sleeping for 8 minutes and 46 seconds.
+2024-10-18 11:19:04,947 - INFO - Input content - content='For now, the Windows ChatGPT app is just for paying ChatGPT subscribers. The full version of the app will become available for all users later this year.'
+2024-10-18 11:19:04,947 - INFO - clean content - clean_content='For now, the Windows ChatGPT app is just for paying ChatGPT subscribers. The full version of the app will become available for all users later this year.'
+2024-10-18 11:19:04,948 - INFO - Generating summary with BART model
+2024-10-18 11:19:10,145 - INFO - Generating summary with BART model
+2024-10-18 11:19:15,391 - INFO - full_tweet='The Windows ChatGPT app is just for paying subscribers. The full version of the app will become available..[read more👇🏼] #app #The https://www.pcmag.com/news/windows-finally-gets-openai-chatgpt-app-with-dall-e-o1-ai-models'
+2024-10-18 11:19:15,629 - INFO - Tweet posted successfully: Response(data={'id': '1847235993469915614', 'edit_history_tweet_ids': ['1847235993469915614'], 'text': 'The Windows ChatGPT app is just for paying subscribers. The full version of the app will become available..[read more👇🏼] #app #The https://t.co/zfDeCcMjQW'}, includes={}, errors=[], meta={})
+2024-10-18 11:19:15,629 - INFO - Saved posted URL: https://www.pcmag.com/news/windows-finally-gets-openai-chatgpt-app-with-dall-e-o1-ai-models at 2024-10-18 11:19:15
+2024-10-18 11:19:15,629 - INFO - Tweet link saved successfully.
+2024-10-18 11:19:15,630 - INFO - Sleeping for 8 minutes and 3 seconds.
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.techradar.com/pro/business-heads-are-struggling-to-trust-ai-but-hope-it-will-be-a-major-source-of-revenue
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/chatgpt-app-comes-to-windows-finally-add-a-quick-ai-shortcut-to-your-pc-today
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.techradar.com/pro/navigating-the-ai-skills-shortage-strategies-for-global-cios
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 11:27:18,630 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-18 11:27:18,631 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
