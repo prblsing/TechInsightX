@@ -1,0 +1,54 @@
+2024-10-18 07:14:24,063 - INFO - Starting configuration setup
+2024-10-18 07:14:24,063 - INFO - Environment variables loaded successfully
+2024-10-18 07:14:24,063 - INFO - Twitter API client initialized successfully
+2024-10-18 07:14:25,965 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 07:14:33,432 - INFO - Summarization model initialized successfully
+2024-10-18 07:14:33,432 - INFO - Starting tweet scheduling
+2024-10-18 07:14:33,432 - INFO - Tweeting process started at 2024-10-18 07:14:33.432456!
+2024-10-18 07:14:33,432 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 07:14:33,432 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 07:14:48,067 - INFO - Total entries found: 615
+2024-10-18 07:14:48,070 - INFO - Recent AI-related entries found: 27
+2024-10-18 07:14:48,070 - INFO - Input content - content='<p>The New York Times on Thursday published a look at the &#8220;fraying&#8221; relationship between OpenAI and its investor, partner, and, increasingly, rival, Microsoft, reporting their five-year romance has cooled owing to financial pressure on OpenAI, the limited computing power Microsoft is providing OpenAI, and disagreements between the two about ground rules. Most fascinating perhaps is [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-18 07:14:48,071 - INFO - clean content - clean_content='The New York Times on Thursday published a look at the “fraying” relationship between OpenAI and its investor, partner, and, increasingly, rival, Microsoft, reporting their five-year romance has cooled owing to financial pressure on OpenAI, the limited computing power Microsoft is providing OpenAI, and disagreements between the two about ground rules. Most fascinating perhaps is […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-18 07:14:48,071 - INFO - Generating summary with BART model
+2024-10-18 07:14:56,796 - INFO - Generating summary with BART model
+2024-10-18 07:15:04,891 - INFO - full_tweet='The New York Times published a look at the “fraying’ relationship between OpenAI and its investor,..[read more👇🏼] #The #relationship https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/'
+2024-10-18 07:15:05,134 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847174544840171718'], 'id': '1847174544840171718', 'text': 'The New York Times published a look at the “fraying’ relationship between OpenAI and its investor,..[read more👇🏼] #The #relationship https://t.co/C9lcqsAQHV'}, includes={}, errors=[], meta={})
+2024-10-18 07:15:05,134 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/ at 2024-10-18 07:15:05
+2024-10-18 07:15:05,134 - INFO - Tweet link saved successfully.
+2024-10-18 07:15:05,134 - INFO - Sleeping for 4 minutes and 3 seconds.
+2024-10-18 07:19:08,135 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Sorry for imag-ing in title, title can\'t have \'AGI\'.</p> <p>I\'m working on my first first-author research and my advisor feels it\'s going a good direction. I really want it to go through some good conferences by next year.</p> <p>I know about MICCAI and MIDL but can\'t find a reliable source to check for all other conferences in 2025 related to medical imaging or AI in medicine in general. I hope people here must have some experience with few others. Any suggestions?</p> <p>Also, what does workshop paper mean? I know it\'s not called a actual publication but is it worth submitting to a highly regarded workshop or rather a mid-ranked conference?</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ade17_in"> /u/ade17_in </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/">[comments]</a></span>'
+2024-10-18 07:19:08,135 - INFO - clean content - clean_content="Sorry for imag-ing in title, title can't have 'AGI'. I'm working on my first first-author research and my advisor feels it's going a good direction. I really want it to go through some good conferences by next year. I know about MICCAI and MIDL but can't find a reliable source to check for all other conferences in 2025 related to medical imaging or AI in medicine in general. I hope people here must have some experience with few others. Any suggestions? Also, what does workshop paper mean? I know it's not called a actual publication but is it worth submitting to a highly regarded workshop or rather a mid-ranked conference? Thanks in advance!   submitted by   /u/ade17_in [link]   [comments]"
+2024-10-18 07:19:08,135 - INFO - Generating summary with BART model
+2024-10-18 07:19:21,380 - INFO - Generating summary with BART model
+2024-10-18 07:19:34,631 - INFO - full_tweet="I'm working on my first first-author research. I really want it to go through some good conferences by..[read more👇🏼] #I #conferences https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/"
+2024-10-18 07:19:34,814 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847175675972628882'], 'text': "I'm working on my first first-author research. I really want it to go through some good conferences by..[read more👇🏼] #I #conferences https://t.co/qc8WkwPodQ", 'id': '1847175675972628882'}, includes={}, errors=[], meta={})
+2024-10-18 07:19:34,814 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/ at 2024-10-18 07:19:34
+2024-10-18 07:19:34,814 - INFO - Tweet link saved successfully.
+2024-10-18 07:19:34,814 - INFO - Sleeping for 5 minutes and 14 seconds.
+2024-10-18 07:24:48,814 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 07:24:48,814 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 07:24:48,814 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 07:24:48,815 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-18 07:24:48,816 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
