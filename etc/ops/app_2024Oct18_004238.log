@@ -1,0 +1,64 @@
+2024-10-18 00:42:38,791 - INFO - Starting configuration setup
+2024-10-18 00:42:38,791 - INFO - Environment variables loaded successfully
+2024-10-18 00:42:38,792 - INFO - Twitter API client initialized successfully
+2024-10-18 00:42:40,641 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 00:42:50,039 - INFO - Summarization model initialized successfully
+2024-10-18 00:42:50,039 - INFO - Starting tweet scheduling
+2024-10-18 00:42:50,040 - INFO - Tweeting process started at 2024-10-18 00:42:50.040027!
+2024-10-18 00:42:50,040 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 00:42:50,040 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 00:42:50,040 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 00:43:23,150 - INFO - Total entries found: 615
+2024-10-18 00:43:23,153 - INFO - Recent AI-related entries found: 27
+2024-10-18 00:43:23,153 - INFO - Input content - content="Intel's AI Playground app, which runs AI locally now works with Intel Core Ultra 200V processors"
+2024-10-18 00:43:23,154 - INFO - clean content - clean_content="Intel's AI Playground app, which runs AI locally now works with Intel Core Ultra 200V processors"
+2024-10-18 00:43:23,154 - INFO - Generating summary with BART model
+2024-10-18 00:43:27,713 - INFO - Generating summary with BART model
+2024-10-18 00:43:31,693 - INFO - full_tweet="Intel's AI Playground app, which runs AI locally now works with Intel Core Ultra 200V processors. The app..[read more👇🏼] #app #AI https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai"
+2024-10-18 00:43:31,974 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847076007305793598'], 'text': "Intel's AI Playground app, which runs AI locally now works with Intel Core Ultra 200V processors. The app..[read more👇🏼] #app #AI https://t.co/UeeR3Yufdk", 'id': '1847076007305793598'}, includes={}, errors=[], meta={})
+2024-10-18 00:43:31,974 - INFO - Saved posted URL: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai at 2024-10-18 00:43:31
+2024-10-18 00:43:31,974 - INFO - Tweet link saved successfully.
+2024-10-18 00:43:31,974 - INFO - Sleeping for 6 minutes and 42 seconds.
+2024-10-18 00:50:13,975 - INFO - Input content - content="SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy efficiency, challenging Nvidia's dominance in the evolving AI chip market."
+2024-10-18 00:50:13,975 - INFO - clean content - clean_content="SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy efficiency, challenging Nvidia's dominance in the evolving AI chip market."
+2024-10-18 00:50:13,975 - INFO - Generating summary with BART model
+2024-10-18 00:50:18,552 - INFO - Generating summary with BART model
+2024-10-18 00:50:23,143 - INFO - full_tweet='SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy..[read more👇🏼] #AI #development https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/'
+2024-10-18 00:50:23,390 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847077732964093995'], 'text': 'SambaNova and Gradio partner to simplify AI development, offering faster inference and improved energy..[read more👇🏼] #AI #development https://t.co/s9s4B8wSkJ', 'id': '1847077732964093995'}, includes={}, errors=[], meta={})
+2024-10-18 00:50:23,390 - INFO - Saved posted URL: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/ at 2024-10-18 00:50:23
+2024-10-18 00:50:23,390 - INFO - Tweet link saved successfully.
+2024-10-18 00:50:23,390 - INFO - Sleeping for 8 minutes and 30 seconds.
+2024-10-18 00:58:53,391 - INFO - Input content - content='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs.'
+2024-10-18 00:58:53,391 - INFO - clean content - clean_content='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs.'
+2024-10-18 00:58:53,391 - INFO - Generating summary with BART model
+2024-10-18 00:58:57,568 - INFO - Generating summary with BART model
+2024-10-18 00:59:01,726 - INFO - full_tweet='Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs. Scenes..[read more👇🏼] #into #feature https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack'
+2024-10-18 00:59:01,971 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847079908100726786'], 'id': '1847079908100726786', 'text': 'Artificial intelligence music makers Suno debuts Scenes feature for turning visuals into songs. Scenes..[read more👇🏼] #into #feature https://t.co/ARilbb0vSv'}, includes={}, errors=[], meta={})
+2024-10-18 00:59:01,971 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack at 2024-10-18 00:59:01
+2024-10-18 00:59:01,971 - INFO - Tweet link saved successfully.
+2024-10-18 00:59:01,971 - INFO - Sleeping for 8 minutes and 4 seconds.
+2024-10-18 01:07:05,972 - INFO - Input content - content="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers"
+2024-10-18 01:07:05,972 - INFO - clean content - clean_content="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers"
+2024-10-18 01:07:05,972 - INFO - Generating summary with BART model
+2024-10-18 01:07:10,424 - INFO - Generating summary with BART model
+2024-10-18 01:07:14,866 - INFO - full_tweet="The price of the world's largest SSD has skyrocketed likely due to demand for AI servers. The price has..[read more👇🏼] #AI #price https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd"
+2024-10-18 01:07:15,150 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847081976505028975'], 'text': "The price of the world's largest SSD has skyrocketed likely due to demand for AI servers. The price has..[read more👇🏼] #AI #price https://t.co/hyaTIT35YX", 'id': '1847081976505028975'}, includes={}, errors=[], meta={})
+2024-10-18 01:07:15,150 - INFO - Saved posted URL: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd at 2024-10-18 01:07:15
+2024-10-18 01:07:15,150 - INFO - Tweet link saved successfully.
+2024-10-18 01:07:15,150 - INFO - Sleeping for 8 minutes and 8 seconds.
+2024-10-18 01:15:23,151 - INFO - Input content - content='<p>On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party &#8220;collaborators&#8221; to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI&#8217;s Grok AI chatbot on X user data, leading to an investigation by the EU&#8217;s lead privacy regulator, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-18 01:15:23,151 - INFO - clean content - clean_content='On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party “collaborators” to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI’s Grok AI chatbot on X user data, leading to an investigation by the EU’s lead privacy regulator, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-18 01:15:23,151 - INFO - Generating summary with BART model
+2024-10-18 01:15:31,398 - INFO - Generating summary with BART model
+2024-10-18 01:15:39,695 - INFO - full_tweet='X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/'
+2024-10-18 01:15:39,937 - INFO - Tweet posted successfully: Response(data={'text': 'X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://t.co/DzYOxo7kbn', 'id': '1847084093944877511', 'edit_history_tweet_ids': ['1847084093944877511']}, includes={}, errors=[], meta={})
+2024-10-18 01:15:39,937 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/ at 2024-10-18 01:15:39
+2024-10-18 01:15:39,937 - INFO - Tweet link saved successfully.
+2024-10-18 01:15:39,937 - INFO - Sleeping for 7 minutes and 55 seconds.
+2024-10-18 01:23:34,937 - INFO - Input content - content='<p>On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party &#8220;collaborators&#8221; to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI&#8217;s Grok AI chatbot on X user data, leading to an investigation by the EU&#8217;s lead privacy regulator, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-18 01:23:34,938 - INFO - clean content - clean_content='On Wednesday, social network X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party “collaborators” to train their AI models on X data, unless users opt out. While X owner Elon Musk trained xAI’s Grok AI chatbot on X user data, leading to an investigation by the EU’s lead privacy regulator, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-18 01:23:34,938 - INFO - Generating summary with BART model
+2024-10-18 01:23:43,318 - INFO - Generating summary with BART model
+2024-10-18 01:23:51,679 - INFO - full_tweet='X (formerly Twitter) updated its Privacy Policy to indicate that it would allow third-party..[read more👇🏼] #data #AI https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/'
+2024-10-18 01:23:51,797 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
