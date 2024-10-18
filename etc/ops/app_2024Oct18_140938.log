@@ -1,0 +1,59 @@
+2024-10-18 14:09:38,784 - INFO - Starting configuration setup
+2024-10-18 14:09:38,785 - INFO - Environment variables loaded successfully
+2024-10-18 14:09:38,785 - INFO - Twitter API client initialized successfully
+2024-10-18 14:09:40,714 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 14:09:57,613 - INFO - Summarization model initialized successfully
+2024-10-18 14:09:57,613 - INFO - Starting tweet scheduling
+2024-10-18 14:09:57,614 - INFO - Tweeting process started at 2024-10-18 14:09:57.614034!
+2024-10-18 14:09:57,614 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 14:09:57,614 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 14:10:14,019 - INFO - Total entries found: 615
+2024-10-18 14:10:14,022 - INFO - Recent AI-related entries found: 24
+2024-10-18 14:10:14,022 - INFO - Input content - content='How will AI regulation impact the data collection process for businesses?'
+2024-10-18 14:10:14,023 - INFO - clean content - clean_content='How will AI regulation impact the data collection process for businesses?'
+2024-10-18 14:10:14,023 - INFO - Generating summary with BART model
+2024-10-18 14:10:18,855 - INFO - Generating summary with BART model
+2024-10-18 14:10:23,080 - INFO - full_tweet='How will AI regulation impact the data collection process for businesses? How will it affect the data..[read more👇🏼] #data #AI https://www.techradar.com/pro/emerging-ai-regulation-will-shape-the-future-of-data-collection-for-business'
+2024-10-18 14:10:23,346 - INFO - Tweet posted successfully: Response(data={'id': '1847279059354481043', 'edit_history_tweet_ids': ['1847279059354481043'], 'text': 'How will AI regulation impact the data collection process for businesses? How will it affect the data..[read more👇🏼] #data #AI https://t.co/uhPCEBzK1z'}, includes={}, errors=[], meta={})
+2024-10-18 14:10:23,347 - INFO - Saved posted URL: https://www.techradar.com/pro/emerging-ai-regulation-will-shape-the-future-of-data-collection-for-business at 2024-10-18 14:10:23
+2024-10-18 14:10:23,347 - INFO - Tweet link saved successfully.
+2024-10-18 14:10:23,347 - INFO - Sleeping for 3 minutes and 24 seconds.
+2024-10-18 14:13:47,347 - INFO - Input content - content='Not happy with X due to the incoming change for blocking? You wouldn’t be alone – and others are seriously unhappy with new AI scraping policy, too.'
+2024-10-18 14:13:47,347 - INFO - clean content - clean_content='Not happy with X due to the incoming change for blocking? You wouldn’t be alone – and others are seriously unhappy with new AI scraping policy, too.'
+2024-10-18 14:13:47,347 - INFO - Generating summary with BART model
+2024-10-18 14:13:51,872 - INFO - Generating summary with BART model
+2024-10-18 14:13:56,357 - INFO - full_tweet='Some users are unhappy with new AI scraping policy, too. Not happy with X due to the incoming change for..[read more👇🏼] #AI #unhappy https://www.techradar.com/computing/websites-apps/xs-controversial-changes-to-blocking-and-ai-training-sees-half-a-million-users-leave-for-rival-bluesky-which-then-crashes-under-the-strain'
+2024-10-18 14:13:56,567 - INFO - Tweet posted successfully: Response(data={'text': 'Some users are unhappy with new AI scraping policy, too. Not happy with X due to the incoming change for..[read more👇🏼] #AI #unhappy https://t.co/WgDJ5F2DU6', 'id': '1847279953663951080', 'edit_history_tweet_ids': ['1847279953663951080']}, includes={}, errors=[], meta={})
+2024-10-18 14:13:56,567 - INFO - Saved posted URL: https://www.techradar.com/computing/websites-apps/xs-controversial-changes-to-blocking-and-ai-training-sees-half-a-million-users-leave-for-rival-bluesky-which-then-crashes-under-the-strain at 2024-10-18 14:13:56
+2024-10-18 14:13:56,567 - INFO - Tweet link saved successfully.
+2024-10-18 14:13:56,567 - INFO - Sleeping for 7 minutes and 33 seconds.
+2024-10-18 14:21:29,567 - INFO - Input content - content="Need help wording an email? Google's Gemini AI in Gmail can make your drafts sound more professional, or even compose new ones from scratch. Here's how to get started."
+2024-10-18 14:21:29,568 - INFO - clean content - clean_content="Need help wording an email? Google's Gemini AI in Gmail can make your drafts sound more professional, or even compose new ones from scratch. Here's how to get started."
+2024-10-18 14:21:29,568 - INFO - Generating summary with BART model
+2024-10-18 14:21:33,623 - INFO - Generating summary with BART model
+2024-10-18 14:21:37,657 - INFO - full_tweet="Google's Gemini AI in Gmail can make your drafts sound more professional. It can even compose new ones..[read more👇🏼] #AI #s https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails"
+2024-10-18 14:21:37,913 - INFO - Tweet posted successfully: Response(data={'id': '1847281888731250828', 'text': "Google's Gemini AI in Gmail can make your drafts sound more professional. It can even compose new ones..[read more👇🏼] #AI #s https://t.co/qKRUKr4xD7", 'edit_history_tweet_ids': ['1847281888731250828']}, includes={}, errors=[], meta={})
+2024-10-18 14:21:37,913 - INFO - Saved posted URL: https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails at 2024-10-18 14:21:37
+2024-10-18 14:21:37,913 - INFO - Tweet link saved successfully.
+2024-10-18 14:21:37,913 - INFO - Sleeping for 3 minutes and 52 seconds.
+2024-10-18 14:25:29,913 - INFO - This link is already posted: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it
+2024-10-18 14:25:29,913 - INFO - This link is already posted: https://www.techradar.com/phones/oneplus-phones/oneplus-shares-release-date-for-android-15-update-announces-new-ai-features
+2024-10-18 14:25:29,913 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 14:25:29,914 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
