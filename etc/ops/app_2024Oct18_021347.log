@@ -1,0 +1,96 @@
+2024-10-18 02:13:47,659 - INFO - Starting configuration setup
+2024-10-18 02:13:47,660 - INFO - Environment variables loaded successfully
+2024-10-18 02:13:47,660 - INFO - Twitter API client initialized successfully
+2024-10-18 02:13:49,611 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 02:13:59,168 - INFO - Summarization model initialized successfully
+2024-10-18 02:13:59,168 - INFO - Starting tweet scheduling
+2024-10-18 02:13:59,168 - INFO - Tweeting process started at 2024-10-18 02:13:59.168896!
+2024-10-18 02:13:59,169 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 02:13:59,169 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 02:14:16,152 - INFO - Total entries found: 615
+2024-10-18 02:14:16,155 - INFO - Recent AI-related entries found: 27
+2024-10-18 02:14:16,155 - INFO - Input content - content='H2O.ai has released efficient vision-language models for document AI, challenging tech giants with superior performance in OCR and text recognition tasks.'
+2024-10-18 02:14:16,155 - INFO - clean content - clean_content='H2O.ai has released efficient vision-language models for document AI, challenging tech giants with superior performance in OCR and text recognition tasks.'
+2024-10-18 02:14:16,156 - INFO - Generating summary with BART model
+2024-10-18 02:14:20,822 - INFO - Generating summary with BART model
+2024-10-18 02:14:24,816 - INFO - full_tweet='H2O.ai has released efficient vision-language models for document AI. The company is challenging tech..[read more👇🏼] #tech #ai https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/'
+2024-10-18 02:14:25,091 - INFO - Tweet posted successfully: Response(data={'id': '1847098879352979700', 'edit_history_tweet_ids': ['1847098879352979700'], 'text': 'https://t.co/q2Ve5Q3tDv has released efficient vision-language models for document AI. The company is challenging tech..[read more👇🏼] #tech #ai https://t.co/RxEn0oK0xR'}, includes={}, errors=[], meta={})
+2024-10-18 02:14:25,091 - INFO - Saved posted URL: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/ at 2024-10-18 02:14:25
+2024-10-18 02:14:25,091 - INFO - Tweet link saved successfully.
+2024-10-18 02:14:25,091 - INFO - Sleeping for 7 minutes and 36 seconds.
+2024-10-18 02:22:01,091 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 02:22:01,092 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 02:22:01,092 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 02:22:01,092 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 02:22:01,092 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 02:22:01,092 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 02:22:01,092 - INFO - Input content - content='The software-optimized inference engine behind Simiplismart MLOps platform runs Llama3.1 8B at a peak throughput of 501 tokens per second.'
+2024-10-18 02:22:01,092 - INFO - clean content - clean_content='The software-optimized inference engine behind Simiplismart MLOps platform runs Llama3.1 8B at a peak throughput of 501 tokens per second.'
+2024-10-18 02:22:01,092 - INFO - Generating summary with BART model
+2024-10-18 02:22:08,518 - INFO - Generating summary with BART model
+2024-10-18 02:22:15,942 - INFO - full_tweet='The software-optimized inference engine behind Simiplismart MLOps platform runs Llama3.1 8B at a peak..[read more👇🏼] #software #Simiplismart https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/'
+2024-10-18 02:22:16,166 - INFO - Tweet posted successfully: Response(data={'text': 'The software-optimized inference engine behind Simiplismart MLOps platform runs Llama3.1 8B at a peak..[read more👇🏼] #software #Simiplismart https://t.co/XmjdmvCD24', 'edit_history_tweet_ids': ['1847100855302214108'], 'id': '1847100855302214108'}, includes={}, errors=[], meta={})
+2024-10-18 02:22:16,166 - INFO - Saved posted URL: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/ at 2024-10-18 02:22:16
+2024-10-18 02:22:16,166 - INFO - Tweet link saved successfully.
+2024-10-18 02:22:16,166 - INFO - Sleeping for 3 minutes and 7 seconds.
+2024-10-18 02:25:23,167 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls.</p> <p><a href="https://ieeexplore.ieee.org/document/9917212">An Integrated Generative Adversarial Network for Identification and Mitigation of Cyber-Attacks in Wide-Area Control | IEEE Conference Publication | IEEE Xplore</a></p> <p>PDF : <a href="https://www.researchgate.net/publication/365105427_An_Integrated_Generative_Adversarial_Network_for_Identification_and_Mitigation_of_Cyber-Attacks_in_Wide-Area_Control">https://www.researchgate.net/publication/365105427_An_Integrated_Generative_Adversarial_Network_for_Identification_and_Mitigation_of_Cyber-Attacks_in_Wide-Area_Control</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Playful_Passage_2985"> /u/Playful_Passage_2985 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/">[comments]</a></span>'
+2024-10-18 02:25:23,167 - INFO - clean content - clean_content='Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls. An Integrated Generative Adversarial Network for Identification and Mitigation of Cyber-Attacks in Wide-Area Control | IEEE Conference Publication | IEEE Xplore PDF :   submitted by   /u/Playful_Passage_2985 [link]   [comments]'
+2024-10-18 02:25:23,167 - INFO - Generating summary with BART model
+2024-10-18 02:25:28,596 - INFO - Generating summary with BART model
+2024-10-18 02:25:33,993 - INFO - full_tweet='Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls. An..[read more👇🏼] #Network #AI https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/'
+2024-10-18 02:25:34,186 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847101685828931998'], 'text': 'Interesting paper on how Gen AI can be used to detect and mitigate cyber-attacks in controls. An..[read more👇🏼] #Network #AI https://t.co/mbmgO4jaac', 'id': '1847101685828931998'}, includes={}, errors=[], meta={})
+2024-10-18 02:25:34,186 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/ at 2024-10-18 02:25:34
+2024-10-18 02:25:34,186 - INFO - Tweet link saved successfully.
+2024-10-18 02:25:34,186 - INFO - Sleeping for 7 minutes and 51 seconds.
+2024-10-18 02:33:25,186 - INFO - Input content - content='The feds accelerate fraud detection with machine learning, catching up to similar techniques already in use by leading banks and credit cards.'
+2024-10-18 02:33:25,187 - INFO - clean content - clean_content='The feds accelerate fraud detection with machine learning, catching up to similar techniques already in use by leading banks and credit cards.'
+2024-10-18 02:33:25,187 - INFO - Generating summary with BART model
+2024-10-18 02:33:28,908 - INFO - Generating summary with BART model
+2024-10-18 02:33:32,697 - INFO - full_tweet='Feds are catching up to similar techniques already in use by leading banks and credit cards. The federal..[read more👇🏼] #techniques #government https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes'
+2024-10-18 02:33:32,950 - INFO - Tweet posted successfully: Response(data={'text': 'Feds are catching up to similar techniques already in use by leading banks and credit cards. The federal..[read more👇🏼] #techniques #government https://t.co/7XM0kCA9ii', 'id': '1847103693918965761', 'edit_history_tweet_ids': ['1847103693918965761']}, includes={}, errors=[], meta={})
+2024-10-18 02:33:32,950 - INFO - Saved posted URL: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes at 2024-10-18 02:33:32
+2024-10-18 02:33:32,950 - INFO - Tweet link saved successfully.
+2024-10-18 02:33:32,950 - INFO - Sleeping for 8 minutes and 18 seconds.
+2024-10-18 02:41:50,951 - INFO - Input content - content='<p>This week, OpenAI quietly published a statement on its website pledging not to use its patents offensively. Asserting its commitment to the principles of &#8220;broad access&#8221; and &#8220;collaboration,&#8221; OpenAI said that it would only use its patents in a way that supports innovation. &#8220;We pledge to only use our patents defensively, so long as a [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-18 02:41:50,951 - INFO - clean content - clean_content='This week, OpenAI quietly published a statement on its website pledging not to use its patents offensively. Asserting its commitment to the principles of “broad access” and “collaboration,” OpenAI said that it would only use its patents in a way that supports innovation. “We pledge to only use our patents defensively, so long as a […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-18 02:41:50,951 - INFO - Generating summary with BART model
+2024-10-18 02:41:58,366 - INFO - Generating summary with BART model
+2024-10-18 02:42:05,794 - INFO - full_tweet='This week, OpenAI quietly published a statement on its website pledging not to use its patents..[read more👇🏼] #its #use https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/'
+2024-10-18 02:42:06,085 - INFO - Tweet posted successfully: Response(data={'text': 'This week, OpenAI quietly published a statement on its website pledging not to use its patents..[read more👇🏼] #its #use https://t.co/TjjhxniMjx', 'edit_history_tweet_ids': ['1847105846100349154'], 'id': '1847105846100349154'}, includes={}, errors=[], meta={})
+2024-10-18 02:42:06,085 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/ at 2024-10-18 02:42:06
+2024-10-18 02:42:06,085 - INFO - Tweet link saved successfully.
+2024-10-18 02:42:06,085 - INFO - Sleeping for 4 minutes and 9 seconds.
+2024-10-18 02:46:15,086 - INFO - Input content - content='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies develop new tools, they need filmmakers to show they can be used responsibly.'
+2024-10-18 02:46:15,086 - INFO - clean content - clean_content='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies develop new tools, they need filmmakers to show they can be used responsibly.'
+2024-10-18 02:46:15,086 - INFO - Generating summary with BART model
+2024-10-18 02:46:19,171 - INFO - Generating summary with BART model
+2024-10-18 02:46:23,240 - INFO - full_tweet='Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies..[read more👇🏼] #tech #AI https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/'
+2024-10-18 02:46:23,468 - INFO - Tweet posted successfully: Response(data={'text': 'Amazon is hosting AI filmmaking competitions. Meta is letting directors test Movie Gen. As tech companies..[read more👇🏼] #tech #AI https://t.co/8nnHZBl3yi', 'edit_history_tweet_ids': ['1847106925693227314'], 'id': '1847106925693227314'}, includes={}, errors=[], meta={})
+2024-10-18 02:46:23,468 - INFO - Saved posted URL: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/ at 2024-10-18 02:46:23
+2024-10-18 02:46:23,468 - INFO - Tweet link saved successfully.
+2024-10-18 02:46:23,468 - INFO - Sleeping for 5 minutes and 48 seconds.
+2024-10-18 02:52:11,469 - INFO - Input content - content="<p>One of the tech industry’s biggest hype men, Salesforce CEO Marc Benioff, is psyched about AI, but points out that it hasn't cured cancer. </p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-18 02:52:11,469 - INFO - clean content - clean_content="One of the tech industry’s biggest hype men, Salesforce CEO Marc Benioff, is psyched about AI, but points out that it hasn't cured cancer. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-18 02:52:11,469 - INFO - Generating summary with BART model
+2024-10-18 02:52:16,167 - INFO - Generating summary with BART model
+2024-10-18 02:52:20,857 - INFO - full_tweet="Salesforce CEO Marc Benioff is psyched about AI, but points out that it hasn't cured cancer. Salesforce..[read more👇🏼] #tech #AI https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/"
+2024-10-18 02:52:21,099 - INFO - Tweet posted successfully: Response(data={'id': '1847108425685389749', 'text': "Salesforce CEO Marc Benioff is psyched about AI, but points out that it hasn't cured cancer. Salesforce..[read more👇🏼] #tech #AI https://t.co/JMRENn39Zb", 'edit_history_tweet_ids': ['1847108425685389749']}, includes={}, errors=[], meta={})
+2024-10-18 02:52:21,100 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/ at 2024-10-18 02:52:21
+2024-10-18 02:52:21,100 - INFO - Tweet link saved successfully.
+2024-10-18 02:52:21,100 - INFO - Sleeping for 8 minutes and 44 seconds.
+2024-10-18 03:01:05,100 - INFO - Input content - content="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a strategic push into enterprise productivity tools."
+2024-10-18 03:01:05,100 - INFO - clean content - clean_content="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a strategic push into enterprise productivity tools."
+2024-10-18 03:01:05,100 - INFO - Generating summary with BART model
+2024-10-18 03:01:10,181 - INFO - Generating summary with BART model
+2024-10-18 03:01:15,282 - INFO - full_tweet="OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a..[read more👇🏼] #app #AI https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/"
+2024-10-18 03:01:15,509 - INFO - Tweet posted successfully: Response(data={'text': "OpenAI launches ChatGPT desktop app for Windows, expanding its AI assistant's reach and signaling a..[read more👇🏼] #app #AI https://t.co/pBtV3XqD3d", 'edit_history_tweet_ids': ['1847110667230474463'], 'id': '1847110667230474463'}, includes={}, errors=[], meta={})
+2024-10-18 03:01:15,509 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/ at 2024-10-18 03:01:15
+2024-10-18 03:01:15,509 - INFO - Tweet link saved successfully.
+2024-10-18 03:01:15,509 - INFO - Sleeping for 9 minutes and 33 seconds.
+2024-10-18 03:10:48,509 - INFO - Input content - content="<p>Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-18 03:10:48,510 - INFO - clean content - clean_content="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-18 03:10:48,510 - INFO - Generating summary with BART model
+2024-10-18 03:10:53,230 - INFO - Generating summary with BART model
+2024-10-18 03:10:57,950 - INFO - full_tweet="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the..[read more👇🏼] #organizations #introduced https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/"
+2024-10-18 03:10:58,081 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
