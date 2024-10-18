@@ -1,0 +1,67 @@
+2024-10-18 16:11:56,697 - INFO - Starting configuration setup
+2024-10-18 16:11:56,697 - INFO - Environment variables loaded successfully
+2024-10-18 16:11:56,697 - INFO - Twitter API client initialized successfully
+2024-10-18 16:11:58,598 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 16:12:06,643 - INFO - Summarization model initialized successfully
+2024-10-18 16:12:06,643 - INFO - Starting tweet scheduling
+2024-10-18 16:12:06,643 - INFO - Tweeting process started at 2024-10-18 16:12:06.643438!
+2024-10-18 16:12:06,643 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 16:12:06,643 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 16:12:20,308 - INFO - Total entries found: 615
+2024-10-18 16:12:20,311 - INFO - Recent AI-related entries found: 24
+2024-10-18 16:12:20,311 - INFO - Input content - content='<p>How much equity in OpenAI will Microsoft get once the former becomes a for-profit company? That&#8217;s the multi-billion-dollar question — one the two parties are racing to answer ahead of two-year deadline. The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate Microsoft&#8217;s equity — which could be substantial. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-18 16:12:20,312 - INFO - clean content - clean_content='How much equity in OpenAI will Microsoft get once the former becomes a for-profit company? That’s the multi-billion-dollar question — one the two parties are racing to answer ahead of two-year deadline. The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate Microsoft’s equity — which could be substantial. […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-18 16:12:20,312 - INFO - Generating summary with BART model
+2024-10-18 16:12:25,986 - INFO - Generating summary with BART model
+2024-10-18 16:12:31,070 - INFO - full_tweet='The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate..[read more👇🏼] #Microsoft #The https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/'
+2024-10-18 16:12:31,480 - INFO - Tweet posted successfully: Response(data={'text': 'The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate..[read more👇🏼] #Microsoft #The https://t.co/z3MedTQJ6q', 'id': '1847309795457421558', 'edit_history_tweet_ids': ['1847309795457421558']}, includes={}, errors=[], meta={})
+2024-10-18 16:12:31,481 - INFO - Saved posted URL: https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/ at 2024-10-18 16:12:31
+2024-10-18 16:12:31,481 - INFO - Tweet link saved successfully.
+2024-10-18 16:12:31,481 - INFO - Sleeping for 8 minutes and 3 seconds.
+2024-10-18 16:20:34,481 - INFO - Input content - content='Check out these 10 use cases for AI to shine.'
+2024-10-18 16:20:34,481 - INFO - clean content - clean_content='Check out these 10 use cases for AI to shine.'
+2024-10-18 16:20:34,482 - INFO - Generating summary with BART model
+2024-10-18 16:20:38,247 - INFO - Generating summary with BART model
+2024-10-18 16:20:41,985 - INFO - full_tweet='AI is being used in a number of new ways, including in the healthcare industry. Here are 10 of the best..[read more👇🏼] #AI #industry https://www.kdnuggets.com/what-can-ai-do-for-data-science'
+2024-10-18 16:20:42,263 - INFO - Tweet posted successfully: Response(data={'id': '1847311854256705647', 'text': 'AI is being used in a number of new ways, including in the healthcare industry. Here are 10 of the best..[read more👇🏼] #AI #industry https://t.co/tSWFPBWJOl', 'edit_history_tweet_ids': ['1847311854256705647']}, includes={}, errors=[], meta={})
+2024-10-18 16:20:42,263 - INFO - Saved posted URL: https://www.kdnuggets.com/what-can-ai-do-for-data-science at 2024-10-18 16:20:42
+2024-10-18 16:20:42,263 - INFO - Tweet link saved successfully.
+2024-10-18 16:20:42,263 - INFO - Sleeping for 4 minutes and 30 seconds.
+2024-10-18 16:25:12,263 - INFO - Input content - content='<figure>\n      <img alt="Photo illustration of a computer with a brain on the screen." src="https://cdn.vox-cdn.com/thumbor/yO6NHU62fV0ELETCU8c9iJ71rG4=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73662189/STK_414_AI_CHATBOT_R2_CVirginia_D.0.jpg" />\n        <figcaption>Illustration by Cath Virginia / The Verge | Photos by Getty Images</figcaption>\n    </figure>\n\n  <p id="RiQjNB">Google’s NotebookLM now <a href="https://blog.google/technology/ai/notebooklm-update-october-2024/">lets you customize</a> its podcast-like Audio Overviews. Before you generate a discussion using the note-taking app, you can give your AI hosts instructions about what topic you’d like them to focus on, or even tailor their discussions for different audiences.</p>\n<p id="PEBOYg"><a href="https://www.theverge.com/2024/9/11/24242138/google-notebook-llm-ai-fake-podcasts-research">Google launched NotebookLM’s Audio Overviews</a> last month, with two AI hosts that offer a “lively” discussion of your research. The company notes that its Audio Overviews aren’t meant to be a “comprehensive or objective overview of a topic” and are “simply a reflection of the sources that you’ve uploaded and any instructions you provide.”</p>\n<figure class="e-image">\n        \n      <cite>GIF: Google</cite>\n  </figure>\n<p id="WCZQkt">To customize the chat, open up a notebook in NotebookLM, select “Notebook guide,” and then...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize">Continue reading&hellip;</a>\n  </p>'
+2024-10-18 16:25:12,264 - INFO - clean content - clean_content='Illustration by Cath Virginia / The Verge | Photos by Getty Images Google’s NotebookLM now lets you customize its podcast-like Audio Overviews. Before you generate a discussion using the note-taking app, you can give your AI hosts instructions about what topic you’d like them to focus on, or even tailor their discussions for different audiences. Google launched NotebookLM’s Audio Overviews last month, with two AI hosts that offer a “lively” discussion of your research. The company notes that its Audio Overviews aren’t meant to be a “comprehensive or objective overview of a topic” and are “simply a reflection of the sources that you’ve uploaded and any instructions you provide.” GIF: Google To customize the chat, open up a notebook in NotebookLM, select “Notebook guide,” and then... Continue reading…'
+2024-10-18 16:25:12,264 - INFO - Generating summary with BART model
+2024-10-18 16:25:20,078 - INFO - Generating summary with BART model
+2024-10-18 16:25:27,921 - INFO - full_tweet='Google’s NotebookLM now lets you customize its podcast-like Audio Overviews. Before you generate a..[read more👇🏼] #app #AI https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize'
+2024-10-18 16:25:28,171 - INFO - Tweet posted successfully: Response(data={'id': '1847313053307556255', 'text': 'Google’s NotebookLM now lets you customize its podcast-like Audio Overviews. Before you generate a..[read more👇🏼] #app #AI https://t.co/fKjLXJg9Yf'}, includes={}, errors=[], meta={})
+2024-10-18 16:25:28,171 - INFO - Saved posted URL: https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize at 2024-10-18 16:25:28
+2024-10-18 16:25:28,171 - INFO - Tweet link saved successfully.
+2024-10-18 16:25:28,171 - INFO - Sleeping for 4 minutes and 34 seconds.
+2024-10-18 16:30:02,172 - INFO - Input content - content='These machines offer the processing power and built-in tools to function as ultra-advanced PCs.'
+2024-10-18 16:30:02,172 - INFO - clean content - clean_content='These machines offer the processing power and built-in tools to function as ultra-advanced PCs.'
+2024-10-18 16:30:02,172 - INFO - Generating summary with BART model
+2024-10-18 16:30:06,505 - INFO - Generating summary with BART model
+2024-10-18 16:30:10,725 - INFO - full_tweet='These machines offer the processing power and built-in tools to function as ultra-advanced PCs. They are..[read more👇🏼] #software #processing https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing'
+2024-10-18 16:30:10,927 - INFO - Tweet posted successfully: Response(data={'id': '1847314239456743481', 'edit_history_tweet_ids': ['1847314239456743481'], 'text': 'These machines offer the processing power and built-in tools to function as ultra-advanced PCs. They are..[read more👇🏼] #software #processing https://t.co/JwdL1BvkfR'}, includes={}, errors=[], meta={})
+2024-10-18 16:30:10,928 - INFO - Saved posted URL: https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing at 2024-10-18 16:30:10
+2024-10-18 16:30:10,928 - INFO - Tweet link saved successfully.
+2024-10-18 16:30:10,928 - INFO - Sleeping for 5 minutes and 21 seconds.
+2024-10-18 16:35:31,928 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/bluesky-surges-into-the-top-5-as-x-changes-blocks-permits-ai-training-on-its-data/
+2024-10-18 16:35:31,928 - INFO - This link is already posted: https://www.techradar.com/pro/the-ai-at-scale-revolution-disrupting-industries
+2024-10-18 16:35:31,928 - INFO - This link is already posted: https://www.techradar.com/pro/emerging-ai-regulation-will-shape-the-future-of-data-collection-for-business
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.techradar.com/computing/websites-apps/xs-controversial-changes-to-blocking-and-ai-training-sees-half-a-million-users-leave-for-rival-bluesky-which-then-crashes-under-the-strain
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 16:35:31,929 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
