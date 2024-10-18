@@ -1,0 +1,65 @@
+2024-10-18 09:14:20,951 - INFO - Starting configuration setup
+2024-10-18 09:14:20,951 - INFO - Environment variables loaded successfully
+2024-10-18 09:14:20,951 - INFO - Twitter API client initialized successfully
+2024-10-18 09:14:22,843 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 09:14:30,216 - INFO - Summarization model initialized successfully
+2024-10-18 09:14:30,216 - INFO - Starting tweet scheduling
+2024-10-18 09:14:30,216 - INFO - Tweeting process started at 2024-10-18 09:14:30.216798!
+2024-10-18 09:14:30,217 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 09:14:30,217 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 09:14:45,181 - INFO - Total entries found: 615
+2024-10-18 09:14:45,184 - INFO - Recent AI-related entries found: 30
+2024-10-18 09:14:45,184 - INFO - Input content - content='Companies recognize the power and potential of artificial intelligence, but they’re stuck at these hurdles.'
+2024-10-18 09:14:45,184 - INFO - clean content - clean_content='Companies recognize the power and potential of artificial intelligence, but they’re stuck at these hurdles.'
+2024-10-18 09:14:45,185 - INFO - Generating summary with BART model
+2024-10-18 09:14:51,457 - INFO - Generating summary with BART model
+2024-10-18 09:14:57,130 - INFO - full_tweet='Companies recognize the power and potential of artificial intelligence, but they’re stuck at these..[read more👇🏼] #hurdles #intelligence https://www.techradar.com/pro/business-heads-are-struggling-to-trust-ai-but-hope-it-will-be-a-major-source-of-revenue'
+2024-10-18 09:14:57,409 - INFO - Tweet posted successfully: Response(data={'text': 'Companies recognize the power and potential of artificial intelligence, but they’re stuck at these..[read more👇🏼] #hurdles #intelligence https://t.co/MHtJYiOlTF', 'id': '1847204711394336963', 'edit_history_tweet_ids': ['1847204711394336963']}, includes={}, errors=[], meta={})
+2024-10-18 09:14:57,409 - INFO - Saved posted URL: https://www.techradar.com/pro/business-heads-are-struggling-to-trust-ai-but-hope-it-will-be-a-major-source-of-revenue at 2024-10-18 09:14:57
+2024-10-18 09:14:57,409 - INFO - Tweet link saved successfully.
+2024-10-18 09:14:57,410 - INFO - Sleeping for 6 minutes and 27 seconds.
+2024-10-18 09:21:24,410 - INFO - Input content - content='The ChatGPT app is finally available on Windows.'
+2024-10-18 09:21:24,410 - INFO - clean content - clean_content='The ChatGPT app is finally available on Windows.'
+2024-10-18 09:21:24,410 - INFO - Generating summary with BART model
+2024-10-18 09:21:29,082 - INFO - Generating summary with BART model
+2024-10-18 09:21:33,762 - INFO - full_tweet='The ChatGPT app is finally available on Windows. The app lets users chat with each other in a chat-like..[read more👇🏼] #app #web https://www.techradar.com/computing/artificial-intelligence/chatgpt-app-comes-to-windows-finally-add-a-quick-ai-shortcut-to-your-pc-today'
+2024-10-18 09:21:34,016 - INFO - Tweet posted successfully: Response(data={'text': 'The ChatGPT app is finally available on Windows. The app lets users chat with each other in a chat-like..[read more👇🏼] #app #web https://t.co/zx45yIxyLf', 'edit_history_tweet_ids': ['1847206374905721235'], 'id': '1847206374905721235'}, includes={}, errors=[], meta={})
+2024-10-18 09:21:34,017 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/chatgpt-app-comes-to-windows-finally-add-a-quick-ai-shortcut-to-your-pc-today at 2024-10-18 09:21:34
+2024-10-18 09:21:34,017 - INFO - Tweet link saved successfully.
+2024-10-18 09:21:34,017 - INFO - Sleeping for 6 minutes and 11 seconds.
+2024-10-18 09:27:45,017 - INFO - Input content - content='CIOs must navigate a critical skills shortage to successfully implement ambitious AI initiatives.'
+2024-10-18 09:27:45,017 - INFO - clean content - clean_content='CIOs must navigate a critical skills shortage to successfully implement ambitious AI initiatives.'
+2024-10-18 09:27:45,017 - INFO - Generating summary with BART model
+2024-10-18 09:27:49,155 - INFO - Generating summary with BART model
+2024-10-18 09:27:53,307 - INFO - full_tweet='CIOs must navigate a critical skills shortage to successfully implement ambitious AI initiatives. CIOs..[read more👇🏼] #AI #initiatives https://www.techradar.com/pro/navigating-the-ai-skills-shortage-strategies-for-global-cios'
+2024-10-18 09:27:53,574 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847207966887301626'], 'text': 'CIOs must navigate a critical skills shortage to successfully implement ambitious AI initiatives. CIOs..[read more👇🏼] #AI #initiatives https://t.co/jHxetmV8GC', 'id': '1847207966887301626'}, includes={}, errors=[], meta={})
+2024-10-18 09:27:53,574 - INFO - Saved posted URL: https://www.techradar.com/pro/navigating-the-ai-skills-shortage-strategies-for-global-cios at 2024-10-18 09:27:53
+2024-10-18 09:27:53,575 - INFO - Tweet link saved successfully.
+2024-10-18 09:27:53,575 - INFO - Sleeping for 7 minutes and 45 seconds.
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 09:35:38,575 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing
+2024-10-18 09:35:38,576 - INFO - This link is already posted: https://www.wired.com/story/ai-imprompter-malware-llm/
