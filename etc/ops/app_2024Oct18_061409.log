@@ -1,0 +1,69 @@
+2024-10-18 06:14:09,645 - INFO - Starting configuration setup
+2024-10-18 06:14:09,645 - INFO - Environment variables loaded successfully
+2024-10-18 06:14:09,645 - INFO - Twitter API client initialized successfully
+2024-10-18 06:14:11,521 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 06:14:18,912 - INFO - Summarization model initialized successfully
+2024-10-18 06:14:18,912 - INFO - Starting tweet scheduling
+2024-10-18 06:14:18,912 - INFO - Tweeting process started at 2024-10-18 06:14:18.912378!
+2024-10-18 06:14:18,912 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 06:14:18,912 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 06:14:34,973 - INFO - Total entries found: 615
+2024-10-18 06:14:34,976 - INFO - Recent AI-related entries found: 26
+2024-10-18 06:14:34,976 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/837/1*W_3YBWMyivQf5mGcfA0__g.png" width="837" /></a></p><p class="medium-feed-snippet">Looking back at AI progress since the 2012 blog post &#x201c;The state of Computer Vision and AI: we are really, really far away&#x201d;</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-18 06:14:34,977 - INFO - clean content - clean_content='Looking back at AI progress since the 2012 blog post “The state of Computer Vision and AI: we are really, really far away”Continue reading on Towards Data Science »'
+2024-10-18 06:14:34,977 - INFO - Generating summary with BART model
+2024-10-18 06:14:39,877 - INFO - Generating summary with BART model
+2024-10-18 06:14:44,159 - INFO - full_tweet='Towards Data Science looks back at AI progress since the 2012 blog post “The state of Computer Vision and..[read more👇🏼] #AI #Computer https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4'
+2024-10-18 06:14:44,450 - INFO - Tweet posted successfully: Response(data={'text': 'Towards Data Science looks back at AI progress since the 2012 blog post “The state of Computer Vision and..[read more👇🏼] #AI #Computer https://t.co/NefdQtBIEA', 'id': '1847159358527877328', 'edit_history_tweet_ids': ['1847159358527877328']}, includes={}, errors=[], meta={})
+2024-10-18 06:14:44,450 - INFO - Saved posted URL: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4 at 2024-10-18 06:14:44
+2024-10-18 06:14:44,450 - INFO - Tweet link saved successfully.
+2024-10-18 06:14:44,450 - INFO - Sleeping for 5 minutes and 36 seconds.
+2024-10-18 06:20:20,450 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/
+2024-10-18 06:20:20,451 - INFO - This link is already posted: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/
+2024-10-18 06:20:20,452 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 06:20:20,452 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-18 06:20:20,452 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-18 06:20:20,452 - INFO - Input content - content='The risk of a data breach today has expanded by many magnitudes, in part due to the boom of generative AI tools.'
+2024-10-18 06:20:20,452 - INFO - clean content - clean_content='The risk of a data breach today has expanded by many magnitudes, in part due to the boom of generative AI tools.'
+2024-10-18 06:20:20,452 - INFO - Generating summary with BART model
+2024-10-18 06:20:25,783 - INFO - Generating summary with BART model
+2024-10-18 06:20:31,099 - INFO - full_tweet='The risk of a data breach today has expanded by many magnitudes. This is in part due to the boom of generative AI tools. #data #AI https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/'
+2024-10-18 06:20:31,355 - INFO - Tweet posted successfully: Response(data={'text': 'The risk of a data breach today has expanded by many magnitudes. This is in part due to the boom of generative AI tools. #data #AI https://t.co/NX5IpYT8Qs', 'edit_history_tweet_ids': ['1847160813615824966'], 'id': '1847160813615824966'}, includes={}, errors=[], meta={})
+2024-10-18 06:20:31,355 - INFO - Saved posted URL: https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/ at 2024-10-18 06:20:31
+2024-10-18 06:20:31,355 - INFO - Tweet link saved successfully.
+2024-10-18 06:20:31,355 - INFO - Sleeping for 7 minutes and 50 seconds.
+2024-10-18 06:28:21,355 - INFO - Input content - content='The new 24GB GDDR7 DRAM promises speeds of over 40GBps.'
+2024-10-18 06:28:21,355 - INFO - clean content - clean_content='The new 24GB GDDR7 DRAM promises speeds of over 40GBps.'
+2024-10-18 06:28:21,355 - INFO - Generating summary with BART model
+2024-10-18 06:28:25,348 - INFO - Generating summary with BART model
+2024-10-18 06:28:29,332 - INFO - full_tweet='The new 24GB GDDR7 DRAM promises speeds of over 40GBps. It is the first time a DRAM chip has been able to..[read more👇🏼] #speeds #DRAM https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing'
+2024-10-18 06:28:29,584 - INFO - Tweet posted successfully: Response(data={'text': 'The new 24GB GDDR7 DRAM promises speeds of over 40GBps. It is the first time a DRAM chip has been able to..[read more👇🏼] #speeds #DRAM https://t.co/SGZC6xJMYG', 'edit_history_tweet_ids': ['1847162819461910673'], 'id': '1847162819461910673'}, includes={}, errors=[], meta={})
+2024-10-18 06:28:29,584 - INFO - Saved posted URL: https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing at 2024-10-18 06:28:29
+2024-10-18 06:28:29,584 - INFO - Tweet link saved successfully.
+2024-10-18 06:28:29,585 - INFO - Sleeping for 8 minutes and 19 seconds.
+2024-10-18 06:36:48,585 - INFO - Input content - content="Security researchers created an algorithm that turns a malicious prompt into a set of hidden instructions that could send a user's personal information to an attacker."
+2024-10-18 06:36:48,585 - INFO - clean content - clean_content="Security researchers created an algorithm that turns a malicious prompt into a set of hidden instructions that could send a user's personal information to an attacker."
+2024-10-18 06:36:48,585 - INFO - Generating summary with BART model
+2024-10-18 06:36:52,354 - INFO - Generating summary with BART model
+2024-10-18 06:36:56,068 - INFO - full_tweet='Security researchers created an algorithm that turns a malicious prompt into a set of hidden..[read more👇🏼] #algorithm #instructions https://www.wired.com/story/ai-imprompter-malware-llm/'
+2024-10-18 06:36:56,310 - INFO - Tweet posted successfully: Response(data={'id': '1847164944824893569', 'text': 'Security researchers created an algorithm that turns a malicious prompt into a set of hidden..[read more👇🏼] #algorithm #instructions https://t.co/hJvORdYAz4', 'edit_history_tweet_ids': ['1847164944824893569']}, includes={}, errors=[], meta={})
+2024-10-18 06:36:56,311 - INFO - Saved posted URL: https://www.wired.com/story/ai-imprompter-malware-llm/ at 2024-10-18 06:36:56
+2024-10-18 06:36:56,311 - INFO - Tweet link saved successfully.
+2024-10-18 06:36:56,311 - INFO - Sleeping for 7 minutes and 22 seconds.
