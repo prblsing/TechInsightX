@@ -1,0 +1,34 @@
+2024-10-18 05:10:45,090 - INFO - Starting configuration setup
+2024-10-18 05:10:45,090 - INFO - Environment variables loaded successfully
+2024-10-18 05:10:45,091 - INFO - Twitter API client initialized successfully
+2024-10-18 05:10:46,957 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 05:10:57,747 - INFO - Summarization model initialized successfully
+2024-10-18 05:10:57,747 - INFO - Starting tweet scheduling
+2024-10-18 05:10:57,747 - INFO - Tweeting process started at 2024-10-18 05:10:57.747730!
+2024-10-18 05:10:57,747 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 05:10:57,748 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 05:11:18,613 - INFO - Total entries found: 587
+2024-10-18 05:11:18,616 - INFO - Recent AI-related entries found: 18
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-18 05:11:18,616 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 05:11:18,617 - INFO - This link is already posted: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you
+2024-10-18 05:11:18,617 - INFO - This link is already posted: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses
+2024-10-18 05:11:18,617 - INFO - This link is already posted: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat
+2024-10-18 05:11:18,617 - INFO - Input content - content='The new 24GB GDDR7 DRAM promises speeds of over 40GBps.'
+2024-10-18 05:11:18,617 - INFO - clean content - clean_content='The new 24GB GDDR7 DRAM promises speeds of over 40GBps.'
+2024-10-18 05:11:18,617 - INFO - Generating summary with BART model
+2024-10-18 05:11:23,289 - INFO - Generating summary with BART model
+2024-10-18 05:11:27,337 - INFO - full_tweet='The new 24GB GDDR7 DRAM promises speeds of over 40GBps. It is the first time a DRAM chip has been able to..[read more👇🏼] #speeds #DRAM https://www.pcmag.com/news/samsung-unveils-faster-gddr7-dram-for-gpu-ai-computing'
+2024-10-18 05:11:27,490 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
