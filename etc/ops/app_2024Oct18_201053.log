@@ -1,0 +1,48 @@
+2024-10-18 20:10:53,096 - INFO - Starting configuration setup
+2024-10-18 20:10:53,097 - INFO - Environment variables loaded successfully
+2024-10-18 20:10:53,097 - INFO - Twitter API client initialized successfully
+2024-10-18 20:10:54,963 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 20:11:06,695 - INFO - Summarization model initialized successfully
+2024-10-18 20:11:06,696 - INFO - Starting tweet scheduling
+2024-10-18 20:11:06,696 - INFO - Tweeting process started at 2024-10-18 20:11:06.696111!
+2024-10-18 20:11:06,696 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 20:11:06,696 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 20:11:29,869 - INFO - Total entries found: 615
+2024-10-18 20:11:29,872 - INFO - Recent AI-related entries found: 21
+2024-10-18 20:11:29,873 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>&quot;while o1’s performance is a quantum improvement on the benchmark, outpacing the competition, it is still far from saturating it..&quot;</p> <p>The summary is apt. o1 looks to be a <strong>very</strong> impressive improvement. At the same time, it reveals the remaining gaps: degradation with increasing composition length, 100x cost, and huge degradation when &quot;retrieval&quot; is hampered via obfuscation of names.</p> <p>But, I wonder if this is close enough. e.g. this type of model is at least sufficient to provide synthetic data / supervision to train a model that can fill these gaps. If so, it won\'t take long to find out, IMHO.</p> <p>Also the authors have some spicy footnotes. e.g. :</p> <p>&quot;The rich irony of researchers using tax payer provided research funds to pay private companies like OpenAI to evaluate their private commercial models is certainly not lost on us.&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/marojejian"> /u/marojejian </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/">[comments]</a></span>'
+2024-10-18 20:11:29,873 - INFO - clean content - clean_content='"while o1’s performance is a quantum improvement on the benchmark, outpacing the competition, it is still far from saturating it.." The summary is apt. o1 looks to be a very impressive improvement. At the same time, it reveals the remaining gaps: degradation with increasing composition length, 100x cost, and huge degradation when "retrieval" is hampered via obfuscation of names. But, I wonder if this is close enough. e.g. this type of model is at least sufficient to provide synthetic data / supervision to train a model that can fill these gaps. If so, it won\'t take long to find out, IMHO. Also the authors have some spicy footnotes. e.g. : "The rich irony of researchers using tax payer provided research funds to pay private companies like OpenAI to evaluate their private commercial models is certainly not lost on us."   submitted by   /u/marojejian [link]   [comments]'
+2024-10-18 20:11:29,873 - INFO - Generating summary with BART model
+2024-10-18 20:11:36,657 - INFO - Generating summary with BART model
+2024-10-18 20:11:42,891 - INFO - full_tweet='o1 looks to be a very impressive improvement. At the same time, it reveals the remaining gaps:..[read more👇🏼] #degradation #improvement https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/'
+2024-10-18 20:11:43,190 - INFO - Tweet posted successfully: Response(data={'id': '1847369991290786101', 'edit_history_tweet_ids': ['1847369991290786101'], 'text': 'o1 looks to be a very impressive improvement. At the same time, it reveals the remaining gaps:..[read more👇🏼] #degradation #improvement https://t.co/v2dXGdlhky'}, includes={}, errors=[], meta={})
+2024-10-18 20:11:43,190 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/ at 2024-10-18 20:11:43
+2024-10-18 20:11:43,191 - INFO - Tweet link saved successfully.
+2024-10-18 20:11:43,191 - INFO - Sleeping for 7 minutes and 16 seconds.
+2024-10-18 20:18:59,191 - INFO - Input content - content="Microsoft, Amazon, and Google have all announced plans to partner with or build new nuclear power plants and reactors for AI. Here's why."
+2024-10-18 20:18:59,191 - INFO - clean content - clean_content="Microsoft, Amazon, and Google have all announced plans to partner with or build new nuclear power plants and reactors for AI. Here's why."
+2024-10-18 20:18:59,191 - INFO - Generating summary with BART model
+2024-10-18 20:19:03,106 - INFO - Generating summary with BART model
+2024-10-18 20:19:07,025 - INFO - full_tweet='Microsoft, Amazon, and Google have all announced plans to partner with or build new nuclear power plants..[read more👇🏼] #AI #Microsoft https://venturebeat.com/data-infrastructure/why-ai-is-going-nuclear/'
+2024-10-18 20:19:07,307 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847371854010552677'], 'text': 'Microsoft, Amazon, and Google have all announced plans to partner with or build new nuclear power plants..[read more👇🏼] #AI #Microsoft https://t.co/6MEJUc361x', 'id': '1847371854010552677'}, includes={}, errors=[], meta={})
+2024-10-18 20:19:07,307 - INFO - Saved posted URL: https://venturebeat.com/data-infrastructure/why-ai-is-going-nuclear/ at 2024-10-18 20:19:07
+2024-10-18 20:19:07,307 - INFO - Tweet link saved successfully.
+2024-10-18 20:19:07,307 - INFO - Sleeping for 9 minutes and 56 seconds.
+2024-10-18 20:29:03,307 - INFO - This link is already posted: https://towardsdatascience.com/carving-out-your-competitive-advantage-with-ai-a4babb931076?source=rss----7f60cf5620c9---4
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.kdnuggets.com/what-can-ai-do-for-data-science
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.theverge.com/2024/10/18/24273411/google-notebooklm-ai-audio-overview-customize
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/bluesky-surges-into-the-top-5-as-x-changes-blocks-permits-ai-training-on-its-data/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.techradar.com/pro/the-ai-at-scale-revolution-disrupting-industries
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.techradar.com/pro/emerging-ai-regulation-will-shape-the-future-of-data-collection-for-business
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://towardsdatascience.com/revisiting-karpathys-state-of-computer-vision-and-ai-794862a0e077?source=rss----7f60cf5620c9---4
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 20:29:03,308 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
