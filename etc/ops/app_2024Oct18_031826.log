@@ -1,0 +1,59 @@
+2024-10-18 03:18:26,520 - INFO - Starting configuration setup
+2024-10-18 03:18:26,520 - INFO - Environment variables loaded successfully
+2024-10-18 03:18:26,520 - INFO - Twitter API client initialized successfully
+2024-10-18 03:18:28,428 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 03:18:36,505 - INFO - Summarization model initialized successfully
+2024-10-18 03:18:36,506 - INFO - Starting tweet scheduling
+2024-10-18 03:18:36,506 - INFO - Tweeting process started at 2024-10-18 03:18:36.506088!
+2024-10-18 03:18:36,506 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 03:18:36,506 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 03:18:50,764 - INFO - Total entries found: 615
+2024-10-18 03:18:50,767 - INFO - Recent AI-related entries found: 27
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 03:18:50,767 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 03:18:50,768 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 03:18:50,768 - INFO - Input content - content="<p>Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-18 03:18:50,768 - INFO - clean content - clean_content="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the given content and has introduced a NotebookLM Business pilot program for organizations. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-18 03:18:50,768 - INFO - Generating summary with BART model
+2024-10-18 03:18:56,225 - INFO - Generating summary with BART model
+2024-10-18 03:19:01,148 - INFO - full_tweet="Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the..[read more👇🏼] #organizations #introduced https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/"
+2024-10-18 03:19:01,451 - INFO - Tweet posted successfully: Response(data={'id': '1847115137968197937', 'text': "Google's NotebookLM has updated Audio Overviews with the ability to focus on a specific topic in the..[read more👇🏼] #organizations #introduced https://t.co/bfietRFT7v", 'edit_history_tweet_ids': ['1847115137968197937']}, includes={}, errors=[], meta={})
+2024-10-18 03:19:01,451 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/ at 2024-10-18 03:19:01
+2024-10-18 03:19:01,451 - INFO - Tweet link saved successfully.
+2024-10-18 03:19:01,451 - INFO - Sleeping for 3 minutes and 47 seconds.
+2024-10-18 03:22:48,452 - INFO - Input content - content='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to enter prompts to personalize the output. I tried it out.'
+2024-10-18 03:22:48,452 - INFO - clean content - clean_content='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to enter prompts to personalize the output. I tried it out.'
+2024-10-18 03:22:48,452 - INFO - Generating summary with BART model
+2024-10-18 03:22:52,515 - INFO - Generating summary with BART model
+2024-10-18 03:22:56,566 - INFO - full_tweet='The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to..[read more👇🏼] #AI #personalize https://www.wired.com/story/google-notebooklm-customize-ai-podcast/'
+2024-10-18 03:22:56,764 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847116124975923449'], 'id': '1847116124975923449', 'text': 'The NotebookLM tool generates AI-hosted audio podcasts on any topic. Its latest update allows users to..[read more👇🏼] #AI #personalize https://t.co/zjHubwbGdw'}, includes={}, errors=[], meta={})
+2024-10-18 03:22:56,765 - INFO - Saved posted URL: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/ at 2024-10-18 03:22:56
+2024-10-18 03:22:56,765 - INFO - Tweet link saved successfully.
+2024-10-18 03:22:56,765 - INFO - Sleeping for 9 minutes and 35 seconds.
+2024-10-18 03:32:31,765 - INFO - Input content - content="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation."
+2024-10-18 03:32:31,765 - INFO - clean content - clean_content="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation."
+2024-10-18 03:32:31,765 - INFO - Generating summary with BART model
+2024-10-18 03:32:35,980 - INFO - Generating summary with BART model
+2024-10-18 03:32:40,196 - INFO - full_tweet="Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation...[read more👇🏼] #AI #Google https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer"
+2024-10-18 03:32:40,501 - INFO - Tweet posted successfully: Response(data={'text': "Google just updated its AI podcast tool, NotebookLM with new ways to direct the hosts' conversation...[read more👇🏼] #AI #Google https://t.co/DJ16M1wi1N", 'edit_history_tweet_ids': ['1847118573321298108'], 'id': '1847118573321298108'}, includes={}, errors=[], meta={})
+2024-10-18 03:32:40,501 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/googles-amazing-notebooklm-podcast-generator-just-got-a-major-ai-update-and-now-you-can-play-the-producer at 2024-10-18 03:32:40
+2024-10-18 03:32:40,502 - INFO - Tweet link saved successfully.
+2024-10-18 03:32:40,502 - INFO - Sleeping for 7 minutes and 58 seconds.
+2024-10-18 03:40:38,502 - INFO - Input content - content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-18 03:40:38,502 - INFO - clean content - clean_content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-18 03:40:38,502 - INFO - Generating summary with BART model
+2024-10-18 03:40:42,507 - INFO - Generating summary with BART model
+2024-10-18 03:40:46,511 - INFO - full_tweet='A paid version of the increasingly popular Google tool NotebookLM will target businesses. A paid version..[read more👇🏼] #version #paid https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/'
+2024-10-18 03:40:46,639 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
