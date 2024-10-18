@@ -1,0 +1,88 @@
+2024-10-18 04:13:02,662 - INFO - Starting configuration setup
+2024-10-18 04:13:02,662 - INFO - Environment variables loaded successfully
+2024-10-18 04:13:02,662 - INFO - Twitter API client initialized successfully
+2024-10-18 04:13:04,606 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-18 04:13:14,594 - INFO - Summarization model initialized successfully
+2024-10-18 04:13:14,594 - INFO - Starting tweet scheduling
+2024-10-18 04:13:14,594 - INFO - Tweeting process started at 2024-10-18 04:13:14.594499!
+2024-10-18 04:13:14,594 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct18.csv
+2024-10-18 04:13:14,594 - INFO - Fetching latest tech news from RSS feeds
+2024-10-18 04:13:30,917 - INFO - Total entries found: 615
+2024-10-18 04:13:30,920 - INFO - Recent AI-related entries found: 26
+2024-10-18 04:13:30,920 - INFO - Input content - content='The real fear of AI should be how people use it.'
+2024-10-18 04:13:30,921 - INFO - clean content - clean_content='The real fear of AI should be how people use it.'
+2024-10-18 04:13:30,921 - INFO - Generating summary with BART model
+2024-10-18 04:13:35,504 - INFO - Generating summary with BART model
+2024-10-18 04:13:39,421 - INFO - full_tweet='The real fear of AI should be how people use it, not what it can do. The real fear is how people will be able to use it. #AI #people https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks'
+2024-10-18 04:13:39,679 - INFO - Tweet posted successfully: Response(data={'id': '1847128887983329325', 'edit_history_tweet_ids': ['1847128887983329325'], 'text': 'The real fear of AI should be how people use it, not what it can do. The real fear is how people will be able to use it. #AI #people https://t.co/pLEBGcrFQh'}, includes={}, errors=[], meta={})
+2024-10-18 04:13:39,679 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/metas-ai-chief-is-right-to-call-ai-fearmongering-b-s-but-not-for-the-reason-he-thinks at 2024-10-18 04:13:39
+2024-10-18 04:13:39,679 - INFO - Tweet link saved successfully.
+2024-10-18 04:13:39,679 - INFO - Sleeping for 9 minutes and 19 seconds.
+2024-10-18 04:22:58,679 - INFO - This link is already posted: https://venturebeat.com/ai/small-but-mighty-h2o-ais-new-ai-models-challenge-tech-giants-in-document-analysis/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.techradar.com/pro/a-solution-in-search-of-a-problem-intel-debuts-ai-app-that-runs-locally-on-its-most-recent-cpus-but-will-it-convince-users-of-the-benefits-of-end-user-ai
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://venturebeat.com/ai/sambanova-and-gradio-are-making-high-speed-ai-accessible-to-everyone-heres-how-it-works/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/how-to-give-your-favorite-pictures-and-videos-an-ai-written-soundtrack
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.techradar.com/pro/price-of-worlds-largest-ssd-has-nearly-doubled-since-launch-could-extreme-demand-for-ai-servers-and-training-be-behind-shocking-price-tag-of-solidigms-61-44tb-ssd
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/elon-musks-x-is-changing-its-privacy-policy-to-allow-third-parties-to-train-ai-on-your-posts/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://venturebeat.com/ai/simplismart-supercharges-ai-performance-with-personalized-software-optimized-inference-engine/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g5zvxh/r_generative_ai_to_detect_and_mitigate/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.pcmag.com/news/us-treasury-taps-ai-to-catch-criminals-stealing-4-billion-of-your-taxes
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/experts-say-openais-patent-pledge-amounts-to-little-more-than-virtue-signaling/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/marc-benioff-warns-that-ai-while-useful-is-overhyped-and-partly-blames-microsoft/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://venturebeat.com/ai/openai-just-launched-chatgpt-for-windows-and-its-coming-for-your-office-software/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://techcrunch.com/2024/10/17/googles-notebooklm-now-lets-you-guide-ai-generated-audio-conversations-launches-business-pilot/
+2024-10-18 04:22:58,680 - INFO - This link is already posted: https://www.wired.com/story/google-notebooklm-customize-ai-podcast/
+2024-10-18 04:22:58,680 - INFO - Input content - content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-18 04:22:58,680 - INFO - clean content - clean_content='A paid version of the increasingly popular Google tool NotebookLM will target businesses.'
+2024-10-18 04:22:58,680 - INFO - Generating summary with BART model
+2024-10-18 04:23:02,837 - INFO - Generating summary with BART model
+2024-10-18 04:23:06,961 - INFO - full_tweet='A paid version of the increasingly popular Google tool NotebookLM will target businesses. A paid version..[read more👇🏼] #version #paid https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/'
+2024-10-18 04:23:07,239 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847131268317958620'], 'text': 'A paid version of the increasingly popular Google tool NotebookLM will target businesses. A paid version..[read more👇🏼] #version #paid https://t.co/Yhzab5XXXf', 'id': '1847131268317958620'}, includes={}, errors=[], meta={})
+2024-10-18 04:23:07,240 - INFO - Saved posted URL: https://venturebeat.com/ai/googles-notebooklm-will-expand-to-business-use-cases-soon/ at 2024-10-18 04:23:07
+2024-10-18 04:23:07,240 - INFO - Tweet link saved successfully.
+2024-10-18 04:23:07,240 - INFO - Sleeping for 4 minutes and 14 seconds.
+2024-10-18 04:27:21,240 - INFO - Input content - content="Archetype AI's 'Newton' model learns physics from sensor data, promising breakthroughs in industrial applications and scientific discovery."
+2024-10-18 04:27:21,240 - INFO - clean content - clean_content="Archetype AI's 'Newton' model learns physics from sensor data, promising breakthroughs in industrial applications and scientific discovery."
+2024-10-18 04:27:21,240 - INFO - Generating summary with BART model
+2024-10-18 04:27:25,072 - INFO - Generating summary with BART model
+2024-10-18 04:27:28,953 - INFO - full_tweet="Archetype AI's 'Newton' model learns physics from sensor data. The model could lead to breakthroughs in..[read more👇🏼] #data #AI https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/"
+2024-10-18 04:27:29,152 - INFO - Tweet posted successfully: Response(data={'id': '1847132367028400438', 'edit_history_tweet_ids': ['1847132367028400438'], 'text': "Archetype AI's 'Newton' model learns physics from sensor data. The model could lead to breakthroughs in..[read more👇🏼] #data #AI https://t.co/pjQWeofF3G"}, includes={}, errors=[], meta={})
+2024-10-18 04:27:29,152 - INFO - Saved posted URL: https://venturebeat.com/ai/archetype-ai-newton-learns-physics-from-raw-data-without-any-help-from-humans/ at 2024-10-18 04:27:29
+2024-10-18 04:27:29,152 - INFO - Tweet link saved successfully.
+2024-10-18 04:27:29,152 - INFO - Sleeping for 8 minutes and 14 seconds.
+2024-10-18 04:35:43,153 - INFO - Input content - content="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not always going to be 100% accurate."
+2024-10-18 04:35:43,153 - INFO - clean content - clean_content="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not always going to be 100% accurate."
+2024-10-18 04:35:43,153 - INFO - Generating summary with BART model
+2024-10-18 04:35:48,417 - INFO - Generating summary with BART model
+2024-10-18 04:35:53,631 - INFO - full_tweet="Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not..[read more👇🏼] #deepfaked #including https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you"
+2024-10-18 04:35:53,868 - INFO - Tweet posted successfully: Response(data={'text': "Hiya can detect deepfaked audio online, including on YouTube, X/Twitter, and Facebook. But it's not..[read more👇🏼] #deepfaked #including https://t.co/oowzPxuyz8", 'id': '1847134483952337394', 'edit_history_tweet_ids': ['1847134483952337394']}, includes={}, errors=[], meta={})
+2024-10-18 04:35:53,868 - INFO - Saved posted URL: https://www.pcmag.com/news/this-chrome-extension-will-detect-ai-deepfakes-for-you at 2024-10-18 04:35:53
+2024-10-18 04:35:53,868 - INFO - Tweet link saved successfully.
+2024-10-18 04:35:53,868 - INFO - Sleeping for 4 minutes and 59 seconds.
+2024-10-18 04:40:52,868 - INFO - Input content - content='Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.'
+2024-10-18 04:40:52,868 - INFO - clean content - clean_content='Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.'
+2024-10-18 04:40:52,868 - INFO - Generating summary with BART model
+2024-10-18 04:40:57,366 - INFO - Generating summary with BART model
+2024-10-18 04:41:01,846 - INFO - full_tweet='Use the code EDXSUCCESS24 to save on edX programs, courses, and boot camps. Use the code at the bottom of the page. #code #Use https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses'
+2024-10-18 04:41:02,082 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847135776729190886'], 'text': 'Use the code EDXSUCCESS24 to save on edX programs, courses, and boot camps. Use the code at the bottom of the page. #code #Use https://t.co/H6CL9rVd5t', 'id': '1847135776729190886'}, includes={}, errors=[], meta={})
+2024-10-18 04:41:02,082 - INFO - Saved posted URL: https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses at 2024-10-18 04:41:02
+2024-10-18 04:41:02,082 - INFO - Tweet link saved successfully.
+2024-10-18 04:41:02,082 - INFO - Sleeping for 6 minutes and 58 seconds.
+2024-10-18 04:48:00,082 - INFO - Input content - content="AI detectors aren't always 100% accurate. If you're accused of using AI tools to complete assignments, take a deep breath and follow these four steps to prove that your academic work is your own."
+2024-10-18 04:48:00,083 - INFO - clean content - clean_content="AI detectors aren't always 100% accurate. If you're accused of using AI tools to complete assignments, take a deep breath and follow these four steps to prove that your academic work is your own."
+2024-10-18 04:48:00,083 - INFO - Generating summary with BART model
+2024-10-18 04:48:04,909 - INFO - Generating summary with BART model
+2024-10-18 04:48:09,732 - INFO - full_tweet="Follow these four steps to prove that your academic work is your own. AI detectors aren't always 100%..[read more👇🏼] #AI #steps https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat"
+2024-10-18 04:48:09,974 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847137571480260762'], 'text': "Follow these four steps to prove that your academic work is your own. AI detectors aren't always 100%..[read more👇🏼] #AI #steps https://t.co/u3DFGh3ERB", 'id': '1847137571480260762'}, includes={}, errors=[], meta={})
+2024-10-18 04:48:09,975 - INFO - Saved posted URL: https://www.pcmag.com/articles/what-to-do-if-youre-falsely-accused-of-using-ai-to-cheat at 2024-10-18 04:48:09
+2024-10-18 04:48:09,975 - INFO - Tweet link saved successfully.
+2024-10-18 04:48:09,975 - INFO - Sleeping for 7 minutes and 44 seconds.
+2024-10-18 04:55:53,975 - INFO - Input content - content='The risk of a data breach today has expanded by many magnitudes, in part due to the boom of generative AI tools.'
+2024-10-18 04:55:53,975 - INFO - clean content - clean_content='The risk of a data breach today has expanded by many magnitudes, in part due to the boom of generative AI tools.'
+2024-10-18 04:55:53,975 - INFO - Generating summary with BART model
+2024-10-18 04:55:59,197 - INFO - Generating summary with BART model
+2024-10-18 04:56:04,462 - INFO - full_tweet='The risk of a data breach today has expanded by many magnitudes. This is in part due to the boom of generative AI tools. #data #AI https://venturebeat.com/security/shadow-it-risks-are-on-the-rise-as-genai-tools-gain-popularity-with-employees/'
+2024-10-18 04:56:04,555 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
