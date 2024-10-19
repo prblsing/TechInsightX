@@ -1,0 +1,98 @@
+2024-10-19 05:09:25,456 - INFO - Starting configuration setup
+2024-10-19 05:09:25,457 - INFO - Environment variables loaded successfully
+2024-10-19 05:09:25,457 - INFO - Twitter API client initialized successfully
+2024-10-19 05:09:27,363 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-19 05:09:39,004 - INFO - Summarization model initialized successfully
+2024-10-19 05:09:39,004 - INFO - Starting tweet scheduling
+2024-10-19 05:09:39,004 - INFO - Tweeting process started at 2024-10-19 05:09:39.004904!
+2024-10-19 05:09:39,005 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct19.csv
+2024-10-19 05:09:39,005 - INFO - Fetching latest tech news from RSS feeds
+2024-10-19 05:09:53,557 - INFO - Total entries found: 615
+2024-10-19 05:09:53,560 - INFO - Recent AI-related entries found: 15
+2024-10-19 05:09:53,560 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/perplexitys-ai-search-engine-goes-deep-to-get-your-answers
+2024-10-19 05:09:53,560 - INFO - This link is already posted: https://www.theverge.com/2024/10/18/24273895/penguin-random-house-books-copyright-ai
+2024-10-19 05:09:53,560 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/eric-schmidts-sandboxaq-aims-for-5b-valuation-for-its-ai-quantum-google-moonshot/
+2024-10-19 05:09:53,560 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/
+2024-10-19 05:09:53,561 - INFO - This link is already posted: https://venturebeat.com/data-infrastructure/why-ai-is-going-nuclear/
+2024-10-19 05:09:53,561 - INFO - This link is already posted: https://towardsdatascience.com/carving-out-your-competitive-advantage-with-ai-a4babb931076?source=rss----7f60cf5620c9---4
+2024-10-19 05:09:53,561 - INFO - Input content - content="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave."
+2024-10-19 05:09:53,561 - INFO - clean content - clean_content="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave."
+2024-10-19 05:09:53,561 - INFO - Generating summary with BART model
+2024-10-19 05:09:59,428 - INFO - Generating summary with BART model
+2024-10-19 05:10:04,694 - INFO - full_tweet="If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave. If you're..[read more👇🏼] #If #re https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai"
+2024-10-19 05:10:04,955 - INFO - Tweet posted successfully: Response(data={'id': '1847505474674987379', 'edit_history_tweet_ids': ['1847505474674987379'], 'text': "If you're still on X when the new Terms of Service drop on Nov. 15, you should probably leave. If you're..[read more👇🏼] #If #re https://t.co/7GykMHBvfV"}, includes={}, errors=[], meta={})
+2024-10-19 05:10:04,955 - INFO - Saved posted URL: https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai at 2024-10-19 05:10:04
+2024-10-19 05:10:04,955 - INFO - Tweet link saved successfully.
+2024-10-19 05:10:04,955 - INFO - Sleeping for 5 minutes and 34 seconds.
+2024-10-19 05:15:38,955 - INFO - Input content - content='<p>How much equity in OpenAI will Microsoft get once the former becomes a for-profit company? That&#8217;s the multibillion-dollar question — one the two parties are racing to answer ahead of a two-year deadline. The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate Microsoft&#8217;s equity — which could be [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-19 05:15:38,956 - INFO - clean content - clean_content='How much equity in OpenAI will Microsoft get once the former becomes a for-profit company? That’s the multibillion-dollar question — one the two parties are racing to answer ahead of a two-year deadline. The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate Microsoft’s equity — which could be […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-19 05:15:38,956 - INFO - Generating summary with BART model
+2024-10-19 05:15:45,236 - INFO - Generating summary with BART model
+2024-10-19 05:15:51,518 - INFO - full_tweet='The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate..[read more👇🏼] #Microsoft #The https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/'
+2024-10-19 05:15:51,769 - INFO - Tweet posted successfully: Response(data={'text': 'The Wall Street Journal reports that both Microsoft and OpenAI have hired investment banks to negotiate..[read more👇🏼] #Microsoft #The https://t.co/z3MedTQJ6q', 'edit_history_tweet_ids': ['1847506929351807045'], 'id': '1847506929351807045'}, includes={}, errors=[], meta={})
+2024-10-19 05:15:51,770 - INFO - Saved posted URL: https://techcrunch.com/2024/10/18/microsoft-could-end-up-with-substantial-equity-in-the-restructured-for-profit-openai/ at 2024-10-19 05:15:51
+2024-10-19 05:15:51,770 - INFO - Tweet link saved successfully.
+2024-10-19 05:15:51,770 - INFO - Sleeping for 6 minutes and 11 seconds.
+2024-10-19 05:22:02,770 - INFO - Input content - content='Check out these 10 use cases for AI to shine.'
+2024-10-19 05:22:02,770 - INFO - clean content - clean_content='Check out these 10 use cases for AI to shine.'
+2024-10-19 05:22:02,770 - INFO - Generating summary with BART model
+2024-10-19 05:22:06,508 - INFO - Generating summary with BART model
+2024-10-19 05:22:10,262 - INFO - full_tweet='AI is being used in a number of new ways, including in the healthcare industry. Here are 10 of the best..[read more👇🏼] #AI #industry https://www.kdnuggets.com/what-can-ai-do-for-data-science'
+2024-10-19 05:22:10,571 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847508518187749546'], 'text': 'AI is being used in a number of new ways, including in the healthcare industry. Here are 10 of the best..[read more👇🏼] #AI #industry https://t.co/tSWFPBWJOl', 'id': '1847508518187749546'}, includes={}, errors=[], meta={})
+2024-10-19 05:22:10,571 - INFO - Saved posted URL: https://www.kdnuggets.com/what-can-ai-do-for-data-science at 2024-10-19 05:22:10
+2024-10-19 05:22:10,571 - INFO - Tweet link saved successfully.
+2024-10-19 05:22:10,571 - INFO - Sleeping for 6 minutes and 13 seconds.
+2024-10-19 05:28:23,572 - INFO - Input content - content='These machines offer the processing power and built-in tools to function as ultra-advanced PCs.'
+2024-10-19 05:28:23,572 - INFO - clean content - clean_content='These machines offer the processing power and built-in tools to function as ultra-advanced PCs.'
+2024-10-19 05:28:23,572 - INFO - Generating summary with BART model
+2024-10-19 05:28:27,777 - INFO - Generating summary with BART model
+2024-10-19 05:28:31,982 - INFO - full_tweet='These machines offer the processing power and built-in tools to function as ultra-advanced PCs. They are..[read more👇🏼] #software #processing https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing'
+2024-10-19 05:28:32,238 - INFO - Tweet posted successfully: Response(data={'id': '1847510118964883903', 'edit_history_tweet_ids': ['1847510118964883903'], 'text': 'These machines offer the processing power and built-in tools to function as ultra-advanced PCs. They are..[read more👇🏼] #software #processing https://t.co/JwdL1BvkfR'}, includes={}, errors=[], meta={})
+2024-10-19 05:28:32,239 - INFO - Saved posted URL: https://www.pcmag.com/articles/3-high-performance-pcs-that-excel-at-ai-computing at 2024-10-19 05:28:32
+2024-10-19 05:28:32,239 - INFO - Tweet link saved successfully.
+2024-10-19 05:28:32,239 - INFO - Sleeping for 7 minutes and 14 seconds.
+2024-10-19 05:35:46,239 - INFO - Input content - content='<p>Social networking startup Bluesky, which just reported a gain of half a million users over the past day, has now soared into the top five apps on the U.S. App Store and has become the No. 2 app in the Social Networking category, up from No. 181 a week ago, according to data from app [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-19 05:35:46,239 - INFO - clean content - clean_content='Social networking startup Bluesky, which just reported a gain of half a million users over the past day, has now soared into the top five apps on the U.S. App Store and has become the No. 2 app in the Social Networking category, up from No. 181 a week ago, according to data from app […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-19 05:35:46,239 - INFO - Generating summary with BART model
+2024-10-19 05:35:51,606 - INFO - Generating summary with BART model
+2024-10-19 05:35:56,973 - INFO - full_tweet='Bluesky has now soared into the top five apps on the U.S. App Store. It has become the No. 2 app in the..[read more👇🏼] #App #app https://techcrunch.com/2024/10/18/bluesky-surges-into-the-top-5-as-x-changes-blocks-permits-ai-training-on-its-data/'
+2024-10-19 05:35:57,269 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847511985589485963'], 'text': 'Bluesky has now soared into the top five apps on the U.S. App Store. It has become the No. 2 app in the..[read more👇🏼] #App #app https://t.co/1QLUtHNQlu', 'id': '1847511985589485963'}, includes={}, errors=[], meta={})
+2024-10-19 05:35:57,269 - INFO - Saved posted URL: https://techcrunch.com/2024/10/18/bluesky-surges-into-the-top-5-as-x-changes-blocks-permits-ai-training-on-its-data/ at 2024-10-19 05:35:57
+2024-10-19 05:35:57,269 - INFO - Tweet link saved successfully.
+2024-10-19 05:35:57,269 - INFO - Sleeping for 5 minutes and 19 seconds.
+2024-10-19 05:41:16,269 - INFO - Input content - content="Need help wording an email? Google's Gemini AI in Gmail can make your drafts sound more professional, or even compose new ones from scratch. Here's how to get started."
+2024-10-19 05:41:16,270 - INFO - clean content - clean_content="Need help wording an email? Google's Gemini AI in Gmail can make your drafts sound more professional, or even compose new ones from scratch. Here's how to get started."
+2024-10-19 05:41:16,270 - INFO - Generating summary with BART model
+2024-10-19 05:41:20,097 - INFO - Generating summary with BART model
+2024-10-19 05:41:23,896 - INFO - full_tweet="Google's Gemini AI in Gmail can make your drafts sound more professional. It can even compose new ones..[read more👇🏼] #AI #s https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails"
+2024-10-19 05:41:24,159 - INFO - Tweet posted successfully: Response(data={'id': '1847513356686549070', 'edit_history_tweet_ids': ['1847513356686549070'], 'text': "Google's Gemini AI in Gmail can make your drafts sound more professional. It can even compose new ones..[read more👇🏼] #AI #s https://t.co/qKRUKr4xD7"}, includes={}, errors=[], meta={})
+2024-10-19 05:41:24,160 - INFO - Saved posted URL: https://www.pcmag.com/how-to/how-to-use-google-artificial-intelligence-in-gmail-to-craft-better-emails at 2024-10-19 05:41:24
+2024-10-19 05:41:24,160 - INFO - Tweet link saved successfully.
+2024-10-19 05:41:24,160 - INFO - Sleeping for 6 minutes and 6 seconds.
+2024-10-19 05:47:30,160 - INFO - Input content - content='With the help of this all-in-one AI tool, AI Magicx, will you be working hard or hardly working?'
+2024-10-19 05:47:30,160 - INFO - clean content - clean_content='With the help of this all-in-one AI tool, AI Magicx, will you be working hard or hardly working?'
+2024-10-19 05:47:30,160 - INFO - Generating summary with BART model
+2024-10-19 05:47:36,633 - INFO - Generating summary with BART model
+2024-10-19 05:47:43,101 - INFO - full_tweet='AI Magicx is an all-in-one AI tool that can be used to help you with your work. With the help of this..[read more👇🏼] #AI #working https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it'
+2024-10-19 05:47:43,387 - INFO - Tweet posted successfully: Response(data={'id': '1847514947195928890', 'text': 'AI Magicx is an all-in-one AI tool that can be used to help you with your work. With the help of this..[read more👇🏼] #AI #working https://t.co/ypXnF4m8ym', 'edit_history_tweet_ids': ['1847514947195928890']}, includes={}, errors=[], meta={})
+2024-10-19 05:47:43,388 - INFO - Saved posted URL: https://www.pcmag.com/deals/this-ai-tool-does-it-all-logos-art-writing-code-you-name-it at 2024-10-19 05:47:43
+2024-10-19 05:47:43,388 - INFO - Tweet link saved successfully.
+2024-10-19 05:47:43,388 - INFO - Sleeping for 6 minutes and 15 seconds.
+2024-10-19 05:53:58,388 - INFO - Input content - content='<p>The New York Times on Thursday published a look at the &#8220;fraying&#8221; relationship between OpenAI and its investor, partner, and, increasingly, rival, Microsoft, reporting their five-year romance has cooled owing to financial pressure on OpenAI, the limited computing power Microsoft is providing OpenAI, and disagreements between the two about ground rules. Most fascinating perhaps is [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-19 05:53:58,388 - INFO - clean content - clean_content='The New York Times on Thursday published a look at the “fraying” relationship between OpenAI and its investor, partner, and, increasingly, rival, Microsoft, reporting their five-year romance has cooled owing to financial pressure on OpenAI, the limited computing power Microsoft is providing OpenAI, and disagreements between the two about ground rules. Most fascinating perhaps is […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-19 05:53:58,388 - INFO - Generating summary with BART model
+2024-10-19 05:54:06,100 - INFO - Generating summary with BART model
+2024-10-19 05:54:13,807 - INFO - full_tweet='The New York Times published a look at the “fraying’ relationship between OpenAI and its investor,..[read more👇🏼] #The #relationship https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/'
+2024-10-19 05:54:14,110 - INFO - Tweet posted successfully: Response(data={'text': 'The New York Times published a look at the “fraying’ relationship between OpenAI and its investor,..[read more👇🏼] #The #relationship https://t.co/C9lcqsAQHV', 'id': '1847516586006962510', 'edit_history_tweet_ids': ['1847516586006962510']}, includes={}, errors=[], meta={})
+2024-10-19 05:54:14,111 - INFO - Saved posted URL: https://techcrunch.com/2024/10/17/the-surprising-way-openai-could-get-out-of-its-pact-with-microsoft/ at 2024-10-19 05:54:14
+2024-10-19 05:54:14,111 - INFO - Tweet link saved successfully.
+2024-10-19 05:54:14,111 - INFO - Sleeping for 3 minutes and 7 seconds.
+2024-10-19 05:57:21,111 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Sorry for imag-ing in title, title can\'t have \'AGI\'.</p> <p>I\'m working on my first first-author research and my advisor feels it\'s going a good direction. I really want it to go through some good conferences by next year.</p> <p>I know about MICCAI and MIDL but can\'t find a reliable source to check for all other conferences in 2025 related to medical imaging or AI in medicine in general. I hope people here must have some experience with few others. Any suggestions?</p> <p>Also, what does workshop paper mean? I know it\'s not called a actual publication but is it worth submitting to a highly regarded workshop or rather a mid-ranked conference?</p> <p>Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ade17_in"> /u/ade17_in </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/">[comments]</a></span>'
+2024-10-19 05:57:21,112 - INFO - clean content - clean_content="Sorry for imag-ing in title, title can't have 'AGI'. I'm working on my first first-author research and my advisor feels it's going a good direction. I really want it to go through some good conferences by next year. I know about MICCAI and MIDL but can't find a reliable source to check for all other conferences in 2025 related to medical imaging or AI in medicine in general. I hope people here must have some experience with few others. Any suggestions? Also, what does workshop paper mean? I know it's not called a actual publication but is it worth submitting to a highly regarded workshop or rather a mid-ranked conference? Thanks in advance!   submitted by   /u/ade17_in [link]   [comments]"
+2024-10-19 05:57:21,112 - INFO - Generating summary with BART model
+2024-10-19 05:57:33,693 - INFO - Generating summary with BART model
+2024-10-19 05:57:46,255 - INFO - full_tweet="I'm working on my first first-author research. I really want it to go through some good conferences by..[read more👇🏼] #I #conferences https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/"
+2024-10-19 05:57:46,440 - INFO - Tweet posted successfully: Response(data={'text': "I'm working on my first first-author research. I really want it to go through some good conferences by..[read more👇🏼] #I #conferences https://t.co/qc8WkwPodQ", 'edit_history_tweet_ids': ['1847517476663283824'], 'id': '1847517476663283824'}, includes={}, errors=[], meta={})
+2024-10-19 05:57:46,440 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g6bu6z/top_conferences_for_ai_in_medical_imaging_d/ at 2024-10-19 05:57:46
+2024-10-19 05:57:46,440 - INFO - Tweet link saved successfully.
+2024-10-19 05:57:46,440 - INFO - Sleeping for 5 minutes and 19 seconds.
