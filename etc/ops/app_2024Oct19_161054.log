@@ -1,0 +1,29 @@
+2024-10-19 16:10:54,826 - INFO - Starting configuration setup
+2024-10-19 16:10:54,826 - INFO - Environment variables loaded successfully
+2024-10-19 16:10:54,827 - INFO - Twitter API client initialized successfully
+2024-10-19 16:10:56,711 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-19 16:11:04,234 - INFO - Summarization model initialized successfully
+2024-10-19 16:11:04,234 - INFO - Starting tweet scheduling
+2024-10-19 16:11:04,234 - INFO - Tweeting process started at 2024-10-19 16:11:04.234655!
+2024-10-19 16:11:04,234 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct19.csv
+2024-10-19 16:11:04,235 - INFO - Fetching latest tech news from RSS feeds
+2024-10-19 16:11:19,050 - INFO - Total entries found: 615
+2024-10-19 16:11:19,053 - INFO - Recent AI-related entries found: 10
+2024-10-19 16:11:19,053 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hey everyone!</p> <p>I\'ve created a web app that helps researchers and AI interested folks stay on top of the most impactful arXiv AI papers. </p> <p>Features: - Tracks papers based on Mendeley reader counts - Customizable time periods: 1w, 1m, 3m, 6m, 1y, and all-time - Two viewing modes: 1. &quot;Greatest&quot; - shows papers with the highest total reader counts 2. &quot;Trending&quot; - highlights papers gaining readers the fastest</p> <p>The backend is entirely written in Python, and the frontend is basic JS, HTML, and Tailwind.</p> <p>I\'m also considering open-sourcing the project when I have more time.</p> <p>Questions for the community: 1. Would you find this tool useful for your research or studies? 2. Any features you\'d like to see added? 3. Anyone interested in contributing if I open-source it?</p> <p>Demo link: <a href="https://aipapers.pantheon.so">https://aipapers.pantheon.so</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/yachty66"> /u/yachty66 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/">[comments]</a></span>'
+2024-10-19 16:11:19,054 - INFO - clean content - clean_content='Hey everyone! I\'ve created a web app that helps researchers and AI interested folks stay on top of the most impactful arXiv AI papers. Features: - Tracks papers based on Mendeley reader counts - Customizable time periods: 1w, 1m, 3m, 6m, 1y, and all-time - Two viewing modes: 1. "Greatest" - shows papers with the highest total reader counts 2. "Trending" - highlights papers gaining readers the fastest The backend is entirely written in Python, and the frontend is basic JS, HTML, and Tailwind. I\'m also considering open-sourcing the project when I have more time. Questions for the community: 1. Would you find this tool useful for your research or studies? 2. Any features you\'d like to see added? 3. Anyone interested in contributing if I open-source it? Demo link:   submitted by   /u/yachty66 [link]   [comments]'
+2024-10-19 16:11:19,054 - INFO - Generating summary with BART model
+2024-10-19 16:11:27,497 - INFO - Generating summary with BART model
+2024-10-19 16:11:35,232 - INFO - full_tweet='A web app that helps researchers and AI interested folks stay on top of the most impactful arXiv AI..[read more👇🏼] #AI #web https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/'
+2024-10-19 16:11:35,482 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1847671948844646699'], 'id': '1847671948844646699', 'text': 'A web app that helps researchers and AI interested folks stay on top of the most impactful arXiv AI..[read more👇🏼] #AI #web https://t.co/8fwgC3bdjs'}, includes={}, errors=[], meta={})
+2024-10-19 16:11:35,482 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/ at 2024-10-19 16:11:35
+2024-10-19 16:11:35,482 - INFO - Tweet link saved successfully.
+2024-10-19 16:11:35,483 - INFO - Sleeping for 7 minutes and 42 seconds.
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/adobes-new-app-hopes-to-clear-up-some-ai-confusion/#ftag=CAD590a51e
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/claude-everything-you-need-to-know-about-anthropics-ai/
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/i-created-an-ai-clone-of-myself-and-the-result-was-unintentionally-hilarious
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/perplexitys-ai-search-engine-goes-deep-to-get-your-answers
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.theverge.com/2024/10/18/24273895/penguin-random-house-books-copyright-ai
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/eric-schmidts-sandboxaq-aims-for-5b-valuation-for-its-ai-quantum-google-moonshot/
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://venturebeat.com/data-infrastructure/why-ai-is-going-nuclear/
+2024-10-19 16:19:17,483 - INFO - This link is already posted: https://www.pcmag.com/news/xs-new-rules-blocked-posts-will-no-longer-be-hidden-tweets-will-train-ai
