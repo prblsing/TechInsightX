@@ -1,0 +1,40 @@
+2024-10-19 19:08:40,253 - INFO - Starting configuration setup
+2024-10-19 19:08:40,254 - INFO - Environment variables loaded successfully
+2024-10-19 19:08:40,254 - INFO - Twitter API client initialized successfully
+2024-10-19 19:08:42,192 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-19 19:08:50,106 - INFO - Summarization model initialized successfully
+2024-10-19 19:08:50,107 - INFO - Starting tweet scheduling
+2024-10-19 19:08:50,107 - INFO - Tweeting process started at 2024-10-19 19:08:50.107159!
+2024-10-19 19:08:50,107 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct19.csv
+2024-10-19 19:08:50,107 - INFO - Fetching latest tech news from RSS feeds
+2024-10-19 19:09:06,483 - INFO - Total entries found: 615
+2024-10-19 19:09:06,486 - INFO - Recent AI-related entries found: 13
+2024-10-19 19:09:06,486 - INFO - Input content - content='<p>Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the U.S. stock market after a multi-year ban from Beijing on offshore capital raising.&#160; Zeekr, a luxury Chinese electric vehicle startup, debuted on the New York Stock Exchange in May, and WeRide, another AV startup, also hopes to file [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-19 19:09:06,487 - INFO - clean content - clean_content='Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the U.S. stock market after a multi-year ban from Beijing on offshore capital raising.\xa0 Zeekr, a luxury Chinese electric vehicle startup, debuted on the New York Stock Exchange in May, and WeRide, another AV startup, also hopes to file […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-19 19:09:06,487 - INFO - Generating summary with BART model
+2024-10-19 19:09:14,634 - INFO - Generating summary with BART model
+2024-10-19 19:09:22,134 - INFO - full_tweet='Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the..[read more👇🏼] #AI #vehicle https://techcrunch.com/2024/10/19/four-takeaways-from-pony-ais-ipo-filing/'
+2024-10-19 19:09:22,394 - INFO - Tweet posted successfully: Response(data={'text': 'Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the..[read more👇🏼] #AI #vehicle https://t.co/BkBc8XAWzF', 'edit_history_tweet_ids': ['1847716689070207134'], 'id': '1847716689070207134'}, includes={}, errors=[], meta={})
+2024-10-19 19:09:22,394 - INFO - Saved posted URL: https://techcrunch.com/2024/10/19/four-takeaways-from-pony-ais-ipo-filing/ at 2024-10-19 19:09:22
+2024-10-19 19:09:22,394 - INFO - Tweet link saved successfully.
+2024-10-19 19:09:22,394 - INFO - Sleeping for 6 minutes and 34 seconds.
+2024-10-19 19:15:56,395 - INFO - Input content - content='<p>Penguin Random House, the world’s largest trade publisher, will be adding language to the copyright pages of its books to prohibit the use of those books to train AI. The Bookseller reports that new books and reprints of older titles from the publisher will now include the statement, “No part of this book may be [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-19 19:15:56,395 - INFO - clean content - clean_content='Penguin Random House, the world’s largest trade publisher, will be adding language to the copyright pages of its books to prohibit the use of those books to train AI. The Bookseller reports that new books and reprints of older titles from the publisher will now include the statement, “No part of this book may be […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-19 19:15:56,395 - INFO - Generating summary with BART model
+2024-10-19 19:16:03,542 - INFO - Generating summary with BART model
+2024-10-19 19:16:10,645 - INFO - full_tweet='Penguin Random House will be adding language to the copyright pages of its books to prohibit the use of..[read more👇🏼] #AI #books https://techcrunch.com/2024/10/19/penguin-random-house-is-adding-an-ai-warning-to-its-books-copyright-pages/'
+2024-10-19 19:16:10,933 - INFO - Tweet posted successfully: Response(data={'id': '1847718402594422942', 'edit_history_tweet_ids': ['1847718402594422942'], 'text': 'Penguin Random House will be adding language to the copyright pages of its books to prohibit the use of..[read more👇🏼] #AI #books https://t.co/InyUXOfIzH'}, includes={}, errors=[], meta={})
+2024-10-19 19:16:10,933 - INFO - Saved posted URL: https://techcrunch.com/2024/10/19/penguin-random-house-is-adding-an-ai-warning-to-its-books-copyright-pages/ at 2024-10-19 19:16:10
+2024-10-19 19:16:10,933 - INFO - Tweet link saved successfully.
+2024-10-19 19:16:10,933 - INFO - Sleeping for 4 minutes and 8 seconds.
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/midjourney-plans-to-let-anyone-on-the-web-edit-images-with-ai/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/women-in-ai-dr-rebecca-portnoff-is-protecting-children-from-harmful-deepfakes/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/adobes-new-app-hopes-to-clear-up-some-ai-confusion/#ftag=CAD590a51e
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/claude-everything-you-need-to-know-about-anthropics-ai/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/i-created-an-ai-clone-of-myself-and-the-result-was-unintentionally-hilarious
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/perplexitys-ai-search-engine-goes-deep-to-get-your-answers
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.theverge.com/2024/10/18/24273895/penguin-random-house-books-copyright-ai
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://techcrunch.com/2024/10/18/eric-schmidts-sandboxaq-aims-for-5b-valuation-for-its-ai-quantum-google-moonshot/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g6qpeq/r_llms_still_cant_plan_can_lrms_a_preliminary/
+2024-10-19 19:20:18,934 - INFO - This link is already posted: https://venturebeat.com/data-infrastructure/why-ai-is-going-nuclear/
