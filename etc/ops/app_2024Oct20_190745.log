@@ -1,0 +1,23 @@
+2024-10-20 19:07:45,308 - INFO - Starting configuration setup
+2024-10-20 19:07:45,308 - INFO - Environment variables loaded successfully
+2024-10-20 19:07:45,308 - INFO - Twitter API client initialized successfully
+2024-10-20 19:07:47,227 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 19:07:56,678 - INFO - Summarization model initialized successfully
+2024-10-20 19:07:56,678 - INFO - Starting tweet scheduling
+2024-10-20 19:07:56,678 - INFO - Tweeting process started at 2024-10-20 19:07:56.678882!
+2024-10-20 19:07:56,679 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 19:07:56,679 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 19:08:13,530 - INFO - Total entries found: 615
+2024-10-20 19:08:13,532 - INFO - Recent AI-related entries found: 12
+2024-10-20 19:08:13,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-20 19:08:13,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.cnet.com/how-to/ai-told-me-what-to-eat-for-a-week-heres-how-it-went/#ftag=CAD590a51e
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://towardsdatascience.com/why-explainability-matters-in-ai-840144df418e?source=rss----7f60cf5620c9---4
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-marketing-is-a-con-especially-when-it-comes-to-cpus
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/former-openai-cto-mira-murati-is-reportedly-fundraising-for-a-new-ai-startup/
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.pcmag.com/news/major-publisher-penguin-random-house-blocks-ai-training-on-its-books
+2024-10-20 19:08:13,533 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7ghwx/news_aaai_2025_workshop_on_ai_for_music/
