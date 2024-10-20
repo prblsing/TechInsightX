@@ -1,0 +1,30 @@
+2024-10-20 20:10:08,131 - INFO - Starting configuration setup
+2024-10-20 20:10:08,131 - INFO - Environment variables loaded successfully
+2024-10-20 20:10:08,131 - INFO - Twitter API client initialized successfully
+2024-10-20 20:10:09,978 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 20:10:18,528 - INFO - Summarization model initialized successfully
+2024-10-20 20:10:18,529 - INFO - Starting tweet scheduling
+2024-10-20 20:10:18,529 - INFO - Tweeting process started at 2024-10-20 20:10:18.529183!
+2024-10-20 20:10:18,529 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 20:10:18,529 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 20:10:35,076 - INFO - Total entries found: 615
+2024-10-20 20:10:35,079 - INFO - Recent AI-related entries found: 11
+2024-10-20 20:10:35,079 - INFO - Input content - content="AI's ability to sift through massive amounts of data, identify patterns and constantly learn makes it invaluable in cybersecurity."
+2024-10-20 20:10:35,079 - INFO - clean content - clean_content="AI's ability to sift through massive amounts of data, identify patterns and constantly learn makes it invaluable in cybersecurity."
+2024-10-20 20:10:35,079 - INFO - Generating summary with BART model
+2024-10-20 20:10:40,273 - INFO - Generating summary with BART model
+2024-10-20 20:10:44,829 - INFO - full_tweet="AI's ability to sift through massive amounts of data, identify patterns and constantly learn makes it..[read more👇🏼] #data #AI https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/"
+2024-10-20 20:10:45,135 - INFO - Tweet posted successfully: Response(data={'text': "AI's ability to sift through massive amounts of data, identify patterns and constantly learn makes it..[read more👇🏼] #data #AI https://t.co/56vY8ubCRf", 'edit_history_tweet_ids': ['1848094523487834540'], 'id': '1848094523487834540'}, includes={}, errors=[], meta={})
+2024-10-20 20:10:45,135 - INFO - Saved posted URL: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/ at 2024-10-20 20:10:45
+2024-10-20 20:10:45,135 - INFO - Tweet link saved successfully.
+2024-10-20 20:10:45,135 - INFO - Sleeping for 4 minutes and 37 seconds.
+2024-10-20 20:15:22,135 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://towardsdatascience.com/why-explainability-matters-in-ai-840144df418e?source=rss----7f60cf5620c9---4
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-marketing-is-a-con-especially-when-it-comes-to-cpus
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/former-openai-cto-mira-murati-is-reportedly-fundraising-for-a-new-ai-startup/
+2024-10-20 20:15:22,136 - INFO - This link is already posted: https://www.pcmag.com/news/major-publisher-penguin-random-house-blocks-ai-training-on-its-books
