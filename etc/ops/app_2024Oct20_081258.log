@@ -1,0 +1,23 @@
+2024-10-20 08:12:58,112 - INFO - Starting configuration setup
+2024-10-20 08:12:58,112 - INFO - Environment variables loaded successfully
+2024-10-20 08:12:58,113 - INFO - Twitter API client initialized successfully
+2024-10-20 08:13:00,006 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 08:13:08,060 - INFO - Summarization model initialized successfully
+2024-10-20 08:13:08,060 - INFO - Starting tweet scheduling
+2024-10-20 08:13:08,060 - INFO - Tweeting process started at 2024-10-20 08:13:08.060344!
+2024-10-20 08:13:08,060 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 08:13:08,060 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 08:13:21,852 - INFO - Total entries found: 615
+2024-10-20 08:13:21,855 - INFO - Recent AI-related entries found: 14
+2024-10-20 08:13:21,855 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 08:13:21,855 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
+2024-10-20 08:13:21,855 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/former-openai-cto-mira-murati-is-reportedly-fundraising-for-a-new-ai-startup/
+2024-10-20 08:13:21,855 - INFO - This link is already posted: https://www.pcmag.com/news/major-publisher-penguin-random-house-blocks-ai-training-on-its-books
+2024-10-20 08:13:21,855 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7ghwx/news_aaai_2025_workshop_on_ai_for_music/
+2024-10-20 08:13:21,855 - INFO - Input content - content='<p>Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the U.S. stock market after a multi-year ban from Beijing on offshore capital raising.&#160; Zeekr, a luxury Chinese electric vehicle startup, debuted on the New York Stock Exchange in May, and WeRide, another AV startup, also hopes to file [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-20 08:13:21,856 - INFO - clean content - clean_content='Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the U.S. stock market after a multi-year ban from Beijing on offshore capital raising.\xa0 Zeekr, a luxury Chinese electric vehicle startup, debuted on the New York Stock Exchange in May, and WeRide, another AV startup, also hopes to file […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-20 08:13:21,856 - INFO - Generating summary with BART model
+2024-10-20 08:13:30,211 - INFO - Generating summary with BART model
+2024-10-20 08:13:37,833 - INFO - full_tweet='Toyota-backed autonomous vehicle company Pony AI has joined the list of Chinese firms going public on the..[read more👇🏼] #AI #vehicle https://techcrunch.com/2024/10/19/four-takeaways-from-pony-ais-ipo-filing/'
+2024-10-20 08:13:37,987 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
