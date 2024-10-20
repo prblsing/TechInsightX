@@ -1,0 +1,37 @@
+2024-10-20 15:08:57,781 - INFO - Starting configuration setup
+2024-10-20 15:08:57,781 - INFO - Environment variables loaded successfully
+2024-10-20 15:08:57,782 - INFO - Twitter API client initialized successfully
+2024-10-20 15:08:59,659 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 15:09:09,722 - INFO - Summarization model initialized successfully
+2024-10-20 15:09:09,722 - INFO - Starting tweet scheduling
+2024-10-20 15:09:09,722 - INFO - Tweeting process started at 2024-10-20 15:09:09.722566!
+2024-10-20 15:09:09,722 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 15:09:09,722 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 15:09:25,764 - INFO - Total entries found: 615
+2024-10-20 15:09:25,767 - INFO - Recent AI-related entries found: 18
+2024-10-20 15:09:25,767 - INFO - Input content - content='<p>Not everyone is convinced of generative AI&#8217;s return on investment. But many investors are, judging by the latest figures from funding tracker PitchBook. In Q3 2024, VCs invested $3.9 billion in generative AI startups across 206 deals, per PitchBook. (That&#8217;s not counting OpenAI&#8216;s $6.6 billion round.) And $2.9 billion of that funding went to U.S.-based [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-20 15:09:25,768 - INFO - clean content - clean_content='Not everyone is convinced of generative AI’s return on investment. But many investors are, judging by the latest figures from funding tracker PitchBook. In Q3 2024, VCs invested $3.9 billion in generative AI startups across 206 deals, per PitchBook. (That’s not counting OpenAI‘s $6.6 billion round.) And $2.9 billion of that funding went to U.S.-based […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-20 15:09:25,768 - INFO - Generating summary with BART model
+2024-10-20 15:09:33,997 - INFO - Generating summary with BART model
+2024-10-20 15:09:41,593 - INFO - full_tweet="In Q3 2024, VCs invested $3.9 billion in generative AI startups across 206 deals, per PitchBook. That's..[read more👇🏼] #AI #startups https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/"
+2024-10-20 15:09:41,918 - INFO - Tweet posted successfully: Response(data={'id': '1848018760839430344', 'edit_history_tweet_ids': ['1848018760839430344'], 'text': "In Q3 2024, VCs invested $3.9 billion in generative AI startups across 206 deals, per PitchBook. That's..[read more👇🏼] #AI #startups https://t.co/SBPutfexg3"}, includes={}, errors=[], meta={})
+2024-10-20 15:09:41,918 - INFO - Saved posted URL: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/ at 2024-10-20 15:09:41
+2024-10-20 15:09:41,918 - INFO - Tweet link saved successfully.
+2024-10-20 15:09:41,918 - INFO - Sleeping for 4 minutes and 9 seconds.
+2024-10-20 15:13:50,918 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
+2024-10-20 15:13:50,918 - INFO - This link is already posted: https://www.cnet.com/how-to/ai-told-me-what-to-eat-for-a-week-heres-how-it-went/#ftag=CAD590a51e
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/features/is-ai-the-answer-to-your-money-problems-were-starting-to-find-out/#ftag=CAD590a51e
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://towardsdatascience.com/why-explainability-matters-in-ai-840144df418e?source=rss----7f60cf5620c9---4
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-marketing-is-a-con-especially-when-it-comes-to-cpus
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/former-openai-cto-mira-murati-is-reportedly-fundraising-for-a-new-ai-startup/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.pcmag.com/news/major-publisher-penguin-random-house-blocks-ai-training-on-its-books
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7ghwx/news_aaai_2025_workshop_on_ai_for_music/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/four-takeaways-from-pony-ais-ipo-filing/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/penguin-random-house-is-adding-an-ai-warning-to-its-books-copyright-pages/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7f0qj/discussion_sophon_ai_accelerator_accuracy_problem/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/midjourney-plans-to-let-anyone-on-the-web-edit-images-with-ai/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/women-in-ai-dr-rebecca-portnoff-is-protecting-children-from-harmful-deepfakes/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7bhb0/d_resources_for_a_course_on_neurosymbolic_ai/
+2024-10-20 15:13:50,919 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/
