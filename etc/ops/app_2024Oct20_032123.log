@@ -1,0 +1,19 @@
+2024-10-20 03:21:23,719 - INFO - Starting configuration setup
+2024-10-20 03:21:23,719 - INFO - Environment variables loaded successfully
+2024-10-20 03:21:23,719 - INFO - Twitter API client initialized successfully
+2024-10-20 03:21:25,636 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 03:21:34,206 - INFO - Summarization model initialized successfully
+2024-10-20 03:21:34,206 - INFO - Starting tweet scheduling
+2024-10-20 03:21:34,206 - INFO - Tweeting process started at 2024-10-20 03:21:34.206629!
+2024-10-20 03:21:34,206 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 03:21:34,206 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 03:21:50,955 - INFO - Total entries found: 615
+2024-10-20 03:21:50,958 - INFO - Recent AI-related entries found: 14
+2024-10-20 03:21:50,958 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 03:21:50,958 - INFO - Input content - content='Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers'
+2024-10-20 03:21:50,959 - INFO - clean content - clean_content='Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers'
+2024-10-20 03:21:50,959 - INFO - Generating summary with BART model
+2024-10-20 03:21:56,642 - INFO - Generating summary with BART model
+2024-10-20 03:22:01,688 - INFO - full_tweet="Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers. Lenovo also adds Intel's K7 and..[read more👇🏼] #server #Lenovo https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities"
+2024-10-20 03:22:01,810 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
