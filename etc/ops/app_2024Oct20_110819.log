@@ -1,0 +1,25 @@
+2024-10-20 11:08:19,905 - INFO - Starting configuration setup
+2024-10-20 11:08:19,905 - INFO - Environment variables loaded successfully
+2024-10-20 11:08:19,906 - INFO - Twitter API client initialized successfully
+2024-10-20 11:08:21,736 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 11:08:29,566 - INFO - Summarization model initialized successfully
+2024-10-20 11:08:29,566 - INFO - Starting tweet scheduling
+2024-10-20 11:08:29,566 - INFO - Tweeting process started at 2024-10-20 11:08:29.566920!
+2024-10-20 11:08:29,567 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 11:08:29,567 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 11:08:44,533 - INFO - Total entries found: 587
+2024-10-20 11:08:44,535 - INFO - Recent AI-related entries found: 14
+2024-10-20 11:08:44,535 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-marketing-is-a-con-especially-when-it-comes-to-cpus
+2024-10-20 11:08:44,535 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 11:08:44,535 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/former-openai-cto-mira-murati-is-reportedly-fundraising-for-a-new-ai-startup/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://www.pcmag.com/news/major-publisher-penguin-random-house-blocks-ai-training-on-its-books
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7ghwx/news_aaai_2025_workshop_on_ai_for_music/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/four-takeaways-from-pony-ais-ipo-filing/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/penguin-random-house-is-adding-an-ai-warning-to-its-books-copyright-pages/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7f0qj/discussion_sophon_ai_accelerator_accuracy_problem/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/midjourney-plans-to-let-anyone-on-the-web-edit-images-with-ai/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/women-in-ai-dr-rebecca-portnoff-is-protecting-children-from-harmful-deepfakes/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7bhb0/d_resources_for_a_course_on_neurosymbolic_ai/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7barf/p_i_built_a_web_app_to_track_trending_ai_papers/
+2024-10-20 11:08:44,536 - INFO - This link is already posted: https://techcrunch.com/2024/10/19/claude-everything-you-need-to-know-about-anthropics-ai/
