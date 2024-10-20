@@ -1,0 +1,28 @@
+2024-10-20 00:46:33,353 - INFO - Starting configuration setup
+2024-10-20 00:46:33,353 - INFO - Environment variables loaded successfully
+2024-10-20 00:46:33,353 - INFO - Twitter API client initialized successfully
+2024-10-20 00:46:35,191 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 00:46:45,809 - INFO - Summarization model initialized successfully
+2024-10-20 00:46:45,809 - INFO - Starting tweet scheduling
+2024-10-20 00:46:45,809 - INFO - Tweeting process started at 2024-10-20 00:46:45.809916!
+2024-10-20 00:46:45,810 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 00:46:45,810 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 00:46:45,810 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 00:47:02,028 - INFO - Total entries found: 615
+2024-10-20 00:47:02,030 - INFO - Recent AI-related entries found: 15
+2024-10-20 00:47:02,030 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Hi Community,</p> <p>I am currently working in the field of Applied Neuroscience and have authored a paper exploring how we can integrate more of the brain’s neuron functions into Artificial Neural Networks in future models. While this is not groundbreaking work worthy of a Nobel Prize:-), I believe it offers a meaningful contribution to this evolving topic. I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv.</p> <p>Thank you for your time and consideration.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Appeswintogether"> /u/Appeswintogether </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/">[comments]</a></span>'
+2024-10-20 00:47:02,031 - INFO - clean content - clean_content='Hi Community, I am currently working in the field of Applied Neuroscience and have authored a paper exploring how we can integrate more of the brain’s neuron functions into Artificial Neural Networks in future models. While this is not groundbreaking work worthy of a Nobel Prize:-), I believe it offers a meaningful contribution to this evolving topic. I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv. Thank you for your time and consideration.   submitted by   /u/Appeswintogether [link]   [comments]'
+2024-10-20 00:47:02,031 - INFO - Generating summary with BART model
+2024-10-20 00:47:08,149 - INFO - Generating summary with BART model
+2024-10-20 00:47:13,632 - INFO - full_tweet='I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv. While..[read more👇🏼] #I #groundbreaking https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/'
+2024-10-20 00:47:13,867 - INFO - Tweet posted successfully: Response(data={'id': '1847801713899778436', 'edit_history_tweet_ids': ['1847801713899778436'], 'text': 'I would be incredibly grateful if you could provide an endorsement to help me publish it on arXiv. While..[read more👇🏼] #I #groundbreaking https://t.co/bjiyWzMhjd'}, includes={}, errors=[], meta={})
+2024-10-20 00:47:13,867 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/ at 2024-10-20 00:47:13
+2024-10-20 00:47:13,867 - INFO - Tweet link saved successfully.
+2024-10-20 00:47:13,867 - INFO - Sleeping for 3 minutes and 40 seconds.
+2024-10-20 00:50:53,867 - INFO - Input content - content='Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers'
+2024-10-20 00:50:53,867 - INFO - clean content - clean_content='Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers'
+2024-10-20 00:50:53,868 - INFO - Generating summary with BART model
+2024-10-20 00:50:58,772 - INFO - Generating summary with BART model
+2024-10-20 00:51:03,674 - INFO - full_tweet="Lenovo adds AMD EPYC 9005 and Instinct MI325X to its ThinkSystem servers. Lenovo also adds Intel's K7 and..[read more👇🏼] #server #Lenovo https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities"
+2024-10-20 00:51:03,756 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
