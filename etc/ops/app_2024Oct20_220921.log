@@ -1,0 +1,21 @@
+2024-10-20 22:09:21,407 - INFO - Starting configuration setup
+2024-10-20 22:09:21,408 - INFO - Environment variables loaded successfully
+2024-10-20 22:09:21,408 - INFO - Twitter API client initialized successfully
+2024-10-20 22:09:23,330 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-20 22:09:31,468 - INFO - Summarization model initialized successfully
+2024-10-20 22:09:31,468 - INFO - Starting tweet scheduling
+2024-10-20 22:09:31,469 - INFO - Tweeting process started at 2024-10-20 22:09:31.469020!
+2024-10-20 22:09:31,469 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct20.csv
+2024-10-20 22:09:31,469 - INFO - Fetching latest tech news from RSS feeds
+2024-10-20 22:09:48,124 - INFO - Total entries found: 615
+2024-10-20 22:09:48,126 - INFO - Recent AI-related entries found: 10
+2024-10-20 22:09:48,126 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-20 22:09:48,126 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://towardsdatascience.com/why-explainability-matters-in-ai-840144df418e?source=rss----7f60cf5620c9---4
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/ai-marketing-is-a-con-especially-when-it-comes-to-cpus
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7mjgs/endorsement_for_a_ai_paper_in_arvix_r/
+2024-10-20 22:09:48,127 - INFO - This link is already posted: https://www.techradar.com/pro/another-big-win-for-amd-as-lenovo-adds-epyc-9005-and-instinct-mi325x-to-its-thinksystem-server-platform-boosting-ai-capabilities
