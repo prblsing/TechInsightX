@@ -1,0 +1,62 @@
+2024-10-21 17:09:50,780 - INFO - Starting configuration setup
+2024-10-21 17:09:50,781 - INFO - Environment variables loaded successfully
+2024-10-21 17:09:50,781 - INFO - Twitter API client initialized successfully
+2024-10-21 17:09:52,738 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 17:10:00,337 - INFO - Summarization model initialized successfully
+2024-10-21 17:10:00,337 - INFO - Starting tweet scheduling
+2024-10-21 17:10:00,337 - INFO - Tweeting process started at 2024-10-21 17:10:00.337739!
+2024-10-21 17:10:00,338 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 17:10:00,338 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 17:10:17,477 - INFO - Total entries found: 614
+2024-10-21 17:10:17,480 - INFO - Recent AI-related entries found: 19
+2024-10-21 17:10:17,480 - INFO - Input content - content='A sneak peek of what’s to come at the Gartner Data & Analytics Summit in Orlando, FL, on March 3-5, 2025.'
+2024-10-21 17:10:17,481 - INFO - clean content - clean_content='A sneak peek of what’s to come at the Gartner Data & Analytics Summit in Orlando, FL, on March 3-5, 2025.'
+2024-10-21 17:10:17,481 - INFO - Generating summary with BART model
+2024-10-21 17:10:23,057 - INFO - Generating summary with BART model
+2024-10-21 17:10:27,983 - INFO - full_tweet='Gartner Data & Analytics Summit will be held in Orlando, FL, on March 3-5, 2025. Gartner is the world’s..[read more👇🏼] #Analytics #analytics https://www.kdnuggets.com/2025/10/gartner/discover-the-top-ways-to-scale-your-ai-for-data-analytics-initiative'
+2024-10-21 17:10:28,270 - INFO - Tweet posted successfully: Response(data={'text': 'Gartner Data &amp; Analytics Summit will be held in Orlando, FL, on March 3-5, 2025. Gartner is the world’s..[read more👇🏼] #Analytics #analytics https://t.co/ic6VaFxGAI', 'id': '1848411542091407661', 'edit_history_tweet_ids': ['1848411542091407661']}, includes={}, errors=[], meta={})
+2024-10-21 17:10:28,271 - INFO - Saved posted URL: https://www.kdnuggets.com/2025/10/gartner/discover-the-top-ways-to-scale-your-ai-for-data-analytics-initiative at 2024-10-21 17:10:28
+2024-10-21 17:10:28,271 - INFO - Tweet link saved successfully.
+2024-10-21 17:10:28,271 - INFO - Sleeping for 6 minutes and 11 seconds.
+2024-10-21 17:16:39,271 - INFO - Input content - content='<p>In August, Elon Musk&#8217;s xAI promised to make Grok, the company&#8217;s flagship generative AI model powering a number of features on X, available via an API. Now, that API has arrived — albeit a bit bare-bones at the moment. The xAI API only has a single model, &#8220;grok-beta,&#8221; priced at $5 per million input tokens [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 17:16:39,271 - INFO - clean content - clean_content='In August, Elon Musk’s xAI promised to make Grok, the company’s flagship generative AI model powering a number of features on X, available via an API. Now, that API has arrived — albeit a bit bare-bones at the moment. The xAI API only has a single model, “grok-beta,” priced at $5 per million input tokens […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 17:16:39,271 - INFO - Generating summary with BART model
+2024-10-21 17:16:45,336 - INFO - Generating summary with BART model
+2024-10-21 17:16:51,340 - INFO - full_tweet='The xAI API only has a single model, “grok-beta,” priced at $5 per million input tokens. In August, Elon..[read more👇🏼] #API #available https://techcrunch.com/2024/10/21/xai-elon-musks-ai-startup-launches-an-api/'
+2024-10-21 17:16:51,621 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848413149952639342'], 'id': '1848413149952639342', 'text': 'The xAI API only has a single model, “grok-beta,” priced at $5 per million input tokens. In August, Elon..[read more👇🏼] #API #available https://t.co/1kVCBzIVLF'}, includes={}, errors=[], meta={})
+2024-10-21 17:16:51,621 - INFO - Saved posted URL: https://techcrunch.com/2024/10/21/xai-elon-musks-ai-startup-launches-an-api/ at 2024-10-21 17:16:51
+2024-10-21 17:16:51,621 - INFO - Tweet link saved successfully.
+2024-10-21 17:16:51,621 - INFO - Sleeping for 9 minutes and 28 seconds.
+2024-10-21 17:26:19,621 - INFO - Input content - content="Microsoft launches autonomous AI agents for Dynamics 365, challenging Salesforce's Agentforce in the race to dominate enterprise AI and reshape the future of work."
+2024-10-21 17:26:19,622 - INFO - clean content - clean_content="Microsoft launches autonomous AI agents for Dynamics 365, challenging Salesforce's Agentforce in the race to dominate enterprise AI and reshape the future of work."
+2024-10-21 17:26:19,622 - INFO - Generating summary with BART model
+2024-10-21 17:26:23,520 - INFO - Generating summary with BART model
+2024-10-21 17:26:27,380 - INFO - full_tweet="Microsoft launches autonomous AI agents for Dynamics 365. Salesforce's Agentforce in the race to dominate..[read more👇🏼] #AI #autonomous https://venturebeat.com/ai/microsofts-new-ai-agents-set-to-shake-up-enterprise-software-sparking-new-battle-with-salesforce/"
+2024-10-21 17:26:27,675 - INFO - Tweet posted successfully: Response(data={'text': "Microsoft launches autonomous AI agents for Dynamics 365. Salesforce's Agentforce in the race to dominate..[read more👇🏼] #AI #autonomous https://t.co/AZbNry0SQV", 'edit_history_tweet_ids': ['1848415566068887986'], 'id': '1848415566068887986'}, includes={}, errors=[], meta={})
+2024-10-21 17:26:27,675 - INFO - Saved posted URL: https://venturebeat.com/ai/microsofts-new-ai-agents-set-to-shake-up-enterprise-software-sparking-new-battle-with-salesforce/ at 2024-10-21 17:26:27
+2024-10-21 17:26:27,675 - INFO - Tweet link saved successfully.
+2024-10-21 17:26:27,675 - INFO - Sleeping for 9 minutes and 43 seconds.
+2024-10-21 17:36:10,675 - INFO - This link is already posted: https://www.techradar.com/pro/us-treasury-claims-to-have-won-back-billions-of-dollars-lost-to-fraud-using-ai
+2024-10-21 17:36:10,676 - INFO - This link is already posted: https://venturebeat.com/security/gartner-2025-will-see-the-rise-of-ai-agents-and-other-top-trends/
+2024-10-21 17:36:10,676 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/daze-a-creative-ai-powered-messaging-app-for-gen-z-is-blowing-up-prelaunch/
+2024-10-21 17:36:10,676 - INFO - This link is already posted: https://news.mit.edu/2024/making-it-easier-verify-ai-models-responses-1021
+2024-10-21 17:36:10,676 - INFO - This link is already posted: https://www.techradar.com/pro/if-you-dont-trust-it-youre-not-going-to-use-it-microsoft-ceo-says-ai-has-to-be-trustworthy-to-be-useful
+2024-10-21 17:36:10,676 - INFO - This link is already posted: https://www.techradar.com/pro/investment-in-ai-and-ai-pcs-is-now-critical-for-talent-retention
+2024-10-21 17:36:10,676 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>Does AISTATS do ‘acceptance with revisions’?</p> <p>First time student author here. Submitted my draft but I feel like I can improve the draft much more by tweaking it here and there (even adding a couple of new sections in appendix).</p> <p>Would this be possible in the rebuttal phase? Or would they only allow me to make cosmetic changes? I’ve heard that changes are possible in some other conferences, but not sure about AISTATS.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/confirm-jannati"> /u/confirm-jannati </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g8qn5s/r_does_aistats_do_acceptance_with_revisions/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g8qn5s/r_does_aistats_do_acceptance_with_revisions/">[comments]</a></span>'
+2024-10-21 17:36:10,676 - INFO - clean content - clean_content='Does AISTATS do ‘acceptance with revisions’? First time student author here. Submitted my draft but I feel like I can improve the draft much more by tweaking it here and there (even adding a couple of new sections in appendix). Would this be possible in the rebuttal phase? Or would they only allow me to make cosmetic changes? I’ve heard that changes are possible in some other conferences, but not sure about AISTATS. Thanks!   submitted by   /u/confirm-jannati [link]   [comments]'
+2024-10-21 17:36:10,676 - INFO - Generating summary with BART model
+2024-10-21 17:36:19,308 - INFO - Generating summary with BART model
+2024-10-21 17:36:27,881 - INFO - full_tweet='First time student author here. Submitted my draft but I feel like I can improve the draft much more by..[read more👇🏼] #draft #here https://www.reddit.com/r/MachineLearning/comments/1g8qn5s/r_does_aistats_do_acceptance_with_revisions/'
+2024-10-21 17:36:28,136 - INFO - Tweet posted successfully: Response(data={'id': '1848418084672995454', 'edit_history_tweet_ids': ['1848418084672995454'], 'text': 'First time student author here. Submitted my draft but I feel like I can improve the draft much more by..[read more👇🏼] #draft #here https://t.co/3FaueDAAxd'}, includes={}, errors=[], meta={})
+2024-10-21 17:36:28,136 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g8qn5s/r_does_aistats_do_acceptance_with_revisions/ at 2024-10-21 17:36:28
+2024-10-21 17:36:28,136 - INFO - Tweet link saved successfully.
+2024-10-21 17:36:28,136 - INFO - Sleeping for 8 minutes and 53 seconds.
+2024-10-21 17:45:21,136 - INFO - This link is already posted: https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai
+2024-10-21 17:45:21,136 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 17:45:21,137 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
