@@ -1,0 +1,60 @@
+2024-10-21 16:11:46,036 - INFO - Starting configuration setup
+2024-10-21 16:11:46,036 - INFO - Environment variables loaded successfully
+2024-10-21 16:11:46,037 - INFO - Twitter API client initialized successfully
+2024-10-21 16:11:47,976 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 16:11:56,585 - INFO - Summarization model initialized successfully
+2024-10-21 16:11:56,585 - INFO - Starting tweet scheduling
+2024-10-21 16:11:56,585 - INFO - Tweeting process started at 2024-10-21 16:11:56.585717!
+2024-10-21 16:11:56,586 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 16:11:56,586 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 16:12:11,452 - INFO - Total entries found: 614
+2024-10-21 16:12:11,455 - INFO - Recent AI-related entries found: 17
+2024-10-21 16:12:11,455 - INFO - Input content - content='New AI technology is being used by the US Treasury to catch fraudsters'
+2024-10-21 16:12:11,456 - INFO - clean content - clean_content='New AI technology is being used by the US Treasury to catch fraudsters'
+2024-10-21 16:12:11,456 - INFO - Generating summary with BART model
+2024-10-21 16:12:15,878 - INFO - Generating summary with BART model
+2024-10-21 16:12:19,719 - INFO - full_tweet='New AI technology is being used by the US Treasury to catch fraudsters. US Treasury is using the..[read more👇🏼] #technology #AI https://www.techradar.com/pro/us-treasury-claims-to-have-won-back-billions-of-dollars-lost-to-fraud-using-ai'
+2024-10-21 16:12:20,016 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848396911310446877'], 'text': 'New AI technology is being used by the US Treasury to catch fraudsters. US Treasury is using the..[read more👇🏼] #technology #AI https://t.co/4CtdZiek6i', 'id': '1848396911310446877'}, includes={}, errors=[], meta={})
+2024-10-21 16:12:20,017 - INFO - Saved posted URL: https://www.techradar.com/pro/us-treasury-claims-to-have-won-back-billions-of-dollars-lost-to-fraud-using-ai at 2024-10-21 16:12:20
+2024-10-21 16:12:20,017 - INFO - Tweet link saved successfully.
+2024-10-21 16:12:20,017 - INFO - Sleeping for 6 minutes and 35 seconds.
+2024-10-21 16:18:55,017 - INFO - Input content - content='Also keep an eye on AI governance tools, hybrid computing, disinformation security, post-quantum cryptography and even more out-there tech.'
+2024-10-21 16:18:55,017 - INFO - clean content - clean_content='Also keep an eye on AI governance tools, hybrid computing, disinformation security, post-quantum cryptography and even more out-there tech.'
+2024-10-21 16:18:55,017 - INFO - Generating summary with BART model
+2024-10-21 16:18:59,943 - INFO - Generating summary with BART model
+2024-10-21 16:19:04,895 - INFO - full_tweet='Also keep an eye on AI governance tools, hybrid computing, disinformation security, post-quantum..[read more👇🏼] #tech #AI https://venturebeat.com/security/gartner-2025-will-see-the-rise-of-ai-agents-and-other-top-trends/'
+2024-10-21 16:19:05,161 - INFO - Tweet posted successfully: Response(data={'text': 'Also keep an eye on AI governance tools, hybrid computing, disinformation security, post-quantum..[read more👇🏼] #tech #AI https://t.co/aGeKt33WIz', 'edit_history_tweet_ids': ['1848398610620121368'], 'id': '1848398610620121368'}, includes={}, errors=[], meta={})
+2024-10-21 16:19:05,161 - INFO - Saved posted URL: https://venturebeat.com/security/gartner-2025-will-see-the-rise-of-ai-agents-and-other-top-trends/ at 2024-10-21 16:19:05
+2024-10-21 16:19:05,161 - INFO - Tweet link saved successfully.
+2024-10-21 16:19:05,161 - INFO - Sleeping for 9 minutes and 37 seconds.
+2024-10-21 16:28:42,161 - INFO - Input content - content='<p>On TikTok, Daze’s most popular video has been viewed 8 million times. Across TikTok and Instagram, the startup behind a new messaging app aimed at Gen Z, has seen around 48 million combined views. Pre-launch, the app’s waitlist is already bursting with roughly 156,000 signups. Driving the demand for this next-generation alternative to iMessage and [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 16:28:42,162 - INFO - clean content - clean_content='On TikTok, Daze’s most popular video has been viewed 8 million times. Across TikTok and Instagram, the startup behind a new messaging app aimed at Gen Z, has seen around 48 million combined views. Pre-launch, the app’s waitlist is already bursting with roughly 156,000 signups. Driving the demand for this next-generation alternative to iMessage and […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 16:28:42,162 - INFO - Generating summary with BART model
+2024-10-21 16:28:49,107 - INFO - Generating summary with BART model
+2024-10-21 16:28:56,006 - INFO - full_tweet='On TikTok, Daze’s most popular video has been viewed 8 million times. Across TikTok and Instagram, the..[read more👇🏼] #startup #app https://techcrunch.com/2024/10/21/daze-a-creative-ai-powered-messaging-app-for-gen-z-is-blowing-up-prelaunch/'
+2024-10-21 16:28:56,332 - INFO - Tweet posted successfully: Response(data={'id': '1848401090032574602', 'edit_history_tweet_ids': ['1848401090032574602'], 'text': 'On TikTok, Daze’s most popular video has been viewed 8 million times. Across TikTok and Instagram, the..[read more👇🏼] #startup #app https://t.co/odmZRQPu3J'}, includes={}, errors=[], meta={})
+2024-10-21 16:28:56,332 - INFO - Saved posted URL: https://techcrunch.com/2024/10/21/daze-a-creative-ai-powered-messaging-app-for-gen-z-is-blowing-up-prelaunch/ at 2024-10-21 16:28:56
+2024-10-21 16:28:56,332 - INFO - Tweet link saved successfully.
+2024-10-21 16:28:56,332 - INFO - Sleeping for 6 minutes and 31 seconds.
+2024-10-21 16:35:27,332 - INFO - Input content - content='By allowing users to clearly see data referenced by a large language model, this tool speeds manual validation to help users spot AI errors.'
+2024-10-21 16:35:27,333 - INFO - clean content - clean_content='By allowing users to clearly see data referenced by a large language model, this tool speeds manual validation to help users spot AI errors.'
+2024-10-21 16:35:27,333 - INFO - Generating summary with BART model
+2024-10-21 16:35:32,235 - INFO - Generating summary with BART model
+2024-10-21 16:35:37,073 - INFO - full_tweet='This tool speeds manual validation to help users spot AI errors. By allowing users to clearly see data..[read more👇🏼] #data #AI https://news.mit.edu/2024/making-it-easier-verify-ai-models-responses-1021'
+2024-10-21 16:35:37,391 - INFO - Tweet posted successfully: Response(data={'id': '1848402772221170035', 'edit_history_tweet_ids': ['1848402772221170035'], 'text': 'This tool speeds manual validation to help users spot AI errors. By allowing users to clearly see data..[read more👇🏼] #data #AI https://t.co/xJnggtL0oD'}, includes={}, errors=[], meta={})
+2024-10-21 16:35:37,391 - INFO - Saved posted URL: https://news.mit.edu/2024/making-it-easier-verify-ai-models-responses-1021 at 2024-10-21 16:35:37
+2024-10-21 16:35:37,391 - INFO - Tweet link saved successfully.
+2024-10-21 16:35:37,391 - INFO - Sleeping for 7 minutes and 21 seconds.
+2024-10-21 16:42:58,391 - INFO - This link is already posted: https://www.techradar.com/pro/if-you-dont-trust-it-youre-not-going-to-use-it-microsoft-ceo-says-ai-has-to-be-trustworthy-to-be-useful
+2024-10-21 16:42:58,391 - INFO - This link is already posted: https://www.techradar.com/pro/investment-in-ai-and-ai-pcs-is-now-critical-for-talent-retention
+2024-10-21 16:42:58,391 - INFO - This link is already posted: https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai
+2024-10-21 16:42:58,391 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio
+2024-10-21 16:42:58,391 - INFO - This link is already posted: https://www.techradar.com/phones/iphone/apple-intelligence-changed-my-life-tim-cook-says-apples-ai-is-as-innovative-as-the-ipods-click-wheel-or-the-iphones-touch-screen
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-21 16:42:58,392 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
