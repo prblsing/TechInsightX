@@ -1,0 +1,43 @@
+2024-10-21 15:11:06,033 - INFO - Starting configuration setup
+2024-10-21 15:11:06,034 - INFO - Environment variables loaded successfully
+2024-10-21 15:11:06,034 - INFO - Twitter API client initialized successfully
+2024-10-21 15:11:07,907 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 15:12:23,588 - INFO - Summarization model initialized successfully
+2024-10-21 15:12:23,588 - INFO - Starting tweet scheduling
+2024-10-21 15:12:23,588 - INFO - Tweeting process started at 2024-10-21 15:12:23.588759!
+2024-10-21 15:12:23,589 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 15:12:23,589 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 15:12:39,370 - INFO - Total entries found: 614
+2024-10-21 15:12:39,373 - INFO - Recent AI-related entries found: 16
+2024-10-21 15:12:39,373 - INFO - Input content - content='“Trustworthy AI” is the next big aim for Microsoft, CEO Satya Nadella states.'
+2024-10-21 15:12:39,374 - INFO - clean content - clean_content='“Trustworthy AI” is the next big aim for Microsoft, CEO Satya Nadella states.'
+2024-10-21 15:12:39,374 - INFO - Generating summary with BART model
+2024-10-21 15:12:46,817 - INFO - Generating summary with BART model
+2024-10-21 15:12:53,526 - INFO - full_tweet='“Trustworthy AI” is the next big aim for Microsoft, CEO Satya Nadella states. “Trustworthiness AI’ is the..[read more👇🏼] #AI #Trustworthy https://www.techradar.com/pro/if-you-dont-trust-it-youre-not-going-to-use-it-microsoft-ceo-says-ai-has-to-be-trustworthy-to-be-useful'
+2024-10-21 15:12:53,825 - INFO - Tweet posted successfully: Response(data={'text': '“Trustworthy AI” is the next big aim for Microsoft, CEO Satya Nadella states. “Trustworthiness AI’ is the..[read more👇🏼] #AI #Trustworthy https://t.co/CPeg63dl7q', 'id': '1848381953516421318', 'edit_history_tweet_ids': ['1848381953516421318']}, includes={}, errors=[], meta={})
+2024-10-21 15:12:53,825 - INFO - Saved posted URL: https://www.techradar.com/pro/if-you-dont-trust-it-youre-not-going-to-use-it-microsoft-ceo-says-ai-has-to-be-trustworthy-to-be-useful at 2024-10-21 15:12:53
+2024-10-21 15:12:53,825 - INFO - Tweet link saved successfully.
+2024-10-21 15:12:53,825 - INFO - Sleeping for 3 minutes and 20 seconds.
+2024-10-21 15:16:13,825 - INFO - Input content - content='Alan Slothower at Microsoft UK discusses why AI and AI PCs are key to talent retention.'
+2024-10-21 15:16:13,825 - INFO - clean content - clean_content='Alan Slothower at Microsoft UK discusses why AI and AI PCs are key to talent retention.'
+2024-10-21 15:16:13,826 - INFO - Generating summary with BART model
+2024-10-21 15:16:17,567 - INFO - Generating summary with BART model
+2024-10-21 15:16:21,324 - INFO - full_tweet='Alan Slothower at Microsoft UK discusses why AI and AI PCs are key to talent retention. He says AI PCs..[read more👇🏼] #AI #talent https://www.techradar.com/pro/investment-in-ai-and-ai-pcs-is-now-critical-for-talent-retention'
+2024-10-21 15:16:21,531 - INFO - Tweet posted successfully: Response(data={'text': 'Alan Slothower at Microsoft UK discusses why AI and AI PCs are key to talent retention. He says AI PCs..[read more👇🏼] #AI #talent https://t.co/2cGCAjZEuS', 'edit_history_tweet_ids': ['1848382824736256450'], 'id': '1848382824736256450'}, includes={}, errors=[], meta={})
+2024-10-21 15:16:21,531 - INFO - Saved posted URL: https://www.techradar.com/pro/investment-in-ai-and-ai-pcs-is-now-critical-for-talent-retention at 2024-10-21 15:16:21
+2024-10-21 15:16:21,531 - INFO - Tweet link saved successfully.
+2024-10-21 15:16:21,531 - INFO - Sleeping for 5 minutes and 31 seconds.
+2024-10-21 15:21:52,531 - INFO - This link is already posted: https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai
+2024-10-21 15:21:52,531 - INFO - This link is already posted: https://www.cnet.com/health/sleep/i-asked-ai-to-find-my-next-bed-heres-how-it-compares-to-my-own-opinion-of-the-best-mattress/#ftag=CAD590a51e
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.techradar.com/phones/iphone/apple-intelligence-changed-my-life-tim-cook-says-apples-ai-is-as-innovative-as-the-ipods-click-wheel-or-the-iphones-touch-screen
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.cnet.com/tech/computing/whats-in-your-ai-california-thinks-you-should-know/#ftag=CAD590a51e
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-21 15:21:52,532 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
