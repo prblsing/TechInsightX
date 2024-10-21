@@ -1,0 +1,18 @@
+2024-10-21 10:11:28,880 - INFO - Starting configuration setup
+2024-10-21 10:11:28,880 - INFO - Environment variables loaded successfully
+2024-10-21 10:11:28,881 - INFO - Twitter API client initialized successfully
+2024-10-21 10:11:30,769 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 10:11:41,204 - INFO - Summarization model initialized successfully
+2024-10-21 10:11:41,205 - INFO - Starting tweet scheduling
+2024-10-21 10:11:41,205 - INFO - Tweeting process started at 2024-10-21 10:11:41.205201!
+2024-10-21 10:11:41,205 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 10:11:41,205 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 10:12:29,826 - INFO - Total entries found: 615
+2024-10-21 10:12:29,828 - INFO - Recent AI-related entries found: 11
+2024-10-21 10:12:29,829 - INFO - Input content - content='<p>A fledgling startup is setting out to become one of Europe&#8217;s first &#8220;AI compute&#8221; hyperscalers, with renewable energy playing a pivotal part in its pitch to prospective customers. The AI goldrush has spurred unprecedented demand for &#8220;compute,&#8221; which refers to the processing power, infrastructure and resources needed for tasks such as running algorithms, executing machine [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 10:12:29,829 - INFO - clean content - clean_content='A fledgling startup is setting out to become one of Europe’s first “AI compute” hyperscalers, with renewable energy playing a pivotal part in its pitch to prospective customers. The AI goldrush has spurred unprecedented demand for “compute,” which refers to the processing power, infrastructure and resources needed for tasks such as running algorithms, executing machine […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 10:12:29,829 - INFO - Generating summary with BART model
+2024-10-21 10:12:37,021 - INFO - Generating summary with BART model
+2024-10-21 10:12:43,604 - INFO - full_tweet='A fledgling startup is setting out to become one of Europe’s first ‘AI compute’ hyperscalers. Renewable..[read more👇🏼] #AI #startup https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/'
+2024-10-21 10:12:43,922 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
