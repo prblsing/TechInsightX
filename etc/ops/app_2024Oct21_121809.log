@@ -1,0 +1,60 @@
+2024-10-21 12:18:09,475 - INFO - Starting configuration setup
+2024-10-21 12:18:09,476 - INFO - Environment variables loaded successfully
+2024-10-21 12:18:09,476 - INFO - Twitter API client initialized successfully
+2024-10-21 12:18:11,348 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 12:18:19,982 - INFO - Summarization model initialized successfully
+2024-10-21 12:18:19,983 - INFO - Starting tweet scheduling
+2024-10-21 12:18:19,983 - INFO - Tweeting process started at 2024-10-21 12:18:19.983289!
+2024-10-21 12:18:19,983 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 12:18:19,983 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 12:18:35,386 - INFO - Total entries found: 615
+2024-10-21 12:18:35,388 - INFO - Recent AI-related entries found: 17
+2024-10-21 12:18:35,389 - INFO - Input content - content='Because after this year, we all deserve a holiday.'
+2024-10-21 12:18:35,389 - INFO - clean content - clean_content='Because after this year, we all deserve a holiday.'
+2024-10-21 12:18:35,389 - INFO - Generating summary with BART model
+2024-10-21 12:18:40,290 - INFO - Generating summary with BART model
+2024-10-21 12:18:44,551 - INFO - full_tweet='We all deserve a holiday. Because after this year, we all deserve to be treated to a break from work and..[read more👇🏼] #deserve #break https://www.cnet.com/tech/services-and-software/how-i-used-ai-to-save-for-a-vacation/#ftag=CAD590a51e'
+2024-10-21 12:18:44,812 - INFO - Tweet posted successfully: Response(data={'id': '1848338127305203789', 'edit_history_tweet_ids': ['1848338127305203789'], 'text': 'We all deserve a holiday. Because after this year, we all deserve to be treated to a break from work and..[read more👇🏼] #deserve #break https://t.co/0WBXr6HBMI'}, includes={}, errors=[], meta={})
+2024-10-21 12:18:44,812 - INFO - Saved posted URL: https://www.cnet.com/tech/services-and-software/how-i-used-ai-to-save-for-a-vacation/#ftag=CAD590a51e at 2024-10-21 12:18:44
+2024-10-21 12:18:44,812 - INFO - Tweet link saved successfully.
+2024-10-21 12:18:44,812 - INFO - Sleeping for 3 minutes and 38 seconds.
+2024-10-21 12:22:22,812 - INFO - Input content - content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-10-21 12:22:22,812 - INFO - clean content - clean_content="Get up to speed on the rapidly evolving world of AI with our roundup of the week's developments."
+2024-10-21 12:22:22,812 - INFO - Generating summary with BART model
+2024-10-21 12:22:28,075 - INFO - Generating summary with BART model
+2024-10-21 12:22:33,280 - INFO - full_tweet="This week in AI. Get up to speed on the rapidly evolving world of AI with our roundup of the week's..[read more👇🏼] #AI #week https://www.cnet.com/tech/computing/whats-in-your-ai-california-thinks-you-should-know/#ftag=CAD590a51e"
+2024-10-21 12:22:33,485 - INFO - Tweet posted successfully: Response(data={'text': "This week in AI. Get up to speed on the rapidly evolving world of AI with our roundup of the week's..[read more👇🏼] #AI #week https://t.co/yVtEycOpo4", 'edit_history_tweet_ids': ['1848339086358007852'], 'id': '1848339086358007852'}, includes={}, errors=[], meta={})
+2024-10-21 12:22:33,486 - INFO - Saved posted URL: https://www.cnet.com/tech/computing/whats-in-your-ai-california-thinks-you-should-know/#ftag=CAD590a51e at 2024-10-21 12:22:33
+2024-10-21 12:22:33,486 - INFO - Tweet link saved successfully.
+2024-10-21 12:22:33,486 - INFO - Sleeping for 7 minutes and 38 seconds.
+2024-10-21 12:30:11,486 - INFO - Input content - content="An update to Arlo's subscription allows for deeper camera alert customization than I've ever seen before. And while it's still in beta, the results are promising."
+2024-10-21 12:30:11,486 - INFO - clean content - clean_content="An update to Arlo's subscription allows for deeper camera alert customization than I've ever seen before. And while it's still in beta, the results are promising."
+2024-10-21 12:30:11,486 - INFO - Generating summary with BART model
+2024-10-21 12:30:15,660 - INFO - Generating summary with BART model
+2024-10-21 12:30:19,830 - INFO - full_tweet="An update to Arlo's subscription allows for deeper camera alert customization than I've ever seen before...[read more👇🏼] #s #customization https://www.cnet.com/home/security/i-tested-arlos-deluxe-new-ai-that-lets-you-create-objects-to-recognize/#ftag=CAD590a51e"
+2024-10-21 12:30:20,094 - INFO - Tweet posted successfully: Response(data={'id': '1848341043512557663', 'edit_history_tweet_ids': ['1848341043512557663'], 'text': "An update to Arlo's subscription allows for deeper camera alert customization than I've ever seen before...[read more👇🏼] #s #customization https://t.co/f55l9EviW8"}, includes={}, errors=[], meta={})
+2024-10-21 12:30:20,094 - INFO - Saved posted URL: https://www.cnet.com/home/security/i-tested-arlos-deluxe-new-ai-that-lets-you-create-objects-to-recognize/#ftag=CAD590a51e at 2024-10-21 12:30:20
+2024-10-21 12:30:20,094 - INFO - Tweet link saved successfully.
+2024-10-21 12:30:20,094 - INFO - Sleeping for 9 minutes and 39 seconds.
+2024-10-21 12:39:59,095 - INFO - Input content - content="ByteDance says the now-dismissed intern 'maliciously interfered' with AI training and denies claims that 8,000 GPUs were involved."
+2024-10-21 12:39:59,095 - INFO - clean content - clean_content="ByteDance says the now-dismissed intern 'maliciously interfered' with AI training and denies claims that 8,000 GPUs were involved."
+2024-10-21 12:39:59,095 - INFO - Generating summary with BART model
+2024-10-21 12:40:03,813 - INFO - Generating summary with BART model
+2024-10-21 12:40:08,439 - INFO - full_tweet="ByteDance says the now-dismissed intern 'maliciously interfered' with AI training and denies claims that..[read more👇🏼] #AI #maliciously https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training"
+2024-10-21 12:40:08,692 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848343512288268457'], 'id': '1848343512288268457', 'text': "ByteDance says the now-dismissed intern 'maliciously interfered' with AI training and denies claims that..[read more👇🏼] #AI #maliciously https://t.co/0PdQZ3Smq4"}, includes={}, errors=[], meta={})
+2024-10-21 12:40:08,693 - INFO - Saved posted URL: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training at 2024-10-21 12:40:08
+2024-10-21 12:40:08,693 - INFO - Tweet link saved successfully.
+2024-10-21 12:40:08,693 - INFO - Sleeping for 6 minutes and 59 seconds.
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://www.techradar.com/phones/iphone/apple-intelligence-could-already-be-two-years-behind-chatgpt-as-apples-ai-gets-ready-for-launch
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://www.techradar.com/pro/developers-are-flocking-to-ai-tools-to-boost-productivity-but-not-everywhere
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://www.techradar.com/pro/ai-and-creativity-the-dynamic-duo-fueling-business-growth
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 12:47:07,693 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 12:47:07,694 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-21 12:47:07,694 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-21 12:47:07,694 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-21 12:47:07,694 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
+2024-10-21 12:47:07,694 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
