@@ -1,0 +1,27 @@
+2024-10-21 04:13:00,642 - INFO - Starting configuration setup
+2024-10-21 04:13:00,642 - INFO - Environment variables loaded successfully
+2024-10-21 04:13:00,642 - INFO - Twitter API client initialized successfully
+2024-10-21 04:13:02,582 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 04:13:12,879 - INFO - Summarization model initialized successfully
+2024-10-21 04:13:12,880 - INFO - Starting tweet scheduling
+2024-10-21 04:13:12,880 - INFO - Tweeting process started at 2024-10-21 04:13:12.880160!
+2024-10-21 04:13:12,880 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 04:13:12,880 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 04:13:29,268 - INFO - Total entries found: 615
+2024-10-21 04:13:29,271 - INFO - Recent AI-related entries found: 9
+2024-10-21 04:13:29,271 - INFO - Input content - content='IBM is launching its new open source Granite 3.0 family of models for enterprise AI as it looks to a future state of generative computing.'
+2024-10-21 04:13:29,272 - INFO - clean content - clean_content='IBM is launching its new open source Granite 3.0 family of models for enterprise AI as it looks to a future state of generative computing.'
+2024-10-21 04:13:29,272 - INFO - Generating summary with BART model
+2024-10-21 04:13:34,460 - INFO - Generating summary with BART model
+2024-10-21 04:13:38,994 - INFO - full_tweet='IBM is launching its new open source Granite 3.0 family of models for enterprise AI. IBM is looking to a..[read more👇🏼] #AI #IBM https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/'
+2024-10-21 04:13:39,420 - INFO - Tweet posted successfully: Response(data={'id': '1848216050296344783', 'edit_history_tweet_ids': ['1848216050296344783'], 'text': 'IBM is launching its new open source Granite 3.0 family of models for enterprise AI. IBM is looking to a..[read more👇🏼] #AI #IBM https://t.co/k5RXDhZQa3'}, includes={}, errors=[], meta={})
+2024-10-21 04:13:39,420 - INFO - Saved posted URL: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/ at 2024-10-21 04:13:39
+2024-10-21 04:13:39,420 - INFO - Tweet link saved successfully.
+2024-10-21 04:13:39,420 - INFO - Sleeping for 6 minutes and 53 seconds.
+2024-10-21 04:20:32,420 - INFO - Input content - content='<p>This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 04:20:32,421 - INFO - clean content - clean_content='This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 04:20:32,421 - INFO - Generating summary with BART model
+2024-10-21 04:20:37,142 - INFO - Generating summary with BART model
+2024-10-21 04:20:41,917 - INFO - full_tweet='This is part of TechCrunch’s ongoing Women in AI series. The series seeks to give AI-focused women..[read more👇🏼] #AI #series https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/'
+2024-10-21 04:20:42,207 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
