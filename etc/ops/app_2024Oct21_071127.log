@@ -1,0 +1,27 @@
+2024-10-21 07:11:27,111 - INFO - Starting configuration setup
+2024-10-21 07:11:27,112 - INFO - Environment variables loaded successfully
+2024-10-21 07:11:27,112 - INFO - Twitter API client initialized successfully
+2024-10-21 07:11:28,998 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 07:11:37,792 - INFO - Summarization model initialized successfully
+2024-10-21 07:11:37,792 - INFO - Starting tweet scheduling
+2024-10-21 07:11:37,792 - INFO - Tweeting process started at 2024-10-21 07:11:37.792436!
+2024-10-21 07:11:37,792 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 07:11:37,792 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 07:11:54,735 - INFO - Total entries found: 587
+2024-10-21 07:11:54,737 - INFO - Recent AI-related entries found: 8
+2024-10-21 07:11:54,737 - INFO - Input content - content='How AI and creativity work hand in hand to drive business growth.'
+2024-10-21 07:11:54,738 - INFO - clean content - clean_content='How AI and creativity work hand in hand to drive business growth.'
+2024-10-21 07:11:54,738 - INFO - Generating summary with BART model
+2024-10-21 07:12:00,115 - INFO - Generating summary with BART model
+2024-10-21 07:12:04,810 - INFO - full_tweet='How AI and creativity work hand in hand to drive business growth. How to use AI to help your business..[read more👇🏼] #AI #digital https://www.techradar.com/pro/ai-and-creativity-the-dynamic-duo-fueling-business-growth'
+2024-10-21 07:12:05,263 - INFO - Tweet posted successfully: Response(data={'id': '1848260953772552405', 'edit_history_tweet_ids': ['1848260953772552405'], 'text': 'How AI and creativity work hand in hand to drive business growth. How to use AI to help your business..[read more👇🏼] #AI #digital https://t.co/HYqqLa8SMu'}, includes={}, errors=[], meta={})
+2024-10-21 07:12:05,263 - INFO - Saved posted URL: https://www.techradar.com/pro/ai-and-creativity-the-dynamic-duo-fueling-business-growth at 2024-10-21 07:12:05
+2024-10-21 07:12:05,263 - INFO - Tweet link saved successfully.
+2024-10-21 07:12:05,263 - INFO - Sleeping for 9 minutes and 20 seconds.
+2024-10-21 07:21:25,264 - INFO - Input content - content='<p>This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 07:21:25,264 - INFO - clean content - clean_content='This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 07:21:25,264 - INFO - Generating summary with BART model
+2024-10-21 07:21:29,973 - INFO - Generating summary with BART model
+2024-10-21 07:21:34,767 - INFO - full_tweet='This is part of TechCrunch’s ongoing Women in AI series. The series seeks to give AI-focused women..[read more👇🏼] #AI #series https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/'
+2024-10-21 07:21:35,037 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
