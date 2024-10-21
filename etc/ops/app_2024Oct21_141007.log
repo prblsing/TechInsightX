@@ -1,0 +1,54 @@
+2024-10-21 14:10:07,117 - INFO - Starting configuration setup
+2024-10-21 14:10:07,118 - INFO - Environment variables loaded successfully
+2024-10-21 14:10:07,118 - INFO - Twitter API client initialized successfully
+2024-10-21 14:10:09,081 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 14:10:19,569 - INFO - Summarization model initialized successfully
+2024-10-21 14:10:19,569 - INFO - Starting tweet scheduling
+2024-10-21 14:10:19,570 - INFO - Tweeting process started at 2024-10-21 14:10:19.569983!
+2024-10-21 14:10:19,570 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 14:10:19,570 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 14:10:34,890 - INFO - Total entries found: 614
+2024-10-21 14:10:34,893 - INFO - Recent AI-related entries found: 19
+2024-10-21 14:10:34,893 - INFO - Input content - content='AI strategies are still substandard as companies continue to battle major obstacles blocking them from greater efficiency.'
+2024-10-21 14:10:34,893 - INFO - clean content - clean_content='AI strategies are still substandard as companies continue to battle major obstacles blocking them from greater efficiency.'
+2024-10-21 14:10:34,893 - INFO - Generating summary with BART model
+2024-10-21 14:10:40,733 - INFO - Generating summary with BART model
+2024-10-21 14:10:45,899 - INFO - full_tweet='AI strategies are still substandard as companies continue to battle major obstacles blocking them from..[read more👇🏼] #AI #companies https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai'
+2024-10-21 14:10:46,130 - INFO - Tweet posted successfully: Response(data={'text': 'AI strategies are still substandard as companies continue to battle major obstacles blocking them from..[read more👇🏼] #AI #companies https://t.co/EvVBQA3Pv1', 'id': '1848366318556164261', 'edit_history_tweet_ids': ['1848366318556164261']}, includes={}, errors=[], meta={})
+2024-10-21 14:10:46,131 - INFO - Saved posted URL: https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai at 2024-10-21 14:10:46
+2024-10-21 14:10:46,131 - INFO - Tweet link saved successfully.
+2024-10-21 14:10:46,131 - INFO - Sleeping for 5 minutes and 51 seconds.
+2024-10-21 14:16:37,131 - INFO - Input content - content="I'm a mattress expert, and I have tested around 90 different beds. Does AI know everything I do?"
+2024-10-21 14:16:37,131 - INFO - clean content - clean_content="I'm a mattress expert, and I have tested around 90 different beds. Does AI know everything I do?"
+2024-10-21 14:16:37,131 - INFO - Generating summary with BART model
+2024-10-21 14:16:42,217 - INFO - Generating summary with BART model
+2024-10-21 14:16:47,296 - INFO - full_tweet="I'm a mattress expert, and I have tested around 90 different beds. Does AI know everything I do? Share..[read more👇🏼] #AI #I https://www.cnet.com/health/sleep/i-asked-ai-to-find-my-next-bed-heres-how-it-compares-to-my-own-opinion-of-the-best-mattress/#ftag=CAD590a51e"
+2024-10-21 14:16:47,541 - INFO - Tweet posted successfully: Response(data={'text': "I'm a mattress expert, and I have tested around 90 different beds. Does AI know everything I do? Share..[read more👇🏼] #AI #I https://t.co/M6KuYeHdFQ", 'edit_history_tweet_ids': ['1848367834423800102'], 'id': '1848367834423800102'}, includes={}, errors=[], meta={})
+2024-10-21 14:16:47,541 - INFO - Saved posted URL: https://www.cnet.com/health/sleep/i-asked-ai-to-find-my-next-bed-heres-how-it-compares-to-my-own-opinion-of-the-best-mattress/#ftag=CAD590a51e at 2024-10-21 14:16:47
+2024-10-21 14:16:47,541 - INFO - Tweet link saved successfully.
+2024-10-21 14:16:47,541 - INFO - Sleeping for 5 minutes and 16 seconds.
+2024-10-21 14:22:03,541 - INFO - Input content - content="Microsoft envisions AI agents taking on responsibilities across the workplace more than ever before. It's releasing 10 fine-tuned agents as well as the ability to create your own."
+2024-10-21 14:22:03,542 - INFO - clean content - clean_content="Microsoft envisions AI agents taking on responsibilities across the workplace more than ever before. It's releasing 10 fine-tuned agents as well as the ability to create your own."
+2024-10-21 14:22:03,542 - INFO - Generating summary with BART model
+2024-10-21 14:22:07,957 - INFO - Generating summary with BART model
+2024-10-21 14:22:12,399 - INFO - full_tweet='Microsoft is releasing 10 fine-tuned agents as well as the ability to create your own. Microsoft..[read more👇🏼] #AI #Microsoft https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio'
+2024-10-21 14:22:12,688 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848369198063370293'], 'id': '1848369198063370293', 'text': 'Microsoft is releasing 10 fine-tuned agents as well as the ability to create your own. Microsoft..[read more👇🏼] #AI #Microsoft https://t.co/BZZ2WO2fjd'}, includes={}, errors=[], meta={})
+2024-10-21 14:22:12,688 - INFO - Saved posted URL: https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio at 2024-10-21 14:22:12
+2024-10-21 14:22:12,688 - INFO - Tweet link saved successfully.
+2024-10-21 14:22:12,688 - INFO - Sleeping for 9 minutes and 4 seconds.
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.techradar.com/phones/iphone/apple-intelligence-changed-my-life-tim-cook-says-apples-ai-is-as-innovative-as-the-ipods-click-wheel-or-the-iphones-touch-screen
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.cnet.com/tech/computing/whats-in-your-ai-california-thinks-you-should-know/#ftag=CAD590a51e
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.cnet.com/home/security/i-tested-arlos-deluxe-new-ai-that-lets-you-create-objects-to-recognize/#ftag=CAD590a51e
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.cnet.com/tech/services-and-software/how-i-used-ai-to-save-for-a-vacation/#ftag=CAD590a51e
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.techradar.com/phones/iphone/apple-intelligence-could-already-be-two-years-behind-chatgpt-as-apples-ai-gets-ready-for-launch
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.techradar.com/pro/developers-are-flocking-to-ai-tools-to-boost-productivity-but-not-everywhere
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-21 14:31:16,689 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-21 14:31:16,690 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-21 14:31:16,690 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
