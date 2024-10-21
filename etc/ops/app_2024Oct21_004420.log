@@ -1,0 +1,19 @@
+2024-10-21 00:44:20,685 - INFO - Starting configuration setup
+2024-10-21 00:44:20,685 - INFO - Environment variables loaded successfully
+2024-10-21 00:44:20,685 - INFO - Twitter API client initialized successfully
+2024-10-21 00:44:22,578 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 00:44:31,703 - INFO - Summarization model initialized successfully
+2024-10-21 00:44:31,703 - INFO - Starting tweet scheduling
+2024-10-21 00:44:31,703 - INFO - Tweeting process started at 2024-10-21 00:44:31.703846!
+2024-10-21 00:44:31,704 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 00:44:31,704 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 00:44:31,704 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 00:44:47,509 - INFO - Total entries found: 615
+2024-10-21 00:44:47,511 - INFO - Recent AI-related entries found: 8
+2024-10-21 00:44:47,512 - INFO - Input content - content='<p>This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-21 00:44:47,512 - INFO - clean content - clean_content='This is part of TechCrunch’s ongoing Women in AI series, which seeks to give AI-focused women academics and others their well-deserved time in the spotlight. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-21 00:44:47,512 - INFO - Generating summary with BART model
+2024-10-21 00:44:52,669 - INFO - Generating summary with BART model
+2024-10-21 00:44:57,153 - INFO - full_tweet='This is part of TechCrunch’s ongoing Women in AI series. The series seeks to give AI-focused women..[read more👇🏼] #AI #series https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/'
+2024-10-21 00:44:57,376 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
