@@ -1,0 +1,35 @@
+2024-10-21 18:13:18,384 - INFO - Starting configuration setup
+2024-10-21 18:13:18,384 - INFO - Environment variables loaded successfully
+2024-10-21 18:13:18,384 - INFO - Twitter API client initialized successfully
+2024-10-21 18:13:20,318 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 18:13:29,074 - INFO - Summarization model initialized successfully
+2024-10-21 18:13:29,075 - INFO - Starting tweet scheduling
+2024-10-21 18:13:29,075 - INFO - Tweeting process started at 2024-10-21 18:13:29.075101!
+2024-10-21 18:13:29,075 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 18:13:29,075 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 18:13:45,570 - INFO - Total entries found: 587
+2024-10-21 18:13:45,573 - INFO - Recent AI-related entries found: 16
+2024-10-21 18:13:45,573 - INFO - Input content - content='The Murdoch-owned media firms behind The Wall Street Journal and the New York Post are suing Perplexity, alleging the AI startup is swiping their content illegally and costing them revenue.'
+2024-10-21 18:13:45,574 - INFO - clean content - clean_content='The Murdoch-owned media firms behind The Wall Street Journal and the New York Post are suing Perplexity, alleging the AI startup is swiping their content illegally and costing them revenue.'
+2024-10-21 18:13:45,574 - INFO - Generating summary with BART model
+2024-10-21 18:13:51,196 - INFO - Generating summary with BART model
+2024-10-21 18:13:56,058 - INFO - full_tweet='The Murdoch-owned media firms behind The Wall Street Journal and the New York Post are suing Perplexity...[read more👇🏼] #startup #AI https://www.pcmag.com/news/news-corp-sues-perplexity-ai-wants-it-to-pay-up-like-openai'
+2024-10-21 18:13:56,467 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848427514785345621'], 'text': 'The Murdoch-owned media firms behind The Wall Street Journal and the New York Post are suing Perplexity...[read more👇🏼] #startup #AI https://t.co/dLRlWDTEnq', 'id': '1848427514785345621'}, includes={}, errors=[], meta={})
+2024-10-21 18:13:56,467 - INFO - Saved posted URL: https://www.pcmag.com/news/news-corp-sues-perplexity-ai-wants-it-to-pay-up-like-openai at 2024-10-21 18:13:56
+2024-10-21 18:13:56,467 - INFO - Tweet link saved successfully.
+2024-10-21 18:13:56,467 - INFO - Sleeping for 4 minutes and 32 seconds.
+2024-10-21 18:18:28,467 - INFO - This link is already posted: https://www.kdnuggets.com/2025/10/gartner/discover-the-top-ways-to-scale-your-ai-for-data-analytics-initiative
+2024-10-21 18:18:28,467 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/xai-elon-musks-ai-startup-launches-an-api/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.techradar.com/pro/us-treasury-claims-to-have-won-back-billions-of-dollars-lost-to-fraud-using-ai
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/daze-a-creative-ai-powered-messaging-app-for-gen-z-is-blowing-up-prelaunch/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://news.mit.edu/2024/making-it-easier-verify-ai-models-responses-1021
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.techradar.com/pro/if-you-dont-trust-it-youre-not-going-to-use-it-microsoft-ceo-says-ai-has-to-be-trustworthy-to-be-useful
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.techradar.com/pro/investment-in-ai-and-ai-pcs-is-now-critical-for-talent-retention
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8qn5s/r_does_aistats_do_acceptance_with_revisions/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.techradar.com/pro/workers-really-arent-sure-their-bosses-know-enough-about-ai
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.pcmag.com/news/microsoft-launching-autonomous-ai-agents-copilot-studio
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.pcmag.com/news/tiktok-parent-bytedance-confirms-intern-sabotaged-ai-training
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.wired.com/story/donald-trump-ai-safety-regulation/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 18:18:28,468 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
