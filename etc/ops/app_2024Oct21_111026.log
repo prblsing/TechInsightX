@@ -1,0 +1,48 @@
+2024-10-21 11:10:26,046 - INFO - Starting configuration setup
+2024-10-21 11:10:26,046 - INFO - Environment variables loaded successfully
+2024-10-21 11:10:26,047 - INFO - Twitter API client initialized successfully
+2024-10-21 11:10:27,939 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-21 11:10:35,841 - INFO - Summarization model initialized successfully
+2024-10-21 11:10:35,841 - INFO - Starting tweet scheduling
+2024-10-21 11:10:35,841 - INFO - Tweeting process started at 2024-10-21 11:10:35.841428!
+2024-10-21 11:10:35,841 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct21.csv
+2024-10-21 11:10:35,841 - INFO - Fetching latest tech news from RSS feeds
+2024-10-21 11:10:51,604 - INFO - Total entries found: 615
+2024-10-21 11:10:51,607 - INFO - Recent AI-related entries found: 13
+2024-10-21 11:10:51,607 - INFO - Input content - content='It might take over two years for Apple Intelligence to catch up with ChatGPT, but when it does...'
+2024-10-21 11:10:51,608 - INFO - clean content - clean_content='It might take over two years for Apple Intelligence to catch up with ChatGPT, but when it does...'
+2024-10-21 11:10:51,608 - INFO - Generating summary with BART model
+2024-10-21 11:10:56,844 - INFO - Generating summary with BART model
+2024-10-21 11:11:01,499 - INFO - full_tweet="ChatGPT will be available on Apple's next-generation iPhone and iPad. ChatGPT has been around for over..[read more👇🏼] #Apple #s https://www.techradar.com/phones/iphone/apple-intelligence-could-already-be-two-years-behind-chatgpt-as-apples-ai-gets-ready-for-launch"
+2024-10-21 11:11:01,800 - INFO - Tweet posted successfully: Response(data={'id': '1848321085680320635', 'text': "ChatGPT will be available on Apple's next-generation iPhone and iPad. ChatGPT has been around for over..[read more👇🏼] #Apple #s https://t.co/I6IkM9Npns", 'edit_history_tweet_ids': ['1848321085680320635']}, includes={}, errors=[], meta={})
+2024-10-21 11:11:01,800 - INFO - Saved posted URL: https://www.techradar.com/phones/iphone/apple-intelligence-could-already-be-two-years-behind-chatgpt-as-apples-ai-gets-ready-for-launch at 2024-10-21 11:11:01
+2024-10-21 11:11:01,800 - INFO - Tweet link saved successfully.
+2024-10-21 11:11:01,801 - INFO - Sleeping for 7 minutes and 16 seconds.
+2024-10-21 11:18:17,801 - INFO - Input content - content="Donald Trump's opposition to “woke” safety standards for artificial intelligence would likely mean the dismantling of regulations that protect Americans from misinformation, discrimination, and worse."
+2024-10-21 11:18:17,801 - INFO - clean content - clean_content="Donald Trump's opposition to “woke” safety standards for artificial intelligence would likely mean the dismantling of regulations that protect Americans from misinformation, discrimination, and worse."
+2024-10-21 11:18:17,801 - INFO - Generating summary with BART model
+2024-10-21 11:18:22,014 - INFO - Generating summary with BART model
+2024-10-21 11:18:26,216 - INFO - full_tweet='Donald Trump\'s opposition to "woke" safety standards for artificial intelligence would likely mean the..[read more👇🏼] #misinformation #discrimination https://www.wired.com/story/donald-trump-ai-safety-regulation/'
+2024-10-21 11:18:26,520 - INFO - Tweet posted successfully: Response(data={'text': 'Donald Trump\'s opposition to "woke" safety standards for artificial intelligence would likely mean the..[read more👇🏼] #misinformation #discrimination https://t.co/PLFG22my0i', 'id': '1848322951029944411', 'edit_history_tweet_ids': ['1848322951029944411']}, includes={}, errors=[], meta={})
+2024-10-21 11:18:26,520 - INFO - Saved posted URL: https://www.wired.com/story/donald-trump-ai-safety-regulation/ at 2024-10-21 11:18:26
+2024-10-21 11:18:26,520 - INFO - Tweet link saved successfully.
+2024-10-21 11:18:26,521 - INFO - Sleeping for 7 minutes and 16 seconds.
+2024-10-21 11:25:42,521 - INFO - Input content - content='Developers in the UK are less keen to use artificial intelligence in their workflows, but it could be because they’re so experienced.'
+2024-10-21 11:25:42,521 - INFO - clean content - clean_content='Developers in the UK are less keen to use artificial intelligence in their workflows, but it could be because they’re so experienced.'
+2024-10-21 11:25:42,521 - INFO - Generating summary with BART model
+2024-10-21 11:25:48,030 - INFO - Generating summary with BART model
+2024-10-21 11:25:53,540 - INFO - full_tweet='Developers in the UK are less keen to use artificial intelligence in their workflows. This could be..[read more👇🏼] #intelligence #experienced https://www.techradar.com/pro/developers-are-flocking-to-ai-tools-to-boost-productivity-but-not-everywhere'
+2024-10-21 11:25:53,818 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848324827112677526'], 'text': 'Developers in the UK are less keen to use artificial intelligence in their workflows. This could be..[read more👇🏼] #intelligence #experienced https://t.co/679nBism8Q', 'id': '1848324827112677526'}, includes={}, errors=[], meta={})
+2024-10-21 11:25:53,818 - INFO - Saved posted URL: https://www.techradar.com/pro/developers-are-flocking-to-ai-tools-to-boost-productivity-but-not-everywhere at 2024-10-21 11:25:53
+2024-10-21 11:25:53,818 - INFO - Tweet link saved successfully.
+2024-10-21 11:25:53,818 - INFO - Sleeping for 4 minutes and 45 seconds.
+2024-10-21 11:30:38,818 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g8l0vq/research_when_do_aaai_phase_2_reviewers_need_to/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://www.techradar.com/pro/ai-and-creativity-the-dynamic-duo-fueling-business-growth
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://venturebeat.com/ai/ibm-debuts-open-source-granite-3-0-llms-for-enterprise-ai/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/women-in-ai-marissa-hummon-thinks-ai-will-help-make-the-power-grid-greener/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://venturebeat.com/security/the-ai-edge-in-cybersecurity-predictive-tools-aim-to-slash-response-times/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/can-ai-sandbag-safety-checks-to-sabotage-users-yes-but-not-very-well-for-now/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/gustos-head-of-technology-says-hiring-an-army-of-specialists-is-the-wrong-approach-to-ai/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://techcrunch.com/2024/10/20/investments-in-generative-ai-startups-topped-3-9b-in-q3-2024/
+2024-10-21 11:30:38,819 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g7yzh8/d_last_week_in_medical_ai_top_llm_research/
