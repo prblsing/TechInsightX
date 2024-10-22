@@ -1,0 +1,18 @@
+2024-10-22 21:09:32,345 - INFO - Starting configuration setup
+2024-10-22 21:09:32,346 - INFO - Environment variables loaded successfully
+2024-10-22 21:09:32,346 - INFO - Twitter API client initialized successfully
+2024-10-22 21:09:34,412 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 21:09:45,071 - INFO - Summarization model initialized successfully
+2024-10-22 21:09:45,072 - INFO - Starting tweet scheduling
+2024-10-22 21:09:45,072 - INFO - Tweeting process started at 2024-10-22 21:09:45.072122!
+2024-10-22 21:09:45,072 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 21:09:45,072 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 21:10:01,308 - INFO - Total entries found: 614
+2024-10-22 21:10:01,311 - INFO - Recent AI-related entries found: 24
+2024-10-22 21:10:01,312 - INFO - Input content - content='Crucial’s new clock driver DDR5 Memory Modules promise 2x speed boost for AI PCs.'
+2024-10-22 21:10:01,312 - INFO - clean content - clean_content='Crucial’s new clock driver DDR5 Memory Modules promise 2x speed boost for AI PCs.'
+2024-10-22 21:10:01,312 - INFO - Generating summary with BART model
+2024-10-22 21:10:07,744 - INFO - Generating summary with BART model
+2024-10-22 21:10:13,403 - INFO - full_tweet="Crucial's new clock driver DDR5 Memory Modules promise 2x speed boost for AI PCs. Crucial’s new clock..[read more👇🏼] #AI #Crucial https://www.techradar.com/pro/crucials-new-ultra-fast-clock-driver-ddr5-memory-modules-bring-2x-speed-boost-for-ai-pcs-but-they-arent-cheap"
+2024-10-22 21:10:13,500 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
