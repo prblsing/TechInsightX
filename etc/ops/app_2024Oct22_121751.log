@@ -1,0 +1,63 @@
+2024-10-22 12:17:51,007 - INFO - Starting configuration setup
+2024-10-22 12:17:51,007 - INFO - Environment variables loaded successfully
+2024-10-22 12:17:51,008 - INFO - Twitter API client initialized successfully
+2024-10-22 12:17:52,969 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 12:18:03,651 - INFO - Summarization model initialized successfully
+2024-10-22 12:18:03,651 - INFO - Starting tweet scheduling
+2024-10-22 12:18:03,651 - INFO - Tweeting process started at 2024-10-22 12:18:03.651625!
+2024-10-22 12:18:03,651 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 12:18:03,651 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 12:18:24,187 - INFO - Total entries found: 615
+2024-10-22 12:18:24,189 - INFO - Recent AI-related entries found: 29
+2024-10-22 12:18:24,190 - INFO - Input content - content='IBM says its latest Granite 3.0 models are smaller than, but as powerful as, bigger models – but for a fraction of the price.'
+2024-10-22 12:18:24,190 - INFO - clean content - clean_content='IBM says its latest Granite 3.0 models are smaller than, but as powerful as, bigger models – but for a fraction of the price.'
+2024-10-22 12:18:24,190 - INFO - Generating summary with BART model
+2024-10-22 12:18:31,085 - INFO - Generating summary with BART model
+2024-10-22 12:18:37,268 - INFO - full_tweet='IBM says its latest Granite 3.0 models are smaller than, but as powerful as, bigger models – but for a..[read more👇🏼] #models #as https://www.techradar.com/pro/ibm-releases-new-ai-models-for-businesses-as-genai-competition-heats-up'
+2024-10-22 12:18:37,574 - INFO - Tweet posted successfully: Response(data={'id': '1848700484821143667', 'text': 'IBM says its latest Granite 3.0 models are smaller than, but as powerful as, bigger models – but for a..[read more👇🏼] #models #as https://t.co/Ivmbgh9TC7', 'edit_history_tweet_ids': ['1848700484821143667']}, includes={}, errors=[], meta={})
+2024-10-22 12:18:37,575 - INFO - Saved posted URL: https://www.techradar.com/pro/ibm-releases-new-ai-models-for-businesses-as-genai-competition-heats-up at 2024-10-22 12:18:37
+2024-10-22 12:18:37,575 - INFO - Tweet link saved successfully.
+2024-10-22 12:18:37,575 - INFO - Sleeping for 7 minutes and 10 seconds.
+2024-10-22 12:25:47,575 - INFO - Input content - content='<p>Earlier this year, Medal, a startup known for its video game clipping features, launched a cross-platform AI assistant called Highlight. Now, the company is spinning off Highlight into a new entity, which has raised $10 million in a funding round. General Catalyst led the funding round with Valor, SV Angel, and Conviction Embed participating in [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 12:25:47,575 - INFO - clean content - clean_content='Earlier this year, Medal, a startup known for its video game clipping features, launched a cross-platform AI assistant called Highlight. Now, the company is spinning off Highlight into a new entity, which has raised $10 million in a funding round. General Catalyst led the funding round with Valor, SV Angel, and Conviction Embed participating in […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 12:25:47,576 - INFO - Generating summary with BART model
+2024-10-22 12:25:55,981 - INFO - Generating summary with BART model
+2024-10-22 12:26:04,431 - INFO - full_tweet='Medal, a startup known for its video game clipping features, launched a cross-platform AI assistant..[read more👇🏼] #startup #AI https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/'
+2024-10-22 12:26:04,796 - INFO - Tweet posted successfully: Response(data={'id': '1848702360551645239', 'edit_history_tweet_ids': ['1848702360551645239'], 'text': 'Medal, a startup known for its video game clipping features, launched a cross-platform AI assistant..[read more👇🏼] #startup #AI https://t.co/x8CtdN2R9R'}, includes={}, errors=[], meta={})
+2024-10-22 12:26:04,796 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/ at 2024-10-22 12:26:04
+2024-10-22 12:26:04,796 - INFO - Tweet link saved successfully.
+2024-10-22 12:26:04,796 - INFO - Sleeping for 8 minutes and 54 seconds.
+2024-10-22 12:34:58,797 - INFO - Input content - content='CrewAI is one of the most popular AI agent frameworks, enabling users to quickly and simply build, deploy and iterate multi-agent “crews.”'
+2024-10-22 12:34:58,797 - INFO - clean content - clean_content='CrewAI is one of the most popular AI agent frameworks, enabling users to quickly and simply build, deploy and iterate multi-agent “crews.”'
+2024-10-22 12:34:58,797 - INFO - Generating summary with BART model
+2024-10-22 12:35:03,246 - INFO - Generating summary with BART model
+2024-10-22 12:35:07,650 - INFO - full_tweet='CrewAI is one of the most popular AI agent frameworks. It enables users to quickly and simply build,..[read more👇🏼] #AI #agent https://venturebeat.com/ai/crewai-launches-its-first-multi-agent-builder-speeding-the-way-to-agentic-ai/'
+2024-10-22 12:35:07,924 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848704638658482252'], 'id': '1848704638658482252', 'text': 'CrewAI is one of the most popular AI agent frameworks. It enables users to quickly and simply build,..[read more👇🏼] #AI #agent https://t.co/iJY0L761oa'}, includes={}, errors=[], meta={})
+2024-10-22 12:35:07,924 - INFO - Saved posted URL: https://venturebeat.com/ai/crewai-launches-its-first-multi-agent-builder-speeding-the-way-to-agentic-ai/ at 2024-10-22 12:35:07
+2024-10-22 12:35:07,924 - INFO - Tweet link saved successfully.
+2024-10-22 12:35:07,924 - INFO - Sleeping for 7 minutes and 26 seconds.
+2024-10-22 12:42:33,924 - INFO - Input content - content='Available under the permissive Apache 2.0 license, Mochi 1 offers users free access to cutting-edge video generation capabilities...'
+2024-10-22 12:42:33,925 - INFO - clean content - clean_content='Available under the permissive Apache 2.0 license, Mochi 1 offers users free access to cutting-edge video generation capabilities...'
+2024-10-22 12:42:33,925 - INFO - Generating summary with BART model
+2024-10-22 12:42:38,835 - INFO - Generating summary with BART model
+2024-10-22 12:42:43,661 - INFO - full_tweet='Mochi 1 offers users free access to cutting-edge video generation capabilities. Available under the..[read more👇🏼] #Mochi #free https://venturebeat.com/ai/video-ai-startup-genmo-launches-mochi-1-an-open-source-model-to-rival-runway-kling-and-others/'
+2024-10-22 12:42:43,939 - INFO - Tweet posted successfully: Response(data={'id': '1848706551328215299', 'edit_history_tweet_ids': ['1848706551328215299'], 'text': 'Mochi 1 offers users free access to cutting-edge video generation capabilities. Available under the..[read more👇🏼] #Mochi #free https://t.co/Xown8e1PL8'}, includes={}, errors=[], meta={})
+2024-10-22 12:42:43,940 - INFO - Saved posted URL: https://venturebeat.com/ai/video-ai-startup-genmo-launches-mochi-1-an-open-source-model-to-rival-runway-kling-and-others/ at 2024-10-22 12:42:43
+2024-10-22 12:42:43,940 - INFO - Tweet link saved successfully.
+2024-10-22 12:42:43,940 - INFO - Sleeping for 6 minutes and 2 seconds.
+2024-10-22 12:48:45,940 - INFO - Input content - content='<p>Zoom is partnering with Suki, an AI medical note-taking app, to let doctors use an AI scribe that will take notes of their consultations with patients.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 12:48:45,940 - INFO - clean content - clean_content='Zoom is partnering with Suki, an AI medical note-taking app, to let doctors use an AI scribe that will take notes of their consultations with patients. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 12:48:45,940 - INFO - Generating summary with BART model
+2024-10-22 12:48:50,201 - INFO - Generating summary with BART model
+2024-10-22 12:48:54,486 - INFO - full_tweet='Zoom is partnering with Suki, an AI medical note-taking app, to let doctors use an AI scribe that will..[read more👇🏼] #AI #app https://techcrunch.com/2024/10/22/zoom-partners-with-suki-to-offer-ai-powered-medical-note-taking/'
+2024-10-22 12:48:54,765 - INFO - Tweet posted successfully: Response(data={'text': 'Zoom is partnering with Suki, an AI medical note-taking app, to let doctors use an AI scribe that will..[read more👇🏼] #AI #app https://t.co/Ez8xQWZ2Nc', 'id': '1848708106651586821', 'edit_history_tweet_ids': ['1848708106651586821']}, includes={}, errors=[], meta={})
+2024-10-22 12:48:54,765 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/zoom-partners-with-suki-to-offer-ai-powered-medical-note-taking/ at 2024-10-22 12:48:54
+2024-10-22 12:48:54,765 - INFO - Tweet link saved successfully.
+2024-10-22 12:48:54,765 - INFO - Sleeping for 6 minutes and 18 seconds.
+2024-10-22 12:55:12,766 - INFO - Input content - content='As the holiday season draws ever closer, the amount of cyberattacks companies are experiencing grows.'
+2024-10-22 12:55:12,766 - INFO - clean content - clean_content='As the holiday season draws ever closer, the amount of cyberattacks companies are experiencing grows.'
+2024-10-22 12:55:12,766 - INFO - Generating summary with BART model
+2024-10-22 12:55:16,874 - INFO - Generating summary with BART model
+2024-10-22 12:55:21,022 - INFO - full_tweet='As the holiday season draws ever closer, the amount of cyberattacks companies are experiencing grows. The..[read more👇🏼] #season #closer https://www.techradar.com/pro/security/ai-tools-are-being-increasingly-abused-to-launch-cyberattacks'
+2024-10-22 12:55:21,197 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
