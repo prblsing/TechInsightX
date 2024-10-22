@@ -1,0 +1,31 @@
+2024-10-22 09:10:54,385 - INFO - Starting configuration setup
+2024-10-22 09:10:54,385 - INFO - Environment variables loaded successfully
+2024-10-22 09:10:54,386 - INFO - Twitter API client initialized successfully
+2024-10-22 09:10:56,302 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 09:11:04,042 - INFO - Summarization model initialized successfully
+2024-10-22 09:11:04,042 - INFO - Starting tweet scheduling
+2024-10-22 09:11:04,042 - INFO - Tweeting process started at 2024-10-22 09:11:04.042924!
+2024-10-22 09:11:04,043 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 09:11:04,043 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 09:11:19,150 - INFO - Total entries found: 614
+2024-10-22 09:11:19,152 - INFO - Recent AI-related entries found: 27
+2024-10-22 09:11:19,153 - INFO - Input content - content='NetVRk, a cross-platform AI and Web3-driven metaverse, unveiled its platform for building virtual worlds with Unreal Engine 5.'
+2024-10-22 09:11:19,153 - INFO - clean content - clean_content='NetVRk, a cross-platform AI and Web3-driven metaverse, unveiled its platform for building virtual worlds with Unreal Engine 5.'
+2024-10-22 09:11:19,153 - INFO - Generating summary with BART model
+2024-10-22 09:11:24,891 - INFO - Generating summary with BART model
+2024-10-22 09:11:29,975 - INFO - full_tweet='NetVRk, a cross-platform AI and Web3-driven metaverse, unveiled its platform for building virtual worlds..[read more👇🏼] #AI #platform https://venturebeat.com/metaverse/netvrk-launches-its-ai-powered-metaverse-with-unreal-engine-5-graphics/'
+2024-10-22 09:11:30,248 - INFO - Tweet posted successfully: Response(data={'id': '1848653393914450355', 'text': 'NetVRk, a cross-platform AI and Web3-driven metaverse, unveiled its platform for building virtual worlds..[read more👇🏼] #AI #platform https://t.co/D3YFPL5J01', 'edit_history_tweet_ids': ['1848653393914450355']}, includes={}, errors=[], meta={})
+2024-10-22 09:11:30,248 - INFO - Saved posted URL: https://venturebeat.com/metaverse/netvrk-launches-its-ai-powered-metaverse-with-unreal-engine-5-graphics/ at 2024-10-22 09:11:30
+2024-10-22 09:11:30,248 - INFO - Tweet link saved successfully.
+2024-10-22 09:11:30,248 - INFO - Sleeping for 7 minutes and 2 seconds.
+2024-10-22 09:18:32,249 - INFO - This link is already posted: https://www.techradar.com/pro/five-ways-ai-and-data-is-making-the-difference-in-the-premier-league
+2024-10-22 09:18:32,249 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/
+2024-10-22 09:18:32,249 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools
+2024-10-22 09:18:32,249 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/
+2024-10-22 09:18:32,249 - INFO - Input content - content='<p>The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant&#8217;s earnings call last week that Ray-Ban Meta proved to be a significant driver for [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 09:18:32,249 - INFO - clean content - clean_content='The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant’s earnings call last week that Ray-Ban Meta proved to be a significant driver for […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 09:18:32,249 - INFO - Generating summary with BART model
+2024-10-22 09:18:39,620 - INFO - Generating summary with BART model
+2024-10-22 09:18:46,963 - INFO - full_tweet='Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe,..[read more👇🏼] #Ray #Ban https://techcrunch.com/2024/10/21/metas-smart-glasses-outsell-traditional-ray-bans-in-some-stores-even-before-ai-features-roll-out/'
+2024-10-22 09:18:47,122 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
