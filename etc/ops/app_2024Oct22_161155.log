@@ -1,0 +1,69 @@
+2024-10-22 16:11:55,691 - INFO - Starting configuration setup
+2024-10-22 16:11:55,691 - INFO - Environment variables loaded successfully
+2024-10-22 16:11:55,691 - INFO - Twitter API client initialized successfully
+2024-10-22 16:11:57,590 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 16:12:05,572 - INFO - Summarization model initialized successfully
+2024-10-22 16:12:05,572 - INFO - Starting tweet scheduling
+2024-10-22 16:12:05,572 - INFO - Tweeting process started at 2024-10-22 16:12:05.572952!
+2024-10-22 16:12:05,573 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 16:12:05,573 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 16:12:20,793 - INFO - Total entries found: 614
+2024-10-22 16:12:20,796 - INFO - Recent AI-related entries found: 29
+2024-10-22 16:12:20,796 - INFO - Input content - content='Tired of endless job applications? Discover how AI is transforming the job hunt and helping people land their dream careers with just a single click.'
+2024-10-22 16:12:20,797 - INFO - clean content - clean_content='Tired of endless job applications? Discover how AI is transforming the job hunt and helping people land their dream careers with just a single click.'
+2024-10-22 16:12:20,797 - INFO - Generating summary with BART model
+2024-10-22 16:12:26,072 - INFO - Generating summary with BART model
+2024-10-22 16:12:30,633 - INFO - full_tweet='AI is transforming the job hunt and helping people land their dream careers with just a single click...[read more👇🏼] #AI #job https://www.kdnuggets.com/get-hired-fast-trending-ai-tool-to-find-and-apply-for-your-dream-job'
+2024-10-22 16:12:30,935 - INFO - Tweet posted successfully: Response(data={'text': 'AI is transforming the job hunt and helping people land their dream careers with just a single click...[read more👇🏼] #AI #job https://t.co/ng2lJOQXrF', 'edit_history_tweet_ids': ['1848759344956834039'], 'id': '1848759344956834039'}, includes={}, errors=[], meta={})
+2024-10-22 16:12:30,935 - INFO - Saved posted URL: https://www.kdnuggets.com/get-hired-fast-trending-ai-tool-to-find-and-apply-for-your-dream-job at 2024-10-22 16:12:30
+2024-10-22 16:12:30,935 - INFO - Tweet link saved successfully.
+2024-10-22 16:12:30,935 - INFO - Sleeping for 5 minutes and 20 seconds.
+2024-10-22 16:17:50,936 - INFO - Input content - content='<p>What do the actor Kevin Bacon, the novelist Kazuo Ishiguro, the musician Robert Smith, and the journalist and historian Sidney Blumenthal have in common? They are among the 11,500 signatories of a petition against unlicensed use of creative works for AI training. “The unlicensed use of creative works for training generative AI is a major, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 16:17:50,936 - INFO - clean content - clean_content='What do the actor Kevin Bacon, the novelist Kazuo Ishiguro, the musician Robert Smith, and the journalist and historian Sidney Blumenthal have in common? They are among the 11,500 signatories of a petition against unlicensed use of creative works for AI training. “The unlicensed use of creative works for training generative AI is a major, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 16:17:50,936 - INFO - Generating summary with BART model
+2024-10-22 16:17:56,659 - INFO - Generating summary with BART model
+2024-10-22 16:18:02,401 - INFO - full_tweet='11,500 sign petition against unlicensed use of creative works for AI training. Actor Kevin Bacon, the..[read more👇🏼] #AI #signatories https://techcrunch.com/2024/10/22/thousands-of-creatives-sign-petition-against-ai-data-scraping/'
+2024-10-22 16:18:02,710 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848760736475943188'], 'text': '11,500 sign petition against unlicensed use of creative works for AI training. Actor Kevin Bacon, the..[read more👇🏼] #AI #signatories https://t.co/7qpoO3Xpxm', 'id': '1848760736475943188'}, includes={}, errors=[], meta={})
+2024-10-22 16:18:02,710 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/thousands-of-creatives-sign-petition-against-ai-data-scraping/ at 2024-10-22 16:18:02
+2024-10-22 16:18:02,710 - INFO - Tweet link saved successfully.
+2024-10-22 16:18:02,710 - INFO - Sleeping for 6 minutes and 1 seconds.
+2024-10-22 16:24:03,710 - INFO - Input content - content="Burned out from wedding planning, I turned to ChatGPT to help with the last item on my to-do list. Here's how I saved hours of work and still gave each card a personal touch."
+2024-10-22 16:24:03,711 - INFO - clean content - clean_content="Burned out from wedding planning, I turned to ChatGPT to help with the last item on my to-do list. Here's how I saved hours of work and still gave each card a personal touch."
+2024-10-22 16:24:03,711 - INFO - Generating summary with BART model
+2024-10-22 16:24:08,361 - INFO - Generating summary with BART model
+2024-10-22 16:24:13,007 - INFO - full_tweet='ChatGPT is a free online chat app that lets users create and manage their own chat accounts. ChatGPT has..[read more👇🏼] #app #chat https://www.pcmag.com/articles/insincere-or-ingenious-how-ai-helped-me-crank-out-50-thank-you-notes'
+2024-10-22 16:24:13,276 - INFO - Tweet posted successfully: Response(data={'id': '1848762290843025674', 'text': 'ChatGPT is a free online chat app that lets users create and manage their own chat accounts. ChatGPT has..[read more👇🏼] #app #chat https://t.co/5sxvzDFXdh', 'edit_history_tweet_ids': ['1848762290843025674']}, includes={}, errors=[], meta={})
+2024-10-22 16:24:13,276 - INFO - Saved posted URL: https://www.pcmag.com/articles/insincere-or-ingenious-how-ai-helped-me-crank-out-50-thank-you-notes at 2024-10-22 16:24:13
+2024-10-22 16:24:13,276 - INFO - Tweet link saved successfully.
+2024-10-22 16:24:13,276 - INFO - Sleeping for 7 minutes and 35 seconds.
+2024-10-22 16:31:48,276 - INFO - Input content - content='<p>One of the only U.S. government offices dedicated to assessing AI safety is in danger of being dismantled if Congress doesn&#8217;t choose to authorize it. The U.S. AI Safety Institute (AISI), a federal government body that studies risks in AI systems, was created in November 2023 as a part of President Joe Biden&#8217;s AI Executive [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 16:31:48,277 - INFO - clean content - clean_content='One of the only U.S. government offices dedicated to assessing AI safety is in danger of being dismantled if Congress doesn’t choose to authorize it. The U.S. AI Safety Institute (AISI), a federal government body that studies risks in AI systems, was created in November 2023 as a part of President Joe Biden’s AI Executive […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 16:31:48,277 - INFO - Generating summary with BART model
+2024-10-22 16:31:56,065 - INFO - Generating summary with BART model
+2024-10-22 16:32:03,881 - INFO - full_tweet='The U.S. AI Safety Institute (AISI) was created in November 2023 as a part of President Joe Biden’s AI..[read more👇🏼] #AI #AISI https://techcrunch.com/2024/10/22/the-u-s-ai-safety-institute-stands-on-shaky-ground/'
+2024-10-22 16:32:04,169 - INFO - Tweet posted successfully: Response(data={'id': '1848764265777295600', 'text': 'The U.S. AI Safety Institute (AISI) was created in November 2023 as a part of President Joe Biden’s AI..[read more👇🏼] #AI #AISI https://t.co/gjSi0DEE5o', 'edit_history_tweet_ids': ['1848764265777295600']}, includes={}, errors=[], meta={})
+2024-10-22 16:32:04,169 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/the-u-s-ai-safety-institute-stands-on-shaky-ground/ at 2024-10-22 16:32:04
+2024-10-22 16:32:04,169 - INFO - Tweet link saved successfully.
+2024-10-22 16:32:04,170 - INFO - Sleeping for 5 minutes and 7 seconds.
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://www.techradar.com/pro/microsoft-will-let-you-create-your-own-ai-agents-to-tackle-the-toughest-work-tasks
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://www.wired.com/story/anthropic-ai-agent/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://venturebeat.com/ai/stable-diffusion-3-5-debuts-as-stability-ai-aims-to-improve-open-models-for-generating-images/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://venturebeat.com/ai/anthropic-new-ai-can-use-computers-like-a-human-redefining-automation-for-enterprises/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://www.techradar.com/pro/ethical-ai-considerations-ahead-of-regulations
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://www.kdnuggets.com/deeplearning-ai-dropped-a-new-course
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://venturebeat.com/ai/asanas-ai-studio-brings-agents-directly-to-workflow-management/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://venturebeat.com/ai/generative-ai-grows-17-in-2024-but-data-quality-plummets-key-findings-from-appens-state-of-ai-report/
+2024-10-22 16:37:11,170 - INFO - This link is already posted: https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/
+2024-10-22 16:37:11,171 - INFO - This link is already posted: https://venturebeat.com/ai/crewai-launches-its-first-multi-agent-builder-speeding-the-way-to-agentic-ai/
+2024-10-22 16:37:11,171 - INFO - This link is already posted: https://venturebeat.com/ai/video-ai-startup-genmo-launches-mochi-1-an-open-source-model-to-rival-runway-kling-and-others/
+2024-10-22 16:37:11,171 - INFO - This link is already posted: https://venturebeat.com/metaverse/netvrk-launches-its-ai-powered-metaverse-with-unreal-engine-5-graphics/
+2024-10-22 16:37:11,171 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/
+2024-10-22 16:37:11,171 - INFO - Input content - content='In a new copyright lawsuit against AI startup Perplexity, Dow Jones and the New York Post argue that hallucinating fake news and attributing it to real papers is illegal.'
+2024-10-22 16:37:11,171 - INFO - clean content - clean_content='In a new copyright lawsuit against AI startup Perplexity, Dow Jones and the New York Post argue that hallucinating fake news and attributing it to real papers is illegal.'
+2024-10-22 16:37:11,171 - INFO - Generating summary with BART model
+2024-10-22 16:37:16,106 - INFO - Generating summary with BART model
+2024-10-22 16:37:21,050 - INFO - full_tweet='Dow Jones and the New York Post are suing AI startup Perplexity. They argue that hallucinating fake news..[read more👇🏼] #startup #AI https://www.wired.com/story/dow-jones-new-york-post-sue-perplexity/'
+2024-10-22 16:37:21,213 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
