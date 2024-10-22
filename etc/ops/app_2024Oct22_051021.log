@@ -1,0 +1,45 @@
+2024-10-22 05:10:21,143 - INFO - Starting configuration setup
+2024-10-22 05:10:21,144 - INFO - Environment variables loaded successfully
+2024-10-22 05:10:21,144 - INFO - Twitter API client initialized successfully
+2024-10-22 05:10:23,083 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 05:10:30,899 - INFO - Summarization model initialized successfully
+2024-10-22 05:10:30,899 - INFO - Starting tweet scheduling
+2024-10-22 05:10:30,899 - INFO - Tweeting process started at 2024-10-22 05:10:30.899826!
+2024-10-22 05:10:30,900 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 05:10:30,900 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 05:10:46,611 - INFO - Total entries found: 614
+2024-10-22 05:10:46,614 - INFO - Recent AI-related entries found: 28
+2024-10-22 05:10:46,615 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I present a method for determining whether an image is the output of a diffusion-to-text image generator. </p> <p>Convert all pixels to an absolute value using the following formula, where R, G, and B are the red green and blue components of a pixel.</p> <p><code>N(i) = ( ( Ri + Gi + Bi ) / 382.5 ) - 1.0</code> </p> <p>Let S denote the value obtained by summing all the N(i) pixels after normalization over the entire image. Interpret ,</p> <ul> <li><p>S is very far from zero. This image is real and not AI generated. </p></li> <li><p>S is very close to zero. This image is plausibly AI generated. But this could be a false negative in some cases.</p></li> </ul> <p>Has anyone tried this? </p> <p>Alternatively, it may be possible to identify an AI generated image by means of examining the profile of its histogram</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/moschles"> /u/moschles </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/">[comments]</a></span>'
+2024-10-22 05:10:46,615 - INFO - clean content - clean_content='I present a method for determining whether an image is the output of a diffusion-to-text image generator. Convert all pixels to an absolute value using the following formula, where R, G, and B are the red green and blue components of a pixel. N(i) = ( ( Ri + Gi + Bi ) / 382.5 ) - 1.0 Let S denote the value obtained by summing all the N(i) pixels after normalization over the entire image. Interpret , S is very far from zero. This image is real and not AI generated. S is very close to zero. This image is plausibly AI generated. But this could be a false negative in some cases. Has anyone tried this? Alternatively, it may be possible to identify an AI generated image by means of examining the profile of its histogram   submitted by   /u/moschles [link]   [comments]'
+2024-10-22 05:10:46,615 - INFO - Generating summary with BART model
+2024-10-22 05:10:54,081 - INFO - Generating summary with BART model
+2024-10-22 05:11:00,862 - INFO - full_tweet='I present a method for determining whether an image is the output of a diffusion-to-text image generator...[read more👇🏼] #image #determining https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/'
+2024-10-22 05:11:01,128 - INFO - Tweet posted successfully: Response(data={'id': '1848592873903526337', 'text': 'I present a method for determining whether an image is the output of a diffusion-to-text image generator...[read more👇🏼] #image #determining https://t.co/4kfnAiLszO', 'edit_history_tweet_ids': ['1848592873903526337']}, includes={}, errors=[], meta={})
+2024-10-22 05:11:01,129 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/ at 2024-10-22 05:11:01
+2024-10-22 05:11:01,129 - INFO - Tweet link saved successfully.
+2024-10-22 05:11:01,129 - INFO - Sleeping for 7 minutes and 57 seconds.
+2024-10-22 05:18:58,129 - INFO - Input content - content='Midjourney deploys new AI image editor.'
+2024-10-22 05:18:58,129 - INFO - clean content - clean_content='Midjourney deploys new AI image editor.'
+2024-10-22 05:18:58,129 - INFO - Generating summary with BART model
+2024-10-22 05:19:02,358 - INFO - Generating summary with BART model
+2024-10-22 05:19:06,582 - INFO - full_tweet='Midjourney deploys new AI image editor. Midjourney.com is a new, open-source image editor created with..[read more👇🏼] #AI #Midjourney https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools'
+2024-10-22 05:19:06,893 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848594911265718272'], 'text': 'Midjourney deploys new AI image editor. https://t.co/tgUkOkYhDw is a new, open-source image editor created with..[read more👇🏼] #AI #Midjourney https://t.co/P3wweZS9Z5', 'id': '1848594911265718272'}, includes={}, errors=[], meta={})
+2024-10-22 05:19:06,893 - INFO - Saved posted URL: https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools at 2024-10-22 05:19:06
+2024-10-22 05:19:06,893 - INFO - Tweet link saved successfully.
+2024-10-22 05:19:06,893 - INFO - Sleeping for 7 minutes and 19 seconds.
+2024-10-22 05:26:25,893 - INFO - Input content - content="<p>India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-22 05:26:25,893 - INFO - clean content - clean_content="India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-22 05:26:25,894 - INFO - Generating summary with BART model
+2024-10-22 05:26:30,348 - INFO - Generating summary with BART model
+2024-10-22 05:26:34,780 - INFO - full_tweet="India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering. The..[read more👇🏼] #AI #India https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/"
+2024-10-22 05:26:35,079 - INFO - Tweet posted successfully: Response(data={'id': '1848596791156945194', 'edit_history_tweet_ids': ['1848596791156945194'], 'text': "India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering. The..[read more👇🏼] #AI #India https://t.co/okG2SBbyGA"}, includes={}, errors=[], meta={})
+2024-10-22 05:26:35,079 - INFO - Saved posted URL: https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/ at 2024-10-22 05:26:35
+2024-10-22 05:26:35,079 - INFO - Tweet link saved successfully.
+2024-10-22 05:26:35,079 - INFO - Sleeping for 7 minutes and 12 seconds.
+2024-10-22 05:33:47,080 - INFO - Input content - content='<p>The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant&#8217;s earnings call last week that Ray-Ban Meta proved to be a significant driver for [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 05:33:47,080 - INFO - clean content - clean_content='The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant’s earnings call last week that Ray-Ban Meta proved to be a significant driver for […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 05:33:47,080 - INFO - Generating summary with BART model
+2024-10-22 05:33:54,278 - INFO - Generating summary with BART model
+2024-10-22 05:34:01,486 - INFO - full_tweet='Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe,..[read more👇🏼] #Ray #Ban https://techcrunch.com/2024/10/21/metas-smart-glasses-outsell-traditional-ray-bans-in-some-stores-even-before-ai-features-roll-out/'
+2024-10-22 05:34:01,684 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
