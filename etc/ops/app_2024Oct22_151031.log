@@ -1,0 +1,96 @@
+2024-10-22 15:10:31,643 - INFO - Starting configuration setup
+2024-10-22 15:10:31,643 - INFO - Environment variables loaded successfully
+2024-10-22 15:10:31,643 - INFO - Twitter API client initialized successfully
+2024-10-22 15:10:33,538 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 15:10:44,137 - INFO - Summarization model initialized successfully
+2024-10-22 15:10:44,138 - INFO - Starting tweet scheduling
+2024-10-22 15:10:44,138 - INFO - Tweeting process started at 2024-10-22 15:10:44.138278!
+2024-10-22 15:10:44,138 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 15:10:44,138 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 15:11:04,234 - INFO - Total entries found: 614
+2024-10-22 15:11:04,236 - INFO - Recent AI-related entries found: 29
+2024-10-22 15:11:04,237 - INFO - Input content - content='Microsoft envisions a world where custom and prebuilt AI-powered agents take the stress out of work tasks.'
+2024-10-22 15:11:04,237 - INFO - clean content - clean_content='Microsoft envisions a world where custom and prebuilt AI-powered agents take the stress out of work tasks.'
+2024-10-22 15:11:04,237 - INFO - Generating summary with BART model
+2024-10-22 15:11:10,194 - INFO - Generating summary with BART model
+2024-10-22 15:11:15,535 - INFO - full_tweet='Microsoft envisions a world where custom and prebuilt AI-powered agents take the stress out of work..[read more👇🏼] #AI #Microsoft https://www.techradar.com/pro/microsoft-will-let-you-create-your-own-ai-agents-to-tackle-the-toughest-work-tasks'
+2024-10-22 15:11:15,852 - INFO - Tweet posted successfully: Response(data={'id': '1848743930554397103', 'text': 'Microsoft envisions a world where custom and prebuilt AI-powered agents take the stress out of work..[read more👇🏼] #AI #Microsoft https://t.co/CTe8EmKjAm', 'edit_history_tweet_ids': ['1848743930554397103']}, includes={}, errors=[], meta={})
+2024-10-22 15:11:15,852 - INFO - Saved posted URL: https://www.techradar.com/pro/microsoft-will-let-you-create-your-own-ai-agents-to-tackle-the-toughest-work-tasks at 2024-10-22 15:11:15
+2024-10-22 15:11:15,852 - INFO - Tweet link saved successfully.
+2024-10-22 15:11:15,852 - INFO - Sleeping for 3 minutes and 56 seconds.
+2024-10-22 15:15:11,852 - INFO - Input content - content='<p>Anthropic has released an updated version of its Claude 3.5 Sonnet model with a new Computer Use feature that can interact with apps on a PC.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 15:15:11,853 - INFO - clean content - clean_content='Anthropic has released an updated version of its Claude 3.5 Sonnet model with a new Computer Use feature that can interact with apps on a PC. © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 15:15:11,853 - INFO - Generating summary with BART model
+2024-10-22 15:15:16,168 - INFO - Generating summary with BART model
+2024-10-22 15:15:20,435 - INFO - full_tweet='Anthropic has released an updated version of its Claude 3.5 Sonnet model. It has a new Computer Use..[read more👇🏼] #Computer #Anthropic https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/'
+2024-10-22 15:15:20,635 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848744957282291781'], 'id': '1848744957282291781', 'text': 'Anthropic has released an updated version of its Claude 3.5 Sonnet model. It has a new Computer Use..[read more👇🏼] #Computer #Anthropic https://t.co/6FjZBWldiH'}, includes={}, errors=[], meta={})
+2024-10-22 15:15:20,635 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/anthropics-new-ai-can-control-your-pc/ at 2024-10-22 15:15:20
+2024-10-22 15:15:20,636 - INFO - Tweet link saved successfully.
+2024-10-22 15:15:20,636 - INFO - Sleeping for 7 minutes and 59 seconds.
+2024-10-22 15:23:19,636 - INFO - Input content - content='Claude is the first major AI model to be able to take control of a computer to do useful work.'
+2024-10-22 15:23:19,636 - INFO - clean content - clean_content='Claude is the first major AI model to be able to take control of a computer to do useful work.'
+2024-10-22 15:23:19,636 - INFO - Generating summary with BART model
+2024-10-22 15:23:24,558 - INFO - Generating summary with BART model
+2024-10-22 15:23:29,467 - INFO - full_tweet='Claude is the first major AI model to be able to take control of a computer to do useful work. He is also..[read more👇🏼] #AI #computer https://www.wired.com/story/anthropic-ai-agent/'
+2024-10-22 15:23:29,756 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848747008808661010'], 'id': '1848747008808661010', 'text': 'Claude is the first major AI model to be able to take control of a computer to do useful work. He is also..[read more👇🏼] #AI #computer https://t.co/cbPsIOHC7o'}, includes={}, errors=[], meta={})
+2024-10-22 15:23:29,756 - INFO - Saved posted URL: https://www.wired.com/story/anthropic-ai-agent/ at 2024-10-22 15:23:29
+2024-10-22 15:23:29,756 - INFO - Tweet link saved successfully.
+2024-10-22 15:23:29,756 - INFO - Sleeping for 7 minutes and 34 seconds.
+2024-10-22 15:31:03,757 - INFO - Input content - content='Stability AI is looking to retake the lead in text to image generative AI with Stable Diffusion 3.5.'
+2024-10-22 15:31:03,757 - INFO - clean content - clean_content='Stability AI is looking to retake the lead in text to image generative AI with Stable Diffusion 3.5.'
+2024-10-22 15:31:03,757 - INFO - Generating summary with BART model
+2024-10-22 15:31:08,991 - INFO - Generating summary with BART model
+2024-10-22 15:31:14,242 - INFO - full_tweet='Stability AI is looking to retake the lead in text to image generative AI with Stable Diffusion 3.5...[read more👇🏼] #AI #generative https://venturebeat.com/ai/stable-diffusion-3-5-debuts-as-stability-ai-aims-to-improve-open-models-for-generating-images/'
+2024-10-22 15:31:14,586 - INFO - Tweet posted successfully: Response(data={'id': '1848748958396698682', 'edit_history_tweet_ids': ['1848748958396698682'], 'text': 'Stability AI is looking to retake the lead in text to image generative AI with Stable Diffusion 3.5...[read more👇🏼] #AI #generative https://t.co/Xzsi3aFhHb'}, includes={}, errors=[], meta={})
+2024-10-22 15:31:14,586 - INFO - Saved posted URL: https://venturebeat.com/ai/stable-diffusion-3-5-debuts-as-stability-ai-aims-to-improve-open-models-for-generating-images/ at 2024-10-22 15:31:14
+2024-10-22 15:31:14,586 - INFO - Tweet link saved successfully.
+2024-10-22 15:31:14,586 - INFO - Sleeping for 9 minutes and 32 seconds.
+2024-10-22 15:40:46,586 - INFO - Input content - content='Anthropic\'s new AI, Claude 3.5 Sonnet, introduces groundbreaking "Computer Use" capabilities, allowing AI to interact with applications and complete complex tasks, potentially transforming enterprise workflows.'
+2024-10-22 15:40:46,587 - INFO - clean content - clean_content='Anthropic\'s new AI, Claude 3.5 Sonnet, introduces groundbreaking "Computer Use" capabilities, allowing AI to interact with applications and complete complex tasks, potentially transforming enterprise workflows.'
+2024-10-22 15:40:46,587 - INFO - Generating summary with BART model
+2024-10-22 15:40:50,893 - INFO - Generating summary with BART model
+2024-10-22 15:40:55,159 - INFO - full_tweet='Anthropic\'s new AI, Claude 3.5 Sonnet, introduces groundbreaking "Computer Use" capabilities. This will..[read more👇🏼] #AI #Computer https://venturebeat.com/ai/anthropic-new-ai-can-use-computers-like-a-human-redefining-automation-for-enterprises/'
+2024-10-22 15:40:55,499 - INFO - Tweet posted successfully: Response(data={'text': 'Anthropic\'s new AI, Claude 3.5 Sonnet, introduces groundbreaking "Computer Use" capabilities. This will..[read more👇🏼] #AI #Computer https://t.co/FHj4cb6i64', 'edit_history_tweet_ids': ['1848751394892996887'], 'id': '1848751394892996887'}, includes={}, errors=[], meta={})
+2024-10-22 15:40:55,499 - INFO - Saved posted URL: https://venturebeat.com/ai/anthropic-new-ai-can-use-computers-like-a-human-redefining-automation-for-enterprises/ at 2024-10-22 15:40:55
+2024-10-22 15:40:55,499 - INFO - Tweet link saved successfully.
+2024-10-22 15:40:55,499 - INFO - Sleeping for 4 minutes and 7 seconds.
+2024-10-22 15:45:02,500 - INFO - Input content - content='As AI advances at breakneck speed, we must prioritize responsible design and development of AI.'
+2024-10-22 15:45:02,500 - INFO - clean content - clean_content='As AI advances at breakneck speed, we must prioritize responsible design and development of AI.'
+2024-10-22 15:45:02,500 - INFO - Generating summary with BART model
+2024-10-22 15:45:06,576 - INFO - Generating summary with BART model
+2024-10-22 15:45:10,597 - INFO - full_tweet='As AI advances at breakneck speed, we must prioritize responsible design and development of AI. We need..[read more👇🏼] #AI #responsible https://www.techradar.com/pro/ethical-ai-considerations-ahead-of-regulations'
+2024-10-22 15:45:10,803 - INFO - Tweet posted successfully: Response(data={'id': '1848752465761735142', 'edit_history_tweet_ids': ['1848752465761735142'], 'text': 'As AI advances at breakneck speed, we must prioritize responsible design and development of AI. We need..[read more👇🏼] #AI #responsible https://t.co/5UyDI71rD9'}, includes={}, errors=[], meta={})
+2024-10-22 15:45:10,803 - INFO - Saved posted URL: https://www.techradar.com/pro/ethical-ai-considerations-ahead-of-regulations at 2024-10-22 15:45:10
+2024-10-22 15:45:10,804 - INFO - Tweet link saved successfully.
+2024-10-22 15:45:10,804 - INFO - Sleeping for 7 minutes and 58 seconds.
+2024-10-22 15:53:08,804 - INFO - Input content - content='With the development of AI technologies and tools, the best one can do for their career is stay ahead of the game and continue to upskill.'
+2024-10-22 15:53:08,804 - INFO - clean content - clean_content='With the development of AI technologies and tools, the best one can do for their career is stay ahead of the game and continue to upskill.'
+2024-10-22 15:53:08,804 - INFO - Generating summary with BART model
+2024-10-22 15:53:14,194 - INFO - Generating summary with BART model
+2024-10-22 15:53:19,584 - INFO - full_tweet='With the development of AI technologies and tools, the best one can do for their career is stay ahead of..[read more👇🏼] #AI #technologies https://www.kdnuggets.com/deeplearning-ai-dropped-a-new-course'
+2024-10-22 15:53:19,893 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1848754517195821405'], 'id': '1848754517195821405', 'text': 'With the development of AI technologies and tools, the best one can do for their career is stay ahead of..[read more👇🏼] #AI #technologies https://t.co/M5YiZYBdiT'}, includes={}, errors=[], meta={})
+2024-10-22 15:53:19,893 - INFO - Saved posted URL: https://www.kdnuggets.com/deeplearning-ai-dropped-a-new-course at 2024-10-22 15:53:19
+2024-10-22 15:53:19,893 - INFO - Tweet link saved successfully.
+2024-10-22 15:53:19,894 - INFO - Sleeping for 6 minutes and 42 seconds.
+2024-10-22 16:00:01,894 - INFO - Input content - content='<p>Marc Andreessen, general partner at VC firm Andreessen Horowitz, was on stage at the Ray Summit conference earlier this month, talking about AI. CFO.com has pulled out the best quotes so you don’t have to watch the full interview. “Maybe all of these companies are in a race to the bottom,” Andreessen said when talking [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 16:00:01,894 - INFO - clean content - clean_content='Marc Andreessen, general partner at VC firm Andreessen Horowitz, was on stage at the Ray Summit conference earlier this month, talking about AI. CFO.com has pulled out the best quotes so you don’t have to watch the full interview. “Maybe all of these companies are in a race to the bottom,” Andreessen said when talking […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 16:00:01,894 - INFO - Generating summary with BART model
+2024-10-22 16:00:07,977 - INFO - Generating summary with BART model
+2024-10-22 16:00:14,067 - INFO - full_tweet='Marc Andreessen, general partner at VC firm Andreessen Horowitz, was on stage at the Ray Summit..[read more👇🏼] #AI #Andreessen https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/'
+2024-10-22 16:00:14,381 - INFO - Tweet posted successfully: Response(data={'id': '1848756255634165993', 'text': 'Marc Andreessen, general partner at VC firm Andreessen Horowitz, was on stage at the Ray Summit..[read more👇🏼] #AI #Andreessen https://t.co/9S1vK6MlHy', 'edit_history_tweet_ids': ['1848756255634165993']}, includes={}, errors=[], meta={})
+2024-10-22 16:00:14,381 - INFO - Saved posted URL: https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/ at 2024-10-22 16:00:14
+2024-10-22 16:00:14,381 - INFO - Tweet link saved successfully.
+2024-10-22 16:00:14,381 - INFO - Sleeping for 4 minutes and 0 seconds.
+2024-10-22 16:04:14,381 - INFO - This link is already posted: https://venturebeat.com/ai/asanas-ai-studio-brings-agents-directly-to-workflow-management/
+2024-10-22 16:04:14,381 - INFO - This link is already posted: https://venturebeat.com/ai/generative-ai-grows-17-in-2024-but-data-quality-plummets-key-findings-from-appens-state-of-ai-report/
+2024-10-22 16:04:14,381 - INFO - This link is already posted: https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/
+2024-10-22 16:04:14,382 - INFO - This link is already posted: https://venturebeat.com/ai/crewai-launches-its-first-multi-agent-builder-speeding-the-way-to-agentic-ai/
+2024-10-22 16:04:14,382 - INFO - This link is already posted: https://venturebeat.com/ai/video-ai-startup-genmo-launches-mochi-1-an-open-source-model-to-rival-runway-kling-and-others/
+2024-10-22 16:04:14,382 - INFO - This link is already posted: https://techcrunch.com/2024/10/22/zoom-partners-with-suki-to-offer-ai-powered-medical-note-taking/
+2024-10-22 16:04:14,382 - INFO - Input content - content='<p>Back in 2022, João Moura was directing AI engineering efforts at Clearbit, a startup creating a unified hub for business intelligence tools. There, Moura was responsible for leading the development of AI integrations, as well as defining Clearbit&#8217;s AI product roadmap. After a year, HubSpot acquired Clearbit, and Moura had the itch to go it [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 16:04:14,382 - INFO - clean content - clean_content='Back in 2022, João Moura was directing AI engineering efforts at Clearbit, a startup creating a unified hub for business intelligence tools. There, Moura was responsible for leading the development of AI integrations, as well as defining Clearbit’s AI product roadmap. After a year, HubSpot acquired Clearbit, and Moura had the itch to go it […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 16:04:14,382 - INFO - Generating summary with BART model
+2024-10-22 16:04:19,221 - INFO - Generating summary with BART model
+2024-10-22 16:04:24,078 - INFO - full_tweet='João Moura was responsible for leading the development of AI integrations at Clearbit. After a year,..[read more👇🏼] #AI #Clearbit https://techcrunch.com/2024/10/22/crewai-uses-third-party-models-to-automate-business-tasks/'
+2024-10-22 16:04:24,181 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
