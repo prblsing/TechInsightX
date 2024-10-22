@@ -1,0 +1,30 @@
+2024-10-22 07:11:19,709 - INFO - Starting configuration setup
+2024-10-22 07:11:19,709 - INFO - Environment variables loaded successfully
+2024-10-22 07:11:19,709 - INFO - Twitter API client initialized successfully
+2024-10-22 07:11:21,825 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 07:11:29,674 - INFO - Summarization model initialized successfully
+2024-10-22 07:11:29,674 - INFO - Starting tweet scheduling
+2024-10-22 07:11:29,674 - INFO - Tweeting process started at 2024-10-22 07:11:29.674785!
+2024-10-22 07:11:29,675 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 07:11:29,675 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 07:11:45,398 - INFO - Total entries found: 614
+2024-10-22 07:11:45,401 - INFO - Recent AI-related entries found: 28
+2024-10-22 07:11:45,401 - INFO - Input content - content='Artificial Intelligence (AI) is helping football clubs to get ahead of the competition - but how?'
+2024-10-22 07:11:45,402 - INFO - clean content - clean_content='Artificial Intelligence (AI) is helping football clubs to get ahead of the competition - but how?'
+2024-10-22 07:11:45,402 - INFO - Generating summary with BART model
+2024-10-22 07:11:51,139 - INFO - Generating summary with BART model
+2024-10-22 07:11:56,173 - INFO - full_tweet='Artificial Intelligence (AI) is helping football clubs to get ahead of the competition. But how do they..[read more👇🏼] #technology #AI https://www.techradar.com/pro/five-ways-ai-and-data-is-making-the-difference-in-the-premier-league'
+2024-10-22 07:11:56,458 - INFO - Tweet posted successfully: Response(data={'text': 'Artificial Intelligence (AI) is helping football clubs to get ahead of the competition. But how do they..[read more👇🏼] #technology #AI https://t.co/xhMmwvm2P7', 'edit_history_tweet_ids': ['1848623304891912237'], 'id': '1848623304891912237'}, includes={}, errors=[], meta={})
+2024-10-22 07:11:56,459 - INFO - Saved posted URL: https://www.techradar.com/pro/five-ways-ai-and-data-is-making-the-difference-in-the-premier-league at 2024-10-22 07:11:56
+2024-10-22 07:11:56,459 - INFO - Tweet link saved successfully.
+2024-10-22 07:11:56,459 - INFO - Sleeping for 8 minutes and 58 seconds.
+2024-10-22 07:20:54,459 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/
+2024-10-22 07:20:54,459 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools
+2024-10-22 07:20:54,460 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/
+2024-10-22 07:20:54,460 - INFO - Input content - content='<p>The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant&#8217;s earnings call last week that Ray-Ban Meta proved to be a significant driver for [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 07:20:54,460 - INFO - clean content - clean_content='The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant’s earnings call last week that Ray-Ban Meta proved to be a significant driver for […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 07:20:54,460 - INFO - Generating summary with BART model
+2024-10-22 07:21:02,083 - INFO - Generating summary with BART model
+2024-10-22 07:21:09,750 - INFO - full_tweet='Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe,..[read more👇🏼] #Ray #Ban https://techcrunch.com/2024/10/21/metas-smart-glasses-outsell-traditional-ray-bans-in-some-stores-even-before-ai-features-roll-out/'
+2024-10-22 07:21:09,977 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
