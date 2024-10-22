@@ -1,0 +1,19 @@
+2024-10-22 00:43:16,986 - INFO - Starting configuration setup
+2024-10-22 00:43:16,987 - INFO - Environment variables loaded successfully
+2024-10-22 00:43:16,987 - INFO - Twitter API client initialized successfully
+2024-10-22 00:43:18,870 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 00:43:32,465 - INFO - Summarization model initialized successfully
+2024-10-22 00:43:32,466 - INFO - Starting tweet scheduling
+2024-10-22 00:43:32,466 - INFO - Tweeting process started at 2024-10-22 00:43:32.466180!
+2024-10-22 00:43:32,466 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 00:43:32,466 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 00:43:32,466 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 00:43:49,267 - INFO - Total entries found: 614
+2024-10-22 00:43:49,270 - INFO - Recent AI-related entries found: 27
+2024-10-22 00:43:49,270 - INFO - Input content - content="<p>India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering.</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>"
+2024-10-22 00:43:49,271 - INFO - clean content - clean_content="India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering. © 2024 TechCrunch. All rights reserved. For personal use only."
+2024-10-22 00:43:49,271 - INFO - Generating summary with BART model
+2024-10-22 00:43:54,511 - INFO - Generating summary with BART model
+2024-10-22 00:43:59,095 - INFO - full_tweet="India's Neysa has raised $30 million in a Series A round to bolster its AI infrastructure offering. The..[read more👇🏼] #AI #India https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/"
+2024-10-22 00:43:59,365 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
