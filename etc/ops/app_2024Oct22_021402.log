@@ -1,0 +1,18 @@
+2024-10-22 02:14:02,323 - INFO - Starting configuration setup
+2024-10-22 02:14:02,323 - INFO - Environment variables loaded successfully
+2024-10-22 02:14:02,323 - INFO - Twitter API client initialized successfully
+2024-10-22 02:14:04,188 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 02:14:12,102 - INFO - Summarization model initialized successfully
+2024-10-22 02:14:12,102 - INFO - Starting tweet scheduling
+2024-10-22 02:14:12,103 - INFO - Tweeting process started at 2024-10-22 02:14:12.103060!
+2024-10-22 02:14:12,103 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 02:14:12,103 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 02:14:27,782 - INFO - Total entries found: 614
+2024-10-22 02:14:27,785 - INFO - Recent AI-related entries found: 28
+2024-10-22 02:14:27,786 - INFO - Input content - content='Midjourney deploys new AI image editor.'
+2024-10-22 02:14:27,786 - INFO - clean content - clean_content='Midjourney deploys new AI image editor.'
+2024-10-22 02:14:27,786 - INFO - Generating summary with BART model
+2024-10-22 02:14:32,526 - INFO - Generating summary with BART model
+2024-10-22 02:14:36,727 - INFO - full_tweet='Midjourney deploys new AI image editor. Midjourney.com is a new, open-source image editor created with..[read more👇🏼] #AI #Midjourney https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools'
+2024-10-22 02:14:36,874 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
