@@ -1,0 +1,21 @@
+2024-10-22 06:13:56,825 - INFO - Starting configuration setup
+2024-10-22 06:13:56,825 - INFO - Environment variables loaded successfully
+2024-10-22 06:13:56,825 - INFO - Twitter API client initialized successfully
+2024-10-22 06:13:58,807 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-22 06:14:07,561 - INFO - Summarization model initialized successfully
+2024-10-22 06:14:07,562 - INFO - Starting tweet scheduling
+2024-10-22 06:14:07,562 - INFO - Tweeting process started at 2024-10-22 06:14:07.562230!
+2024-10-22 06:14:07,562 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct22.csv
+2024-10-22 06:14:07,562 - INFO - Fetching latest tech news from RSS feeds
+2024-10-22 06:14:25,651 - INFO - Total entries found: 614
+2024-10-22 06:14:25,654 - INFO - Recent AI-related entries found: 27
+2024-10-22 06:14:25,654 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1g9a226/d_a_probabilistic_method_for_determining_if_an/
+2024-10-22 06:14:25,654 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/meld-your-photos-with-your-imagination-using-midjourneys-new-ai-image-editing-tools
+2024-10-22 06:14:25,654 - INFO - This link is already posted: https://techcrunch.com/2024/10/21/indias-neysa-bags-30m-to-compete-with-global-ai-hyperscalers/
+2024-10-22 06:14:25,654 - INFO - Input content - content='<p>The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant&#8217;s earnings call last week that Ray-Ban Meta proved to be a significant driver for [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-22 06:14:25,655 - INFO - clean content - clean_content='The Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe, the Middle East, and Africa, according to Upload VR. The detail came from EssilorLuxottica CFO Stefano Grassi, who revealed during the eyewear giant’s earnings call last week that Ray-Ban Meta proved to be a significant driver for […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-22 06:14:25,655 - INFO - Generating summary with BART model
+2024-10-22 06:14:34,263 - INFO - Generating summary with BART model
+2024-10-22 06:14:42,175 - INFO - full_tweet='Ray-Ban Meta smart glasses are the top selling product in 60% of all Ray-Ban stores throughout Europe,..[read more👇🏼] #Ray #Ban https://techcrunch.com/2024/10/21/metas-smart-glasses-outsell-traditional-ray-bans-in-some-stores-even-before-ai-features-roll-out/'
+2024-10-22 06:14:42,533 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
