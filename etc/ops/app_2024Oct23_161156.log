@@ -1,0 +1,54 @@
+2024-10-23 16:11:56,901 - INFO - Starting configuration setup
+2024-10-23 16:11:56,902 - INFO - Environment variables loaded successfully
+2024-10-23 16:11:56,902 - INFO - Twitter API client initialized successfully
+2024-10-23 16:11:58,882 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-23 16:12:06,584 - INFO - Summarization model initialized successfully
+2024-10-23 16:12:06,584 - INFO - Starting tweet scheduling
+2024-10-23 16:12:06,584 - INFO - Tweeting process started at 2024-10-23 16:12:06.584841!
+2024-10-23 16:12:06,585 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct23.csv
+2024-10-23 16:12:06,585 - INFO - Fetching latest tech news from RSS feeds
+2024-10-23 16:12:22,377 - INFO - Total entries found: 615
+2024-10-23 16:12:22,380 - INFO - Recent AI-related entries found: 17
+2024-10-23 16:12:22,380 - INFO - Input content - content='<p>Google is making SynthID Text, its technology that lets developers\xa0watermark and detect\xa0text written by generative AI models, generally available. SynthID Text can be downloaded from the AI platform Hugging Face and Google&#8217;s updated Responsible GenAI Toolkit. &#8220;We’re open-sourcing our SynthID Text watermarking tool,&#8221; the company wrote in a post on X. &#8220;Available freely to developers [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-23 16:12:22,381 - INFO - clean content - clean_content='Google is making SynthID Text, its technology that lets developers watermark and detect text written by generative AI models, generally available. SynthID Text can be downloaded from the AI platform Hugging Face and Google’s updated Responsible GenAI Toolkit. “We’re open-sourcing our SynthID Text watermarking tool,” the company wrote in a post on X. “Available freely to developers […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-23 16:12:22,381 - INFO - Generating summary with BART model
+2024-10-23 16:12:28,900 - INFO - Generating summary with BART model
+2024-10-23 16:12:34,683 - INFO - full_tweet='SynthID Text lets developers watermark and detect text written by generative AI models. It can be..[read more👇🏼] #AI #Responsible https://techcrunch.com/2024/10/23/google-releases-tech-to-watermark-ai-generated-text/'
+2024-10-23 16:12:34,933 - INFO - Tweet posted successfully: Response(data={'text': 'SynthID Text lets developers watermark and detect text written by generative AI models. It can be..[read more👇🏼] #AI #Responsible https://t.co/LMR3PTZy7X', 'edit_history_tweet_ids': ['1849121749616529682'], 'id': '1849121749616529682'}, includes={}, errors=[], meta={})
+2024-10-23 16:12:34,933 - INFO - Saved posted URL: https://techcrunch.com/2024/10/23/google-releases-tech-to-watermark-ai-generated-text/ at 2024-10-23 16:12:34
+2024-10-23 16:12:34,933 - INFO - Tweet link saved successfully.
+2024-10-23 16:12:34,933 - INFO - Sleeping for 3 minutes and 27 seconds.
+2024-10-23 16:16:01,934 - INFO - Input content - content='As a result of these changes, Character AI appears to be deleting certain user-made custom chatbot characters abruptly.'
+2024-10-23 16:16:01,934 - INFO - clean content - clean_content='As a result of these changes, Character AI appears to be deleting certain user-made custom chatbot characters abruptly.'
+2024-10-23 16:16:01,934 - INFO - Generating summary with BART model
+2024-10-23 16:16:07,530 - INFO - Generating summary with BART model
+2024-10-23 16:16:13,186 - INFO - full_tweet='As a result of these changes, Character AI appears to be deleting certain user-made custom chatbot..[read more👇🏼] #AI #result https://venturebeat.com/ai/character-ai-clamps-down-following-teen-user-suicide-but-users-are-revolting/'
+2024-10-23 16:16:13,386 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849122665832866192'], 'text': 'As a result of these changes, Character AI appears to be deleting certain user-made custom chatbot..[read more👇🏼] #AI #result https://t.co/xtiTnnWoU9', 'id': '1849122665832866192'}, includes={}, errors=[], meta={})
+2024-10-23 16:16:13,386 - INFO - Saved posted URL: https://venturebeat.com/ai/character-ai-clamps-down-following-teen-user-suicide-but-users-are-revolting/ at 2024-10-23 16:16:13
+2024-10-23 16:16:13,386 - INFO - Tweet link saved successfully.
+2024-10-23 16:16:13,386 - INFO - Sleeping for 7 minutes and 17 seconds.
+2024-10-23 16:23:30,386 - INFO - Input content - content='To adopt GenAI, organizations can’t run before they can walk - they must have the right foundations first.'
+2024-10-23 16:23:30,387 - INFO - clean content - clean_content='To adopt GenAI, organizations can’t run before they can walk - they must have the right foundations first.'
+2024-10-23 16:23:30,387 - INFO - Generating summary with BART model
+2024-10-23 16:23:35,237 - INFO - Generating summary with BART model
+2024-10-23 16:23:40,034 - INFO - full_tweet='To adopt GenAI, organizations can’t run before they can walk - they must have the right foundations..[read more👇🏼] #AI #organizations https://www.techradar.com/pro/why-digitization-must-set-the-foundation-of-gen-ai-in-procurement'
+2024-10-23 16:23:40,303 - INFO - Tweet posted successfully: Response(data={'text': 'To adopt GenAI, organizations can’t run before they can walk - they must have the right foundations..[read more👇🏼] #AI #organizations https://t.co/rHIihL6uK4', 'edit_history_tweet_ids': ['1849124540313461025'], 'id': '1849124540313461025'}, includes={}, errors=[], meta={})
+2024-10-23 16:23:40,303 - INFO - Saved posted URL: https://www.techradar.com/pro/why-digitization-must-set-the-foundation-of-gen-ai-in-procurement at 2024-10-23 16:23:40
+2024-10-23 16:23:40,303 - INFO - Tweet link saved successfully.
+2024-10-23 16:23:40,303 - INFO - Sleeping for 5 minutes and 13 seconds.
+2024-10-23 16:28:53,303 - INFO - Input content - content='<p>Granola&#8217;s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-23 16:28:53,304 - INFO - clean content - clean_content='Granola’s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-23 16:28:53,304 - INFO - Generating summary with BART model
+2024-10-23 16:28:58,375 - INFO - Generating summary with BART model
+2024-10-23 16:29:03,462 - INFO - full_tweet='Granola’s notepad app has become a popular tool among venture capitalists. That made it easier for the..[read more👇🏼] #startup #app https://techcrunch.com/2024/10/23/vcs-love-using-the-ai-meeting-notepad-granola-so-they-gave-it-20m/'
+2024-10-23 16:29:03,724 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849125896868815299'], 'id': '1849125896868815299', 'text': 'Granola’s notepad app has become a popular tool among venture capitalists. That made it easier for the..[read more👇🏼] #startup #app https://t.co/5IjCKojwrj'}, includes={}, errors=[], meta={})
+2024-10-23 16:29:03,724 - INFO - Saved posted URL: https://techcrunch.com/2024/10/23/vcs-love-using-the-ai-meeting-notepad-granola-so-they-gave-it-20m/ at 2024-10-23 16:29:03
+2024-10-23 16:29:03,724 - INFO - Tweet link saved successfully.
+2024-10-23 16:29:03,724 - INFO - Sleeping for 5 minutes and 31 seconds.
+2024-10-23 16:34:34,724 - INFO - Input content - content='<p>Granola&#8217;s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-23 16:34:34,725 - INFO - clean content - clean_content='Granola’s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-23 16:34:34,725 - INFO - Generating summary with BART model
+2024-10-23 16:34:39,669 - INFO - Generating summary with BART model
+2024-10-23 16:34:44,629 - INFO - full_tweet='Granola’s notepad app has become a popular tool among venture capitalists. That made it easier for the..[read more👇🏼] #startup #app https://techcrunch.com/2024/10/23/vcs-love-using-the-ai-meeting-notepad-granola-so-they-gave-it-20m/'
+2024-10-23 16:34:44,912 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
