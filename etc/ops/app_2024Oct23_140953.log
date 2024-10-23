@@ -1,0 +1,18 @@
+2024-10-23 14:09:53,423 - INFO - Starting configuration setup
+2024-10-23 14:09:53,424 - INFO - Environment variables loaded successfully
+2024-10-23 14:09:53,424 - INFO - Twitter API client initialized successfully
+2024-10-23 14:09:55,298 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-23 14:10:04,011 - INFO - Summarization model initialized successfully
+2024-10-23 14:10:04,011 - INFO - Starting tweet scheduling
+2024-10-23 14:10:04,012 - INFO - Tweeting process started at 2024-10-23 14:10:04.012045!
+2024-10-23 14:10:04,012 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct23.csv
+2024-10-23 14:10:04,012 - INFO - Fetching latest tech news from RSS feeds
+2024-10-23 14:10:24,865 - INFO - Total entries found: 615
+2024-10-23 14:10:24,868 - INFO - Recent AI-related entries found: 24
+2024-10-23 14:10:24,868 - INFO - Input content - content='<p>Granola&#8217;s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-23 14:10:24,869 - INFO - clean content - clean_content='Granola’s notepad app has become a popular tool among venture capitalists who use it to record meetings and augment notes using AI technology. That made it easier for the startup to raise funds from a crowd of investors for its $20 million Series A — something the team managed to do in about a week. […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-23 14:10:24,869 - INFO - Generating summary with BART model
+2024-10-23 14:10:30,110 - INFO - Generating summary with BART model
+2024-10-23 14:10:34,684 - INFO - full_tweet='Granola’s notepad app has become a popular tool among venture capitalists. That made it easier for the..[read more👇🏼] #startup #app https://techcrunch.com/2024/10/23/vcs-love-using-the-ai-meeting-notepad-granola-so-they-gave-it-20m/'
+2024-10-23 14:10:34,809 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
