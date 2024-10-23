@@ -1,0 +1,27 @@
+2024-10-23 20:11:18,893 - INFO - Starting configuration setup
+2024-10-23 20:11:18,893 - INFO - Environment variables loaded successfully
+2024-10-23 20:11:18,894 - INFO - Twitter API client initialized successfully
+2024-10-23 20:11:20,770 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-23 20:18:08,705 - INFO - Summarization model initialized successfully
+2024-10-23 20:18:08,705 - INFO - Starting tweet scheduling
+2024-10-23 20:18:08,705 - INFO - Tweeting process started at 2024-10-23 20:18:08.705576!
+2024-10-23 20:18:08,705 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct23.csv
+2024-10-23 20:18:08,706 - INFO - Fetching latest tech news from RSS feeds
+2024-10-23 20:18:27,003 - INFO - Total entries found: 615
+2024-10-23 20:18:27,006 - INFO - Recent AI-related entries found: 25
+2024-10-23 20:18:27,006 - INFO - Input content - content='At the TED AI conference, OpenAI’s Noam Brown unveiled the o1 model, showcasing how "System Two Thinking" could transform industries by enabling AI to deliver smarter, more deliberate decision-making.'
+2024-10-23 20:18:27,007 - INFO - clean content - clean_content='At the TED AI conference, OpenAI’s Noam Brown unveiled the o1 model, showcasing how "System Two Thinking" could transform industries by enabling AI to deliver smarter, more deliberate decision-making.'
+2024-10-23 20:18:27,007 - INFO - Generating summary with BART model
+2024-10-23 20:18:32,047 - INFO - Generating summary with BART model
+2024-10-23 20:18:36,383 - INFO - full_tweet='OpenAI’s Noam Brown unveiled the o1 model, showcasing how "System Two Thinking" could transform..[read more👇🏼] #AI #showcasing https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/'
+2024-10-23 20:18:36,682 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849183664795463916'], 'text': 'OpenAI’s Noam Brown unveiled the o1 model, showcasing how "System Two Thinking" could transform..[read more👇🏼] #AI #showcasing https://t.co/6fgIX8NUZB', 'id': '1849183664795463916'}, includes={}, errors=[], meta={})
+2024-10-23 20:18:36,682 - INFO - Saved posted URL: https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/ at 2024-10-23 20:18:36
+2024-10-23 20:18:36,682 - INFO - Tweet link saved successfully.
+2024-10-23 20:18:36,682 - INFO - Sleeping for 6 minutes and 44 seconds.
+2024-10-23 20:25:20,682 - INFO - Input content - content='The PS5 Pro’s PSSR AI upscaler seems to have outperformed AMD’s FSR 3, but does this make it worthwhile and what does this mean for AMD?'
+2024-10-23 20:25:20,682 - INFO - clean content - clean_content='The PS5 Pro’s PSSR AI upscaler seems to have outperformed AMD’s FSR 3, but does this make it worthwhile and what does this mean for AMD?'
+2024-10-23 20:25:20,683 - INFO - Generating summary with BART model
+2024-10-23 20:25:25,287 - INFO - Generating summary with BART model
+2024-10-23 20:25:29,844 - INFO - full_tweet="PS5 Pro's PSSR AI upscaler seems to have outperformed AMD's FSR 3. Does this make it worthwhile and what..[read more👇🏼] #AI #AMD https://www.techradar.com/gaming/consoles-pc/playstations-new-pssr-ai-upscaling-looks-set-to-compete-with-nvidias-dlss-while-amd-falls-behind-yet-again"
+2024-10-23 20:25:29,969 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
