@@ -1,0 +1,54 @@
+2024-10-23 23:10:05,704 - INFO - Starting configuration setup
+2024-10-23 23:10:05,704 - INFO - Environment variables loaded successfully
+2024-10-23 23:10:05,705 - INFO - Twitter API client initialized successfully
+2024-10-23 23:10:07,601 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-23 23:14:52,850 - INFO - Summarization model initialized successfully
+2024-10-23 23:14:52,850 - INFO - Starting tweet scheduling
+2024-10-23 23:14:52,850 - INFO - Tweeting process started at 2024-10-23 23:14:52.850689!
+2024-10-23 23:14:52,850 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct23.csv
+2024-10-23 23:14:52,851 - INFO - Fetching latest tech news from RSS feeds
+2024-10-23 23:15:11,549 - INFO - Total entries found: 615
+2024-10-23 23:15:11,552 - INFO - Recent AI-related entries found: 27
+2024-10-23 23:15:11,552 - INFO - Input content - content="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit 2024."
+2024-10-23 23:15:11,552 - INFO - clean content - clean_content="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit 2024."
+2024-10-23 23:15:11,552 - INFO - Generating summary with BART model
+2024-10-23 23:15:17,902 - INFO - Generating summary with BART model
+2024-10-23 23:15:23,569 - INFO - full_tweet="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit..[read more👇🏼] #AI #Patrick https://www.techradar.com/phones/android/its-not-as-simple-as-real-image-and-fake-image-qualcomm-weighs-in-on-ai-photo-editing-debate"
+2024-10-23 23:15:23,875 - INFO - Tweet posted successfully: Response(data={'id': '1849228154713325852', 'edit_history_tweet_ids': ['1849228154713325852'], 'text': "Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit..[read more👇🏼] #AI #Patrick https://t.co/7qRtc0e0fE"}, includes={}, errors=[], meta={})
+2024-10-23 23:15:23,876 - INFO - Saved posted URL: https://www.techradar.com/phones/android/its-not-as-simple-as-real-image-and-fake-image-qualcomm-weighs-in-on-ai-photo-editing-debate at 2024-10-23 23:15:23
+2024-10-23 23:15:23,876 - INFO - Tweet link saved successfully.
+2024-10-23 23:15:23,876 - INFO - Sleeping for 7 minutes and 49 seconds.
+2024-10-23 23:23:12,876 - INFO - Input content - content='<figure>\n      <img alt="Photo illustration of a computer with a brain on the screen." src="https://cdn.vox-cdn.com/thumbor/B_yJfb87VQqxR6j4PDiA-clUxrc=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73673823/STK_414_AI_CHATBOT_R2_CVirginia_D.0.jpg" />\n        <figcaption>Illustration by Cath Virginia / The Verge | Photos by Getty Images</figcaption>\n    </figure>\n\n  <p id="PNBdy1">A lawsuit has been <a href="https://www.documentcloud.org/documents/25248089-megan-garcia-vs-character-ai?responsive=1&amp;title=1">filed</a> against Character.AI, its founders Noam Shazeer and Daniel De Freitas, and Google in the wake of a teenager’s death, alleging wrongful death, negligence, deceptive trade practices, and product liability. Filed by the teen’s mother, Megan Garcia, it claims the platform for custom AI chatbots was “unreasonably dangerous” and lacked safety guardrails while being marketed to children.</p>\n<p id="aFoRmi">As outlined in the lawsuit, 14-year-old Sewell Setzer III began using Character.AI last year, interacting with chatbots modeled after characters from <em>The Game of Thrones</em>, including Daenerys Targaryen. Setzer, who chatted with the bots continuously in the months before his death, died by suicide on February 28th, 2024, “seconds” after...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/23/24277962/character-ai-google-wrongful-death-lawsuit">Continue reading&hellip;</a>\n  </p>'
+2024-10-23 23:23:12,876 - INFO - clean content - clean_content='Illustration by Cath Virginia / The Verge | Photos by Getty Images A lawsuit has been filed against Character.AI, its founders Noam Shazeer and Daniel De Freitas, and Google in the wake of a teenager’s death, alleging wrongful death, negligence, deceptive trade practices, and product liability. Filed by the teen’s mother, Megan Garcia, it claims the platform for custom AI chatbots was “unreasonably dangerous” and lacked safety guardrails while being marketed to children. As outlined in the lawsuit, 14-year-old Sewell Setzer III began using Character.AI last year, interacting with chatbots modeled after characters from The Game of Thrones, including Daenerys Targaryen. Setzer, who chatted with the bots continuously in the months before his death, died by suicide on February 28th, 2024, “seconds” after... Continue reading…'
+2024-10-23 23:23:12,877 - INFO - Generating summary with BART model
+2024-10-23 23:23:20,718 - INFO - Generating summary with BART model
+2024-10-23 23:23:28,494 - INFO - full_tweet='Sewell Setzer III began using Character.AI last year, interacting with chatbots modeled after characters..[read more👇🏼] #AI #Setzer https://www.theverge.com/2024/10/23/24277962/character-ai-google-wrongful-death-lawsuit'
+2024-10-23 23:23:28,744 - INFO - Tweet posted successfully: Response(data={'text': 'Sewell Setzer III began using https://t.co/XZfEeirbDy last year, interacting with chatbots modeled after characters..[read more👇🏼] #AI #Setzer https://t.co/DW7XDcoEVP', 'edit_history_tweet_ids': ['1849230188359426226'], 'id': '1849230188359426226'}, includes={}, errors=[], meta={})
+2024-10-23 23:23:28,744 - INFO - Saved posted URL: https://www.theverge.com/2024/10/23/24277962/character-ai-google-wrongful-death-lawsuit at 2024-10-23 23:23:28
+2024-10-23 23:23:28,744 - INFO - Tweet link saved successfully.
+2024-10-23 23:23:28,744 - INFO - Sleeping for 3 minutes and 0 seconds.
+2024-10-23 23:26:28,744 - INFO - This link is already posted: https://www.theverge.com/2024/10/23/24277873/google-artificial-intelligence-synthid-watermarking-open-source
+2024-10-23 23:26:28,744 - INFO - This link is already posted: https://venturebeat.com/ai/openai-researchers-develop-new-model-that-speeds-up-media-generation-by-50x/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://venturebeat.com/ai/jrpg-developer-falcom-contemplating-ai-for-localization-efficiency/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.theverge.com/2024/10/23/24277964/humane-slashes-ai-pin-price-weak-sales
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.pcmag.com/news/no-more-vpns-openai-rolls-out-advanced-voice-mode-to-eu-users
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.techradar.com/gaming/consoles-pc/playstations-new-pssr-ai-upscaling-looks-set-to-compete-with-nvidias-dlss-while-amd-falls-behind-yet-again
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.techradar.com/vehicle-tech/qualcomms-next-ai-frontier-is-your-car
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://techcrunch.com/2024/10/23/longtime-policy-researcher-miles-brundage-leaves-openai/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.techradar.com/pro/50x-faster-50x-thriftier-uk-ai-startup-backed-by-arm-delivers-stunning-gains-in-performance-and-power-consumption-using-a-cheap-usd30-system-board
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.wired.com/story/liquid-ai-redesigning-neural-network/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gag5jj/p_generating_distinct_ai_voice_performances_by/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://techcrunch.com/2024/10/23/this-week-in-ai-the-ai-agents-cometh/
+2024-10-23 23:26:28,745 - INFO - This link is already posted: https://www.pcmag.com/news/claude-ai-can-now-control-your-pc-prompting-concern-from-security-experts
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://deepmind.google/discover/blog/new-generative-ai-tools-open-the-doors-of-music-creation/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gaf9jn/project_creating_an_autonomous_developer_with_llm/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://www.pcmag.com/news/mom-sues-characterai-blames-chatbot-for-teen-sons-suicide
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://techcrunch.com/2024/10/23/google-releases-tech-to-watermark-ai-generated-text/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://venturebeat.com/ai/character-ai-clamps-down-following-teen-user-suicide-but-users-are-revolting/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://techcrunch.com/2024/10/23/vcs-love-using-the-ai-meeting-notepad-granola-so-they-gave-it-20m/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1ga8wxn/project_worlds_first_autonomous_aidiscovered_0day/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://www.pcmag.com/news/ai-at-work-3-things-to-consider-before-making-anthropics-claude-your-coworker
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://sloanreview.mit.edu/article/how-genai-helps-usaa-innovate/
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://thenextweb.com/news/tech-bosses-think-nuclear-fusion-is-the-solution-to-ais-energy-demands-heres-what-theyre-missing
+2024-10-23 23:26:28,746 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1ga3h0j/building_a_model_recommendation_system_tell_us/
