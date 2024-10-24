@@ -1,0 +1,34 @@
+2024-10-24 09:10:54,783 - INFO - Starting configuration setup
+2024-10-24 09:10:54,783 - INFO - Environment variables loaded successfully
+2024-10-24 09:10:54,783 - INFO - Twitter API client initialized successfully
+2024-10-24 09:10:56,751 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 09:11:04,426 - INFO - Summarization model initialized successfully
+2024-10-24 09:11:04,427 - INFO - Starting tweet scheduling
+2024-10-24 09:11:04,427 - INFO - Tweeting process started at 2024-10-24 09:11:04.427265!
+2024-10-24 09:11:04,427 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 09:11:04,427 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 09:11:19,271 - INFO - Total entries found: 615
+2024-10-24 09:11:19,274 - INFO - Recent AI-related entries found: 28
+2024-10-24 09:11:19,274 - INFO - Input content - content='How to avoid AI cyberattacks with defense in depth.'
+2024-10-24 09:11:19,274 - INFO - clean content - clean_content='How to avoid AI cyberattacks with defense in depth.'
+2024-10-24 09:11:19,274 - INFO - Generating summary with BART model
+2024-10-24 09:11:24,152 - INFO - Generating summary with BART model
+2024-10-24 09:11:28,413 - INFO - full_tweet='How to avoid AI cyberattacks with defense in depth. How to avoidAI cyberattacks: How to protect yourself..[read more👇🏼] #AI #How https://www.techradar.com/pro/negating-ai-cyberattacks-with-defense-in-depth'
+2024-10-24 09:11:28,655 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849378163081556307'], 'id': '1849378163081556307', 'text': 'How to avoid AI cyberattacks with defense in depth. How to avoidAI cyberattacks: How to protect yourself..[read more👇🏼] #AI #How https://t.co/7Z3qm19M20'}, includes={}, errors=[], meta={})
+2024-10-24 09:11:28,655 - INFO - Saved posted URL: https://www.techradar.com/pro/negating-ai-cyberattacks-with-defense-in-depth at 2024-10-24 09:11:28
+2024-10-24 09:11:28,655 - INFO - Tweet link saved successfully.
+2024-10-24 09:11:28,656 - INFO - Sleeping for 5 minutes and 59 seconds.
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/raspberry-pi-releases-more-ai-focused-add-ons/
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://techcrunch.com/2024/10/23/nvidia-deepens-india-ai-drive-with-new-partnerships/
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-ceo-notes-indias-progress-with-sovereign-ai-with-more-than-100k-ai-developers-trained/
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://www.techradar.com/pro/liquid-web-launches-new-gpu-hosting-service-for-ai-and-hpc-and-users-can-access-a-range-of-nvidia-gpus-including-h100s
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://www.techradar.com/computing/artificial-intelligence/a-new-ai-feature-can-control-your-computer-to-follow-your-orders
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://www.techradar.com/phones/android/its-not-as-simple-as-real-image-and-fake-image-qualcomm-weighs-in-on-ai-photo-editing-debate
+2024-10-24 09:17:27,656 - INFO - This link is already posted: https://www.theverge.com/2024/10/23/24277962/character-ai-google-wrongful-death-lawsuit
+2024-10-24 09:17:27,656 - INFO - Input content - content='<figure>\n      <img alt="Google logo with colorful shapes" src="https://cdn.vox-cdn.com/thumbor/T2MhFQ9Y21MhXPYKnsT5Sy1jFMw=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73673578/STK093_Google_04.0.jpg" />\n        <figcaption>Illustration: The Verge</figcaption>\n    </figure>\n\n  <p id="eo9yPE">Google’s SynthID text watermarking technology, a tool the company created to make AI-generated text easier to identify, is now available open-source through the <a href="https://ai.google.dev/responsible/docs/safeguards/synthid">Google Responsible Generative AI Toolkit</a>, <a href="https://x.com/GoogleDeepMind/status/1849110263871529114">the company announced on X</a>. </p>\n<p id="GeI8Z5">“Now, other [generative] AI developers will be able to use this technology to help them detect whether text outputs have come from their own [large language models], making it easier for more developers to build AI responsibly,” Pushmeet Kohli, the vice president of research at Google DeepMind, <a href="https://www.technologyreview.com/2024/10/23/1106105/google-deepmind-is-making-its-ai-text-watermark-open-source/">told <em>MIT Technology Review</em></a>. </p>\n<div class="c-float-left c-float-hang"><aside id="qGfuex"><div></div></aside></div>\n<p id="usmQeQ">Watermarks have become increasingly important tools as large language models are used to spread <a href="https://www.theverge.com/2024/3/19/24098381/ai-chatbots-election-misinformation-chatgpt-gemini-copilot-bing-claude">political misinformation</a>, generate <a href="https://www.theverge.com/2024/5/3/24148368/google-ad-policy-deepfake-pornography-nudes">nonconsensual sexual content</a>, and for other malicious...</p>\n  <p>\n    <a href="https://www.theverge.com/2024/10/23/24277873/google-artificial-intelligence-synthid-watermarking-open-source">Continue reading&hellip;</a>\n  </p>'
+2024-10-24 09:17:27,657 - INFO - clean content - clean_content='Illustration: The Verge Google’s SynthID text watermarking technology, a tool the company created to make AI-generated text easier to identify, is now available open-source through the Google Responsible Generative AI Toolkit, the company announced on X. “Now, other [generative] AI developers will be able to use this technology to help them detect whether text outputs have come from their own [large language models], making it easier for more developers to build AI responsibly,” Pushmeet Kohli, the vice president of research at Google DeepMind, told MIT Technology Review. Watermarks have become increasingly important tools as large language models are used to spread political misinformation, generate nonconsensual sexual content, and for other malicious... Continue reading…'
+2024-10-24 09:17:27,657 - INFO - Generating summary with BART model
+2024-10-24 09:17:35,016 - INFO - Generating summary with BART model
+2024-10-24 09:17:42,343 - INFO - full_tweet='Google’s SynthID text watermarking technology is now available open-source through the Google Responsible..[read more👇🏼] #technology #AI https://www.theverge.com/2024/10/23/24277873/google-artificial-intelligence-synthid-watermarking-open-source'
+2024-10-24 09:17:42,465 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
