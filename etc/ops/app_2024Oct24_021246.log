@@ -1,0 +1,18 @@
+2024-10-24 02:12:46,157 - INFO - Starting configuration setup
+2024-10-24 02:12:46,158 - INFO - Environment variables loaded successfully
+2024-10-24 02:12:46,158 - INFO - Twitter API client initialized successfully
+2024-10-24 02:12:48,070 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 02:12:59,030 - INFO - Summarization model initialized successfully
+2024-10-24 02:12:59,031 - INFO - Starting tweet scheduling
+2024-10-24 02:12:59,031 - INFO - Tweeting process started at 2024-10-24 02:12:59.031155!
+2024-10-24 02:12:59,031 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 02:12:59,031 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 02:13:15,714 - INFO - Total entries found: 615
+2024-10-24 02:13:15,717 - INFO - Recent AI-related entries found: 26
+2024-10-24 02:13:15,717 - INFO - Input content - content="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit 2024."
+2024-10-24 02:13:15,717 - INFO - clean content - clean_content="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit 2024."
+2024-10-24 02:13:15,718 - INFO - Generating summary with BART model
+2024-10-24 02:13:22,228 - INFO - Generating summary with BART model
+2024-10-24 02:13:28,135 - INFO - full_tweet="Qualcomm executive Chris Patrick explained the company's stance on AI photo editing at Snapdragon Summit..[read more👇🏼] #AI #Patrick https://www.techradar.com/phones/android/its-not-as-simple-as-real-image-and-fake-image-qualcomm-weighs-in-on-ai-photo-editing-debate"
+2024-10-24 02:13:28,294 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
