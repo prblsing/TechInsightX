@@ -1,0 +1,59 @@
+2024-10-24 23:10:16,829 - INFO - Starting configuration setup
+2024-10-24 23:10:16,829 - INFO - Environment variables loaded successfully
+2024-10-24 23:10:16,829 - INFO - Twitter API client initialized successfully
+2024-10-24 23:10:18,791 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 23:10:29,454 - INFO - Summarization model initialized successfully
+2024-10-24 23:10:29,455 - INFO - Starting tweet scheduling
+2024-10-24 23:10:29,455 - INFO - Tweeting process started at 2024-10-24 23:10:29.455263!
+2024-10-24 23:10:29,455 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 23:10:29,455 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 23:10:50,890 - INFO - Total entries found: 615
+2024-10-24 23:10:50,893 - INFO - Recent AI-related entries found: 24
+2024-10-24 23:10:50,893 - INFO - This link is already posted: https://venturebeat.com/ai/deepminds-talker-reasoner-framework-brings-system-2-thinking-to-ai-agents/
+2024-10-24 23:10:50,893 - INFO - Input content - content='The company invites security researchers to vet Private Cloud Compute, a server system that will process the most complex generative AI tasks for Apple Intelligence.'
+2024-10-24 23:10:50,894 - INFO - clean content - clean_content='The company invites security researchers to vet Private Cloud Compute, a server system that will process the most complex generative AI tasks for Apple Intelligence.'
+2024-10-24 23:10:50,894 - INFO - Generating summary with BART model
+2024-10-24 23:10:56,318 - INFO - Generating summary with BART model
+2024-10-24 23:11:01,057 - INFO - full_tweet="Apple invites security researchers to vet Private Cloud Compute. It's a server system that will process..[read more👇🏼] #server #Cloud https://www.pcmag.com/news/apple-offers-1-million-bug-bounty-to-anyone-who-can-hack-its-ai-servers"
+2024-10-24 23:11:01,354 - INFO - Tweet posted successfully: Response(data={'text': "Apple invites security researchers to vet Private Cloud Compute. It's a server system that will process..[read more👇🏼] #server #Cloud https://t.co/LT8Xy0TsHo", 'id': '1849589441515618722', 'edit_history_tweet_ids': ['1849589441515618722']}, includes={}, errors=[], meta={})
+2024-10-24 23:11:01,354 - INFO - Saved posted URL: https://www.pcmag.com/news/apple-offers-1-million-bug-bounty-to-anyone-who-can-hack-its-ai-servers at 2024-10-24 23:11:01
+2024-10-24 23:11:01,354 - INFO - Tweet link saved successfully.
+2024-10-24 23:11:01,354 - INFO - Sleeping for 4 minutes and 17 seconds.
+2024-10-24 23:15:18,354 - INFO - This link is already posted: https://www.pcmag.com/news/gartner-top-strategic-trends-for-2025
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/apple-will-pay-security-researchers-up-to-1-million-to-hack-its-private-ai-cloud/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://towardsdatascience.com/successful-ai-ethics-governance-at-scale-bridging-the-interpretation-gap-a8249b547e62?source=rss----7f60cf5620c9---4
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://www.theverge.com/2024/10/24/24278694/openai-agi-readiness-miles-brundage-ai-safety
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/google-adds-new-disclosures-for-ai-photos-but-its-still-not-obvious-at-first-glance/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://venturebeat.com/ai/meta-just-beat-google-and-apple-in-the-race-to-put-powerful-ai-on-phones/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://towardsdatascience.com/from-ai-canvas-to-mlops-stack-canvas-are-they-essential-e329f3605508?source=rss----7f60cf5620c9---4
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gb7twh/r_how_google_overcame_training_data_issues_for/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://venturebeat.com/ai/the-enterprise-verdict-on-ai-models-why-open-source-will-win/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/wayve-takes-to-the-streets-of-san-francisco-elon-musk-makes-another-robotaxi-promise-and-inside-pony-ais-ipo/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/365careers/free-ai-powered-interview-preparation-tool-by-365-data-science
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://venturebeat.com/ai/midjourney-launches-ai-image-editor-how-to-use-it/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gb3kuk/r_looking_for_book_and_article_recommendations_on/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/smashing-an-ai-powered-app-for-online-readers-launches-to-the-public/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/after-selling-anchor-to-spotify-co-founders-reunite-to-build-ai-educational-startup-oboe/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://towardsdatascience.com/ai-in-practice-how-to-choose-and-deploy-the-right-strategy-bcda1ed5c1c3?source=rss----7f60cf5620c9---4
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://venturebeat.com/games/huuuge-social-casino-veteran-unveils-ai-focused-beyond-startup-and-decor-society/
+2024-10-24 23:15:18,355 - INFO - This link is already posted: https://www.pcmag.com/news/tsmc-chip-found-in-latest-huawei-ai-processor-ascend-910b
+2024-10-24 23:15:18,356 - INFO - This link is already posted: https://www.pcmag.com/news/google-open-sources-ai-detection-invisible-watermarking-tool-synth-id
+2024-10-24 23:15:18,356 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>As the title suggests,<br /> I was looking into the prospective idea of building a MAS based HRIS, I am looking into suggestions from other seasoned folks or anyone that how can I build this idea in a good product for my organization<br /> What kind of services or any sort of compelling use-cases, etc<br /> I am looking forward to hearing from all the folks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Not_so_sure_paradox9"> /u/Not_so_sure_paradox9 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/">[comments]</a></span>'
+2024-10-24 23:15:18,356 - INFO - clean content - clean_content='As the title suggests, I was looking into the prospective idea of building a MAS based HRIS, I am looking into suggestions from other seasoned folks or anyone that how can I build this idea in a good product for my organization What kind of services or any sort of compelling use-cases, etc I am looking forward to hearing from all the folks   submitted by   /u/Not_so_sure_paradox9 [link]   [comments]'
+2024-10-24 23:15:18,356 - INFO - Generating summary with BART model
+2024-10-24 23:15:27,250 - INFO - Generating summary with BART model
+2024-10-24 23:15:36,211 - INFO - full_tweet='As the title suggests, I was looking into the prospective idea of building a MAS based HRIS. I am looking..[read more👇🏼] #I #looking https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/'
+2024-10-24 23:15:36,392 - INFO - Tweet posted successfully: Response(data={'text': 'As the title suggests, I was looking into the prospective idea of building a MAS based HRIS. I am looking..[read more👇🏼] #I #looking https://t.co/i4LY9kKFl2', 'edit_history_tweet_ids': ['1849590595129573492'], 'id': '1849590595129573492'}, includes={}, errors=[], meta={})
+2024-10-24 23:15:36,393 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/ at 2024-10-24 23:15:36
+2024-10-24 23:15:36,393 - INFO - Tweet link saved successfully.
+2024-10-24 23:15:36,393 - INFO - Sleeping for 4 minutes and 6 seconds.
+2024-10-24 23:19:42,393 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>I have used the command line version of OpenAI\'s Whisper since it was released but it doesn\'t offer all the options the Whisper-&quot;framework&quot; (or whatever you call it) contains. There must be someone who has written a &quot;wrapper&quot; for this purpose, mustn\'t it? But I can\'t find anything on Google. Can you recommend something?</p> <p>I have 20 000 files, from 10 seconds to several hours long, that I want to transcribe as efficient and with as high quality as possible (I prioritize quality over efficiency. Currently I use the command line client with the large v3-model).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/la-grave"> /u/la-grave </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gayjwu/d_wrapper_for_openais_whisper_libraryframework_etc/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gayjwu/d_wrapper_for_openais_whisper_libraryframework_etc/">[comments]</a></span>'
+2024-10-24 23:19:42,394 - INFO - clean content - clean_content='I have used the command line version of OpenAI\'s Whisper since it was released but it doesn\'t offer all the options the Whisper-"framework" (or whatever you call it) contains. There must be someone who has written a "wrapper" for this purpose, mustn\'t it? But I can\'t find anything on Google. Can you recommend something? I have 20 000 files, from 10 seconds to several hours long, that I want to transcribe as efficient and with as high quality as possible (I prioritize quality over efficiency. Currently I use the command line client with the large v3-model).   submitted by   /u/la-grave [link]   [comments]'
+2024-10-24 23:19:42,394 - INFO - Generating summary with BART model
+2024-10-24 23:19:49,748 - INFO - Generating summary with BART model
+2024-10-24 23:19:57,100 - INFO - full_tweet='/u/la-grave: I have 20 000 files, from 10 seconds to several hours long, that I want to transcribe as..[read more👇🏼] #as #I https://www.reddit.com/r/MachineLearning/comments/1gayjwu/d_wrapper_for_openais_whisper_libraryframework_etc/'
+2024-10-24 23:19:57,285 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849591689385787515'], 'text': '/u/la-grave: I have 20 000 files, from 10 seconds to several hours long, that I want to transcribe as..[read more👇🏼] #as #I https://t.co/uY7KDYLuu8', 'id': '1849591689385787515'}, includes={}, errors=[], meta={})
+2024-10-24 23:19:57,285 - INFO - Saved posted URL: https://www.reddit.com/r/MachineLearning/comments/1gayjwu/d_wrapper_for_openais_whisper_libraryframework_etc/ at 2024-10-24 23:19:57
+2024-10-24 23:19:57,285 - INFO - Tweet link saved successfully.
+2024-10-24 23:19:57,286 - INFO - Sleeping for 3 minutes and 5 seconds.
+2024-10-24 23:23:02,286 - INFO - This link is already posted: https://venturebeat.com/ai/nvidia-ceo-notes-indias-progress-with-sovereign-ai-with-more-than-100k-ai-developers-trained/
