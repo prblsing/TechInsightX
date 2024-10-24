@@ -1,0 +1,18 @@
+2024-10-24 16:11:50,169 - INFO - Starting configuration setup
+2024-10-24 16:11:50,169 - INFO - Environment variables loaded successfully
+2024-10-24 16:11:50,169 - INFO - Twitter API client initialized successfully
+2024-10-24 16:11:52,030 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 16:11:59,434 - INFO - Summarization model initialized successfully
+2024-10-24 16:11:59,434 - INFO - Starting tweet scheduling
+2024-10-24 16:11:59,434 - INFO - Tweeting process started at 2024-10-24 16:11:59.434686!
+2024-10-24 16:11:59,434 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 16:11:59,435 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 16:12:13,248 - INFO - Total entries found: 615
+2024-10-24 16:12:13,251 - INFO - Recent AI-related entries found: 28
+2024-10-24 16:12:13,251 - INFO - Input content - content='<p>Anthropic&#8217;s Claude chatbot can now write and run JavaScript code. Today, Anthropic launched a new analysis tool that helps Claude respond with what the company describes as &#8220;mathematically precise and reproducible answers.&#8221; With the tool enabled — it&#8217;s currently in preview — Claude can perform calculations and analyze data from files like spreadsheets and PDFs, [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-24 16:12:13,252 - INFO - clean content - clean_content='Anthropic’s Claude chatbot can now write and run JavaScript code. Today, Anthropic launched a new analysis tool that helps Claude respond with what the company describes as “mathematically precise and reproducible answers.” With the tool enabled — it’s currently in preview — Claude can perform calculations and analyze data from files like spreadsheets and PDFs, […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-24 16:12:13,252 - INFO - Generating summary with BART model
+2024-10-24 16:12:18,456 - INFO - Generating summary with BART model
+2024-10-24 16:12:22,966 - INFO - full_tweet='Anthropic’s Claude chatbot can now write and run JavaScript code. Claude can perform calculations and..[read more👇🏼] #data #Claude https://techcrunch.com/2024/10/24/anthropics-ai-can-now-run-and-write-code/'
+2024-10-24 16:12:23,062 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
