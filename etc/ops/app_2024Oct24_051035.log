@@ -1,0 +1,18 @@
+2024-10-24 05:10:35,375 - INFO - Starting configuration setup
+2024-10-24 05:10:35,375 - INFO - Environment variables loaded successfully
+2024-10-24 05:10:35,375 - INFO - Twitter API client initialized successfully
+2024-10-24 05:10:37,238 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 05:10:45,144 - INFO - Summarization model initialized successfully
+2024-10-24 05:10:45,144 - INFO - Starting tweet scheduling
+2024-10-24 05:10:45,144 - INFO - Tweeting process started at 2024-10-24 05:10:45.144800!
+2024-10-24 05:10:45,144 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 05:10:45,145 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 05:10:59,937 - INFO - Total entries found: 615
+2024-10-24 05:10:59,940 - INFO - Recent AI-related entries found: 27
+2024-10-24 05:10:59,940 - INFO - Input content - content='Liquid Web has unveiled the launch of a new GPU hosting service designed to keep pace with growing high-performance computing (HPC) requirements.'
+2024-10-24 05:10:59,940 - INFO - clean content - clean_content='Liquid Web has unveiled the launch of a new GPU hosting service designed to keep pace with growing high-performance computing (HPC) requirements.'
+2024-10-24 05:10:59,940 - INFO - Generating summary with BART model
+2024-10-24 05:11:04,647 - INFO - Generating summary with BART model
+2024-10-24 05:11:08,736 - INFO - full_tweet='Liquid Web has unveiled the launch of a new GPU hosting service. The service is designed to keep pace..[read more👇🏼] #Web #service https://www.techradar.com/pro/liquid-web-launches-new-gpu-hosting-service-for-ai-and-hpc-and-users-can-access-a-range-of-nvidia-gpus-including-h100s'
+2024-10-24 05:11:08,878 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
