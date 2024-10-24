@@ -1,0 +1,18 @@
+2024-10-24 15:10:21,118 - INFO - Starting configuration setup
+2024-10-24 15:10:21,119 - INFO - Environment variables loaded successfully
+2024-10-24 15:10:21,119 - INFO - Twitter API client initialized successfully
+2024-10-24 15:10:22,988 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 15:10:30,667 - INFO - Summarization model initialized successfully
+2024-10-24 15:10:30,667 - INFO - Starting tweet scheduling
+2024-10-24 15:10:30,667 - INFO - Tweeting process started at 2024-10-24 15:10:30.667880!
+2024-10-24 15:10:30,668 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 15:10:30,668 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 15:10:45,902 - INFO - Total entries found: 615
+2024-10-24 15:10:45,905 - INFO - Recent AI-related entries found: 27
+2024-10-24 15:10:45,905 - INFO - Input content - content='<p>President Joe Biden on Thursday is expected to sign a memorandum detailing how intelligence and national security agencies, including the Pentagon, should use and implement guardrails around AI, reports The New York Times. The order urges keeping humans &#8220;in the loop&#8221; of AI tools that may be used as targeting weapons, and prohibits letting AI [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-24 15:10:45,906 - INFO - clean content - clean_content='President Joe Biden on Thursday is expected to sign a memorandum detailing how intelligence and national security agencies, including the Pentagon, should use and implement guardrails around AI, reports The New York Times. The order urges keeping humans “in the loop” of AI tools that may be used as targeting weapons, and prohibits letting AI […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-24 15:10:45,906 - INFO - Generating summary with BART model
+2024-10-24 15:10:52,992 - INFO - Generating summary with BART model
+2024-10-24 15:10:59,454 - INFO - full_tweet='President Joe Biden is expected to sign a memorandum detailing how intelligence and national security..[read more👇🏼] #AI #intelligence https://techcrunch.com/2024/10/24/new-white-house-memo-calls-for-agencies-to-protect-ai-from-foreign-adversaries/'
+2024-10-24 15:10:59,559 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
