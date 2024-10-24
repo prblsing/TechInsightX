@@ -1,0 +1,27 @@
+2024-10-24 11:09:08,610 - INFO - Starting configuration setup
+2024-10-24 11:09:08,611 - INFO - Environment variables loaded successfully
+2024-10-24 11:09:08,611 - INFO - Twitter API client initialized successfully
+2024-10-24 11:09:10,554 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 11:09:20,226 - INFO - Summarization model initialized successfully
+2024-10-24 11:09:20,226 - INFO - Starting tweet scheduling
+2024-10-24 11:09:20,226 - INFO - Tweeting process started at 2024-10-24 11:09:20.226703!
+2024-10-24 11:09:20,226 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 11:09:20,227 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 11:09:36,215 - INFO - Total entries found: 615
+2024-10-24 11:09:36,218 - INFO - Recent AI-related entries found: 24
+2024-10-24 11:09:36,218 - INFO - Input content - content='Developers can now use Google’s SynthID Text technology to determine whether text was made by their own AI models.'
+2024-10-24 11:09:36,219 - INFO - clean content - clean_content='Developers can now use Google’s SynthID Text technology to determine whether text was made by their own AI models.'
+2024-10-24 11:09:36,219 - INFO - Generating summary with BART model
+2024-10-24 11:09:41,563 - INFO - Generating summary with BART model
+2024-10-24 11:09:46,226 - INFO - full_tweet='Developers can now use Google’s SynthID Text technology to determine whether text was made by their own..[read more👇🏼] #technology #AI https://www.pcmag.com/news/google-open-sources-ai-detection-invisible-watermarking-tool-synth-id'
+2024-10-24 11:09:46,465 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849407933475697146'], 'text': 'Developers can now use Google’s SynthID Text technology to determine whether text was made by their own..[read more👇🏼] #technology #AI https://t.co/RDvfxlAxdm', 'id': '1849407933475697146'}, includes={}, errors=[], meta={})
+2024-10-24 11:09:46,465 - INFO - Saved posted URL: https://www.pcmag.com/news/google-open-sources-ai-detection-invisible-watermarking-tool-synth-id at 2024-10-24 11:09:46
+2024-10-24 11:09:46,465 - INFO - Tweet link saved successfully.
+2024-10-24 11:09:46,465 - INFO - Sleeping for 7 minutes and 11 seconds.
+2024-10-24 11:16:57,465 - INFO - Input content - content='Tata Consultancy Services partners with Nvidia to speed up enterprise AI adoption.'
+2024-10-24 11:16:57,466 - INFO - clean content - clean_content='Tata Consultancy Services partners with Nvidia to speed up enterprise AI adoption.'
+2024-10-24 11:16:57,466 - INFO - Generating summary with BART model
+2024-10-24 11:17:03,266 - INFO - Generating summary with BART model
+2024-10-24 11:17:09,088 - INFO - full_tweet='Tata Consultancy Services partners with Nvidia to speed up enterprise AI adoption. Tata Consultancy..[read more👇🏼] #technology #AI https://www.techradar.com/pro/tata-consultancy-services-teams-with-nvidia-to-speed-up-ai-adoption'
+2024-10-24 11:17:09,204 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
