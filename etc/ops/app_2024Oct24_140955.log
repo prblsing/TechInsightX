@@ -1,0 +1,36 @@
+2024-10-24 14:09:55,272 - INFO - Starting configuration setup
+2024-10-24 14:09:55,272 - INFO - Environment variables loaded successfully
+2024-10-24 14:09:55,272 - INFO - Twitter API client initialized successfully
+2024-10-24 14:09:57,189 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 14:10:04,964 - INFO - Summarization model initialized successfully
+2024-10-24 14:10:04,964 - INFO - Starting tweet scheduling
+2024-10-24 14:10:04,964 - INFO - Tweeting process started at 2024-10-24 14:10:04.964708!
+2024-10-24 14:10:04,965 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 14:10:04,965 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 14:10:20,749 - INFO - Total entries found: 615
+2024-10-24 14:10:20,752 - INFO - Recent AI-related entries found: 28
+2024-10-24 14:10:20,752 - INFO - Input content - content='<p>The co-founders who sold their last startup to Spotify are working on a new project: an AI-powered educational startup called Oboe backed by a $4 million seed investment. The new company, hailing from Nir Zicherman and Michael Mignano, aims to democratize access to learning the way that their prior startup, Anchor, made it possible for [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-24 14:10:20,752 - INFO - clean content - clean_content='The co-founders who sold their last startup to Spotify are working on a new project: an AI-powered educational startup called Oboe backed by a $4 million seed investment. The new company, hailing from Nir Zicherman and Michael Mignano, aims to democratize access to learning the way that their prior startup, Anchor, made it possible for […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-24 14:10:20,752 - INFO - Generating summary with BART model
+2024-10-24 14:10:26,760 - INFO - Generating summary with BART model
+2024-10-24 14:10:32,140 - INFO - full_tweet='Oboe is an AI-powered educational startup backed by a $4 million seed investment. The new company,..[read more👇🏼] #startup #AI https://techcrunch.com/2024/10/24/after-selling-anchor-to-spotify-co-founders-reunite-to-build-ai-educational-startup-oboe/'
+2024-10-24 14:10:32,406 - INFO - Tweet posted successfully: Response(data={'text': 'Oboe is an AI-powered educational startup backed by a $4 million seed investment. The new company,..[read more👇🏼] #startup #AI https://t.co/yht63Vl281', 'edit_history_tweet_ids': ['1849453424535867641'], 'id': '1849453424535867641'}, includes={}, errors=[], meta={})
+2024-10-24 14:10:32,407 - INFO - Saved posted URL: https://techcrunch.com/2024/10/24/after-selling-anchor-to-spotify-co-founders-reunite-to-build-ai-educational-startup-oboe/ at 2024-10-24 14:10:32
+2024-10-24 14:10:32,407 - INFO - Tweet link saved successfully.
+2024-10-24 14:10:32,407 - INFO - Sleeping for 9 minutes and 41 seconds.
+2024-10-24 14:20:13,407 - INFO - Input content - content='<p>Smashing, a new app curating the best of the web from Goodreads co-founder Otis Chandler, is now available to the public. Like Goodreads, the app aims to create a community around content. But this time, instead of books, the focus is on web content — like news articles, blog posts, social media posts, podcasts, and [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-24 14:20:13,407 - INFO - clean content - clean_content='Smashing, a new app curating the best of the web from Goodreads co-founder Otis Chandler, is now available to the public. Like Goodreads, the app aims to create a community around content. But this time, instead of books, the focus is on web content — like news articles, blog posts, social media posts, podcasts, and […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-24 14:20:13,407 - INFO - Generating summary with BART model
+2024-10-24 14:20:19,751 - INFO - Generating summary with BART model
+2024-10-24 14:20:25,968 - INFO - full_tweet='Smashing is a new app curating the best of the web from Goodreads co-founder Otis Chandler. Like..[read more👇🏼] #app #web https://techcrunch.com/2024/10/24/smashing-an-ai-powered-app-for-online-readers-launches-to-the-public/'
+2024-10-24 14:20:26,215 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849455915226874205'], 'id': '1849455915226874205', 'text': 'Smashing is a new app curating the best of the web from Goodreads co-founder Otis Chandler. Like..[read more👇🏼] #app #web https://t.co/Abuxl8ZGGb'}, includes={}, errors=[], meta={})
+2024-10-24 14:20:26,216 - INFO - Saved posted URL: https://techcrunch.com/2024/10/24/smashing-an-ai-powered-app-for-online-readers-launches-to-the-public/ at 2024-10-24 14:20:26
+2024-10-24 14:20:26,216 - INFO - Tweet link saved successfully.
+2024-10-24 14:20:26,216 - INFO - Sleeping for 7 minutes and 55 seconds.
+2024-10-24 14:28:21,216 - INFO - Input content - content='<figure>\n      <img alt="An image of a computer with a brain on its screen surrounded by ones and zeroes." src="https://cdn.vox-cdn.com/thumbor/DJWclTzTFuNJ7DE34go7xfrBYq0=/1x0:2760x1839/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73674812/Decoder_Anthrropic_AI_2.0.png" />\n        <figcaption>Illustration by Cath Virginia / The Verge | Photos by Getty Images</figcaption>\n    </figure>\n\n\n  \t\t <p>The latest AI manifesto, from Anthropic CEO Dario Amodei, says a lot about the industry’s current moment.</p>\n  <p>\n    <a href="https://www.theverge.com/24278413/ai-manifesto-anthropic-dario-amodei-agi-digital-god-openai-sam-altman-decoder-podcast">Continue reading&hellip;</a>\n  </p>'
+2024-10-24 14:28:21,216 - INFO - clean content - clean_content='Illustration by Cath Virginia / The Verge | Photos by Getty Images The latest AI manifesto, from Anthropic CEO Dario Amodei, says a lot about the industry’s current moment. Continue reading…'
+2024-10-24 14:28:21,216 - INFO - Generating summary with BART model
+2024-10-24 14:28:25,669 - INFO - Generating summary with BART model
+2024-10-24 14:28:30,079 - INFO - full_tweet='The latest AI manifesto, from Anthropic CEO Dario Amodei, says a lot about the industry’s current moment...[read more👇🏼] #AI #manifesto https://www.theverge.com/24278413/ai-manifesto-anthropic-dario-amodei-agi-digital-god-openai-sam-altman-decoder-podcast'
+2024-10-24 14:28:30,188 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
