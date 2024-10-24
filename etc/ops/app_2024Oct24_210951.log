@@ -1,0 +1,54 @@
+2024-10-24 21:09:51,699 - INFO - Starting configuration setup
+2024-10-24 21:09:51,700 - INFO - Environment variables loaded successfully
+2024-10-24 21:09:51,700 - INFO - Twitter API client initialized successfully
+2024-10-24 21:09:53,609 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-24 21:10:03,545 - INFO - Summarization model initialized successfully
+2024-10-24 21:10:03,545 - INFO - Starting tweet scheduling
+2024-10-24 21:10:03,545 - INFO - Tweeting process started at 2024-10-24 21:10:03.545581!
+2024-10-24 21:10:03,545 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct24.csv
+2024-10-24 21:10:03,545 - INFO - Fetching latest tech news from RSS feeds
+2024-10-24 21:10:24,927 - INFO - Total entries found: 614
+2024-10-24 21:10:24,929 - INFO - Recent AI-related entries found: 23
+2024-10-24 21:10:24,930 - INFO - Input content - content='<p>Ahead of the debut of Apple&#8217;s private AI cloud next week, dubbed Private Cloud Compute, the technology giant says it will pay security researchers up to $1 million to find vulnerabilities that can compromise the security of its private AI cloud. In a post on Apple&#8217;s security blog, the company said it would pay up [&#8230;]</p>\n<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>'
+2024-10-24 21:10:24,930 - INFO - clean content - clean_content='Ahead of the debut of Apple’s private AI cloud next week, dubbed Private Cloud Compute, the technology giant says it will pay security researchers up to $1 million to find vulnerabilities that can compromise the security of its private AI cloud. In a post on Apple’s security blog, the company said it would pay up […] © 2024 TechCrunch. All rights reserved. For personal use only.'
+2024-10-24 21:10:24,930 - INFO - Generating summary with BART model
+2024-10-24 21:10:31,326 - INFO - Generating summary with BART model
+2024-10-24 21:10:37,097 - INFO - full_tweet='Apple will pay security researchers up to $1 million to find vulnerabilities that can compromise the..[read more👇🏼] #cloud #AI https://techcrunch.com/2024/10/24/apple-will-pay-security-researchers-up-to-1-million-to-hack-its-private-ai-cloud/'
+2024-10-24 21:10:37,375 - INFO - Tweet posted successfully: Response(data={'id': '1849559141888688221', 'edit_history_tweet_ids': ['1849559141888688221'], 'text': 'Apple will pay security researchers up to $1 million to find vulnerabilities that can compromise the..[read more👇🏼] #cloud #AI https://t.co/kVyK35dJ5I'}, includes={}, errors=[], meta={})
+2024-10-24 21:10:37,375 - INFO - Saved posted URL: https://techcrunch.com/2024/10/24/apple-will-pay-security-researchers-up-to-1-million-to-hack-its-private-ai-cloud/ at 2024-10-24 21:10:37
+2024-10-24 21:10:37,375 - INFO - Tweet link saved successfully.
+2024-10-24 21:10:37,375 - INFO - Sleeping for 4 minutes and 43 seconds.
+2024-10-24 21:15:20,375 - INFO - Input content - content='<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://towardsdatascience.com/successful-ai-ethics-governance-at-scale-bridging-the-interpretation-gap-a8249b547e62?source=rss----7f60cf5620c9---4"><img src="https://cdn-images-1.medium.com/max/2600/1*jlwDU8wa3PTVcI_vIJ40EQ.jpeg" width="6000" /></a></p><p class="medium-feed-snippet">Principles that generalize require professionals who specialize</p><p class="medium-feed-link"><a href="https://towardsdatascience.com/successful-ai-ethics-governance-at-scale-bridging-the-interpretation-gap-a8249b547e62?source=rss----7f60cf5620c9---4">Continue reading on Towards Data Science »</a></p></div>'
+2024-10-24 21:15:20,376 - INFO - clean content - clean_content='Principles that generalize require professionals who specializeContinue reading on Towards Data Science »'
+2024-10-24 21:15:20,376 - INFO - Generating summary with BART model
+2024-10-24 21:15:24,622 - INFO - Generating summary with BART model
+2024-10-24 21:15:28,855 - INFO - full_tweet='Principles that generalize require professionals who specialize. In this case, that means data scientists..[read more👇🏼] #data #Data https://towardsdatascience.com/successful-ai-ethics-governance-at-scale-bridging-the-interpretation-gap-a8249b547e62?source=rss----7f60cf5620c9---4'
+2024-10-24 21:15:29,063 - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1849560365434274252'], 'text': 'Principles that generalize require professionals who specialize. In this case, that means data scientists..[read more👇🏼] #data #Data https://t.co/hWiAU2R8Om', 'id': '1849560365434274252'}, includes={}, errors=[], meta={})
+2024-10-24 21:15:29,063 - INFO - Saved posted URL: https://towardsdatascience.com/successful-ai-ethics-governance-at-scale-bridging-the-interpretation-gap-a8249b547e62?source=rss----7f60cf5620c9---4 at 2024-10-24 21:15:29
+2024-10-24 21:15:29,063 - INFO - Tweet link saved successfully.
+2024-10-24 21:15:29,063 - INFO - Sleeping for 3 minutes and 40 seconds.
+2024-10-24 21:19:09,063 - INFO - This link is already posted: https://www.theverge.com/2024/10/24/24278694/openai-agi-readiness-miles-brundage-ai-safety
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/google-adds-new-disclosures-for-ai-photos-but-its-still-not-obvious-at-first-glance/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://venturebeat.com/ai/meta-just-beat-google-and-apple-in-the-race-to-put-powerful-ai-on-phones/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.theverge.com/2024/10/24/24278663/google-photos-generative-ai-label-reimagine-best-take
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://towardsdatascience.com/from-ai-canvas-to-mlops-stack-canvas-are-they-essential-e329f3605508?source=rss----7f60cf5620c9---4
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gb7twh/r_how_google_overcame_training_data_issues_for/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://venturebeat.com/ai/the-enterprise-verdict-on-ai-models-why-open-source-will-win/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/wayve-takes-to-the-streets-of-san-francisco-elon-musk-makes-another-robotaxi-promise-and-inside-pony-ais-ipo/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.kdnuggets.com/2024/10/365careers/free-ai-powered-interview-preparation-tool-by-365-data-science
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/anthropics-ai-can-now-run-and-write-code/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://venturebeat.com/ai/midjourney-launches-ai-image-editor-how-to-use-it/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.reddit.com/r/MachineLearning/comments/1gb3kuk/r_looking_for_book_and_article_recommendations_on/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/smashing-an-ai-powered-app-for-online-readers-launches-to-the-public/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://techcrunch.com/2024/10/24/after-selling-anchor-to-spotify-co-founders-reunite-to-build-ai-educational-startup-oboe/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://towardsdatascience.com/ai-in-practice-how-to-choose-and-deploy-the-right-strategy-bcda1ed5c1c3?source=rss----7f60cf5620c9---4
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://venturebeat.com/games/huuuge-social-casino-veteran-unveils-ai-focused-beyond-startup-and-decor-society/
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.pcmag.com/news/tsmc-chip-found-in-latest-huawei-ai-processor-ascend-910b
+2024-10-24 21:19:09,064 - INFO - This link is already posted: https://www.pcmag.com/news/google-open-sources-ai-detection-invisible-watermarking-tool-synth-id
+2024-10-24 21:19:09,064 - INFO - Input content - content='<!-- SC_OFF --><div class="md"><p>As the title suggests,<br /> I was looking into the prospective idea of building a MAS based HRIS, I am looking into suggestions from other seasoned folks or anyone that how can I build this idea in a good product for my organization<br /> What kind of services or any sort of compelling use-cases, etc<br /> I am looking forward to hearing from all the folks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Not_so_sure_paradox9"> /u/Not_so_sure_paradox9 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/">[comments]</a></span>'
+2024-10-24 21:19:09,065 - INFO - clean content - clean_content='As the title suggests, I was looking into the prospective idea of building a MAS based HRIS, I am looking into suggestions from other seasoned folks or anyone that how can I build this idea in a good product for my organization What kind of services or any sort of compelling use-cases, etc I am looking forward to hearing from all the folks   submitted by   /u/Not_so_sure_paradox9 [link]   [comments]'
+2024-10-24 21:19:09,065 - INFO - Generating summary with BART model
+2024-10-24 21:19:17,802 - INFO - Generating summary with BART model
+2024-10-24 21:19:26,467 - INFO - full_tweet='As the title suggests, I was looking into the prospective idea of building a MAS based HRIS. I am looking..[read more👇🏼] #I #looking https://www.reddit.com/r/MachineLearning/comments/1gaylfx/p_multiagent_ai_based_human_resource_information/'
+2024-10-24 21:19:26,539 - ERROR - Failed to post tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
