@@ -1,0 +1,19 @@
+2024-10-25 00:43:05,725 - INFO - Starting configuration setup
+2024-10-25 00:43:05,725 - INFO - Environment variables loaded successfully
+2024-10-25 00:43:05,726 - INFO - Twitter API client initialized successfully
+2024-10-25 00:43:07,676 - INFO - Initializing summarization model: facebook/bart-large-cnn
+2024-10-25 00:43:17,067 - INFO - Summarization model initialized successfully
+2024-10-25 00:43:17,067 - INFO - Starting tweet scheduling
+2024-10-25 00:43:17,067 - INFO - Tweeting process started at 2024-10-25 00:43:17.067531!
+2024-10-25 00:43:17,067 - INFO - Created new CSV file: /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct25.csv
+2024-10-25 00:43:17,067 - INFO - Loaded posted URLs from /home/runner/work/TechInsightX/TechInsightX/src/../etc/ops/posted_links_2024Oct25.csv
+2024-10-25 00:43:17,067 - INFO - Fetching latest tech news from RSS feeds
+2024-10-25 00:43:32,871 - INFO - Total entries found: 615
+2024-10-25 00:43:32,874 - INFO - Recent AI-related entries found: 25
+2024-10-25 00:43:32,874 - INFO - Input content - content='Cohere released two new open weight AI models from its Aya initiative that looks to expand LLM performance for languages other than English.'
+2024-10-25 00:43:32,875 - INFO - clean content - clean_content='Cohere released two new open weight AI models from its Aya initiative that looks to expand LLM performance for languages other than English.'
+2024-10-25 00:43:32,875 - INFO - Generating summary with BART model
+2024-10-25 00:43:37,381 - INFO - Generating summary with BART model
+2024-10-25 00:43:41,207 - INFO - full_tweet='Cohere releases two new open weight AI models from its Aya initiative. Aya aims to expand LLM performance..[read more👇🏼] #AI #Aya https://venturebeat.com/ai/cohere-launches-new-ai-models-to-bridge-global-language-divide/'
+2024-10-25 00:43:41,293 - ERROR - Failed to post tweet: 429 Too Many Requests
+Too Many Requests
